@@ -4319,405 +4319,6 @@ const WORDS = [
 "ipa": "/ˌɪndɪˈspɛnsəbəl/"
 },
 {
-"w": "The graph illustrates",
-"m": "图表说明了",
-"x": "The graph illustrates changes in energy use between 1990 and 2020.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 opening",
-"ipa": "/ðə græf ˈɪləˌstreɪts/"
-},
-{
-"w": "Overall, it is clear that",
-"m": "总体来看，很明显",
-"x": "Overall, it is clear that coal use declined while solar rose.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 overview"
-},
-{
-"w": "witnessed a sharp rise",
-"m": "经历急剧上升",
-"x": "Online sales witnessed a sharp rise in 2020.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 trend",
-"ipa": "/ˈwɪtnəst ə ʃɑrp raɪz/"
-},
-{
-"w": "declined steadily",
-"m": "稳步下降",
-"x": "The birth rate declined steadily over the period.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 trend",
-"ipa": "/dɪˈklaɪnd ˈstɛdəli/"
-},
-{
-"w": "peaked at",
-"m": "达到峰值",
-"x": "Unemployment peaked at 12% in 1993.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 trend",
-"ipa": "/pikt æt/"
-},
-{
-"w": "levelled off",
-"m": "趋于平稳",
-"x": "Prices levelled off after 2015.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 trend",
-"ipa": "/ˈlɛvəld ɔf/"
-},
-{
-"w": "fluctuated around",
-"m": "在……左右波动",
-"x": "Sales fluctuated around 500 units.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 trend",
-"ipa": "/ˈfləkʧəˌweɪtɪd əraʊnd/"
-},
-{
-"w": "accounted for",
-"m": "占……",
-"x": "Coal accounted for nearly half of all electricity.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 proportion",
-"ipa": "/əˈkaʊntɪd fər/"
-},
-{
-"w": "by contrast",
-"m": "相比之下",
-"x": "By contrast, rural populations shrank.",
-"c": "IELTS: Writing phrases & linking",
-"n": "contrast",
-"ipa": "/baɪ ˈkɑntræst/"
-},
-{
-"w": "whereas",
-"m": "然而，而",
-"x": "Men preferred sport, whereas women favoured reading.",
-"c": "IELTS: Writing phrases & linking",
-"n": "contrast",
-"ipa": "/wɛˈræz/"
-},
-{
-"w": "in comparison with",
-"m": "与……相比",
-"x": "In comparison with 2000, car ownership doubled.",
-"c": "IELTS: Writing phrases & linking",
-"n": "comparison",
-"ipa": "/ɪn kəmˈpɛrəsən wɪθ/"
-},
-{
-"w": "a similar pattern",
-"m": "相似的模式",
-"x": "A similar pattern can be seen in Japan.",
-"c": "IELTS: Writing phrases & linking",
-"n": "comparison",
-"ipa": "/ə ˈsɪmələr ˈpætərn/"
-},
-{
-"w": "approximately",
-"m": "大约",
-"x": "Approximately a third of adults smoked.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 approximation",
-"ipa": "/əˈprɑksəmətli/"
-},
-{
-"w": "just under",
-"m": "略低于",
-"x": "Just under half of respondents agreed.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 approximation",
-"ipa": "/ʤɪst ˈəndər/"
-},
-{
-"w": "the vast majority",
-"m": "绝大多数",
-"x": "The vast majority of students used laptops.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 proportion",
-"ipa": "/ðə væst məˈʤɔrəti/"
-},
-{
-"w": "a negligible amount",
-"m": "微不足道的量",
-"x": "Nuclear power produced a negligible amount.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 1 proportion",
-"ipa": "/ə ˈnɛglɪʤəbəl əˈmaʊnt/"
-},
-{
-"w": "It is often argued that",
-"m": "人们常常认为",
-"x": "It is often argued that technology isolates people.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 2 intro"
-},
-{
-"w": "This essay will argue that",
-"m": "本文将论证",
-"x": "This essay will argue that the benefits outweigh the drawbacks.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 2 thesis"
-},
-{
-"w": "I firmly believe that",
-"m": "我坚信",
-"x": "I firmly believe that education should be free.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 2 opinion",
-"ipa": "/aɪ ˈfərmli bɪˈliv ðət/"
-},
-{
-"w": "From my perspective",
-"m": "在我看来",
-"x": "From my perspective, cities should ban cars.",
-"c": "IELTS: Writing phrases & linking",
-"n": "Task 2 opinion",
-"ipa": "/frəm maɪ pərˈspɛktɪv/"
-},
-{
-"w": "Admittedly",
-"m": "诚然",
-"x": "Admittedly, there are some short-term costs.",
-"c": "IELTS: Writing phrases & linking",
-"n": "concession",
-"ipa": "/ædˈmɪtɪdli/"
-},
-{
-"w": "Nevertheless",
-"m": "尽管如此",
-"x": "Nevertheless, the long-term gains are greater.",
-"c": "IELTS: Writing phrases & linking",
-"n": "contrast",
-"ipa": "/ˌnɛvərðəˈlɛs/"
-},
-{
-"w": "Furthermore",
-"m": "此外",
-"x": "Furthermore, it creates jobs.",
-"c": "IELTS: Writing phrases & linking",
-"n": "addition",
-"ipa": "/ˈfərðərˌmɔr/"
-},
-{
-"w": "Moreover",
-"m": "而且",
-"x": "Moreover, it reduces emissions.",
-"c": "IELTS: Writing phrases & linking",
-"n": "addition",
-"ipa": "/mɔˈroʊvər/"
-},
-{
-"w": "In addition",
-"m": "另外",
-"x": "In addition, public health would improve.",
-"c": "IELTS: Writing phrases & linking",
-"n": "addition",
-"ipa": "/ɪn əˈdɪʃən/"
-},
-{
-"w": "Consequently",
-"m": "因此",
-"x": "Consequently, house prices rose.",
-"c": "IELTS: Writing phrases & linking",
-"n": "result",
-"ipa": "/ˈkɑnsəkˌwɛntli/"
-},
-{
-"w": "As a result",
-"m": "结果",
-"x": "As a result, many young people rent.",
-"c": "IELTS: Writing phrases & linking",
-"n": "result",
-"ipa": "/ɛz ə rɪˈzəlt/"
-},
-{
-"w": "Therefore",
-"m": "所以",
-"x": "Therefore, governments must act.",
-"c": "IELTS: Writing phrases & linking",
-"n": "result",
-"ipa": "/ˈðɛrˌfɔr/"
-},
-{
-"w": "This is because",
-"m": "这是因为",
-"x": "This is because wages have not kept pace.",
-"c": "IELTS: Writing phrases & linking",
-"n": "reason",
-"ipa": "/ðɪs ɪz bɪˈkəz/"
-},
-{
-"w": "owing to",
-"m": "由于",
-"x": "Owing to rising costs, many shops closed.",
-"c": "IELTS: Writing phrases & linking",
-"n": "reason",
-"ipa": "/oʊɪŋ tɪ/"
-},
-{
-"w": "For instance",
-"m": "例如",
-"x": "For instance, Finland offers free university.",
-"c": "IELTS: Writing phrases & linking",
-"n": "example",
-"ipa": "/fər ˈɪnstəns/"
-},
-{
-"w": "A case in point is",
-"m": "一个典型的例子是",
-"x": "A case in point is Singapore's public housing.",
-"c": "IELTS: Writing phrases & linking",
-"n": "example"
-},
-{
-"w": "In other words",
-"m": "换句话说",
-"x": "In other words, prevention is better than cure.",
-"c": "IELTS: Writing phrases & linking",
-"n": "clarify",
-"ipa": "/ɪn ˈəðər wərdz/"
-},
-{
-"w": "On the one hand",
-"m": "一方面",
-"x": "On the one hand, tourism brings money.",
-"c": "IELTS: Writing phrases & linking",
-"n": "discussion",
-"ipa": "/ɔn ðə wən hænd/"
-},
-{
-"w": "On the other hand",
-"m": "另一方面",
-"x": "On the other hand, it can damage the environment.",
-"c": "IELTS: Writing phrases & linking",
-"n": "discussion",
-"ipa": "/ɔn ðə ˈəðər hænd/"
-},
-{
-"w": "Those who oppose this view claim",
-"m": "反对者声称",
-"x": "Those who oppose this view claim that it is too costly.",
-"c": "IELTS: Writing phrases & linking",
-"n": "counter-argument"
-},
-{
-"w": "It could be argued that",
-"m": "可以说",
-"x": "It could be argued that exams cause stress.",
-"c": "IELTS: Writing phrases & linking",
-"n": "hedging"
-},
-{
-"w": "To a large extent",
-"m": "在很大程度上",
-"x": "I agree with this statement to a large extent.",
-"c": "IELTS: Writing phrases & linking",
-"n": "extent",
-"ipa": "/tɪ ə lɑrʤ ɪkˈstɛnt/"
-},
-{
-"w": "plays a pivotal role in",
-"m": "起着关键作用",
-"x": "Family plays a pivotal role in a child's development.",
-"c": "IELTS: Writing phrases & linking",
-"n": "emphasis"
-},
-{
-"w": "There is no doubt that",
-"m": "毫无疑问",
-"x": "There is no doubt that obesity is rising.",
-"c": "IELTS: Writing phrases & linking",
-"n": "certainty"
-},
-{
-"w": "It is undeniable that",
-"m": "不可否认",
-"x": "It is undeniable that the internet has changed work.",
-"c": "IELTS: Writing phrases & linking",
-"n": "certainty",
-"ipa": "/ɪt ɪz ˌəndɪˈnaɪəbəl ðət/"
-},
-{
-"w": "outweigh",
-"m": "超过（利大于弊）",
-"x": "The advantages clearly outweigh the disadvantages.",
-"c": "IELTS: Writing phrases & linking",
-"n": "advantages",
-"ipa": "/ˈaʊtˌweɪ/"
-},
-{
-"w": "pose a threat to",
-"m": "对……构成威胁",
-"x": "Plastic waste poses a threat to marine life.",
-"c": "IELTS: Writing phrases & linking",
-"n": "problem",
-"ipa": "/poʊz ə θrɛt tɪ/"
-},
-{
-"w": "tackle the issue",
-"m": "解决问题",
-"x": "Governments must tackle the issue of homelessness.",
-"c": "IELTS: Writing phrases & linking",
-"n": "solution",
-"ipa": "/ˈtækəl ðə ˈɪʃu/"
-},
-{
-"w": "a viable solution",
-"m": "可行的解决方案",
-"x": "Public transport is a viable solution to congestion.",
-"c": "IELTS: Writing phrases & linking",
-"n": "solution",
-"ipa": "/ə ˈvaɪəbəl səˈluʃən/"
-},
-{
-"w": "In conclusion",
-"m": "总之",
-"x": "In conclusion, both sides have merit.",
-"c": "IELTS: Writing phrases & linking",
-"n": "conclusion",
-"ipa": "/ɪn kənˈkluʒən/"
-},
-{
-"w": "To sum up",
-"m": "总结一下",
-"x": "To sum up, the policy has more benefits than drawbacks.",
-"c": "IELTS: Writing phrases & linking",
-"n": "conclusion",
-"ipa": "/tɪ səm əp/"
-},
-{
-"w": "All things considered",
-"m": "综合考虑",
-"x": "All things considered, I support the ban.",
-"c": "IELTS: Writing phrases & linking",
-"n": "conclusion",
-"ipa": "/ɔl θɪŋz kənˈsɪdərd/"
-},
-{
-"w": "not only ... but also",
-"m": "不仅……而且",
-"x": "It not only saves money but also protects health.",
-"c": "IELTS: Writing phrases & linking",
-"n": "addition"
-},
-{
-"w": "Not only does it",
-"m": "它不仅（倒装）",
-"x": "Not only does it save money, but it also saves time.",
-"c": "IELTS: Writing phrases & linking",
-"n": "inversion",
-"ipa": "/nɑt ˈoʊnli dɪz ɪt/"
-},
-{
-"w": "Were governments to",
-"m": "如果政府（虚拟倒装）",
-"x": "Were governments to invest more, crime would fall.",
-"c": "IELTS: Writing phrases & linking",
-"n": "conditional",
-"ipa": "/wər ˈgəvərnmənts tɪ/"
-},
-{
 "w": "Do you work or study?",
 "m": "你工作还是学习？",
 "x": "I work night shifts at the moment, which frees up my days to build my own business. It's demanding, but I find the balance quite rewarding.",
@@ -8545,390 +8146,6 @@ const WORDS = [
 "m": "特殊的，杰出的",
 "x": "Paraphrase: \"exceptional\" → \"especially good\"",
 "c": "Simon 雅思听力阅读: 同义替换 Paraphrase"
-},
-{
-"w": "by no means",
-"m": "决不",
-"x": "This is by no means easy.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/baɪ noʊ minz/"
-},
-{
-"w": "by and large",
-"m": "总的来说",
-"x": "By and large, the plan worked.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/baɪ ənd lɑrʤ/"
-},
-{
-"w": "apart from that",
-"m": "除此之外",
-"x": "Apart from that, the job is fine.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/əˈpɑrt frəm ðət/"
-},
-{
-"w": "all too often",
-"m": "常常（令人遗憾地）",
-"x": "All too often, kids skip breakfast.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ɔl tu ˈɔfən/"
-},
-{
-"w": "when it comes to",
-"m": "说到，涉及",
-"x": "When it comes to money, be careful.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/wɪn ɪt kəmz tɪ/"
-},
-{
-"w": "it is true that",
-"m": "诚然",
-"x": "It is true that cities are crowded.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ɪt ɪz tru ðət/"
-},
-{
-"w": "from time to time",
-"m": "不时地",
-"x": "I visit them from time to time.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/frəm taɪm tɪ taɪm/"
-},
-{
-"w": "for the sake of",
-"m": "为了",
-"x": "Rest for the sake of your health.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/fər ðə seɪk əv/"
-},
-{
-"w": "so as to",
-"m": "为了",
-"x": "Save so as to buy a house.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/soʊ ɛz tɪ/"
-},
-{
-"w": "as far as",
-"m": "就……而言",
-"x": "As far as I know, it's free.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ɛz fɑr ɛz/"
-},
-{
-"w": "there is no point in",
-"m": "……没有意义",
-"x": "There is no point in worrying.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ðɛr ɪz noʊ pɔɪnt ɪn/"
-},
-{
-"w": "on the contrary",
-"m": "恰恰相反",
-"x": "On the contrary, it helped.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ɔn ðə ˈkɑntrɛri/"
-},
-{
-"w": "needless to say",
-"m": "不用说",
-"x": "Needless to say, we were tired.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ˈnidləs tɪ seɪ/"
-},
-{
-"w": "in the long run",
-"m": "从长远看",
-"x": "In the long run, it pays off.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/ɪn ðə lɔŋ rən/"
-},
-{
-"w": "last but not least",
-"m": "最后但同样重要",
-"x": "Last but not least, sleep well.",
-"c": "剑桥雅思写作高分范文: Linking phrases",
-"ipa": "/læst bət nɑt list/"
-},
-{
-"w": "is more likely to",
-"m": "更可能",
-"x": "Tired staff are more likely to make mistakes.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/ɪz mɔr ˈlaɪkli tɪ/"
-},
-{
-"w": "can be attributed to",
-"m": "可归因于",
-"x": "The rise can be attributed to demand.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/kən bi əˈtrɪbjətəd tɪ/"
-},
-{
-"w": "is characterized by",
-"m": "以……为特征",
-"x": "The age is characterized by change.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/ɪz ˈkɛrɪktərˌaɪzd baɪ/"
-},
-{
-"w": "it is high time that",
-"m": "是时候……了",
-"x": "It is high time that we acted.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/ɪt ɪz haɪ taɪm ðət/"
-},
-{
-"w": "not only but also",
-"m": "不仅……而且",
-"x": "Not only cheap but also fast.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/nɑt ˈoʊnli bət ˈɔlsoʊ/"
-},
-{
-"w": "the reason why",
-"m": "……的原因",
-"x": "The reason why is simple.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/ðə ˈrizən waɪ/"
-},
-{
-"w": "leads to",
-"m": "导致",
-"x": "Poor sleep often leads to mistakes.",
-"c": "剑桥雅思写作高分范文: Sentence patterns",
-"ipa": "/lidz tɪ/"
-},
-{
-"w": "academic performance",
-"m": "学业表现",
-"x": "Sleep affects academic performance.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/ˌækəˈdɛmɪk pərˈfɔrməns/"
-},
-{
-"w": "single-sex school",
-"m": "单性别学校",
-"x": "She went to a single-sex school.",
-"c": "剑桥雅思写作高分范文: Education"
-},
-{
-"w": "compulsory",
-"m": "义务的，必修的",
-"x": "English is compulsory here.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/kəmˈpəlsəri/"
-},
-{
-"w": "tuition fees",
-"m": "学费",
-"x": "Tuition fees keep rising.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/tjuˈɪʃən fiz/"
-},
-{
-"w": "discipline",
-"m": "纪律",
-"x": "Schools need discipline.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/ˈdɪsəplən/"
-},
-{
-"w": "individuality",
-"m": "个性",
-"x": "Uniforms may limit individuality.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/ˌɪnˌdɪvɪʤuˈælɪti/"
-},
-{
-"w": "uniform",
-"m": "校服",
-"x": "Students must wear a uniform.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/ˈjunəˌfɔrm/"
-},
-{
-"w": "foreign languages",
-"m": "外语",
-"x": "Learning foreign languages opens doors.",
-"c": "剑桥雅思写作高分范文: Education",
-"ipa": "/ˈfɔrən ˈlæŋgwɪʤɪz/"
-},
-{
-"w": "sense of community",
-"m": "社区归属感",
-"x": "Small towns have a strong sense of community.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/sɛns əv kəmˈjunɪti/"
-},
-{
-"w": "generation gap",
-"m": "代沟",
-"x": "There is a generation gap at home.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ˌʤɛnərˈeɪʃən gæp/"
-},
-{
-"w": "the elderly",
-"m": "老年人",
-"x": "We should respect the elderly.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ðə ˈɛldərli/"
-},
-{
-"w": "mass media",
-"m": "大众传媒",
-"x": "Mass media shapes opinion.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/mæs ˈmidiə/"
-},
-{
-"w": "stereotype",
-"m": "刻板印象",
-"x": "Ads often use stereotypes.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ˈstɛrioʊˌtaɪp/"
-},
-{
-"w": "armed forces",
-"m": "武装部队",
-"x": "Women can join the armed forces.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ɑrmd ˈfɔrsɪz/"
-},
-{
-"w": "lifestyle",
-"m": "生活方式",
-"x": "Night shifts change your lifestyle.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ˈlaɪfˌstaɪl/"
-},
-{
-"w": "peer",
-"m": "同龄人",
-"x": "Kids copy their peers.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/pɪr/"
-},
-{
-"w": "privacy",
-"m": "隐私",
-"x": "Online privacy is a concern.",
-"c": "剑桥雅思写作高分范文: Society & family",
-"ipa": "/ˈpraɪvəsi/"
-},
-{
-"w": "science and technology",
-"m": "科学技术",
-"x": "Science and technology change lives.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/saɪəns ənd tɛkˈnɑləʤi/"
-},
-{
-"w": "pollution",
-"m": "污染",
-"x": "Traffic causes air pollution.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/pəˈluʃən/"
-},
-{
-"w": "endangered species",
-"m": "濒危物种",
-"x": "Zoos protect endangered species.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/ɪnˈdeɪnʤərd ˈspiʃiz/"
-},
-{
-"w": "animals in zoos",
-"m": "动物园里的动物",
-"x": "Animals in zoos may feel stressed.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/ˈænəməlz ɪn zuz/"
-},
-{
-"w": "cruel",
-"m": "残忍的",
-"x": "Keeping animals in cages can be cruel.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/kruəl/"
-},
-{
-"w": "convenience",
-"m": "便利",
-"x": "Online shopping offers convenience.",
-"c": "剑桥雅思写作高分范文: Science, tech & environment",
-"ipa": "/kənˈvinjəns/"
-},
-{
-"w": "job hopping",
-"m": "频繁跳槽",
-"x": "Job hopping is common among young people.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ʤɑb ˈhɑpɪŋ/"
-},
-{
-"w": "career path",
-"m": "职业道路",
-"x": "Plan your career path.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/kərɪr pæθ/"
-},
-{
-"w": "work environment",
-"m": "工作环境",
-"x": "A good work environment keeps staff.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/wərk ɪnˈvaɪrənmənt/"
-},
-{
-"w": "salary",
-"m": "薪水",
-"x": "The salary is paid monthly.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ˈsæləri/"
-},
-{
-"w": "economic growth",
-"m": "经济增长",
-"x": "Tourism drives economic growth.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ˌɛkəˈnɑmɪk groʊθ/"
-},
-{
-"w": "rehabilitate",
-"m": "使改过自新",
-"x": "Prisons should rehabilitate criminals.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ˌriəˈbɪləˌteɪt/"
-},
-{
-"w": "community service",
-"m": "社区服务",
-"x": "He did 100 hours of community service.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/kəmˈjunɪti ˈsərvɪs/"
-},
-{
-"w": "deter",
-"m": "威慑，阻止",
-"x": "Fines deter speeding.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/dɪˈtər/"
-},
-{
-"w": "plastic surgery",
-"m": "整形手术",
-"x": "Plastic surgery is expensive.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ˈplæstɪk ˈsərʤəri/"
-},
-{
-"w": "globalization",
-"m": "全球化",
-"x": "Globalization links markets.",
-"c": "剑桥雅思写作高分范文: Work, economy & crime",
-"ipa": "/ˌgloʊbəlɪˈzeɪʃən/"
 },
 {
 "w": "students' accommodation",
@@ -32225,5 +31442,26866 @@ const WORDS = [
 "x": "accuse → accusation n. 控告；非难 accused adj. 被控告的 n. 被告",
 "c": "雅思官方词汇速背: HOW·阻止",
 "ipa": "/ə'kjuz/"
+},
+{
+"w": "It is widely believed that university education should be free for everyone.",
+"m": "人们普遍认为大学教育应对所有人免费。",
+"x": "It is widely believed that [观点].",
+"n": "Task 2 · 开头：引出普遍观点",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "In recent years, working from home has become increasingly common.",
+"m": "近年来，在家办公变得越来越普遍。",
+"x": "In recent years, [现象] has become increasingly [common/popular].",
+"n": "Task 2 · 开头：背景",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "There is an ongoing debate about whether zoos should be banned.",
+"m": "关于是否应禁止动物园，一直存在争论。",
+"x": "There is an ongoing debate about whether [议题].",
+"n": "Task 2 · 开头：争议型题目",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "Some people argue that technology isolates us, while others believe it connects us.",
+"m": "一些人认为科技使我们孤立，另一些人则认为它让我们相连。",
+"x": "Some people argue that [观点A], while others believe [观点B].",
+"n": "Task 2 · 开头：讨论双方观点",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "This essay will discuss both views before giving my own opinion.",
+"m": "本文将先讨论双方观点，再给出我的看法。",
+"x": "This essay will discuss both views before giving my own opinion.",
+"n": "Task 2 · 开头：结构说明",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "This essay will examine the causes of this trend and suggest some solutions.",
+"m": "本文将分析这一趋势的原因并提出一些解决办法。",
+"x": "This essay will examine the causes of [趋势] and suggest some solutions.",
+"n": "Task 2 · 开头：原因+解决",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "I partly agree with this statement for the reasons outlined below.",
+"m": "我部分同意这一说法，理由如下。",
+"x": "I [partly/completely] agree with this statement for the reasons outlined below.",
+"n": "Task 2 · 开头：亮明立场",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "It is often claimed that city life is more stressful than rural life.",
+"m": "人们常说城市生活比乡村生活压力更大。",
+"x": "It is often claimed that [观点].",
+"n": "Task 2 · 开头：引出观点",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "The question of how to reduce traffic congestion has attracted considerable attention.",
+"m": "如何缓解交通拥堵的问题已引起广泛关注。",
+"x": "The question of how to [解决问题] has attracted considerable attention.",
+"n": "Task 2 · 开头：问题型",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "Whether children should learn a second language at primary school is a controversial issue.",
+"m": "儿童是否应在小学学第二语言是个有争议的问题。",
+"x": "Whether [议题] is a controversial issue.",
+"n": "Task 2 · 开头：争议",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "With the rapid development of technology, online shopping has transformed the way we live.",
+"m": "随着科技迅速发展，网购改变了我们的生活方式。",
+"x": "With the rapid development of [领域], [事物] has transformed [方面].",
+"n": "Task 2 · 开头：背景",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "Nowadays, more and more people are choosing to live alone.",
+"m": "如今，越来越多的人选择独居。",
+"x": "Nowadays, more and more people are choosing to [做某事].",
+"n": "Task 2 · 开头：现象",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "It is undeniable that tourism brings both benefits and drawbacks.",
+"m": "不可否认，旅游业有利也有弊。",
+"x": "It is undeniable that [事实].",
+"n": "Task 2 · 开头：利弊型",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "Although this view has some merit, I believe it is largely mistaken.",
+"m": "虽然这种观点有一定道理，但我认为它基本上是错误的。",
+"x": "Although this view has some merit, I believe it is largely [mistaken/justified].",
+"n": "Task 2 · 开头：立场",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "In my view, the advantages of this development outweigh the disadvantages.",
+"m": "在我看来，这一发展的利大于弊。",
+"x": "In my view, the advantages of [发展] outweigh the disadvantages.",
+"n": "Task 2 · 开头：利弊立场",
+"c": "雅思写作句型: Task 2 开头 Introduction",
+"t": 1
+},
+{
+"w": "I firmly believe that governments should invest more in public transport.",
+"m": "我坚信政府应加大对公共交通的投入。",
+"x": "I firmly believe that [主体] should [做某事].",
+"n": "Task 2 · 主体/开头：表明观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "From my perspective, learning to cook is an essential life skill.",
+"m": "在我看来，学会做饭是一项必备的生活技能。",
+"x": "From my perspective, [观点].",
+"n": "Task 2 · 观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "It seems to me that people today value convenience over quality.",
+"m": "在我看来，如今人们更看重便利而非质量。",
+"x": "It seems to me that [观点].",
+"n": "Task 2 · 观点（较委婉）",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "I would argue that experience matters more than qualifications.",
+"m": "我认为经验比学历更重要。",
+"x": "I would argue that [A] matters more than [B].",
+"n": "Task 2 · 观点比较",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "There is no doubt that regular exercise improves mental health.",
+"m": "毫无疑问，规律锻炼能改善心理健康。",
+"x": "There is no doubt that [事实].",
+"n": "Task 2 · 强调观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "As far as I am concerned, homework should be limited for young children.",
+"m": "就我而言，低龄儿童的作业应有所限制。",
+"x": "As far as I am concerned, [观点].",
+"n": "Task 2 · 观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "I am convinced that small businesses are the backbone of the economy.",
+"m": "我深信小企业是经济的支柱。",
+"x": "I am convinced that [观点].",
+"n": "Task 2 · 观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "To my mind, banning cars from city centres is a sensible idea.",
+"m": "在我看来，禁止汽车进入市中心是明智之举。",
+"x": "To my mind, [做法] is a sensible idea.",
+"n": "Task 2 · 观点评价",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "I strongly disagree with the idea that money guarantees happiness.",
+"m": "我强烈反对金钱能保证幸福的说法。",
+"x": "I strongly disagree with the idea that [观点].",
+"n": "Task 2 · 反对观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "It is my belief that every citizen has a duty to protect the environment.",
+"m": "我相信每个公民都有保护环境的责任。",
+"x": "It is my belief that [观点].",
+"n": "Task 2 · 观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "I am inclined to agree that celebrities have too much influence on young people.",
+"m": "我倾向于同意名人对年轻人影响过大。",
+"x": "I am inclined to agree that [观点].",
+"n": "Task 2 · 温和同意",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "Personally, I would prefer to work for a small company.",
+"m": "就个人而言，我更愿意在小公司工作。",
+"x": "Personally, I would prefer to [做某事].",
+"n": "Task 2 · 个人倾向",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "It would be wrong to assume that older workers cannot learn new skills.",
+"m": "认为年长员工学不会新技能是错误的。",
+"x": "It would be wrong to assume that [错误观点].",
+"n": "Task 2 · 反驳",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "The main argument in favour of school uniforms is that they reduce peer pressure.",
+"m": "支持校服的主要理由是它能减少同伴压力。",
+"x": "The main argument in favour of [事物] is that [理由].",
+"n": "Task 2 · 主体：支持理由",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "Opponents of this policy claim that it would harm small businesses.",
+"m": "该政策的反对者称它会损害小企业。",
+"x": "Opponents of [政策] claim that [理由].",
+"n": "Task 2 · 主体：反方观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "Supporters of nuclear power point out that it produces little carbon dioxide.",
+"m": "核能的支持者指出它几乎不产生二氧化碳。",
+"x": "Supporters of [事物] point out that [理由].",
+"n": "Task 2 · 主体：正方观点",
+"c": "雅思写作句型: 观点表达 Opinion",
+"t": 1
+},
+{
+"w": "On the one hand, social media helps people stay in touch.",
+"m": "一方面，社交媒体帮助人们保持联系。",
+"x": "On the one hand, [优点].",
+"n": "Task 2 · 主体：对比第一方面",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "On the other hand, it can make people feel lonely.",
+"m": "另一方面，它也可能让人感到孤独。",
+"x": "On the other hand, [缺点].",
+"n": "Task 2 · 主体：对比第二方面",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "While some people enjoy city life, others prefer the peace of the countryside.",
+"m": "有些人喜欢城市生活，而另一些人更喜欢乡村的宁静。",
+"x": "While some people [A], others [B].",
+"n": "Task 2 · 对比",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Admittedly, online courses are cheaper, but they lack face-to-face interaction.",
+"m": "诚然，网课更便宜，但缺少面对面交流。",
+"x": "Admittedly, [承认的优点], but [缺点].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Although public transport is cheaper, many people still prefer to drive.",
+"m": "虽然公共交通更便宜，但许多人仍喜欢开车。",
+"x": "Although [事实A], [事实B].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Despite the high cost, many families choose private schools.",
+"m": "尽管费用高昂，许多家庭仍选择私立学校。",
+"x": "Despite [名词短语], [结果].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "In contrast, rural areas often lack basic medical services.",
+"m": "相比之下，农村地区常缺乏基本医疗服务。",
+"x": "In contrast, [对比对象] [情况].",
+"n": "Task 1/2 · 对比",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Even though the job pays well, the long hours can be exhausting.",
+"m": "尽管这份工作薪水高，但长时间工作令人疲惫。",
+"x": "Even though [优点], [缺点].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "It is true that tourism creates jobs; however, it can also damage local culture.",
+"m": "诚然旅游业创造就业，但也可能破坏当地文化。",
+"x": "It is true that [优点]; however, [缺点].",
+"n": "Task 2 · 让步转折",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Nevertheless, the benefits clearly outweigh the risks.",
+"m": "然而，好处明显大于风险。",
+"x": "Nevertheless, [结论].",
+"n": "Task 2 · 转折",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Whereas older people tend to read newspapers, younger people get news online.",
+"m": "老年人倾向于读报纸，而年轻人则在网上看新闻。",
+"x": "Whereas [群体A] tend to [A], [群体B] [B].",
+"n": "Task 1/2 · 对比",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Unlike their parents, many young adults rent rather than buy homes.",
+"m": "与父母不同，许多年轻人租房而非买房。",
+"x": "Unlike [对象], [主体] [情况].",
+"n": "Task 2 · 对比",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "That said, there are some situations where strict rules are necessary.",
+"m": "话虽如此，在某些情况下严格规定是必要的。",
+"x": "That said, there are some situations where [情况].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Granted, technology has made life easier, yet it has also created new problems.",
+"m": "诚然科技让生活更便利，但也带来了新问题。",
+"x": "Granted, [优点], yet [缺点].",
+"n": "Task 2 · 让步",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Conversely, a lack of sleep can reduce productivity at work.",
+"m": "相反，睡眠不足会降低工作效率。",
+"x": "Conversely, [相反情况].",
+"n": "Task 2 · 反向对比",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Nonetheless, I believe the government should take the lead.",
+"m": "尽管如此，我认为政府应起带头作用。",
+"x": "Nonetheless, I believe [观点].",
+"n": "Task 2 · 转折",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "Rather than punishing young offenders, we should focus on education.",
+"m": "与其惩罚青少年罪犯，我们更应注重教育。",
+"x": "Rather than [做法A], we should focus on [做法B].",
+"n": "Task 2 · 主体：替代方案",
+"c": "雅思写作句型: 对比让步 Contrast & concession",
+"t": 1
+},
+{
+"w": "The main reason for this trend is the rising cost of living.",
+"m": "这一趋势的主要原因是生活成本上升。",
+"x": "The main reason for [趋势] is [原因].",
+"n": "Task 2 · 主体：原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "This problem can be attributed to a lack of investment in education.",
+"m": "这个问题可归因于教育投入不足。",
+"x": "This problem can be attributed to [原因].",
+"n": "Task 2 · 主体：原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "As a result, many young people cannot afford to buy a home.",
+"m": "因此，许多年轻人买不起房。",
+"x": "As a result, [结果].",
+"n": "Task 2 · 主体：结果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Consequently, crime rates in these areas have risen sharply.",
+"m": "因此，这些地区的犯罪率急剧上升。",
+"x": "Consequently, [结果].",
+"n": "Task 2 · 主体：结果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "This often leads to stress and poor health.",
+"m": "这往往导致压力和健康不佳。",
+"x": "This often leads to [结果].",
+"n": "Task 2 · 主体：结果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Excessive screen time can give rise to sleep problems in children.",
+"m": "屏幕时间过长会导致儿童睡眠问题。",
+"x": "[原因] can give rise to [结果].",
+"n": "Task 2 · 因果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "One consequence of globalisation is the loss of local traditions.",
+"m": "全球化的一个后果是地方传统的流失。",
+"x": "One consequence of [现象] is [结果].",
+"n": "Task 2 · 结果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Due to longer working hours, people have less time for their families.",
+"m": "由于工作时间延长，人们陪家人的时间更少了。",
+"x": "Due to [原因], [结果].",
+"n": "Task 2 · 原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Owing to advances in medicine, people are living longer than ever.",
+"m": "由于医学进步，人们的寿命比以往更长。",
+"x": "Owing to [原因], [结果].",
+"n": "Task 2 · 原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "This has had a significant impact on the way we communicate.",
+"m": "这对我们的沟通方式产生了重大影响。",
+"x": "This has had a significant impact on [方面].",
+"n": "Task 2 · 影响",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Therefore, governments must take urgent action to cut emissions.",
+"m": "因此，政府必须采取紧急行动减少排放。",
+"x": "Therefore, [主体] must take urgent action to [做某事].",
+"n": "Task 2 · 主体：建议",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "If this trend continues, cities will become even more crowded.",
+"m": "如果这一趋势持续，城市将更加拥挤。",
+"x": "If this trend continues, [预测].",
+"n": "Task 2 · 预测结果",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Another contributing factor is the influence of advertising.",
+"m": "另一个促成因素是广告的影响。",
+"x": "Another contributing factor is [原因].",
+"n": "Task 2 · 补充原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Not only does pollution harm wildlife, but it also threatens human health.",
+"m": "污染不仅危害野生动物，还威胁人类健康。",
+"x": "Not only does [主体] [影响A], but it also [影响B].",
+"n": "Task 2 · 递进",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "For this reason, I support stricter controls on fast food advertising.",
+"m": "因此，我支持更严格地管控快餐广告。",
+"x": "For this reason, I support [做法].",
+"n": "Task 2 · 结论性推论",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "This is largely because people have become more health-conscious.",
+"m": "这主要是因为人们更加注重健康了。",
+"x": "This is largely because [原因].",
+"n": "Task 1/2 · 解释原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "Thanks to the internet, students can access information instantly.",
+"m": "多亏了互联网，学生可以即时获取信息。",
+"x": "Thanks to [原因], [积极结果].",
+"n": "Task 2 · 积极原因",
+"c": "雅思写作句型: 因果 Cause & effect",
+"t": 1
+},
+{
+"w": "For example, many companies now allow staff to work flexible hours.",
+"m": "例如，许多公司现在允许员工弹性工作。",
+"x": "For example, [例子].",
+"n": "Task 2 · 主体：举例",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "A good example of this is Singapore, where public transport is efficient and cheap.",
+"m": "一个很好的例子是新加坡，那里的公共交通高效又便宜。",
+"x": "A good example of this is [例子], where [说明].",
+"n": "Task 2 · 主体：举例",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "For instance, a single flight can produce as much carbon as a year of driving.",
+"m": "例如，一次航班产生的碳排放可抵开车一年。",
+"x": "For instance, [具体例子].",
+"n": "Task 2 · 主体：举例",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "This is clearly illustrated by the success of online learning platforms.",
+"m": "在线学习平台的成功清楚地说明了这一点。",
+"x": "This is clearly illustrated by [例子].",
+"n": "Task 2 · 主体：例证",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Research has shown that children who read daily perform better at school.",
+"m": "研究表明每天阅读的孩子在学校表现更好。",
+"x": "Research has shown that [研究结论].",
+"n": "Task 2 · 主体：数据支持",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "To illustrate, a part-time job teaches teenagers how to manage money.",
+"m": "举例来说，兼职能教会青少年如何理财。",
+"x": "To illustrate, [例子].",
+"n": "Task 2 · 主体：举例",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Take Australia as an example: it attracts thousands of international students each year.",
+"m": "以澳大利亚为例：它每年吸引成千上万的留学生。",
+"x": "Take [国家/事物] as an example: [说明].",
+"n": "Task 2 · 主体：举例",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "In my own experience, working night shifts makes it hard to keep a regular routine.",
+"m": "根据我的亲身经历，上夜班很难保持规律作息。",
+"x": "In my own experience, [经历].",
+"n": "Task 2 · 主体：个人例子",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Public spaces, such as libraries and parks, bring communities together.",
+"m": "图书馆和公园等公共空间能凝聚社区。",
+"x": "[名词], such as [例子A] and [例子B], [作用].",
+"n": "Task 2 · 列举",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "This can be seen in the growing number of electric cars on our roads.",
+"m": "这从路上越来越多的电动车可以看出。",
+"x": "This can be seen in [证据].",
+"n": "Task 2 · 证据",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Statistics suggest that obesity rates have doubled in the past thirty years.",
+"m": "统计数据表明，过去三十年肥胖率翻了一番。",
+"x": "Statistics suggest that [数据].",
+"n": "Task 2 · 数据支持",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "In particular, older people may struggle with online banking.",
+"m": "尤其是老年人，可能难以使用网上银行。",
+"x": "In particular, [特定群体/情况].",
+"n": "Task 2 · 强调细节",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Specifically, schools should teach students how to budget and save.",
+"m": "具体来说，学校应教学生如何做预算和储蓄。",
+"x": "Specifically, [具体建议].",
+"n": "Task 2 · 具体化",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Furthermore, regular exercise helps people sleep better.",
+"m": "此外，规律锻炼帮助人们睡得更好。",
+"x": "Furthermore, [补充论点].",
+"n": "Task 2 · 递进",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "In addition, learning a language improves memory.",
+"m": "另外，学习语言能提高记忆力。",
+"x": "In addition, [补充论点].",
+"n": "Task 2 · 递进",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "Moreover, the policy would save the government money in the long run.",
+"m": "而且从长远看该政策能为政府省钱。",
+"x": "Moreover, [补充论点].",
+"n": "Task 2 · 递进",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "What is more, many jobs today require digital skills.",
+"m": "更重要的是，如今许多工作都需要数字技能。",
+"x": "What is more, [补充论点].",
+"n": "Task 2 · 递进",
+"c": "雅思写作句型: 举例论证 Examples & support",
+"t": 1
+},
+{
+"w": "One possible solution would be to raise taxes on sugary drinks.",
+"m": "一个可能的解决办法是提高含糖饮料的税。",
+"x": "One possible solution would be to [措施].",
+"n": "Task 2 · 主体：解决办法",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Governments should introduce stricter laws to protect consumers.",
+"m": "政府应出台更严格的法律保护消费者。",
+"x": "Governments should introduce stricter laws to [目的].",
+"n": "Task 2 · 主体：政府措施",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Another effective measure would be to offer incentives for using public transport.",
+"m": "另一个有效措施是为使用公共交通提供激励。",
+"x": "Another effective measure would be to [措施].",
+"n": "Task 2 · 主体：措施",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Parents also have a key role to play in teaching children good habits.",
+"m": "父母在培养孩子好习惯方面也起关键作用。",
+"x": "[主体] also have a key role to play in [做某事].",
+"n": "Task 2 · 主体：责任",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "It is essential that schools teach students about healthy eating.",
+"m": "学校教学生健康饮食是至关重要的。",
+"x": "It is essential that [主体] [做某事].",
+"n": "Task 2 · 建议",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "This problem could be tackled by improving access to education.",
+"m": "这个问题可以通过改善受教育机会来解决。",
+"x": "This problem could be tackled by [措施].",
+"n": "Task 2 · 解决办法",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Individuals can make a difference by recycling and using less energy.",
+"m": "个人可以通过回收和节约能源来有所作为。",
+"x": "Individuals can make a difference by [做某事].",
+"n": "Task 2 · 个人层面",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Companies should be encouraged to offer flexible working hours.",
+"m": "应鼓励公司提供弹性工作时间。",
+"x": "[主体] should be encouraged to [做某事].",
+"n": "Task 2 · 建议",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "Raising public awareness is perhaps the most effective approach.",
+"m": "提高公众意识也许是最有效的方法。",
+"x": "[措施] is perhaps the most effective approach.",
+"n": "Task 2 · 评价方案",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "By investing in renewable energy, we can reduce our dependence on oil.",
+"m": "通过投资可再生能源，我们能减少对石油的依赖。",
+"x": "By [做某事], we can [效果].",
+"n": "Task 2 · 措施+效果",
+"c": "雅思写作句型: 解决建议 Solutions",
+"t": 1
+},
+{
+"w": "In conclusion, I believe the benefits of this trend outweigh its drawbacks.",
+"m": "总之，我认为这一趋势利大于弊。",
+"x": "In conclusion, I believe the benefits of [趋势] outweigh its drawbacks.",
+"n": "Task 2 · 结尾",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "To sum up, both governments and individuals must work together to solve this problem.",
+"m": "总之，政府和个人必须共同努力解决这个问题。",
+"x": "To sum up, [主体A] and [主体B] must work together to [目标].",
+"n": "Task 2 · 结尾",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "Overall, although there are some disadvantages, the advantages are more significant.",
+"m": "总体来说，虽然有些缺点，但优点更重要。",
+"x": "Overall, although there are some disadvantages, the advantages are more significant.",
+"n": "Task 2 · 结尾：利弊总结",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "In summary, the causes of this problem are complex, but the solutions are within reach.",
+"m": "总之，问题的原因虽复杂，但解决方案触手可及。",
+"x": "In summary, the causes of [问题] are complex, but the solutions are within reach.",
+"n": "Task 2 · 结尾：原因+方案",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "All things considered, I would support a ban on smoking in public places.",
+"m": "综合考虑，我支持在公共场所禁烟。",
+"x": "All things considered, I would support [做法].",
+"n": "Task 2 · 结尾：立场",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "Taking everything into account, it is clear that education is the key.",
+"m": "综合考虑，教育显然是关键。",
+"x": "Taking everything into account, it is clear that [结论].",
+"n": "Task 2 · 结尾",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "In the final analysis, health is more important than wealth.",
+"m": "归根结底，健康比财富更重要。",
+"x": "In the final analysis, [A] is more important than [B].",
+"n": "Task 2 · 结尾：比较",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "For these reasons, I completely agree with the statement.",
+"m": "基于以上理由，我完全同意这一说法。",
+"x": "For these reasons, I [completely/partly] agree with the statement.",
+"n": "Task 2 · 结尾：重申立场",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "It is hoped that future generations will benefit from these changes.",
+"m": "希望子孙后代能从这些变化中受益。",
+"x": "It is hoped that [期望].",
+"n": "Task 2 · 结尾：展望",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "Unless action is taken soon, the situation is likely to get worse.",
+"m": "除非尽快采取行动，否则情况可能会恶化。",
+"x": "Unless action is taken soon, [后果].",
+"n": "Task 2 · 结尾：警示",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "Ultimately, the decision should be left to individuals.",
+"m": "最终，决定应由个人来做。",
+"x": "Ultimately, [结论].",
+"n": "Task 2 · 结尾",
+"c": "雅思写作句型: 结尾 Conclusion",
+"t": 1
+},
+{
+"w": "The line graph illustrates changes in the number of tourists visiting Australia between 2000 and 2020.",
+"m": "该折线图展示了2000至2020年间赴澳游客数量的变化。",
+"x": "The [line graph/bar chart] illustrates changes in [数据] between [年份] and [年份].",
+"n": "Task 1 · 开头：改写题目",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The bar chart compares the average salaries of men and women in five professions.",
+"m": "该柱状图比较了五个职业中男女的平均工资。",
+"x": "The bar chart compares [数据] of [对象] in [类别].",
+"n": "Task 1 · 开头",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The pie charts show how household spending was divided in 1990 and 2010.",
+"m": "饼图展示了1990年和2010年家庭支出的分配情况。",
+"x": "The pie charts show how [整体] was divided in [年份] and [年份].",
+"n": "Task 1 · 开头：饼图",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The table provides information about energy consumption in four countries.",
+"m": "该表格提供了四个国家能源消耗的信息。",
+"x": "The table provides information about [数据] in [对象].",
+"n": "Task 1 · 开头：表格",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The diagram shows the process by which glass bottles are recycled.",
+"m": "该图展示了玻璃瓶回收的过程。",
+"x": "The diagram shows the process by which [事物] [被处理].",
+"n": "Task 1 · 开头：流程图",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The maps show how the town centre changed between 1995 and the present day.",
+"m": "地图展示了镇中心从1995年至今的变化。",
+"x": "The maps show how [地点] changed between [年份] and [年份].",
+"n": "Task 1 · 开头：地图",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "Overall, the number of visitors rose steadily over the period.",
+"m": "总体来看，游客数量在此期间稳步上升。",
+"x": "Overall, [数据] rose steadily over the period.",
+"n": "Task 1 · 概述段",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "It is clear that coal remained the main source of energy throughout the period.",
+"m": "显然，煤炭在整个时期内仍是主要能源。",
+"x": "It is clear that [主要特征] throughout the period.",
+"n": "Task 1 · 概述段",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "In general, men earned more than women in every profession shown.",
+"m": "总体而言，男性在所列各职业中收入都高于女性。",
+"x": "In general, [对象A] [比较] than [对象B] in [范围].",
+"n": "Task 1 · 概述段：比较",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The most noticeable feature is the sharp rise in online sales.",
+"m": "最显著的特点是网上销售额急剧上升。",
+"x": "The most noticeable feature is [主要特征].",
+"n": "Task 1 · 概述段",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The process consists of six main stages, beginning with collection and ending with delivery.",
+"m": "该过程包括六个主要阶段，从收集开始到配送结束。",
+"x": "The process consists of [数字] main stages, beginning with [第一步] and ending with [最后一步].",
+"n": "Task 1 · 流程图概述",
+"c": "雅思写作句型: Task 1 概述 Overview",
+"t": 1
+},
+{
+"w": "The number of students increased sharply from 2,000 to 5,000 between 2005 and 2010.",
+"m": "2005至2010年间学生人数从2000急剧增至5000。",
+"x": "The number of [对象] increased sharply from [数值] to [数值] between [年份] and [年份].",
+"n": "Task 1 · 主体：上升",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Sales fell gradually over the next five years.",
+"m": "在接下来的五年里销售额逐渐下降。",
+"x": "[数据] fell gradually over the next [时间].",
+"n": "Task 1 · 主体：下降",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Unemployment remained stable at around 5% until 2015.",
+"m": "失业率在2015年前一直稳定在5%左右。",
+"x": "[数据] remained stable at around [数值] until [年份].",
+"n": "Task 1 · 主体：平稳",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "The figure peaked at 80% in 2018 before dropping slightly.",
+"m": "该数字在2018年达到80%的峰值后略有下降。",
+"x": "The figure peaked at [数值] in [年份] before dropping slightly.",
+"n": "Task 1 · 主体：峰值",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Car ownership hit a low of 20% in 1990.",
+"m": "汽车拥有率在1990年降至20%的最低点。",
+"x": "[数据] hit a low of [数值] in [年份].",
+"n": "Task 1 · 主体：低点",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "There was a dramatic increase in the use of mobile phones after 2008.",
+"m": "2008年后手机使用量急剧增加。",
+"x": "There was a dramatic increase in [数据] after [年份].",
+"n": "Task 1 · 主体：名词形式描述上升",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "There was a slight decline in coal consumption during the 1990s.",
+"m": "20世纪90年代煤炭消耗略有下降。",
+"x": "There was a slight decline in [数据] during [时期].",
+"n": "Task 1 · 主体：名词形式描述下降",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Prices fluctuated between $3 and $5 throughout the decade.",
+"m": "整个十年间价格在3至5美元之间波动。",
+"x": "[数据] fluctuated between [数值] and [数值] throughout [时期].",
+"n": "Task 1 · 主体：波动",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "The percentage of renters doubled over the twenty-year period.",
+"m": "租房者比例在二十年间翻了一番。",
+"x": "The percentage of [对象] doubled over [时期].",
+"n": "Task 1 · 主体：倍数",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "By 2030, the population is projected to reach 40 million.",
+"m": "到2030年，人口预计将达到4000万。",
+"x": "By [年份], [数据] is projected to reach [数值].",
+"n": "Task 1 · 主体：预测",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Spending on healthcare rose by 15% to reach $2 billion.",
+"m": "医疗支出增长了15%，达到20亿美元。",
+"x": "Spending on [项目] rose by [幅度] to reach [数值].",
+"n": "Task 1 · 主体：增幅+终值",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "The number of visitors then levelled off at about 3 million.",
+"m": "游客人数随后稳定在约300万。",
+"x": "[数据] then levelled off at about [数值].",
+"n": "Task 1 · 主体：趋于平稳",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "After a brief recovery, sales plunged to their lowest point in 2020.",
+"m": "短暂回升后，销售额在2020年暴跌至最低点。",
+"x": "After a brief recovery, [数据] plunged to their lowest point in [年份].",
+"n": "Task 1 · 主体：暴跌",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "This was followed by a steady rise over the following decade.",
+"m": "随后十年间稳步上升。",
+"x": "This was followed by a steady rise over [时期].",
+"n": "Task 1 · 主体：衔接趋势",
+"c": "雅思写作句型: Task 1 趋势 Trends",
+"t": 1
+},
+{
+"w": "Japan had the highest proportion of elderly people, at 28%.",
+"m": "日本的老年人比例最高，为28%。",
+"x": "[对象] had the highest proportion of [群体], at [数值].",
+"n": "Task 1 · 主体：最高值",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "By contrast, India recorded the lowest figure, at just 6%.",
+"m": "相比之下，印度的数字最低，仅为6%。",
+"x": "By contrast, [对象] recorded the lowest figure, at just [数值].",
+"n": "Task 1 · 主体：最低值",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Men spent twice as much time on sport as women did.",
+"m": "男性花在运动上的时间是女性的两倍。",
+"x": "[A] spent twice as much [项目] as [B] did.",
+"n": "Task 1 · 主体：倍数比较",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "The figure for Canada was slightly higher than that for the UK.",
+"m": "加拿大的数字略高于英国。",
+"x": "The figure for [A] was slightly higher than that for [B].",
+"n": "Task 1 · 主体：比较",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Rent accounted for the largest share of spending, at 35%.",
+"m": "房租占支出的最大份额，为35%。",
+"x": "[项目] accounted for the largest share of [整体], at [数值].",
+"n": "Task 1 · 饼图：最大份额",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Food and clothing made up roughly a quarter of the total.",
+"m": "食品和衣物约占总数的四分之一。",
+"x": "[项目] made up roughly [比例] of the total.",
+"n": "Task 1 · 饼图：占比",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Similarly, the number of female students also grew.",
+"m": "同样，女生人数也增长了。",
+"x": "Similarly, [数据] also [趋势].",
+"n": "Task 1 · 主体：相似",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Both countries experienced a similar pattern of growth.",
+"m": "两国都经历了相似的增长模式。",
+"x": "Both [对象] experienced a similar pattern of [趋势].",
+"n": "Task 1 · 主体：相似",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Germany, on the other hand, saw a steady decline.",
+"m": "而德国则稳步下降。",
+"x": "[对象], on the other hand, saw a steady decline.",
+"n": "Task 1 · 主体：对比",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "The gap between the two groups narrowed significantly by 2020.",
+"m": "到2020年两组之间的差距显著缩小。",
+"x": "The gap between [A] and [B] narrowed significantly by [年份].",
+"n": "Task 1 · 主体：差距变化",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Twice as many people used buses as trains.",
+"m": "乘公交的人数是乘火车的两倍。",
+"x": "Twice as many people used [A] as [B].",
+"n": "Task 1 · 主体：倍数",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "Electricity was the second most popular source of energy.",
+"m": "电力是第二受欢迎的能源。",
+"x": "[项目] was the second most popular [类别].",
+"n": "Task 1 · 主体：排名",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "The two figures were almost identical in 2010.",
+"m": "2010年这两个数字几乎相同。",
+"x": "The two figures were almost identical in [年份].",
+"n": "Task 1 · 主体：持平",
+"c": "雅思写作句型: Task 1 比较 Comparisons",
+"t": 1
+},
+{
+"w": "First, the bottles are collected and taken to a recycling plant.",
+"m": "首先，瓶子被收集并运到回收厂。",
+"x": "First, [物品] are collected and taken to [地点].",
+"n": "Task 1 · 流程图：第一步（被动语态）",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "Next, they are sorted by colour and washed thoroughly.",
+"m": "接下来，它们按颜色分类并彻底清洗。",
+"x": "Next, they are [处理1] and [处理2].",
+"n": "Task 1 · 流程图：中间步骤",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "Once the glass has been crushed, it is melted in a furnace.",
+"m": "玻璃被压碎后，在熔炉里熔化。",
+"x": "Once [物品] has been [处理], it is [下一步].",
+"n": "Task 1 · 流程图：衔接步骤",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "Finally, the new bottles are delivered to shops.",
+"m": "最后，新瓶子被送到商店。",
+"x": "Finally, [物品] are delivered to [地点].",
+"n": "Task 1 · 流程图：最后一步",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "At the following stage, the mixture is heated to 1,500 degrees.",
+"m": "在下一阶段，混合物被加热到1500度。",
+"x": "At the following stage, [物品] is [处理].",
+"n": "Task 1 · 流程图",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "The farmland to the north of the river was replaced by a housing estate.",
+"m": "河北边的农田被住宅区取代。",
+"x": "The [原有设施] to the north of [地标] was replaced by [新设施].",
+"n": "Task 1 · 地图：替换",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "A new car park was built next to the train station.",
+"m": "火车站旁新建了一个停车场。",
+"x": "A new [设施] was built next to [地标].",
+"n": "Task 1 · 地图：新建",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "The old factory was demolished to make way for a shopping centre.",
+"m": "旧工厂被拆除，为购物中心让路。",
+"x": "The old [建筑] was demolished to make way for [新建筑].",
+"n": "Task 1 · 地图：拆除",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "The main road was extended eastwards towards the coast.",
+"m": "主干道向东延伸至海岸。",
+"x": "The [道路] was extended [方向] towards [地点].",
+"n": "Task 1 · 地图：扩建",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "The park in the town centre remained unchanged.",
+"m": "市中心的公园保持不变。",
+"x": "The [设施] in [位置] remained unchanged.",
+"n": "Task 1 · 地图：不变",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "The area became far more residential over the period.",
+"m": "在此期间该地区变得更加住宅化。",
+"x": "The area became far more [residential/developed] over the period.",
+"n": "Task 1 · 地图：概述",
+"c": "雅思写作句型: Task 1 流程与地图 Process & maps",
+"t": 1
+},
+{
+"w": "academic",
+"m": "adj. 学术的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"academic\" in the recording.",
+"ipa": "/ˌækəˈdɛmɪk/"
+},
+{
+"w": "abandon",
+"m": "v. 遗弃",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abandon\" in the recording.",
+"ipa": "/əˈbændən/"
+},
+{
+"w": "abide",
+"m": "遵守",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abide\" in the recording.",
+"ipa": "/əˈbaɪd/"
+},
+{
+"w": "abilities",
+"m": "n. 能力（ability的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abilities\" in the recording.",
+"ipa": "/əˈbɪləˌtiz/"
+},
+{
+"w": "aboriginal",
+"m": "adj. 土著的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aboriginal\" in the recording.",
+"ipa": "/ˌæbərˈɪʤənəl/"
+},
+{
+"w": "above",
+"m": "prep. 高于adv在（或向）上面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"above\" in the recording.",
+"ipa": "/əˈbəv/"
+},
+{
+"w": "abroad",
+"m": "adv. 在国外adj.往国外的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abroad\" in the recording.",
+"ipa": "/əˈbrɔd/"
+},
+{
+"w": "abruptly",
+"m": "ady:唐突地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abruptly\" in the recording.",
+"ipa": "/əˈbrəptli/"
+},
+{
+"w": "absent",
+"m": "adj. 缺席的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"absent\" in the recording.",
+"ipa": "/ˈæbsənt/"
+},
+{
+"w": "absolutely",
+"m": "adv. 绝对地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"absolutely\" in the recording.",
+"ipa": "/ˌæbsəˈlutli/"
+},
+{
+"w": "absorb",
+"m": "v. 吸收，理解",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"absorb\" in the recording.",
+"ipa": "/əbˈzɔrb/"
+},
+{
+"w": "abstract",
+"m": "n. 摘要adj.纯理论的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abstract\" in the recording.",
+"ipa": "/ˈæbˌstrækt/"
+},
+{
+"w": "abuse",
+"m": "n. &滥用，虐待，辱骂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"abuse\" in the recording.",
+"ipa": "/əˈbjuz/"
+},
+{
+"w": "accent",
+"m": "n. 口音",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accent\" in the recording.",
+"ipa": "/ˈækˌsɛnt/"
+},
+{
+"w": "accept",
+"m": "v. 接受",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accept\" in the recording.",
+"ipa": "/əkˈsɛpt/"
+},
+{
+"w": "accidents",
+"m": "n. 事故，意外",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accidents\" in the recording.",
+"ipa": "/ˈæksədənts/"
+},
+{
+"w": "accommodation",
+"m": "n. 膳宿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accommodation\" in the recording.",
+"ipa": "/əˌkɑməˈdeɪʃən/"
+},
+{
+"w": "accompany",
+"m": "v. 陪伴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accompany\" in the recording.",
+"ipa": "/əˈkəmpəni/"
+},
+{
+"w": "account",
+"m": "n. 账户v导致",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"account\" in the recording.",
+"ipa": "/əˈkaʊnt/"
+},
+{
+"w": "accurate",
+"m": "adj. 精确的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accurate\" in the recording.",
+"ipa": "/ˈækjərət/"
+},
+{
+"w": "accustom",
+"m": "v. 使适应",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"accustom\" in the recording.",
+"ipa": "/əˈkəstəm/"
+},
+{
+"w": "achievement",
+"m": "n. 成就",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"achievement\" in the recording.",
+"ipa": "/əˈʧivmənt/"
+},
+{
+"w": "acids",
+"m": "n. 酸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"acids\" in the recording.",
+"ipa": "/ˈæsədz/"
+},
+{
+"w": "acknowledge",
+"m": "w承认，答谢",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"acknowledge\" in the recording.",
+"ipa": "/ækˈnɑlɪʤ/"
+},
+{
+"w": "acoustic",
+"m": "adj. 声学的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"acoustic\" in the recording.",
+"ipa": "/əˈkustɪk/"
+},
+{
+"w": "across",
+"m": "prep. 遍及adv.穿过",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"across\" in the recording.",
+"ipa": "/əˈkrɔs/"
+},
+{
+"w": "actions",
+"m": "n. 行动",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"actions\" in the recording.",
+"ipa": "/ˈækʃənz/"
+},
+{
+"w": "activates",
+"m": "v. 激活",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"activates\" in the recording.",
+"ipa": "/ˈæktəˌveɪts/"
+},
+{
+"w": "active",
+"m": "adj. 积极的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"active\" in the recording.",
+"ipa": "/ˈæktɪv/"
+},
+{
+"w": "activities",
+"m": "n. 活动（activity的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"activities\" in the recording.",
+"ipa": "/ækˈtɪvɪtiz/"
+},
+{
+"w": "actors",
+"m": "n. 演员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"actors\" in the recording.",
+"ipa": "/ˈæktərz/"
+},
+{
+"w": "actually",
+"m": "adv. 实际上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"actually\" in the recording.",
+"ipa": "/ˈæˌkʧuəli/"
+},
+{
+"w": "adapt",
+"m": "v. 改编，适应",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"adapt\" in the recording.",
+"ipa": "/əˈdæpt/"
+},
+{
+"w": "add",
+"m": "v. 增加",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"add\" in the recording.",
+"ipa": "/æd/"
+},
+{
+"w": "addictive",
+"m": "adj. 使人上瘾的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"addictive\" in the recording.",
+"ipa": "/əˈdɪktɪv/"
+},
+{
+"w": "additives",
+"m": "n. 添加剂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"additives\" in the recording.",
+"ipa": "/ˈædɪtɪvz/"
+},
+{
+"w": "address",
+"m": "n. 地址",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"address\" in the recording.",
+"ipa": "/ˈæˌdrɛs/"
+},
+{
+"w": "adjust",
+"m": "v. 调整",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"adjust\" in the recording.",
+"ipa": "/əˈʤəst/"
+},
+{
+"w": "admin",
+"m": "n. 行政",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"admin\" in the recording.",
+"ipa": "/ˈædmɪn/"
+},
+{
+"w": "administrative",
+"m": "adj. 管理的，行政的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"administrative\" in the recording.",
+"ipa": "/ədˈmɪnɪˌstreɪtɪv/"
+},
+{
+"w": "admire",
+"m": "v. 钦佩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"admire\" in the recording.",
+"ipa": "/ædˈmaɪr/"
+},
+{
+"w": "adopt",
+"m": "v. 采取",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"adopt\" in the recording.",
+"ipa": "/əˈdɑpt/"
+},
+{
+"w": "adults",
+"m": "n. 成年人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"adults\" in the recording.",
+"ipa": "/ˈædəlts/"
+},
+{
+"w": "advanced",
+"m": "adj. 高级的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"advanced\" in the recording.",
+"ipa": "/ədˈvænst/"
+},
+{
+"w": "advance",
+"m": "提前adj.预先的n.进步",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"advance\" in the recording.",
+"ipa": "/ədˈvæns/"
+},
+{
+"w": "advantages",
+"m": "n. 优势",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"advantages\" in the recording.",
+"ipa": "/ædˈvæntɪʤɪz/"
+},
+{
+"w": "adventure",
+"m": "n. &v冒险",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"adventure\" in the recording.",
+"ipa": "/ədˈvɛnʧər/"
+},
+{
+"w": "advertisement",
+"m": "n. 广告",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"advertisement\" in the recording.",
+"ipa": "/ˌædvərˈtaɪzmənt/"
+},
+{
+"w": "advice",
+"m": "n. 建议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"advice\" in the recording.",
+"ipa": "/ədˈvaɪs/"
+},
+{
+"w": "aerobic",
+"m": "adj. 有氧的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aerobic\" in the recording.",
+"ipa": "/ɛˈroʊbɪk/"
+},
+{
+"w": "aesthetic",
+"m": "adj. 美学的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aesthetic\" in the recording.",
+"ipa": "/ɛsˈθɛtɪk/"
+},
+{
+"w": "affect",
+"m": "影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"affect\" in the recording.",
+"ipa": "/əˈfɛkt/"
+},
+{
+"w": "afford",
+"m": "v. 买得起",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"afford\" in the recording.",
+"ipa": "/əˈfɔrd/"
+},
+{
+"w": "afraid",
+"m": "adj. 恐怕",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"afraid\" in the recording.",
+"ipa": "/əˈfreɪd/"
+},
+{
+"w": "Africa",
+"m": "n. 非洲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Africa\" in the recording.",
+"ipa": "/ˈæfrɪkɑ/"
+},
+{
+"w": "afternoons",
+"m": "n. 下午（+s表每个下午）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"afternoons\" in the recording.",
+"ipa": "/ˌæftərˈnunz/"
+},
+{
+"w": "afterwards",
+"m": "adv. 后来",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"afterwards\" in the recording.",
+"ipa": "/ˈæftərwərdz/"
+},
+{
+"w": "again",
+"m": "adv. 又，再一次",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"again\" in the recording.",
+"ipa": "/əˈgɛn/"
+},
+{
+"w": "against",
+"m": "prep. 反对，抵御",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"against\" in the recording.",
+"ipa": "/əˈgɛnst/"
+},
+{
+"w": "agency",
+"m": "n. 代理，中介",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"agency\" in the recording.",
+"ipa": "/ˈeɪʤənsi/"
+},
+{
+"w": "agents",
+"m": "n. 代理人，中介",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"agents\" in the recording.",
+"ipa": "/ˈeɪʤənts/"
+},
+{
+"w": "ages",
+"m": "n. 年龄，年代",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ages\" in the recording.",
+"ipa": "/ˈeɪʤɪz/"
+},
+{
+"w": "aggressive",
+"m": "adj. 侵略性的，好斗的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aggressive\" in the recording.",
+"ipa": "/əˈgrɛsɪv/"
+},
+{
+"w": "agreement",
+"m": "n. 协议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"agreement\" in the recording.",
+"ipa": "/əˈgrimənt/"
+},
+{
+"w": "agriculture",
+"m": "n. 农业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"agriculture\" in the recording.",
+"ipa": "/ˈægrɪˌkəlʧər/"
+},
+{
+"w": "aids",
+"m": "n. 援助",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aids\" in the recording.",
+"ipa": "/eɪdz/"
+},
+{
+"w": "aims",
+"m": "v. 目的在于…..目的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aims\" in the recording.",
+"ipa": "/eɪmz/"
+},
+{
+"w": "air",
+"m": "n. 空气",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"air\" in the recording.",
+"ipa": "/ɛr/"
+},
+{
+"w": "airlines",
+"m": "n. 航空公司",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"airlines\" in the recording.",
+"ipa": "/ˈɛˌrlaɪnz/"
+},
+{
+"w": "airport",
+"m": "n. 机场",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"airport\" in the recording.",
+"ipa": "/ˈɛrˌpɔrt/"
+},
+{
+"w": "alarm",
+"m": "v. 警告",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"alarm\" in the recording.",
+"ipa": "/əˈlɑrm/"
+},
+{
+"w": "allergic",
+"m": "adj. 对过敏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"allergic\" in the recording.",
+"ipa": "/əˈlərʤɪk/"
+},
+{
+"w": "allergies",
+"m": "n. 过敏（allergy的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"allergies\" in the recording.",
+"ipa": "/ˈælərʤiz/"
+},
+{
+"w": "allocate",
+"m": "v. 分配",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"allocate\" in the recording.",
+"ipa": "/ˈæləˌkeɪt/"
+},
+{
+"w": "allow",
+"m": "v. 允许",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"allow\" in the recording.",
+"ipa": "/əˈlaʊ/"
+},
+{
+"w": "allowances",
+"m": "n. 津贴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"allowances\" in the recording.",
+"ipa": "/əˈlaʊənsɪz/"
+},
+{
+"w": "almost",
+"m": "adv. 差不多",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"almost\" in the recording.",
+"ipa": "/ˈɔlˌmoʊst/"
+},
+{
+"w": "alones",
+"m": "adj. 独自的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"alones\" in the recording."
+},
+{
+"w": "already",
+"m": "adv. 已经",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"already\" in the recording.",
+"ipa": "/ɔˈrɛdi/"
+},
+{
+"w": "also",
+"m": "adv. 也conj.并且",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"also\" in the recording.",
+"ipa": "/ˈɔlsoʊ/"
+},
+{
+"w": "alternative",
+"m": "adj. 供选择的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"alternative\" in the recording.",
+"ipa": "/ɔlˈtərnətɪv/"
+},
+{
+"w": "although",
+"m": "conj. 尽管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"although\" in the recording.",
+"ipa": "/ˌɔlˈðoʊ/"
+},
+{
+"w": "altitude",
+"m": "n. 海拔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"altitude\" in the recording.",
+"ipa": "/ˈæltəˌtud/"
+},
+{
+"w": "always",
+"m": "adv. 一直，总是",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"always\" in the recording.",
+"ipa": "/ˈɔlˌweɪz/"
+},
+{
+"w": "amateur",
+"m": "n. 业余爱好者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amateur\" in the recording.",
+"ipa": "/ˈæməˌʧər/"
+},
+{
+"w": "amazing",
+"m": "adj. 令人惊的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amazing\" in the recording.",
+"ipa": "/əˈmeɪzɪŋ/"
+},
+{
+"w": "ambitions",
+"m": "ambitious有雄心的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ambitions\" in the recording.",
+"ipa": "/æmˈbɪʃənz/"
+},
+{
+"w": "amenity",
+"m": "n. 生活便利设施",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amenity\" in the recording.",
+"ipa": "/əˈmɛnəti/"
+},
+{
+"w": "America",
+"m": "n. 美国，美洲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"America\" in the recording.",
+"ipa": "/əˈmɛrɪkə/"
+},
+{
+"w": "American",
+"m": "n. 美国人adj.美国的，美国人的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"American\" in the recording.",
+"ipa": "/əˈmɛrɪkən/"
+},
+{
+"w": "amicably",
+"m": "adv. 友善地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amicably\" in the recording.",
+"ipa": "/ˈæmɪkəbli/"
+},
+{
+"w": "amounts",
+"m": "n. 数量，总数",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amounts\" in the recording.",
+"ipa": "/əˈmaʊnts/"
+},
+{
+"w": "amplify",
+"m": "v. 放大",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amplify\" in the recording.",
+"ipa": "/ˈæmpləˌfaɪ/"
+},
+{
+"w": "amusements",
+"m": "n. 娱乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"amusements\" in the recording.",
+"ipa": "/əmˈjuzmənts/"
+},
+{
+"w": "analyse",
+"m": "v. 分析",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"analyse\" in the recording."
+},
+{
+"w": "analysis",
+"m": "n. 分析",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"analysis\" in the recording.",
+"ipa": "/æˈnælɪsɪs/"
+},
+{
+"w": "anatomy",
+"m": "n. 解剖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"anatomy\" in the recording.",
+"ipa": "/əˈnætəmi/"
+},
+{
+"w": "ancient",
+"m": "adj. 古代的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ancient\" in the recording.",
+"ipa": "/ˈeɪnʧənt/"
+},
+{
+"w": "animals",
+"m": "n. 动物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"animals\" in the recording.",
+"ipa": "/ˈænəməlz/"
+},
+{
+"w": "animation",
+"m": "n. 动画片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"animation\" in the recording.",
+"ipa": "/ˌænəˈmeɪʃən/"
+},
+{
+"w": "ankle",
+"m": "n. 踝关节",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ankle\" in the recording.",
+"ipa": "/ˈæŋkəl/"
+},
+{
+"w": "anniversary",
+"m": "n. 周年纪念日",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"anniversary\" in the recording.",
+"ipa": "/ˌænəˈvərsəri/"
+},
+{
+"w": "announce",
+"m": "v. 宣布",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"announce\" in the recording.",
+"ipa": "/əˈnaʊns/"
+},
+{
+"w": "annoying",
+"m": "adj. 讨厌的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"annoying\" in the recording.",
+"ipa": "/əˈnɔɪɪŋ/"
+},
+{
+"w": "annual",
+"m": "adj. 年度的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"annual\" in the recording.",
+"ipa": "/ˈænjuəl/"
+},
+{
+"w": "anoint",
+"m": "v. 用油擦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"anoint\" in the recording.",
+"ipa": "/əˈnɔɪnt/"
+},
+{
+"w": "answers",
+"m": "n. &v回答",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"answers\" in the recording.",
+"ipa": "/ˈænsərz/"
+},
+{
+"w": "Antarctic",
+"m": "n. 南极洲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Antarctic\" in the recording.",
+"ipa": "/æˈnɑrtɪk/"
+},
+{
+"w": "anthropology",
+"m": "n. 人类学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"anthropology\" in the recording.",
+"ipa": "/ˌænθrəˈpɑləʤi/"
+},
+{
+"w": "antiques",
+"m": "n. 古董adj.古董的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"antiques\" in the recording.",
+"ipa": "/ænˈtiks/"
+},
+{
+"w": "anxiety",
+"m": "n. 焦虑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"anxiety\" in the recording.",
+"ipa": "/æŋˈzaɪəti/"
+},
+{
+"w": "apart",
+"m": "adj. 分离的adv.分离着",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apart\" in the recording.",
+"ipa": "/əˈpɑrt/"
+},
+{
+"w": "apartments",
+"m": "n. 公寓",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apartments\" in the recording.",
+"ipa": "/əˈpɑrtmənts/"
+},
+{
+"w": "apologise",
+"m": "v. 道歉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apologise\" in the recording.",
+"ipa": "/əˈpɑləˌʤaɪz/"
+},
+{
+"w": "apparently",
+"m": "adv. 显然地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apparently\" in the recording.",
+"ipa": "/əˈpɛrəntli/"
+},
+{
+"w": "appalling",
+"m": "adj. 可怕的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appalling\" in the recording.",
+"ipa": "/əˈpɔlɪŋ/"
+},
+{
+"w": "appeal",
+"m": "\"对有吸引力，呼吁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appeal\" in the recording.",
+"ipa": "/əˈpil/"
+},
+{
+"w": "appear",
+"m": "v. 显得，出现",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appear\" in the recording.",
+"ipa": "/əˈpɪr/"
+},
+{
+"w": "appearance",
+"m": "n. 外貌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appearance\" in the recording.",
+"ipa": "/əˈpɪrəns/"
+},
+{
+"w": "appliances",
+"m": "n. 器械",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appliances\" in the recording.",
+"ipa": "/əˈplaɪənsɪz/"
+},
+{
+"w": "applicants",
+"m": "n. 申请人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"applicants\" in the recording.",
+"ipa": "/ˈæplɪkənts/"
+},
+{
+"w": "applications",
+"m": "n. 应用，申请",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"applications\" in the recording.",
+"ipa": "/ˌæpləˈkeɪʃənz/"
+},
+{
+"w": "apply",
+"m": "W申请",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apply\" in the recording.",
+"ipa": "/əˈplaɪ/"
+},
+{
+"w": "appointments",
+"m": "n. 任命，约会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appointments\" in the recording.",
+"ipa": "/əˈpɔɪntmənts/"
+},
+{
+"w": "appreciate",
+"m": "欣赏，感激",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appreciate\" in the recording.",
+"ipa": "/əˈpriʃiˌeɪt/"
+},
+{
+"w": "apprentice",
+"m": "n. 学徒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apprentice\" in the recording.",
+"ipa": "/əˈprɛntɪs/"
+},
+{
+"w": "approach",
+"m": "n. 方法w逐渐接近",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"approach\" in the recording.",
+"ipa": "/əˈproʊʧ/"
+},
+{
+"w": "appropriate",
+"m": "adj. 适当的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"appropriate\" in the recording.",
+"ipa": "/əˈproʊpriˌeɪt/"
+},
+{
+"w": "approve",
+"m": "批准",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"approve\" in the recording.",
+"ipa": "/əˈpruv/"
+},
+{
+"w": "approximately",
+"m": "adv. 大约",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"approximately\" in the recording.",
+"ipa": "/əˈprɑksəmətli/"
+},
+{
+"w": "Apri",
+"m": "n. 四月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Apri\" in the recording."
+},
+{
+"w": "apron",
+"m": "n. 围裙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"apron\" in the recording.",
+"ipa": "/ˈeɪprən/"
+},
+{
+"w": "aqueducts",
+"m": "n. 沟渠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aqueducts\" in the recording.",
+"ipa": "/ˈækwəˌdəkts/"
+},
+{
+"w": "archaeology",
+"m": "n. 考古学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"archaeology\" in the recording.",
+"ipa": "/ˌɑrkiˈɑləʤi/"
+},
+{
+"w": "archers",
+"m": "n. 弓箭手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"archers\" in the recording.",
+"ipa": "/ˈɑrʧərz/"
+},
+{
+"w": "architecture",
+"m": "n. 建筑学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"architecture\" in the recording.",
+"ipa": "/ˈɑrkəˌtɛkʧər/"
+},
+{
+"w": "areas",
+"m": "n. 区域，领域",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"areas\" in the recording.",
+"ipa": "/ˈɛriəz/"
+},
+{
+"w": "argument",
+"m": "n. 论证，争吵",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"argument\" in the recording.",
+"ipa": "/ˈɑrgjəmənt/"
+},
+{
+"w": "arid",
+"m": "adj. 干旱的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"arid\" in the recording.",
+"ipa": "/ˈɛrəd/"
+},
+{
+"w": "army",
+"m": "n. 军队",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"army\" in the recording.",
+"ipa": "/ˈɑrmi/"
+},
+{
+"w": "around",
+"m": "ady在附近，大约prep.围绕",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"around\" in the recording.",
+"ipa": "/əraʊnd/"
+},
+{
+"w": "arrive",
+"m": "v. 到达",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"arrive\" in the recording.",
+"ipa": "/əraɪv/"
+},
+{
+"w": "arrows",
+"m": "n. 箭，箭头",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"arrows\" in the recording.",
+"ipa": "/ˈɛroʊz/"
+},
+{
+"w": "artefacts",
+"m": "n. 手工制品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"artefacts\" in the recording."
+},
+{
+"w": "articles",
+"m": "n. 文章",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"articles\" in the recording.",
+"ipa": "/ˈɑrtɪkəlz/"
+},
+{
+"w": "artificial",
+"m": "adj. 人造的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"artificial\" in the recording.",
+"ipa": "/ˌɑrtəˈfɪʃəl/"
+},
+{
+"w": "artists",
+"m": "n. 艺术家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"artists\" in the recording.",
+"ipa": "/ˈɑrtɪsts/"
+},
+{
+"w": "arts",
+"m": "n. 艺术，美术（+s表文科）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"arts\" in the recording.",
+"ipa": "/ɑrts/"
+},
+{
+"w": "ascent",
+"m": "n. 上坡路",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ascent\" in the recording.",
+"ipa": "/əˈsɛnt/"
+},
+{
+"w": "ashes",
+"m": "n. 灰煨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ashes\" in the recording.",
+"ipa": "/ˈæʃɪz/"
+},
+{
+"w": "Asian",
+"m": "n. 亚洲人adj.亚洲（人）的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Asian\" in the recording.",
+"ipa": "/ˈeɪʒən/"
+},
+{
+"w": "aspects",
+"m": "n. 方面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aspects\" in the recording.",
+"ipa": "/ˈæˌspɛkts/"
+},
+{
+"w": "assessment",
+"m": "n. 评估",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"assessment\" in the recording.",
+"ipa": "/əˈsɛsmənt/"
+},
+{
+"w": "assignment",
+"m": "n. 分配，作业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"assignment\" in the recording.",
+"ipa": "/əˈsaɪnmənt/"
+},
+{
+"w": "assistant",
+"m": "n. 助手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"assistant\" in the recording.",
+"ipa": "/əˈsɪstənt/"
+},
+{
+"w": "associate",
+"m": "v. 关联",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"associate\" in the recording.",
+"ipa": "/əˈsoʊʃiˌeɪt/"
+},
+{
+"w": "associations",
+"m": "n. 协会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"associations\" in the recording.",
+"ipa": "/əˌsoʊʃiˈeɪʃənz/"
+},
+{
+"w": "assortment",
+"m": "n. 混合物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"assortment\" in the recording.",
+"ipa": "/əˈsɔrtmənt/"
+},
+{
+"w": "astronomy",
+"m": "n. 天文学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"astronomy\" in the recording.",
+"ipa": "/əˈstrɑnəmi/"
+},
+{
+"w": "athletes",
+"m": "n. 运动员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"athletes\" in the recording.",
+"ipa": "/ˈæθˌlits/"
+},
+{
+"w": "atlas",
+"m": "n. 地图集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"atlas\" in the recording.",
+"ipa": "/ˈætləs/"
+},
+{
+"w": "atmosphere",
+"m": "n. 气氛，大气",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"atmosphere\" in the recording.",
+"ipa": "/ˈætməsˌfɪr/"
+},
+{
+"w": "atrium",
+"m": "n. 中庭",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"atrium\" in the recording.",
+"ipa": "/ˈeɪtriəm/"
+},
+{
+"w": "attach",
+"m": "w系上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attach\" in the recording.",
+"ipa": "/əˈtæʧ/"
+},
+{
+"w": "attack",
+"m": "n. &攻击",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attack\" in the recording.",
+"ipa": "/əˈtæk/"
+},
+{
+"w": "attempt",
+"m": "n. &v试图",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attempt\" in the recording.",
+"ipa": "/əˈtɛmpt/"
+},
+{
+"w": "attendance",
+"m": "v. 出席",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attendance\" in the recording.",
+"ipa": "/əˈtɛndəns/"
+},
+{
+"w": "attention",
+"m": "n. 注意力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attention\" in the recording.",
+"ipa": "/əˈtɛnʃən/"
+},
+{
+"w": "attitudes",
+"m": "n. 态度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attitudes\" in the recording.",
+"ipa": "/ˈætəˌtudz/"
+},
+{
+"w": "attract",
+"m": "v. 吸引",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attract\" in the recording.",
+"ipa": "/əˈtrækt/"
+},
+{
+"w": "attribute",
+"m": "归属",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"attribute\" in the recording.",
+"ipa": "/əˈtrɪˌbjut/"
+},
+{
+"w": "audiences",
+"m": "n. 观众",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"audiences\" in the recording.",
+"ipa": "/ˈɔdiənsəz/"
+},
+{
+"w": "August",
+"m": "n. 八月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"August\" in the recording.",
+"ipa": "/ˈɔgəst/"
+},
+{
+"w": "aunt",
+"m": "n. 姨，阿姨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aunt\" in the recording.",
+"ipa": "/ɔnt/"
+},
+{
+"w": "Australia l",
+"m": "n. 澳大利亚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Australia l\" in the recording.",
+"ipa": "/ɔˈstreɪljə ɛl/"
+},
+{
+"w": "Australian",
+"m": "adj. 澳大利亚的n.澳大利亚人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Australian\" in the recording.",
+"ipa": "/ɔˈstreɪljən/"
+},
+{
+"w": "authorities",
+"m": "n. 当局，官方（authority的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"authorities\" in the recording.",
+"ipa": "/əˈθɔrətiz/"
+},
+{
+"w": "authors",
+"m": "n. 作者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"authors\" in the recording.",
+"ipa": "/ˈɔθərz/"
+},
+{
+"w": "autism",
+"m": "n. 自闭症",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"autism\" in the recording.",
+"ipa": "/ˈɔˌtɪzəm/"
+},
+{
+"w": "autobiography",
+"m": "n. 自传",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"autobiography\" in the recording.",
+"ipa": "/ˌɔtəbaɪˈɑgrəfi/"
+},
+{
+"w": "automatic",
+"m": "adj. 自动的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"automatic\" in the recording.",
+"ipa": "/ˌɔtəˈmætɪk/"
+},
+{
+"w": "automobiles",
+"m": "n. 汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"automobiles\" in the recording.",
+"ipa": "/ˌɔtəmoʊˈbilz/"
+},
+{
+"w": "autonomous",
+"m": "adj. 自治的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"autonomous\" in the recording.",
+"ipa": "/ɔˈtɑnəməs/"
+},
+{
+"w": "available",
+"m": "adj. 有效的，可用的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"available\" in the recording.",
+"ipa": "/əˈveɪləbəl/"
+},
+{
+"w": "avenue",
+"m": "n. 大街",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"avenue\" in the recording.",
+"ipa": "/ˈævəˌnu/"
+},
+{
+"w": "average",
+"m": "n. 平均",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"average\" in the recording.",
+"ipa": "/ˈævərɪʤ/"
+},
+{
+"w": "avoid",
+"m": "v. 避免",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"avoid\" in the recording.",
+"ipa": "/əˈvɔɪd/"
+},
+{
+"w": "aware",
+"m": "adj. 意识到的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"aware\" in the recording.",
+"ipa": "/əˈwɛr/"
+},
+{
+"w": "awful",
+"m": "adj. 可怕的，极坏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"awful\" in the recording.",
+"ipa": "/ˈɔfəl/"
+},
+{
+"w": "babies",
+"m": "婴儿（baby的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"babies\" in the recording.",
+"ipa": "/ˈbeɪbiz/"
+},
+{
+"w": "babysitting",
+"m": "n. 当临时保姆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"babysitting\" in the recording.",
+"ipa": "/ˈbeɪbiˌsɪtɪŋ/"
+},
+{
+"w": "bachelor",
+"m": "n. 学士",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bachelor\" in the recording.",
+"ipa": "/ˈbæʧələr/"
+},
+{
+"w": "back",
+"m": "n. 背部adj.后面的adv回原处",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"back\" in the recording.",
+"ipa": "/bæk/"
+},
+{
+"w": "backfire",
+"m": "\"产生事与愿违的结果",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"backfire\" in the recording.",
+"ipa": "/ˈbækˌfaɪr/"
+},
+{
+"w": "background",
+"m": "n. 背景",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"background\" in the recording.",
+"ipa": "/ˈbækˌgraʊnd/"
+},
+{
+"w": "backpack",
+"m": "n. 背包",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"backpack\" in the recording.",
+"ipa": "/ˈbækˌpæk/"
+},
+{
+"w": "bacteria",
+"m": "n. 细菌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bacteria\" in the recording.",
+"ipa": "/bækˈtɪriə/"
+},
+{
+"w": "bad",
+"m": "adj. 坏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bad\" in the recording.",
+"ipa": "/bæd/"
+},
+{
+"w": "bags",
+"m": "n. 包，袋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bags\" in the recording.",
+"ipa": "/bægz/"
+},
+{
+"w": "bake",
+"m": "v. 烤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bake\" in the recording.",
+"ipa": "/beɪk/"
+},
+{
+"w": "balance",
+"m": "n. 平衡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"balance\" in the recording.",
+"ipa": "/ˈbæləns/"
+},
+{
+"w": "balcony",
+"m": "n. 阳台",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"balcony\" in the recording.",
+"ipa": "/ˈbælkəni/"
+},
+{
+"w": "ball",
+"m": "n. 球，舞会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ball\" in the recording.",
+"ipa": "/bɔl/"
+},
+{
+"w": "ballet",
+"m": "n. 芭蕾舞",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ballet\" in the recording.",
+"ipa": "/bæˈleɪ/"
+},
+{
+"w": "balloons",
+"m": "n. 气球",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"balloons\" in the recording.",
+"ipa": "/bəˈlunz/"
+},
+{
+"w": "ballroom",
+"m": "n. 舞厅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ballroom\" in the recording.",
+"ipa": "/ˈbɔˌlrum/"
+},
+{
+"w": "ban",
+"m": "n. &v禁止",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ban\" in the recording.",
+"ipa": "/bæn/"
+},
+{
+"w": "bananas",
+"m": "n. 香蕉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bananas\" in the recording.",
+"ipa": "/bəˈnænəz/"
+},
+{
+"w": "band",
+"m": "n. 乐队",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"band\" in the recording.",
+"ipa": "/bænd/"
+},
+{
+"w": "bank",
+"m": "n. 银行，岸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bank\" in the recording.",
+"ipa": "/bæŋk/"
+},
+{
+"w": "bar",
+"m": "n. 条，酒吧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bar\" in the recording.",
+"ipa": "/bɑr/"
+},
+{
+"w": "bargain",
+"m": "n. 讨价还价",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bargain\" in the recording.",
+"ipa": "/ˈbɑrgɪn/"
+},
+{
+"w": "barometer",
+"m": "n. 气压计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"barometer\" in the recording.",
+"ipa": "/bərˈɑmɪtər/"
+},
+{
+"w": "base",
+"m": "w以.作基础n.基地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"base\" in the recording.",
+"ipa": "/beɪs/"
+},
+{
+"w": "basically",
+"m": "adv. 主要地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"basically\" in the recording.",
+"ipa": "/ˈbeɪsɪkli/"
+},
+{
+"w": "bath",
+"m": "n. 沐浴，浴室v沐浴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bath\" in the recording.",
+"ipa": "/bæθ/"
+},
+{
+"w": "bathroom",
+"m": "n. 浴室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bathroom\" in the recording.",
+"ipa": "/ˈbæθˌrum/"
+},
+{
+"w": "bats",
+"m": "n. 蝙蝠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bats\" in the recording.",
+"ipa": "/bæts/"
+},
+{
+"w": "battery",
+"m": "n. 电池",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"battery\" in the recording.",
+"ipa": "/ˈbætəri/"
+},
+{
+"w": "bay",
+"m": "n. 海湾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bay\" in the recording.",
+"ipa": "/beɪ/"
+},
+{
+"w": "beaches",
+"m": "n. 海滩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beaches\" in the recording.",
+"ipa": "/ˈbiʧɪz/"
+},
+{
+"w": "beacon",
+"m": "n. 灯塔，信号浮标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beacon\" in the recording.",
+"ipa": "/ˈbikən/"
+},
+{
+"w": "beam",
+"m": "v. 发送",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beam\" in the recording.",
+"ipa": "/bim/"
+},
+{
+"w": "bears",
+"m": "v. 忍受n.熊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bears\" in the recording.",
+"ipa": "/bɛrz/"
+},
+{
+"w": "beautifu",
+"m": "adj. 美丽的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beautifu\" in the recording."
+},
+{
+"w": "beauty",
+"m": "n. 美人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beauty\" in the recording.",
+"ipa": "/ˈbjuti/"
+},
+{
+"w": "become",
+"m": "成为（过去式became）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"become\" in the recording.",
+"ipa": "/bɪˈkəm/"
+},
+{
+"w": "bed",
+"m": "n. 床",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bed\" in the recording.",
+"ipa": "/bɛd/"
+},
+{
+"w": "bedroom",
+"m": "n. 卧室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bedroom\" in the recording.",
+"ipa": "/ˈbɛˌdrum/"
+},
+{
+"w": "bedsit",
+"m": "n. 卧室兼起居室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bedsit\" in the recording."
+},
+{
+"w": "beer",
+"m": "n. 啤酒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beer\" in the recording.",
+"ipa": "/bɪr/"
+},
+{
+"w": "bees",
+"m": "n. 蜜蜂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bees\" in the recording.",
+"ipa": "/biz/"
+},
+{
+"w": "beetles",
+"m": "n. 甲虫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beetles\" in the recording.",
+"ipa": "/ˈbitəlz/"
+},
+{
+"w": "beetroot",
+"m": "n. 甜菜的根",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beetroot\" in the recording."
+},
+{
+"w": "before",
+"m": "prep. & conj.在.以前adv.以前",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"before\" in the recording.",
+"ipa": "/ˌbiˈfɔr/"
+},
+{
+"w": "beginners",
+"m": "n. 新手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beginners\" in the recording.",
+"ipa": "/bɪˈgɪnərz/"
+},
+{
+"w": "behaviour",
+"m": "n. 行为（美式behavior）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"behaviour\" in the recording.",
+"ipa": "/bɪˈheɪvjər/"
+},
+{
+"w": "behind",
+"m": "prep. 在.的后面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"behind\" in the recording.",
+"ipa": "/bɪˈhaɪnd/"
+},
+{
+"w": "believe",
+"m": "v. 相信",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"believe\" in the recording.",
+"ipa": "/bɪˈliv/"
+},
+{
+"w": "bell",
+"m": "n. 铃，钟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bell\" in the recording.",
+"ipa": "/bɛl/"
+},
+{
+"w": "belong",
+"m": "v. 属于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"belong\" in the recording.",
+"ipa": "/bɪˈlɔŋ/"
+},
+{
+"w": "below",
+"m": "prep. .在.下面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"below\" in the recording.",
+"ipa": "/bɪˈloʊ/"
+},
+{
+"w": "belt",
+"m": "n. 腰带",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"belt\" in the recording.",
+"ipa": "/bɛlt/"
+},
+{
+"w": "bend",
+"m": "w&n.转弯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bend\" in the recording.",
+"ipa": "/bɛnd/"
+},
+{
+"w": "benefits",
+"m": ".对.有益n.利益.",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"benefits\" in the recording.",
+"ipa": "/ˈbɛnəfɪts/"
+},
+{
+"w": "berry",
+"m": "n. 浆果（葡萄，番茄等）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"berry\" in the recording.",
+"ipa": "/ˈbɛri/"
+},
+{
+"w": "best",
+"m": "adj. 最好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"best\" in the recording.",
+"ipa": "/bɛst/"
+},
+{
+"w": "bet",
+"m": "v. 打赌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bet\" in the recording.",
+"ipa": "/bɛt/"
+},
+{
+"w": "between",
+"m": "pre.在·.之间ad介于.之间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"between\" in the recording.",
+"ipa": "/bɪtˈwin/"
+},
+{
+"w": "beyond",
+"m": "prep. 超过adv在更远处",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"beyond\" in the recording.",
+"ipa": "/bɪɔnd/"
+},
+{
+"w": "big",
+"m": "adj. 大的（最高级biggest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"big\" in the recording.",
+"ipa": "/bɪg/"
+},
+{
+"w": "bikes",
+"m": "n. 自行车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bikes\" in the recording.",
+"ipa": "/baɪks/"
+},
+{
+"w": "bils",
+"m": "n. 账单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bils\" in the recording."
+},
+{
+"w": "bin",
+"m": "n. 垃圾箱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bin\" in the recording.",
+"ipa": "/bɪn/"
+},
+{
+"w": "biodiversity",
+"m": "生物多样性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"biodiversity\" in the recording.",
+"ipa": "/ˌbaɪoʊdaɪˈvərsəti/"
+},
+{
+"w": "biography",
+"m": "n. 传记",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"biography\" in the recording.",
+"ipa": "/baɪˈɑgrəfi/"
+},
+{
+"w": "biology",
+"m": "n. 生物学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"biology\" in the recording.",
+"ipa": "/baɪˈɑləʤi/"
+},
+{
+"w": "birds",
+"m": "n. 鸟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"birds\" in the recording.",
+"ipa": "/bərdz/"
+},
+{
+"w": "birth",
+"m": "n. 出生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"birth\" in the recording.",
+"ipa": "/bərθ/"
+},
+{
+"w": "biscuits",
+"m": "n. 饼干",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"biscuits\" in the recording.",
+"ipa": "/ˈbɪskəts/"
+},
+{
+"w": "bit",
+"m": "adj. 很小的adv有点儿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bit\" in the recording.",
+"ipa": "/bɪt/"
+},
+{
+"w": "bitterness",
+"m": "n. 苦味",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bitterness\" in the recording.",
+"ipa": "/ˈbɪtərnəs/"
+},
+{
+"w": "bizarre",
+"m": "adj. 奇异的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bizarre\" in the recording.",
+"ipa": "/bɪˈzɑr/"
+},
+{
+"w": "black",
+"m": "adj. 黑色的n.黑色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"black\" in the recording.",
+"ipa": "/blæk/"
+},
+{
+"w": "blackbirds",
+"m": "n. 写东鸟，黑鹏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blackbirds\" in the recording.",
+"ipa": "/ˈblækbərdz/"
+},
+{
+"w": "blank",
+"m": "adj. 空白的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blank\" in the recording.",
+"ipa": "/blæŋk/"
+},
+{
+"w": "bleak",
+"m": "adj. 阴冷的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bleak\" in the recording.",
+"ipa": "/blik/"
+},
+{
+"w": "blind",
+"m": "adj. 瞎的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blind\" in the recording.",
+"ipa": "/blaɪnd/"
+},
+{
+"w": "blocks",
+"m": "v. 阻止n.街区，块",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blocks\" in the recording.",
+"ipa": "/blɑks/"
+},
+{
+"w": "blog",
+"m": "n. 博客",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blog\" in the recording.",
+"ipa": "/blɔg/"
+},
+{
+"w": "blonde",
+"m": "adj. 金发的（=blond）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blonde\" in the recording.",
+"ipa": "/blɑnd/"
+},
+{
+"w": "blood i",
+"m": "n. 血",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blood i\" in the recording.",
+"ipa": "/bləd aɪ/"
+},
+{
+"w": "blow",
+"m": "v. 吹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blow\" in the recording.",
+"ipa": "/bloʊ/"
+},
+{
+"w": "blue",
+"m": "adj. 蓝色的n.蓝色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"blue\" in the recording.",
+"ipa": "/blu/"
+},
+{
+"w": "board",
+"m": "w上（飞机、车、船等）n.木板；",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"board\" in the recording.",
+"ipa": "/bɔrd/"
+},
+{
+"w": "boats",
+"m": "n. 小船",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boats\" in the recording.",
+"ipa": "/boʊts/"
+},
+{
+"w": "bodies",
+"m": "n. 身体（body的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bodies\" in the recording.",
+"ipa": "/ˈbɑdiz/"
+},
+{
+"w": "boil",
+"m": "v. 煮沸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boil\" in the recording.",
+"ipa": "/bɔɪl/"
+},
+{
+"w": "bold",
+"m": "adj. 大胆的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bold\" in the recording.",
+"ipa": "/boʊld/"
+},
+{
+"w": "bones",
+"m": "n. 骨骼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bones\" in the recording.",
+"ipa": "/boʊnz/"
+},
+{
+"w": "booklets",
+"m": "n. 小册子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"booklets\" in the recording.",
+"ipa": "/ˈbʊklɪts/"
+},
+{
+"w": "books",
+"m": "n. 书籍v预订",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"books\" in the recording.",
+"ipa": "/bʊks/"
+},
+{
+"w": "bookshop",
+"m": "n. 书店（=bookstore）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bookshop\" in the recording.",
+"ipa": "/ˈbʊkˌʃɑp/"
+},
+{
+"w": "boom",
+"m": "兴旺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boom\" in the recording.",
+"ipa": "/bum/"
+},
+{
+"w": "boost",
+"m": "n. 推动V促进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boost\" in the recording.",
+"ipa": "/bust/"
+},
+{
+"w": "booth",
+"m": "n. 货摊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"booth\" in the recording.",
+"ipa": "/buθ/"
+},
+{
+"w": "boots",
+"m": "n. 靴子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boots\" in the recording.",
+"ipa": "/buts/"
+},
+{
+"w": "border",
+"m": "W与.接壤n.边境",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"border\" in the recording.",
+"ipa": "/ˈbɔrdər/"
+},
+{
+"w": "boring",
+"m": "adj. 无聊的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boring\" in the recording.",
+"ipa": "/ˈbɔrɪŋ/"
+},
+{
+"w": "born",
+"m": "v. 出生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"born\" in the recording.",
+"ipa": "/bɔrn/"
+},
+{
+"w": "botanics",
+"m": "adj. 植物的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"botanics\" in the recording."
+},
+{
+"w": "bother",
+"m": "v. 打扰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bother\" in the recording.",
+"ipa": "/ˈbɑðər/"
+},
+{
+"w": "bottle",
+"m": "n. 瓶子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bottle\" in the recording.",
+"ipa": "/ˈbɑtəl/"
+},
+{
+"w": "bottom",
+"m": "n. 底部",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bottom\" in the recording.",
+"ipa": "/ˈbɑtəm/"
+},
+{
+"w": "bound",
+"m": "n. 界限v限制adj.一定会(bound",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bound\" in the recording.",
+"ipa": "/baʊnd/"
+},
+{
+"w": "bow",
+"m": "n. 弓v翰躬",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bow\" in the recording.",
+"ipa": "/boʊ/"
+},
+{
+"w": "boxes",
+"m": "n. 盒子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boxes\" in the recording.",
+"ipa": "/ˈbɑksɪz/"
+},
+{
+"w": "boys",
+"m": "n. 男孩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"boys\" in the recording.",
+"ipa": "/bɔɪz/"
+},
+{
+"w": "bracket",
+"m": "n. 支架，范围",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bracket\" in the recording.",
+"ipa": "/ˈbrækɪt/"
+},
+{
+"w": "brains",
+"m": "n. 智力，大脑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brains\" in the recording.",
+"ipa": "/breɪnz/"
+},
+{
+"w": "brakes",
+"m": "n. 刹车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brakes\" in the recording.",
+"ipa": "/breɪks/"
+},
+{
+"w": "branch",
+"m": "n. 分支，树枝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"branch\" in the recording.",
+"ipa": "/brænʧ/"
+},
+{
+"w": "brands",
+"m": "n. 品牌\"败坏（某人）名声",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brands\" in the recording.",
+"ipa": "/brændz/"
+},
+{
+"w": "bracelets",
+"m": "n. 手镯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bracelets\" in the recording.",
+"ipa": "/ˈbreɪslɪts/"
+},
+{
+"w": "brave",
+"m": "adj. 勇敢的（比较级braver）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brave\" in the recording.",
+"ipa": "/breɪv/"
+},
+{
+"w": "break",
+"m": "w打破，弄坏（过去分词broken）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"break\" in the recording.",
+"ipa": "/breɪk/"
+},
+{
+"w": "breakfasts",
+"m": "n. 早餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"breakfasts\" in the recording.",
+"ipa": "/ˈbrɛkfəsts/"
+},
+{
+"w": "breakwater",
+"m": "n. 防浪堤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"breakwater\" in the recording.",
+"ipa": "/ˈbreɪkˌwɔtər/"
+},
+{
+"w": "breath",
+"m": "n. 呼吸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"breath\" in the recording.",
+"ipa": "/brɛθ/"
+},
+{
+"w": "breed",
+"m": "v. （使）动物繁殖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"breed\" in the recording.",
+"ipa": "/brid/"
+},
+{
+"w": "brick",
+"m": "n. 砖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brick\" in the recording.",
+"ipa": "/brɪk/"
+},
+{
+"w": "bridge",
+"m": "n. 桥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bridge\" in the recording.",
+"ipa": "/brɪʤ/"
+},
+{
+"w": "briefly",
+"m": "adv. 简略地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"briefly\" in the recording.",
+"ipa": "/ˈbrifli/"
+},
+{
+"w": "bright",
+"m": "adj. 明亮的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bright\" in the recording.",
+"ipa": "/braɪt/"
+},
+{
+"w": "brilliant",
+"m": "adj. 精彩的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brilliant\" in the recording.",
+"ipa": "/ˈbrɪljənt/"
+},
+{
+"w": "bring",
+"m": "w带来（过去分词brought）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bring\" in the recording.",
+"ipa": "/brɪŋ/"
+},
+{
+"w": "British",
+"m": "adj. 英国的，英国人的n.英国人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"British\" in the recording.",
+"ipa": "/ˈbrɪtɪʃ/"
+},
+{
+"w": "broad",
+"m": "adj. 宽的，辽阔的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"broad\" in the recording.",
+"ipa": "/brɔd/"
+},
+{
+"w": "brothers",
+"m": "n. 兄弟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brothers\" in the recording.",
+"ipa": "/ˈbrəðərz/"
+},
+{
+"w": "brown",
+"m": "adj. 棕色的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brown\" in the recording.",
+"ipa": "/braʊn/"
+},
+{
+"w": "brush",
+"m": "n. 刷子v刷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"brush\" in the recording.",
+"ipa": "/brəʃ/"
+},
+{
+"w": "budget",
+"m": "n. 预算",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"budget\" in the recording.",
+"ipa": "/ˈbəʤɪt/"
+},
+{
+"w": "buffet",
+"m": "adj. 自助的n.自助餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"buffet\" in the recording.",
+"ipa": "/ˈbəfət/"
+},
+{
+"w": "build",
+"m": "n. 体形v建造（过去式built）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"build\" in the recording.",
+"ipa": "/bɪld/"
+},
+{
+"w": "buildings",
+"m": "n. 建筑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"buildings\" in the recording.",
+"ipa": "/ˈbɪldɪŋz/"
+},
+{
+"w": "bullying",
+"m": "n. 恃强欺弱的行为，霸凌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bullying\" in the recording.",
+"ipa": "/ˈbʊliɪŋ/"
+},
+{
+"w": "bunch",
+"m": "n. 串；群",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bunch\" in the recording.",
+"ipa": "/bənʧ/"
+},
+{
+"w": "burn",
+"m": "v. 燃烧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"burn\" in the recording.",
+"ipa": "/bərn/"
+},
+{
+"w": "bury",
+"m": "v. 埋葬",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bury\" in the recording.",
+"ipa": "/ˈbɛri/"
+},
+{
+"w": "bus",
+"m": "n. 公共汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bus\" in the recording.",
+"ipa": "/bəs/"
+},
+{
+"w": "bushes",
+"m": "n. 灌木，丛林地带",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bushes\" in the recording.",
+"ipa": "/ˈbʊʃəz/"
+},
+{
+"w": "bushfires",
+"m": "n. 丛林大火",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bushfires\" in the recording."
+},
+{
+"w": "business",
+"m": "n. 商业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"business\" in the recording.",
+"ipa": "/ˈbɪznɪs/"
+},
+{
+"w": "bustling",
+"m": "adj. 熙熙镶攘的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"bustling\" in the recording.",
+"ipa": "/ˈbəsəlɪŋ/"
+},
+{
+"w": "busy",
+"m": "adj. 忙碌的（最高级busiest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"busy\" in the recording.",
+"ipa": "/ˈbɪzi/"
+},
+{
+"w": "butters",
+"m": "n. 黄油",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"butters\" in the recording.",
+"ipa": "/ˈbətərz/"
+},
+{
+"w": "butterfies",
+"m": "蝴蝶（butterfly的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"butterfies\" in the recording."
+},
+{
+"w": "button",
+"m": "n. 按钮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"button\" in the recording.",
+"ipa": "/ˈbətən/"
+},
+{
+"w": "buy",
+"m": "v. 买（过去式／过去分词bought）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"buy\" in the recording.",
+"ipa": "/baɪ/"
+},
+{
+"w": "cab",
+"m": "n. 出租汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cab\" in the recording.",
+"ipa": "/kæb/"
+},
+{
+"w": "cabins",
+"m": "n. 小屋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cabins\" in the recording.",
+"ipa": "/ˈkæbənz/"
+},
+{
+"w": "cafe",
+"m": "n. 咖啡馆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cafe\" in the recording.",
+"ipa": "/kəˈfeɪ/"
+},
+{
+"w": "cafeteria",
+"m": "n. 自助餐厅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cafeteria\" in the recording.",
+"ipa": "/ˌkæfəˈtɪriə/"
+},
+{
+"w": "cakes",
+"m": "n. 蛋糕",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cakes\" in the recording.",
+"ipa": "/keɪks/"
+},
+{
+"w": "calculation",
+"m": "n. 计算",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"calculation\" in the recording.",
+"ipa": "/ˌkælkjəˈleɪʃən/"
+},
+{
+"w": "calendar",
+"m": "n. 日历",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"calendar\" in the recording.",
+"ipa": "/ˈkæləndər/"
+},
+{
+"w": "calf",
+"m": "n. 小牛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"calf\" in the recording.",
+"ipa": "/kæf/"
+},
+{
+"w": "cal",
+"m": "\"呼叫，称呼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cal\" in the recording.",
+"ipa": "/kæl/"
+},
+{
+"w": "calm",
+"m": "adj. 平静的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"calm\" in the recording.",
+"ipa": "/kɑm/"
+},
+{
+"w": "calories",
+"m": "n. 卡路里（calory的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"calories\" in the recording.",
+"ipa": "/ˈkælɔˌriz/"
+},
+{
+"w": "camel",
+"m": "n. 骆驼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"camel\" in the recording.",
+"ipa": "/ˈkæməl/"
+},
+{
+"w": "cameras",
+"m": "n. 摄像机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cameras\" in the recording.",
+"ipa": "/ˈkæmərəz/"
+},
+{
+"w": "campaign",
+"m": "n. 运动，竞选v领导或参加运动",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"campaign\" in the recording.",
+"ipa": "/kæmˈpeɪn/"
+},
+{
+"w": "Canada",
+"m": "n. 加拿大（北美洲国家）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Canada\" in the recording.",
+"ipa": "/ˈkænədə/"
+},
+{
+"w": "Canadian",
+"m": "n. 加拿大人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Canadian\" in the recording.",
+"ipa": "/kəˈneɪdiən/"
+},
+{
+"w": "canal",
+"m": "n. 运河",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"canal\" in the recording.",
+"ipa": "/kəˈnæl/"
+},
+{
+"w": "candidates",
+"m": "n. 候选人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"candidates\" in the recording.",
+"ipa": "/ˈkænədɪts/"
+},
+{
+"w": "canteen",
+"m": "n. 食堂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"canteen\" in the recording.",
+"ipa": "/kænˈtin/"
+},
+{
+"w": "cap",
+"m": "n. 盖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cap\" in the recording.",
+"ipa": "/kæp/"
+},
+{
+"w": "capital",
+"m": "n. 首都；资金；大写字母",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"capital\" in the recording.",
+"ipa": "/ˈkæpɪtəl/"
+},
+{
+"w": "captain",
+"m": "n. 队长",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"captain\" in the recording.",
+"ipa": "/ˈkæptən/"
+},
+{
+"w": "caravan",
+"m": "n. 大篷车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"caravan\" in the recording.",
+"ipa": "/ˈkɛrəˌvæn/"
+},
+{
+"w": "carbon",
+"m": "n. 碳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carbon\" in the recording.",
+"ipa": "/ˈkɑrbən/"
+},
+{
+"w": "cards",
+"m": "n. 卡片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cards\" in the recording.",
+"ipa": "/kɑrdz/"
+},
+{
+"w": "care l",
+"m": "n. &v关怀",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"care l\" in the recording.",
+"ipa": "/kɛr ɛl/"
+},
+{
+"w": "career",
+"m": "n. 职业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"career\" in the recording.",
+"ipa": "/kərɪr/"
+},
+{
+"w": "carefu",
+"m": "adj. 仔细的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carefu\" in the recording."
+},
+{
+"w": "cargoes",
+"m": "n. 货物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cargoes\" in the recording.",
+"ipa": "/ˈkɑrˌgoʊz/"
+},
+{
+"w": "carnival",
+"m": "n. 嘉年华会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carnival\" in the recording.",
+"ipa": "/ˈkɑrnəvəl/"
+},
+{
+"w": "carpentry",
+"m": "n. 木工手艺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carpentry\" in the recording.",
+"ipa": "/ˈkɑrpəntri/"
+},
+{
+"w": "carpets",
+"m": "n. 地毯w厚厚地铺上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carpets\" in the recording.",
+"ipa": "/ˈkɑrpəts/"
+},
+{
+"w": "cars",
+"m": "n. 汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cars\" in the recording.",
+"ipa": "/kɑz/"
+},
+{
+"w": "cartoon",
+"m": "n. 动画片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cartoon\" in the recording.",
+"ipa": "/kɑrˈtun/"
+},
+{
+"w": "carts",
+"m": "n. 手推车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"carts\" in the recording.",
+"ipa": "/kɑrts/"
+},
+{
+"w": "cases",
+"m": "n. 情况，案例",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cases\" in the recording.",
+"ipa": "/ˈkeɪsɪz/"
+},
+{
+"w": "cash",
+"m": "n. 现金",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cash\" in the recording.",
+"ipa": "/kæʃ/"
+},
+{
+"w": "cast",
+"m": "n. 演员（阵容）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cast\" in the recording.",
+"ipa": "/kæst/"
+},
+{
+"w": "castles",
+"m": "n. 城堡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"castles\" in the recording.",
+"ipa": "/ˈkæsəlz/"
+},
+{
+"w": "casual",
+"m": "adj. 随便的，非正式的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"casual\" in the recording.",
+"ipa": "/ˈkæʒəwəl/"
+},
+{
+"w": "catalogues",
+"m": "n. 目录（美式catalog）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"catalogues\" in the recording.",
+"ipa": "/ˈkætəˌlɔgz/"
+},
+{
+"w": "catastrophes",
+"m": "n. 大灾难",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"catastrophes\" in the recording.",
+"ipa": "/kəˈtæstrəfiz/"
+},
+{
+"w": "catch",
+"m": "v. 抓住（过去式caught）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"catch\" in the recording.",
+"ipa": "/kæʧ/"
+},
+{
+"w": "categories",
+"m": "n. 分类（category的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"categories\" in the recording.",
+"ipa": "/ˈkætəˌgɔriz/"
+},
+{
+"w": "catering",
+"m": "n. （会议或社交活动的）饮食服务",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"catering\" in the recording.",
+"ipa": "/ˈkeɪtərɪŋ/"
+},
+{
+"w": "cathedral",
+"m": "n. 大教堂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cathedral\" in the recording.",
+"ipa": "/kəˈθidrəl/"
+},
+{
+"w": "cattle",
+"m": "n. 牲畜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cattle\" in the recording.",
+"ipa": "/ˈkætəl/"
+},
+{
+"w": "cause",
+"m": "w引起n.原因",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cause\" in the recording.",
+"ipa": "/kɔz/"
+},
+{
+"w": "caves",
+"m": "n. 山洞",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"caves\" in the recording.",
+"ipa": "/keɪvz/"
+},
+{
+"w": "celebration",
+"m": "n. 庆典",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"celebration\" in the recording.",
+"ipa": "/ˌsɛləˈbreɪʃən/"
+},
+{
+"w": "celebrity",
+"m": "n. 名人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"celebrity\" in the recording.",
+"ipa": "/səˈlɛbrɪti/"
+},
+{
+"w": "celestial",
+"m": "adj. 天空的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"celestial\" in the recording.",
+"ipa": "/səˈlɛsʧəl/"
+},
+{
+"w": "cell",
+"m": "n. 细胞；电池；蜂房的巢室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cell\" in the recording.",
+"ipa": "/sɛl/"
+},
+{
+"w": "cement",
+"m": "n. 水泥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cement\" in the recording.",
+"ipa": "/sɪˈmɛnt/"
+},
+{
+"w": "census",
+"m": "n. 人口普查",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"census\" in the recording.",
+"ipa": "/ˈsɛnsəs/"
+},
+{
+"w": "centimetres",
+"m": "n. 厘米",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"centimetres\" in the recording.",
+"ipa": "/ˈsɛntəˌmitərz/"
+},
+{
+"w": "centra",
+"m": "adj. 中心的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"centra\" in the recording."
+},
+{
+"w": "centre",
+"m": "n. 中心（美式center）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"centre\" in the recording.",
+"ipa": "/ˈsɛntər/"
+},
+{
+"w": "centuries",
+"m": "n. 世纪（century的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"centuries\" in the recording.",
+"ipa": "/ˈsɛnʧəriz/"
+},
+{
+"w": "ceramics",
+"m": "n. 陶瓷工艺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ceramics\" in the recording.",
+"ipa": "/sərˈæmɪks/"
+},
+{
+"w": "cereal",
+"m": "n. 谷物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cereal\" in the recording.",
+"ipa": "/ˈsɪriəl/"
+},
+{
+"w": "ceremonies",
+"m": "n. 仪式，典礼（ceremony的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ceremonies\" in the recording.",
+"ipa": "/ˈsɛrəˌmoʊniz/"
+},
+{
+"w": "certain",
+"m": "adj. 某一pron.某些",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"certain\" in the recording.",
+"ipa": "/ˈsərtən/"
+},
+{
+"w": "certificates",
+"m": "n. 证书，文凭",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"certificates\" in the recording.",
+"ipa": "/sərˈtɪfɪkəts/"
+},
+{
+"w": "chains",
+"m": "n. 链",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chains\" in the recording.",
+"ipa": "/ʧeɪnz/"
+},
+{
+"w": "chairman",
+"m": "n. 主席",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chairman\" in the recording.",
+"ipa": "/ˈʧɛrmən/"
+},
+{
+"w": "chairs",
+"m": "n. 椅子；主席",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chairs\" in the recording.",
+"ipa": "/ʧɛrz/"
+},
+{
+"w": "challenge",
+"m": "n. &v挑战",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"challenge\" in the recording.",
+"ipa": "/ˈʧælənʤ/"
+},
+{
+"w": "chances",
+"m": "n. 机会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chances\" in the recording.",
+"ipa": "/ˈʧænsɪz/"
+},
+{
+"w": "changes",
+"m": "n. &v变化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"changes\" in the recording.",
+"ipa": "/ˈʧeɪnʤɪz/"
+},
+{
+"w": "channels",
+"m": "n. 通道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"channels\" in the recording.",
+"ipa": "/ˈʧænəlz/"
+},
+{
+"w": "chapter",
+"m": "n. 章",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chapter\" in the recording.",
+"ipa": "/ˈʧæptər/"
+},
+{
+"w": "characters",
+"m": "n. 特性，人物角色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"characters\" in the recording.",
+"ipa": "/ˈkɛrɪktərz/"
+},
+{
+"w": "charcoal",
+"m": "n. 木炭",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"charcoal\" in the recording.",
+"ipa": "/ˈʧɑrˌkoʊl/"
+},
+{
+"w": "charge",
+"m": "w索价，控告n.费用，掌管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"charge\" in the recording.",
+"ipa": "/ʧɑrʤ/"
+},
+{
+"w": "charities",
+"m": "n. 慈善（charity的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"charities\" in the recording.",
+"ipa": "/ˈʧɛrɪtiz/"
+},
+{
+"w": "chat",
+"m": "v&n.聊天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chat\" in the recording.",
+"ipa": "/ʧæt/"
+},
+{
+"w": "cheap",
+"m": "adj. 便宜的（比较级cheaper）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cheap\" in the recording.",
+"ipa": "/ʧip/"
+},
+{
+"w": "check",
+"m": "v. 检查n.支票（=cheque）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"check\" in the recording.",
+"ipa": "/ʧɛk/"
+},
+{
+"w": "checklist",
+"m": "n. 清单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"checklist\" in the recording.",
+"ipa": "/ˈʧɛˌklɪst/"
+},
+{
+"w": "cheese",
+"m": "n. 奶酪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cheese\" in the recording.",
+"ipa": "/ʧiz/"
+},
+{
+"w": "chemicals",
+"m": "adj. 化学的n.化学药品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chemicals\" in the recording.",
+"ipa": "/ˈkɛmɪkəlz/"
+},
+{
+"w": "chemistry",
+"m": "n. 化学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chemistry\" in the recording.",
+"ipa": "/ˈkɛmɪstri/"
+},
+{
+"w": "chess",
+"m": "n. 国际象棋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chess\" in the recording.",
+"ipa": "/ʧɛs/"
+},
+{
+"w": "chicken",
+"m": "n. 鸡肉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chicken\" in the recording.",
+"ipa": "/ˈʧɪkən/"
+},
+{
+"w": "chicks",
+"m": "n. 小鸡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chicks\" in the recording.",
+"ipa": "/ʧɪks/"
+},
+{
+"w": "chief",
+"m": "adj. 主要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chief\" in the recording.",
+"ipa": "/ʧif/"
+},
+{
+"w": "childcare",
+"m": "n. 儿童照管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"childcare\" in the recording.",
+"ipa": "/ˈʧaɪldˌkɛr/"
+},
+{
+"w": "childhood",
+"m": "n. 童年时期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"childhood\" in the recording.",
+"ipa": "/ˈʧaɪlˌdhʊd/"
+},
+{
+"w": "childish",
+"m": "adj. 幼稚的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"childish\" in the recording.",
+"ipa": "/ˈʧaɪldɪʃ/"
+},
+{
+"w": "children",
+"m": "n. 儿童",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"children\" in the recording.",
+"ipa": "/ˈʧɪldrən/"
+},
+{
+"w": "Chinas",
+"m": "n. 中国",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Chinas\" in the recording."
+},
+{
+"w": "Chineses",
+"m": "adj. 中国的n.中国人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Chineses\" in the recording."
+},
+{
+"w": "chisel",
+"m": "n. 凿子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chisel\" in the recording.",
+"ipa": "/ˈʧɪzəl/"
+},
+{
+"w": "chocolates",
+"m": "n. 巧克力糖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chocolates\" in the recording.",
+"ipa": "/ˈʧɔkləts/"
+},
+{
+"w": "choice",
+"m": "n. 选择",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"choice\" in the recording.",
+"ipa": "/ʧɔɪs/"
+},
+{
+"w": "choose",
+"m": "v. 选择（过去式chose过去分词",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"choose\" in the recording.",
+"ipa": "/ʧuz/"
+},
+{
+"w": "chop",
+"m": "v. 刹碎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chop\" in the recording.",
+"ipa": "/ʧɑp/"
+},
+{
+"w": "Christmas",
+"m": "n. 圣诞节",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Christmas\" in the recording.",
+"ipa": "/ˈkrɪsməs/"
+},
+{
+"w": "chronological",
+"m": "adj. 按发生时间顺序排列的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"chronological\" in the recording.",
+"ipa": "/ˌkrɑnəˈlɑʤɪkəl/"
+},
+{
+"w": "church",
+"m": "n. 教堂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"church\" in the recording.",
+"ipa": "/ʧərʧ/"
+},
+{
+"w": "cigar",
+"m": "雪茄",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cigar\" in the recording.",
+"ipa": "/sɪˈgɑr/"
+},
+{
+"w": "cinema",
+"m": "n. 电影院",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cinema\" in the recording.",
+"ipa": "/ˈsɪnəmə/"
+},
+{
+"w": "circular",
+"m": "adj. 循环的，圆形的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"circular\" in the recording.",
+"ipa": "/ˈsərkjələr/"
+},
+{
+"w": "circulation",
+"m": "n. 流通",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"circulation\" in the recording.",
+"ipa": "/ˈsərkjəˌleɪʃən/"
+},
+{
+"w": "circumstances",
+"m": "n. 情况，环境",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"circumstances\" in the recording.",
+"ipa": "/ˈsərkəmˌstænsɪz/"
+},
+{
+"w": "cities",
+"m": "n. 城市（city的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cities\" in the recording.",
+"ipa": "/ˈsɪtiz/"
+},
+{
+"w": "civilisations",
+"m": "n. 文明（美式civilization）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"civilisations\" in the recording."
+},
+{
+"w": "claims",
+"m": "w&n.宣称",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"claims\" in the recording.",
+"ipa": "/kleɪmz/"
+},
+{
+"w": "clamour",
+"m": "v. 吵闹，大声地要求",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clamour\" in the recording.",
+"ipa": "/ˈklæmər/"
+},
+{
+"w": "clarinet",
+"m": "n. 单簧管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clarinet\" in the recording.",
+"ipa": "/ˌklɛrəˈnɛt/"
+},
+{
+"w": "classes",
+"m": "n. 班级，课程，阶级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"classes\" in the recording.",
+"ipa": "/ˈklæsɪz/"
+},
+{
+"w": "classical",
+"m": "adj. 古典的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"classical\" in the recording.",
+"ipa": "/ˈklæsɪkəl/"
+},
+{
+"w": "classroom",
+"m": "n. 教室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"classroom\" in the recording.",
+"ipa": "/ˈklæsˌrum/"
+},
+{
+"w": "claws",
+"m": "n. 爪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"claws\" in the recording.",
+"ipa": "/klɔz/"
+},
+{
+"w": "clay",
+"m": "n. 黏土",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clay\" in the recording.",
+"ipa": "/kleɪ/"
+},
+{
+"w": "clean",
+"m": "v. 打扫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clean\" in the recording.",
+"ipa": "/klin/"
+},
+{
+"w": "cleaners",
+"m": "n. 清洁工",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cleaners\" in the recording.",
+"ipa": "/ˈklinərz/"
+},
+{
+"w": "clear",
+"m": "adj. 晴朗的，清楚的（比较级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clear\" in the recording.",
+"ipa": "/klɪr/"
+},
+{
+"w": "clerical",
+"m": "adj. 办事员的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clerical\" in the recording.",
+"ipa": "/ˈklɛrɪkəl/"
+},
+{
+"w": "lien",
+"m": "n. 客户",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lien\" in the recording.",
+"ipa": "/lin/"
+},
+{
+"w": "clif",
+"m": "n. 悬崖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clif\" in the recording.",
+"ipa": "/klɪf/"
+},
+{
+"w": "climate",
+"m": "n. 气候",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"climate\" in the recording.",
+"ipa": "/ˈklaɪmɪt/"
+},
+{
+"w": "climbs",
+"m": "n. 山道v爬山",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"climbs\" in the recording.",
+"ipa": "/klaɪmz/"
+},
+{
+"w": "clinic",
+"m": "n. 诊所",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clinic\" in the recording.",
+"ipa": "/ˈklɪnɪk/"
+},
+{
+"w": "clips",
+"m": "n. 回形针",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clips\" in the recording.",
+"ipa": "/klɪps/"
+},
+{
+"w": "clocks",
+"m": "n. 时钟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clocks\" in the recording.",
+"ipa": "/klɑks/"
+},
+{
+"w": "close",
+"m": "w关闭，靠近adj.紧密的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"close\" in the recording.",
+"ipa": "/kloʊz/"
+},
+{
+"w": "closer",
+"m": "adj. 靠近的（close的比较级）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"closer\" in the recording.",
+"ipa": "/ˈkloʊzər/"
+},
+{
+"w": "clothes",
+"m": "n. 衣服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clothes\" in the recording.",
+"ipa": "/kloʊðz/"
+},
+{
+"w": "clouds",
+"m": "n. 云彩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clouds\" in the recording.",
+"ipa": "/klaʊdz/"
+},
+{
+"w": "clubhouse",
+"m": "n. 俱乐部",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clubhouse\" in the recording.",
+"ipa": "/ˈkləˌbhaʊs/"
+},
+{
+"w": "clubs",
+"m": "n. 俱乐部",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"clubs\" in the recording.",
+"ipa": "/kləbz/"
+},
+{
+"w": "coach",
+"m": "n. 长途公车；教练",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coach\" in the recording.",
+"ipa": "/koʊʧ/"
+},
+{
+"w": "coal",
+"m": "n. 煤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coal\" in the recording.",
+"ipa": "/koʊl/"
+},
+{
+"w": "coast",
+"m": "n. 海岸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coast\" in the recording.",
+"ipa": "/koʊst/"
+},
+{
+"w": "coats",
+"m": "n. 外套",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coats\" in the recording.",
+"ipa": "/koʊts/"
+},
+{
+"w": "code",
+"m": "n. 代码，密码",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"code\" in the recording.",
+"ipa": "/koʊd/"
+},
+{
+"w": "coffee",
+"m": "n. 咖啡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coffee\" in the recording.",
+"ipa": "/ˈkɔfi/"
+},
+{
+"w": "cognitive",
+"m": "adj. 认知的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cognitive\" in the recording.",
+"ipa": "/ˈkɑgnɪtɪv/"
+},
+{
+"w": "cold",
+"m": "adj. 寒冷的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cold\" in the recording.",
+"ipa": "/koʊld/"
+},
+{
+"w": "collaborations",
+"m": "n. 合作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"collaborations\" in the recording.",
+"ipa": "/ˌkɑləbərˈeɪʃənz/"
+},
+{
+"w": "collate",
+"m": "v. 核对",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"collate\" in the recording.",
+"ipa": "/kəˈleɪt/"
+},
+{
+"w": "colleagues",
+"m": "n. 同事",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"colleagues\" in the recording.",
+"ipa": "/ˈkɑligz/"
+},
+{
+"w": "collect",
+"m": "v. 收集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"collect\" in the recording.",
+"ipa": "/kəˈlɛkt/"
+},
+{
+"w": "collection",
+"m": "n. 采集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"collection\" in the recording.",
+"ipa": "/kəˈlɛkʃən/"
+},
+{
+"w": "college",
+"m": "n. 大学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"college\" in the recording.",
+"ipa": "/ˈkɑlɪʤ/"
+},
+{
+"w": "colonies",
+"m": "n. 殖民地，种群（colony的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"colonies\" in the recording.",
+"ipa": "/ˈkɑləniz/"
+},
+{
+"w": "colours",
+"m": "n. 颜色w.给着色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"colours\" in the recording."
+},
+{
+"w": "columns",
+"m": "n. 列，圆柱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"columns\" in the recording.",
+"ipa": "/ˈkɑləmz/"
+},
+{
+"w": "combine",
+"m": "联合",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"combine\" in the recording.",
+"ipa": "/ˈkɑmbaɪn/"
+},
+{
+"w": "comedy",
+"m": "n. 喜剧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comedy\" in the recording.",
+"ipa": "/ˈkɑmədi/"
+},
+{
+"w": "comets",
+"m": "n. 彗星",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comets\" in the recording.",
+"ipa": "/ˈkɑməts/"
+},
+{
+"w": "comfortable",
+"m": "adj. 舒适的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comfortable\" in the recording.",
+"ipa": "/ˈkəmfərtəbəl/"
+},
+{
+"w": "comics",
+"m": "n. 漫画",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comics\" in the recording.",
+"ipa": "/ˈkɑmɪks/"
+},
+{
+"w": "comments",
+"m": "n. 评论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comments\" in the recording.",
+"ipa": "/ˈkɑmɛnts/"
+},
+{
+"w": "commercial",
+"m": "adj. 商业的n.商业广告",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"commercial\" in the recording.",
+"ipa": "/kəˈmərʃəl/"
+},
+{
+"w": "commissions",
+"m": "n. 佣金",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"commissions\" in the recording.",
+"ipa": "/kəˈmɪʃənz/"
+},
+{
+"w": "commitments",
+"m": "n. 承诺，委托",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"commitments\" in the recording.",
+"ipa": "/kəˈmɪtmənts/"
+},
+{
+"w": "committee",
+"m": "n. 委员会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"committee\" in the recording.",
+"ipa": "/kəˈmɪti/"
+},
+{
+"w": "communicate",
+"m": "v. 交流",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"communicate\" in the recording.",
+"ipa": "/kəmˈjunəˌkeɪt/"
+},
+{
+"w": "communications",
+"m": "n. 通信，沟通",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"communications\" in the recording.",
+"ipa": "/kəmˌjunəˈkeɪʃənz/"
+},
+{
+"w": "communities",
+"m": "n. 社区（community的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"communities\" in the recording.",
+"ipa": "/kəmˈjunɪtiz/"
+},
+{
+"w": "commutes",
+"m": "v&n.（搭乘车、船等）通勤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"commutes\" in the recording.",
+"ipa": "/kəmˈjuts/"
+},
+{
+"w": "commuter",
+"m": "n. 通勤者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"commuter\" in the recording.",
+"ipa": "/kəmˈjutər/"
+},
+{
+"w": "compatible",
+"m": "adj. 兼容的，能共处的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compatible\" in the recording.",
+"ipa": "/kəmˈpætəbəl/"
+},
+{
+"w": "companies",
+"m": "n. 公司（company的复数）v.陪伴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"companies\" in the recording.",
+"ipa": "/ˈkəmpəˌniz/"
+},
+{
+"w": "companionship",
+"m": "n. 友谊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"companionship\" in the recording.",
+"ipa": "/kəmˈpænjənˌʃɪp/"
+},
+{
+"w": "compare",
+"m": "W比较",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compare\" in the recording.",
+"ipa": "/kəmˈpɛr/"
+},
+{
+"w": "compartment",
+"m": ".隔间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compartment\" in the recording.",
+"ipa": "/kəmˈpɑrtmənt/"
+},
+{
+"w": "compasses",
+"m": "n. 指南针",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compasses\" in the recording."
+},
+{
+"w": "compensation",
+"m": "n. 补偿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compensation\" in the recording.",
+"ipa": "/ˌkɑmpənˈseɪʃən/"
+},
+{
+"w": "competitions",
+"m": "n. 比赛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"competitions\" in the recording.",
+"ipa": "/ˌkɑmpəˈtɪʃənz/"
+},
+{
+"w": "complain",
+"m": "w抱怨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complain\" in the recording.",
+"ipa": "/kəmˈpleɪn/"
+},
+{
+"w": "complementary",
+"m": "adj. 互补的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complementary\" in the recording.",
+"ipa": "/ˌkɑmpləˈmɛnʧi/"
+},
+{
+"w": "complete",
+"m": "adj. 完整的v完成",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complete\" in the recording.",
+"ipa": "/kəmˈplit/"
+},
+{
+"w": "complex",
+"m": "adj. 复杂的n.综合设施",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complex\" in the recording.",
+"ipa": "/ˈkɑmplɛks/"
+},
+{
+"w": "complicated",
+"m": "adj. 难懂的，复杂的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complicated\" in the recording.",
+"ipa": "/ˈkɑmpləˌkeɪtəd/"
+},
+{
+"w": "complimentary",
+"m": "adj. 赠送的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"complimentary\" in the recording.",
+"ipa": "/ˌkɑmpləˈmɛntəri/"
+},
+{
+"w": "components",
+"m": "n. 组成",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"components\" in the recording.",
+"ipa": "/kəmˈpoʊnənts/"
+},
+{
+"w": "compose",
+"m": "v. 组成；作曲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compose\" in the recording.",
+"ipa": "/kəmˈpoʊz/"
+},
+{
+"w": "compost",
+"m": "n. 堆肥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compost\" in the recording.",
+"ipa": "/ˈkɑmpoʊst/"
+},
+{
+"w": "composition",
+"m": "n. 构成；作曲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"composition\" in the recording.",
+"ipa": "/ˌkɑmpəˈzɪʃən/"
+},
+{
+"w": "comprehensive",
+"m": "adj. 综合的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"comprehensive\" in the recording.",
+"ipa": "/ˌkɑmpriˈhɛnsɪv/"
+},
+{
+"w": "compulsory",
+"m": "adj. 义务的，强制的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"compulsory\" in the recording.",
+"ipa": "/kəmˈpəlsəri/"
+},
+{
+"w": "computers",
+"m": "n. 计算机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"computers\" in the recording.",
+"ipa": "/kəmˈpjutərz/"
+},
+{
+"w": "concentrate",
+"m": "w集中",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"concentrate\" in the recording.",
+"ipa": "/ˈkɑnsənˌtreɪt/"
+},
+{
+"w": "concept",
+"m": "n. 观念",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"concept\" in the recording.",
+"ipa": "/ˈkɑnsɛpt/"
+},
+{
+"w": "concern",
+"m": "w担心n.担心，企业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"concern\" in the recording.",
+"ipa": "/kənˈsərn/"
+},
+{
+"w": "concerts",
+"m": "n. 音乐会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"concerts\" in the recording.",
+"ipa": "/ˈkɑnsərts/"
+},
+{
+"w": "conclusions",
+"m": "conclude（v）决定，推断",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conclusions\" in the recording.",
+"ipa": "/kənˈkluʒənz/"
+},
+{
+"w": "concrete",
+"m": "n. 混凝土",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"concrete\" in the recording.",
+"ipa": "/ˈkɑnkrit/"
+},
+{
+"w": "conditions",
+"m": "conditioning调节",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conditions\" in the recording.",
+"ipa": "/kənˈdɪʃənz/"
+},
+{
+"w": "conference",
+"m": "会议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conference\" in the recording.",
+"ipa": "/ˈkɑnfərəns/"
+},
+{
+"w": "confident",
+"m": "adj. 自信的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"confident\" in the recording.",
+"ipa": "/ˈkɑnfədənt/"
+},
+{
+"w": "confidential",
+"m": "adj. 机密的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"confidential\" in the recording.",
+"ipa": "/ˌkɑnfəˈdɛnʃəl/"
+},
+{
+"w": "confirm",
+"m": "v. 确认",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"confirm\" in the recording.",
+"ipa": "/kənˈfərm/"
+},
+{
+"w": "confi",
+"m": "n. 矛盾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"confi\" in the recording."
+},
+{
+"w": "confusion",
+"m": "n. 混乱，困惑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"confusion\" in the recording.",
+"ipa": "/kənfˈjuʒən/"
+},
+{
+"w": "congestion",
+"m": "n. 拥挤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"congestion\" in the recording.",
+"ipa": "/kənˈʤɛsʧən/"
+},
+{
+"w": "congratulations",
+"m": "n. 祝贺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"congratulations\" in the recording.",
+"ipa": "/kənˌgræʧəˈleɪʃənz/"
+},
+{
+"w": "connect",
+"m": "connected有联系的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"connect\" in the recording.",
+"ipa": "/kəˈnɛkt/"
+},
+{
+"w": "conquer",
+"m": "v. 战胜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conquer\" in the recording.",
+"ipa": "/ˈkɑŋkər/"
+},
+{
+"w": "conscious",
+"m": "adj. 意识到的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conscious\" in the recording.",
+"ipa": "/ˈkɑnʃəs/"
+},
+{
+"w": "conservation",
+"m": "n. 保护",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conservation\" in the recording.",
+"ipa": "/ˌkɑnsərˈveɪʃən/"
+},
+{
+"w": "consideration",
+"m": "n. 考虑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consideration\" in the recording.",
+"ipa": "/kənˌsɪdərˈeɪʃən/"
+},
+{
+"w": "consist",
+"m": "W由·组成",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consist\" in the recording.",
+"ipa": "/kənˈsɪst/"
+},
+{
+"w": "consistent",
+"m": "adj. 始终如一的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consistent\" in the recording.",
+"ipa": "/kənˈsɪstənt/"
+},
+{
+"w": "consolidation",
+"m": "n. 巩固",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consolidation\" in the recording.",
+"ipa": "/kənˌsɑləˈdeɪʃən/"
+},
+{
+"w": "constant",
+"m": "adj. 经常的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"constant\" in the recording.",
+"ipa": "/ˈkɑnstənt/"
+},
+{
+"w": "construct",
+"m": "v. 建造",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"construct\" in the recording.",
+"ipa": "/ˈkɑnstrəkt/"
+},
+{
+"w": "consult",
+"m": "查阅，请教",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consult\" in the recording.",
+"ipa": "/kənˈsəlt/"
+},
+{
+"w": "consumers",
+"m": "n. 消费者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consumers\" in the recording.",
+"ipa": "/kənˈsumərz/"
+},
+{
+"w": "consumption",
+"m": "n. 消费",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"consumption\" in the recording.",
+"ipa": "/kənˈsəmʃən/"
+},
+{
+"w": "contacts",
+"m": "w联系n.联系人，联系",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contacts\" in the recording.",
+"ipa": "/ˈkɑnˌtækts/"
+},
+{
+"w": "contain",
+"m": "v. 包含",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contain\" in the recording.",
+"ipa": "/kənˈteɪn/"
+},
+{
+"w": "containers",
+"m": "n. 容器，集装箱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"containers\" in the recording.",
+"ipa": "/kənˈteɪnərz/"
+},
+{
+"w": "contamination",
+"m": "n. 污染",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contamination\" in the recording.",
+"ipa": "/kənˌtæməˈneɪʃən/"
+},
+{
+"w": "contemporary",
+"m": "adj. 当代的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contemporary\" in the recording.",
+"ipa": "/kənˈtɛmpərˌɛri/"
+},
+{
+"w": "content",
+"m": "n. 内容",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"content\" in the recording.",
+"ipa": "/ˈkɑntɛnt/"
+},
+{
+"w": "context",
+"m": "n. 上下文",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"context\" in the recording.",
+"ipa": "/ˈkɑntɛkst/"
+},
+{
+"w": "continent",
+"m": "n. 大陆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"continent\" in the recording.",
+"ipa": "/ˈkɑntənənt/"
+},
+{
+"w": "continue",
+"m": "v. 继续",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"continue\" in the recording.",
+"ipa": "/kənˈtɪnju/"
+},
+{
+"w": "contract",
+"m": "n. 合同",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contract\" in the recording.",
+"ipa": "/ˈkɑnˌtrækt/"
+},
+{
+"w": "contradict",
+"m": "v. 反驳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contradict\" in the recording.",
+"ipa": "/ˌkɑntrəˈdɪkt/"
+},
+{
+"w": "contrast",
+"m": "n. 对比",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contrast\" in the recording.",
+"ipa": "/ˈkɑntræst/"
+},
+{
+"w": "contribution",
+"m": "n. 贡献",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contribution\" in the recording.",
+"ipa": "/ˌkɑntrəˈbjuʃən/"
+},
+{
+"w": "contro",
+"m": "v. 控制",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"contro\" in the recording."
+},
+{
+"w": "controversy",
+"m": "n. 争论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"controversy\" in the recording.",
+"ipa": "/ˈkɑntrəˌvərsi/"
+},
+{
+"w": "convenient",
+"m": "adj. 方便的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"convenient\" in the recording.",
+"ipa": "/kənˈvinjənt/"
+},
+{
+"w": "conversations",
+"m": "n. 交谈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conversations\" in the recording.",
+"ipa": "/ˌkɑnvərˈseɪʃənz/"
+},
+{
+"w": "conversion",
+"m": "n. 转换",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"conversion\" in the recording.",
+"ipa": "/kənˈvərʒən/"
+},
+{
+"w": "convey",
+"m": "v. 传达",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"convey\" in the recording.",
+"ipa": "/kənˈveɪ/"
+},
+{
+"w": "convince",
+"m": "说服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"convince\" in the recording.",
+"ipa": "/kənˈvɪns/"
+},
+{
+"w": "cook",
+"m": "v. 烹调",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cook\" in the recording.",
+"ipa": "/kʊk/"
+},
+{
+"w": "cooker",
+"m": "n. 炊具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cooker\" in the recording.",
+"ipa": "/ˈkʊkər/"
+},
+{
+"w": "coo",
+"m": "adj. 凉爽的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coo\" in the recording.",
+"ipa": "/ku/"
+},
+{
+"w": "cooperation",
+"m": "n. 合作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cooperation\" in the recording.",
+"ipa": "/kˌwɔpərˈeɪʃən/"
+},
+{
+"w": "coordinates",
+"m": "n. 坐标v协调",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coordinates\" in the recording.",
+"ipa": "/koʊˈɔrdəˌneɪts/"
+},
+{
+"w": "cope I",
+"m": "v. 处理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cope I\" in the recording.",
+"ipa": "/koʊp aɪ/"
+},
+{
+"w": "copies",
+"m": "n. 副本（copy的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"copies\" in the recording.",
+"ipa": "/ˈkɑpiz/"
+},
+{
+"w": "copyright",
+"m": "n. 版权",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"copyright\" in the recording.",
+"ipa": "/ˈkɑpiˌraɪt/"
+},
+{
+"w": "corns",
+"m": "n. 玉米",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"corns\" in the recording.",
+"ipa": "/kɔrnz/"
+},
+{
+"w": "corners",
+"m": "n. 角落",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"corners\" in the recording.",
+"ipa": "/ˈkɔrnərz/"
+},
+{
+"w": "cornet",
+"m": "n. 短号",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cornet\" in the recording.",
+"ipa": "/kɔrˈnɛt/"
+},
+{
+"w": "correct",
+"m": "incorrect错误的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"correct\" in the recording.",
+"ipa": "/kərˈɛkt/"
+},
+{
+"w": "corridors",
+"m": "n. 走廊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"corridors\" in the recording.",
+"ipa": "/ˈkɔrɪdərz/"
+},
+{
+"w": "cosmetics",
+"m": "n. 化妆品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cosmetics\" in the recording.",
+"ipa": "/kɑzˈmɛtɪks/"
+},
+{
+"w": "cost",
+"m": "u&n.花费",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cost\" in the recording.",
+"ipa": "/kɔst/"
+},
+{
+"w": "costumes",
+"m": "n. 戏服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"costumes\" in the recording.",
+"ipa": "/ˈkɑstumz/"
+},
+{
+"w": "cottages",
+"m": "n. 村舍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cottages\" in the recording.",
+"ipa": "/ˈkɑtɪʤɪz/"
+},
+{
+"w": "cotton",
+"m": "n. 棉花",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cotton\" in the recording.",
+"ipa": "/ˈkɔtən/"
+},
+{
+"w": "counci",
+"m": "n. 委员会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"counci\" in the recording."
+},
+{
+"w": "count",
+"m": "n. &v数数",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"count\" in the recording.",
+"ipa": "/kaʊnt/"
+},
+{
+"w": "counterpart",
+"m": "n. 副本，对应的人或物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"counterpart\" in the recording.",
+"ipa": "/ˈkaʊntərˌpɑrt/"
+},
+{
+"w": "countries",
+"m": "n. 国家（country的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"countries\" in the recording.",
+"ipa": "/ˈkəntriz/"
+},
+{
+"w": "countryside",
+"m": "n. 乡下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"countryside\" in the recording.",
+"ipa": "/ˈkəntriˌsaɪd/"
+},
+{
+"w": "couple",
+"m": "n. 数个；",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"couple\" in the recording.",
+"ipa": "/ˈkəpəl/"
+},
+{
+"w": "course",
+"m": "n. 课程；一道菜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"course\" in the recording.",
+"ipa": "/kɔrs/"
+},
+{
+"w": "courts",
+"m": "n. 球场；法院",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"courts\" in the recording.",
+"ipa": "/kɔrts/"
+},
+{
+"w": "courtyard",
+"m": "n. 庭院",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"courtyard\" in the recording.",
+"ipa": "/ˈkɔrˌtjɑrd/"
+},
+{
+"w": "cousins",
+"m": "n. 堂兄弟姊妹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cousins\" in the recording.",
+"ipa": "/ˈkəzənz/"
+},
+{
+"w": "cover",
+"m": "v. 包括",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cover\" in the recording.",
+"ipa": "/ˈkəvər/"
+},
+{
+"w": "coverage",
+"m": "n. 覆盖；",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"coverage\" in the recording.",
+"ipa": "/ˈkəvərɪʤ/"
+},
+{
+"w": "cracks",
+"m": "n. 裂缝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cracks\" in the recording.",
+"ipa": "/kræks/"
+},
+{
+"w": "craft",
+"m": "n. 工艺，手艺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"craft\" in the recording.",
+"ipa": "/kræft/"
+},
+{
+"w": "craftsmen",
+"m": "n. 手艺人（craftsman的复数形式）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"craftsmen\" in the recording.",
+"ipa": "/ˈkræftsmɛn/"
+},
+{
+"w": "cream",
+"m": "n. 奶油",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cream\" in the recording.",
+"ipa": "/krim/"
+},
+{
+"w": "create",
+"m": "W创造",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"create\" in the recording.",
+"ipa": "/kriˈeɪt/"
+},
+{
+"w": "creative",
+"m": "adj. 创造性的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"creative\" in the recording.",
+"ipa": "/kriˈeɪtɪv/"
+},
+{
+"w": "creatures",
+"m": "n. 生物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"creatures\" in the recording.",
+"ipa": "/ˈkriʧərz/"
+},
+{
+"w": "credits",
+"m": "n. 信用v归功于；信任",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"credits\" in the recording.",
+"ipa": "/ˈkrɛdɪts/"
+},
+{
+"w": "creek",
+"m": "n. 小溪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"creek\" in the recording.",
+"ipa": "/krik/"
+},
+{
+"w": "crime",
+"m": "n. 犯罪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crime\" in the recording.",
+"ipa": "/kraɪm/"
+},
+{
+"w": "crisis",
+"m": "n. 危机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crisis\" in the recording.",
+"ipa": "/ˈkraɪsəs/"
+},
+{
+"w": "crisps",
+"m": "n. 薯片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crisps\" in the recording."
+},
+{
+"w": "criteria l",
+"m": "n. 标准，条件（criterion的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"criteria l\" in the recording.",
+"ipa": "/kraɪˈtɪriə ɛl/"
+},
+{
+"w": "critical",
+"m": "adj. 批评的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"critical\" in the recording.",
+"ipa": "/ˈkrɪtɪkəl/"
+},
+{
+"w": "crocodiles",
+"m": "n. 鳄鱼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crocodiles\" in the recording.",
+"ipa": "/ˈkrɑkəˌdaɪlz/"
+},
+{
+"w": "croft",
+"m": "n. 小农场",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"croft\" in the recording.",
+"ipa": "/krɔft/"
+},
+{
+"w": "crops",
+"m": "n. 农作物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crops\" in the recording.",
+"ipa": "/krɑps/"
+},
+{
+"w": "cross",
+"m": "v. 横过",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cross\" in the recording.",
+"ipa": "/krɔs/"
+},
+{
+"w": "crow",
+"m": "n. 乌鸦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crow\" in the recording.",
+"ipa": "/kroʊ/"
+},
+{
+"w": "crowds",
+"m": "v. 挤满",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crowds\" in the recording.",
+"ipa": "/kraʊdz/"
+},
+{
+"w": "crudes",
+"m": "adj. 粗糙的，天然的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crudes\" in the recording.",
+"ipa": "/krudz/"
+},
+{
+"w": "cruel",
+"m": "adj. 残酷的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cruel\" in the recording.",
+"ipa": "/kruəl/"
+},
+{
+"w": "cruises",
+"m": "n. &v乘船游览",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cruises\" in the recording.",
+"ipa": "/ˈkruzɪz/"
+},
+{
+"w": "crush",
+"m": "v. 压碎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crush\" in the recording.",
+"ipa": "/krəʃ/"
+},
+{
+"w": "crying",
+"m": "n. 哭泣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crying\" in the recording.",
+"ipa": "/kraɪɪŋ/"
+},
+{
+"w": "crystals",
+"m": "n. 水晶adj.水晶的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"crystals\" in the recording.",
+"ipa": "/ˈkrɪstəlz/"
+},
+{
+"w": "cultivate",
+"m": "v. 培养",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cultivate\" in the recording.",
+"ipa": "/ˈkəltəˌveɪt/"
+},
+{
+"w": "cultures",
+"m": "n. 文明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cultures\" in the recording.",
+"ipa": "/ˈkəlʧərz/"
+},
+{
+"w": "cup",
+"m": "n. 杯子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cup\" in the recording.",
+"ipa": "/kəp/"
+},
+{
+"w": "currents",
+"m": "adj. 现在的n.（水，气，电）流",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"currents\" in the recording.",
+"ipa": "/kərənts/"
+},
+{
+"w": "curry",
+"m": "n. 咖喱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"curry\" in the recording.",
+"ipa": "/ˈkəri/"
+},
+{
+"w": "curtains",
+"m": "n. 窗帘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"curtains\" in the recording.",
+"ipa": "/ˈkərtənz/"
+},
+{
+"w": "curved",
+"m": "adj. 弯曲的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"curved\" in the recording.",
+"ipa": "/kərvd/"
+},
+{
+"w": "customers",
+"m": "n. 顾客",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"customers\" in the recording.",
+"ipa": "/ˈkəstəmərz/"
+},
+{
+"w": "cut",
+"m": "切下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cut\" in the recording.",
+"ipa": "/kət/"
+},
+{
+"w": "cutlery",
+"m": "n. 餐具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cutlery\" in the recording.",
+"ipa": "/ˈkətləri/"
+},
+{
+"w": "CVi",
+"m": "abbr:简历（CurriculumVitae）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"CVi\" in the recording."
+},
+{
+"w": "cycle",
+"m": "n. 自行车v骑自行车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cycle\" in the recording.",
+"ipa": "/ˈsaɪkəl/"
+},
+{
+"w": "cyeling",
+"m": "n. 骑车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cyeling\" in the recording."
+},
+{
+"w": "cylinders",
+"m": "n. 圆柱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"cylinders\" in the recording.",
+"ipa": "/ˈsɪləndərz/"
+},
+{
+"w": "daily",
+"m": "adj. 日常的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"daily\" in the recording.",
+"ipa": "/ˈdeɪli/"
+},
+{
+"w": "dam",
+"m": "n. 水坝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dam\" in the recording.",
+"ipa": "/dæm/"
+},
+{
+"w": "damage",
+"m": "n. &v损害",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"damage\" in the recording.",
+"ipa": "/ˈdæmɪʤ/"
+},
+{
+"w": "damp",
+"m": "adj. 潮湿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"damp\" in the recording.",
+"ipa": "/dæmp/"
+},
+{
+"w": "dancer",
+"m": "n. 舞蹈演员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dancer\" in the recording.",
+"ipa": "/ˈdænsər/"
+},
+{
+"w": "dances",
+"m": "n. &v舞蹈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dances\" in the recording.",
+"ipa": "/ˈdænsɪz/"
+},
+{
+"w": "dangerous",
+"m": "adj. 危险的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dangerous\" in the recording.",
+"ipa": "/ˈdeɪnʤərəs/"
+},
+{
+"w": "dangers",
+"m": "n. 危险",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dangers\" in the recording.",
+"ipa": "/ˈdeɪnʤərz/"
+},
+{
+"w": "dark",
+"m": "adj. 深色的，黑暗的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dark\" in the recording.",
+"ipa": "/dɑrk/"
+},
+{
+"w": "data",
+"m": "n. 数据（datum的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"data\" in the recording.",
+"ipa": "/ˈdætə/"
+},
+{
+"w": "database",
+"m": "n. 数据库",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"database\" in the recording.",
+"ipa": "/ˈdætəˌbeɪs/"
+},
+{
+"w": "dates",
+"m": "n. 日期v始于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dates\" in the recording.",
+"ipa": "/deɪts/"
+},
+{
+"w": "daughter",
+"m": "n. 女儿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"daughter\" in the recording.",
+"ipa": "/ˈdɔtər/"
+},
+{
+"w": "days",
+"m": "n. 天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"days\" in the recording.",
+"ipa": "/deɪz/"
+},
+{
+"w": "daytime",
+"m": "n. 白天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"daytime\" in the recording.",
+"ipa": "/ˈdeɪˌtaɪm/"
+},
+{
+"w": "deadlines",
+"m": "n. 最终期限",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deadlines\" in the recording.",
+"ipa": "/ˈdɛˌdlaɪnz/"
+},
+{
+"w": "deal",
+"m": "约定，待遇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deal\" in the recording.",
+"ipa": "/dil/"
+},
+{
+"w": "death",
+"m": "死亡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"death\" in the recording.",
+"ipa": "/dɛθ/"
+},
+{
+"w": "debtor",
+"m": "n. 债务人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"debtor\" in the recording.",
+"ipa": "/ˈdɛtər/"
+},
+{
+"w": "December",
+"m": "n. 十二月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"December\" in the recording.",
+"ipa": "/dɪˈsɛmbər/"
+},
+{
+"w": "decide",
+"m": "v. 决定",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"decide\" in the recording.",
+"ipa": "/ˌdɪˈsaɪd/"
+},
+{
+"w": "deck",
+"m": "n. 甲板，层",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deck\" in the recording.",
+"ipa": "/dɛk/"
+},
+{
+"w": "decline",
+"m": "n. &v下降",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"decline\" in the recording.",
+"ipa": "/dɪˈklaɪn/"
+},
+{
+"w": "decorations",
+"m": "n. 装饰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"decorations\" in the recording.",
+"ipa": "/ˌdɛkərˈeɪʃənz/"
+},
+{
+"w": "decrease",
+"m": "减少",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"decrease\" in the recording.",
+"ipa": "/ˈdiˌkris/"
+},
+{
+"w": "deduction",
+"m": "n. 扣除",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deduction\" in the recording.",
+"ipa": "/dɪˈdəkʃən/"
+},
+{
+"w": "deep",
+"m": "adj. 深的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deep\" in the recording.",
+"ipa": "/dip/"
+},
+{
+"w": "defence",
+"m": "n. 防御",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"defence\" in the recording.",
+"ipa": "/dɪˈfɛns/"
+},
+{
+"w": "definitely",
+"m": "adv. 清楚地，当然",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"definitely\" in the recording.",
+"ipa": "/ˈdɛfənətli/"
+},
+{
+"w": "definition",
+"m": "n. 定义",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"definition\" in the recording.",
+"ipa": "/ˌdɛfəˈnɪʃən/"
+},
+{
+"w": "degree",
+"m": "n. 程度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"degree\" in the recording.",
+"ipa": "/dɪˈgri/"
+},
+{
+"w": "delay",
+"m": "v&n.延期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"delay\" in the recording.",
+"ipa": "/dɪˈleɪ/"
+},
+{
+"w": "deliberately",
+"m": "adv. 故意地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deliberately\" in the recording.",
+"ipa": "/dɪˈlɪbərətli/"
+},
+{
+"w": "delight",
+"m": "n. 高兴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"delight\" in the recording.",
+"ipa": "/dɪˈlaɪt/"
+},
+{
+"w": "deliveries",
+"m": "n. 递送（delivery的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deliveries\" in the recording.",
+"ipa": "/dɪˈlɪvəriz/"
+},
+{
+"w": "demands",
+"m": "n. &v需要",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"demands\" in the recording.",
+"ipa": "/dɪˈmændz/"
+},
+{
+"w": "dementia",
+"m": "n. 痴呆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dementia\" in the recording.",
+"ipa": "/dɪˈmɛnʃiə/"
+},
+{
+"w": "democratics",
+"m": "adj. 民主的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"democratics\" in the recording.",
+"ipa": "/ˌdɛməˈkrætɪks/"
+},
+{
+"w": "demonstrations",
+"m": "n. 示范",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"demonstrations\" in the recording.",
+"ipa": "/ˌdɛmənˈstreɪʃənz/"
+},
+{
+"w": "density",
+"m": "n. 密度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"density\" in the recording.",
+"ipa": "/ˈdɛnsɪti/"
+},
+{
+"w": "dentist",
+"m": "n. 牙科医生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dentist\" in the recording.",
+"ipa": "/ˈdɛntɪst/"
+},
+{
+"w": "departments",
+"m": "n. 部门",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"departments\" in the recording.",
+"ipa": "/dɪˈpɑrtmənts/"
+},
+{
+"w": "depend",
+"m": "v. 依赖，取决于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"depend\" in the recording.",
+"ipa": "/dɪˈpɛnd/"
+},
+{
+"w": "deploy",
+"m": "v. 部署",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deploy\" in the recording.",
+"ipa": "/dɪˈplɔɪ/"
+},
+{
+"w": "deposits",
+"m": "n. 押金；沉淀物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deposits\" in the recording.",
+"ipa": "/dɪˈpɑzəts/"
+},
+{
+"w": "depths",
+"m": "n. 深度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"depths\" in the recording.",
+"ipa": "/dɛpθs/"
+},
+{
+"w": "description",
+"m": "n. 描述",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"description\" in the recording.",
+"ipa": "/dɪˈskrɪpʃən/"
+},
+{
+"w": "deserts",
+"m": "w.遗弃n.沙漠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"deserts\" in the recording.",
+"ipa": "/ˈdɛzərts/"
+},
+{
+"w": "designers",
+"m": "n. 设计师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"designers\" in the recording.",
+"ipa": "/dɪˈzaɪnərz/"
+},
+{
+"w": "designs",
+"m": "n. &v设计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"designs\" in the recording.",
+"ipa": "/dɪˈzaɪnz/"
+},
+{
+"w": "desk",
+"m": "n. 办公桌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"desk\" in the recording.",
+"ipa": "/dɛsk/"
+},
+{
+"w": "destinations",
+"m": "n. 目的地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"destinations\" in the recording.",
+"ipa": "/ˌdɛstəˈneɪʃənz/"
+},
+{
+"w": "destroy",
+"m": "\"破坏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"destroy\" in the recording.",
+"ipa": "/dɪˈstrɔɪ/"
+},
+{
+"w": "destruction",
+"m": "n. 破坏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"destruction\" in the recording.",
+"ipa": "/dɪˈstrəkʃən/"
+},
+{
+"w": "details",
+"m": "n. 细节",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"details\" in the recording.",
+"ipa": "/ˈditeɪlz/"
+},
+{
+"w": "determination",
+"m": "n. 决心",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"determination\" in the recording.",
+"ipa": "/dɪˌtərməˈneɪʃən/"
+},
+{
+"w": "develop",
+"m": "v. 进步，发展",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"develop\" in the recording.",
+"ipa": "/dɪˈvɛləp/"
+},
+{
+"w": "developments",
+"m": "n. 发展",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"developments\" in the recording.",
+"ipa": "/dɪˈvɛləpmənts/"
+},
+{
+"w": "devices",
+"m": "n. 装置",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"devices\" in the recording.",
+"ipa": "/dɪˈvaɪsɪz/"
+},
+{
+"w": "devote",
+"m": "v. 致力于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"devote\" in the recording.",
+"ipa": "/dɪˈvoʊt/"
+},
+{
+"w": "diagrams",
+"m": "n. 图解",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diagrams\" in the recording.",
+"ipa": "/ˈdaɪəˌgræmz/"
+},
+{
+"w": "diamond",
+"m": "n. 钻石；菱形",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diamond\" in the recording.",
+"ipa": "/ˈdaɪmənd/"
+},
+{
+"w": "dictionaries",
+"m": "n. 字典（dictionary的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dictionaries\" in the recording.",
+"ipa": "/ˈdɪkʃəˌnɛriz/"
+},
+{
+"w": "die",
+"m": "死亡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"die\" in the recording.",
+"ipa": "/daɪ/"
+},
+{
+"w": "diets",
+"m": "n. 饮食",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diets\" in the recording.",
+"ipa": "/daɪɪts/"
+},
+{
+"w": "differences",
+"m": "n. 差异；影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"differences\" in the recording.",
+"ipa": "/ˈdɪfərənsɪz/"
+},
+{
+"w": "different",
+"m": "adj. 不同的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"different\" in the recording.",
+"ipa": "/ˈdɪfərənt/"
+},
+{
+"w": "differentiate",
+"m": "w区分",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"differentiate\" in the recording.",
+"ipa": "/ˌdɪfərˈɛnʧiˌeɪt/"
+},
+{
+"w": "difficult",
+"m": "adj. 困难的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"difficult\" in the recording.",
+"ipa": "/ˈdɪfəkəlt/"
+},
+{
+"w": "difficulties",
+"m": "n. 困难（dificulty的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"difficulties\" in the recording.",
+"ipa": "/ˈdɪfɪˌkəltiz/"
+},
+{
+"w": "dig",
+"m": "w挖（过去式／过去分词dug）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dig\" in the recording.",
+"ipa": "/dɪg/"
+},
+{
+"w": "digestion",
+"m": "n. 消化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"digestion\" in the recording.",
+"ipa": "/daɪˈʤɛsʧən/"
+},
+{
+"w": "digital",
+"m": "adj. 数字的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"digital\" in the recording.",
+"ipa": "/ˈdɪʤɪtəl/"
+},
+{
+"w": "dignitary",
+"m": "n. 要人，显贵",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dignitary\" in the recording.",
+"ipa": "/ˈdɪgnəˌtɛri/"
+},
+{
+"w": "dimensions",
+"m": "n. 维；尺寸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dimensions\" in the recording.",
+"ipa": "/dɪˈmɛnʃənz/"
+},
+{
+"w": "dining",
+"m": "n. &v进餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dining\" in the recording.",
+"ipa": "/ˈdaɪnɪŋ/"
+},
+{
+"w": "dinners",
+"m": "n. 晚餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dinners\" in the recording.",
+"ipa": "/ˈdɪnərz/"
+},
+{
+"w": "dip",
+"m": "v. 浸n.短暂的水浴或游泳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dip\" in the recording.",
+"ipa": "/dɪp/"
+},
+{
+"w": "diploma",
+"m": "n. 学位证书",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diploma\" in the recording.",
+"ipa": "/dɪˈploʊmɑ/"
+},
+{
+"w": "direct",
+"m": "adj. 直接的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"direct\" in the recording.",
+"ipa": "/dɪˈrɛkt/"
+},
+{
+"w": "directions",
+"m": "n. 方向；用法说明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"directions\" in the recording.",
+"ipa": "/dɪˈrɛkʃɪnz/"
+},
+{
+"w": "director",
+"m": "n. 主任，主管，导演",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"director\" in the recording.",
+"ipa": "/dɪˈrɛktər/"
+},
+{
+"w": "dirt",
+"m": "n. 污垢",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dirt\" in the recording.",
+"ipa": "/dərt/"
+},
+{
+"w": "dirty",
+"m": "adj. 航脏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dirty\" in the recording.",
+"ipa": "/ˈdərti/"
+},
+{
+"w": "disabled",
+"m": "adj. 残疾的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disabled\" in the recording.",
+"ipa": "/dɪˈseɪbəld/"
+},
+{
+"w": "disappointed",
+"m": "adj. 失望的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disappointed\" in the recording.",
+"ipa": "/ˌdɪsəˈpɔɪnɪd/"
+},
+{
+"w": "disasters",
+"m": "n. 灾难",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disasters\" in the recording.",
+"ipa": "/dɪˈzæstərz/"
+},
+{
+"w": "discharge",
+"m": "v. 释放",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discharge\" in the recording.",
+"ipa": "/ˈdɪsˌʧɑrʤ/"
+},
+{
+"w": "discipline",
+"m": "n. 学科，纪律",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discipline\" in the recording.",
+"ipa": "/ˈdɪsəplən/"
+},
+{
+"w": "disc",
+"m": "n. 迪斯科舞厅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disc\" in the recording.",
+"ipa": "/dɪsk/"
+},
+{
+"w": "discount",
+"m": "n. 折扣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discount\" in the recording.",
+"ipa": "/ˈdɪskaʊnt/"
+},
+{
+"w": "discourage",
+"m": "v. 阻止",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discourage\" in the recording.",
+"ipa": "/dɪˈskərɪʤ/"
+},
+{
+"w": "discover",
+"m": "v. 发现",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discover\" in the recording.",
+"ipa": "/dɪˈskəvər/"
+},
+{
+"w": "discussion",
+"m": "n. 讨论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"discussion\" in the recording.",
+"ipa": "/dɪˈskəʃən/"
+},
+{
+"w": "diseases",
+"m": "n. 疾病",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diseases\" in the recording.",
+"ipa": "/dɪˈzizɪz/"
+},
+{
+"w": "dishes",
+"m": "n. 盘子，菜肴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dishes\" in the recording.",
+"ipa": "/ˈdɪʃɪz/"
+},
+{
+"w": "dishwasher",
+"m": "n. 洗碗机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dishwasher\" in the recording.",
+"ipa": "/ˈdɪʃˌwɑʃər/"
+},
+{
+"w": "disinfectant",
+"m": "n. 消毒剂adj.消毒的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disinfectant\" in the recording.",
+"ipa": "/dɪsɪnˈfɛktənt/"
+},
+{
+"w": "dismiss",
+"m": "v. 解散；解雇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dismiss\" in the recording.",
+"ipa": "/dɪsˈmɪs/"
+},
+{
+"w": "dismissive",
+"m": "adj. 轻蔑的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dismissive\" in the recording.",
+"ipa": "/dɪsˈmɪsɪv/"
+},
+{
+"w": "displays",
+"m": "n. &v显示，展示",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"displays\" in the recording.",
+"ipa": "/dɪˈspleɪz/"
+},
+{
+"w": "dispose",
+"m": "v. 处理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dispose\" in the recording.",
+"ipa": "/dɪˈspoʊz/"
+},
+{
+"w": "dissertation",
+"m": "n. 论文",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dissertation\" in the recording.",
+"ipa": "/ˌdɪsərˈteɪʃən/"
+},
+{
+"w": "distances",
+"m": "n. 距离",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"distances\" in the recording.",
+"ipa": "/ˈdɪstənsɪz/"
+},
+{
+"w": "distinct",
+"m": "distinction区别",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"distinct\" in the recording.",
+"ipa": "/dɪˈstɪŋkt/"
+},
+{
+"w": "distortion",
+"m": "n. 变形，失真",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"distortion\" in the recording.",
+"ipa": "/dɪˈstɔrʃən/"
+},
+{
+"w": "distract",
+"m": "distracting分散注意力的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"distract\" in the recording.",
+"ipa": "/dɪˈstrækt/"
+},
+{
+"w": "distribution",
+"m": "n. 分布",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"distribution\" in the recording.",
+"ipa": "/ˌdɪstrəˈbjuʃən/"
+},
+{
+"w": "district",
+"m": "n. 区域",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"district\" in the recording.",
+"ipa": "/ˈdɪstrɪkt/"
+},
+{
+"w": "disturb",
+"m": "v. 妨碍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"disturb\" in the recording.",
+"ipa": "/dɪˈstərb/"
+},
+{
+"w": "divers",
+"m": "n. 潜水者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"divers\" in the recording.",
+"ipa": "/ˈdaɪvərz/"
+},
+{
+"w": "diversity",
+"m": "n. 多样性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"diversity\" in the recording.",
+"ipa": "/dɪˈvərsɪti/"
+},
+{
+"w": "divide",
+"m": "v. 分开",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"divide\" in the recording.",
+"ipa": "/dɪˈvaɪd/"
+},
+{
+"w": "DNA",
+"m": "n. 遗传物质",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"DNA\" in the recording.",
+"ipa": "/ˈdiˌɛˈneɪ/"
+},
+{
+"w": "doctors",
+"m": "n. 医生，博士",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"doctors\" in the recording.",
+"ipa": "/ˈdɑktərz/"
+},
+{
+"w": "documentary",
+"m": "n. 纪录电影（或电视、广播）节目",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"documentary\" in the recording.",
+"ipa": "/ˌdɑkjəˈmɛnəri/"
+},
+{
+"w": "documents",
+"m": "n. 文档",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"documents\" in the recording.",
+"ipa": "/ˈdɑkjəmənts/"
+},
+{
+"w": "dogs",
+"m": "n. 狗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dogs\" in the recording.",
+"ipa": "/dɔgz/"
+},
+{
+"w": "dollars",
+"m": "n. 美元",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dollars\" in the recording.",
+"ipa": "/ˈdɔlərz/"
+},
+{
+"w": "dolls",
+"m": "n. 洋娃娃",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dolls\" in the recording.",
+"ipa": "/dɑlz/"
+},
+{
+"w": "dolphin",
+"m": "n. 海豚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dolphin\" in the recording.",
+"ipa": "/ˈdɑlfən/"
+},
+{
+"w": "domestic",
+"m": "adj. 国内的，养的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"domestic\" in the recording.",
+"ipa": "/dəˈmɛstɪk/"
+},
+{
+"w": "dominated",
+"m": "adj. 占主导地位的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dominated\" in the recording.",
+"ipa": "/ˈdɑməˌneɪtəd/"
+},
+{
+"w": "door",
+"m": "n. 门",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"door\" in the recording.",
+"ipa": "/dɔr/"
+},
+{
+"w": "doubles",
+"m": "adj. 两倍的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"doubles\" in the recording.",
+"ipa": "/ˈdəbəlz/"
+},
+{
+"w": "doubt",
+"m": "n. 怀疑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"doubt\" in the recording.",
+"ipa": "/daʊt/"
+},
+{
+"w": "down",
+"m": "adv. 在下面adj.停止运转的v跌倒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"down\" in the recording.",
+"ipa": "/daʊn/"
+},
+{
+"w": "downhil",
+"m": "n. 下坡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"downhil\" in the recording."
+},
+{
+"w": "downstairs",
+"m": "n. 楼下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"downstairs\" in the recording.",
+"ipa": "/ˈdaʊnˈstɛrz/"
+},
+{
+"w": "downstream",
+"m": "adv. 顺流而下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"downstream\" in the recording.",
+"ipa": "/ˈdaʊnˈstrim/"
+},
+{
+"w": "downtown",
+"m": "n. &adj.市中心（的）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"downtown\" in the recording.",
+"ipa": "/ˈdaʊnˈtaʊn/"
+},
+{
+"w": "doze",
+"m": "v. 打瞌睡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"doze\" in the recording.",
+"ipa": "/doʊz/"
+},
+{
+"w": "draft",
+"m": "n. 草稿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"draft\" in the recording.",
+"ipa": "/dræft/"
+},
+{
+"w": "dragon",
+"m": "n. 龙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dragon\" in the recording.",
+"ipa": "/ˈdrægən/"
+},
+{
+"w": "drainage",
+"m": "n. 排水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drainage\" in the recording.",
+"ipa": "/ˈdreɪnɪʤ/"
+},
+{
+"w": "drama",
+"m": "n. 戏剧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drama\" in the recording.",
+"ipa": "/ˈdrɑmə/"
+},
+{
+"w": "draw",
+"m": "v. 画，吸引，描绘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"draw\" in the recording.",
+"ipa": "/drɔ/"
+},
+{
+"w": "drawback",
+"m": "n. 缺点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drawback\" in the recording.",
+"ipa": "/ˈdrɔˌbæk/"
+},
+{
+"w": "dream",
+"m": "n. &v睡梦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dream\" in the recording.",
+"ipa": "/drim/"
+},
+{
+"w": "dress",
+"m": "n. 衣服，连衣裙v穿衣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dress\" in the recording.",
+"ipa": "/drɛs/"
+},
+{
+"w": "drinks",
+"m": "n. 饮料（过去式drank过去分词",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drinks\" in the recording.",
+"ipa": "/drɪŋks/"
+},
+{
+"w": "drive",
+"m": "W开车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drive\" in the recording.",
+"ipa": "/draɪv/"
+},
+{
+"w": "drop",
+"m": "下降",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drop\" in the recording.",
+"ipa": "/drɔp/"
+},
+{
+"w": "drought",
+"m": "n. 干旱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drought\" in the recording.",
+"ipa": "/draʊt/"
+},
+{
+"w": "drummer",
+"m": "n. 鼓手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"drummer\" in the recording.",
+"ipa": "/ˈdrəmər/"
+},
+{
+"w": "dry",
+"m": "adj. 干的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dry\" in the recording.",
+"ipa": "/draɪ/"
+},
+{
+"w": "ducks",
+"m": "n. 鸭子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ducks\" in the recording.",
+"ipa": "/dəks/"
+},
+{
+"w": "dues",
+"m": "adj. 预期的ady（方向）正",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dues\" in the recording.",
+"ipa": "/duz/"
+},
+{
+"w": "dump",
+"m": "v. 丢下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dump\" in the recording.",
+"ipa": "/dəmp/"
+},
+{
+"w": "during",
+"m": "prep. 在的期间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"during\" in the recording.",
+"ipa": "/ˈdʊrɪŋ/"
+},
+{
+"w": "duty",
+"m": "n. 责任",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"duty\" in the recording.",
+"ipa": "/ˈduti/"
+},
+{
+"w": "dweller",
+"m": "n. 居民",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dweller\" in the recording.",
+"ipa": "/dˈwɛlər/"
+},
+{
+"w": "dyes",
+"m": "n. 染料v染",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"dyes\" in the recording.",
+"ipa": "/daɪz/"
+},
+{
+"w": "eager",
+"m": "adj. 渴望的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eager\" in the recording.",
+"ipa": "/ˈigər/"
+},
+{
+"w": "eagles",
+"m": "n. 鹰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eagles\" in the recording.",
+"ipa": "/ˈigəlz/"
+},
+{
+"w": "early",
+"m": "adj. 早的，早期的（最高级earliest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"early\" in the recording.",
+"ipa": "/ˈərli/"
+},
+{
+"w": "ears",
+"m": "n. 耳朵",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ears\" in the recording.",
+"ipa": "/ɪrz/"
+},
+{
+"w": "earth",
+"m": "n. 东方adj.东方的adv在东方",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"earth\" in the recording.",
+"ipa": "/ərθ/"
+},
+{
+"w": "easy",
+"m": "adj. 容易的（最高级easiest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"easy\" in the recording.",
+"ipa": "/ˈizi/"
+},
+{
+"w": "eat",
+"m": "w吃（过去式ate过去分词eaten）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eat\" in the recording.",
+"ipa": "/it/"
+},
+{
+"w": "eclipse",
+"m": "n. 日食",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eclipse\" in the recording.",
+"ipa": "/ɪˈklɪps/"
+},
+{
+"w": "ecology",
+"m": "n. 生态学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ecology\" in the recording.",
+"ipa": "/ɪˈkɑləʤi/"
+},
+{
+"w": "economics",
+"m": "n. 经济学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"economics\" in the recording.",
+"ipa": "/ˌɛkəˈnɑmɪks/"
+},
+{
+"w": "economy",
+"m": "n. 经济",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"economy\" in the recording.",
+"ipa": "/ɪˈkɑnəmi/"
+},
+{
+"w": "ecosystems",
+"m": "n. 生态系统",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ecosystems\" in the recording.",
+"ipa": "/ˈikoʊˌsɪstəmz/"
+},
+{
+"w": "edge",
+"m": "n. 边缘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"edge\" in the recording.",
+"ipa": "/ɛʤ/"
+},
+{
+"w": "edit",
+"m": "\"编辑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"edit\" in the recording.",
+"ipa": "/ˈɛdət/"
+},
+{
+"w": "editors",
+"m": "n. 编者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"editors\" in the recording.",
+"ipa": "/ˈɛdɪtərz/"
+},
+{
+"w": "education",
+"m": "n. 教育",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"education\" in the recording.",
+"ipa": "/ˌɛʤəˈkeɪʃən/"
+},
+{
+"w": "effective",
+"m": "adj. 有效的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"effective\" in the recording.",
+"ipa": "/ˈifɛktɪv/"
+},
+{
+"w": "effects",
+"m": "n. 影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"effects\" in the recording.",
+"ipa": "/ˈifɛkts/"
+},
+{
+"w": "efficient",
+"m": "adj. 有效率的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"efficient\" in the recording.",
+"ipa": "/ɪˈfɪʃənt/"
+},
+{
+"w": "effort",
+"m": "n. 努力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"effort\" in the recording.",
+"ipa": "/ˈɛfərt/"
+},
+{
+"w": "either",
+"m": "conj. 或者，要么adv也pron.任何",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"either\" in the recording.",
+"ipa": "/ˈiðər/"
+},
+{
+"w": "elderly",
+"m": "adj. 上了年纪的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"elderly\" in the recording.",
+"ipa": "/ˈɛldərli/"
+},
+{
+"w": "electricity",
+"m": "n. 电力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"electricity\" in the recording.",
+"ipa": "/ɪˌlɛkˈtrɪsəti/"
+},
+{
+"w": "electromagnetic",
+"m": "adj. 电磁的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"electromagnetic\" in the recording.",
+"ipa": "/ˌɪˌlɛktroʊmægˈnɛtɪk/"
+},
+{
+"w": "electronic",
+"m": "adj. 电子的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"electronic\" in the recording.",
+"ipa": "/ˌɪˌlɛkˈtrɑnɪk/"
+},
+{
+"w": "elements",
+"m": "n. 元素，基础，原理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"elements\" in the recording.",
+"ipa": "/ˈɛləmənts/"
+},
+{
+"w": "elephants",
+"m": "n. 大象",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"elephants\" in the recording.",
+"ipa": "/ˈɛləfənts/"
+},
+{
+"w": "eligible",
+"m": "adj. 合格的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eligible\" in the recording.",
+"ipa": "/ˈɛlɪʤəbəl/"
+},
+{
+"w": "else",
+"m": "adj. 别的ady其他",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"else\" in the recording.",
+"ipa": "/ɛls/"
+},
+{
+"w": "emails",
+"m": "n. 电子邮件",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"emails\" in the recording.",
+"ipa": "/iˈmeɪlz/"
+},
+{
+"w": "embassy",
+"m": "n. 大使馆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"embassy\" in the recording.",
+"ipa": "/ˈɛmbəsi/"
+},
+{
+"w": "embarks",
+"m": "v. 从事",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"embarks\" in the recording.",
+"ipa": "/ɪmˈbɑrks/"
+},
+{
+"w": "emergency",
+"m": "紧急情况adj.紧急的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"emergency\" in the recording.",
+"ipa": "/ˈimərʤənsi/"
+},
+{
+"w": "emissions",
+"m": "n. 排放",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"emissions\" in the recording.",
+"ipa": "/ɪˈmɪʃənz/"
+},
+{
+"w": "emotions",
+"m": "n. 情绪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"emotions\" in the recording.",
+"ipa": "/ˈɪˌmoʊʃənz/"
+},
+{
+"w": "emperor",
+"m": "n. 皇帝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"emperor\" in the recording.",
+"ipa": "/ˈɛmpərər/"
+},
+{
+"w": "empire",
+"m": "n. 帝国",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"empire\" in the recording.",
+"ipa": "/ˈɛmpaɪər/"
+},
+{
+"w": "employees",
+"m": "n. 员工",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"employees\" in the recording.",
+"ipa": "/ɪmˈplɔɪiz/"
+},
+{
+"w": "employers",
+"m": "n. 雇主",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"employers\" in the recording.",
+"ipa": "/ɪmˈplɔɪərz/"
+},
+{
+"w": "employment",
+"m": "n. 雇用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"employment\" in the recording.",
+"ipa": "/ɪmˈplɔɪmənt/"
+},
+{
+"w": "enables",
+"m": "使能够",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enables\" in the recording.",
+"ipa": "/ɪˈneɪbəlz/"
+},
+{
+"w": "encourage",
+"m": "v. 鼓励",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"encourage\" in the recording.",
+"ipa": "/ɪnˈkərəʤ/"
+},
+{
+"w": "energetics",
+"m": "adj. 精力充沛的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"energetics\" in the recording."
+},
+{
+"w": "energy",
+"m": "n. 能量，活力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"energy\" in the recording.",
+"ipa": "/ˈɛnərʤi/"
+},
+{
+"w": "engages",
+"m": "参与",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"engages\" in the recording.",
+"ipa": "/ɪnˈgeɪʤɪz/"
+},
+{
+"w": "engines",
+"m": "n. 发动机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"engines\" in the recording.",
+"ipa": "/ˈɛnʤənz/"
+},
+{
+"w": "England",
+"m": "n. 英格兰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"England\" in the recording.",
+"ipa": "/ˈɪŋglənd/"
+},
+{
+"w": "English",
+"m": "英语，英国人adj.英文的，英国的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"English\" in the recording.",
+"ipa": "/ˈɪŋlɪʃ/"
+},
+{
+"w": "enjoy",
+"m": "享受",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enjoy\" in the recording.",
+"ipa": "/ˌɛnˈʤɔɪ/"
+},
+{
+"w": "enlarge",
+"m": "w扩大",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enlarge\" in the recording.",
+"ipa": "/ˌɛnˈlɑrʤ/"
+},
+{
+"w": "enormous",
+"m": "adj. 庞大的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enormous\" in the recording.",
+"ipa": "/ɪˈnɔrmɪs/"
+},
+{
+"w": "enough",
+"m": "adj. 充足的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enough\" in the recording.",
+"ipa": "/ɪˈnəf/"
+},
+{
+"w": "enquiry",
+"m": "n. 询间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enquiry\" in the recording.",
+"ipa": "/ɪnkˈwaɪˌri/"
+},
+{
+"w": "ensure",
+"m": "保证",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ensure\" in the recording.",
+"ipa": "/ɪnˈʃʊr/"
+},
+{
+"w": "enter",
+"m": "v. 进入",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enter\" in the recording.",
+"ipa": "/ˈɛnər/"
+},
+{
+"w": "entertainment",
+"m": "n. 娱乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"entertainment\" in the recording.",
+"ipa": "/ˌɛnərˈteɪnmənt/"
+},
+{
+"w": "enthusiastic",
+"m": "adj. 热情的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"enthusiastic\" in the recording.",
+"ipa": "/ɪnˌθuziˈæstɪk/"
+},
+{
+"w": "entire",
+"m": "adj. 全部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"entire\" in the recording.",
+"ipa": "/ɪnˈtaɪər/"
+},
+{
+"w": "entrance",
+"m": "n. 人口",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"entrance\" in the recording.",
+"ipa": "/ˈɛntrəns/"
+},
+{
+"w": "entrepreneurs",
+"m": "n. 企业家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"entrepreneurs\" in the recording.",
+"ipa": "/ˌɑntrəprəˈnərz/"
+},
+{
+"w": "entry",
+"m": "n. 进入",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"entry\" in the recording.",
+"ipa": "/ˈɛntri/"
+},
+{
+"w": "envious",
+"m": "adj. 嫉妒的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"envious\" in the recording.",
+"ipa": "/ˈɛnviəs/"
+},
+{
+"w": "environments",
+"m": "n. 环境",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"environments\" in the recording.",
+"ipa": "/ɪnˈvaɪrənmənts/"
+},
+{
+"w": "episodic",
+"m": "adj. 情景的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"episodic\" in the recording.",
+"ipa": "/ˌɛpəˈsɑdɪk/"
+},
+{
+"w": "equal",
+"m": "adj. 平等的n.对手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"equal\" in the recording.",
+"ipa": "/ˈikwəl/"
+},
+{
+"w": "equestrian",
+"m": "adj. 骑术的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"equestrian\" in the recording.",
+"ipa": "/ɪkˈwɛstriən/"
+},
+{
+"w": "equipment",
+"m": "n. 设备",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"equipment\" in the recording.",
+"ipa": "/ɪkˈwɪpmənt/"
+},
+{
+"w": "era",
+"m": "n. 时代",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"era\" in the recording.",
+"ipa": "/ˈɪrə/"
+},
+{
+"w": "erosion",
+"m": "n. 侵蚀",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"erosion\" in the recording.",
+"ipa": "/ɪˈroʊʒən/"
+},
+{
+"w": "erratic",
+"m": "adj. 不稳定的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"erratic\" in the recording.",
+"ipa": "/ɪˈrætɪk/"
+},
+{
+"w": "errors",
+"m": "n. 错误",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"errors\" in the recording.",
+"ipa": "/ˈɛrərz/"
+},
+{
+"w": "escape",
+"m": "v. 逃脱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"escape\" in the recording.",
+"ipa": "/ɪˈskeɪp/"
+},
+{
+"w": "especially",
+"m": "adv. 尤其",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"especially\" in the recording.",
+"ipa": "/əˈspɛʃəli/"
+},
+{
+"w": "essays",
+"m": "n. （作为课程作业，学生写的）文章",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"essays\" in the recording.",
+"ipa": "/ˈɛˌseɪz/"
+},
+{
+"w": "essential",
+"m": "adj. 基本的，必要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"essential\" in the recording.",
+"ipa": "/ɛˈsɛnʃəl/"
+},
+{
+"w": "establish",
+"m": "建立",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"establish\" in the recording.",
+"ipa": "/ɪˈstæblɪʃ/"
+},
+{
+"w": "estate",
+"m": "n. 房地产",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"estate\" in the recording.",
+"ipa": "/ɛˈsteɪt/"
+},
+{
+"w": "estimate",
+"m": "v. 估计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"estimate\" in the recording.",
+"ipa": "/ˈɛstəˌmeɪt/"
+},
+{
+"w": "estuaries",
+"m": "n. 河口（estuary的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"estuaries\" in the recording.",
+"ipa": "/ˈɛsʧuˌɛriz/"
+},
+{
+"w": "etc",
+"m": "abbr:等等，及其他（=etcetera）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"etc\" in the recording.",
+"ipa": "/ˌɛtˈsɛtərə/"
+},
+{
+"w": "ethical",
+"m": "adj. 伦理的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ethical\" in the recording.",
+"ipa": "/ˈɛθɪkəl/"
+},
+{
+"w": "ethnography",
+"m": "n. 民族志，人种学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ethnography\" in the recording."
+},
+{
+"w": "Europe",
+"m": "n. 欧洲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Europe\" in the recording.",
+"ipa": "/ˈjʊrəp/"
+},
+{
+"w": "European",
+"m": "n. 欧洲人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"European\" in the recording.",
+"ipa": "/ˌjʊrəˈpiən/"
+},
+{
+"w": "euros",
+"m": "n. 欧元",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"euros\" in the recording.",
+"ipa": "/ˈjuˌroʊz/"
+},
+{
+"w": "evaluations",
+"m": "n. 评价",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"evaluations\" in the recording.",
+"ipa": "/ɪˌvæljuˈeɪʃənz/"
+},
+{
+"w": "evaporation",
+"m": "n. 蒸发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"evaporation\" in the recording.",
+"ipa": "/ɪˌvæpərˈeɪʃən/"
+},
+{
+"w": "evenings",
+"m": "n. 晚上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"evenings\" in the recording.",
+"ipa": "/ˈivnɪŋz/"
+},
+{
+"w": "events",
+"m": "n. 事件",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"events\" in the recording.",
+"ipa": "/ɪˈvɛnts/"
+},
+{
+"w": "eventually",
+"m": "adv. 最后",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eventually\" in the recording.",
+"ipa": "/ɪˈvɛnʧəwəli/"
+},
+{
+"w": "evidence",
+"m": "n. 证据",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"evidence\" in the recording.",
+"ipa": "/ˈɛvədəns/"
+},
+{
+"w": "evolution",
+"m": "n. 进化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"evolution\" in the recording.",
+"ipa": "/ˌɛvəˈluʃən/"
+},
+{
+"w": "exact",
+"m": "adj. 准确的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"exact\" in the recording.",
+"ipa": "/ɪgˈzækt/"
+},
+{
+"w": "examine",
+"m": "v. 检查，测验",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"examine\" in the recording.",
+"ipa": "/ɪgˈzæmɪn/"
+},
+{
+"w": "examples",
+"m": "n. 例子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"examples\" in the recording.",
+"ipa": "/ɪgˈzæmpəlz/"
+},
+{
+"w": "excavation",
+"m": "n. 挖掘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"excavation\" in the recording.",
+"ipa": "/ˌɛkskəˈveɪʃən/"
+},
+{
+"w": "excellent",
+"m": "adj. 极好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"excellent\" in the recording.",
+"ipa": "/ˈɛksələnt/"
+},
+{
+"w": "except",
+"m": "conj. 除非pron.除.之外",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"except\" in the recording.",
+"ipa": "/ɪkˈsɛpt/"
+},
+{
+"w": "exchange",
+"m": "n. &v交换",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"exchange\" in the recording.",
+"ipa": "/ɪksˈʧeɪnʤ/"
+},
+{
+"w": "excited",
+"m": "adj. 兴奋的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"excited\" in the recording.",
+"ipa": "/ɪkˈsaɪtɪd/"
+},
+{
+"w": "excursions",
+"m": "n. 短途旅行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"excursions\" in the recording.",
+"ipa": "/ɪkˈskərʒənz/"
+},
+{
+"w": "exercises",
+"m": "n. 运动，练习",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"exercises\" in the recording.",
+"ipa": "/ˈɛksərˌsaɪzɪz/"
+},
+{
+"w": "exhibition",
+"m": "n. 展览",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"exhibition\" in the recording.",
+"ipa": "/ˌɛksəˈbɪʃən/"
+},
+{
+"w": "exist",
+"m": "v. 存在",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"exist\" in the recording.",
+"ipa": "/ɪgˈzɪst/"
+},
+{
+"w": "expand",
+"m": "v. 扩张",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expand\" in the recording.",
+"ipa": "/ɪkˈspænd/"
+},
+{
+"w": "expansion",
+"m": "n. 扩展",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expansion\" in the recording.",
+"ipa": "/ɪkˈspænʧən/"
+},
+{
+"w": "expect",
+"m": "W期待",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expect\" in the recording.",
+"ipa": "/ɪkˈspɛkt/"
+},
+{
+"w": "expedition",
+"m": "7n.远征",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expedition\" in the recording.",
+"ipa": "/ˌɛkspəˈdɪʃən/"
+},
+{
+"w": "expense",
+"m": "n. 代价",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expense\" in the recording.",
+"ipa": "/ɪkˈspɛns/"
+},
+{
+"w": "expensive",
+"m": "adj. 昂贵的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expensive\" in the recording.",
+"ipa": "/ɪkˈspɛnsɪv/"
+},
+{
+"w": "experience",
+"m": "v. 经历",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"experience\" in the recording.",
+"ipa": "/ɪkˈspɪriəns/"
+},
+{
+"w": "experiments",
+"m": "n. 实验",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"experiments\" in the recording.",
+"ipa": "/ɪkˈspɛrəmənts/"
+},
+{
+"w": "experts",
+"m": "n. 专家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"experts\" in the recording.",
+"ipa": "/ˈɛkspərts/"
+},
+{
+"w": "explain",
+"m": "v. 解释",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explain\" in the recording.",
+"ipa": "/ɪkˈspleɪn/"
+},
+{
+"w": "explanations",
+"m": "n. 解释",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explanations\" in the recording.",
+"ipa": "/ˌɛkspləˈneɪʃənz/"
+},
+{
+"w": "explicitly",
+"m": "adv. 明确地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explicitly\" in the recording.",
+"ipa": "/ɪkˈsplɪsətli/"
+},
+{
+"w": "explodes",
+"m": "v. 爆炸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explodes\" in the recording.",
+"ipa": "/ɪkˈsploʊdz/"
+},
+{
+"w": "explore",
+"m": "v. 探索",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explore\" in the recording.",
+"ipa": "/ɪkˈsplɔr/"
+},
+{
+"w": "explosion",
+"m": "n. 爆炸，爆发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"explosion\" in the recording.",
+"ipa": "/ɪkˈsploʊʒən/"
+},
+{
+"w": "export",
+"m": "v&n.出口",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"export\" in the recording.",
+"ipa": "/ˈɛkspɔrt/"
+},
+{
+"w": "expose",
+"m": "v. 暴露",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"expose\" in the recording.",
+"ipa": "/ɪkˈspoʊz/"
+},
+{
+"w": "express",
+"m": "w表达n.快车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"express\" in the recording.",
+"ipa": "/ɪkˈsprɛs/"
+},
+{
+"w": "extend",
+"m": "v. 延伸，扩大",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extend\" in the recording.",
+"ipa": "/ɪkˈstɛnd/"
+},
+{
+"w": "extensive",
+"m": "adj. 大量的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extensive\" in the recording.",
+"ipa": "/ɪkˈstɛnsɪv/"
+},
+{
+"w": "extent",
+"m": "n. 程度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extent\" in the recording.",
+"ipa": "/ɪkˈstɛnt/"
+},
+{
+"w": "external",
+"m": "adj. 外部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"external\" in the recording.",
+"ipa": "/ɪkˈstərnəl/"
+},
+{
+"w": "extinct",
+"m": "adj. 灭绝的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extinct\" in the recording.",
+"ipa": "/ɪkˈstɪŋkt/"
+},
+{
+"w": "extra",
+"m": "adj. 额外的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extra\" in the recording.",
+"ipa": "/ˈɛkstrə/"
+},
+{
+"w": "extract",
+"m": "v. 提炼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extract\" in the recording.",
+"ipa": "/ˈɛkˌstrækt/"
+},
+{
+"w": "extremely",
+"m": "adv. 非常",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"extremely\" in the recording.",
+"ipa": "/ɪkˈstrimli/"
+},
+{
+"w": "eyes",
+"m": "n. 眼睛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eyes\" in the recording.",
+"ipa": "/aɪz/"
+},
+{
+"w": "eyesight",
+"m": "n. 视力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"eyesight\" in the recording.",
+"ipa": "/ˈaɪˌsaɪt/"
+},
+{
+"w": "fabrics",
+"m": "n. 织物，布料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fabrics\" in the recording.",
+"ipa": "/ˈfæbrɪks/"
+},
+{
+"w": "face",
+"m": "w朝，面对n.脸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"face\" in the recording.",
+"ipa": "/feɪs/"
+},
+{
+"w": "facials",
+"m": "n. 美容adj.面部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"facials\" in the recording.",
+"ipa": "/ˈfeɪʃəlz/"
+},
+{
+"w": "facilitate",
+"m": "v. 促进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"facilitate\" in the recording.",
+"ipa": "/fəˈsɪləˌteɪt/"
+},
+{
+"w": "facilities",
+"m": "n. 设施（facility的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"facilities\" in the recording.",
+"ipa": "/fəˈsɪlɪtiz/"
+},
+{
+"w": "fact",
+"m": "n. 事实",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fact\" in the recording.",
+"ipa": "/fækt/"
+},
+{
+"w": "factories",
+"m": "n. 工厂（factory的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"factories\" in the recording.",
+"ipa": "/ˈfæktəriz/"
+},
+{
+"w": "factors",
+"m": "n. 因素",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"factors\" in the recording.",
+"ipa": "/ˈfæktərz/"
+},
+{
+"w": "factual",
+"m": "adj. 事实的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"factual\" in the recording.",
+"ipa": "/ˈfækʧuəl/"
+},
+{
+"w": "fade",
+"m": "褪色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fade\" in the recording.",
+"ipa": "/feɪd/"
+},
+{
+"w": "fail",
+"m": "失败",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fail\" in the recording.",
+"ipa": "/feɪl/"
+},
+{
+"w": "fair",
+"m": "adj. 公平的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fair\" in the recording.",
+"ipa": "/fɛr/"
+},
+{
+"w": "fairy",
+"m": "adj. 虚构的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fairy\" in the recording.",
+"ipa": "/ˈfɛri/"
+},
+{
+"w": "falcons",
+"m": "n. 猎鹰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"falcons\" in the recording.",
+"ipa": "/ˈfælkənz/"
+},
+{
+"w": "fall",
+"m": "\"跌倒，（进入）某状态",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fall\" in the recording.",
+"ipa": "/fɔl/"
+},
+{
+"w": "false",
+"m": "错误的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"false\" in the recording.",
+"ipa": "/fɔls/"
+},
+{
+"w": "families",
+"m": "n. 家庭，家族（family的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"families\" in the recording.",
+"ipa": "/ˈfæməliz/"
+},
+{
+"w": "famous",
+"m": "adj. 著名的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"famous\" in the recording.",
+"ipa": "/ˈfeɪməs/"
+},
+{
+"w": "fan",
+"m": "n. 电扇v扇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fan\" in the recording.",
+"ipa": "/fæn/"
+},
+{
+"w": "fanatics",
+"m": "n. 狂热分子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fanatics\" in the recording.",
+"ipa": "/fəˈnætɪks/"
+},
+{
+"w": "fancy",
+"m": "W想做，喜爱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fancy\" in the recording.",
+"ipa": "/ˈfænsi/"
+},
+{
+"w": "fantastic",
+"m": "adj. 奇异的，极好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fantastic\" in the recording.",
+"ipa": "/fænˈtæstɪk/"
+},
+{
+"w": "far",
+"m": "adj. 远的adv很",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"far\" in the recording.",
+"ipa": "/fɑr/"
+},
+{
+"w": "fare",
+"m": "n. （乘客支付的）公共交通费",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fare\" in the recording.",
+"ipa": "/fɛr/"
+},
+{
+"w": "farmers",
+"m": "n. 农民",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"farmers\" in the recording.",
+"ipa": "/ˈfɑrmərz/"
+},
+{
+"w": "farms",
+"m": "n. 农场",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"farms\" in the recording.",
+"ipa": "/fɑrmz/"
+},
+{
+"w": "fascinating",
+"m": "adj. 迷人的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fascinating\" in the recording.",
+"ipa": "/ˈfæsəˌneɪtɪŋ/"
+},
+{
+"w": "fashions",
+"m": "n. 时尚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fashions\" in the recording.",
+"ipa": "/ˈfæʃənz/"
+},
+{
+"w": "fast",
+"m": "adj. 快速的（比较级faster）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fast\" in the recording.",
+"ipa": "/fæst/"
+},
+{
+"w": "fathers",
+"m": "n. 父亲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fathers\" in the recording.",
+"ipa": "/ˈfɑðərz/"
+},
+{
+"w": "fats",
+"m": "adj. 肥的n.脂肪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fats\" in the recording.",
+"ipa": "/fæts/"
+},
+{
+"w": "faulty",
+"m": "adj. 有错误的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"faulty\" in the recording.",
+"ipa": "/ˈfɔlti/"
+},
+{
+"w": "favourite",
+"m": "adj. 喜爱的n.特别喜爱的人（或物）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"favourite\" in the recording.",
+"ipa": "/ˈfeɪvərɪt/"
+},
+{
+"w": "fears",
+"m": "n. 害怕",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fears\" in the recording.",
+"ipa": "/fɪrz/"
+},
+{
+"w": "feast",
+"m": "n. 宴会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"feast\" in the recording.",
+"ipa": "/fist/"
+},
+{
+"w": "feathers",
+"m": "n. 羽毛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"feathers\" in the recording.",
+"ipa": "/ˈfɛðərz/"
+},
+{
+"w": "features",
+"m": "n. 特色以.为特色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"features\" in the recording.",
+"ipa": "/ˈfiʧərz/"
+},
+{
+"w": "February",
+"m": "n. 二月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"February\" in the recording.",
+"ipa": "/ˈfɛbruˌɛri/"
+},
+{
+"w": "feed",
+"m": "n. &v喂养，进食",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"feed\" in the recording.",
+"ipa": "/fid/"
+},
+{
+"w": "feedback",
+"m": "n. 反馈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"feedback\" in the recording.",
+"ipa": "/ˈfidˌbæk/"
+},
+{
+"w": "feel",
+"m": "w&n.感觉（过去式felt）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"feel\" in the recording.",
+"ipa": "/fil/"
+},
+{
+"w": "fees",
+"m": "n. 费用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fees\" in the recording.",
+"ipa": "/fiz/"
+},
+{
+"w": "female",
+"m": "adj. 女性的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"female\" in the recording.",
+"ipa": "/ˈfiˌmeɪl/"
+},
+{
+"w": "fences",
+"m": "n. 栅栏v用篱围住",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fences\" in the recording.",
+"ipa": "/ˈfɛnsɪz/"
+},
+{
+"w": "ferry",
+"m": "n. 渡船",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ferry\" in the recording.",
+"ipa": "/ˈfɛri/"
+},
+{
+"w": "fertile",
+"m": "adj. 富饶的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fertile\" in the recording.",
+"ipa": "/ˈfərtəl/"
+},
+{
+"w": "festivals",
+"m": "n. 节日",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"festivals\" in the recording.",
+"ipa": "/ˈfɛstɪvəlz/"
+},
+{
+"w": "few",
+"m": "adj. 很少的（比较级fewer）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"few\" in the recording.",
+"ipa": "/fju/"
+},
+{
+"w": "fibres",
+"m": "n. 纤维",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fibres\" in the recording."
+},
+{
+"w": "fields",
+"m": "n. 领域，牧场，旷野",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fields\" in the recording.",
+"ipa": "/fildz/"
+},
+{
+"w": "fights",
+"m": "n. &v打架，争取",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fights\" in the recording.",
+"ipa": "/faɪts/"
+},
+{
+"w": "figures",
+"m": "n. 价格，数字，人物，图形",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"figures\" in the recording.",
+"ipa": "/ˈfɪgjərz/"
+},
+{
+"w": "file",
+"m": "n. 文件把归",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"file\" in the recording.",
+"ipa": "/faɪl/"
+},
+{
+"w": "films",
+"m": "n. 电影",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"films\" in the recording.",
+"ipa": "/fɪlmz/"
+},
+{
+"w": "filter",
+"m": "v. 过滤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"filter\" in the recording.",
+"ipa": "/ˈfɪltər/"
+},
+{
+"w": "filth",
+"m": "n. 污移",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"filth\" in the recording.",
+"ipa": "/fɪlθ/"
+},
+{
+"w": "final",
+"m": "adj. 最终的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"final\" in the recording.",
+"ipa": "/ˈfaɪnəl/"
+},
+{
+"w": "finance",
+"m": "n. 金融",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"finance\" in the recording.",
+"ipa": "/ˈfaɪˌnæns/"
+},
+{
+"w": "find",
+"m": "n. &v发现（过去分词found）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"find\" in the recording.",
+"ipa": "/faɪnd/"
+},
+{
+"w": "fingers",
+"m": "n. 手指头",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fingers\" in the recording.",
+"ipa": "/ˈfɪŋgərz/"
+},
+{
+"w": "finish",
+"m": "完成",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"finish\" in the recording.",
+"ipa": "/ˈfɪnɪʃ/"
+},
+{
+"w": "fireplaces",
+"m": "n. 壁炉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fireplaces\" in the recording.",
+"ipa": "/ˈfaɪərˌpleɪsəz/"
+},
+{
+"w": "fres",
+"m": "n. 火",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fres\" in the recording."
+},
+{
+"w": "firewood",
+"m": "n. 柴火",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"firewood\" in the recording.",
+"ipa": "/ˈfaɪərˌwʊd/"
+},
+{
+"w": "fireworks",
+"m": "n. 烟火",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fireworks\" in the recording.",
+"ipa": "/ˈfaɪrˌwərks/"
+},
+{
+"w": "first",
+"m": "num. 第一pron.第一（个）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"first\" in the recording.",
+"ipa": "/fərst/"
+},
+{
+"w": "fish",
+"m": "n. 鱼v钓鱼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fish\" in the recording.",
+"ipa": "/fɪʃ/"
+},
+{
+"w": "fishing",
+"m": "n. 渔业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fishing\" in the recording.",
+"ipa": "/ˈfɪʃɪŋ/"
+},
+{
+"w": "fitness",
+"m": "n. 健康",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fitness\" in the recording.",
+"ipa": "/ˈfɪtnəs/"
+},
+{
+"w": "fix",
+"m": "v. 固定；维修",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fix\" in the recording.",
+"ipa": "/fɪks/"
+},
+{
+"w": "flag",
+"m": "n. 旗帜v标示",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flag\" in the recording.",
+"ipa": "/flæg/"
+},
+{
+"w": "flamingo",
+"m": "n. 火烈鸟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flamingo\" in the recording.",
+"ipa": "/fləˈmɪŋgoʊ/"
+},
+{
+"w": "flange",
+"m": "n. 轮缘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flange\" in the recording.",
+"ipa": "/flænʤ/"
+},
+{
+"w": "fat",
+"m": "n. 公寓adj.平的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fat\" in the recording.",
+"ipa": "/fæt/"
+},
+{
+"w": "flautist",
+"m": "n. 笛手（=flutist）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flautist\" in the recording."
+},
+{
+"w": "favour",
+"m": "n. 香味",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"favour\" in the recording.",
+"ipa": "/ˈfeɪvər/"
+},
+{
+"w": "flexible",
+"m": "adj. 灵活的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flexible\" in the recording.",
+"ipa": "/ˈflɛksəbəl/"
+},
+{
+"w": "flight",
+"m": "n. 班机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flight\" in the recording.",
+"ipa": "/flaɪt/"
+},
+{
+"w": "floats",
+"m": "v. 漂浮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"floats\" in the recording.",
+"ipa": "/floʊts/"
+},
+{
+"w": "flock",
+"m": "v. 聚集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flock\" in the recording.",
+"ipa": "/flɑk/"
+},
+{
+"w": "floods",
+"m": "n. 洪水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"floods\" in the recording.",
+"ipa": "/flədz/"
+},
+{
+"w": "floor",
+"m": "n. 地板",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"floor\" in the recording.",
+"ipa": "/flɔr/"
+},
+{
+"w": "four",
+"m": "n. 面粉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"four\" in the recording.",
+"ipa": "/fɔr/"
+},
+{
+"w": "flourish",
+"m": "\"繁荣，苗壮成长",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flourish\" in the recording.",
+"ipa": "/flərɪʃ/"
+},
+{
+"w": "fow",
+"m": "w流动（过去式flew）n.车流",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fow\" in the recording."
+},
+{
+"w": "flowers",
+"m": "n. 花",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"flowers\" in the recording.",
+"ipa": "/flaʊərz/"
+},
+{
+"w": "fu",
+"m": "n. 流感",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fu\" in the recording.",
+"ipa": "/fu/"
+},
+{
+"w": "fut",
+"m": "n. 长笛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fut\" in the recording."
+},
+{
+"w": "focus",
+"m": "n. 焦点u聚焦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"focus\" in the recording.",
+"ipa": "/ˈfoʊkɪs/"
+},
+{
+"w": "folder",
+"m": "n. 文件夹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"folder\" in the recording.",
+"ipa": "/ˈfoʊldər/"
+},
+{
+"w": "follow",
+"m": "v. 跟随",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"follow\" in the recording.",
+"ipa": "/ˈfɑloʊ/"
+},
+{
+"w": "food",
+"m": "n. 食物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"food\" in the recording.",
+"ipa": "/fud/"
+},
+{
+"w": "foot",
+"m": "n. 脚（复数feet）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"foot\" in the recording.",
+"ipa": "/fʊt/"
+},
+{
+"w": "footbridges",
+"m": "n. 人行桥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"footbridges\" in the recording."
+},
+{
+"w": "footprint",
+"m": "n. 足迹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"footprint\" in the recording.",
+"ipa": "/ˈfʊtˌprɪnt/"
+},
+{
+"w": "footwear",
+"m": "n. 鞋袜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"footwear\" in the recording.",
+"ipa": "/ˈfʊtˌwɛr/"
+},
+{
+"w": "forbids",
+"m": "v. 禁止",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forbids\" in the recording.",
+"ipa": "/fərˈbɪdz/"
+},
+{
+"w": "forces",
+"m": "v. 促使n.武装力量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forces\" in the recording.",
+"ipa": "/ˈfɔrsɪz/"
+},
+{
+"w": "forecast",
+"m": "n. 预测",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forecast\" in the recording.",
+"ipa": "/ˈfɔrˌkæst/"
+},
+{
+"w": "foreign",
+"m": "adj. 外国的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"foreign\" in the recording.",
+"ipa": "/ˈfɔrən/"
+},
+{
+"w": "forests",
+"m": "n. 森林",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forests\" in the recording.",
+"ipa": "/ˈfɔrəsts/"
+},
+{
+"w": "forget",
+"m": "v. 忘记",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forget\" in the recording.",
+"ipa": "/fərˈgɛt/"
+},
+{
+"w": "forks",
+"m": "n. 叉子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forks\" in the recording.",
+"ipa": "/fɔrks/"
+},
+{
+"w": "formal",
+"m": "adj. 正式的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"formal\" in the recording.",
+"ipa": "/ˈfɔrməl/"
+},
+{
+"w": "format",
+"m": "n. 格式",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"format\" in the recording.",
+"ipa": "/ˈfɔrˌmæt/"
+},
+{
+"w": "fort",
+"m": "n. 堡垒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fort\" in the recording.",
+"ipa": "/fɔrt/"
+},
+{
+"w": "fortunately",
+"m": "adv. 幸运地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fortunately\" in the recording.",
+"ipa": "/ˈfɔrʧənətli/"
+},
+{
+"w": "fortune",
+"m": "n. 财富",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fortune\" in the recording.",
+"ipa": "/ˈfɔrʧən/"
+},
+{
+"w": "forward",
+"m": "adv. 向前地adj.向前的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"forward\" in the recording.",
+"ipa": "/ˈfɔrwərd/"
+},
+{
+"w": "fossil",
+"m": "n. 化石",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fossil\" in the recording.",
+"ipa": "/ˈfɑsəl/"
+},
+{
+"w": "foundation",
+"m": "n. 地基；基金会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"foundation\" in the recording.",
+"ipa": "/faʊnˈdeɪʃən/"
+},
+{
+"w": "founder",
+"m": "n. 创立者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"founder\" in the recording.",
+"ipa": "/ˈfaʊndər/"
+},
+{
+"w": "fountain",
+"m": "n. 喷泉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fountain\" in the recording.",
+"ipa": "/ˈfaʊntən/"
+},
+{
+"w": "fracture",
+"m": "v. 破裂，折断",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fracture\" in the recording.",
+"ipa": "/ˈfrækʧər/"
+},
+{
+"w": "fragile",
+"m": "adj. 脆弱的，易碎的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fragile\" in the recording.",
+"ipa": "/ˈfræʤəl/"
+},
+{
+"w": "frame",
+"m": "n. 框架",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frame\" in the recording.",
+"ipa": "/freɪm/"
+},
+{
+"w": "frameworks",
+"m": "n. 框架",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frameworks\" in the recording.",
+"ipa": "/ˈfreɪmˌwərks/"
+},
+{
+"w": "free",
+"m": "adj. 免费的adv自由地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"free\" in the recording.",
+"ipa": "/fri/"
+},
+{
+"w": "freelance",
+"m": "n. 自由作家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"freelance\" in the recording.",
+"ipa": "/ˈfriˌlæns/"
+},
+{
+"w": "freeze",
+"m": "w冻结（过去分词frozen）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"freeze\" in the recording.",
+"ipa": "/friz/"
+},
+{
+"w": "Frenchs",
+"m": "n. 法语，法国人adj.法国的，法国",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Frenchs\" in the recording."
+},
+{
+"w": "frequency",
+"m": "n. 频率",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frequency\" in the recording.",
+"ipa": "/ˈfrikwənsi/"
+},
+{
+"w": "fresh",
+"m": "adj. 新鲜的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fresh\" in the recording.",
+"ipa": "/frɛʃ/"
+},
+{
+"w": "Friday",
+"m": "n. 星期五",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Friday\" in the recording.",
+"ipa": "/ˈfraɪˌdeɪ/"
+},
+{
+"w": "fridges",
+"m": "n. 电冰箱（=refrigerator）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fridges\" in the recording.",
+"ipa": "/ˈfrɪʤəz/"
+},
+{
+"w": "friendly",
+"m": "adj. 友好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"friendly\" in the recording.",
+"ipa": "/ˈfrɛndli/"
+},
+{
+"w": "friends",
+"m": "n. 朋友",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"friends\" in the recording.",
+"ipa": "/frɛndz/"
+},
+{
+"w": "frighten",
+"m": "惊吓",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frighten\" in the recording.",
+"ipa": "/ˈfraɪtən/"
+},
+{
+"w": "frog",
+"m": "n. 青蛙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frog\" in the recording.",
+"ipa": "/frɑg/"
+},
+{
+"w": "front",
+"m": "n. 前面adj.前面的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"front\" in the recording.",
+"ipa": "/frənt/"
+},
+{
+"w": "fruit",
+"m": "n. 水果",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fruit\" in the recording.",
+"ipa": "/frut/"
+},
+{
+"w": "frustrating",
+"m": "adj. 令人沮丧的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"frustrating\" in the recording.",
+"ipa": "/ˈfrəˌstreɪtɪŋ/"
+},
+{
+"w": "fuels",
+"m": "n. 燃料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fuels\" in the recording.",
+"ipa": "/fjuəlz/"
+},
+{
+"w": "full",
+"m": "adj. 完整的（比较级fuller）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"full\" in the recording.",
+"ipa": "/fʊl/"
+},
+{
+"w": "fumes",
+"m": "n. 刺激性气味",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"fumes\" in the recording.",
+"ipa": "/fjumz/"
+},
+{
+"w": "funs",
+"m": "n. 乐趣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"funs\" in the recording.",
+"ipa": "/fənz/"
+},
+{
+"w": "function",
+"m": "n. 功能v运行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"function\" in the recording.",
+"ipa": "/ˈfəŋkʃən/"
+},
+{
+"w": "funds",
+"m": "基金",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"funds\" in the recording.",
+"ipa": "/fəndz/"
+},
+{
+"w": "funny",
+"m": "adj. 有趣的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"funny\" in the recording.",
+"ipa": "/ˈfəni/"
+},
+{
+"w": "furniture",
+"m": "家具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"furniture\" in the recording.",
+"ipa": "/ˈfərnɪʧər/"
+},
+{
+"w": "furs",
+"m": "n. 毛皮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"furs\" in the recording.",
+"ipa": "/fərz/"
+},
+{
+"w": "further",
+"m": "adv. 更远地adj.更远的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"further\" in the recording.",
+"ipa": "/ˈfərðər/"
+},
+{
+"w": "future",
+"m": "n. 未来adj.未来的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"future\" in the recording.",
+"ipa": "/fˈjuʧər/"
+},
+{
+"w": "gain",
+"m": "获得",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gain\" in the recording.",
+"ipa": "/geɪn/"
+},
+{
+"w": "gallery",
+"m": "n. 画廊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gallery\" in the recording.",
+"ipa": "/ˈgæləri/"
+},
+{
+"w": "games",
+"m": "n. 游戏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"games\" in the recording.",
+"ipa": "/geɪmz/"
+},
+{
+"w": "garage",
+"m": "n. 车库",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"garage\" in the recording.",
+"ipa": "/gərɑʒ/"
+},
+{
+"w": "gardens",
+"m": "n. 花园",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gardens\" in the recording.",
+"ipa": "/ˈgɑrdənz/"
+},
+{
+"w": "gases",
+"m": "n. 气体，汽油",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gases\" in the recording.",
+"ipa": "/ˈgæsɪz/"
+},
+{
+"w": "gates",
+"m": "n. 大门",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gates\" in the recording.",
+"ipa": "/geɪts/"
+},
+{
+"w": "gather",
+"m": "v. 收集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gather\" in the recording.",
+"ipa": "/ˈgæðər/"
+},
+{
+"w": "gauge",
+"m": "n. 计量器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gauge\" in the recording.",
+"ipa": "/geɪʤ/"
+},
+{
+"w": "gender",
+"m": "n. 性别",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gender\" in the recording.",
+"ipa": "/ˈʤɛndər/"
+},
+{
+"w": "gene",
+"m": "genetically从基因方面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gene\" in the recording.",
+"ipa": "/ʤin/"
+},
+{
+"w": "general",
+"m": "adj. 普通的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"general\" in the recording.",
+"ipa": "/ˈʤɛnərəl/"
+},
+{
+"w": "generate",
+"m": "w形成，生殖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"generate\" in the recording.",
+"ipa": "/ˈʤɛnərˌeɪt/"
+},
+{
+"w": "generator",
+"m": "n. 发电机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"generator\" in the recording.",
+"ipa": "/ˈʤɛnərˌeɪtər/"
+},
+{
+"w": "genre",
+"m": "n. 流派",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"genre\" in the recording.",
+"ipa": "/ˈʒɑnrə/"
+},
+{
+"w": "gentle",
+"m": "adj. 温和的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gentle\" in the recording.",
+"ipa": "/ˈʤɛnəl/"
+},
+{
+"w": "geography",
+"m": "7n.地理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"geography\" in the recording.",
+"ipa": "/ʤiˈɑgrəfi/"
+},
+{
+"w": "Germans",
+"m": "n. 德语，德国人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Germans\" in the recording.",
+"ipa": "/ˈʤərmənz/"
+},
+{
+"w": "Germany",
+"m": "n. 德国",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Germany\" in the recording.",
+"ipa": "/ˈʤərməni/"
+},
+{
+"w": "germinate",
+"m": "v. 发芽",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"germinate\" in the recording.",
+"ipa": "/ˈʤərməˌneɪt/"
+},
+{
+"w": "germs",
+"m": "n. 细菌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"germs\" in the recording.",
+"ipa": "/ʤərmz/"
+},
+{
+"w": "gifts",
+"m": "n. 礼品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gifts\" in the recording.",
+"ipa": "/gɪfts/"
+},
+{
+"w": "girls",
+"m": "n. 女孩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"girls\" in the recording.",
+"ipa": "/gərlz/"
+},
+{
+"w": "glaciers",
+"m": "n. 冰河",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glaciers\" in the recording.",
+"ipa": "/ˈgleɪʃərz/"
+},
+{
+"w": "glad",
+"m": "adj. 高兴的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glad\" in the recording.",
+"ipa": "/glæd/"
+},
+{
+"w": "glance",
+"m": "v. 警见",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glance\" in the recording.",
+"ipa": "/glæns/"
+},
+{
+"w": "glasses",
+"m": "n. 玻璃",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glasses\" in the recording.",
+"ipa": "/ˈglæsɪz/"
+},
+{
+"w": "glide",
+"m": "W滑行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glide\" in the recording.",
+"ipa": "/glaɪd/"
+},
+{
+"w": "global",
+"m": "adj. 全球的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"global\" in the recording.",
+"ipa": "/ˈgloʊbəl/"
+},
+{
+"w": "gloves",
+"m": "n. 手套",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gloves\" in the recording.",
+"ipa": "/gləvz/"
+},
+{
+"w": "glue",
+"m": "n. 胶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glue\" in the recording.",
+"ipa": "/glu/"
+},
+{
+"w": "glycerine",
+"m": "n. 甘油",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"glycerine\" in the recording."
+},
+{
+"w": "goals",
+"m": "n. 目标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"goals\" in the recording.",
+"ipa": "/goʊlz/"
+},
+{
+"w": "golde",
+"m": "n. 黄金adj.金的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"golde\" in the recording.",
+"ipa": "/goʊld/"
+},
+{
+"w": "golf",
+"m": "n. 高尔夫球",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"golf\" in the recording.",
+"ipa": "/gɔlf/"
+},
+{
+"w": "goods",
+"m": "n. 商品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"goods\" in the recording.",
+"ipa": "/gʊdz/"
+},
+{
+"w": "government",
+"m": "n. 政府",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"government\" in the recording.",
+"ipa": "/ˈgəvərnmənt/"
+},
+{
+"w": "gown",
+"m": "n. 长袍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gown\" in the recording.",
+"ipa": "/gaʊn/"
+},
+{
+"w": "grade",
+"m": "n. 年级，成绩v评级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grade\" in the recording.",
+"ipa": "/greɪd/"
+},
+{
+"w": "gradual",
+"m": "adj. 逐渐的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gradual\" in the recording.",
+"ipa": "/ˈgræʤuəl/"
+},
+{
+"w": "graduate",
+"m": "毕业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"graduate\" in the recording.",
+"ipa": "/ˈgræʤəˌweɪt/"
+},
+{
+"w": "grain",
+"m": "n. 粮食",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grain\" in the recording.",
+"ipa": "/greɪn/"
+},
+{
+"w": "grammar",
+"m": "n. 语法",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grammar\" in the recording.",
+"ipa": "/ˈgræmər/"
+},
+{
+"w": "grandchildren",
+"m": "n. 孙子（女）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grandchildren\" in the recording.",
+"ipa": "/ˈgrænˌʧɪldrən/"
+},
+{
+"w": "grandparents",
+"m": "祖父母",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grandparents\" in the recording.",
+"ipa": "/ˈgrændˌpɛrənts/"
+},
+{
+"w": "grant",
+"m": "n. 拨款，补助金",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grant\" in the recording.",
+"ipa": "/grænt/"
+},
+{
+"w": "graphics",
+"m": "n. 图形",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"graphics\" in the recording.",
+"ipa": "/ˈgræfɪks/"
+},
+{
+"w": "grasses",
+"m": "n. 草",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grasses\" in the recording.",
+"ipa": "/ˈgræsɪz/"
+},
+{
+"w": "grateful",
+"m": "adj. 感谢的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grateful\" in the recording.",
+"ipa": "/ˈgreɪtfəl/"
+},
+{
+"w": "gravity",
+"m": "n. 重力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gravity\" in the recording.",
+"ipa": "/ˈgrævɪti/"
+},
+{
+"w": "great",
+"m": "adj. 极好的（最高级greatest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"great\" in the recording.",
+"ipa": "/greɪt/"
+},
+{
+"w": "green",
+"m": "n. 绿色adj.绿色的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"green\" in the recording.",
+"ipa": "/grin/"
+},
+{
+"w": "greenhouse",
+"m": "n. 温室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"greenhouse\" in the recording.",
+"ipa": "/ˈgrinˌhaʊs/"
+},
+{
+"w": "groceries",
+"m": "n. 杂货（店）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"groceries\" in the recording.",
+"ipa": "/ˈgroʊsəriz/"
+},
+{
+"w": "grounds",
+"m": "n. 地面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"grounds\" in the recording.",
+"ipa": "/graʊnz/"
+},
+{
+"w": "groups",
+"m": "n. 组，队",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"groups\" in the recording.",
+"ipa": "/grups/"
+},
+{
+"w": "guarantees",
+"m": "n. &v保证",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guarantees\" in the recording.",
+"ipa": "/ˌgɛrənˈtiz/"
+},
+{
+"w": "guard",
+"m": "v&n.保卫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guard\" in the recording.",
+"ipa": "/gɑrd/"
+},
+{
+"w": "guests",
+"m": "n. 客人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guests\" in the recording.",
+"ipa": "/gɛsts/"
+},
+{
+"w": "guide",
+"m": "n. 向导v引导",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guide\" in the recording.",
+"ipa": "/gaɪd/"
+},
+{
+"w": "guided",
+"m": "adj. 有向导的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guided\" in the recording.",
+"ipa": "/ˈgaɪdɪd/"
+},
+{
+"w": "guitars",
+"m": "n. 吉他",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"guitars\" in the recording.",
+"ipa": "/gɪˈtɑrz/"
+},
+{
+"w": "gulf",
+"m": "n. 海湾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gulf\" in the recording.",
+"ipa": "/gəlf/"
+},
+{
+"w": "gum",
+"m": "n. 树胶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gum\" in the recording.",
+"ipa": "/gəm/"
+},
+{
+"w": "gym",
+"m": "n. 健身房",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"gym\" in the recording.",
+"ipa": "/ʤɪm/"
+},
+{
+"w": "habitats",
+"m": "n. 栖息地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"habitats\" in the recording.",
+"ipa": "/ˈhæbəˌtæts/"
+},
+{
+"w": "habits",
+"m": "n. 习惯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"habits\" in the recording.",
+"ipa": "/ˈhæbəts/"
+},
+{
+"w": "hair",
+"m": "n. 头发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hair\" in the recording.",
+"ipa": "/hɛr/"
+},
+{
+"w": "hairdresser",
+"m": "n. 美发师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hairdresser\" in the recording.",
+"ipa": "/ˈhɛrˌdrɛsər/"
+},
+{
+"w": "half",
+"m": "n. 一半",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"half\" in the recording.",
+"ipa": "/hæf/"
+},
+{
+"w": "halls",
+"m": "n. 大厅，学生宿舍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"halls\" in the recording.",
+"ipa": "/hɔlz/"
+},
+{
+"w": "haloes",
+"m": "n. 光环，日晕",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"haloes\" in the recording."
+},
+{
+"w": "handouts",
+"m": "n. 文字资料，讲义",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"handouts\" in the recording.",
+"ipa": "/ˈhænˌdaʊts/"
+},
+{
+"w": "hands",
+"m": "n. 手v.传递",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hands\" in the recording.",
+"ipa": "/hænz/"
+},
+{
+"w": "happen",
+"m": "v. 发生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"happen\" in the recording.",
+"ipa": "/ˈhæpən/"
+},
+{
+"w": "happy",
+"m": "adj. 高兴的（比较级happier）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"happy\" in the recording.",
+"ipa": "/ˈhæpi/"
+},
+{
+"w": "harbours",
+"m": "n. 海港（美式harbor）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harbours\" in the recording."
+},
+{
+"w": "hard",
+"m": "adj. 硬的，困难的（比较级harder）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hard\" in the recording.",
+"ipa": "/hɑrd/"
+},
+{
+"w": "harm",
+"m": "v. 伤害",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harm\" in the recording.",
+"ipa": "/hɑrm/"
+},
+{
+"w": "harness",
+"m": "v. 利用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harness\" in the recording.",
+"ipa": "/ˈhɑrnɪs/"
+},
+{
+"w": "harp",
+"m": "n. 竖琴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harp\" in the recording.",
+"ipa": "/hɑrp/"
+},
+{
+"w": "harsh",
+"m": "adj. 严酷的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harsh\" in the recording.",
+"ipa": "/hɑrʃ/"
+},
+{
+"w": "harvest",
+"m": "W收割",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"harvest\" in the recording.",
+"ipa": "/ˈhɑrvəst/"
+},
+{
+"w": "hates",
+"m": "v. 厌恶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hates\" in the recording.",
+"ipa": "/heɪts/"
+},
+{
+"w": "hats",
+"m": "n. 帽子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hats\" in the recording.",
+"ipa": "/hæts/"
+},
+{
+"w": "hazard",
+"m": "n. 危险，风险",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hazard\" in the recording.",
+"ipa": "/ˈhæzərd/"
+},
+{
+"w": "head",
+"m": "n. 头，每人出发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"head\" in the recording.",
+"ipa": "/hɛd/"
+},
+{
+"w": "headland",
+"m": "7n.呷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"headland\" in the recording."
+},
+{
+"w": "headlines",
+"m": "n. 大标题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"headlines\" in the recording.",
+"ipa": "/ˈhɛˌdlaɪnz/"
+},
+{
+"w": "heal",
+"m": "v. 治愈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heal\" in the recording.",
+"ipa": "/hil/"
+},
+{
+"w": "health",
+"m": "n. 健康",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"health\" in the recording.",
+"ipa": "/hɛlθ/"
+},
+{
+"w": "healthy",
+"m": "adj. 健康的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"healthy\" in the recording.",
+"ipa": "/ˈhɛlθi/"
+},
+{
+"w": "hear",
+"m": "v. 听（过去式和过去分词heard）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hear\" in the recording.",
+"ipa": "/hir/"
+},
+{
+"w": "heart",
+"m": "n. 心脏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heart\" in the recording.",
+"ipa": "/hɑrt/"
+},
+{
+"w": "heat",
+"m": "n. 高温v加热",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heat\" in the recording.",
+"ipa": "/hit/"
+},
+{
+"w": "heavy",
+"m": "adj. 重的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heavy\" in the recording.",
+"ipa": "/ˈhɛvi/"
+},
+{
+"w": "hedges",
+"m": "n. 树篱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hedges\" in the recording.",
+"ipa": "/ˈhɛʤɪz/"
+},
+{
+"w": "heels",
+"m": "高跟鞋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heels\" in the recording.",
+"ipa": "/hilz/"
+},
+{
+"w": "height",
+"m": "高度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"height\" in the recording.",
+"ipa": "/haɪt/"
+},
+{
+"w": "helicopter",
+"m": ".直升机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"helicopter\" in the recording.",
+"ipa": "/ˈhɛlɪˌkɑptər/"
+},
+{
+"w": "helmets",
+"m": "n. 头盔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"helmets\" in the recording.",
+"ipa": "/ˈhɛlməts/"
+},
+{
+"w": "helpful",
+"m": "adj. 有帮助的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"helpful\" in the recording.",
+"ipa": "/ˈhɛlpfəl/"
+},
+{
+"w": "helpless",
+"m": "adj. 无助的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"helpless\" in the recording.",
+"ipa": "/ˈhɛlpləs/"
+},
+{
+"w": "heritage",
+"m": "n. 遗产",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heritage\" in the recording.",
+"ipa": "/ˈhɛrɪtɪʤ/"
+},
+{
+"w": "hero",
+"m": "n. 英雄，男主角",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hero\" in the recording.",
+"ipa": "/ˈhɪroʊ/"
+},
+{
+"w": "heroine",
+"m": "n. 女主角",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"heroine\" in the recording.",
+"ipa": "/ˈhɛroʊən/"
+},
+{
+"w": "hesitate",
+"m": "v. 跨踏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hesitate\" in the recording.",
+"ipa": "/ˈhɛzəˌteɪt/"
+},
+{
+"w": "hibernation",
+"m": "n. 冬眠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hibernation\" in the recording.",
+"ipa": "/ˌhaɪbərˈneɪʃən/"
+},
+{
+"w": "hidden",
+"m": "adj. 隐藏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hidden\" in the recording.",
+"ipa": "/ˈhɪdən/"
+},
+{
+"w": "hierarchy",
+"m": "n. 层级，等级制度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hierarchy\" in the recording.",
+"ipa": "/ˈhaɪˌrɑrki/"
+},
+{
+"w": "high",
+"m": "adj. 高的（比较级higher）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"high\" in the recording.",
+"ipa": "/haɪ/"
+},
+{
+"w": "highlights",
+"m": "n. 最精彩的部分突出",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"highlights\" in the recording.",
+"ipa": "/ˈhaɪˌlaɪts/"
+},
+{
+"w": "highways",
+"m": "n. 公路",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"highways\" in the recording.",
+"ipa": "/ˈhaɪˌweɪz/"
+},
+{
+"w": "hills",
+"m": "n. 小山",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hills\" in the recording.",
+"ipa": "/hɪlz/"
+},
+{
+"w": "hillsides",
+"m": "n. 山坡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hillsides\" in the recording.",
+"ipa": "/ˈhɪlˌsaɪdz/"
+},
+{
+"w": "hire",
+"m": "v. 租用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hire\" in the recording.",
+"ipa": "/haɪər/"
+},
+{
+"w": "history",
+"m": "n. 历史",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"history\" in the recording.",
+"ipa": "/ˈhɪstəri/"
+},
+{
+"w": "hobby",
+"m": "n. 业余爱好",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hobby\" in the recording.",
+"ipa": "/ˈhɑbi/"
+},
+{
+"w": "hold",
+"m": "w举行，保持（过去式held）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hold\" in the recording.",
+"ipa": "/hoʊld/"
+},
+{
+"w": "holes",
+"m": "n. 孔，洞",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"holes\" in the recording.",
+"ipa": "/hoʊlz/"
+},
+{
+"w": "holidays",
+"m": "n. 假日",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"holidays\" in the recording.",
+"ipa": "/ˈhɑləˌdeɪz/"
+},
+{
+"w": "homes",
+"m": "n. 家，家庭",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"homes\" in the recording.",
+"ipa": "/hoʊmz/"
+},
+{
+"w": "homestay",
+"m": "n. 寄宿家庭",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"homestay\" in the recording."
+},
+{
+"w": "homework",
+"m": "n. 家庭作业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"homework\" in the recording.",
+"ipa": "/ˈhoʊmˌwərk/"
+},
+{
+"w": "honest",
+"m": "adj. 诚实的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"honest\" in the recording.",
+"ipa": "/ˈɑnəst/"
+},
+{
+"w": "honey",
+"m": "n. 蜂蜜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"honey\" in the recording.",
+"ipa": "/ˈhəni/"
+},
+{
+"w": "hook",
+"m": "n. 挂钩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hook\" in the recording.",
+"ipa": "/hʊk/"
+},
+{
+"w": "hope",
+"m": "v. 希望",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hope\" in the recording.",
+"ipa": "/hoʊp/"
+},
+{
+"w": "hormones",
+"m": "n. 激素，荷尔蒙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hormones\" in the recording.",
+"ipa": "/ˈhɔrˌmoʊnz/"
+},
+{
+"w": "horror",
+"m": "n. 惊骇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"horror\" in the recording.",
+"ipa": "/ˈhɔrər/"
+},
+{
+"w": "horses",
+"m": "n. 马v骑马",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"horses\" in the recording.",
+"ipa": "/ˈhɔrsɪz/"
+},
+{
+"w": "hospital",
+"m": "n. 医院",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hospital\" in the recording.",
+"ipa": "/ˈhɑˌspɪtəl/"
+},
+{
+"w": "hospitality",
+"m": "n. 好客，款待",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hospitality\" in the recording.",
+"ipa": "/ˌhɑspəˈtæləti/"
+},
+{
+"w": "host",
+"m": "v. 主持",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"host\" in the recording.",
+"ipa": "/hoʊst/"
+},
+{
+"w": "hostel",
+"m": "n. 旅社",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hostel\" in the recording.",
+"ipa": "/ˈhɑstəl/"
+},
+{
+"w": "hot",
+"m": "adj. 热的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hot\" in the recording.",
+"ipa": "/hɑt/"
+},
+{
+"w": "hotels",
+"m": "n. 旅馆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hotels\" in the recording.",
+"ipa": "/hoʊˈtɛlz/"
+},
+{
+"w": "hotspots",
+"m": "n. 热点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hotspots\" in the recording."
+},
+{
+"w": "hours",
+"m": "n. 小时",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hours\" in the recording.",
+"ipa": "/aʊərz/"
+},
+{
+"w": "household",
+"m": "n. 一家人adj.家庭的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"household\" in the recording.",
+"ipa": "/ˈhaʊsˌhoʊld/"
+},
+{
+"w": "houses",
+"m": "n. 住宅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"houses\" in the recording.",
+"ipa": "/ˈhaʊsɪz/"
+},
+{
+"w": "housewife",
+"m": "n. 家庭主妇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"housewife\" in the recording.",
+"ipa": "/ˈhaʊsˌwaɪf/"
+},
+{
+"w": "however",
+"m": "adv. 无论如何conj.无论以何种方式",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"however\" in the recording.",
+"ipa": "/ˌhaʊˈɛvər/"
+},
+{
+"w": "humans",
+"m": "n. 人，人类",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"humans\" in the recording.",
+"ipa": "/ˈjumənz/"
+},
+{
+"w": "humid",
+"m": "n. 潮湿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"humid\" in the recording.",
+"ipa": "/ˈjumɪd/"
+},
+{
+"w": "hundreds",
+"m": "n. 百（+s有“成百上千”",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hundreds\" in the recording.",
+"ipa": "/ˈhənərdz/"
+},
+{
+"w": "hunger",
+"m": "n. 饥饿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hunger\" in the recording.",
+"ipa": "/ˈhəŋgər/"
+},
+{
+"w": "hunt",
+"m": "打猎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hunt\" in the recording.",
+"ipa": "/hənt/"
+},
+{
+"w": "hunters",
+"m": "n. 猎人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hunters\" in the recording.",
+"ipa": "/ˈhəntərz/"
+},
+{
+"w": "hunting",
+"m": "n. 打猎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hunting\" in the recording.",
+"ipa": "/ˈhəntɪŋ/"
+},
+{
+"w": "hurts",
+"m": "v. 损害",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hurts\" in the recording.",
+"ipa": "/hərts/"
+},
+{
+"w": "husband",
+"m": "n. 丈夫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"husband\" in the recording.",
+"ipa": "/ˈhəzbənd/"
+},
+{
+"w": "hut",
+"m": "n. 小屋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hut\" in the recording.",
+"ipa": "/hət/"
+},
+{
+"w": "hydro",
+"m": "adj. 水力发电的（hydroelectric简称）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hydro\" in the recording.",
+"ipa": "/ˈhaɪˌdroʊ/"
+},
+{
+"w": "hygrometer",
+"m": "n. 湿度计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hygrometer\" in the recording.",
+"ipa": "/haɪˈgrɑmətər/"
+},
+{
+"w": "hypothesis",
+"m": "7n.假设",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"hypothesis\" in the recording.",
+"ipa": "/haɪˈpɑθəsəs/"
+},
+{
+"w": "icel",
+"m": "n. 冰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"icel\" in the recording."
+},
+{
+"w": "icehouse",
+"m": "n. 冰库",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"icehouse\" in the recording."
+},
+{
+"w": "ideas",
+"m": "n. 想法",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ideas\" in the recording.",
+"ipa": "/aɪˈdiəz/"
+},
+{
+"w": "identify",
+"m": "v. 鉴定",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"identify\" in the recording.",
+"ipa": "/aɪˈdɛntəˌfaɪ/"
+},
+{
+"w": "identity",
+"m": "n. 身份",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"identity\" in the recording.",
+"ipa": "/aɪˈdɛntəˌti/"
+},
+{
+"w": "ignore",
+"m": "v. 忽视",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ignore\" in the recording.",
+"ipa": "/ˌɪgˈnɔr/"
+},
+{
+"w": "illustrate",
+"m": "W阐明，图解",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"illustrate\" in the recording.",
+"ipa": "/ˈɪləˌstreɪt/"
+},
+{
+"w": "images",
+"m": "n. 影像",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"images\" in the recording.",
+"ipa": "/ˈɪmɪʤɪz/"
+},
+{
+"w": "imagination",
+"m": "n. 想象力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"imagination\" in the recording.",
+"ipa": "/ˌɪˌmæʤəˈneɪʃən/"
+},
+{
+"w": "imitates",
+"m": "v. 模仿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"imitates\" in the recording.",
+"ipa": "/ˈɪməˌteɪts/"
+},
+{
+"w": "immediately",
+"m": "adv. 立即",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"immediately\" in the recording.",
+"ipa": "/ˌɪˈmiˌdiətli/"
+},
+{
+"w": "immigrants",
+"m": "n. 移民",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"immigrants\" in the recording.",
+"ipa": "/ˈɪməgrənts/"
+},
+{
+"w": "impact",
+"m": "n. 影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"impact\" in the recording.",
+"ipa": "/ˌɪmˈpækt/"
+},
+{
+"w": "impair",
+"m": "v. 损害",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"impair\" in the recording.",
+"ipa": "/ˌɪmˈpɛr/"
+},
+{
+"w": "implement",
+"m": "v. 实施",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"implement\" in the recording.",
+"ipa": "/ˈɪmpləmənt/"
+},
+{
+"w": "implications",
+"m": "n. 暗示",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"implications\" in the recording.",
+"ipa": "/ˌɪmpləˈkeɪʃənz/"
+},
+{
+"w": "import",
+"m": "&n.输入，进口",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"import\" in the recording.",
+"ipa": "/ˌɪmˈpɔrt/"
+},
+{
+"w": "important",
+"m": "adj. 重要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"important\" in the recording.",
+"ipa": "/ˌɪmˈpɔrtənt/"
+},
+{
+"w": "impose",
+"m": "w利用，强加",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"impose\" in the recording.",
+"ipa": "/ˌɪmˈpoʊz/"
+},
+{
+"w": "impressive",
+"m": "adj. 给人以深刻印象的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"impressive\" in the recording.",
+"ipa": "/ˌɪmˈprɛsɪv/"
+},
+{
+"w": "improve",
+"m": "w改善，增进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"improve\" in the recording.",
+"ipa": "/ˌɪmˈpruv/"
+},
+{
+"w": "improvements",
+"m": "n. 改进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"improvements\" in the recording.",
+"ipa": "/ˌɪmˈpruvmənts/"
+},
+{
+"w": "incentive",
+"m": "n. 刺激",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incentive\" in the recording.",
+"ipa": "/ˌɪnˈsɛnɪv/"
+},
+{
+"w": "inches",
+"m": "n. 英寸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inches\" in the recording.",
+"ipa": "/ˈɪnʧɪz/"
+},
+{
+"w": "incidentally",
+"m": "adv. 偶然地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incidentally\" in the recording.",
+"ipa": "/ˌɪnsɪˈdɛntəli/"
+},
+{
+"w": "incineration",
+"m": "n. 楚化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incineration\" in the recording.",
+"ipa": "/ˌɪnˈsɪnərˌeɪʃən/"
+},
+{
+"w": "incline",
+"m": "v. 倾向于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incline\" in the recording.",
+"ipa": "/ˌɪnˈklaɪn/"
+},
+{
+"w": "include",
+"m": "包含",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"include\" in the recording.",
+"ipa": "/ˌɪnˈklud/"
+},
+{
+"w": "inclusive",
+"m": "adj. 包含全部费用的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inclusive\" in the recording.",
+"ipa": "/ˌɪnˈklusɪv/"
+},
+{
+"w": "incomes",
+"m": "n. 收人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incomes\" in the recording.",
+"ipa": "/ˈɪnˌkəmz/"
+},
+{
+"w": "increase",
+"m": "v. 增加",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"increase\" in the recording.",
+"ipa": "/ˌɪnˈkris/"
+},
+{
+"w": "incredibly",
+"m": "adv. 难以置信地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"incredibly\" in the recording.",
+"ipa": "/ˌɪnˈkrɛdəbli/"
+},
+{
+"w": "indeed",
+"m": "int.真的adv的确",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"indeed\" in the recording.",
+"ipa": "/ˌɪnˈdid/"
+},
+{
+"w": "independence",
+"m": "独立性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"independence\" in the recording.",
+"ipa": "/ˌɪndɪˈpɛndəns/"
+},
+{
+"w": "independent",
+"m": "independently独立地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"independent\" in the recording.",
+"ipa": "/ˌɪndɪˈpɛndənt/"
+},
+{
+"w": "India",
+"m": "n. 印度（南亚国家）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"India\" in the recording.",
+"ipa": "/ˈɪndiə/"
+},
+{
+"w": "indication",
+"m": "n. 指示，象征",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"indication\" in the recording.",
+"ipa": "/ˌɪndəˈkeɪʃən/"
+},
+{
+"w": "indigenous",
+"m": "adj. 本土的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"indigenous\" in the recording.",
+"ipa": "/ˌɪnˈdɪʤənəs/"
+},
+{
+"w": "individuals",
+"m": "adj. 个人的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"individuals\" in the recording.",
+"ipa": "/ˌɪndəˈvɪʤəwəlz/"
+},
+{
+"w": "indoor",
+"m": "adj. 室内的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"indoor\" in the recording.",
+"ipa": "/ˈɪnˌdɔr/"
+},
+{
+"w": "industry",
+"m": "n. 工业（复数industries）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"industry\" in the recording.",
+"ipa": "/ˈɪndəstri/"
+},
+{
+"w": "inferior",
+"m": "adj. 差的，自卑的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inferior\" in the recording.",
+"ipa": "/ˌɪnˈfɪriər/"
+},
+{
+"w": "infuence",
+"m": "n. &v影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"infuence\" in the recording."
+},
+{
+"w": "inform",
+"m": "v. 通知",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inform\" in the recording.",
+"ipa": "/ˌɪnˈfɔrm/"
+},
+{
+"w": "information",
+"m": "n. 信息",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"information\" in the recording.",
+"ipa": "/ˌɪnˌfɔrˈmeɪʃən/"
+},
+{
+"w": "ingest",
+"m": "咽下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ingest\" in the recording.",
+"ipa": "/ˌɪnˈʤɛst/"
+},
+{
+"w": "ingredients",
+"m": "n. 佐料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ingredients\" in the recording.",
+"ipa": "/ˌɪnˈgridiənts/"
+},
+{
+"w": "inherit",
+"m": "W继承",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inherit\" in the recording.",
+"ipa": "/ˌɪnˈhɛrət/"
+},
+{
+"w": "initial",
+"m": "adj. 最初的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"initial\" in the recording.",
+"ipa": "/ˌɪˈnɪʃəl/"
+},
+{
+"w": "initiative",
+"m": "n. 新方案；主动能力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"initiative\" in the recording.",
+"ipa": "/ˌɪˈnɪʃətɪv/"
+},
+{
+"w": "injects",
+"m": "v. 注射",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"injects\" in the recording.",
+"ipa": "/ˌɪnˈʤɛkts/"
+},
+{
+"w": "injuries",
+"m": "n. 伤害（injury的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"injuries\" in the recording.",
+"ipa": "/ˈɪnʤəriz/"
+},
+{
+"w": "ink",
+"m": "n. 墨水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ink\" in the recording.",
+"ipa": "/ɪŋk/"
+},
+{
+"w": "inland",
+"m": "adj. 内陆的n.内地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inland\" in the recording.",
+"ipa": "/ˈɪnˌlænd/"
+},
+{
+"w": "innovation",
+"m": "n. 创新",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"innovation\" in the recording.",
+"ipa": "/ˌɪnəˈveɪʃən/"
+},
+{
+"w": "input",
+"m": "n. 投人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"input\" in the recording.",
+"ipa": "/ˈɪnˌpʊt/"
+},
+{
+"w": "inscriptions",
+"m": "n. 铭文",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inscriptions\" in the recording.",
+"ipa": "/ˌɪnˈskrɪpʃənz/"
+},
+{
+"w": "insects",
+"m": "n. 昆虫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"insects\" in the recording.",
+"ipa": "/ˈɪnˌsɛkts/"
+},
+{
+"w": "inside",
+"m": "adj. 里面的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inside\" in the recording.",
+"ipa": "/ˌɪnˈsaɪd/"
+},
+{
+"w": "insight",
+"m": "n. 洞悉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"insight\" in the recording.",
+"ipa": "/ˈɪnˌsaɪt/"
+},
+{
+"w": "inspection",
+"m": "n. 视察",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inspection\" in the recording.",
+"ipa": "/ˌɪnˈspɛkʃən/"
+},
+{
+"w": "inspiration",
+"m": "n. 灵感",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inspiration\" in the recording.",
+"ipa": "/ˌɪnspərˈeɪʃən/"
+},
+{
+"w": "install",
+"m": "v. 安装",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"install\" in the recording.",
+"ipa": "/ˌɪnˈstɔl/"
+},
+{
+"w": "instead",
+"m": "adv. 代替，反而",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"instead\" in the recording.",
+"ipa": "/ˌɪnˈstɛd/"
+},
+{
+"w": "institute",
+"m": "究所",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"institute\" in the recording.",
+"ipa": "/ˈɪnstɪˌtut/"
+},
+{
+"w": "instruction",
+"m": "n. 指令，用法说明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"instruction\" in the recording.",
+"ipa": "/ˌɪnˈstrəkʃən/"
+},
+{
+"w": "instructor",
+"m": "n. 指导书；教员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"instructor\" in the recording.",
+"ipa": "/ˌɪnˈstrəktər/"
+},
+{
+"w": "instruments",
+"m": "n. 仪器，乐器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"instruments\" in the recording.",
+"ipa": "/ˈɪnstrəmənts/"
+},
+{
+"w": "insulation",
+"m": "n. 绝缘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"insulation\" in the recording.",
+"ipa": "/ˌɪnsəˈleɪʃən/"
+},
+{
+"w": "insurance",
+"m": "n. 保险",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"insurance\" in the recording.",
+"ipa": "/ˌɪnˈʃʊrəns/"
+},
+{
+"w": "intact",
+"m": "adj. 完整的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intact\" in the recording.",
+"ipa": "/ˌɪnˈtækt/"
+},
+{
+"w": "intake",
+"m": "n. 摄取量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intake\" in the recording.",
+"ipa": "/ˈɪnˌteɪk/"
+},
+{
+"w": "intellectually",
+"m": "adv. 智力上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intellectually\" in the recording.",
+"ipa": "/ˌɪnəˈlɛkʧuəli/"
+},
+{
+"w": "intelligent",
+"m": "adj. 智能的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intelligent\" in the recording.",
+"ipa": "/ˌɪnˈtɛləʤənt/"
+},
+{
+"w": "intentions",
+"m": "n. 目的，意图",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intentions\" in the recording.",
+"ipa": "/ˌɪnˈtɛnʧənz/"
+},
+{
+"w": "intensive",
+"m": "adj. 加强的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intensive\" in the recording.",
+"ipa": "/ˌɪnˈtɛnsɪv/"
+},
+{
+"w": "interaction",
+"m": "n. 相互作用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interaction\" in the recording.",
+"ipa": "/ˌɪnərˈækʃən/"
+},
+{
+"w": "interests",
+"m": "n. 兴趣，利息\"使感兴趣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interests\" in the recording.",
+"ipa": "/ˈɪntərɪsts/"
+},
+{
+"w": "interior",
+"m": "adj. 内部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interior\" in the recording.",
+"ipa": "/ˌɪnˈtɪriər/"
+},
+{
+"w": "intermediate",
+"m": "adj. 中间的，中等的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intermediate\" in the recording.",
+"ipa": "/ˌɪnərˈmidiɪt/"
+},
+{
+"w": "international",
+"m": "adj. 国际的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"international\" in the recording.",
+"ipa": "/ˌɪnərˈnæʃənɑl/"
+},
+{
+"w": "internet",
+"m": "n. 互联网",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"internet\" in the recording.",
+"ipa": "/ˈɪntərˌnɛt/"
+},
+{
+"w": "interpersonal",
+"m": "adj. 人际的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interpersonal\" in the recording.",
+"ipa": "/ˌɪntərˈpərsənəl/"
+},
+{
+"w": "interpret",
+"m": "v. 解释，口译",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interpret\" in the recording.",
+"ipa": "/ˌɪnˈtərprət/"
+},
+{
+"w": "interval",
+"m": "n. 间隔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interval\" in the recording.",
+"ipa": "/ˈɪntərvəl/"
+},
+{
+"w": "interviews",
+"m": "n. &v面试，采访",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"interviews\" in the recording.",
+"ipa": "/ˈɪntərvˌjuz/"
+},
+{
+"w": "intimate",
+"m": "adj. 亲密的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intimate\" in the recording.",
+"ipa": "/ˈɪnɪmət/"
+},
+{
+"w": "intriguing",
+"m": "adj. 令人感兴趣的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"intriguing\" in the recording.",
+"ipa": "/ˌɪnˈtrigɪŋ/"
+},
+{
+"w": "introduction",
+"m": "n. 介绍，引进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"introduction\" in the recording.",
+"ipa": "/ˌɪntrəˈdəkʃən/"
+},
+{
+"w": "introverted",
+"m": "adj. 内向的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"introverted\" in the recording.",
+"ipa": "/ˈɪntroʊˌvərtɪd/"
+},
+{
+"w": "invaders",
+"m": "n. 侵略者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"invaders\" in the recording.",
+"ipa": "/ˌɪnˈveɪdərz/"
+},
+{
+"w": "inventions",
+"m": "n. 发明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"inventions\" in the recording.",
+"ipa": "/ˌɪnˈvɛnʃənz/"
+},
+{
+"w": "investments",
+"m": "n. 投资",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"investments\" in the recording.",
+"ipa": "/ˌɪnˈvɛstmənts/"
+},
+{
+"w": "investigation",
+"m": "n. 调查",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"investigation\" in the recording.",
+"ipa": "/ˌɪnˌvɛstəˈgeɪʃən/"
+},
+{
+"w": "invitation",
+"m": "n. 邀请",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"invitation\" in the recording.",
+"ipa": "/ˌɪnvɪˈteɪʃən/"
+},
+{
+"w": "involve",
+"m": "v. 包含，涉及",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"involve\" in the recording.",
+"ipa": "/ˌɪnˈvɑlv/"
+},
+{
+"w": "iron",
+"m": "n. 铁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"iron\" in the recording.",
+"ipa": "/aɪərn/"
+},
+{
+"w": "irrespective",
+"m": "adj. 不考虑的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"irrespective\" in the recording.",
+"ipa": "/ˌɪrəˈspɛktɪv/"
+},
+{
+"w": "irrigation",
+"m": "n. 灌溉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"irrigation\" in the recording.",
+"ipa": "/ˌɪrəˈgeɪʃən/"
+},
+{
+"w": "islands",
+"m": "n. 岛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"islands\" in the recording.",
+"ipa": "/ˈaɪləndz/"
+},
+{
+"w": "isolation",
+"m": "n. 隔离",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"isolation\" in the recording.",
+"ipa": "/ˌaɪsəˈleɪʃən/"
+},
+{
+"w": "issues",
+"m": "n. 问题；发行物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"issues\" in the recording.",
+"ipa": "/ˈɪʃuz/"
+},
+{
+"w": "IT",
+"m": "abbr:信息技术（information",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"IT\" in the recording.",
+"ipa": "/ɪt/"
+},
+{
+"w": "Italian",
+"m": "n. 意大利人adj.意大利的，意大利",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Italian\" in the recording.",
+"ipa": "/ˌɪˈtæljən/"
+},
+{
+"w": "italics",
+"m": "n. 斜体字",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"italics\" in the recording.",
+"ipa": "/aɪˈtælɪks/"
+},
+{
+"w": "Italy",
+"m": "n. 意大利（欧洲南部国家）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Italy\" in the recording.",
+"ipa": "/ˈɪtəli/"
+},
+{
+"w": "items",
+"m": "n. 条款，项目，商品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"items\" in the recording.",
+"ipa": "/ˈaɪtəmz/"
+},
+{
+"w": "itinerary",
+"m": "n. 旅程路线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"itinerary\" in the recording.",
+"ipa": "/aɪˈtɪnərˌɛri/"
+},
+{
+"w": "jacket",
+"m": "n. 夹克",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jacket\" in the recording.",
+"ipa": "/ˈʤækɪt/"
+},
+{
+"w": "January",
+"m": "7n.一月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"January\" in the recording.",
+"ipa": "/ˈʤænjuˌɛri/"
+},
+{
+"w": "Japaneses",
+"m": "adj. 日本（人）的n.日本人，日语",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Japaneses\" in the recording."
+},
+{
+"w": "jawbone",
+"m": "n. 颚骨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jawbone\" in the recording.",
+"ipa": "/ˈʤɔˌboʊn/"
+},
+{
+"w": "jaws",
+"m": "n. 下颌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jaws\" in the recording.",
+"ipa": "/ʤɔz/"
+},
+{
+"w": "jazz",
+"m": "n. 爵士乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jazz\" in the recording.",
+"ipa": "/ʤæz/"
+},
+{
+"w": "jeans",
+"m": "n. 牛仔裤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jeans\" in the recording.",
+"ipa": "/ʤinz/"
+},
+{
+"w": "jet",
+"m": "n. 喷射",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jet\" in the recording.",
+"ipa": "/ʤɛt/"
+},
+{
+"w": "jewellery",
+"m": "n. 珠宝（美式jewelry）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jewellery\" in the recording."
+},
+{
+"w": "job",
+"m": "n. 工作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"job\" in the recording.",
+"ipa": "/ʤɑb/"
+},
+{
+"w": "journalist",
+"m": "n. 新闻工作者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"journalist\" in the recording.",
+"ipa": "/ˈʤərnəlɪst/"
+},
+{
+"w": "journey",
+"m": "n. 旅行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"journey\" in the recording.",
+"ipa": "/ˈʤərni/"
+},
+{
+"w": "judo",
+"m": "n. 柔道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"judo\" in the recording.",
+"ipa": "/ˈʤuˌdoʊ/"
+},
+{
+"w": "July",
+"m": "n. 七月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"July\" in the recording.",
+"ipa": "/ˌʤuˈlaɪ/"
+},
+{
+"w": "jump",
+"m": "v. 跳跃",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"jump\" in the recording.",
+"ipa": "/ʤəmp/"
+},
+{
+"w": "junction",
+"m": "n. 连接，岔路口",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"junction\" in the recording.",
+"ipa": "/ˈʤəŋkʃən/"
+},
+{
+"w": "Junes",
+"m": "n. 六月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Junes\" in the recording.",
+"ipa": "/ʤunz/"
+},
+{
+"w": "justice",
+"m": "n. 正义",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"justice\" in the recording.",
+"ipa": "/ˈʤəstɪs/"
+},
+{
+"w": "keen",
+"m": "adj. 强烈的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"keen\" in the recording.",
+"ipa": "/kin/"
+},
+{
+"w": "keep",
+"m": "保持（过去分词kept）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"keep\" in the recording.",
+"ipa": "/kip/"
+},
+{
+"w": "kelp",
+"m": "n. 海藻",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kelp\" in the recording.",
+"ipa": "/kɛlp/"
+},
+{
+"w": "keyboard",
+"m": "n. 键盘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"keyboard\" in the recording.",
+"ipa": "/ˈkiˌbɔrd/"
+},
+{
+"w": "keys",
+"m": "n. 钥匙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"keys\" in the recording.",
+"ipa": "/kiz/"
+},
+{
+"w": "kids",
+"m": "n. 小孩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kids\" in the recording.",
+"ipa": "/kɪdz/"
+},
+{
+"w": "kill",
+"m": "v. 杀死",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kill\" in the recording.",
+"ipa": "/kɪl/"
+},
+{
+"w": "kilometres",
+"m": "n. 公里",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kilometres\" in the recording.",
+"ipa": "/ˌkɪˈlɔˌmətərz/"
+},
+{
+"w": "kinds",
+"m": "n. 种类adj.和葛的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kinds\" in the recording.",
+"ipa": "/kaɪnz/"
+},
+{
+"w": "king",
+"m": "n. 国王",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"king\" in the recording.",
+"ipa": "/kɪŋ/"
+},
+{
+"w": "kit",
+"m": "n. 工具箱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kit\" in the recording.",
+"ipa": "/kɪt/"
+},
+{
+"w": "kitchen",
+"m": "n. 厨房",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"kitchen\" in the recording.",
+"ipa": "/ˈkɪʧən/"
+},
+{
+"w": "knee",
+"m": "n. 膝盖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"knee\" in the recording.",
+"ipa": "/ni/"
+},
+{
+"w": "knives",
+"m": "n. 刀（knife的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"knives\" in the recording.",
+"ipa": "/naɪvz/"
+},
+{
+"w": "knock",
+"m": "v. 敲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"knock\" in the recording.",
+"ipa": "/nɑk/"
+},
+{
+"w": "labels",
+"m": "n. 标签贴标签于",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"labels\" in the recording.",
+"ipa": "/ˈleɪbəlz/"
+},
+{
+"w": "laboratory",
+"m": "n. 实验室（等于lab）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"laboratory\" in the recording.",
+"ipa": "/ˈlæbrəˌtɔri/"
+},
+{
+"w": "labour",
+"m": "n. 劳动力（美式labor）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"labour\" in the recording.",
+"ipa": "/ˈleɪbər/"
+},
+{
+"w": "lace",
+"m": "n. 花边",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lace\" in the recording.",
+"ipa": "/leɪs/"
+},
+{
+"w": "lack",
+"m": "n. 缺乏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lack\" in the recording.",
+"ipa": "/læk/"
+},
+{
+"w": "ladders",
+"m": "n. 阶梯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ladders\" in the recording.",
+"ipa": "/ˈlædərz/"
+},
+{
+"w": "ladies",
+"m": "n. 女士（lady的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ladies\" in the recording.",
+"ipa": "/ˈleɪdiz/"
+},
+{
+"w": "lagoons",
+"m": "7n.泻湖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lagoons\" in the recording.",
+"ipa": "/ləˈgunz/"
+},
+{
+"w": "lakes",
+"m": "n. 湖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lakes\" in the recording.",
+"ipa": "/leɪks/"
+},
+{
+"w": "lamp",
+"m": "n. 灯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lamp\" in the recording.",
+"ipa": "/læmp/"
+},
+{
+"w": "land",
+"m": "n. 国土，陆地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"land\" in the recording.",
+"ipa": "/lænd/"
+},
+{
+"w": "landmarks",
+"m": "n. 地标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"landmarks\" in the recording.",
+"ipa": "/ˈlændˌmɑrks/"
+},
+{
+"w": "lane",
+"m": "n. 小巷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lane\" in the recording.",
+"ipa": "/leɪn/"
+},
+{
+"w": "languages",
+"m": "n. 语言",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"languages\" in the recording.",
+"ipa": "/ˈlæŋgwɪʤɪz/"
+},
+{
+"w": "laps",
+"m": "n. 一圈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"laps\" in the recording.",
+"ipa": "/læps/"
+},
+{
+"w": "laptops",
+"m": "n. 笔记本电脑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"laptops\" in the recording.",
+"ipa": "/ˈlæpˌtɑps/"
+},
+{
+"w": "large",
+"m": "adj. 大的（最高级largest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"large\" in the recording.",
+"ipa": "/lɑrʤ/"
+},
+{
+"w": "last",
+"m": "最近",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"last\" in the recording.",
+"ipa": "/læst/"
+},
+{
+"w": "late",
+"m": "adj. 晚的，最近的（最高级latest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"late\" in the recording.",
+"ipa": "/leɪt/"
+},
+{
+"w": "later",
+"m": "adv. 后来adj.更迟的（late的比较",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"later\" in the recording.",
+"ipa": "/ˈleɪtər/"
+},
+{
+"w": "latters",
+"m": "adj. 后者的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"latters\" in the recording."
+},
+{
+"w": "laughs",
+"m": "n. &v笑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"laughs\" in the recording.",
+"ipa": "/læfs/"
+},
+{
+"w": "launch",
+"m": "v. 发射，启动",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"launch\" in the recording.",
+"ipa": "/lɔnʧ/"
+},
+{
+"w": "launder",
+"m": "n. 洗烫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"launder\" in the recording.",
+"ipa": "/ˈlɔndər/"
+},
+{
+"w": "laundry",
+"m": "n. 洗衣店",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"laundry\" in the recording.",
+"ipa": "/ˈlɔndri/"
+},
+{
+"w": "lawl",
+"m": "n. 法律",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lawl\" in the recording."
+},
+{
+"w": "lawn",
+"m": "n. 草地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lawn\" in the recording.",
+"ipa": "/lɔn/"
+},
+{
+"w": "lawyer",
+"m": "n. 律师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lawyer\" in the recording.",
+"ipa": "/ˈlɔjər/"
+},
+{
+"w": "layout",
+"m": "n. 布局",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"layout\" in the recording.",
+"ipa": "/leɪaʊt/"
+},
+{
+"w": "lazy",
+"m": "adj. 懒惰的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lazy\" in the recording.",
+"ipa": "/ˈleɪzi/"
+},
+{
+"w": "lead",
+"m": "&n.引导，领导（过去式led）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lead\" in the recording.",
+"ipa": "/lɛd/"
+},
+{
+"w": "leaders",
+"m": "n. 领导者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leaders\" in the recording.",
+"ipa": "/ˈlidərz/"
+},
+{
+"w": "leadership",
+"m": "领导能力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leadership\" in the recording.",
+"ipa": "/ˈlidərˌʃɪp/"
+},
+{
+"w": "leaflet",
+"m": "n. 传单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leaflet\" in the recording.",
+"ipa": "/ˈliflət/"
+},
+{
+"w": "learn",
+"m": "学习",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"learn\" in the recording.",
+"ipa": "/lərn/"
+},
+{
+"w": "least",
+"m": "adj. 最少的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"least\" in the recording.",
+"ipa": "/list/"
+},
+{
+"w": "leather",
+"m": "n. 皮革",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leather\" in the recording.",
+"ipa": "/ˈlɛðər/"
+},
+{
+"w": "leave",
+"m": "w离开，留下（过去式left）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leave\" in the recording.",
+"ipa": "/liv/"
+},
+{
+"w": "leaves",
+"m": "n. 树叶（leaf的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leaves\" in the recording.",
+"ipa": "/livz/"
+},
+{
+"w": "lecturers",
+"m": "n. 讲师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lecturers\" in the recording.",
+"ipa": "/ˈlɛkʧərərz/"
+},
+{
+"w": "lectures",
+"m": "n. 演讲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lectures\" in the recording.",
+"ipa": "/ˈlɛkʧərz/"
+},
+{
+"w": "ledge",
+"m": "n. 岩架",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ledge\" in the recording.",
+"ipa": "/lɛʤ/"
+},
+{
+"w": "leff",
+"m": "adj. 左边的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leff\" in the recording.",
+"ipa": "/lɛf/"
+},
+{
+"w": "legal",
+"m": "adj. 法律的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"legal\" in the recording.",
+"ipa": "/ˈligəl/"
+},
+{
+"w": "legend",
+"m": "n. 传奇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"legend\" in the recording.",
+"ipa": "/ˈlɛʤənd/"
+},
+{
+"w": "legs",
+"m": "n. 腿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"legs\" in the recording.",
+"ipa": "/lɛgz/"
+},
+{
+"w": "leisure",
+"m": "adj. 空闲的n.闲暇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"leisure\" in the recording.",
+"ipa": "/ˈlɛʒər/"
+},
+{
+"w": "lemon",
+"m": "n. 柠檬",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lemon\" in the recording.",
+"ipa": "/ˈlɛmən/"
+},
+{
+"w": "length",
+"m": "n. 长度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"length\" in the recording.",
+"ipa": "/lɛŋθ/"
+},
+{
+"w": "less",
+"m": "det.更少",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"less\" in the recording.",
+"ipa": "/lɛs/"
+},
+{
+"w": "lessons",
+"m": "n. 经验教训，课程",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lessons\" in the recording.",
+"ipa": "/ˈlɛsənz/"
+},
+{
+"w": "let",
+"m": "w让，出租",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"let\" in the recording.",
+"ipa": "/lɛt/"
+},
+{
+"w": "letters",
+"m": "n. 信，字母",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"letters\" in the recording.",
+"ipa": "/ˈlɛtərz/"
+},
+{
+"w": "levels",
+"m": "n. 水平，等级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"levels\" in the recording.",
+"ipa": "/ˈlɛvəlz/"
+},
+{
+"w": "liaise",
+"m": "v. 保持联络",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"liaise\" in the recording."
+},
+{
+"w": "library",
+"m": "n. 图书馆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"library\" in the recording.",
+"ipa": "/ˈlaɪbrɛˌri/"
+},
+{
+"w": "licence",
+"m": "n. 许可证，执照（美式license）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"licence\" in the recording.",
+"ipa": "/ˈlaɪsəns/"
+},
+{
+"w": "lid",
+"m": "n. 盖子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lid\" in the recording.",
+"ipa": "/lɪd/"
+},
+{
+"w": "lie",
+"m": "v. 躺（现在分词lying），说谎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lie\" in the recording.",
+"ipa": "/laɪ/"
+},
+{
+"w": "life",
+"m": "n. 生活，生存",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"life\" in the recording.",
+"ipa": "/laɪf/"
+},
+{
+"w": "lifeguards",
+"m": "n. 救生员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lifeguards\" in the recording.",
+"ipa": "/ˈlaɪfˌgɑrdz/"
+},
+{
+"w": "lifestyle",
+"m": "n. 生活方式",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lifestyle\" in the recording.",
+"ipa": "/ˈlaɪfˌstaɪl/"
+},
+{
+"w": "Iift",
+"m": "n. 电梯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Iift\" in the recording."
+},
+{
+"w": "lightning",
+"m": "n. 闪电",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lightning\" in the recording.",
+"ipa": "/ˈlaɪtnɪŋ/"
+},
+{
+"w": "lights",
+"m": "adj. 轻的（比较级lighter）n.光，灯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lights\" in the recording.",
+"ipa": "/laɪts/"
+},
+{
+"w": "lighting",
+"m": "n. 灯光",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lighting\" in the recording.",
+"ipa": "/ˈlaɪtɪŋ/"
+},
+{
+"w": "likely",
+"m": "adj. 可能的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"likely\" in the recording.",
+"ipa": "/ˈlaɪkli/"
+},
+{
+"w": "lime",
+"m": "n. 石灰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lime\" in the recording.",
+"ipa": "/laɪm/"
+},
+{
+"w": "limit",
+"m": "n. &v限制",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"limit\" in the recording.",
+"ipa": "/ˈlɪmət/"
+},
+{
+"w": "line",
+"m": "n. 路线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"line\" in the recording.",
+"ipa": "/laɪn/"
+},
+{
+"w": "lining",
+"m": "n. 内层",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lining\" in the recording.",
+"ipa": "/ˈlaɪnɪŋ/"
+},
+{
+"w": "links",
+"m": "n. &v连接",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"links\" in the recording.",
+"ipa": "/lɪŋks/"
+},
+{
+"w": "lion",
+"m": "n. 狮子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lion\" in the recording.",
+"ipa": "/laɪən/"
+},
+{
+"w": "liquide",
+"m": "adj. 液体的n.液体",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"liquide\" in the recording.",
+"ipa": "/lɪkˈwaɪd/"
+},
+{
+"w": "list",
+"m": "n. 列表，清单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"list\" in the recording.",
+"ipa": "/lɪst/"
+},
+{
+"w": "literacy",
+"m": "n. 读写能力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"literacy\" in the recording.",
+"ipa": "/ˈlɪtərəsi/"
+},
+{
+"w": "literate",
+"m": "adj. 受过教育的n.学者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"literate\" in the recording.",
+"ipa": "/ˈlɪtərət/"
+},
+{
+"w": "literature",
+"m": "n. 文学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"literature\" in the recording.",
+"ipa": "/ˈlɪtərəʧər/"
+},
+{
+"w": "lives",
+"m": "adj. 现场表演的v居住n.生活",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lives\" in the recording.",
+"ipa": "/lɪvz/"
+},
+{
+"w": "livestock",
+"m": "n. 牲畜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"livestock\" in the recording.",
+"ipa": "/ˈlaɪvˌstɑk/"
+},
+{
+"w": "lizards",
+"m": "n. 蜥蜴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lizards\" in the recording.",
+"ipa": "/ˈlɪzərdz/"
+},
+{
+"w": "loads",
+"m": "w装货n.工作量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"loads\" in the recording.",
+"ipa": "/loʊdz/"
+},
+{
+"w": "local",
+"m": "adj. 当地的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"local\" in the recording.",
+"ipa": "/ˈloʊkəl/"
+},
+{
+"w": "locations",
+"m": "n. 位置",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"locations\" in the recording.",
+"ipa": "/loʊˈkeɪʃənz/"
+},
+{
+"w": "locks",
+"m": "v&n.锁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"locks\" in the recording.",
+"ipa": "/lɑks/"
+},
+{
+"w": "logical",
+"m": "adj. 合逻辑的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"logical\" in the recording.",
+"ipa": "/ˈlɑʤɪkəl/"
+},
+{
+"w": "logo",
+"m": "n. （公司或组织的）标识",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"logo\" in the recording.",
+"ipa": "/ˈloʊgoʊ/"
+},
+{
+"w": "logwood",
+"m": "n. 洋苏木",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"logwood\" in the recording.",
+"ipa": "/ˈlɑgˌwʊd/"
+},
+{
+"w": "London",
+"m": "n. 伦敦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"London\" in the recording.",
+"ipa": "/ˈləndən/"
+},
+{
+"w": "lonely",
+"m": "adj. 寂寞的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lonely\" in the recording.",
+"ipa": "/ˈloʊnli/"
+},
+{
+"w": "lord",
+"m": "主，阁下",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lord\" in the recording.",
+"ipa": "/lɔrd/"
+},
+{
+"w": "lorries",
+"m": "货车（lorry的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lorries\" in the recording.",
+"ipa": "/ˈlɔriz/"
+},
+{
+"w": "loser",
+"m": "失败者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"loser\" in the recording.",
+"ipa": "/ˈluzər/"
+},
+{
+"w": "loss",
+"m": "减少",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"loss\" in the recording.",
+"ipa": "/lɔs/"
+},
+{
+"w": "lost",
+"m": "adj. 迷失的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lost\" in the recording.",
+"ipa": "/lɔst/"
+},
+{
+"w": "loud",
+"m": "adj. 大声的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"loud\" in the recording.",
+"ipa": "/laʊd/"
+},
+{
+"w": "lounge",
+"m": "n. 休息室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lounge\" in the recording.",
+"ipa": "/laʊnʤ/"
+},
+{
+"w": "lovely",
+"m": "adj. 可爱的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lovely\" in the recording.",
+"ipa": "/ˈləvli/"
+},
+{
+"w": "low",
+"m": "adj. 低的（比较级lower）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"low\" in the recording.",
+"ipa": "/loʊ/"
+},
+{
+"w": "luck",
+"m": "n. 运气",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"luck\" in the recording.",
+"ipa": "/lək/"
+},
+{
+"w": "luggages",
+"m": "n. 行李",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"luggages\" in the recording."
+},
+{
+"w": "lunches",
+"m": "n. 午餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lunches\" in the recording.",
+"ipa": "/ˈlənʧɪz/"
+},
+{
+"w": "lungs",
+"m": "n. 肺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"lungs\" in the recording.",
+"ipa": "/ləŋz/"
+},
+{
+"w": "luxuries",
+"m": "侈的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"luxuries\" in the recording.",
+"ipa": "/ˈləgʒəriz/"
+},
+{
+"w": "machines",
+"m": "n. 机械，机器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"machines\" in the recording.",
+"ipa": "/məˈʃinz/"
+},
+{
+"w": "magazines",
+"m": "n. 杂志",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"magazines\" in the recording.",
+"ipa": "/ˈmægəˌzinz/"
+},
+{
+"w": "magic",
+"m": "n. 魔法",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"magic\" in the recording.",
+"ipa": "/ˈmæʤɪk/"
+},
+{
+"w": "magnificent",
+"m": "adj. 华丽的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"magnificent\" in the recording.",
+"ipa": "/mægˈnɪfɪsənt/"
+},
+{
+"w": "magnet",
+"m": "n. 磁铁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"magnet\" in the recording.",
+"ipa": "/ˈmægnət/"
+},
+{
+"w": "main",
+"m": "adj. 主要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"main\" in the recording.",
+"ipa": "/meɪn/"
+},
+{
+"w": "mainland",
+"m": "n. 大陆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mainland\" in the recording.",
+"ipa": "/ˈmeɪnˌlænd/"
+},
+{
+"w": "maintain",
+"m": "v. 维持",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"maintain\" in the recording.",
+"ipa": "/meɪnˈteɪn/"
+},
+{
+"w": "major",
+"m": "adj. 主要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"major\" in the recording.",
+"ipa": "/ˈmeɪʤər/"
+},
+{
+"w": "male",
+"m": "adj. 男性的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"male\" in the recording.",
+"ipa": "/meɪl/"
+},
+{
+"w": "mammals s",
+"m": "n. 哺乳类",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mammals s\" in the recording.",
+"ipa": "/ˈmæməlz ɛs/"
+},
+{
+"w": "mammoths",
+"m": "n. 长毛象",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mammoths\" in the recording.",
+"ipa": "/ˈmæməθs/"
+},
+{
+"w": "management",
+"m": "n. 管理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"management\" in the recording.",
+"ipa": "/ˈmænɪʤmənt/"
+},
+{
+"w": "manager",
+"m": "n. 经理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"manager\" in the recording.",
+"ipa": "/ˈmænɪʤər/"
+},
+{
+"w": "mango",
+"m": "n. 芒果",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mango\" in the recording.",
+"ipa": "/ˈmæŋgoʊ/"
+},
+{
+"w": "manoeuvre",
+"m": "动作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"manoeuvre\" in the recording."
+},
+{
+"w": "manufacture",
+"m": "n. 制造，制造业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"manufacture\" in the recording.",
+"ipa": "/ˌmænjəˈfækʧər/"
+},
+{
+"w": "manure",
+"m": "n. 肥料v.给施肥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"manure\" in the recording.",
+"ipa": "/məˈnʊr/"
+},
+{
+"w": "maps",
+"m": "n. 地图w绘制地图",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"maps\" in the recording.",
+"ipa": "/mæps/"
+},
+{
+"w": "marble",
+"m": "n. 大理石",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"marble\" in the recording.",
+"ipa": "/ˈmɑrbəl/"
+},
+{
+"w": "March",
+"m": "n. 三月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"March\" in the recording.",
+"ipa": "/mɑrʧ/"
+},
+{
+"w": "marching",
+"m": "adj. 行军的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"marching\" in the recording.",
+"ipa": "/ˈmɑrʧɪŋ/"
+},
+{
+"w": "marginally",
+"m": "adv. 稍微，略微地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"marginally\" in the recording.",
+"ipa": "/ˈmɑrʤənəli/"
+},
+{
+"w": "marine",
+"m": "adj. 海的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"marine\" in the recording.",
+"ipa": "/mərˈin/"
+},
+{
+"w": "mark",
+"m": "n. &v标志",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mark\" in the recording.",
+"ipa": "/mɑrk/"
+},
+{
+"w": "markets",
+"m": "n. 市场v做买卖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"markets\" in the recording.",
+"ipa": "/ˈmɑrkɪts/"
+},
+{
+"w": "marriage",
+"m": "n. 婚姻",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"marriage\" in the recording.",
+"ipa": "/ˈmɛrɪʤ/"
+},
+{
+"w": "mask",
+"m": "n. 面具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mask\" in the recording.",
+"ipa": "/mæsk/"
+},
+{
+"w": "massages",
+"m": "n. 按摩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"massages\" in the recording.",
+"ipa": "/məˈsɑʒɪz/"
+},
+{
+"w": "massive",
+"m": "adj. 大量的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"massive\" in the recording.",
+"ipa": "/ˈmæsɪv/"
+},
+{
+"w": "master",
+"m": "n. 主人；大师；硕士",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"master\" in the recording.",
+"ipa": "/ˈmæstər/"
+},
+{
+"w": "match",
+"m": "v. 相配",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"match\" in the recording.",
+"ipa": "/mæʧ/"
+},
+{
+"w": "mate",
+"m": "n. 配偶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mate\" in the recording.",
+"ipa": "/meɪt/"
+},
+{
+"w": "materials",
+"m": "n. 材料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"materials\" in the recording.",
+"ipa": "/məˈtɪriəlz/"
+},
+{
+"w": "mathematics",
+"m": "数学（=math）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mathematics\" in the recording.",
+"ipa": "/ˌmæθəˈmætɪks/"
+},
+{
+"w": "matter",
+"m": "w有关系n.问题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"matter\" in the recording.",
+"ipa": "/ˈmætər/"
+},
+{
+"w": "mature",
+"m": "adj. 成熟的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mature\" in the recording.",
+"ipa": "/məˈʧʊr/"
+},
+{
+"w": "Mayl",
+"m": "n. 五月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Mayl\" in the recording."
+},
+{
+"w": "mayors",
+"m": "n. 市长",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mayors\" in the recording.",
+"ipa": "/meɪərz/"
+},
+{
+"w": "maze",
+"m": "n. 迷宫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"maze\" in the recording.",
+"ipa": "/meɪz/"
+},
+{
+"w": "meals",
+"m": "n. 一餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"meals\" in the recording.",
+"ipa": "/milz/"
+},
+{
+"w": "means",
+"m": "w意味着（过去式meant）n.方法",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"means\" in the recording.",
+"ipa": "/minz/"
+},
+{
+"w": "measures",
+"m": "n. 措施测量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"measures\" in the recording.",
+"ipa": "/ˈmɛʒərz/"
+},
+{
+"w": "meat",
+"m": "n. 肉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"meat\" in the recording.",
+"ipa": "/mit/"
+},
+{
+"w": "medal",
+"m": "n. 勋章",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"medal\" in the recording.",
+"ipa": "/ˈmɛdəl/"
+},
+{
+"w": "media",
+"m": "n. 媒体",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"media\" in the recording.",
+"ipa": "/ˈmidiə/"
+},
+{
+"w": "mediaeval",
+"m": "adj. 中世纪的（=medieval）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mediaeval\" in the recording."
+},
+{
+"w": "mediator",
+"m": "n. 调停者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mediator\" in the recording.",
+"ipa": "/ˈmidiˌeɪtər/"
+},
+{
+"w": "medication",
+"m": "n. 药物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"medication\" in the recording.",
+"ipa": "/ˌmɛdəˈkeɪʃən/"
+},
+{
+"w": "medicines",
+"m": "n. 药，医学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"medicines\" in the recording.",
+"ipa": "/ˈmɛdəsənz/"
+},
+{
+"w": "meetings",
+"m": "n. 会议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"meetings\" in the recording.",
+"ipa": "/ˈmitɪŋz/"
+},
+{
+"w": "megawatts",
+"m": "n. 百万瓦特",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"megawatts\" in the recording.",
+"ipa": "/ˈmɛgəˌwɑts/"
+},
+{
+"w": "melt",
+"m": "W.融化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"melt\" in the recording.",
+"ipa": "/mɛlt/"
+},
+{
+"w": "members",
+"m": "n. 成员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"members\" in the recording.",
+"ipa": "/ˈmɛmbərz/"
+},
+{
+"w": "memories",
+"m": "n. 记忆（memory的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"memories\" in the recording.",
+"ipa": "/ˈmɛməriz/"
+},
+{
+"w": "mental",
+"m": "adj. 精神的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mental\" in the recording.",
+"ipa": "/ˈmɛntəl/"
+},
+{
+"w": "mention",
+"m": "v. 提到",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mention\" in the recording.",
+"ipa": "/ˈmɛnʃən/"
+},
+{
+"w": "mentors",
+"m": "n. 导师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mentors\" in the recording.",
+"ipa": "/ˈmɛnˌtɔrz/"
+},
+{
+"w": "menu",
+"m": "n. 菜单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"menu\" in the recording.",
+"ipa": "/ˈmɛnju/"
+},
+{
+"w": "messages",
+"m": "n. 消息",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"messages\" in the recording.",
+"ipa": "/ˈmɛsɪʤɪz/"
+},
+{
+"w": "metal",
+"m": "n. 金属",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"metal\" in the recording.",
+"ipa": "/ˈmɛtəl/"
+},
+{
+"w": "meteorological",
+"m": "adj. 气象的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"meteorological\" in the recording.",
+"ipa": "/ˌmitiˌɔrəˈlɑʤɪkəl/"
+},
+{
+"w": "methods",
+"m": "n. 方法",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"methods\" in the recording.",
+"ipa": "/ˈmɛθədz/"
+},
+{
+"w": "metres",
+"m": "n. 米（美式meter）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"metres\" in the recording.",
+"ipa": "/ˈmitərz/"
+},
+{
+"w": "microphone",
+"m": "n. 麦克风",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"microphone\" in the recording.",
+"ipa": "/ˈmaɪkrəˌfoʊn/"
+},
+{
+"w": "microscopes",
+"m": "n. 显微镜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"microscopes\" in the recording.",
+"ipa": "/ˈmaɪkrəˌskoʊps/"
+},
+{
+"w": "microwave",
+"m": "n. 微波炉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"microwave\" in the recording.",
+"ipa": "/ˈmaɪkrəˌweɪv/"
+},
+{
+"w": "midday",
+"m": "n. 正午",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"midday\" in the recording.",
+"ipa": "/ˈmɪdˌdeɪ/"
+},
+{
+"w": "middle",
+"m": "adj. 中间的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"middle\" in the recording.",
+"ipa": "/ˈmɪdəl/"
+},
+{
+"w": "midnight",
+"m": "n. 午夜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"midnight\" in the recording.",
+"ipa": "/ˈmɪdˌnaɪt/"
+},
+{
+"w": "mighty",
+"m": "adj. 强有力的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mighty\" in the recording.",
+"ipa": "/ˈmaɪti/"
+},
+{
+"w": "migration",
+"m": "n. 迁移",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"migration\" in the recording.",
+"ipa": "/maɪˈgreɪʃən/"
+},
+{
+"w": "mild",
+"m": "adj. 温和的，温暖的（比较级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mild\" in the recording.",
+"ipa": "/maɪld/"
+},
+{
+"w": "military",
+"m": "adj. 军事的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"military\" in the recording.",
+"ipa": "/ˈmɪlɪˌtɛri/"
+},
+{
+"w": "milk",
+"m": "n. 牛奶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"milk\" in the recording.",
+"ipa": "/mɪlk/"
+},
+{
+"w": "millimetres",
+"m": "n. 毫米",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"millimetres\" in the recording.",
+"ipa": "/ˈmɪləˌmitərz/"
+},
+{
+"w": "millions",
+"m": "n. 百万",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"millions\" in the recording.",
+"ipa": "/ˈmɪljənz/"
+},
+{
+"w": "mime",
+"m": "n. 哑剧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mime\" in the recording.",
+"ipa": "/maɪm/"
+},
+{
+"w": "mind",
+"m": "w介意n.头脑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mind\" in the recording.",
+"ipa": "/maɪnd/"
+},
+{
+"w": "mine",
+"m": "pron. 我的n.矿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mine\" in the recording.",
+"ipa": "/maɪn/"
+},
+{
+"w": "minerals",
+"m": "n. 矿物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"minerals\" in the recording.",
+"ipa": "/ˈmɪnərəlz/"
+},
+{
+"w": "minibus",
+"m": "n. 面包车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"minibus\" in the recording.",
+"ipa": "/ˈmɪniˌbəs/"
+},
+{
+"w": "minimum",
+"m": "n. 最小值adj.最小的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"minimum\" in the recording.",
+"ipa": "/ˈmɪnəməm/"
+},
+{
+"w": "minority",
+"m": "n. 少数民族，少数派；未成年人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"minority\" in the recording.",
+"ipa": "/məˈnɔrəti/"
+},
+{
+"w": "minutes",
+"m": "n. 分钟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"minutes\" in the recording.",
+"ipa": "/ˈmɪnəts/"
+},
+{
+"w": "mirror",
+"m": "n. 镜子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mirror\" in the recording.",
+"ipa": "/ˈmɪrər/"
+},
+{
+"w": "missed",
+"m": "adj. 错过的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"missed\" in the recording.",
+"ipa": "/mɪst/"
+},
+{
+"w": "mistakes",
+"m": "n. 错误",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mistakes\" in the recording.",
+"ipa": "/mɪˈsteɪks/"
+},
+{
+"w": "mix",
+"m": "v. 混和",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mix\" in the recording.",
+"ipa": "/mɪks/"
+},
+{
+"w": "mobile",
+"m": "adj. 可移动的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mobile\" in the recording.",
+"ipa": "/ˈmoʊbəl/"
+},
+{
+"w": "models",
+"m": "n. 模型v模拟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"models\" in the recording.",
+"ipa": "/ˈmɑdəlz/"
+},
+{
+"w": "moderates",
+"m": "adj. 适度的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"moderates\" in the recording.",
+"ipa": "/ˈmɑdərˌeɪts/"
+},
+{
+"w": "modern",
+"m": "adj. 现代的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"modern\" in the recording.",
+"ipa": "/ˈmɑdərn/"
+},
+{
+"w": "modify",
+"m": "v. 修改",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"modify\" in the recording.",
+"ipa": "/ˈmɑdəˌfaɪ/"
+},
+{
+"w": "modules",
+"m": "n. 模块",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"modules\" in the recording.",
+"ipa": "/ˈmɑʤulz/"
+},
+{
+"w": "moist",
+"m": "adj. 潮湿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"moist\" in the recording.",
+"ipa": "/mɔɪst/"
+},
+{
+"w": "moment",
+"m": "n. 片刻，瞬间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"moment\" in the recording.",
+"ipa": "/ˈmoʊmənt/"
+},
+{
+"w": "Monday",
+"m": "n. 星期一",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Monday\" in the recording.",
+"ipa": "/ˈmənˌdeɪ/"
+},
+{
+"w": "money",
+"m": "n. 钱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"money\" in the recording.",
+"ipa": "/ˈməni/"
+},
+{
+"w": "monitor",
+"m": "v. 监控",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"monitor\" in the recording.",
+"ipa": "/ˈmɑnətər/"
+},
+{
+"w": "monogamous",
+"m": "adj. 一夫一妻的，单配的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"monogamous\" in the recording.",
+"ipa": "/məˈnɑgəməs/"
+},
+{
+"w": "monopoly",
+"m": "n. 断",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"monopoly\" in the recording.",
+"ipa": "/məˈnɑpəli/"
+},
+{
+"w": "months",
+"m": "n. 月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"months\" in the recording.",
+"ipa": "/mənθs/"
+},
+{
+"w": "monument",
+"m": "n. 纪念碑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"monument\" in the recording.",
+"ipa": "/ˈmɑnjəmənt/"
+},
+{
+"w": "mood",
+"m": "n. 情绪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mood\" in the recording.",
+"ipa": "/mud/"
+},
+{
+"w": "moon",
+"m": "n. 月亮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"moon\" in the recording.",
+"ipa": "/mun/"
+},
+{
+"w": "more",
+"m": "adv. 更多adj.更多的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"more\" in the recording.",
+"ipa": "/mɔr/"
+},
+{
+"w": "morning",
+"m": "n. 早晨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"morning\" in the recording.",
+"ipa": "/ˈmɔrnɪŋ/"
+},
+{
+"w": "most",
+"m": "adj. 大部分的，最多的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"most\" in the recording.",
+"ipa": "/moʊst/"
+},
+{
+"w": "mother",
+"m": "n. 母亲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mother\" in the recording.",
+"ipa": "/ˈməðər/"
+},
+{
+"w": "motivated",
+"m": "adj. 有动机的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"motivated\" in the recording.",
+"ipa": "/ˈmoʊtəˌveɪtəd/"
+},
+{
+"w": "motorcycle",
+"m": "n. 摩托车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"motorcycle\" in the recording.",
+"ipa": "/ˈmoʊtərˌsaɪkəl/"
+},
+{
+"w": "motors",
+"m": "n. 汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"motors\" in the recording.",
+"ipa": "/ˈmoʊtərz/"
+},
+{
+"w": "mountains",
+"m": "n. 山",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mountains\" in the recording.",
+"ipa": "/ˈmaʊntənz/"
+},
+{
+"w": "mouse",
+"m": "n. 鼠标，老鼠（复数mice）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mouse\" in the recording.",
+"ipa": "/maʊs/"
+},
+{
+"w": "mouth",
+"m": "n. 嘴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mouth\" in the recording.",
+"ipa": "/maʊθ/"
+},
+{
+"w": "mouthpiece",
+"m": "n. 喉舌，代言人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mouthpiece\" in the recording.",
+"ipa": "/ˈmaʊθˌpis/"
+},
+{
+"w": "move",
+"m": "v. 移动",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"move\" in the recording.",
+"ipa": "/muv/"
+},
+{
+"w": "movers",
+"m": "n. 搬运公司",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"movers\" in the recording.",
+"ipa": "/ˈmuvərz/"
+},
+{
+"w": "movies",
+"m": "n. 电影",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"movies\" in the recording.",
+"ipa": "/ˈmuviz/"
+},
+{
+"w": "mud",
+"m": "n. 泥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mud\" in the recording.",
+"ipa": "/məd/"
+},
+{
+"w": "multiple",
+"m": "adj. 多样的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"multiple\" in the recording.",
+"ipa": "/ˈməltəpəl/"
+},
+{
+"w": "museums",
+"m": "n. 博物馆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"museums\" in the recording.",
+"ipa": "/mˈjuziəmz/"
+},
+{
+"w": "mushrooms",
+"m": "n. 蘑菇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"mushrooms\" in the recording.",
+"ipa": "/ˈməʃrumz/"
+},
+{
+"w": "music",
+"m": "n. 音乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"music\" in the recording.",
+"ipa": "/mˈjuzɪk/"
+},
+{
+"w": "musical",
+"m": "adj. 音乐的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"musical\" in the recording.",
+"ipa": "/mˈjuzɪkəl/"
+},
+{
+"w": "myths",
+"m": "n. 神话",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"myths\" in the recording.",
+"ipa": "/mɪθs/"
+},
+{
+"w": "napkins",
+"m": "n. 餐巾纸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"napkins\" in the recording.",
+"ipa": "/ˈnæpkɪnz/"
+},
+{
+"w": "narrow",
+"m": "adj. 狭窄的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"narrow\" in the recording.",
+"ipa": "/ˈnɛroʊ/"
+},
+{
+"w": "national",
+"m": "adj. 国家的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"national\" in the recording.",
+"ipa": "/ˈnæʃənəl/"
+},
+{
+"w": "native",
+"m": "adj. 本国的，土著的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"native\" in the recording.",
+"ipa": "/ˈneɪtɪv/"
+},
+{
+"w": "nature",
+"m": "n. 自然，本性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nature\" in the recording.",
+"ipa": "/ˈneɪʧər/"
+},
+{
+"w": "navigate",
+"m": "v. 航行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"navigate\" in the recording.",
+"ipa": "/ˈnævəˌgeɪt/"
+},
+{
+"w": "nearby",
+"m": "adj. 附近的adv在附近",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nearby\" in the recording.",
+"ipa": "/ˈnɪrˈbaɪ/"
+},
+{
+"w": "nearly",
+"m": "adv. 差不多",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nearly\" in the recording.",
+"ipa": "/ˈnɪrli/"
+},
+{
+"w": "neighbour",
+"m": "n. 邻居",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"neighbour\" in the recording.",
+"ipa": "/ˈneɪbər/"
+},
+{
+"w": "necessary",
+"m": "adj. 必要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"necessary\" in the recording.",
+"ipa": "/ˈnɛsəˌsɛri/"
+},
+{
+"w": "necessities",
+"m": "n. 必需品（necessity的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"necessities\" in the recording.",
+"ipa": "/nəˈsɛsɪtiz/"
+},
+{
+"w": "nectar",
+"m": "n. 花蜜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nectar\" in the recording.",
+"ipa": "/ˈnɛktər/"
+},
+{
+"w": "needs",
+"m": "v&n.需要",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"needs\" in the recording.",
+"ipa": "/nidz/"
+},
+{
+"w": "negative",
+"m": "adj. 消极的，阴性的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"negative\" in the recording.",
+"ipa": "/ˈnɛgətɪv/"
+},
+{
+"w": "neglect",
+"m": "v. 忽略",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"neglect\" in the recording.",
+"ipa": "/nɪˈglɛkt/"
+},
+{
+"w": "negotiate",
+"m": "w谈判",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"negotiate\" in the recording.",
+"ipa": "/nɪˈgoʊʃiˌeɪt/"
+},
+{
+"w": "neither",
+"m": "advy两个都不conj.既不pron.两者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"neither\" in the recording.",
+"ipa": "/ˈniðər/"
+},
+{
+"w": "nervous",
+"m": "adj. 紧张的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nervous\" in the recording.",
+"ipa": "/ˈnərvəs/"
+},
+{
+"w": "nests",
+"m": "n. 巢v筑巢",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nests\" in the recording.",
+"ipa": "/nɛsts/"
+},
+{
+"w": "nets",
+"m": "n. 网",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nets\" in the recording.",
+"ipa": "/nɛts/"
+},
+{
+"w": "networks",
+"m": "n. 网络",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"networks\" in the recording.",
+"ipa": "/ˈnɛtˌwərks/"
+},
+{
+"w": "neurological",
+"m": "adj. 神经病学的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"neurological\" in the recording.",
+"ipa": "/ˌnʊrəˈlɑʤɪkəl/"
+},
+{
+"w": "never",
+"m": "ady从未",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"never\" in the recording.",
+"ipa": "/ˈnɛvər/"
+},
+{
+"w": "nevertheless",
+"m": "adv. 然而，不过，虽然如此",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nevertheless\" in the recording.",
+"ipa": "/ˌnɛvərðəˈlɛs/"
+},
+{
+"w": "new",
+"m": "adj. 新的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"new\" in the recording.",
+"ipa": "/nu/"
+},
+{
+"w": "newsletters",
+"m": "n. 时事通讯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"newsletters\" in the recording.",
+"ipa": "/ˈnuzˌlɛtərz/"
+},
+{
+"w": "newspapers",
+"m": "n. 报纸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"newspapers\" in the recording.",
+"ipa": "/ˈnuzˌpeɪpərz/"
+},
+{
+"w": "next",
+"m": "adv. 下次prep.靠近",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"next\" in the recording.",
+"ipa": "/nɛkst/"
+},
+{
+"w": "nieces",
+"m": "n. 外甥女，侄女",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nieces\" in the recording.",
+"ipa": "/ˈnisɪz/"
+},
+{
+"w": "nightmare",
+"m": "n. 梦",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nightmare\" in the recording.",
+"ipa": "/ˈnaɪtˌmɛr/"
+},
+{
+"w": "nights",
+"m": "n. 夜晚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nights\" in the recording.",
+"ipa": "/naɪts/"
+},
+{
+"w": "nobleman",
+"m": "n. 贵族",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nobleman\" in the recording.",
+"ipa": "/ˈnoʊbəlmən/"
+},
+{
+"w": "noise",
+"m": "n. 噪声",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"noise\" in the recording.",
+"ipa": "/nɔɪz/"
+},
+{
+"w": "noisy",
+"m": "adj. 噜杂的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"noisy\" in the recording.",
+"ipa": "/ˈnɔɪzi/"
+},
+{
+"w": "none",
+"m": "pron. 没有adj.没有的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"none\" in the recording.",
+"ipa": "/nən/"
+},
+{
+"w": "nor",
+"m": "conj. 也不",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nor\" in the recording.",
+"ipa": "/nɔr/"
+},
+{
+"w": "normal",
+"m": "adj. 正常的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"normal\" in the recording.",
+"ipa": "/ˈnɔrməl/"
+},
+{
+"w": "north",
+"m": "n. 北adj.北方的adv.在北方",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"north\" in the recording.",
+"ipa": "/nɔrθ/"
+},
+{
+"w": "northeast",
+"m": "n. 东北adj.东北的adv在东北",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"northeast\" in the recording.",
+"ipa": "/ˌnɔrˈθist/"
+},
+{
+"w": "northern",
+"m": "adj. 北部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"northern\" in the recording.",
+"ipa": "/ˈnɔrðərn/"
+},
+{
+"w": "notable",
+"m": "adj. 显著的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"notable\" in the recording.",
+"ipa": "/ˈnoʊtəbəl/"
+},
+{
+"w": "notes",
+"m": "n. 笔记，气氛（onpositivenote）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"notes\" in the recording.",
+"ipa": "/noʊts/"
+},
+{
+"w": "noteworthy",
+"m": "adj. 值得注意的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"noteworthy\" in the recording.",
+"ipa": "/ˈnoʊtˌwərði/"
+},
+{
+"w": "notice",
+"m": "注意",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"notice\" in the recording.",
+"ipa": "/ˈnoʊtɪs/"
+},
+{
+"w": "novels",
+"m": "n. 小说",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"novels\" in the recording.",
+"ipa": "/ˈnɑvəlz/"
+},
+{
+"w": "November",
+"m": "n. 十一月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"November\" in the recording.",
+"ipa": "/noʊˈvɛmbər/"
+},
+{
+"w": "nowadays",
+"m": "adv. 现今",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nowadays\" in the recording.",
+"ipa": "/ˈnaʊəˌdeɪz/"
+},
+{
+"w": "numbers",
+"m": "n. 号码",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"numbers\" in the recording.",
+"ipa": "/ˈnəmbərz/"
+},
+{
+"w": "nursery",
+"m": "n. 托儿所",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nursery\" in the recording.",
+"ipa": "/ˈnərsəri/"
+},
+{
+"w": "nursing",
+"m": "护理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nursing\" in the recording.",
+"ipa": "/ˈnərsɪŋ/"
+},
+{
+"w": "nurture",
+"m": "养育",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nurture\" in the recording.",
+"ipa": "/ˈnərʧər/"
+},
+{
+"w": "nutrients",
+"m": "营养物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nutrients\" in the recording.",
+"ipa": "/ˈnutriənts/"
+},
+{
+"w": "nutrition",
+"m": "nutritional营养的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nutrition\" in the recording.",
+"ipa": "/nuˈtrɪʃən/"
+},
+{
+"w": "nuts",
+"m": "n. 坚果",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nuts\" in the recording.",
+"ipa": "/nəts/"
+},
+{
+"w": "nylon",
+"m": "尼龙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"nylon\" in the recording.",
+"ipa": "/ˈnaɪˌlɑn/"
+},
+{
+"w": "Obey",
+"m": "v. 服从",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Obey\" in the recording.",
+"ipa": "/oʊˈbeɪ/"
+},
+{
+"w": "Objectives",
+"m": "n. 目的，目标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Objectives\" in the recording.",
+"ipa": "/əˈbʤɛktɪvz/"
+},
+{
+"w": "objects",
+"m": "n. 物体u反对",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"objects\" in the recording.",
+"ipa": "/ˈɑbʤɛkts/"
+},
+{
+"w": "obligation",
+"m": "n. 义务",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"obligation\" in the recording.",
+"ipa": "/ˌɑbləˈgeɪʃən/"
+},
+{
+"w": "observatory",
+"m": "n. 天文台，气象台",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"observatory\" in the recording.",
+"ipa": "/əbˈzərvəˌtɔri/"
+},
+{
+"w": "observations",
+"m": "n. 观察",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"observations\" in the recording.",
+"ipa": "/ˌɑbzərˈveɪʃənz/"
+},
+{
+"w": "obsolete",
+"m": "w淘汰adj.废弃的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"obsolete\" in the recording.",
+"ipa": "/ˌɑbsəˈlit/"
+},
+{
+"w": "obtain",
+"m": "v. 获得",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"obtain\" in the recording.",
+"ipa": "/əbˈteɪn/"
+},
+{
+"w": "obviously",
+"m": "adv. 明显地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"obviously\" in the recording.",
+"ipa": "/ˈɑbviəsli/"
+},
+{
+"w": "occasional",
+"m": "adj. 偶然的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"occasional\" in the recording.",
+"ipa": "/ɔˈkeɪʒənəl/"
+},
+{
+"w": "occupancy",
+"m": "n. 居住",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"occupancy\" in the recording.",
+"ipa": "/ˈɑkjəpənsi/"
+},
+{
+"w": "occupation",
+"m": "n. 职业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"occupation\" in the recording.",
+"ipa": "/ˌɑkjəˈpeɪʃən/"
+},
+{
+"w": "Oceupyl",
+"m": "v. 占据",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Oceupyl\" in the recording."
+},
+{
+"w": "occur",
+"m": "v. 发生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"occur\" in the recording.",
+"ipa": "/əˈkər/"
+},
+{
+"w": "Oceans",
+"m": "n. 海洋",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Oceans\" in the recording.",
+"ipa": "/ˈoʊʃənz/"
+},
+{
+"w": "October",
+"m": "n. 十月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"October\" in the recording.",
+"ipa": "/ɑkˈtoʊbər/"
+},
+{
+"w": "odd",
+"m": "adj. 古怪的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"odd\" in the recording.",
+"ipa": "/ɑd/"
+},
+{
+"w": "odour",
+"m": "n. 气味",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"odour\" in the recording.",
+"ipa": "/ˈoʊdər/"
+},
+{
+"w": "ofr",
+"m": "adv. 离开，脱掉prep.从去掉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ofr\" in the recording."
+},
+{
+"w": "offers",
+"m": "v. 提供n.出价，录取通知书",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"offers\" in the recording.",
+"ipa": "/ˈɔfərz/"
+},
+{
+"w": "Office",
+"m": "n. 办公室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Office\" in the recording.",
+"ipa": "/ˈɔfəs/"
+},
+{
+"w": "old",
+"m": "adj. 年长的，古老的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"old\" in the recording.",
+"ipa": "/oʊld/"
+},
+{
+"w": "olfactory",
+"m": "adj. 嗅觉的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"olfactory\" in the recording.",
+"ipa": "/oʊlˈfæktəri/"
+},
+{
+"w": "olive",
+"m": "7n.橄榄",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"olive\" in the recording.",
+"ipa": "/ˈɑlɪv/"
+},
+{
+"w": "Olympics",
+"m": "n. 奥林匹克运动会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Olympics\" in the recording.",
+"ipa": "/oʊˈlɪmpɪks/"
+},
+{
+"w": "omit",
+"m": "v. 省略",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"omit\" in the recording.",
+"ipa": "/oʊˈmɪt/"
+},
+{
+"w": "once",
+"m": "adv. 一次，曾经",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Once\" in the recording.",
+"ipa": "/wəns/"
+},
+{
+"w": "online",
+"m": "adj. 在线的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"online\" in the recording.",
+"ipa": "/ˈɔnˌlaɪn/"
+},
+{
+"w": "onwards",
+"m": "ady向前",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"onwards\" in the recording.",
+"ipa": "/ˈɑnwərdz/"
+},
+{
+"w": "opera",
+"m": "n. 歌剧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"opera\" in the recording.",
+"ipa": "/ˈɑprə/"
+},
+{
+"w": "operate",
+"m": ".运转",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"operate\" in the recording.",
+"ipa": "/ˈɔpərˌeɪt/"
+},
+{
+"w": "opinions",
+"m": "n. 意见",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"opinions\" in the recording.",
+"ipa": "/əˈpɪnjənz/"
+},
+{
+"w": "opportunities",
+"m": "n. 时机（opportunity的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"opportunities\" in the recording.",
+"ipa": "/ˌɑpərˈtunətiz/"
+},
+{
+"w": "opposite",
+"m": "n. 对立面adj.对面的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"opposite\" in the recording.",
+"ipa": "/ˈɑpəzɪt/"
+},
+{
+"w": "optimism",
+"m": "n. 乐观，乐观主义",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"optimism\" in the recording.",
+"ipa": "/ˈɑptɪˌmɪzəm/"
+},
+{
+"w": "oral",
+"m": "adj. 口头的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"oral\" in the recording.",
+"ipa": "/ˈɔrəl/"
+},
+{
+"w": "orange",
+"m": "n. 橙；橙色adj.橙红色的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"orange\" in the recording.",
+"ipa": "/ˈɔrɪnʤ/"
+},
+{
+"w": "orchestras",
+"m": "n. 管弦乐队",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"orchestras\" in the recording.",
+"ipa": "/ˈɔrkəstrəz/"
+},
+{
+"w": "order",
+"m": "n. 顺序，命令点菜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"order\" in the recording.",
+"ipa": "/ˈɔrdər/"
+},
+{
+"w": "ordinary",
+"m": "adj. 普通的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ordinary\" in the recording.",
+"ipa": "/ˈɔrdəˌnɛri/"
+},
+{
+"w": "organics",
+"m": "adj. 有机的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"organics\" in the recording.",
+"ipa": "/ɔrˈgænɪks/"
+},
+{
+"w": "organisations",
+"m": "n. 组织，机构（美式organization）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"organisations\" in the recording.",
+"ipa": "/ˌɔrgənɪˈzeɪʃənz/"
+},
+{
+"w": "orientations",
+"m": "n. 方向，情况介绍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"orientations\" in the recording.",
+"ipa": "/ˌɔriɛnˈteɪʃənz/"
+},
+{
+"w": "original",
+"m": "adj. 原来的，首创的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"original\" in the recording.",
+"ipa": "/ərˈɪʤənəl/"
+},
+{
+"w": "Ooutbreaksis",
+"m": "n. 爆发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ooutbreaksis\" in the recording."
+},
+{
+"w": "outdated",
+"m": "adj. 过时的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"outdated\" in the recording.",
+"ipa": "/ˈaʊtˌdeɪtɪd/"
+},
+{
+"w": "outdoors",
+"m": "adj. 户外的adv.在户外",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"outdoors\" in the recording.",
+"ipa": "/ˈaʊtˈdɔrz/"
+},
+{
+"w": "outgoing",
+"m": "adj. 开朗的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"outgoing\" in the recording.",
+"ipa": "/ˈaʊtˌgoʊɪŋ/"
+},
+{
+"w": "Outline",
+"m": "n. 轮廓，大纲v概述",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Outline\" in the recording.",
+"ipa": "/ˈaʊˌtlaɪn/"
+},
+{
+"w": "outside",
+"m": "adj. 外面的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"outside\" in the recording.",
+"ipa": "/ˈaʊtˈsaɪd/"
+},
+{
+"w": "overall",
+"m": "adj. 全部的adv.全部地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overall\" in the recording.",
+"ipa": "/ˈoʊvərˌɔl/"
+},
+{
+"w": "overcome",
+"m": "v. 克服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overcome\" in the recording.",
+"ipa": "/ˈoʊvərˌkəm/"
+},
+{
+"w": "Overdue",
+"m": "adj. 过期的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Overdue\" in the recording.",
+"ipa": "/ˈoʊvərˈdu/"
+},
+{
+"w": "overheads",
+"m": "n. 运营费用（复数）adv在头上方",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overheads\" in the recording.",
+"ipa": "/ˈoʊvərˌhɛdz/"
+},
+{
+"w": "overlooks",
+"m": "\"忽略，俯瞰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overlooks\" in the recording.",
+"ipa": "/ˈoʊvərˌlʊks/"
+},
+{
+"w": "overrun",
+"m": "n. 超出限度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overrun\" in the recording.",
+"ipa": "/ˈoʊvərˌrən/"
+},
+{
+"w": "overshadow",
+"m": "使蒙上阴影",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overshadow\" in the recording.",
+"ipa": "/ˈoʊvərˈʃædoʊ/"
+},
+{
+"w": "Overtime",
+"m": "n. 加班时间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Overtime\" in the recording.",
+"ipa": "/ˈoʊvərˌtaɪm/"
+},
+{
+"w": "overview",
+"m": "综述",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overview\" in the recording.",
+"ipa": "/ˈoʊvərvˌju/"
+},
+{
+"w": "overwhelmingly",
+"m": "adv. 占绝对优势地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"overwhelmingly\" in the recording.",
+"ipa": "/ˌoʊvərˈwɛlmɪŋli/"
+},
+{
+"w": "owe",
+"m": "欠（钱）；负（债）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"owe\" in the recording.",
+"ipa": "/oʊ/"
+},
+{
+"w": "Own",
+"m": "拥有adj.自己的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Own\" in the recording.",
+"ipa": "/oʊn/"
+},
+{
+"w": "oxygens",
+"m": "n. 氧气",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"oxygens\" in the recording."
+},
+{
+"w": "pack",
+"m": "w包装n.包",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pack\" in the recording.",
+"ipa": "/pæk/"
+},
+{
+"w": "package",
+"m": "n. 包裹v打包",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"package\" in the recording.",
+"ipa": "/ˈpækɪʤ/"
+},
+{
+"w": "pagels",
+"m": "n. 页",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pagels\" in the recording.",
+"ipa": "/ˈpægəlz/"
+},
+{
+"w": "pain",
+"m": "n. 疼痛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pain\" in the recording.",
+"ipa": "/peɪn/"
+},
+{
+"w": "painkiller",
+"m": "n. 止痛药",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"painkiller\" in the recording.",
+"ipa": "/ˈpeɪnˌkɪlər/"
+},
+{
+"w": "painters io",
+"m": "n. 画家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"painters io\" in the recording.",
+"ipa": "/ˈpeɪnərz aɪoʊ/"
+},
+{
+"w": "paintings",
+"m": "n. 图画",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"paintings\" in the recording.",
+"ipa": "/ˈpeɪnɪŋz/"
+},
+{
+"w": "pair",
+"m": "w把.组成一对n.一对",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pair\" in the recording.",
+"ipa": "/pɛr/"
+},
+{
+"w": "palace",
+"m": "n. 宫殿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"palace\" in the recording.",
+"ipa": "/ˈpæləs/"
+},
+{
+"w": "palm",
+"m": "n. 棕榈树",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"palm\" in the recording.",
+"ipa": "/pɑm/"
+},
+{
+"w": "papers",
+"m": "n. 报纸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"papers\" in the recording.",
+"ipa": "/ˈpeɪpərz/"
+},
+{
+"w": "parade",
+"m": "n. 游行，阅兵",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parade\" in the recording.",
+"ipa": "/pəreɪd/"
+},
+{
+"w": "paragraphs",
+"m": "n. 段落",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"paragraphs\" in the recording.",
+"ipa": "/ˈpɛrəˌgræfs/"
+},
+{
+"w": "parents",
+"m": "n. 父母",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parents\" in the recording.",
+"ipa": "/ˈpɛrənts/"
+},
+{
+"w": "parking",
+"m": "n. 停车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parking\" in the recording.",
+"ipa": "/ˈpɑrkɪŋ/"
+},
+{
+"w": "parks",
+"m": "n. 公园v停放",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parks\" in the recording.",
+"ipa": "/pɑrks/"
+},
+{
+"w": "parliaments",
+"m": "n. 议会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parliaments\" in the recording.",
+"ipa": "/ˈpɑrləˌmɛnts/"
+},
+{
+"w": "participate",
+"m": "参与",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"participate\" in the recording.",
+"ipa": "/pɑrˈtɪsəˌpeɪt/"
+},
+{
+"w": "particular",
+"m": "adj. 特别的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"particular\" in the recording.",
+"ipa": "/ˌpɑˈtɪkjələr/"
+},
+{
+"w": "partly",
+"m": "adv. 部分地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"partly\" in the recording.",
+"ipa": "/ˈpɑrtli/"
+},
+{
+"w": "partners",
+"m": "n. 伙伴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"partners\" in the recording.",
+"ipa": "/ˈpɑrtnərz/"
+},
+{
+"w": "parts",
+"m": "n. 部分",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"parts\" in the recording.",
+"ipa": "/pɑrts/"
+},
+{
+"w": "party",
+"m": "n. 聚会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"party\" in the recording.",
+"ipa": "/ˈpɑrti/"
+},
+{
+"w": "pass",
+"m": "n. 通行证v传递",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pass\" in the recording.",
+"ipa": "/pæs/"
+},
+{
+"w": "passengers",
+"m": "n. 旅客",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"passengers\" in the recording.",
+"ipa": "/ˈpæsənʤərz/"
+},
+{
+"w": "passive",
+"m": "adj. 被动的，消极的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"passive\" in the recording.",
+"ipa": "/ˈpæsɪv/"
+},
+{
+"w": "passport",
+"m": "n. 护照",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"passport\" in the recording.",
+"ipa": "/ˈpæˌspɔrt/"
+},
+{
+"w": "passwords",
+"m": "n. 密码，口令",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"passwords\" in the recording.",
+"ipa": "/ˈpæsˌwərdz/"
+},
+{
+"w": "past",
+"m": "adj. 过去的n.过去prep.经过",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"past\" in the recording.",
+"ipa": "/pæst/"
+},
+{
+"w": "patent",
+"m": "v. 取得·的专利权",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"patent\" in the recording.",
+"ipa": "/ˈpætənt/"
+},
+{
+"w": "paths",
+"m": "n. 道路",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"paths\" in the recording.",
+"ipa": "/pæθs/"
+},
+{
+"w": "patients",
+"m": "n. 病人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"patients\" in the recording.",
+"ipa": "/ˈpeɪʃənz/"
+},
+{
+"w": "patronise",
+"m": "保护（美式patronize）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"patronise\" in the recording."
+},
+{
+"w": "patterns",
+"m": "n. 模式，图案",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"patterns\" in the recording.",
+"ipa": "/ˈpætərnz/"
+},
+{
+"w": "pavement",
+"m": "n. 人行道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pavement\" in the recording.",
+"ipa": "/ˈpeɪvmənt/"
+},
+{
+"w": "pay",
+"m": "w支付n.薪水（过去式paid）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pay\" in the recording.",
+"ipa": "/peɪ/"
+},
+{
+"w": "payment",
+"m": "n. 支付",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"payment\" in the recording.",
+"ipa": "/ˈpeɪmənt/"
+},
+{
+"w": "peak",
+"m": "n. 山峰，最高点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"peak\" in the recording.",
+"ipa": "/pik/"
+},
+{
+"w": "peanuts",
+"m": "n. 花生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"peanuts\" in the recording.",
+"ipa": "/ˈpiˌnəts/"
+},
+{
+"w": "peasants",
+"m": "n. 农民",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"peasants\" in the recording.",
+"ipa": "/ˈpɛzənts/"
+},
+{
+"w": "pedestrians",
+"m": "n. 行人adj.徒步的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pedestrians\" in the recording.",
+"ipa": "/pəˈdɛstriənz/"
+},
+{
+"w": "pencils",
+"m": "n. 铅笔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pencils\" in the recording.",
+"ipa": "/ˈpɛnsəlz/"
+},
+{
+"w": "penguin",
+"m": "n. 企鹅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"penguin\" in the recording.",
+"ipa": "/ˈpɛŋgwən/"
+},
+{
+"w": "pens",
+"m": "n. 钢笔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pens\" in the recording.",
+"ipa": "/pɛnz/"
+},
+{
+"w": "people",
+"m": "n. 人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"people\" in the recording.",
+"ipa": "/ˈpipəl/"
+},
+{
+"w": "per",
+"m": "prep. 每",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"per\" in the recording.",
+"ipa": "/pər/"
+},
+{
+"w": "percent",
+"m": "n. 百分比",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"percent\" in the recording.",
+"ipa": "/pərˈsɛnt/"
+},
+{
+"w": "percentage",
+"m": "n. 百分比",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"percentage\" in the recording.",
+"ipa": "/pərˈsɛnɪʤ/"
+},
+{
+"w": "perception",
+"m": "n. 认识能力，知觉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perception\" in the recording.",
+"ipa": "/pərˈsɛpʃən/"
+},
+{
+"w": "perch",
+"m": "v. 栖息",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perch\" in the recording.",
+"ipa": "/pərʧ/"
+},
+{
+"w": "percussion",
+"m": "n. 敲打乐器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"percussion\" in the recording.",
+"ipa": "/pərˈkəʃən/"
+},
+{
+"w": "perfect",
+"m": "adj. 完美的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perfect\" in the recording.",
+"ipa": "/ˈpərˌfɪkt/"
+},
+{
+"w": "performances",
+"m": "n. 绩效，表演",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"performances\" in the recording.",
+"ipa": "/pərˈfɔrmənsɪz/"
+},
+{
+"w": "perfume",
+"m": "n. 香水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perfume\" in the recording.",
+"ipa": "/pərfˈjum/"
+},
+{
+"w": "perhaps",
+"m": "adv. 或许",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perhaps\" in the recording.",
+"ipa": "/pərˈhæps/"
+},
+{
+"w": "periods",
+"m": "n. 周期，时期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"periods\" in the recording.",
+"ipa": "/ˈpɪriədz/"
+},
+{
+"w": "perishable",
+"m": "adj. 易腐烂的n.容易腐坏的东西",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perishable\" in the recording.",
+"ipa": "/ˈpɛrɪʃəbəl/"
+},
+{
+"w": "permanent",
+"m": "adj. 永久的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"permanent\" in the recording.",
+"ipa": "/ˈpərmɑˌnɛnt/"
+},
+{
+"w": "permission",
+"m": "n. 许可",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"permission\" in the recording.",
+"ipa": "/pərˈmɪʃən/"
+},
+{
+"w": "permit",
+"m": "v&n.许可",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"permit\" in the recording.",
+"ipa": "/ˈpərˌmɪt/"
+},
+{
+"w": "perspectives",
+"m": "n. 观点，远景",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"perspectives\" in the recording.",
+"ipa": "/pərˈspɛktɪvz/"
+},
+{
+"w": "personality",
+"m": "n. 个性，品格",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"personality\" in the recording.",
+"ipa": "/ˌpərsəˈnælɪti/"
+},
+{
+"w": "persuade",
+"m": "v. 说服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"persuade\" in the recording.",
+"ipa": "/pərsˈweɪd/"
+},
+{
+"w": "petitions",
+"m": "n. 请愿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"petitions\" in the recording.",
+"ipa": "/pəˈtɪʃənz/"
+},
+{
+"w": "petrol",
+"m": "n. 汽油",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"petrol\" in the recording.",
+"ipa": "/ˈpɛtroʊl/"
+},
+{
+"w": "pets",
+"m": "n. 宠物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pets\" in the recording.",
+"ipa": "/pɛts/"
+},
+{
+"w": "pharmacy",
+"m": "n. 药房",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pharmacy\" in the recording.",
+"ipa": "/ˈfɑrməsi/"
+},
+{
+"w": "phase",
+"m": "n. 时期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"phase\" in the recording.",
+"ipa": "/feɪz/"
+},
+{
+"w": "phenomenon",
+"m": "n. 现象（复数形式phenomena）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"phenomenon\" in the recording.",
+"ipa": "/fəˈnɑməˌnɑn/"
+},
+{
+"w": "philosopher",
+"m": "n. 哲学家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"philosopher\" in the recording.",
+"ipa": "/fəˈlɑsəfər/"
+},
+{
+"w": "phones",
+"m": "n. 电话",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"phones\" in the recording.",
+"ipa": "/foʊnz/"
+},
+{
+"w": "photocopy",
+"m": "n. 复印件",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"photocopy\" in the recording.",
+"ipa": "/ˈfoʊtoʊˌkɑpi/"
+},
+{
+"w": "photographs",
+"m": "n. 照片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"photographs\" in the recording.",
+"ipa": "/ˈfoʊtəˌgræfs/"
+},
+{
+"w": "photos",
+"m": "n. 照片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"photos\" in the recording.",
+"ipa": "/ˈfoʊˌtoʊz/"
+},
+{
+"w": "phrase",
+"m": "n. 短语；乐句",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"phrase\" in the recording.",
+"ipa": "/freɪz/"
+},
+{
+"w": "physicians",
+"m": "n. 医师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"physicians\" in the recording.",
+"ipa": "/fɪˈzɪʃənz/"
+},
+{
+"w": "physics",
+"m": "n. 物理学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"physics\" in the recording.",
+"ipa": "/ˈfɪzɪks/"
+},
+{
+"w": "pianist",
+"m": "n. 钢琴家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pianist\" in the recording.",
+"ipa": "/ˈpiənɪst/"
+},
+{
+"w": "piano",
+"m": "n. 钢琴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"piano\" in the recording.",
+"ipa": "/piˈænə/"
+},
+{
+"w": "pick",
+"m": "W拾取，挑选",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pick\" in the recording.",
+"ipa": "/pɪk/"
+},
+{
+"w": "picnic",
+"m": "n. 野餐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"picnic\" in the recording.",
+"ipa": "/ˈpɪkˌnɪk/"
+},
+{
+"w": "pictures",
+"m": "n. 图画，描绘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pictures\" in the recording.",
+"ipa": "/ˈpɪkʧərz/"
+},
+{
+"w": "pieces",
+"m": "n. 表示事物的个体；片段",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pieces\" in the recording.",
+"ipa": "/ˈpisɪz/"
+},
+{
+"w": "pigeon",
+"m": "n. 鸽子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pigeon\" in the recording.",
+"ipa": "/ˈpɪʤɪn/"
+},
+{
+"w": "pile",
+"m": "n. 堆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pile\" in the recording.",
+"ipa": "/paɪl/"
+},
+{
+"w": "pilots",
+"m": "n. 飞行员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pilots\" in the recording.",
+"ipa": "/ˈpaɪləts/"
+},
+{
+"w": "pine",
+"m": "n. 松树",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pine\" in the recording.",
+"ipa": "/paɪn/"
+},
+{
+"w": "pink",
+"m": "adj. 粉红的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pink\" in the recording.",
+"ipa": "/pɪŋk/"
+},
+{
+"w": "pioneers",
+"m": "n. 先驱v提倡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pioneers\" in the recording.",
+"ipa": "/ˌpaɪəˈnɪrz/"
+},
+{
+"w": "pipelines",
+"m": "n. 管道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pipelines\" in the recording.",
+"ipa": "/ˈpaɪˌplaɪnz/"
+},
+{
+"w": "pipes",
+"m": "n. 管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pipes\" in the recording.",
+"ipa": "/paɪps/"
+},
+{
+"w": "pits",
+"m": "n. 深坑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pits\" in the recording.",
+"ipa": "/pɪts/"
+},
+{
+"w": "pizzas",
+"m": "n. 比萨饼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pizzas\" in the recording.",
+"ipa": "/ˈpitsəz/"
+},
+{
+"w": "placements",
+"m": "n. 布置",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"placements\" in the recording.",
+"ipa": "/ˈpleɪsmənts/"
+},
+{
+"w": "places",
+"m": "n. 地点，位置",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"places\" in the recording.",
+"ipa": "/ˈpleɪsɪz/"
+},
+{
+"w": "planes",
+"m": "n. 飞机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"planes\" in the recording.",
+"ipa": "/pleɪnz/"
+},
+{
+"w": "planet",
+"m": "n. 行星",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"planet\" in the recording.",
+"ipa": "/ˈplænət/"
+},
+{
+"w": "plans",
+"m": "n. &v计划",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plans\" in the recording.",
+"ipa": "/plænz/"
+},
+{
+"w": "plants",
+"m": "植物，（复数）工厂种植",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plants\" in the recording.",
+"ipa": "/plænts/"
+},
+{
+"w": "plastic",
+"m": "塑料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plastic\" in the recording.",
+"ipa": "/ˈplæstɪk/"
+},
+{
+"w": "plates",
+"m": "n. 碟，金属板",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plates\" in the recording.",
+"ipa": "/pleɪts/"
+},
+{
+"w": "platforms",
+"m": "n. 平台，站台",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"platforms\" in the recording.",
+"ipa": "/ˈplætˌfɔrmz/"
+},
+{
+"w": "plateaux",
+"m": "n. 高原（美式plateau）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plateaux\" in the recording."
+},
+{
+"w": "plausible",
+"m": "adj. 看似可信的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plausible\" in the recording.",
+"ipa": "/ˈplɔzəbəl/"
+},
+{
+"w": "play",
+"m": "w玩，扮演n.剧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"play\" in the recording.",
+"ipa": "/pleɪ/"
+},
+{
+"w": "playground",
+"m": "n. 运动场，游乐场",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"playground\" in the recording.",
+"ipa": "/ˈpleɪˌgraʊnd/"
+},
+{
+"w": "pleased",
+"m": "adj. 高兴的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pleased\" in the recording.",
+"ipa": "/plizd/"
+},
+{
+"w": "pleasure",
+"m": "n. 快乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pleasure\" in the recording.",
+"ipa": "/ˈplɛʒər/"
+},
+{
+"w": "plenty",
+"m": "adj. 很多的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"plenty\" in the recording.",
+"ipa": "/ˈplɛnti/"
+},
+{
+"w": "poetry",
+"m": "n. 诗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"poetry\" in the recording.",
+"ipa": "/ˈpoʊətri/"
+},
+{
+"w": "points",
+"m": "n. 要点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"points\" in the recording.",
+"ipa": "/pɔɪnts/"
+},
+{
+"w": "poison",
+"m": "n. 毒药v下毒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"poison\" in the recording.",
+"ipa": "/ˈpɔɪzən/"
+},
+{
+"w": "police",
+"m": "n. 警察",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"police\" in the recording.",
+"ipa": "/pəˈlis/"
+},
+{
+"w": "policies",
+"m": "n. 政策（policy的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"policies\" in the recording.",
+"ipa": "/ˈpɑləsiz/"
+},
+{
+"w": "polish",
+"m": ".抛光",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"polish\" in the recording.",
+"ipa": "/ˈpɑlɪʃ/"
+},
+{
+"w": "political",
+"m": "adj. 政治的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"political\" in the recording.",
+"ipa": "/pəˈlɪtɪkəl/"
+},
+{
+"w": "politics",
+"m": "n. 政治",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"politics\" in the recording.",
+"ipa": "/ˈpɑləˌtɪks/"
+},
+{
+"w": "pollution",
+"m": "n. 污染",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pollution\" in the recording.",
+"ipa": "/pəˈluʃən/"
+},
+{
+"w": "pond",
+"m": "7n.池塘",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pond\" in the recording.",
+"ipa": "/pɑnd/"
+},
+{
+"w": "poo",
+"m": "n. 水池",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"poo\" in the recording.",
+"ipa": "/pu/"
+},
+{
+"w": "poor",
+"m": "adj. 贫穷的（比较级poorer）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"poor\" in the recording.",
+"ipa": "/pur/"
+},
+{
+"w": "popular",
+"m": "adj. 流行的，受欢迎的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"popular\" in the recording.",
+"ipa": "/ˈpɑpjələr/"
+},
+{
+"w": "populations",
+"m": "n. 人口，总体",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"populations\" in the recording.",
+"ipa": "/ˌpɑpjəˈleɪʃənz/"
+},
+{
+"w": "porcelain",
+"m": "n. 瓷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"porcelain\" in the recording.",
+"ipa": "/ˈpɔrsələn/"
+},
+{
+"w": "port",
+"m": "n. 港口v持",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"port\" in the recording.",
+"ipa": "/pɔrt/"
+},
+{
+"w": "portion",
+"m": "n. 部分",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"portion\" in the recording.",
+"ipa": "/ˈpɔrʃən/"
+},
+{
+"w": "position",
+"m": "n. 位置，工作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"position\" in the recording.",
+"ipa": "/pəˈzɪʃən/"
+},
+{
+"w": "positive",
+"m": "adj. 积极的，阳性的，确定的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"positive\" in the recording.",
+"ipa": "/ˈpɑzətɪv/"
+},
+{
+"w": "possessions",
+"m": "n. 拥有",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"possessions\" in the recording.",
+"ipa": "/pəˈzɛʃənz/"
+},
+{
+"w": "possibilities",
+"m": "n. 可能性（possibility的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"possibilities\" in the recording.",
+"ipa": "/ˌpɑsəˈbɪlətiz/"
+},
+{
+"w": "postbox",
+"m": "n. 邮箱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"postbox\" in the recording."
+},
+{
+"w": "posters",
+"m": "n. 海报",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"posters\" in the recording.",
+"ipa": "/ˈpoʊstərz/"
+},
+{
+"w": "postpones",
+"m": "v. 延期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"postpones\" in the recording.",
+"ipa": "/poʊstˈpoʊnz/"
+},
+{
+"w": "posts",
+"m": "n. 岗位；邮件；标杆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"posts\" in the recording.",
+"ipa": "/poʊsts/"
+},
+{
+"w": "potential",
+"m": "adj. 潜在的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"potential\" in the recording.",
+"ipa": "/pəˈtɛnʃəl/"
+},
+{
+"w": "pots",
+"m": "n. 盆，罐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pots\" in the recording.",
+"ipa": "/pɑts/"
+},
+{
+"w": "pounds",
+"m": "n. 磅，英镑n.&v重击",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pounds\" in the recording.",
+"ipa": "/paʊnz/"
+},
+{
+"w": "pours",
+"m": "v. 灌，倒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pours\" in the recording.",
+"ipa": "/pɔrz/"
+},
+{
+"w": "poverty",
+"m": "n. 贫困",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"poverty\" in the recording.",
+"ipa": "/ˈpɑvərti/"
+},
+{
+"w": "powders",
+"m": "n. 粉末",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"powders\" in the recording.",
+"ipa": "/ˈpaʊdərz/"
+},
+{
+"w": "powers",
+"m": "n. 能量，力量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"powers\" in the recording.",
+"ipa": "/paʊərz/"
+},
+{
+"w": "practical",
+"m": "adj. 实际的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"practical\" in the recording.",
+"ipa": "/ˈpræktɪkəl/"
+},
+{
+"w": "practice",
+"m": "n. &v实践",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"practice\" in the recording.",
+"ipa": "/ˈpræktɪs/"
+},
+{
+"w": "precise",
+"m": "adj. 精确的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"precise\" in the recording.",
+"ipa": "/prɪˈsaɪs/"
+},
+{
+"w": "predators",
+"m": "n. 捕食者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"predators\" in the recording.",
+"ipa": "/ˈprɛdətərz/"
+},
+{
+"w": "predict",
+"m": "v. 预知",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"predict\" in the recording.",
+"ipa": "/prɪˈdɪkt/"
+},
+{
+"w": "prefabricated",
+"m": "adj. 预制构件的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prefabricated\" in the recording.",
+"ipa": "/priˈfæbrɪˌkeɪtɪd/"
+},
+{
+"w": "prefer",
+"m": "v. 更喜欢",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prefer\" in the recording.",
+"ipa": "/prɪˈfər/"
+},
+{
+"w": "premiers",
+"m": "adj. 首要的，最初的n.总理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"premiers\" in the recording.",
+"ipa": "/prɛˈmɪrz/"
+},
+{
+"w": "premiere",
+"m": "n. 准备",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"premiere\" in the recording.",
+"ipa": "/prɛˈmɪr/"
+},
+{
+"w": "presentations",
+"m": "n. 展示，陈述",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"presentations\" in the recording.",
+"ipa": "/ˌprɛzənˈteɪʃənz/"
+},
+{
+"w": "presents",
+"m": "adj. 现在的v提出；出席n.礼物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"presents\" in the recording.",
+"ipa": "/ˈprɛzənts/"
+},
+{
+"w": "president",
+"m": "n. 总统",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"president\" in the recording.",
+"ipa": "/ˈprɛzɪdənt/"
+},
+{
+"w": "press",
+"m": "n. 报纸杂志v压，按",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"press\" in the recording.",
+"ipa": "/prɛs/"
+},
+{
+"w": "pressure",
+"m": "n. 压力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pressure\" in the recording.",
+"ipa": "/ˈprɛʃər/"
+},
+{
+"w": "presume",
+"m": "v. 假定",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"presume\" in the recording.",
+"ipa": "/prɪˈzum/"
+},
+{
+"w": "pretends",
+"m": "v. 假装",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pretends\" in the recording.",
+"ipa": "/priˈtɛndz/"
+},
+{
+"w": "pretty",
+"m": "adj. 漂亮的，可爱的adv相当地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pretty\" in the recording.",
+"ipa": "/ˈprɪti/"
+},
+{
+"w": "prevalent",
+"m": "adj. 普遍的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prevalent\" in the recording.",
+"ipa": "/ˈprɛvələnt/"
+},
+{
+"w": "prevention",
+"m": "n. 预防",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prevention\" in the recording.",
+"ipa": "/priˈvɛnʃən/"
+},
+{
+"w": "previous",
+"m": "adj. 以前的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"previous\" in the recording.",
+"ipa": "/ˈpriviəs/"
+},
+{
+"w": "prices",
+"m": "n. 价格",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prices\" in the recording.",
+"ipa": "/ˈpraɪsɪz/"
+},
+{
+"w": "primary",
+"m": "adj. 主要的，初级的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"primary\" in the recording.",
+"ipa": "/ˈpraɪˌmɛri/"
+},
+{
+"w": "prince",
+"m": "n. 王子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prince\" in the recording.",
+"ipa": "/prɪns/"
+},
+{
+"w": "principles",
+"m": "n. 原则",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"principles\" in the recording.",
+"ipa": "/ˈprɪnsəpəlz/"
+},
+{
+"w": "print l",
+"m": "v. 印刷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"print l\" in the recording.",
+"ipa": "/prɪnt ɛl/"
+},
+{
+"w": "priorities",
+"m": "n. 优先（priority的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"priorities\" in the recording.",
+"ipa": "/praɪˈɔrətiz/"
+},
+{
+"w": "prison",
+"m": "n. 监狱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prison\" in the recording.",
+"ipa": "/ˈprɪzən/"
+},
+{
+"w": "private",
+"m": "adj. 私人的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"private\" in the recording.",
+"ipa": "/ˈpraɪvət/"
+},
+{
+"w": "prizes",
+"m": "n. 奖品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prizes\" in the recording.",
+"ipa": "/ˈpraɪzɪz/"
+},
+{
+"w": "probably",
+"m": "adv. 很可能",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"probably\" in the recording.",
+"ipa": "/ˈprɑbəˌbli/"
+},
+{
+"w": "probationary",
+"m": "adj. 试用的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"probationary\" in the recording.",
+"ipa": "/proʊˈbeɪʃəˌnɛˌri/"
+},
+{
+"w": "problems",
+"m": "n. 难题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"problems\" in the recording.",
+"ipa": "/ˈprɑbləmz/"
+},
+{
+"w": "procedure",
+"m": "n. 程序",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"procedure\" in the recording.",
+"ipa": "/prəˈsiʤər/"
+},
+{
+"w": "processes",
+"m": "n. 过程v处理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"processes\" in the recording.",
+"ipa": "/ˈprɑsɛsəz/"
+},
+{
+"w": "produce",
+"m": "n. 产品v生产",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"produce\" in the recording.",
+"ipa": "/ˈproʊdus/"
+},
+{
+"w": "production",
+"m": "n. 产品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"production\" in the recording.",
+"ipa": "/pərˈdəkʃən/"
+},
+{
+"w": "products",
+"m": "n. 产品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"products\" in the recording.",
+"ipa": "/ˈprɑdəkts/"
+},
+{
+"w": "professional",
+"m": "adj. 专业的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"professional\" in the recording.",
+"ipa": "/prəˈfɛʃənəl/"
+},
+{
+"w": "professor",
+"m": "n. 教授",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"professor\" in the recording.",
+"ipa": "/prəˈfɛsər/"
+},
+{
+"w": "profiles",
+"m": "n. 形象，简况",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"profiles\" in the recording.",
+"ipa": "/ˈproʊˌfaɪlz/"
+},
+{
+"w": "profits",
+"m": "n. 利润",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"profits\" in the recording.",
+"ipa": "/ˈprɑfɪts/"
+},
+{
+"w": "profound",
+"m": "adj. 深厚的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"profound\" in the recording.",
+"ipa": "/proʊˈfaʊnd/"
+},
+{
+"w": "programme",
+"m": "n. 节目，计划（美式program）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"programme\" in the recording.",
+"ipa": "/ˈproʊˌgræm/"
+},
+{
+"w": "progress",
+"m": "n. 进步",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"progress\" in the recording.",
+"ipa": "/ˈprɑˌgrɛs/"
+},
+{
+"w": "prohibit",
+"m": "w阻止",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prohibit\" in the recording.",
+"ipa": "/proʊˈhɪbət/"
+},
+{
+"w": "projectors",
+"m": "n. 投影仪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"projectors\" in the recording.",
+"ipa": "/prɑˈʤɛktərz/"
+},
+{
+"w": "projects",
+"m": "n. 项目",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"projects\" in the recording.",
+"ipa": "/ˈprɑʤɛkts/"
+},
+{
+"w": "proliferate",
+"m": "w.增殖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proliferate\" in the recording.",
+"ipa": "/proʊˈlɪfərˌeɪt/"
+},
+{
+"w": "promenade",
+"m": "n. 散步场所（尤指海滨步行大道）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"promenade\" in the recording.",
+"ipa": "/ˌprɑməˈneɪd/"
+},
+{
+"w": "prominent",
+"m": "adj. 突出的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prominent\" in the recording.",
+"ipa": "/ˈprɑmənənt/"
+},
+{
+"w": "prompt",
+"m": "n. 提示V提示，促进",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prompt\" in the recording.",
+"ipa": "/prɑmpt/"
+},
+{
+"w": "proof",
+"m": "n. 证明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proof\" in the recording.",
+"ipa": "/pruf/"
+},
+{
+"w": "proper",
+"m": "adj. 适当的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proper\" in the recording.",
+"ipa": "/ˈprɑpər/"
+},
+{
+"w": "properties",
+"m": "n. 性能；道具（property的复数形式）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"properties\" in the recording.",
+"ipa": "/ˈprɑpərtiz/"
+},
+{
+"w": "proportion",
+"m": "n. 比例",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proportion\" in the recording.",
+"ipa": "/prəˈpɔrʃən/"
+},
+{
+"w": "proposal",
+"m": "听）propose(v）建议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proposal\" in the recording.",
+"ipa": "/prəˈpoʊzəl/"
+},
+{
+"w": "prospects",
+"m": "前途",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prospects\" in the recording.",
+"ipa": "/ˈprɑspɛkts/"
+},
+{
+"w": "protect",
+"m": "保护",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"protect\" in the recording.",
+"ipa": "/prəˈtɛkt/"
+},
+{
+"w": "protein",
+"m": "n. 蛋白质",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"protein\" in the recording.",
+"ipa": "/ˈproʊˌtin/"
+},
+{
+"w": "proud",
+"m": "adj. 自豪的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proud\" in the recording.",
+"ipa": "/praʊd/"
+},
+{
+"w": "prove",
+"m": "v. 证明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"prove\" in the recording.",
+"ipa": "/pruv/"
+},
+{
+"w": "proverbs",
+"m": "n. 谚语",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"proverbs\" in the recording.",
+"ipa": "/ˈprɑvərbz/"
+},
+{
+"w": "provide",
+"m": "v. 提供",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"provide\" in the recording.",
+"ipa": "/prəˈvaɪd/"
+},
+{
+"w": "public",
+"m": "adj. 公众的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"public\" in the recording.",
+"ipa": "/ˈpəblɪk/"
+},
+{
+"w": "publicise",
+"m": "v. 宜传（美式publicize）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"publicise\" in the recording."
+},
+{
+"w": "publish",
+"m": "w出版",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"publish\" in the recording.",
+"ipa": "/ˈpəblɪʃ/"
+},
+{
+"w": "pumice",
+"m": "n. 浮岩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pumice\" in the recording.",
+"ipa": "/ˈpəməs/"
+},
+{
+"w": "pumps",
+"m": "n. 泵",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"pumps\" in the recording.",
+"ipa": "/pəmps/"
+},
+{
+"w": "purchase",
+"m": "v. 购买",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"purchase\" in the recording.",
+"ipa": "/ˈpərʧəs/"
+},
+{
+"w": "purple",
+"m": "adj. 紫色的n.紫色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"purple\" in the recording.",
+"ipa": "/ˈpərpəl/"
+},
+{
+"w": "purposes",
+"m": "n. 目的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"purposes\" in the recording.",
+"ipa": "/ˈpərpəsɪz/"
+},
+{
+"w": "push",
+"m": "v. 推动，对施加压力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"push\" in the recording.",
+"ipa": "/pʊʃ/"
+},
+{
+"w": "qualification",
+"m": "n. 资格",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"qualification\" in the recording.",
+"ipa": "/kˌwɑləfəˈkeɪʃən/"
+},
+{
+"w": "quality",
+"m": "n. 质量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quality\" in the recording.",
+"ipa": "/kˈwɑləti/"
+},
+{
+"w": "quantities",
+"m": "n. 数量（quantity的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quantities\" in the recording.",
+"ipa": "/kˈwɑntətiz/"
+},
+{
+"w": "quarter",
+"m": "n. 四分之一，一刻钟；地区",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quarter\" in the recording.",
+"ipa": "/kˈwɔrtər/"
+},
+{
+"w": "queen",
+"m": "n. 女王",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"queen\" in the recording.",
+"ipa": "/kwin/"
+},
+{
+"w": "questionnaire",
+"m": "n. 问卷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"questionnaire\" in the recording.",
+"ipa": "/kˌwɛsʧəˈnɛr/"
+},
+{
+"w": "questions",
+"m": "n. 问题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"questions\" in the recording.",
+"ipa": "/kˈwɛsʧənz/"
+},
+{
+"w": "queue",
+"m": "n. 队列",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"queue\" in the recording.",
+"ipa": "/kju/"
+},
+{
+"w": "quick",
+"m": "adj. 快的（最高级quickest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quick\" in the recording.",
+"ipa": "/kwɪk/"
+},
+{
+"w": "quiet",
+"m": "adj. 安静的（比较级quieter）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quiet\" in the recording.",
+"ipa": "/kwaɪət/"
+},
+{
+"w": "quite",
+"m": "adv. 相当",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quite\" in the recording.",
+"ipa": "/kwaɪt/"
+},
+{
+"w": "quiz",
+"m": "n. 测验",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quiz\" in the recording.",
+"ipa": "/kwɪz/"
+},
+{
+"w": "quote",
+"m": "v. 引述，报价n.引文",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"quote\" in the recording.",
+"ipa": "/kwoʊt/"
+},
+{
+"w": "rabbits",
+"m": "n. 兔子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rabbits\" in the recording.",
+"ipa": "/ˈræbəts/"
+},
+{
+"w": "races",
+"m": "n. &v竞赛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"races\" in the recording.",
+"ipa": "/ˈreɪsɪz/"
+},
+{
+"w": "radar",
+"m": "n. 雷达",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"radar\" in the recording.",
+"ipa": "/ˈreɪˌdɑr/"
+},
+{
+"w": "radio",
+"m": "n. 收音机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"radio\" in the recording.",
+"ipa": "/ˈreɪdiˌoʊ/"
+},
+{
+"w": "raft",
+"m": "n. 筱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"raft\" in the recording.",
+"ipa": "/ræft/"
+},
+{
+"w": "rain",
+"m": "n. 雨v下雨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rain\" in the recording.",
+"ipa": "/reɪn/"
+},
+{
+"w": "rainbow",
+"m": "n. 彩虹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rainbow\" in the recording.",
+"ipa": "/ˈreɪnˌboʊ/"
+},
+{
+"w": "rainfall",
+"m": "n. 降雨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rainfall\" in the recording.",
+"ipa": "/ˈreɪnˌfɔl/"
+},
+{
+"w": "rainforest",
+"m": "n. （热带）雨林",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rainforest\" in the recording.",
+"ipa": "/ˈraɪnˌfɔrəst/"
+},
+{
+"w": "rainwear",
+"m": "n. 雨衣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rainwear\" in the recording."
+},
+{
+"w": "raise",
+"m": "v. 提高，筹集",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"raise\" in the recording.",
+"ipa": "/reɪz/"
+},
+{
+"w": "ramp",
+"m": "n. 坡道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ramp\" in the recording.",
+"ipa": "/ræmp/"
+},
+{
+"w": "random",
+"m": "adj. 随机的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"random\" in the recording.",
+"ipa": "/ˈrændəm/"
+},
+{
+"w": "range",
+"m": "7n.范围",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"range\" in the recording.",
+"ipa": "/reɪnʤ/"
+},
+{
+"w": "rapidly",
+"m": "adv. 迅速地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rapidly\" in the recording.",
+"ipa": "/ˈræpədli/"
+},
+{
+"w": "rare",
+"m": "adj. 稀有的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rare\" in the recording.",
+"ipa": "/rɛr/"
+},
+{
+"w": "rat",
+"m": "n. 鼠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rat\" in the recording.",
+"ipa": "/ræt/"
+},
+{
+"w": "rates",
+"m": "n. 率v评估",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rates\" in the recording.",
+"ipa": "/reɪts/"
+},
+{
+"w": "rational",
+"m": "adj. 合理的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rational\" in the recording.",
+"ipa": "/ˈræʃənəl/"
+},
+{
+"w": "rather",
+"m": "adv. 相当",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rather\" in the recording.",
+"ipa": "/ˈrəðər/"
+},
+{
+"w": "reach",
+"m": "v. 达到",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reach\" in the recording.",
+"ipa": "/riʧ/"
+},
+{
+"w": "reactions",
+"m": "n. 反应",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reactions\" in the recording.",
+"ipa": "/riˈækʃənz/"
+},
+{
+"w": "read",
+"m": "v. 阅读",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"read\" in the recording.",
+"ipa": "/rɛd/"
+},
+{
+"w": "readily",
+"m": "adv. 容易地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"readily\" in the recording.",
+"ipa": "/ˈrɛdəli/"
+},
+{
+"w": "ready",
+"m": "adj. 现成的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ready\" in the recording.",
+"ipa": "/ˈrɛdi/"
+},
+{
+"w": "rea",
+"m": "adj. 真实的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rea\" in the recording.",
+"ipa": "/reɪ/"
+},
+{
+"w": "realize",
+"m": "w认识到（美式realise）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"realize\" in the recording.",
+"ipa": "/ˈriəˌlaɪz/"
+},
+{
+"w": "realistic",
+"m": "adj. 现实的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"realistic\" in the recording.",
+"ipa": "/ˌriəˈlɪstɪk/"
+},
+{
+"w": "recall",
+"m": "w记起",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recall\" in the recording.",
+"ipa": "/ˈriˌkɔl/"
+},
+{
+"w": "receive",
+"m": "W.收到",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"receive\" in the recording.",
+"ipa": "/rɪˈsiv/"
+},
+{
+"w": "recent",
+"m": "adj. 最近的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recent\" in the recording.",
+"ipa": "/ˈrisənt/"
+},
+{
+"w": "receptacles",
+"m": "n. 花托；插座",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"receptacles\" in the recording.",
+"ipa": "/rɪˈsɛptɪkəlz/"
+},
+{
+"w": "reception",
+"m": "n. 接待",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reception\" in the recording.",
+"ipa": "/rɪˈsɛpʃən/"
+},
+{
+"w": "recipes",
+"m": "n. 食谱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recipes\" in the recording.",
+"ipa": "/ˈrɛsəpiz/"
+},
+{
+"w": "reckon",
+"m": "v. 估计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reckon\" in the recording.",
+"ipa": "/ˈrɛkən/"
+},
+{
+"w": "recognise",
+"m": "v. 认出",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recognise\" in the recording.",
+"ipa": "/ˈrɛkəgˌnaɪz/"
+},
+{
+"w": "recommend",
+"m": "v. 推荐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recommend\" in the recording.",
+"ipa": "/ˌrɛkəˈmɛnd/"
+},
+{
+"w": "records",
+"m": "n. &v记录，录音",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"records\" in the recording.",
+"ipa": "/ˈrɛkərdz/"
+},
+{
+"w": "recovers",
+"m": "恢复",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recovers\" in the recording.",
+"ipa": "/rɪˈkəvərz/"
+},
+{
+"w": "recreation",
+"m": "n. 娱乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recreation\" in the recording.",
+"ipa": "/ˌrɛkriˈeɪʃən/"
+},
+{
+"w": "recruit",
+"m": "v. 聘用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recruit\" in the recording.",
+"ipa": "/rɪˈkrut/"
+},
+{
+"w": "rectify",
+"m": "v. 改正",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rectify\" in the recording.",
+"ipa": "/ˈrɛktəˌfaɪ/"
+},
+{
+"w": "recycle",
+"m": "v. 回收利用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"recycle\" in the recording.",
+"ipa": "/riˈsaɪkəl/"
+},
+{
+"w": "red",
+"m": "adj. 红的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"red\" in the recording.",
+"ipa": "/rɛd/"
+},
+{
+"w": "reduce",
+"m": "减少",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reduce\" in the recording.",
+"ipa": "/rɪˈdus/"
+},
+{
+"w": "reduction",
+"m": "n. 减少，折扣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reduction\" in the recording.",
+"ipa": "/rɪˈdəkʃən/"
+},
+{
+"w": "refer",
+"m": "v. 涉及",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"refer\" in the recording.",
+"ipa": "/rɪˈfər/"
+},
+{
+"w": "referee",
+"m": "n. 裁判员，介绍人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"referee\" in the recording.",
+"ipa": "/ˌrɛfərˈi/"
+},
+{
+"w": "references",
+"m": "n. 参考，介绍信，说明书",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"references\" in the recording.",
+"ipa": "/ˈrɛfərənsɪz/"
+},
+{
+"w": "reflect",
+"m": "v. 反映",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reflect\" in the recording.",
+"ipa": "/rɪˈflɛkt/"
+},
+{
+"w": "reforms",
+"m": "n. 改革",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reforms\" in the recording.",
+"ipa": "/rɪˈfɔrmz/"
+},
+{
+"w": "refreshments",
+"m": "n. 点心",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"refreshments\" in the recording.",
+"ipa": "/rəˈfrɛʃmənts/"
+},
+{
+"w": "refrigerate",
+"m": "冷藏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"refrigerate\" in the recording.",
+"ipa": "/rɪˈfrɪʤərˌeɪt/"
+},
+{
+"w": "refurbishment",
+"m": "n. 整修",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"refurbishment\" in the recording.",
+"ipa": "/riˈfərbɪʃmənt/"
+},
+{
+"w": "refuse",
+"m": "v. 拒绝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"refuse\" in the recording.",
+"ipa": "/ˈrɛfˌjuz/"
+},
+{
+"w": "regard",
+"m": "把看作",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"regard\" in the recording.",
+"ipa": "/rɪˈgɑrd/"
+},
+{
+"w": "regions",
+"m": "n. 地区，范围",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"regions\" in the recording.",
+"ipa": "/ˈriʤənz/"
+},
+{
+"w": "register",
+"m": "n. &v登记",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"register\" in the recording.",
+"ipa": "/ˈrɛʤɪstər/"
+},
+{
+"w": "regular",
+"m": "regularly有规律地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"regular\" in the recording.",
+"ipa": "/ˈrɛgjələr/"
+},
+{
+"w": "regulations",
+"m": "n. 条例",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"regulations\" in the recording.",
+"ipa": "/ˌrɛgjəˈleɪʃənz/"
+},
+{
+"w": "rehearsals",
+"m": "n. 排演",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rehearsals\" in the recording.",
+"ipa": "/rɪˈhərsəlz/"
+},
+{
+"w": "reinforce",
+"m": "加强",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reinforce\" in the recording.",
+"ipa": "/ˌriɪnˈfɔrs/"
+},
+{
+"w": "relate",
+"m": "v. 涉及",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"relate\" in the recording.",
+"ipa": "/rɪˈleɪt/"
+},
+{
+"w": "relative",
+"m": "adj. 相对的n.亲戚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"relative\" in the recording.",
+"ipa": "/ˈrɛlətɪv/"
+},
+{
+"w": "relax",
+"m": "v. 放松",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"relax\" in the recording.",
+"ipa": "/rɪˈlæks/"
+},
+{
+"w": "relay",
+"m": "n. 接力赛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"relay\" in the recording.",
+"ipa": "/ˈriˌleɪ/"
+},
+{
+"w": "release",
+"m": "v. 释放",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"release\" in the recording.",
+"ipa": "/riˈlis/"
+},
+{
+"w": "relevant",
+"m": "adj. 相关的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"relevant\" in the recording.",
+"ipa": "/ˈrɛləvənt/"
+},
+{
+"w": "reliable",
+"m": "adj. 可靠的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reliable\" in the recording.",
+"ipa": "/rɪˈlaɪəbəl/"
+},
+{
+"w": "religion",
+"m": "n. 宗教",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"religion\" in the recording.",
+"ipa": "/rɪˈlɪʤən/"
+},
+{
+"w": "remains",
+"m": "w.保持n.古迹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"remains\" in the recording.",
+"ipa": "/rɪˈmeɪnz/"
+},
+{
+"w": "remember",
+"m": "v. 记得",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"remember\" in the recording.",
+"ipa": "/rɪˈmɛmbər/"
+},
+{
+"w": "remit",
+"m": "n. 职权范围",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"remit\" in the recording.",
+"ipa": "/riˈmɪt/"
+},
+{
+"w": "remote",
+"m": "adj. 遥远的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"remote\" in the recording.",
+"ipa": "/rɪˈmoʊt/"
+},
+{
+"w": "renaissance",
+"m": "n. 文艺复兴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"renaissance\" in the recording.",
+"ipa": "/ˌrɛnəˈsɑns/"
+},
+{
+"w": "renewable",
+"m": "adj. 可再生的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"renewable\" in the recording.",
+"ipa": "/riˈnuəbəl/"
+},
+{
+"w": "rent",
+"m": "n. &v租",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rent\" in the recording.",
+"ipa": "/rɛnt/"
+},
+{
+"w": "repair",
+"m": "n. &v修理",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"repair\" in the recording.",
+"ipa": "/rɪˈpɛr/"
+},
+{
+"w": "repeat",
+"m": "n. &v重复",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"repeat\" in the recording.",
+"ipa": "/rɪˈpit/"
+},
+{
+"w": "repellent",
+"m": "adj. 排斥的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"repellent\" in the recording.",
+"ipa": "/rɪˈpɛlənt/"
+},
+{
+"w": "replace",
+"m": "v. 代替",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"replace\" in the recording.",
+"ipa": "/ˌriˈpleɪs/"
+},
+{
+"w": "replicate",
+"m": "v. 复制",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"replicate\" in the recording.",
+"ipa": "/ˈrɛplɪˌkeɪt/"
+},
+{
+"w": "reports",
+"m": "n. &v报告",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reports\" in the recording.",
+"ipa": "/rɪˈpɔrts/"
+},
+{
+"w": "represent",
+"m": "v. 代表",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"represent\" in the recording.",
+"ipa": "/ˌrɛprɪˈzɛnt/"
+},
+{
+"w": "reproductions",
+"m": "n. 繁殖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reproductions\" in the recording.",
+"ipa": "/ˌriprəˈdəkʃənz/"
+},
+{
+"w": "reptiles",
+"m": "n. 爬行动物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reptiles\" in the recording.",
+"ipa": "/ˈrɛptaɪlz/"
+},
+{
+"w": "reputation",
+"m": "n. 名声",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reputation\" in the recording.",
+"ipa": "/ˌrɛpjəˈteɪʃən/"
+},
+{
+"w": "request",
+"m": "n. 请求",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"request\" in the recording.",
+"ipa": "/rɪkˈwɛst/"
+},
+{
+"w": "require",
+"m": "v. 需要",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"require\" in the recording.",
+"ipa": "/ˌrikˈwaɪər/"
+},
+{
+"w": "research",
+"m": "n. 研究，调查",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"research\" in the recording.",
+"ipa": "/ˈrisərʧ/"
+},
+{
+"w": "researchers",
+"m": "n. 研究人员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"researchers\" in the recording.",
+"ipa": "/ˈrisərʧərz/"
+},
+{
+"w": "reserve",
+"m": "n. 自然保护区v预订",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reserve\" in the recording.",
+"ipa": "/rɪˈzərv/"
+},
+{
+"w": "reservoir",
+"m": "7n.水库",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reservoir\" in the recording.",
+"ipa": "/ˈrɛzəvˌwɑr/"
+},
+{
+"w": "residences",
+"m": "n. 住宅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"residences\" in the recording.",
+"ipa": "/ˈrɛzɪdənsɪz/"
+},
+{
+"w": "residents",
+"m": "n. 居民",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"residents\" in the recording.",
+"ipa": "/ˈrɛzɪdənts/"
+},
+{
+"w": "resistant",
+"m": "adj. 有抵抗力的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"resistant\" in the recording.",
+"ipa": "/rɪˈzɪstənt/"
+},
+{
+"w": "resources",
+"m": "n. 资源",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"resources\" in the recording.",
+"ipa": "/ˈrisɔrsɪz/"
+},
+{
+"w": "respect",
+"m": "n. 尊敬，方面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"respect\" in the recording.",
+"ipa": "/rɪˈspɛkt/"
+},
+{
+"w": "respond",
+"m": "v. 回应",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"respond\" in the recording.",
+"ipa": "/rɪˈspɑnd/"
+},
+{
+"w": "responsibilities",
+"m": "n. 责任（responsibility的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"responsibilities\" in the recording.",
+"ipa": "/riˌspɑnsəˈbɪlətiz/"
+},
+{
+"w": "rest",
+"m": "休息n.剩余部分",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rest\" in the recording.",
+"ipa": "/rɛst/"
+},
+{
+"w": "restore",
+"m": "恢复",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"restore\" in the recording.",
+"ipa": "/rɪˈstɔr/"
+},
+{
+"w": "restrictions",
+"m": "n. 限制",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"restrictions\" in the recording.",
+"ipa": "/riˈstrɪkʃənz/"
+},
+{
+"w": "results",
+"m": "n. 结果，成绩v导致",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"results\" in the recording.",
+"ipa": "/rɪˈzəlts/"
+},
+{
+"w": "retail",
+"m": "n. &v零售",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"retail\" in the recording.",
+"ipa": "/ˈriˌteɪl/"
+},
+{
+"w": "retain",
+"m": "v. 保持",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"retain\" in the recording.",
+"ipa": "/rɪˈteɪn/"
+},
+{
+"w": "retrained",
+"m": "adj. 再培训的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"retrained\" in the recording.",
+"ipa": "/riˈtreɪnd/"
+},
+{
+"w": "retrieve",
+"m": "n. &v检索，恢复",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"retrieve\" in the recording.",
+"ipa": "/rɪˈtriv/"
+},
+{
+"w": "return",
+"m": "v&n.返回adj.来回的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"return\" in the recording.",
+"ipa": "/rɪˈtərn/"
+},
+{
+"w": "reveal",
+"m": "v. 揭露",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reveal\" in the recording.",
+"ipa": "/rɪˈvil/"
+},
+{
+"w": "reverse",
+"m": "adj. 相反的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reverse\" in the recording.",
+"ipa": "/rɪˈvərs/"
+},
+{
+"w": "reviews",
+"m": "v. 回顾n.评论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"reviews\" in the recording.",
+"ipa": "/rəvˈjuz/"
+},
+{
+"w": "revise",
+"m": "v. 修正",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"revise\" in the recording.",
+"ipa": "/rɪˈvaɪz/"
+},
+{
+"w": "revival",
+"m": "n. 复兴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"revival\" in the recording.",
+"ipa": "/rɪˈvaɪvəl/"
+},
+{
+"w": "revolution",
+"m": "n. 革命",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"revolution\" in the recording.",
+"ipa": "/ˌrɛvəˈluʃən/"
+},
+{
+"w": "revolve",
+"m": "v. 旋转",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"revolve\" in the recording.",
+"ipa": "/riˈvɑlv/"
+},
+{
+"w": "rewards",
+"m": "n. 奖励",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rewards\" in the recording.",
+"ipa": "/rɪˈwɔrdz/"
+},
+{
+"w": "rhythm",
+"m": "n. 节奏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rhythm\" in the recording.",
+"ipa": "/ˈrɪðəm/"
+},
+{
+"w": "ribbons",
+"m": "n. 缎带",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ribbons\" in the recording.",
+"ipa": "/ˈrɪbənz/"
+},
+{
+"w": "rich",
+"m": "adj. 富有的，肥沃的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rich\" in the recording.",
+"ipa": "/rɪʧ/"
+},
+{
+"w": "rid",
+"m": "v. 摆脱",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rid\" in the recording.",
+"ipa": "/rɪd/"
+},
+{
+"w": "rides",
+"m": "n. &骑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rides\" in the recording.",
+"ipa": "/raɪdz/"
+},
+{
+"w": "ridiculous",
+"m": "adj. 荒谬的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ridiculous\" in the recording.",
+"ipa": "/rɪˈdɪkjələs/"
+},
+{
+"w": "right",
+"m": "adj. 正确的；右方的adv恰当地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"right\" in the recording.",
+"ipa": "/raɪt/"
+},
+{
+"w": "rigs",
+"m": "n. 钻探设备",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rigs\" in the recording.",
+"ipa": "/rɪgz/"
+},
+{
+"w": "ring",
+"m": "v. 打电话n.戒指；圆形",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ring\" in the recording.",
+"ipa": "/rɪŋ/"
+},
+{
+"w": "rinse",
+"m": "冲洗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rinse\" in the recording.",
+"ipa": "/rɪns/"
+},
+{
+"w": "ripe",
+"m": "adj. 熟的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ripe\" in the recording.",
+"ipa": "/raɪp/"
+},
+{
+"w": "rise",
+"m": "v. 升起，增加",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rise\" in the recording.",
+"ipa": "/raɪz/"
+},
+{
+"w": "risks",
+"m": "n. 风险",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"risks\" in the recording.",
+"ipa": "/rɪsks/"
+},
+{
+"w": "rites",
+"m": "n. 仪式",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rites\" in the recording.",
+"ipa": "/raɪts/"
+},
+{
+"w": "rivalry",
+"m": "n. 竞争",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rivalry\" in the recording.",
+"ipa": "/ˈraɪvəlri/"
+},
+{
+"w": "rivers",
+"m": "n. 河",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rivers\" in the recording.",
+"ipa": "/ˈrɪvərz/"
+},
+{
+"w": "roads",
+"m": "n. 道路",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roads\" in the recording.",
+"ipa": "/roʊdz/"
+},
+{
+"w": "roam",
+"m": "漫游",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roam\" in the recording.",
+"ipa": "/roʊm/"
+},
+{
+"w": "rob",
+"m": "v. 掠夺",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rob\" in the recording.",
+"ipa": "/rɑb/"
+},
+{
+"w": "robbery",
+"m": "n. 抢劫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"robbery\" in the recording.",
+"ipa": "/ˈrɑbəri/"
+},
+{
+"w": "robots",
+"m": "n. 机器人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"robots\" in the recording.",
+"ipa": "/ˈroʊˌbəts/"
+},
+{
+"w": "robust",
+"m": "adj. 强健的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"robust\" in the recording.",
+"ipa": "/roʊˈbəst/"
+},
+{
+"w": "rocks",
+"m": "n. 岩石，摇滚",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rocks\" in the recording.",
+"ipa": "/rɑks/"
+},
+{
+"w": "roils",
+"m": "n. 小股泌涌的急流",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roils\" in the recording."
+},
+{
+"w": "roles",
+"m": "n. 角色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roles\" in the recording.",
+"ipa": "/roʊlz/"
+},
+{
+"w": "roof",
+"m": "n. 屋顶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roof\" in the recording.",
+"ipa": "/rʊf/"
+},
+{
+"w": "rooftop",
+"m": "n. 屋顶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rooftop\" in the recording.",
+"ipa": "/ˈrufˌtɑp/"
+},
+{
+"w": "rooms",
+"m": "n. 房间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rooms\" in the recording.",
+"ipa": "/rumz/"
+},
+{
+"w": "roots",
+"m": "n. 根",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roots\" in the recording.",
+"ipa": "/ruts/"
+},
+{
+"w": "ropes",
+"m": "n. 绳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ropes\" in the recording.",
+"ipa": "/roʊps/"
+},
+{
+"w": "roses",
+"m": "7n.玫瑰",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"roses\" in the recording.",
+"ipa": "/ˈroʊzɪz/"
+},
+{
+"w": "puno",
+"m": "圆满",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"puno\" in the recording."
+},
+{
+"w": "route",
+"m": "路线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"route\" in the recording.",
+"ipa": "/rut/"
+},
+{
+"w": "routine",
+"m": "n. 惯例",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"routine\" in the recording.",
+"ipa": "/ruˈtin/"
+},
+{
+"w": "rubber",
+"m": "橡胶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rubber\" in the recording.",
+"ipa": "/ˈrəbər/"
+},
+{
+"w": "rubbish",
+"m": "垃圾adj.毫无价值的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rubbish\" in the recording.",
+"ipa": "/ˈrəbɪʃ/"
+},
+{
+"w": "rules",
+"m": "n. 规则v统治",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rules\" in the recording.",
+"ipa": "/rulz/"
+},
+{
+"w": "rumour",
+"m": "n. 谣言",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rumour\" in the recording.",
+"ipa": "/ˈrumər/"
+},
+{
+"w": "running",
+"m": "n. 奔跑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"running\" in the recording.",
+"ipa": "/ˈrənɪŋ/"
+},
+{
+"w": "rural",
+"m": "adj. 农村的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rural\" in the recording.",
+"ipa": "/ˈrʊrəl/"
+},
+{
+"w": "rust",
+"m": "n. 锈v（使）生锈",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"rust\" in the recording.",
+"ipa": "/rəst/"
+},
+{
+"w": "Ssa",
+"m": "adj. 难过的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ssa\" in the recording."
+},
+{
+"w": "safari",
+"m": "n. 狩猎远征，游猎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"safari\" in the recording.",
+"ipa": "/səˈfɑri/"
+},
+{
+"w": "Safe",
+"m": "adj. 安全的（比较级safer）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Safe\" in the recording.",
+"ipa": "/seɪf/"
+},
+{
+"w": "safety",
+"m": "n. 安全",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"safety\" in the recording.",
+"ipa": "/ˈseɪfti/"
+},
+{
+"w": "Sail",
+"m": "v. 航行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sail\" in the recording.",
+"ipa": "/seɪl/"
+},
+{
+"w": "salads",
+"m": "n. 沙拉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"salads\" in the recording.",
+"ipa": "/ˈsælədz/"
+},
+{
+"w": "Sales",
+"m": "n. 销售",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sales\" in the recording.",
+"ipa": "/seɪlz/"
+},
+{
+"w": "Salt",
+"m": "n. 盐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Salt\" in the recording.",
+"ipa": "/sɔlt/"
+},
+{
+"w": "Same",
+"m": "adj. 相同的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Same\" in the recording.",
+"ipa": "/seɪm/"
+},
+{
+"w": "samples",
+"m": "n. 样本",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"samples\" in the recording.",
+"ipa": "/ˈsæmpəlz/"
+},
+{
+"w": "Sand",
+"m": "n. 沙子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sand\" in the recording.",
+"ipa": "/sænd/"
+},
+{
+"w": "sandglass",
+"m": "n. 沙漏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sandglass\" in the recording."
+},
+{
+"w": "sandwiches",
+"m": "n. 三明治",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sandwiches\" in the recording.",
+"ipa": "/ˈsænwɪʧɪz/"
+},
+{
+"w": "sanitary",
+"m": "adj. 卫生的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sanitary\" in the recording.",
+"ipa": "/ˈsænɪˌtɛri/"
+},
+{
+"w": "Satellite",
+"m": "n. 卫星",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Satellite\" in the recording.",
+"ipa": "/ˈsætəˌlaɪt/"
+},
+{
+"w": "satire",
+"m": "n. 讽刺文学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"satire\" in the recording.",
+"ipa": "/ˈsæˌtaɪər/"
+},
+{
+"w": "satisfactory",
+"m": "adj. 满意的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"satisfactory\" in the recording.",
+"ipa": "/ˌsætɪsˈfæktəri/"
+},
+{
+"w": "Saturday",
+"m": "n. 星期六",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Saturday\" in the recording.",
+"ipa": "/ˈsæˌtɪˌdeɪ/"
+},
+{
+"w": "Save",
+"m": "节省",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Save\" in the recording.",
+"ipa": "/seɪv/"
+},
+{
+"w": "Sawdust",
+"m": "n. 锯屑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sawdust\" in the recording.",
+"ipa": "/ˈsɔˌdəst/"
+},
+{
+"w": "Scale",
+"m": "n. 规模",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Scale\" in the recording.",
+"ipa": "/skeɪl/"
+},
+{
+"w": "scans",
+"m": "n. &v扫描",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scans\" in the recording.",
+"ipa": "/skænz/"
+},
+{
+"w": "scarce",
+"m": "adj. 缺乏的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scarce\" in the recording.",
+"ipa": "/skɛrs/"
+},
+{
+"w": "scared",
+"m": "adj. 害怕的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scared\" in the recording.",
+"ipa": "/skɛrd/"
+},
+{
+"w": "scarf",
+"m": "n. 围巾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scarf\" in the recording.",
+"ipa": "/skɑrf/"
+},
+{
+"w": "scenes",
+"m": "n. 场面，情景",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scenes\" in the recording.",
+"ipa": "/sinz/"
+},
+{
+"w": "scenery",
+"m": "n. 风景",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scenery\" in the recording.",
+"ipa": "/ˈsinəri/"
+},
+{
+"w": "schedule",
+"m": "n. 计划（表）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"schedule\" in the recording.",
+"ipa": "/ˈskɛʤʊl/"
+},
+{
+"w": "schemes",
+"m": "n. 计划",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"schemes\" in the recording.",
+"ipa": "/skimz/"
+},
+{
+"w": "schools",
+"m": "n. 学校",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"schools\" in the recording.",
+"ipa": "/skulz/"
+},
+{
+"w": "Science",
+"m": "n. 科学",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Science\" in the recording.",
+"ipa": "/saɪəns/"
+},
+{
+"w": "Scientists",
+"m": "n. 科学家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Scientists\" in the recording.",
+"ipa": "/ˈsaɪəntɪsts/"
+},
+{
+"w": "Score",
+"m": "n. 分数，配乐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Score\" in the recording.",
+"ipa": "/skɔr/"
+},
+{
+"w": "scrape",
+"m": "v. 刮掉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scrape\" in the recording.",
+"ipa": "/skreɪp/"
+},
+{
+"w": "scratch",
+"m": "v. 抓，刮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"scratch\" in the recording.",
+"ipa": "/skræʧ/"
+},
+{
+"w": "Screen",
+"m": "n. 屏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Screen\" in the recording.",
+"ipa": "/skrin/"
+},
+{
+"w": "Seripti",
+"m": "n. 剧本；手稿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Seripti\" in the recording."
+},
+{
+"w": "Sculptures",
+"m": "n. 雕塑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sculptures\" in the recording.",
+"ipa": "/ˈskəlpʧərz/"
+},
+{
+"w": "Sea",
+"m": "n. 海",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sea\" in the recording.",
+"ipa": "/si/"
+},
+{
+"w": "seabed",
+"m": "n. 海底",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"seabed\" in the recording.",
+"ipa": "/ˈsiˌbɛd/"
+},
+{
+"w": "seafood",
+"m": "n. 海鲜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"seafood\" in the recording.",
+"ipa": "/ˈsiˌfud/"
+},
+{
+"w": "Search",
+"m": "v. 搜索",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Search\" in the recording.",
+"ipa": "/sərʧ/"
+},
+{
+"w": "season",
+"m": "n. 季节v（木材）风干",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"season\" in the recording.",
+"ipa": "/ˈsizən/"
+},
+{
+"w": "secondary",
+"m": "adj. 第二的，中等的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"secondary\" in the recording.",
+"ipa": "/ˈsɛkənˌdɛri/"
+},
+{
+"w": "Ssecret",
+"m": "adj. 秘密的n.秘密",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ssecret\" in the recording."
+},
+{
+"w": "secretary",
+"m": "n. 秘书",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"secretary\" in the recording.",
+"ipa": "/ˈsɛkrəˌtɛri/"
+},
+{
+"w": "Secrete",
+"m": "v. 分泌",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Secrete\" in the recording.",
+"ipa": "/sɪˈkrit/"
+},
+{
+"w": "Sections",
+"m": "n. 部分",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sections\" in the recording.",
+"ipa": "/ˈsɛkʃənz/"
+},
+{
+"w": "sector",
+"m": "n. 部门",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sector\" in the recording.",
+"ipa": "/ˈsɛktər/"
+},
+{
+"w": "Security",
+"m": "n. 安全",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Security\" in the recording.",
+"ipa": "/sɪˈkjʊrəti/"
+},
+{
+"w": "Sediment",
+"m": "n. 沉淀物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sediment\" in the recording.",
+"ipa": "/ˈsɛdəmənt/"
+},
+{
+"w": "Seeds",
+"m": "n. 种子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Seeds\" in the recording.",
+"ipa": "/sidz/"
+},
+{
+"w": "seek",
+"m": "v. 寻求",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"seek\" in the recording.",
+"ipa": "/sik/"
+},
+{
+"w": "Select",
+"m": "v. 挑选",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Select\" in the recording.",
+"ipa": "/səˈlɛkt/"
+},
+{
+"w": "self",
+"m": "selfish自私的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"self\" in the recording.",
+"ipa": "/sɛlf/"
+},
+{
+"w": "sell",
+"m": "卖（过去式sold）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sell\" in the recording.",
+"ipa": "/sɛl/"
+},
+{
+"w": "semantic",
+"m": "adj. 语义的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"semantic\" in the recording.",
+"ipa": "/sɪˈmæntɪk/"
+},
+{
+"w": "semester",
+"m": "n. 学期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"semester\" in the recording.",
+"ipa": "/səˈmɛstər/"
+},
+{
+"w": "semicircle",
+"m": "n. 半圆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"semicircle\" in the recording."
+},
+{
+"w": "seminars",
+"m": "n. 讨论会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"seminars\" in the recording.",
+"ipa": "/ˈsɛməˌnɑrz/"
+},
+{
+"w": "send",
+"m": "发送（过去式／过去分词sent）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"send\" in the recording.",
+"ipa": "/sɛnd/"
+},
+{
+"w": "Senior",
+"m": "adj. 高级的，年长的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Senior\" in the recording.",
+"ipa": "/ˈsinjər/"
+},
+{
+"w": "sensational",
+"m": "adj. 轰动的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sensational\" in the recording.",
+"ipa": "/sɛnˈseɪʃənəl/"
+},
+{
+"w": "Sense",
+"m": "n. 感觉，观念",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sense\" in the recording.",
+"ipa": "/sɛns/"
+},
+{
+"w": "Sensible",
+"m": "adj. 明智的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sensible\" in the recording.",
+"ipa": "/ˈsɛnsəbəl/"
+},
+{
+"w": "Sensors",
+"m": "n. 传感器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sensors\" in the recording.",
+"ipa": "/ˈsɛnsərz/"
+},
+{
+"w": "Sentences",
+"m": "n. 句子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sentences\" in the recording.",
+"ipa": "/ˈsɛntənsɪz/"
+},
+{
+"w": "separate",
+"m": "adj. 分开的v（使）分离",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"separate\" in the recording.",
+"ipa": "/ˈsɛpərˌeɪt/"
+},
+{
+"w": "September",
+"m": "n. 九月",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"September\" in the recording.",
+"ipa": "/sɛpˈtɛmbər/"
+},
+{
+"w": "Sequence",
+"m": "n. 顺序",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sequence\" in the recording.",
+"ipa": "/ˈsikwəns/"
+},
+{
+"w": "series",
+"m": "n. 系列",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"series\" in the recording.",
+"ipa": "/ˈsɪriz/"
+},
+{
+"w": "Serious",
+"m": "adj. 严重的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Serious\" in the recording.",
+"ipa": "/ˈsɪriəs/"
+},
+{
+"w": "services",
+"m": "n. 服务",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"services\" in the recording.",
+"ipa": "/ˈsərvɪsɪz/"
+},
+{
+"w": "sessions",
+"m": "n. 会议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sessions\" in the recording.",
+"ipa": "/ˈsɛʃənz/"
+},
+{
+"w": "set",
+"m": "w放，创立n.（物品的）一套",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"set\" in the recording.",
+"ipa": "/sɛt/"
+},
+{
+"w": "setbacks",
+"m": "n. 挫折",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"setbacks\" in the recording.",
+"ipa": "/ˈsɛtˌbæks/"
+},
+{
+"w": "Settle",
+"m": "遗址",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Settle\" in the recording.",
+"ipa": "/ˈsɛtəl/"
+},
+{
+"w": "several",
+"m": "pron. 几个adj.几个的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"several\" in the recording.",
+"ipa": "/ˈsɛvərəl/"
+},
+{
+"w": "Ser",
+"m": "n. 性别",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ser\" in the recording."
+},
+{
+"w": "Shade",
+"m": "n. 树荫；色度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shade\" in the recording.",
+"ipa": "/ʃeɪd/"
+},
+{
+"w": "sham",
+"m": "n. 洗发水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sham\" in the recording.",
+"ipa": "/ʃæm/"
+},
+{
+"w": "Shape",
+"m": "n. 形状",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shape\" in the recording.",
+"ipa": "/ʃeɪp/"
+},
+{
+"w": "Share",
+"m": "分享n.份额",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Share\" in the recording.",
+"ipa": "/ʃɛr/"
+},
+{
+"w": "Shared",
+"m": "adj. 共享的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shared\" in the recording.",
+"ipa": "/ʃɛrd/"
+},
+{
+"w": "Sharks",
+"m": "n. 鲨鱼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sharks\" in the recording.",
+"ipa": "/ʃɑrks/"
+},
+{
+"w": "Sharp",
+"m": "adj. 锋利的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sharp\" in the recording.",
+"ipa": "/ʃɑrp/"
+},
+{
+"w": "Shave",
+"m": "n. 剃须",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shave\" in the recording.",
+"ipa": "/ʃeɪv/"
+},
+{
+"w": "sheep",
+"m": "n. 羊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sheep\" in the recording.",
+"ipa": "/ʃip/"
+},
+{
+"w": "Sheets",
+"m": "n. 床单",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sheets\" in the recording.",
+"ipa": "/ʃits/"
+},
+{
+"w": "Shells",
+"m": "n. 贝壳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shells\" in the recording.",
+"ipa": "/ʃɛlz/"
+},
+{
+"w": "Shelter",
+"m": "n. &v底护",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shelter\" in the recording.",
+"ipa": "/ˈʃɛltər/"
+},
+{
+"w": "shepherd",
+"m": "v. 指导",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shepherd\" in the recording.",
+"ipa": "/ˈʃɛpərd/"
+},
+{
+"w": "shifts",
+"m": "n. 改变",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shifts\" in the recording.",
+"ipa": "/ʃɪfts/"
+},
+{
+"w": "Ships",
+"m": "n. 船v船运",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ships\" in the recording.",
+"ipa": "/ʃɪps/"
+},
+{
+"w": "shipwrecks",
+"m": "n. 海难v失事",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shipwrecks\" in the recording."
+},
+{
+"w": "Shocks",
+"m": "v. 震惊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shocks\" in the recording.",
+"ipa": "/ʃɑks/"
+},
+{
+"w": "Shoes",
+"m": "n. 鞋子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shoes\" in the recording.",
+"ipa": "/ʃuz/"
+},
+{
+"w": "shopping",
+"m": "n. 购物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shopping\" in the recording.",
+"ipa": "/ˈʃɑpɪŋ/"
+},
+{
+"w": "Shops",
+"m": "n. 商店v购物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shops\" in the recording.",
+"ipa": "/ʃɑps/"
+},
+{
+"w": "Shore",
+"m": "n. 海滨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shore\" in the recording.",
+"ipa": "/ʃɔr/"
+},
+{
+"w": "Sshort",
+"m": "adj. 短的（比较级shorter）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sshort\" in the recording."
+},
+{
+"w": "shoulders",
+"m": "n. 肩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shoulders\" in the recording.",
+"ipa": "/ˈʃoʊldərz/"
+},
+{
+"w": "shout",
+"m": "n. &v呼喊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shout\" in the recording.",
+"ipa": "/ʃaʊt/"
+},
+{
+"w": "shower",
+"m": "n. 淋浴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shower\" in the recording.",
+"ipa": "/ʃaʊər/"
+},
+{
+"w": "Shows",
+"m": "n. 表演v演出，显示（过去分词",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Shows\" in the recording.",
+"ipa": "/ʃoʊz/"
+},
+{
+"w": "shuttle",
+"m": "n. 班机、班车等",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shuttle\" in the recording.",
+"ipa": "/ˈʃətəl/"
+},
+{
+"w": "shys",
+"m": "adj. 害羞的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"shys\" in the recording."
+},
+{
+"w": "siblings",
+"m": "n. 兄弟姊妹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"siblings\" in the recording.",
+"ipa": "/ˈsɪblɪŋz/"
+},
+{
+"w": "sick",
+"m": "adj. 病态的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sick\" in the recording.",
+"ipa": "/sɪk/"
+},
+{
+"w": "sides",
+"m": "n. 方面，侧面adj.旁的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sides\" in the recording.",
+"ipa": "/saɪdz/"
+},
+{
+"w": "significant",
+"m": "significance意义",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"significant\" in the recording.",
+"ipa": "/sɪgˈnɪfɪkənt/"
+},
+{
+"w": "Signs",
+"m": "标志，迹象V签字",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Signs\" in the recording.",
+"ipa": "/saɪnz/"
+},
+{
+"w": "silent",
+"m": "adj. 沉默的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"silent\" in the recording.",
+"ipa": "/ˈsaɪlənt/"
+},
+{
+"w": "silt",
+"m": "淤泥",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"silt\" in the recording.",
+"ipa": "/sɪlt/"
+},
+{
+"w": "silvers",
+"m": "n. 银adj.银的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"silvers\" in the recording.",
+"ipa": "/ˈsɪlvərz/"
+},
+{
+"w": "similar",
+"m": "adj. 相似的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"similar\" in the recording.",
+"ipa": "/ˈsɪmələr/"
+},
+{
+"w": "simple",
+"m": "adj. 简单的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"simple\" in the recording.",
+"ipa": "/ˈsɪmpəl/"
+},
+{
+"w": "simulation",
+"m": "n. 模拟",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"simulation\" in the recording.",
+"ipa": "/ˌsɪmjəˈleɪʃən/"
+},
+{
+"w": "since",
+"m": "conj. 自以来",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"since\" in the recording.",
+"ipa": "/sɪns/"
+},
+{
+"w": "singers",
+"m": "n. 歌手",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"singers\" in the recording.",
+"ipa": "/ˈsɪŋərz/"
+},
+{
+"w": "single",
+"m": "adj. 单一的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"single\" in the recording.",
+"ipa": "/ˈsɪŋgəl/"
+},
+{
+"w": "sinks",
+"m": "n. 水槽v下沉（过去式sank）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sinks\" in the recording.",
+"ipa": "/sɪŋks/"
+},
+{
+"w": "Sisters",
+"m": "n. 姐妹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sisters\" in the recording.",
+"ipa": "/ˈsɪstərz/"
+},
+{
+"w": "Sites",
+"m": "n. 地点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sites\" in the recording.",
+"ipa": "/saɪts/"
+},
+{
+"w": "situations",
+"m": "n. 情况",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"situations\" in the recording.",
+"ipa": "/ˌsɪʧuˈeɪʃənz/"
+},
+{
+"w": "sizes",
+"m": "n. 大小，尺寸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sizes\" in the recording.",
+"ipa": "/ˈsaɪzɪz/"
+},
+{
+"w": "skateboard",
+"m": "n. 溜冰板",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skateboard\" in the recording.",
+"ipa": "/ˈskeɪtˌbɔrd/"
+},
+{
+"w": "Skiing",
+"m": "n. 滑雪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Skiing\" in the recording.",
+"ipa": "/skiɪŋ/"
+},
+{
+"w": "skills",
+"m": "n. 技能",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skills\" in the recording.",
+"ipa": "/skɪlz/"
+},
+{
+"w": "skimming",
+"m": "n. 略读",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skimming\" in the recording.",
+"ipa": "/ˈskɪmɪŋ/"
+},
+{
+"w": "Skin",
+"m": "n. 皮肤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Skin\" in the recording.",
+"ipa": "/skɪn/"
+},
+{
+"w": "skirt",
+"m": "n. 裙子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skirt\" in the recording.",
+"ipa": "/skərt/"
+},
+{
+"w": "Sky",
+"m": "n. 天空（复数skies）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sky\" in the recording.",
+"ipa": "/skaɪ/"
+},
+{
+"w": "skyrocket",
+"m": "猛涨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skyrocket\" in the recording.",
+"ipa": "/ˈskaɪˌrɑkət/"
+},
+{
+"w": "skyscraper",
+"m": "n. 摩天大楼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"skyscraper\" in the recording.",
+"ipa": "/ˈskaɪˌskreɪpər/"
+},
+{
+"w": "slang",
+"m": "n. 俚语",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slang\" in the recording.",
+"ipa": "/slæŋ/"
+},
+{
+"w": "slaves",
+"m": "n. 奴隶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slaves\" in the recording.",
+"ipa": "/sleɪvz/"
+},
+{
+"w": "sled",
+"m": "n. 雪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sled\" in the recording.",
+"ipa": "/slɛd/"
+},
+{
+"w": "Seep",
+"m": "n. &v睡眠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Seep\" in the recording.",
+"ipa": "/sip/"
+},
+{
+"w": "slides",
+"m": "n. 幻灯片",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slides\" in the recording.",
+"ipa": "/slaɪdz/"
+},
+{
+"w": "slightly",
+"m": "adv. 些微地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slightly\" in the recording.",
+"ipa": "/sˈlaɪtli/"
+},
+{
+"w": "slim",
+"m": "adj. 苗条的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slim\" in the recording.",
+"ipa": "/slɪm/"
+},
+{
+"w": "slip",
+"m": "v. 滑倒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slip\" in the recording.",
+"ipa": "/slɪp/"
+},
+{
+"w": "slopes",
+"m": "n. 斜坡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"slopes\" in the recording.",
+"ipa": "/sloʊps/"
+},
+{
+"w": "Slow",
+"m": "adj. 慢的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Slow\" in the recording.",
+"ipa": "/sloʊ/"
+},
+{
+"w": "smal",
+"m": "adj. 小的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"smal\" in the recording."
+},
+{
+"w": "Smart",
+"m": "adj. 潇洒的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Smart\" in the recording.",
+"ipa": "/smɑrt/"
+},
+{
+"w": "smartphone",
+"m": "n. 智能手机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"smartphone\" in the recording."
+},
+{
+"w": "smash",
+"m": "v. 打碎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"smash\" in the recording.",
+"ipa": "/smæʃ/"
+},
+{
+"w": "smell",
+"m": "n. 气味v膜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"smell\" in the recording.",
+"ipa": "/smɛl/"
+},
+{
+"w": "Smile",
+"m": "v&n.微笑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Smile\" in the recording.",
+"ipa": "/smaɪl/"
+},
+{
+"w": "Smooth",
+"m": "adj. 光滑的（比较级smoother）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Smooth\" in the recording.",
+"ipa": "/smuð/"
+},
+{
+"w": "snacks",
+"m": "n. 小吃，点心",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"snacks\" in the recording.",
+"ipa": "/snæks/"
+},
+{
+"w": "Snail",
+"m": "n. 蜗牛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Snail\" in the recording.",
+"ipa": "/sneɪl/"
+},
+{
+"w": "snakes",
+"m": "n. 蛇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"snakes\" in the recording.",
+"ipa": "/sneɪks/"
+},
+{
+"w": "snow",
+"m": "n. 雪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"snow\" in the recording.",
+"ipa": "/snoʊ/"
+},
+{
+"w": "snowmobile",
+"m": "n. 雪地汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"snowmobile\" in the recording.",
+"ipa": "/sˈnoʊmoʊˌbil/"
+},
+{
+"w": "Soaps",
+"m": "n. 肥皂",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Soaps\" in the recording.",
+"ipa": "/soʊps/"
+},
+{
+"w": "sobbing",
+"m": "adj. 峻泣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sobbing\" in the recording.",
+"ipa": "/ˈsɑbɪŋ/"
+},
+{
+"w": "Social",
+"m": "adj. 社会的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Social\" in the recording.",
+"ipa": "/ˈsoʊʃəl/"
+},
+{
+"w": "society",
+"m": "n. 社会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"society\" in the recording.",
+"ipa": "/soʊˈsaɪɪti/"
+},
+{
+"w": "socks",
+"m": "n. 袜子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"socks\" in the recording.",
+"ipa": "/sɑks/"
+},
+{
+"w": "Soda",
+"m": "n. 苏打",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Soda\" in the recording.",
+"ipa": "/ˈsoʊdə/"
+},
+{
+"w": "softs",
+"m": "adj. 软的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"softs\" in the recording."
+},
+{
+"w": "softwares",
+"m": "n. 软件",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"softwares\" in the recording."
+},
+{
+"w": "Soil",
+"m": "n. 土壤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Soil\" in the recording.",
+"ipa": "/sɔɪl/"
+},
+{
+"w": "solar",
+"m": "adj. 太阳的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"solar\" in the recording.",
+"ipa": "/ˈsoʊlər/"
+},
+{
+"w": "solitary",
+"m": "adj. 孤独的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"solitary\" in the recording.",
+"ipa": "/ˈsɑləˌtɛri/"
+},
+{
+"w": "solutions",
+"m": "n. 解决方案，溶液",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"solutions\" in the recording.",
+"ipa": "/səˈluʃənz/"
+},
+{
+"w": "solve",
+"m": "v. 解决",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"solve\" in the recording.",
+"ipa": "/sɑlv/"
+},
+{
+"w": "sometimes",
+"m": "adv. 有时",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sometimes\" in the recording.",
+"ipa": "/ˈsəmˌtaɪmz/"
+},
+{
+"w": "Sonar",
+"m": "n. 声呐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sonar\" in the recording.",
+"ipa": "/ˈsoʊnɑr/"
+},
+{
+"w": "Songs",
+"m": "n. 歌曲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Songs\" in the recording.",
+"ipa": "/sɔŋz/"
+},
+{
+"w": "Sons",
+"m": "n. 儿子",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sons\" in the recording.",
+"ipa": "/sənz/"
+},
+{
+"w": "Soon",
+"m": "adv. 一会儿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Soon\" in the recording.",
+"ipa": "/sun/"
+},
+{
+"w": "sophisticated",
+"m": "adj. 富有经验的，精致的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sophisticated\" in the recording.",
+"ipa": "/səˈfɪstɪˌkeɪtəd/"
+},
+{
+"w": "Sorts",
+"m": "n. 种类",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sorts\" in the recording.",
+"ipa": "/sɔrts/"
+},
+{
+"w": "sours",
+"m": "adj. 酸的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sours\" in the recording.",
+"ipa": "/saʊərz/"
+},
+{
+"w": "sources",
+"m": "n. 来源",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sources\" in the recording.",
+"ipa": "/ˈsɔrsəz/"
+},
+{
+"w": "south",
+"m": "n. 南adj.位于南方的adv.向南",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"south\" in the recording.",
+"ipa": "/saʊθ/"
+},
+{
+"w": "Southern",
+"m": "adj. 南方的n.南方人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Southern\" in the recording.",
+"ipa": "/ˈsəðərn/"
+},
+{
+"w": "Souvenirs",
+"m": "n. 纪念品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Souvenirs\" in the recording.",
+"ipa": "/ˌsuvəˈnɪrz/"
+},
+{
+"w": "spas",
+"m": "n. 水疗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spas\" in the recording.",
+"ipa": "/spɑz/"
+},
+{
+"w": "spaces",
+"m": "n. 空间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spaces\" in the recording.",
+"ipa": "/ˈspeɪsɪz/"
+},
+{
+"w": "Spanish",
+"m": "adj. 西班牙的，西班牙人的n.西班",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Spanish\" in the recording.",
+"ipa": "/ˈspænɪʃ/"
+},
+{
+"w": "spare",
+"m": "adj. 额外的，备用的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spare\" in the recording.",
+"ipa": "/spɛr/"
+},
+{
+"w": "speak",
+"m": "w说话（过去式spoke过去分词",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"speak\" in the recording.",
+"ipa": "/spik/"
+},
+{
+"w": "special",
+"m": "adj. 特别的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"special\" in the recording.",
+"ipa": "/ˈspɛʃəl/"
+},
+{
+"w": "species",
+"m": "n. 物种",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"species\" in the recording.",
+"ipa": "/ˈspiʃiz/"
+},
+{
+"w": "specifi",
+"m": "adj. 特殊的，明确的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"specifi\" in the recording."
+},
+{
+"w": "specimens",
+"m": "n. 试样",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"specimens\" in the recording.",
+"ipa": "/ˈspɛsəmənz/"
+},
+{
+"w": "spectacular",
+"m": "adj. 壮观的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spectacular\" in the recording.",
+"ipa": "/spɛkˈtækjələr/"
+},
+{
+"w": "speeches s",
+"m": "n. 演讲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"speeches s\" in the recording.",
+"ipa": "/ˈspiʧɪz ɛs/"
+},
+{
+"w": "speed",
+"m": "n. 速度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"speed\" in the recording.",
+"ipa": "/spid/"
+},
+{
+"w": "spell",
+"m": "拼写",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spell\" in the recording.",
+"ipa": "/spɛl/"
+},
+{
+"w": "spend",
+"m": "w花费（过去式／过去分词spent）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spend\" in the recording.",
+"ipa": "/spɛnd/"
+},
+{
+"w": "spider",
+"m": "n. 蜘蛛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spider\" in the recording.",
+"ipa": "/ˈspaɪdər/"
+},
+{
+"w": "splash",
+"m": "泼酒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"splash\" in the recording.",
+"ipa": "/splæʃ/"
+},
+{
+"w": "split",
+"m": "v. 裂开",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"split\" in the recording.",
+"ipa": "/splɪt/"
+},
+{
+"w": "spo",
+"m": "v. 糟竭，变坏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spo\" in the recording."
+},
+{
+"w": "sports",
+"m": "n. 运动",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sports\" in the recording.",
+"ipa": "/spɔrts/"
+},
+{
+"w": "spot",
+"m": "n. 地点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spot\" in the recording.",
+"ipa": "/spɑt/"
+},
+{
+"w": "spotlight",
+"m": "n. 聚光灯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spotlight\" in the recording.",
+"ipa": "/ˈspɑˌtlaɪt/"
+},
+{
+"w": "spray",
+"m": "n. 喷雾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spray\" in the recording.",
+"ipa": "/spreɪ/"
+},
+{
+"w": "spread",
+"m": "\"传播，展开",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spread\" in the recording.",
+"ipa": "/sprɛd/"
+},
+{
+"w": "spreadsheets",
+"m": "n. 电子表格",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spreadsheets\" in the recording.",
+"ipa": "/ˈsprɛdˌʃits/"
+},
+{
+"w": "spring",
+"m": "n. 春天；泉水",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"spring\" in the recording.",
+"ipa": "/spərɪŋ/"
+},
+{
+"w": "square",
+"m": "n. 平方；广场adj.正方形的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"square\" in the recording.",
+"ipa": "/skwɛr/"
+},
+{
+"w": "squirrels",
+"m": "n. 松鼠",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"squirrels\" in the recording.",
+"ipa": "/skwərəlz/"
+},
+{
+"w": "Stable",
+"m": "adj. 稳定的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stable\" in the recording.",
+"ipa": "/ˈsteɪbəl/"
+},
+{
+"w": "stadium",
+"m": "n. 体育场",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stadium\" in the recording.",
+"ipa": "/ˈsteɪdiəm/"
+},
+{
+"w": "Staff",
+"m": "n. 职员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Staff\" in the recording.",
+"ipa": "/stæf/"
+},
+{
+"w": "Stages",
+"m": "n. 舞台，阶段",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stages\" in the recording.",
+"ipa": "/ˈsteɪʤɪz/"
+},
+{
+"w": "Stairs",
+"m": "7n.楼梯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stairs\" in the recording.",
+"ipa": "/stɛrz/"
+},
+{
+"w": "Stall",
+"m": "n. 货摊",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stall\" in the recording.",
+"ipa": "/stɔl/"
+},
+{
+"w": "Stamps",
+"m": "n. 邮票",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stamps\" in the recording.",
+"ipa": "/stæmps/"
+},
+{
+"w": "Standards",
+"m": "adj. 标准的n.标准",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Standards\" in the recording.",
+"ipa": "/ˈstændərdz/"
+},
+{
+"w": "standstill",
+"m": "n. 停顿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"standstill\" in the recording.",
+"ipa": "/ˈstændˌstɪl/"
+},
+{
+"w": "Stare",
+"m": "v. 凝视",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stare\" in the recording.",
+"ipa": "/stɛr/"
+},
+{
+"w": "stars",
+"m": "明星；星星",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stars\" in the recording.",
+"ipa": "/stɑrz/"
+},
+{
+"w": "start",
+"m": "starting开始",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"start\" in the recording.",
+"ipa": "/stɑrt/"
+},
+{
+"w": "starvation",
+"m": "n. 饥饿",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"starvation\" in the recording.",
+"ipa": "/stɑrˈveɪʃən/"
+},
+{
+"w": "state",
+"m": "statement声明",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"state\" in the recording.",
+"ipa": "/steɪt/"
+},
+{
+"w": "station",
+"m": "n. 车站",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"station\" in the recording.",
+"ipa": "/ˈsteɪʃən/"
+},
+{
+"w": "statistics",
+"m": "统计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"statistics\" in the recording.",
+"ipa": "/stəˈtɪstɪks/"
+},
+{
+"w": "statue",
+"m": "n. 雕像",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"statue\" in the recording.",
+"ipa": "/ˈstæˌʧu/"
+},
+{
+"w": "status",
+"m": "地位",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"status\" in the recording.",
+"ipa": "/ˈstætəs/"
+},
+{
+"w": "statutory",
+"m": "adj. 法定的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"statutory\" in the recording.",
+"ipa": "/ˈstæʧəˌtɔri/"
+},
+{
+"w": "Stay",
+"m": "v. 暂住",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stay\" in the recording.",
+"ipa": "/steɪ/"
+},
+{
+"w": "steady",
+"m": "adj. 稳定的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"steady\" in the recording.",
+"ipa": "/ˈstɛdi/"
+},
+{
+"w": "Steal",
+"m": "w偷窃（过去式stole过去分词",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Steal\" in the recording.",
+"ipa": "/stil/"
+},
+{
+"w": "steam",
+"m": "n. 蒸汽；精力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"steam\" in the recording.",
+"ipa": "/stim/"
+},
+{
+"w": "Steel",
+"m": "n. 钢铁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Steel\" in the recording.",
+"ipa": "/stil/"
+},
+{
+"w": "Steep",
+"m": "adj. 陡峭的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Steep\" in the recording.",
+"ipa": "/stip/"
+},
+{
+"w": "Stems",
+"m": "n. 茎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stems\" in the recording.",
+"ipa": "/stɛmz/"
+},
+{
+"w": "Steps",
+"m": "n. 步骤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Steps\" in the recording.",
+"ipa": "/stɛps/"
+},
+{
+"w": "stereotypes",
+"m": "7n.成见",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stereotypes\" in the recording.",
+"ipa": "/ˈstɛrioʊˌtaɪps/"
+},
+{
+"w": "sterling",
+"m": "n. 英国的标准货币单位",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sterling\" in the recording.",
+"ipa": "/ˈstərlɪŋ/"
+},
+{
+"w": "stick",
+"m": "w刺，粘n.手杖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stick\" in the recording.",
+"ipa": "/stɪk/"
+},
+{
+"w": "sti",
+"m": "adv. 仍然adj.静止的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sti\" in the recording."
+},
+{
+"w": "stimulate",
+"m": "v. 刺激",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stimulate\" in the recording.",
+"ipa": "/ˈstɪmjəˌleɪt/"
+},
+{
+"w": "Ssto",
+"m": "n. 股份，库存",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Ssto\" in the recording."
+},
+{
+"w": "Stones",
+"m": "n. 石头",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stones\" in the recording.",
+"ipa": "/stoʊnz/"
+},
+{
+"w": "stop",
+"m": "v. 停止n.车站",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stop\" in the recording.",
+"ipa": "/stɑp/"
+},
+{
+"w": "Stores",
+"m": "n. 商店，储藏v贮藏",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stores\" in the recording.",
+"ipa": "/stɔrz/"
+},
+{
+"w": "Stories",
+"m": "n. 故事，新闻报道（story的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stories\" in the recording.",
+"ipa": "/ˈstɔriz/"
+},
+{
+"w": "Storms",
+"m": "n. 风暴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Storms\" in the recording.",
+"ipa": "/stɔrmz/"
+},
+{
+"w": "Stoves",
+"m": "n. 炉灶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stoves\" in the recording.",
+"ipa": "/stoʊvz/"
+},
+{
+"w": "straight",
+"m": "adj. 直的adv立即",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"straight\" in the recording.",
+"ipa": "/streɪt/"
+},
+{
+"w": "straightaway",
+"m": "adv. 直截了当地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"straightaway\" in the recording.",
+"ipa": "/ˈstreɪtəˌweɪ/"
+},
+{
+"w": "strain",
+"m": "n. 压力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"strain\" in the recording.",
+"ipa": "/streɪn/"
+},
+{
+"w": "stranges",
+"m": "adj. 奇怪的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stranges\" in the recording."
+},
+{
+"w": "strangers",
+"m": "n. 陌生人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"strangers\" in the recording.",
+"ipa": "/ˈstreɪnʤərz/"
+},
+{
+"w": "strategy",
+"m": "n. 战略",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"strategy\" in the recording.",
+"ipa": "/ˈstrætəʤi/"
+},
+{
+"w": "Straw",
+"m": "n. 稻草",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Straw\" in the recording.",
+"ipa": "/strɔ/"
+},
+{
+"w": "Streams",
+"m": "n. 溪流",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Streams\" in the recording.",
+"ipa": "/strimz/"
+},
+{
+"w": "Street",
+"m": "n. 街道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Street\" in the recording.",
+"ipa": "/strit/"
+},
+{
+"w": "Strength",
+"m": "n. 优势",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Strength\" in the recording.",
+"ipa": "/strɛŋθ/"
+},
+{
+"w": "Stress",
+"m": "n. 压力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stress\" in the recording.",
+"ipa": "/strɛs/"
+},
+{
+"w": "Strict",
+"m": "adj. 严格的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Strict\" in the recording.",
+"ipa": "/strɪkt/"
+},
+{
+"w": "Strike",
+"m": "v. 撞击",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Strike\" in the recording.",
+"ipa": "/straɪk/"
+},
+{
+"w": "string",
+"m": "n. 线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"string\" in the recording.",
+"ipa": "/strɪŋ/"
+},
+{
+"w": "stroll",
+"m": "v. 散步",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stroll\" in the recording.",
+"ipa": "/stroʊl/"
+},
+{
+"w": "structures",
+"m": "n. 结构",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"structures\" in the recording.",
+"ipa": "/ˈstrəkʧərz/"
+},
+{
+"w": "struggle",
+"m": "奋斗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"struggle\" in the recording.",
+"ipa": "/ˈstrəgəl/"
+},
+{
+"w": "Stuck",
+"m": "adj. 卡住的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stuck\" in the recording.",
+"ipa": "/stək/"
+},
+{
+"w": "students",
+"m": "n. 学生",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"students\" in the recording.",
+"ipa": "/ˈstudənts/"
+},
+{
+"w": "studies",
+"m": "研究",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"studies\" in the recording.",
+"ipa": "/ˈstədiz/"
+},
+{
+"w": "studio",
+"m": "n. 工作室",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"studio\" in the recording.",
+"ipa": "/ˈstudiˌoʊ/"
+},
+{
+"w": "Stuff",
+"m": "n. 素材，资料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Stuff\" in the recording.",
+"ipa": "/stəf/"
+},
+{
+"w": "stunning",
+"m": "adj. 极好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"stunning\" in the recording.",
+"ipa": "/ˈstənɪŋ/"
+},
+{
+"w": "subcommittee",
+"m": "n. 小组委员会",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subcommittee\" in the recording.",
+"ipa": "/ˈsəbkəˈmɪti/"
+},
+{
+"w": "subconsciously",
+"m": "adv. 潜意识地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subconsciously\" in the recording.",
+"ipa": "/səbˈkɑnʃəsli/"
+},
+{
+"w": "subject",
+"m": "n. 主题；实验对象",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subject\" in the recording.",
+"ipa": "/ˈsəbʤɪkt/"
+},
+{
+"w": "submerged",
+"m": "adj. 水下的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"submerged\" in the recording.",
+"ipa": "/səbˈmərʤd/"
+},
+{
+"w": "subsidised",
+"m": "adj. 有补助的（美式subsidized）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subsidised\" in the recording."
+},
+{
+"w": "substances",
+"m": "n. 物质",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"substances\" in the recording.",
+"ipa": "/ˈsəbstənsɪz/"
+},
+{
+"w": "subtle",
+"m": "adj. 微妙的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subtle\" in the recording.",
+"ipa": "/ˈsətəl/"
+},
+{
+"w": "suburban",
+"m": "adj. 郊区的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suburban\" in the recording.",
+"ipa": "/səˈbərbən/"
+},
+{
+"w": "suburbs",
+"m": "n. 郊外",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suburbs\" in the recording.",
+"ipa": "/ˈsəbərbz/"
+},
+{
+"w": "subway",
+"m": "n. 地铁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"subway\" in the recording.",
+"ipa": "/ˈsəbˌweɪ/"
+},
+{
+"w": "success",
+"m": "n. 成功",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"success\" in the recording.",
+"ipa": "/səkˈsɛs/"
+},
+{
+"w": "sudden",
+"m": "adj. 突然的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sudden\" in the recording.",
+"ipa": "/ˈsədən/"
+},
+{
+"w": "suffer",
+"m": "v. 遭受",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suffer\" in the recording.",
+"ipa": "/ˈsəfər/"
+},
+{
+"w": "sugar",
+"m": "n. 糖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sugar\" in the recording.",
+"ipa": "/ˈʃʊgər/"
+},
+{
+"w": "suggestions",
+"m": "n. 建议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suggestions\" in the recording.",
+"ipa": "/səˈʤɛsʧənz/"
+},
+{
+"w": "suit",
+"m": "n. 套装，西装v适合",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suit\" in the recording.",
+"ipa": "/sut/"
+},
+{
+"w": "suitable",
+"m": "adj. 适当的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suitable\" in the recording.",
+"ipa": "/ˈsutəbəl/"
+},
+{
+"w": "suite",
+"m": "n. （一套）家具，套房",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suite\" in the recording.",
+"ipa": "/swit/"
+},
+{
+"w": "summary",
+"m": "n. 总结",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"summary\" in the recording.",
+"ipa": "/ˈsəməri/"
+},
+{
+"w": "Summers",
+"m": "n. 夏季",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Summers\" in the recording.",
+"ipa": "/ˈsəmərz/"
+},
+{
+"w": "summit",
+"m": "n. 顶点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"summit\" in the recording.",
+"ipa": "/ˈsəmɪt/"
+},
+{
+"w": "Sun",
+"m": "n. 太阳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sun\" in the recording.",
+"ipa": "/sən/"
+},
+{
+"w": "Sunday",
+"m": "n. 星期日",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sunday\" in the recording.",
+"ipa": "/ˈsənˌdi/"
+},
+{
+"w": "Sunken",
+"m": "adj. 沉没的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sunken\" in the recording.",
+"ipa": "/ˈsəŋkən/"
+},
+{
+"w": "sunset",
+"m": "n. 日落",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sunset\" in the recording.",
+"ipa": "/ˈsənˌsɛt/"
+},
+{
+"w": "sunshine",
+"m": "n. 阳光",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sunshine\" in the recording.",
+"ipa": "/ˈsənˌʃaɪn/"
+},
+{
+"w": "superiority",
+"m": "n. 优越性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"superiority\" in the recording.",
+"ipa": "/ˌsupɪriˈɔrɪti/"
+},
+{
+"w": "supermarkets",
+"m": "n. 超市",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"supermarkets\" in the recording.",
+"ipa": "/ˈsupərˌmɑrkɪts/"
+},
+{
+"w": "supervise",
+"m": "v. 监督",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"supervise\" in the recording.",
+"ipa": "/ˈsupərˌvaɪz/"
+},
+{
+"w": "supplement",
+"m": "n. 增补（物）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"supplement\" in the recording.",
+"ipa": "/ˌsəpləˈmɛnt/"
+},
+{
+"w": "Supplies",
+"m": "n. 供给（supply的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Supplies\" in the recording.",
+"ipa": "/səˈplaɪz/"
+},
+{
+"w": "support",
+"m": "n. 支持v帮助",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"support\" in the recording.",
+"ipa": "/səˈpɔrt/"
+},
+{
+"w": "Suppose",
+"m": "认为",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Suppose\" in the recording.",
+"ipa": "/səˈpoʊz/"
+},
+{
+"w": "surface",
+"m": "n. 表面adj.表面的v浮出水面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"surface\" in the recording.",
+"ipa": "/ˈsərfəs/"
+},
+{
+"w": "surname",
+"m": "n. 姓",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"surname\" in the recording.",
+"ipa": "/ˈsərˌneɪm/"
+},
+{
+"w": "surprised",
+"m": "adj. 感到惊诉的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"surprised\" in the recording.",
+"ipa": "/səˈpraɪzd/"
+},
+{
+"w": "surroundings",
+"m": "n. 环境",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"surroundings\" in the recording.",
+"ipa": "/sərˈaʊndɪŋz/"
+},
+{
+"w": "Survey",
+"m": "n. &v调查",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Survey\" in the recording.",
+"ipa": "/ˈsərˌveɪ/"
+},
+{
+"w": "survival",
+"m": "n. 生存",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"survival\" in the recording.",
+"ipa": "/sərˈvaɪvəl/"
+},
+{
+"w": "suspect",
+"m": "n. 嫌疑犯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"suspect\" in the recording.",
+"ipa": "/ˈsəˌspɛkt/"
+},
+{
+"w": "Sustainable",
+"m": "adj. 可持续的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sustainable\" in the recording.",
+"ipa": "/səˈsteɪnəbəl/"
+},
+{
+"w": "SUBM",
+"m": "天鹅",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"SUBM\" in the recording."
+},
+{
+"w": "ABMS",
+"m": "影响",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ABMS\" in the recording."
+},
+{
+"w": "sweet",
+"m": "sweetener甜料",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"sweet\" in the recording.",
+"ipa": "/swit/"
+},
+{
+"w": "swiftly",
+"m": "adv. 很快地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"swiftly\" in the recording.",
+"ipa": "/sˈwɪftli/"
+},
+{
+"w": "Swim",
+"m": "n. &v游泳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Swim\" in the recording.",
+"ipa": "/swɪm/"
+},
+{
+"w": "Swimming",
+"m": "n. 游泳",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Swimming\" in the recording.",
+"ipa": "/sˈwɪmɪŋ/"
+},
+{
+"w": "Switch",
+"m": "n. 开关",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Switch\" in the recording.",
+"ipa": "/swɪʧ/"
+},
+{
+"w": "Sydney",
+"m": "n. 悉尼（澳大利亚港口城市）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Sydney\" in the recording.",
+"ipa": "/ˈsɪdni/"
+},
+{
+"w": "symbol",
+"m": "n. 象征，符号",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"symbol\" in the recording.",
+"ipa": "/ˈsɪmbəl/"
+},
+{
+"w": "Symphonies",
+"m": "n. 交响乐（symphony的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Symphonies\" in the recording.",
+"ipa": "/ˈsɪmfəniz/"
+},
+{
+"w": "symptoms",
+"m": "n. 症状",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"symptoms\" in the recording.",
+"ipa": "/ˈsɪmptəmz/"
+},
+{
+"w": "tables",
+"m": "n. 桌子；表格",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tables\" in the recording.",
+"ipa": "/ˈteɪbəlz/"
+},
+{
+"w": "tablets",
+"m": "n. 药片；平板电脑",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tablets\" in the recording.",
+"ipa": "/ˈtæbləts/"
+},
+{
+"w": "tackle",
+"m": "v. 应付",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tackle\" in the recording.",
+"ipa": "/ˈtækəl/"
+},
+{
+"w": "tailor",
+"m": "n. 裁缝v裁剪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tailor\" in the recording.",
+"ipa": "/ˈteɪlər/"
+},
+{
+"w": "tails",
+"m": "n. 尾部",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tails\" in the recording.",
+"ipa": "/teɪlz/"
+},
+{
+"w": "talent",
+"m": "n. 天资",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"talent\" in the recording.",
+"ipa": "/ˈtælənt/"
+},
+{
+"w": "tales",
+"m": "n. 故事",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tales\" in the recording.",
+"ipa": "/teɪlz/"
+},
+{
+"w": "talks",
+"m": "n. 讲话v讨论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"talks\" in the recording.",
+"ipa": "/tɔks/"
+},
+{
+"w": "tall",
+"m": "adj. 高的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tall\" in the recording.",
+"ipa": "/tɔl/"
+},
+{
+"w": "tank",
+"m": "n. 水槽",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tank\" in the recording.",
+"ipa": "/tæŋk/"
+},
+{
+"w": "tapes",
+"m": "n. 录音带",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tapes\" in the recording.",
+"ipa": "/teɪps/"
+},
+{
+"w": "targets",
+"m": "n. 目标v把作为目标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"targets\" in the recording.",
+"ipa": "/ˈtɑrgəts/"
+},
+{
+"w": "tasks",
+"m": "n. 任务",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tasks\" in the recording.",
+"ipa": "/tæsks/"
+},
+{
+"w": "taste",
+"m": "n. 味道v尝",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"taste\" in the recording.",
+"ipa": "/teɪst/"
+},
+{
+"w": "tax",
+"m": ".税金w向课税",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tax\" in the recording.",
+"ipa": "/tæks/"
+},
+{
+"w": "taxation",
+"m": "n. 课税",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"taxation\" in the recording.",
+"ipa": "/tækˈseɪʃən/"
+},
+{
+"w": "taxi",
+"m": "n. 出租汽车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"taxi\" in the recording.",
+"ipa": "/ˈtæksi/"
+},
+{
+"w": "tea",
+"m": "n. 茶叶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tea\" in the recording.",
+"ipa": "/ti/"
+},
+{
+"w": "teach",
+"m": "w教（过去分词taught）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teach\" in the recording.",
+"ipa": "/tiʧ/"
+},
+{
+"w": "teachers",
+"m": "n. 教师",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teachers\" in the recording.",
+"ipa": "/ˈtiʧərz/"
+},
+{
+"w": "teams",
+"m": "n. 队，组",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teams\" in the recording.",
+"ipa": "/timz/"
+},
+{
+"w": "tears",
+"m": "眼泪v撕扯（过去分词torn）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tears\" in the recording.",
+"ipa": "/tɪrz/"
+},
+{
+"w": "teaspoon",
+"m": "n. 茶匙",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teaspoon\" in the recording.",
+"ipa": "/ˈtiˌspun/"
+},
+{
+"w": "technical",
+"m": "adj. 科技的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"technical\" in the recording.",
+"ipa": "/ˈtɛknɪkəl/"
+},
+{
+"w": "techniques",
+"m": "n. 技巧",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"techniques\" in the recording.",
+"ipa": "/tɛkˈniks/"
+},
+{
+"w": "technologies",
+"m": "n. 技术（technology的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"technologies\" in the recording.",
+"ipa": "/tɛkˈnɑləʤiz/"
+},
+{
+"w": "teenagers",
+"m": "n. 青少年",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teenagers\" in the recording.",
+"ipa": "/ˈtiˌneɪʤərz/"
+},
+{
+"w": "teeth",
+"m": "n. 牙齿（复数形式tooth）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teeth\" in the recording.",
+"ipa": "/tiθ/"
+},
+{
+"w": "teleconferencing",
+"m": "n. 电话会议",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"teleconferencing\" in the recording.",
+"ipa": "/ˌtɛləˈkɑnfrənsɪŋ/"
+},
+{
+"w": "telegraph",
+"m": "n. 电报",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"telegraph\" in the recording.",
+"ipa": "/ˈtɛləˌgræf/"
+},
+{
+"w": "telephone",
+"m": "n. 电话",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"telephone\" in the recording.",
+"ipa": "/ˈtɛləˌfoʊn/"
+},
+{
+"w": "telescopes",
+"m": "n. 望远镜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"telescopes\" in the recording.",
+"ipa": "/ˈtɛləˌskoʊps/"
+},
+{
+"w": "television",
+"m": "n. 电视（=TV）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"television\" in the recording.",
+"ipa": "/ˈtɛləˌvɪʒən/"
+},
+{
+"w": "temperature",
+"m": "7n.温度",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"temperature\" in the recording.",
+"ipa": "/ˈtɛmpərəʧər/"
+},
+{
+"w": "temple",
+"m": "n. 庙宇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"temple\" in the recording.",
+"ipa": "/ˈtɛmpəl/"
+},
+{
+"w": "temporary",
+"m": "adj. 暂时的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"temporary\" in the recording.",
+"ipa": "/ˈtɛmpərˌɛri/"
+},
+{
+"w": "tend",
+"m": "v. 倾向",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tend\" in the recording.",
+"ipa": "/tɛnd/"
+},
+{
+"w": "tennis",
+"m": "n. 网球",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tennis\" in the recording.",
+"ipa": "/ˈtɛnɪs/"
+},
+{
+"w": "tent",
+"m": "n. 帐篷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tent\" in the recording.",
+"ipa": "/tɛnt/"
+},
+{
+"w": "terminal",
+"m": "n. 航空站，终点站",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"terminal\" in the recording.",
+"ipa": "/ˈtərmənəl/"
+},
+{
+"w": "terrace",
+"m": "n. 阳台",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"terrace\" in the recording.",
+"ipa": "/ˈtɛrəs/"
+},
+{
+"w": "terrible",
+"m": "adj. 可怕的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"terrible\" in the recording.",
+"ipa": "/ˈtɛrəbəl/"
+},
+{
+"w": "terrified",
+"m": "adj. 非常害怕的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"terrified\" in the recording.",
+"ipa": "/ˈtɛrəˌfaɪd/"
+},
+{
+"w": "territory",
+"m": "n. 领土",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"territory\" in the recording.",
+"ipa": "/ˈtɛrɪˌtɔri/"
+},
+{
+"w": "tests",
+"m": "n. 测验",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tests\" in the recording.",
+"ipa": "/tɛsts/"
+},
+{
+"w": "textbooks",
+"m": "n. 教科书",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"textbooks\" in the recording.",
+"ipa": "/ˈtɛkstˌbʊks/"
+},
+{
+"w": "textiles",
+"m": "n. 纺织品，纺织业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"textiles\" in the recording.",
+"ipa": "/ˈtɛkˌstaɪlz/"
+},
+{
+"w": "texts",
+"m": "n. 文本；短信",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"texts\" in the recording.",
+"ipa": "/tɛksts/"
+},
+{
+"w": "texture",
+"m": "n. 质地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"texture\" in the recording.",
+"ipa": "/ˈtɛksʧər/"
+},
+{
+"w": "theatre",
+"m": "n. 电影院",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"theatre\" in the recording.",
+"ipa": "/ˈθiətər/"
+},
+{
+"w": "theft",
+"m": "n. 盗窃",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"theft\" in the recording.",
+"ipa": "/θɛft/"
+},
+{
+"w": "theme",
+"m": "n. 主题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"theme\" in the recording.",
+"ipa": "/θim/"
+},
+{
+"w": "theory",
+"m": "n. 理论",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"theory\" in the recording.",
+"ipa": "/ˈθɪri/"
+},
+{
+"w": "therefore",
+"m": "adv. 因此",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"therefore\" in the recording.",
+"ipa": "/ˈðɛrˌfɔr/"
+},
+{
+"w": "therma",
+"m": "adj. 热的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"therma\" in the recording."
+},
+{
+"w": "thermometer",
+"m": "n. 温度计",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thermometer\" in the recording.",
+"ipa": "/θərˈmɑmətər/"
+},
+{
+"w": "thick",
+"m": "adj. 黏稠的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thick\" in the recording.",
+"ipa": "/θɪk/"
+},
+{
+"w": "thin",
+"m": "adj. 瘦的，薄的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thin\" in the recording.",
+"ipa": "/θɪn/"
+},
+{
+"w": "things",
+"m": "n. 事物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"things\" in the recording.",
+"ipa": "/θɪŋz/"
+},
+{
+"w": "third",
+"m": "adj. 第三的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"third\" in the recording.",
+"ipa": "/θərd/"
+},
+{
+"w": "thorough",
+"m": "adj. 周密的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thorough\" in the recording.",
+"ipa": "/θəroʊ/"
+},
+{
+"w": "though",
+"m": "conj. 虽然，尽管",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"though\" in the recording.",
+"ipa": "/ðoʊ/"
+},
+{
+"w": "thousand",
+"m": "n. 一千",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thousand\" in the recording.",
+"ipa": "/ˈθaʊzənd/"
+},
+{
+"w": "threats",
+"m": "n. 威胁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"threats\" in the recording.",
+"ipa": "/θrɛts/"
+},
+{
+"w": "thrive",
+"m": "v. 繁荣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thrive\" in the recording.",
+"ipa": "/θraɪv/"
+},
+{
+"w": "through",
+"m": "prep. 穿过ady（电话）接通着",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"through\" in the recording.",
+"ipa": "/θru/"
+},
+{
+"w": "throughout",
+"m": "adv. :自始至终",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"throughout\" in the recording.",
+"ipa": "/θruaʊt/"
+},
+{
+"w": "thunder",
+"m": "n. 雷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"thunder\" in the recording.",
+"ipa": "/ˈθəndər/"
+},
+{
+"w": "Thursday",
+"m": "n. 星期四",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Thursday\" in the recording.",
+"ipa": "/ˈθərzˌdeɪ/"
+},
+{
+"w": "tickets",
+"m": "n. 票",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tickets\" in the recording.",
+"ipa": "/ˈtɪkɪts/"
+},
+{
+"w": "tides",
+"m": "n. 潮汐",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tides\" in the recording.",
+"ipa": "/taɪdz/"
+},
+{
+"w": "tidy",
+"m": "adj. 整齐的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tidy\" in the recording.",
+"ipa": "/ˈtaɪdi/"
+},
+{
+"w": "tiger",
+"m": "n. 老虎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tiger\" in the recording.",
+"ipa": "/ˈtaɪgər/"
+},
+{
+"w": "timber",
+"m": "n. 木材",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"timber\" in the recording.",
+"ipa": "/ˈtɪmbər/"
+},
+{
+"w": "timelines",
+"m": "n. 时间线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"timelines\" in the recording.",
+"ipa": "/ˈtaɪmlaɪnz/"
+},
+{
+"w": "times",
+"m": "n. 时间；次数",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"times\" in the recording.",
+"ipa": "/taɪmz/"
+},
+{
+"w": "timetable",
+"m": "n. 时间表",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"timetable\" in the recording.",
+"ipa": "/ˈtaɪmˌteɪbəl/"
+},
+{
+"w": "tin",
+"m": "n. 锡adj.锡制的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tin\" in the recording.",
+"ipa": "/tɪn/"
+},
+{
+"w": "tint",
+"m": "v. 染（发）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tint\" in the recording.",
+"ipa": "/tɪnt/"
+},
+{
+"w": "tiny",
+"m": "adj. 微小的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tiny\" in the recording.",
+"ipa": "/ˈtaɪni/"
+},
+{
+"w": "tips",
+"m": "n. 秘决",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tips\" in the recording.",
+"ipa": "/tɪps/"
+},
+{
+"w": "title",
+"m": "n. 标题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"title\" in the recording.",
+"ipa": "/ˈtaɪtəl/"
+},
+{
+"w": "toaster",
+"m": "n. 烤面包机",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"toaster\" in the recording.",
+"ipa": "/ˈtoʊstər/"
+},
+{
+"w": "today",
+"m": "n. 今天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"today\" in the recording.",
+"ipa": "/təˈdeɪ/"
+},
+{
+"w": "toddler",
+"m": "n. 学步的小孩",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"toddler\" in the recording.",
+"ipa": "/ˈtɑdlər/"
+},
+{
+"w": "together",
+"m": "adv. 一起",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"together\" in the recording.",
+"ipa": "/təˈgɛðər/"
+},
+{
+"w": "toilets",
+"m": "n. 厕所",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"toilets\" in the recording.",
+"ipa": "/ˈtɔɪləts/"
+},
+{
+"w": "tolerant",
+"m": "adj. 容忍的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tolerant\" in the recording.",
+"ipa": "/ˈtɑlərənt/"
+},
+{
+"w": "tomorrow",
+"m": "n. 明天adv在明天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tomorrow\" in the recording.",
+"ipa": "/təˈmɑˌroʊ/"
+},
+{
+"w": "tone",
+"m": "n. 语气，音调",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tone\" in the recording.",
+"ipa": "/toʊn/"
+},
+{
+"w": "tongue",
+"m": "n. 舌头",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tongue\" in the recording.",
+"ipa": "/təŋ/"
+},
+{
+"w": "tonne",
+"m": "n. 吨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tonne\" in the recording.",
+"ipa": "/tən/"
+},
+{
+"w": "tools",
+"m": "n. 工具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tools\" in the recording.",
+"ipa": "/tulz/"
+},
+{
+"w": "topics",
+"m": "n. 主题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"topics\" in the recording.",
+"ipa": "/ˈtɑpɪks/"
+},
+{
+"w": "tops",
+"m": "n. 顶端，盖adj.最重要的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tops\" in the recording.",
+"ipa": "/tɑps/"
+},
+{
+"w": "total",
+"m": "adj. 全部的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"total\" in the recording.",
+"ipa": "/ˈtoʊtəl/"
+},
+{
+"w": "touching",
+"m": "n. 触摸adj.动人的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"touching\" in the recording.",
+"ipa": "/ˈtəʧɪŋ/"
+},
+{
+"w": "tough",
+"m": "adj. 艰苦的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tough\" in the recording.",
+"ipa": "/təf/"
+},
+{
+"w": "tour",
+"m": "n. &v旅行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tour\" in the recording.",
+"ipa": "/tʊr/"
+},
+{
+"w": "towards",
+"m": "prep. 朝，向",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"towards\" in the recording.",
+"ipa": "/təˈwɔrdz/"
+},
+{
+"w": "towel",
+"m": "n. 毛巾",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"towel\" in the recording.",
+"ipa": "/taʊəl/"
+},
+{
+"w": "tower",
+"m": "n. 塔",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tower\" in the recording.",
+"ipa": "/taʊər/"
+},
+{
+"w": "towns",
+"m": "n. 城镇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"towns\" in the recording.",
+"ipa": "/taʊnz/"
+},
+{
+"w": "toys",
+"m": "n. 玩具",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"toys\" in the recording.",
+"ipa": "/tɔɪz/"
+},
+{
+"w": "traces",
+"m": "n. 痕迹v追溯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"traces\" in the recording.",
+"ipa": "/ˈtreɪsɪz/"
+},
+{
+"w": "track",
+"m": "w追踪n.轨道，足迹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"track\" in the recording.",
+"ipa": "/træk/"
+},
+{
+"w": "trade",
+"m": "n. 贸易，行业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trade\" in the recording.",
+"ipa": "/treɪd/"
+},
+{
+"w": "traditional",
+"m": "adj. 传统的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"traditional\" in the recording.",
+"ipa": "/trəˈdɪʃənəl/"
+},
+{
+"w": "traffic",
+"m": "n. 交通",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"traffic\" in the recording.",
+"ipa": "/ˈtræfɪk/"
+},
+{
+"w": "tragedies",
+"m": "n. 悲剧（tragedy的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tragedies\" in the recording.",
+"ipa": "/ˈtræʤədiz/"
+},
+{
+"w": "trails",
+"m": "n. 踪迹，特定路线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trails\" in the recording.",
+"ipa": "/treɪlz/"
+},
+{
+"w": "trains",
+"m": "w训练n.火车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trains\" in the recording.",
+"ipa": "/treɪnz/"
+},
+{
+"w": "traits",
+"m": "n. 特性",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"traits\" in the recording.",
+"ipa": "/treɪts/"
+},
+{
+"w": "tram",
+"m": "n. 电车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tram\" in the recording.",
+"ipa": "/træm/"
+},
+{
+"w": "transfer",
+"m": "v. 转接",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"transfer\" in the recording.",
+"ipa": "/ˈtrænsfər/"
+},
+{
+"w": "transformation",
+"m": "n. 转换",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"transformation\" in the recording.",
+"ipa": "/ˌtrænsfərˈmeɪʃən/"
+},
+{
+"w": "translations",
+"m": "n. 翻译",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"translations\" in the recording.",
+"ipa": "/trænzˈleɪʃənz/"
+},
+{
+"w": "transparent",
+"m": "adj. 透明的，坦率的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"transparent\" in the recording.",
+"ipa": "/trænˈspɛrənt/"
+},
+{
+"w": "transport",
+"m": "n. 交通",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"transport\" in the recording.",
+"ipa": "/ˈtrænspɔrt/"
+},
+{
+"w": "transportation",
+"m": "n. 运输",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"transportation\" in the recording.",
+"ipa": "/ˌtrænspərˈteɪʃən/"
+},
+{
+"w": "travels",
+"m": "w长途旅行n.旅途",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"travels\" in the recording.",
+"ipa": "/ˈtrævəlz/"
+},
+{
+"w": "treasures",
+"m": "n. 财富",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"treasures\" in the recording.",
+"ipa": "/ˈtrɛʒərz/"
+},
+{
+"w": "treatments",
+"m": "n. 治疗，对待",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"treatments\" in the recording.",
+"ipa": "/ˈtritmənts/"
+},
+{
+"w": "trees",
+"m": "n. 树木",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trees\" in the recording.",
+"ipa": "/triz/"
+},
+{
+"w": "trek",
+"m": "n. 艰苦跋涉",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trek\" in the recording.",
+"ipa": "/trɛk/"
+},
+{
+"w": "trend",
+"m": "n. 趋势",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trend\" in the recording.",
+"ipa": "/trɛnd/"
+},
+{
+"w": "trial",
+"m": "n. 试验",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trial\" in the recording.",
+"ipa": "/traɪəl/"
+},
+{
+"w": "triangle",
+"m": "n. 三角（形）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"triangle\" in the recording.",
+"ipa": "/ˈtraɪˌæŋgəl/"
+},
+{
+"w": "tribe",
+"m": "n. 部落，宗族",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tribe\" in the recording.",
+"ipa": "/traɪb/"
+},
+{
+"w": "tricky",
+"m": "adj. 狡猬的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tricky\" in the recording.",
+"ipa": "/ˈtrɪki/"
+},
+{
+"w": "trigger",
+"m": "v. 触发",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trigger\" in the recording.",
+"ipa": "/ˈtrɪgər/"
+},
+{
+"w": "trilogy",
+"m": "n. 三部曲",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trilogy\" in the recording.",
+"ipa": "/ˈtrɪləʤi/"
+},
+{
+"w": "trim",
+"m": "v. 修剪",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trim\" in the recording.",
+"ipa": "/trɪm/"
+},
+{
+"w": "triple",
+"m": "adj. 三倍的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"triple\" in the recording.",
+"ipa": "/ˈtrɪpəl/"
+},
+{
+"w": "troops",
+"m": "n. 部队",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"troops\" in the recording.",
+"ipa": "/trups/"
+},
+{
+"w": "trove",
+"m": "n. 埋藏物",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trove\" in the recording.",
+"ipa": "/troʊv/"
+},
+{
+"w": "trucks",
+"m": "n. 卡车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"trucks\" in the recording.",
+"ipa": "/trəks/"
+},
+{
+"w": "true",
+"m": "adj. 正确的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"true\" in the recording.",
+"ipa": "/tru/"
+},
+{
+"w": "try",
+"m": "v. 尝试",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"try\" in the recording.",
+"ipa": "/traɪ/"
+},
+{
+"w": "tsunami",
+"m": "n. 海啸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tsunami\" in the recording.",
+"ipa": "/tsuˈnɑmi/"
+},
+{
+"w": "Tuesday",
+"m": "n. 星期二",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Tuesday\" in the recording.",
+"ipa": "/ˈtuzˌdeɪ/"
+},
+{
+"w": "tuna",
+"m": "n. 金枪鱼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tuna\" in the recording.",
+"ipa": "/ˈtunə/"
+},
+{
+"w": "tunnel",
+"m": "n. 隧道",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tunnel\" in the recording.",
+"ipa": "/ˈtənəl/"
+},
+{
+"w": "turbines",
+"m": "n. 涡轮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"turbines\" in the recording.",
+"ipa": "/ˈtərbaɪnz/"
+},
+{
+"w": "turn",
+"m": "&n.转弯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"turn\" in the recording.",
+"ipa": "/tərn/"
+},
+{
+"w": "tutor",
+"m": "n. 导师，助教",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tutor\" in the recording.",
+"ipa": "/ˈtutər/"
+},
+{
+"w": "tuition",
+"m": "n. 学费；讲授",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"tuition\" in the recording.",
+"ipa": "/tjuˈɪʃən/"
+},
+{
+"w": "twice",
+"m": "ady两倍",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"twice\" in the recording.",
+"ipa": "/twaɪs/"
+},
+{
+"w": "twins",
+"m": "n. 双胞胎",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"twins\" in the recording.",
+"ipa": "/twɪnz/"
+},
+{
+"w": "types",
+"m": "n. 类型v打字",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"types\" in the recording.",
+"ipa": "/taɪps/"
+},
+{
+"w": "typical",
+"m": "adj. 典型的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"typical\" in the recording.",
+"ipa": "/ˈtɪpɪkəl/"
+},
+{
+"w": "UK",
+"m": "n. 英国（theUnitedKingdom）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"UK\" in the recording."
+},
+{
+"w": "umbrella",
+"m": "n. 雨伞",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"umbrella\" in the recording.",
+"ipa": "/ˈəmˌbrɛlə/"
+},
+{
+"w": "uncertainty",
+"m": "n. 犹豫",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"uncertainty\" in the recording.",
+"ipa": "/ənˈsərtənti/"
+},
+{
+"w": "uncle",
+"m": "n. 叔叔，伯父",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"uncle\" in the recording.",
+"ipa": "/ˈəŋkəl/"
+},
+{
+"w": "under",
+"m": "rep..在..下面",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"under\" in the recording.",
+"ipa": "/ˈəndər/"
+},
+{
+"w": "underground",
+"m": "adj. 地下的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"underground\" in the recording.",
+"ipa": "/ˈəndərˌgraʊnd/"
+},
+{
+"w": "undergrowth",
+"m": "n. 林下灌丛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"undergrowth\" in the recording.",
+"ipa": "/ˈəndərˌgroʊθ/"
+},
+{
+"w": "underwater",
+"m": "adj. 水下的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"underwater\" in the recording.",
+"ipa": "/ˈəndərˌwɔtər/"
+},
+{
+"w": "unfurnished",
+"m": "adj. 无家具设备的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unfurnished\" in the recording."
+},
+{
+"w": "unhygienic",
+"m": "adj. 不卫生的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unhygienic\" in the recording."
+},
+{
+"w": "uniform",
+"m": "n. 制服",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"uniform\" in the recording.",
+"ipa": "/ˈjunəˌfɔrm/"
+},
+{
+"w": "unique",
+"m": "adj. 独特的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unique\" in the recording.",
+"ipa": "/juˈnik/"
+},
+{
+"w": "universally",
+"m": "advy普遍地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"universally\" in the recording.",
+"ipa": "/ˌjunəˈvərsəli/"
+},
+{
+"w": "universities",
+"m": "n. 大学（university的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"universities\" in the recording.",
+"ipa": "/ˌjunəˈvərsətiz/"
+},
+{
+"w": "unless",
+"m": "prep. 除..之外conj.除非",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unless\" in the recording.",
+"ipa": "/ənˈlɛs/"
+},
+{
+"w": "unti",
+"m": "conj. 直到.为止",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unti\" in the recording."
+},
+{
+"w": "unusual",
+"m": "adj. 不寻常的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"unusual\" in the recording.",
+"ipa": "/ənˈjuˌʒuəl/"
+},
+{
+"w": "update",
+"m": "v. 更新",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"update\" in the recording.",
+"ipa": "/ˈəpˌdeɪt/"
+},
+{
+"w": "upgrades",
+"m": "v. 升级",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"upgrades\" in the recording.",
+"ipa": "/ˈəpˌgreɪdz/"
+},
+{
+"w": "upheavals",
+"m": "n. 剧变",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"upheavals\" in the recording.",
+"ipa": "/əˈphivəlz/"
+},
+{
+"w": "uph",
+"m": "adj. 上坡的n.上升",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"uph\" in the recording."
+},
+{
+"w": "upon",
+"m": "prep. .在..之上",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"upon\" in the recording.",
+"ipa": "/əˈpɑn/"
+},
+{
+"w": "uppers",
+"m": "adj. 上面的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"uppers\" in the recording.",
+"ipa": "/ˈəpərz/"
+},
+{
+"w": "upset",
+"m": "adj. 心烦的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"upset\" in the recording.",
+"ipa": "/ˈəpˌsɛt/"
+},
+{
+"w": "upstairs",
+"m": "adv. 在（或向）楼上adj.楼上的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"upstairs\" in the recording.",
+"ipa": "/əpˈstɛrz/"
+},
+{
+"w": "urban",
+"m": "adj. 城市的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"urban\" in the recording.",
+"ipa": "/ˈərbən/"
+},
+{
+"w": "USA",
+"m": "abbr:美利坚合众国",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"USA\" in the recording.",
+"ipa": "/ˈjuˈɛˈseɪ/"
+},
+{
+"w": "use",
+"m": "v. 使用",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"use\" in the recording.",
+"ipa": "/juz/"
+},
+{
+"w": "usual",
+"m": "adj. 通常的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"usual\" in the recording.",
+"ipa": "/ˈjuʒəwəl/"
+},
+{
+"w": "vacancies",
+"m": "n. 空缺（vacancy的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vacancies\" in the recording.",
+"ipa": "/ˈveɪkənsiz/"
+},
+{
+"w": "vacation I",
+"m": "n. 假期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vacation I\" in the recording.",
+"ipa": "/veɪˈkeɪʃən aɪ/"
+},
+{
+"w": "valley",
+"m": "n. 山谷",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"valley\" in the recording.",
+"ipa": "/ˈvæli/"
+},
+{
+"w": "Values",
+"m": "n. 价值",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Values\" in the recording.",
+"ipa": "/ˈvæljuz/"
+},
+{
+"w": "vanes",
+"m": "n. 风向标",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vanes\" in the recording.",
+"ipa": "/veɪnz/"
+},
+{
+"w": "variables",
+"m": "n. 变量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"variables\" in the recording.",
+"ipa": "/ˈvɛriəbəlz/"
+},
+{
+"w": "variations",
+"m": "n. 变化",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"variations\" in the recording.",
+"ipa": "/ˌvɛriˈeɪʃənz/"
+},
+{
+"w": "varieties",
+"m": "n. 多样（variety的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"varieties\" in the recording.",
+"ipa": "/vərˈaɪətiz/"
+},
+{
+"w": "various",
+"m": "adj. 各种各样的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"various\" in the recording.",
+"ipa": "/ˈvɛriəs/"
+},
+{
+"w": "varnish",
+"m": "n. 亮光漆v.使有光泽",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"varnish\" in the recording.",
+"ipa": "/ˈvɑrnɪʃ/"
+},
+{
+"w": "vast",
+"m": "adj. 大量的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vast\" in the recording.",
+"ipa": "/væst/"
+},
+{
+"w": "vegetables",
+"m": "n. 蔬菜",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vegetables\" in the recording.",
+"ipa": "/ˈvɛʤtəbəlz/"
+},
+{
+"w": "vegetarian",
+"m": "n. 素食主义者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vegetarian\" in the recording.",
+"ipa": "/ˌvɛʤəˈtɛˌriən/"
+},
+{
+"w": "vehicles",
+"m": "n. 车辆",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vehicles\" in the recording.",
+"ipa": "/ˈviɪkəlz/"
+},
+{
+"w": "velvet",
+"m": "n. 天鹅绒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"velvet\" in the recording.",
+"ipa": "/ˈvɛlvət/"
+},
+{
+"w": "Venue",
+"m": "n. 场所",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Venue\" in the recording.",
+"ipa": "/ˈvɛnju/"
+},
+{
+"w": "verbalise",
+"m": "v. 用词语表达",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"verbalise\" in the recording."
+},
+{
+"w": "verify",
+"m": "核实",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"verify\" in the recording.",
+"ipa": "/ˈvɛrəˌfaɪ/"
+},
+{
+"w": "versions",
+"m": "n. 版本",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"versions\" in the recording.",
+"ipa": "/ˈvərʒənz/"
+},
+{
+"w": "versus",
+"m": "prep. 对抗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"versus\" in the recording.",
+"ipa": "/ˈvərsəz/"
+},
+{
+"w": "vessel",
+"m": "n. 船",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vessel\" in the recording.",
+"ipa": "/ˈvɛsəl/"
+},
+{
+"w": "veterinarian",
+"m": "n. 兽医",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"veterinarian\" in the recording.",
+"ipa": "/ˌvɛtərəˈnɛriən/"
+},
+{
+"w": "vibrant",
+"m": "adj. 充满生机的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vibrant\" in the recording.",
+"ipa": "/ˈvaɪbrənt/"
+},
+{
+"w": "vibrations",
+"m": "n. 振动，共鸣",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vibrations\" in the recording.",
+"ipa": "/vaɪˈbreɪʃənz/"
+},
+{
+"w": "victim",
+"m": "n. 受害人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"victim\" in the recording.",
+"ipa": "/ˈvɪktɪm/"
+},
+{
+"w": "video",
+"m": "n. 视频",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"video\" in the recording.",
+"ipa": "/ˈvɪdioʊ/"
+},
+{
+"w": "viewpoint",
+"m": "n. 观点",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"viewpoint\" in the recording.",
+"ipa": "/vˈjuˌpɔɪnt/"
+},
+{
+"w": "views",
+"m": "n. 见解，视野",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"views\" in the recording.",
+"ipa": "/vjuz/"
+},
+{
+"w": "villages",
+"m": "n. 村庄",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"villages\" in the recording.",
+"ipa": "/ˈvɪlɪʤɪz/"
+},
+{
+"w": "vine",
+"m": "n. 葡萄树",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vine\" in the recording.",
+"ipa": "/vaɪn/"
+},
+{
+"w": "violences",
+"m": "n. 暴力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"violences\" in the recording."
+},
+{
+"w": "Violin",
+"m": "n. 小提琴",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Violin\" in the recording.",
+"ipa": "/vaɪəˈlɪn/"
+},
+{
+"w": "visible",
+"m": "adj. 看得见的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"visible\" in the recording.",
+"ipa": "/ˈvɪzəbəl/"
+},
+{
+"w": "visions",
+"m": "n. 视力，愿景v想象",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"visions\" in the recording.",
+"ipa": "/ˈvɪʒənz/"
+},
+{
+"w": "visit",
+"m": "n. &v参观",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"visit\" in the recording.",
+"ipa": "/ˈvɪzɪt/"
+},
+{
+"w": "visitors",
+"m": "n. 参观者",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"visitors\" in the recording.",
+"ipa": "/ˈvɪzɪtərz/"
+},
+{
+"w": "visuals",
+"m": "n. 可视教具adj.视觉的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"visuals\" in the recording.",
+"ipa": "/ˈvɪʒwəlz/"
+},
+{
+"w": "vitamins",
+"m": "n. 维生素",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vitamins\" in the recording.",
+"ipa": "/ˈvaɪtəmənz/"
+},
+{
+"w": "vividly",
+"m": "adv. 生动地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vividly\" in the recording.",
+"ipa": "/ˈvɪvədli/"
+},
+{
+"w": "vocabulary",
+"m": "n. 词汇",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vocabulary\" in the recording.",
+"ipa": "/voʊˈkæbjəˌlɛri/"
+},
+{
+"w": "vocation",
+"m": "n. 职业",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vocation\" in the recording.",
+"ipa": "/voʊˈkeɪʃən/"
+},
+{
+"w": "voice",
+"m": "n. 声音",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"voice\" in the recording.",
+"ipa": "/vɔɪs/"
+},
+{
+"w": "volcano",
+"m": "n. 火山",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"volcano\" in the recording.",
+"ipa": "/vɑlˈkeɪnoʊ/"
+},
+{
+"w": "volume",
+"m": "n. 量，体积，音量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"volume\" in the recording.",
+"ipa": "/ˈvɑljum/"
+},
+{
+"w": "voluntary",
+"m": "adj. 自愿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"voluntary\" in the recording.",
+"ipa": "/ˈvɑləntɛri/"
+},
+{
+"w": "volunteers",
+"m": "n. 志愿者v志愿adj.志愿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"volunteers\" in the recording.",
+"ipa": "/ˌvɑlənˈtɪrz/"
+},
+{
+"w": "vulnerable",
+"m": "adj. 易受伤害的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"vulnerable\" in the recording.",
+"ipa": "/ˈvəlnərəbəl/"
+},
+{
+"w": "wage",
+"m": "n. 工资",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wage\" in the recording.",
+"ipa": "/weɪʤ/"
+},
+{
+"w": "Wait",
+"m": "n. &v等待",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wait\" in the recording.",
+"ipa": "/weɪt/"
+},
+{
+"w": "waiters",
+"m": "n. 服务员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"waiters\" in the recording.",
+"ipa": "/ˈweɪtərz/"
+},
+{
+"w": "waitress",
+"m": "n. 女服务员",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"waitress\" in the recording.",
+"ipa": "/ˈweɪtrəs/"
+},
+{
+"w": "Walk",
+"m": "n. &v步行",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Walk\" in the recording.",
+"ipa": "/wɔk/"
+},
+{
+"w": "Wallet l",
+"m": "n. 钱包",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wallet l\" in the recording.",
+"ipa": "/ˈwɔlət ɛl/"
+},
+{
+"w": "wallpapering",
+"m": "n. 墙纸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wallpapering\" in the recording.",
+"ipa": "/ˈwɔlˌpeɪpərɪŋ/"
+},
+{
+"w": "Walls",
+"m": "n. 墙壁",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Walls\" in the recording.",
+"ipa": "/wɔlz/"
+},
+{
+"w": "wander",
+"m": "漫步",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wander\" in the recording.",
+"ipa": "/ˈwɑndər/"
+},
+{
+"w": "War",
+"m": "n. 战争",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"War\" in the recording.",
+"ipa": "/wɔr/"
+},
+{
+"w": "wardens",
+"m": "n. 看守人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wardens\" in the recording.",
+"ipa": "/ˈwɔrdənz/"
+},
+{
+"w": "warehouse",
+"m": "n. 仓库",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"warehouse\" in the recording.",
+"ipa": "/ˈwɛˌrhaʊs/"
+},
+{
+"w": "warm",
+"m": "n. &v变暖",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"warm\" in the recording.",
+"ipa": "/wɔrm/"
+},
+{
+"w": "wash",
+"m": "v. 洗涤",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wash\" in the recording.",
+"ipa": "/wɑʃ/"
+},
+{
+"w": "waste",
+"m": "n. 浪费",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"waste\" in the recording.",
+"ipa": "/weɪst/"
+},
+{
+"w": "Water",
+"m": "n. 水（+s表水域）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Water\" in the recording.",
+"ipa": "/ˈwɔtər/"
+},
+{
+"w": "waterfalls",
+"m": "n. 瀑布",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"waterfalls\" in the recording.",
+"ipa": "/ˈwɔtərˌfɔlz/"
+},
+{
+"w": "watermills",
+"m": "n. 水磨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"watermills\" in the recording."
+},
+{
+"w": "waterproof",
+"m": "adj. 防水的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"waterproof\" in the recording.",
+"ipa": "/ˈwɔtərˌpruf/"
+},
+{
+"w": "wax",
+"m": "n. 蜡",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wax\" in the recording.",
+"ipa": "/wæks/"
+},
+{
+"w": "ways",
+"m": "n. 方法，道路",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"ways\" in the recording.",
+"ipa": "/weɪz/"
+},
+{
+"w": "weak",
+"m": "adj. 疲软的，虚弱的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"weak\" in the recording.",
+"ipa": "/wik/"
+},
+{
+"w": "wealthy",
+"m": "adj. 富有的（最高级wealthiest）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wealthy\" in the recording.",
+"ipa": "/ˈwɛlθi/"
+},
+{
+"w": "weapons",
+"m": "n. 武器",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"weapons\" in the recording.",
+"ipa": "/ˈwɛpənz/"
+},
+{
+"w": "wear",
+"m": "w穿（过去式worn）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wear\" in the recording.",
+"ipa": "/wɛr/"
+},
+{
+"w": "weather",
+"m": "n. 天气",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"weather\" in the recording.",
+"ipa": "/ˈwɛðər/"
+},
+{
+"w": "websites",
+"m": "n. 网站",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"websites\" in the recording.",
+"ipa": "/ˈwɛbˌsaɪts/"
+},
+{
+"w": "wedding",
+"m": "n. 婚礼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wedding\" in the recording.",
+"ipa": "/ˈwɛdɪŋ/"
+},
+{
+"w": "Wednesday",
+"m": "n. 星期三",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wednesday\" in the recording.",
+"ipa": "/ˈwɛnzˌdeɪ/"
+},
+{
+"w": "weeds",
+"m": "n. 野草",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"weeds\" in the recording.",
+"ipa": "/widz/"
+},
+{
+"w": "weeks",
+"m": "n. 周，星期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"weeks\" in the recording.",
+"ipa": "/wiks/"
+},
+{
+"w": "Weight",
+"m": "n. 重量",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Weight\" in the recording.",
+"ipa": "/weɪt/"
+},
+{
+"w": "welfare",
+"m": "n. 福利",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"welfare\" in the recording.",
+"ipa": "/ˈwɛlˌfɛr/"
+},
+{
+"w": "wells",
+"m": "n. 井adj.良好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wells\" in the recording.",
+"ipa": "/wɛlz/"
+},
+{
+"w": "west",
+"m": "adj. 西方的n.西方adv在西方",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"west\" in the recording.",
+"ipa": "/wɛst/"
+},
+{
+"w": "western",
+"m": "adj. 西方的n.西方人",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"western\" in the recording.",
+"ipa": "/ˈwɛstərn/"
+},
+{
+"w": "Wet",
+"m": "adj. 潮湿的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wet\" in the recording.",
+"ipa": "/wɛt/"
+},
+{
+"w": "wetlands",
+"m": "n. 湿地",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wetlands\" in the recording.",
+"ipa": "/ˈwɛˌtlændz/"
+},
+{
+"w": "Whale",
+"m": "n. 鲸",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Whale\" in the recording.",
+"ipa": "/weɪl/"
+},
+{
+"w": "wheels",
+"m": "n. 车轮",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wheels\" in the recording.",
+"ipa": "/wilz/"
+},
+{
+"w": "whereas",
+"m": "conj. 然而",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"whereas\" in the recording.",
+"ipa": "/wɛˈræz/"
+},
+{
+"w": "whether",
+"m": "conj. 是否pron.两者中的哪个",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"whether\" in the recording.",
+"ipa": "/ˈwɛðər/"
+},
+{
+"w": "Whims",
+"m": "n. 幻想；突发的念头",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Whims\" in the recording.",
+"ipa": "/wɪmz/"
+},
+{
+"w": "whistling",
+"m": "n. 吹哨",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"whistling\" in the recording.",
+"ipa": "/ˈwɪslɪŋ/"
+},
+{
+"w": "White",
+"m": "adj. 白色的n.白色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"White\" in the recording.",
+"ipa": "/waɪt/"
+},
+{
+"w": "Whole",
+"m": "adj. 完整的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Whole\" in the recording.",
+"ipa": "/hoʊl/"
+},
+{
+"w": "Wide",
+"m": "adj. 广泛的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wide\" in the recording.",
+"ipa": "/waɪd/"
+},
+{
+"w": "widespread",
+"m": "adj. 普遍的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"widespread\" in the recording.",
+"ipa": "/ˈwaɪdˈsprɛd/"
+},
+{
+"w": "Wife",
+"m": "n. 妻子（复数wives）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wife\" in the recording.",
+"ipa": "/waɪf/"
+},
+{
+"w": "WiFi",
+"m": "abbr:无线局域网（Wireless",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"WiFi\" in the recording.",
+"ipa": "/ˈwiˌfi/"
+},
+{
+"w": "wild",
+"m": "adj. 野生的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wild\" in the recording.",
+"ipa": "/waɪld/"
+},
+{
+"w": "win",
+"m": "v. 赢",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"win\" in the recording.",
+"ipa": "/wɪn/"
+},
+{
+"w": "Winch",
+"m": "n. 绞车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Winch\" in the recording.",
+"ipa": "/wɪnʧ/"
+},
+{
+"w": "Wind",
+"m": "winding婉蜓曲折的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wind\" in the recording.",
+"ipa": "/wɪnd/"
+},
+{
+"w": "Windmills",
+"m": "n. 风车",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Windmills\" in the recording.",
+"ipa": "/ˈwɪndˌmɪlz/"
+},
+{
+"w": "windows",
+"m": "n. 窗",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"windows\" in the recording.",
+"ipa": "/ˈwɪndoʊz/"
+},
+{
+"w": "wine",
+"m": "n. 酒",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wine\" in the recording.",
+"ipa": "/waɪn/"
+},
+{
+"w": "wings",
+"m": "n. 翼",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wings\" in the recording.",
+"ipa": "/wɪŋz/"
+},
+{
+"w": "Winter",
+"m": "n. 冬季",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Winter\" in the recording.",
+"ipa": "/ˈwɪntər/"
+},
+{
+"w": "wire",
+"m": "n. 电线",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wire\" in the recording.",
+"ipa": "/waɪər/"
+},
+{
+"w": "wish",
+"m": "v. 希望",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wish\" in the recording.",
+"ipa": "/wɪʃ/"
+},
+{
+"w": "withdraw",
+"m": "w取钱；撤退",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"withdraw\" in the recording.",
+"ipa": "/wɪθˈdrɔ/"
+},
+{
+"w": "within",
+"m": "prep. 在.之内",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"within\" in the recording.",
+"ipa": "/wɪˈθɪn/"
+},
+{
+"w": "without",
+"m": "prep. 没有adv.没有conj.除非",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"without\" in the recording.",
+"ipa": "/wɪˈθaʊt/"
+},
+{
+"w": "witty",
+"m": "adj. 该谐的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"witty\" in the recording.",
+"ipa": "/ˈwɪti/"
+},
+{
+"w": "women",
+"m": "n. 女人（woman的复数）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"women\" in the recording.",
+"ipa": "/ˈwɪmən/"
+},
+{
+"w": "wonder",
+"m": "v. 感到疑惑/说异n.奇迹",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wonder\" in the recording.",
+"ipa": "/ˈwəndər/"
+},
+{
+"w": "wonderful",
+"m": "adj. 极好的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wonderful\" in the recording.",
+"ipa": "/ˈwəndərfəl/"
+},
+{
+"w": "Woods",
+"m": "n. 木材，树林",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Woods\" in the recording.",
+"ipa": "/wʊdz/"
+},
+{
+"w": "Wool",
+"m": "n. 羊毛",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Wool\" in the recording.",
+"ipa": "/wʊl/"
+},
+{
+"w": "words",
+"m": "n. 字，言语",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"words\" in the recording.",
+"ipa": "/wərdz/"
+},
+{
+"w": "workbooks",
+"m": "n. 作业本",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"workbooks\" in the recording."
+},
+{
+"w": "workforce",
+"m": "n. 劳动力",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"workforce\" in the recording.",
+"ipa": "/ˈwərkˌfɔrs/"
+},
+{
+"w": "Works",
+"m": "w工作，起作用n.工作，作品",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Works\" in the recording.",
+"ipa": "/wərks/"
+},
+{
+"w": "worksheet",
+"m": "n. （学生的）活页练习题",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"worksheet\" in the recording.",
+"ipa": "/ˈwərkˌʃit/"
+},
+{
+"w": "workshops",
+"m": "n. 车间",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"workshops\" in the recording.",
+"ipa": "/ˈwərkˌʃɑps/"
+},
+{
+"w": "workstation",
+"m": "n. 工作站",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"workstation\" in the recording.",
+"ipa": "/ˈwərkˌsteɪʃən/"
+},
+{
+"w": "worlds",
+"m": "n. 世界",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"worlds\" in the recording.",
+"ipa": "/wərldz/"
+},
+{
+"w": "worse",
+"m": "adj. 更坏的（最高级worst）",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"worse\" in the recording.",
+"ipa": "/wərs/"
+},
+{
+"w": "worth",
+"m": "adj. 值.的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"worth\" in the recording.",
+"ipa": "/wərθ/"
+},
+{
+"w": "wrecks",
+"m": "n. 破坏，失事",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wrecks\" in the recording.",
+"ipa": "/rɛks/"
+},
+{
+"w": "Writer",
+"m": "n. 作家",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"Writer\" in the recording.",
+"ipa": "/ˈraɪtər/"
+},
+{
+"w": "wrong",
+"m": "adj. 错误的",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"wrong\" in the recording.",
+"ipa": "/rɔŋ/"
+},
+{
+"w": "yam",
+"m": "n. 山药，甘薯",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yam\" in the recording.",
+"ipa": "/jæm/"
+},
+{
+"w": "years",
+"m": "n. 年",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"years\" in the recording.",
+"ipa": "/jɪrz/"
+},
+{
+"w": "yellow",
+"m": "adj. 黄色的n.黄色",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yellow\" in the recording.",
+"ipa": "/ˈjɛloʊ/"
+},
+{
+"w": "yesterday",
+"m": "n. 昨天",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yesterday\" in the recording.",
+"ipa": "/ˈjɛstərˌdeɪ/"
+},
+{
+"w": "yet",
+"m": "adv. 还conj.但是",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yet\" in the recording.",
+"ipa": "/jɛt/"
+},
+{
+"w": "yield",
+"m": "v. 出产",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yield\" in the recording.",
+"ipa": "/jild/"
+},
+{
+"w": "yogas",
+"m": "7n.瑜伽",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yogas\" in the recording."
+},
+{
+"w": "yoghurt",
+"m": "n. 酸奶",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"yoghurt\" in the recording."
+},
+{
+"w": "youth",
+"m": "n. 青少年时期",
+"c": "雅思听力满分词汇: 核心词汇",
+"x": "Listen for \"youth\" in the recording.",
+"ipa": "/juθ/"
+},
+{
+"w": "a series of",
+"m": "一系列",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"a series of\" in the recording.",
+"ipa": "/ə ˈsɪriz əv/"
+},
+{
+"w": "a set of",
+"m": "一套",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"a set of\" in the recording.",
+"ipa": "/ə sɛt əv/"
+},
+{
+"w": "abide by",
+"m": "遵守",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"abide by\" in the recording.",
+"ipa": "/əˈbaɪd baɪ/"
+},
+{
+"w": "abstract ideas",
+"m": "抽象概念",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"abstract ideas\" in the recording.",
+"ipa": "/ˈæbˌstrækt aɪˈdiəz/"
+},
+{
+"w": "academic circles",
+"m": "学术界",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"academic circles\" in the recording.",
+"ipa": "/ˌækəˈdɛmɪk ˈsərkəlz/"
+},
+{
+"w": "academic success",
+"m": "学术成就",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"academic success\" in the recording.",
+"ipa": "/ˌækəˈdɛmɪk səkˈsɛs/"
+},
+{
+"w": "access to",
+"m": "有权使用，通向……·的入口",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"access to\" in the recording.",
+"ipa": "/ˈækˌsɛs tɪ/"
+},
+{
+"w": "according to",
+"m": "根据",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"according to\" in the recording.",
+"ipa": "/əˈkɔrdɪŋ tɪ/"
+},
+{
+"w": "AdvancedEnglishStudies",
+"m": "高级英语",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"AdvancedEnglishStudies\" in the recording."
+},
+{
+"w": "adventure playground",
+"m": "儿童游乐园",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"adventure playground\" in the recording.",
+"ipa": "/ədˈvɛnʧər ˈpleɪˌgraʊnd/"
+},
+{
+"w": "aerobic exercise",
+"m": "有氧运动",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"aerobic exercise\" in the recording.",
+"ipa": "/ɛˈroʊbɪk ˈɛksərˌsaɪz/"
+},
+{
+"w": "after all",
+"m": "毕竟",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"after all\" in the recording.",
+"ipa": "/ˈæftər ɔl/"
+},
+{
+"w": "after-dinner",
+"m": "餐后的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"after-dinner\" in the recording."
+},
+{
+"w": "age bracket",
+"m": "年龄段",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"age bracket\" in the recording.",
+"ipa": "/eɪʤ ˈbrækɪt/"
+},
+{
+"w": "all of a sudden",
+"m": "突然地",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"all of a sudden\" in the recording.",
+"ipa": "/ɔl əv ə ˈsədən/"
+},
+{
+"w": "along with",
+"m": "连同…起",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"along with\" in the recording.",
+"ipa": "/əˈlɔŋ wɪθ/"
+},
+{
+"w": "and so on",
+"m": "等等",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"and so on\" in the recording.",
+"ipa": "/ənd soʊ ɔn/"
+},
+{
+"w": "annual subscription",
+"m": "年度订阅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"annual subscription\" in the recording.",
+"ipa": "/ˈænjuəl səbˈskrɪpʃən/"
+},
+{
+"w": "apart from",
+"m": "除…之外",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"apart from\" in the recording.",
+"ipa": "/əˈpɑrt frəm/"
+},
+{
+"w": "apply for",
+"m": "申请",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"apply for\" in the recording.",
+"ipa": "/əˈplaɪ fər/"
+},
+{
+"w": "art gallery",
+"m": "美术馆",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"art gallery\" in the recording.",
+"ipa": "/ɑrt ˈgæləri/"
+},
+{
+"w": "as far back as",
+"m": "早在",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"as far back as\" in the recording.",
+"ipa": "/ɛz fɑr bæk ɛz/"
+},
+{
+"w": "as long as",
+"m": "只要就",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"as long as\" in the recording.",
+"ipa": "/ɛz lɔŋ ɛz/"
+},
+{
+"w": "at all",
+"m": "完全",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"at all\" in the recording.",
+"ipa": "/æt ɔl/"
+},
+{
+"w": "at frst",
+"m": "起先",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"at frst\" in the recording."
+},
+{
+"w": "at least",
+"m": "至少",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"at least\" in the recording.",
+"ipa": "/æt list/"
+},
+{
+"w": "at short notice",
+"m": "在短时间内",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"at short notice\" in the recording.",
+"ipa": "/æt ʃɔrt ˈnoʊtɪs/"
+},
+{
+"w": "at the end of",
+"m": "在……尽头",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"at the end of\" in the recording.",
+"ipa": "/æt ðə ɛnd əv/"
+},
+{
+"w": "aware of",
+"m": "意识到",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"aware of\" in the recording.",
+"ipa": "/əˈwɛr əv/"
+},
+{
+"w": "bankstatements",
+"m": "银行对账单",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"bankstatements\" in the recording."
+},
+{
+"w": "be supposed to",
+"m": "应该",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"be supposed to\" in the recording.",
+"ipa": "/bi səˈpoʊzd tɪ/"
+},
+{
+"w": "bear in mind that",
+"m": "牢记在心",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"bear in mind that\" in the recording.",
+"ipa": "/bɛr ɪn maɪnd ðət/"
+},
+{
+"w": "belong to",
+"m": "属于",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"belong to\" in the recording.",
+"ipa": "/bɪˈlɔŋ tɪ/"
+},
+{
+"w": "benefit from",
+"m": "得益于",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"benefit from\" in the recording.",
+"ipa": "/ˈbɛnəfɪt frəm/"
+},
+{
+"w": "best buy",
+"m": "最合算的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"best buy\" in the recording.",
+"ipa": "/bɛst baɪ/"
+},
+{
+"w": "block off",
+"m": "封堵",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"block off\" in the recording.",
+"ipa": "/blɑk ɔf/"
+},
+{
+"w": "boat trip",
+"m": "游船游览",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"boat trip\" in the recording.",
+"ipa": "/boʊt trɪp/"
+},
+{
+"w": "body language",
+"m": "肢体语言",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"body language\" in the recording.",
+"ipa": "/ˈbɑdi ˈlæŋgwɪʤ/"
+},
+{
+"w": "botanical gardens",
+"m": "植物园",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"botanical gardens\" in the recording.",
+"ipa": "/bəˈtænɪkəl ˈgɑrdənz/"
+},
+{
+"w": "bound to",
+"m": "一定会",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"bound to\" in the recording.",
+"ipa": "/baʊnd tɪ/"
+},
+{
+"w": "box office",
+"m": "售票处",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"box office\" in the recording.",
+"ipa": "/bɑks ˈɔfəs/"
+},
+{
+"w": "brand as",
+"m": "标以·记号（指恶名）",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"brand as\" in the recording.",
+"ipa": "/brænd ɛz/"
+},
+{
+"w": "brand new",
+"m": "全新的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"brand new\" in the recording.",
+"ipa": "/brænd nu/"
+},
+{
+"w": "break down",
+"m": "发生故障",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"break down\" in the recording.",
+"ipa": "/breɪk daʊn/"
+},
+{
+"w": "break out",
+"m": "爆发",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"break out\" in the recording.",
+"ipa": "/breɪk aʊt/"
+},
+{
+"w": "build on",
+"m": "以为基础",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"build on\" in the recording.",
+"ipa": "/bɪld ɔn/"
+},
+{
+"w": "building blocks",
+"m": "积木",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"building blocks\" in the recording.",
+"ipa": "/ˈbɪldɪŋ blɑks/"
+},
+{
+"w": "car park",
+"m": "停车场",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"car park\" in the recording.",
+"ipa": "/kɑr pɑrk/"
+},
+{
+"w": "carbon dioxide",
+"m": "二氧化碳",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"carbon dioxide\" in the recording.",
+"ipa": "/ˈkɑrbən daɪˈɑkˌsaɪd/"
+},
+{
+"w": "carry on",
+"m": "从事，进行",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"carry on\" in the recording.",
+"ipa": "/ˈkɛri ɔn/"
+},
+{
+"w": "carry out",
+"m": "实行",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"carry out\" in the recording.",
+"ipa": "/ˈkɛri aʊt/"
+},
+{
+"w": "case study",
+"m": "案例研究",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"case study\" in the recording.",
+"ipa": "/keɪs ˈstədi/"
+},
+{
+"w": "cast member",
+"m": "演艺人员",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"cast member\" in the recording.",
+"ipa": "/kæst ˈmɛmbər/"
+},
+{
+"w": "central station",
+"m": "中心车站",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"central station\" in the recording.",
+"ipa": "/ˈsɛntrəl ˈsteɪʃən/"
+},
+{
+"w": "chase up",
+"m": "设法找到，追上",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"chase up\" in the recording.",
+"ipa": "/ʧeɪs əp/"
+},
+{
+"w": "city centre",
+"m": "市中心",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"city centre\" in the recording.",
+"ipa": "/ˈsɪti ˈsɛntər/"
+},
+{
+"w": "city",
+"m": "市（镇）议会",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"city\" in the recording.",
+"ipa": "/ˈsɪti/"
+},
+{
+"w": "classical music",
+"m": "古典乐",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"classical music\" in the recording.",
+"ipa": "/ˈklæsɪkəl mˈjuzɪk/"
+},
+{
+"w": "climate change",
+"m": "气候变化",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"climate change\" in the recording.",
+"ipa": "/ˈklaɪmɪt ʧeɪnʤ/"
+},
+{
+"w": "closed reserve",
+"m": "非外借书库",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"closed reserve\" in the recording.",
+"ipa": "/kloʊzd rɪˈzərv/"
+},
+{
+"w": "coffee break",
+"m": "茶歇时间",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"coffee break\" in the recording.",
+"ipa": "/ˈkɔfi breɪk/"
+},
+{
+"w": "cold drink",
+"m": "冷饮",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"cold drink\" in the recording.",
+"ipa": "/koʊld drɪŋk/"
+},
+{
+"w": "comeacross",
+"m": "偶然发现，讲得清楚明白",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"comeacross\" in the recording."
+},
+{
+"w": "come up",
+"m": "开始，被提出",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"come up\" in the recording.",
+"ipa": "/kəm əp/"
+},
+{
+"w": "computer literate",
+"m": "擅长电脑的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"computer literate\" in the recording.",
+"ipa": "/kəmˈpjutər ˈlɪtərət/"
+},
+{
+"w": "contemporary society",
+"m": "当代社会",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"contemporary society\" in the recording.",
+"ipa": "/kənˈtɛmpərˌɛri soʊˈsaɪɪti/"
+},
+{
+"w": "cope with",
+"m": "处理",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"cope with\" in the recording.",
+"ipa": "/koʊp wɪθ/"
+},
+{
+"w": "corporate crime",
+"m": "企业犯罪",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"corporate crime\" in the recording.",
+"ipa": "/ˈkɔrpərət kraɪm/"
+},
+{
+"w": "creation myths",
+"m": "创世神话",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"creation myths\" in the recording.",
+"ipa": "/kriˈeɪʃən mɪθs/"
+},
+{
+"w": "credit with",
+"m": "认为，归功于",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"credit with\" in the recording.",
+"ipa": "/ˈkrɛdɪt wɪθ/"
+},
+{
+"w": "dateback",
+"m": "追溯至",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"dateback\" in the recording."
+},
+{
+"w": "day off",
+"m": "休息日",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"day off\" in the recording.",
+"ipa": "/deɪ ɔf/"
+},
+{
+"w": "deal with",
+"m": "处理",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"deal with\" in the recording.",
+"ipa": "/dil wɪθ/"
+},
+{
+"w": "departmentstores",
+"m": "百货商店",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"departmentstores\" in the recording."
+},
+{
+"w": "depend on",
+"m": "取决于",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"depend on\" in the recording.",
+"ipa": "/dɪˈpɛnd ɔn/"
+},
+{
+"w": "developing regions",
+"m": "发展中地区",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"developing regions\" in the recording.",
+"ipa": "/dɪˈvɛləpɪŋ ˈriʤənz/"
+},
+{
+"w": "devote to",
+"m": "将奉献给",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"devote to\" in the recording.",
+"ipa": "/dɪˈvoʊt tɪ/"
+},
+{
+"w": "die off",
+"m": "相继死去",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"die off\" in the recording.",
+"ipa": "/daɪ ɔf/"
+},
+{
+"w": "dining room",
+"m": "餐厅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"dining room\" in the recording.",
+"ipa": "/ˈdaɪnɪŋ rum/"
+},
+{
+"w": "direct line",
+"m": "直线电话",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"direct line\" in the recording.",
+"ipa": "/dɪˈrɛkt laɪn/"
+},
+{
+"w": "distinct from",
+"m": "与不同",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"distinct from\" in the recording.",
+"ipa": "/dɪˈstɪŋkt frəm/"
+},
+{
+"w": "divide into",
+"m": "把分成",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"divide into\" in the recording.",
+"ipa": "/dɪˈvaɪd ˈɪntu/"
+},
+{
+"w": "do a favour",
+"m": "帮忙",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"do a favour\" in the recording.",
+"ipa": "/du ə ˈfeɪvər/"
+},
+{
+"w": "dolphin watching",
+"m": "海豚观光",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"dolphin watching\" in the recording.",
+"ipa": "/ˈdɑlfən ˈwɑʧɪŋ/"
+},
+{
+"w": "draft version",
+"m": "草拟版本",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"draft version\" in the recording.",
+"ipa": "/dræft ˈvərʒən/"
+},
+{
+"w": "draw up",
+"m": "起草",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"draw up\" in the recording.",
+"ipa": "/drɔ əp/"
+},
+{
+"w": "dress code",
+"m": "着装要求",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"dress code\" in the recording.",
+"ipa": "/drɛs koʊd/"
+},
+{
+"w": "drop off",
+"m": "让下车",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"drop off\" in the recording.",
+"ipa": "/drɔp ɔf/"
+},
+{
+"w": "drop-off site",
+"m": "垃圾回收点",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"drop-off site\" in the recording.",
+"ipa": "/ˈdrɑˌpɔf saɪt/"
+},
+{
+"w": "due to",
+"m": "由于，预期",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"due to\" in the recording.",
+"ipa": "/du tɪ/"
+},
+{
+"w": "East Coast",
+"m": "东海岸",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"East Coast\" in the recording.",
+"ipa": "/ist koʊst/"
+},
+{
+"w": "employment prospects",
+"m": "就业前景",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"employment prospects\" in the recording.",
+"ipa": "/ɪmˈplɔɪmənt ˈprɑspɛkts/"
+},
+{
+"w": "en suite",
+"m": "带浴室的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"en suite\" in the recording.",
+"ipa": "/ɛn swit/"
+},
+{
+"w": "engage with",
+"m": "与…接洽",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"engage with\" in the recording.",
+"ipa": "/ɪnˈgeɪʤ wɪθ/"
+},
+{
+"w": "equip with",
+"m": "装备着",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"equip with\" in the recording.",
+"ipa": "/ɪkˈwɪp wɪθ/"
+},
+{
+"w": "even though",
+"m": "虽然",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"even though\" in the recording.",
+"ipa": "/ˈivɪn ðoʊ/"
+},
+{
+"w": "exchange rate",
+"m": "汇率",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"exchange rate\" in the recording.",
+"ipa": "/ɪksˈʧeɪnʤ reɪt/"
+},
+{
+"w": "extra charge",
+"m": "附加费",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"extra charge\" in the recording.",
+"ipa": "/ˈɛkstrə ʧɑrʤ/"
+},
+{
+"w": "fairy tales",
+"m": "神话",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fairy tales\" in the recording.",
+"ipa": "/ˈfɛri teɪlz/"
+},
+{
+"w": "fall out of",
+"m": "逐渐废弃",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fall out of\" in the recording.",
+"ipa": "/fɔl aʊt əv/"
+},
+{
+"w": "family concern",
+"m": "家族企业",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"family concern\" in the recording.",
+"ipa": "/ˈfæməli kənˈsərn/"
+},
+{
+"w": "fatty acids",
+"m": "脂肪酸",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fatty acids\" in the recording.",
+"ipa": "/ˈfæti ˈæsədz/"
+},
+{
+"w": "feed into",
+"m": "提供原料",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"feed into\" in the recording.",
+"ipa": "/fid ˈɪntu/"
+},
+{
+"w": "finance industry",
+"m": "金融业",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"finance industry\" in the recording.",
+"ipa": "/ˈfaɪˌnæns ˈɪndəstri/"
+},
+{
+"w": "finance sector",
+"m": "金融部门",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"finance sector\" in the recording.",
+"ipa": "/ˈfaɪˌnæns ˈsɛktər/"
+},
+{
+"w": "find out",
+"m": "发现，找出",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"find out\" in the recording.",
+"ipa": "/faɪnd aʊt/"
+},
+{
+"w": "frst class",
+"m": "头等的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"frst class\" in the recording."
+},
+{
+"w": "fag up",
+"m": "标示出",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fag up\" in the recording.",
+"ipa": "/fæg əp/"
+},
+{
+"w": "flood prevention",
+"m": "防洪",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"flood prevention\" in the recording.",
+"ipa": "/fləd priˈvɛnʃən/"
+},
+{
+"w": "focus on",
+"m": "集中",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"focus on\" in the recording.",
+"ipa": "/ˈfoʊkɪs ɔn/"
+},
+{
+"w": "food packaging",
+"m": "食品包装",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"food packaging\" in the recording.",
+"ipa": "/fud ˈpækɪʤɪŋ/"
+},
+{
+"w": "for example",
+"m": "例如",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"for example\" in the recording.",
+"ipa": "/fər ɪgˈzæmpəl/"
+},
+{
+"w": "forest walk",
+"m": "森林漫步",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"forest walk\" in the recording.",
+"ipa": "/ˈfɔrɪst wɔk/"
+},
+{
+"w": "formal gardens",
+"m": "法式花园",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"formal gardens\" in the recording.",
+"ipa": "/ˈfɔrməl ˈgɑrdənz/"
+},
+{
+"w": "fossil fuels",
+"m": "化石燃料",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fossil fuels\" in the recording.",
+"ipa": "/ˈfɑsəl fjuəlz/"
+},
+{
+"w": "French window",
+"m": "落地窗",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"French window\" in the recording.",
+"ipa": "/frɛnʧ ˈwɪndoʊ/"
+},
+{
+"w": "fresh food",
+"m": "新鲜食品",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"fresh food\" in the recording.",
+"ipa": "/frɛʃ fud/"
+},
+{
+"w": "full story",
+"m": "详细内容",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"full story\" in the recording.",
+"ipa": "/fʊl ˈstɔri/"
+},
+{
+"w": "general knowledge",
+"m": "常识",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"general knowledge\" in the recording.",
+"ipa": "/ˈʤɛnərəl ˈnɑlɪʤ/"
+},
+{
+"w": "genetic structure",
+"m": "基因结构",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"genetic structure\" in the recording.",
+"ipa": "/ʤəˈnɛtɪk ˈstrəkʧər/"
+},
+{
+"w": "get away from",
+"m": "摆脱，逃离",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"get away from\" in the recording.",
+"ipa": "/gɪt əˈweɪ frəm/"
+},
+{
+"w": "get in touch with",
+"m": "与联系",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"get in touch with\" in the recording.",
+"ipa": "/gɪt ɪn təʧ wɪθ/"
+},
+{
+"w": "get over",
+"m": "克服，原谅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"get over\" in the recording.",
+"ipa": "/gɪt ˈoʊvər/"
+},
+{
+"w": "get rid of",
+"m": "摆脱",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"get rid of\" in the recording.",
+"ipa": "/gɪt rɪd əv/"
+},
+{
+"w": "give up",
+"m": "交出，放弃",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"give up\" in the recording.",
+"ipa": "/gɪv əp/"
+},
+{
+"w": "global warming",
+"m": "全球变暖",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"global warming\" in the recording.",
+"ipa": "/ˈgloʊbəl ˈwɔrmɪŋ/"
+},
+{
+"w": "go ahead",
+"m": "开始，前进",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"go ahead\" in the recording.",
+"ipa": "/goʊ əˈhɛd/"
+},
+{
+"w": "ino",
+"m": "外出",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ino\" in the recording."
+},
+{
+"w": "gradual evolution",
+"m": "逐步演化",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"gradual evolution\" in the recording.",
+"ipa": "/ˈgræʤuəl ˌɛvəˈluʃən/"
+},
+{
+"w": "green tax",
+"m": "环保税",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"green tax\" in the recording.",
+"ipa": "/grin tæks/"
+},
+{
+"w": "greenhouse gas",
+"m": "温室气体",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"greenhouse gas\" in the recording.",
+"ipa": "/ˈgrinˌhaʊs gæs/"
+},
+{
+"w": "greeting cards",
+"m": "贺卡",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"greeting cards\" in the recording.",
+"ipa": "/ˈgritɪŋ kɑrdz/"
+},
+{
+"w": "ground floor",
+"m": "地面层",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ground floor\" in the recording.",
+"ipa": "/graʊnd flɔr/"
+},
+{
+"w": "guided tour",
+"m": "有导游的旅游",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"guided tour\" in the recording.",
+"ipa": "/ˈgaɪdɪd tʊr/"
+},
+{
+"w": "hand out",
+"m": "分发",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"hand out\" in the recording.",
+"ipa": "/hænd aʊt/"
+},
+{
+"w": "happen to",
+"m": "偶然发生",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"happen to\" in the recording.",
+"ipa": "/ˈhæpən tɪ/"
+},
+{
+"w": "have to",
+"m": "不得不",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"have to\" in the recording.",
+"ipa": "/hæv tɪ/"
+},
+{
+"w": "head coach",
+"m": "主教练",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"head coach\" in the recording.",
+"ipa": "/hɛd koʊʧ/"
+},
+{
+"w": "head office",
+"m": "总公司",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"head office\" in the recording.",
+"ipa": "/hɛd ˈɔfəs/"
+},
+{
+"w": "High School",
+"m": "高中",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"High School\" in the recording.",
+"ipa": "/haɪ skul/"
+},
+{
+"w": "high street",
+"m": "大街",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"high street\" in the recording.",
+"ipa": "/haɪ strit/"
+},
+{
+"w": "historical interest",
+"m": "历史遗迹",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"historical interest\" in the recording.",
+"ipa": "/hɪˈstɔrɪkəl ˈɪntəˌrɛst/"
+},
+{
+"w": "historical viewpoint",
+"m": "历史观",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"historical viewpoint\" in the recording.",
+"ipa": "/hɪˈstɔrɪkəl vˈjuˌpɔɪnt/"
+},
+{
+"w": "hold back",
+"m": "阻止",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"hold back\" in the recording.",
+"ipa": "/hoʊld bæk/"
+},
+{
+"w": "hold in",
+"m": "在举办",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"hold in\" in the recording.",
+"ipa": "/hoʊld ɪn/"
+},
+{
+"w": "horse races",
+"m": "赛马",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"horse races\" in the recording.",
+"ipa": "/hɔrs ˈreɪsɪz/"
+},
+{
+"w": "horse riding",
+"m": "骑马活动",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"horse riding\" in the recording.",
+"ipa": "/hɔrs ˈraɪdɪŋ/"
+},
+{
+"w": "horse-drawn",
+"m": "用马拉的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"horse-drawn\" in the recording."
+},
+{
+"w": "hourly rate",
+"m": "每小时工资",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"hourly rate\" in the recording.",
+"ipa": "/ˈaʊrli reɪt/"
+},
+{
+"w": "human resources",
+"m": "人力资源",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"human resources\" in the recording.",
+"ipa": "/ˈjumən ˈrisɔrsɪz/"
+},
+{
+"w": "Ice Age",
+"m": "冰河时代",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"Ice Age\" in the recording.",
+"ipa": "/aɪs eɪʤ/"
+},
+{
+"w": "ice pack",
+"m": "冰袋",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ice pack\" in the recording.",
+"ipa": "/aɪs pæk/"
+},
+{
+"w": "illegal proft",
+"m": "非法利润",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"illegal proft\" in the recording."
+},
+{
+"w": "in addition",
+"m": "此外",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in addition\" in the recording.",
+"ipa": "/ɪn əˈdɪʃən/"
+},
+{
+"w": "in advance",
+"m": "提前",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in advance\" in the recording.",
+"ipa": "/ɪn ədˈvæns/"
+},
+{
+"w": "in case",
+"m": "万一",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in case\" in the recording.",
+"ipa": "/ɪn keɪs/"
+},
+{
+"w": "in charge of",
+"m": "主管……",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in charge of\" in the recording.",
+"ipa": "/ɪn ʧɑrʤ əv/"
+},
+{
+"w": "in common",
+"m": "共同的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in common\" in the recording.",
+"ipa": "/ɪn ˈkɑmən/"
+},
+{
+"w": "in fact",
+"m": "实际上",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in fact\" in the recording.",
+"ipa": "/ɪn fækt/"
+},
+{
+"w": "in order to",
+"m": "为了",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in order to\" in the recording.",
+"ipa": "/ɪn ˈɔrdər tɪ/"
+},
+{
+"w": "in particular",
+"m": "尤其，特别",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in particular\" in the recording.",
+"ipa": "/ɪn ˌpɑˈtɪkjələr/"
+},
+{
+"w": "in spite of",
+"m": "尽管",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in spite of\" in the recording.",
+"ipa": "/ɪn spaɪt əv/"
+},
+{
+"w": "in terms of",
+"m": "在方面",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in terms of\" in the recording.",
+"ipa": "/ɪn tərmz əv/"
+},
+{
+"w": "in that respect",
+"m": "在那个方面",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"in that respect\" in the recording.",
+"ipa": "/ɪn ðət rɪˈspɛkt/"
+},
+{
+"w": "Industrial Revolution",
+"m": "工业革命",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"Industrial Revolution\" in the recording.",
+"ipa": "/ˌɪnˈdəstriəl ˌrɛvəˈluʃən/"
+},
+{
+"w": "information desk",
+"m": "咨询处",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"information desk\" in the recording.",
+"ipa": "/ˌɪnˌfɔrˈmeɪʃən dɛsk/"
+},
+{
+"w": "instead of",
+"m": "而不是",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"instead of\" in the recording.",
+"ipa": "/ˌɪnˈstɛd əv/"
+},
+{
+"w": "interact with",
+"m": "与相互作用",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"interact with\" in the recording.",
+"ipa": "/ˌɪnərˈækt wɪθ/"
+},
+{
+"w": "interest rate",
+"m": "利率",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"interest rate\" in the recording.",
+"ipa": "/ˈɪntəˌrɛst reɪt/"
+},
+{
+"w": "interior designer",
+"m": "室内设计师",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"interior designer\" in the recording.",
+"ipa": "/ˌɪnˈtɪriər dɪˈzaɪnər/"
+},
+{
+"w": "jet engine",
+"m": "喷射引擎",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"jet engine\" in the recording.",
+"ipa": "/ʤɛt ˈɪnʤən/"
+},
+{
+"w": "job agency",
+"m": "招聘中介",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"job agency\" in the recording.",
+"ipa": "/ʤɑb ˈeɪʤənsi/"
+},
+{
+"w": "joining fee",
+"m": "加盟费",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"joining fee\" in the recording.",
+"ipa": "/ˈʤɔɪnɪŋ fi/"
+},
+{
+"w": "journal articles",
+"m": "论文期刊",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"journal articles\" in the recording.",
+"ipa": "/ˈʤərnəl ˈɑrtɪkəlz/"
+},
+{
+"w": "keep an eye on",
+"m": "留意",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"keep an eye on\" in the recording.",
+"ipa": "/kip ən aɪ ɔn/"
+},
+{
+"w": "keep away",
+"m": "防范",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"keep away\" in the recording.",
+"ipa": "/kip əˈweɪ/"
+},
+{
+"w": "keep track of",
+"m": "与保持联系，记录",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"keep track of\" in the recording.",
+"ipa": "/kip træk əv/"
+},
+{
+"w": "kind of",
+"m": "有点儿",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"kind of\" in the recording.",
+"ipa": "/kaɪnd əv/"
+},
+{
+"w": "lead off from",
+"m": "从…开始",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"lead off from\" in the recording.",
+"ipa": "/lɛd ɔf frəm/"
+},
+{
+"w": "lead to",
+"m": "导致",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"lead to\" in the recording.",
+"ipa": "/lɛd tɪ/"
+},
+{
+"w": "life cycle",
+"m": "生命周期",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"life cycle\" in the recording.",
+"ipa": "/laɪf ˈsaɪkəl/"
+},
+{
+"w": "live music",
+"m": "现场音乐",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"live music\" in the recording.",
+"ipa": "/lɪv mˈjuzɪk/"
+},
+{
+"w": "living quarters",
+"m": "住处",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"living quarters\" in the recording.",
+"ipa": "/ˈlɪvɪŋ kˈwɔrtərz/"
+},
+{
+"w": "living room",
+"m": "客厅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"living room\" in the recording.",
+"ipa": "/ˈlɪvɪŋ rum/"
+},
+{
+"w": "loads of",
+"m": "大量",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"loads of\" in the recording.",
+"ipa": "/loʊdz əv/"
+},
+{
+"w": "long-lasting",
+"m": "长期的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"long-lasting\" in the recording."
+},
+{
+"w": "look after",
+"m": "照顾",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"look after\" in the recording.",
+"ipa": "/lʊk ˈæftər/"
+},
+{
+"w": "look favourably on",
+"m": "赞许地看某人",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"look favourably on\" in the recording."
+},
+{
+"w": "lots of",
+"m": "大量",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"lots of\" in the recording.",
+"ipa": "/lɑts əv/"
+},
+{
+"w": "main hall",
+"m": "大厅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"main hall\" in the recording.",
+"ipa": "/meɪn hɔl/"
+},
+{
+"w": "make an effort to",
+"m": "努力做……·",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"make an effort to\" in the recording.",
+"ipa": "/meɪk ən ˈɛfərt tɪ/"
+},
+{
+"w": "make sense",
+"m": "有意义",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"make sense\" in the recording.",
+"ipa": "/meɪk sɛns/"
+},
+{
+"w": "managed to",
+"m": "努力（完成了某事）",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"managed to\" in the recording.",
+"ipa": "/ˈmænɪʤd tɪ/"
+},
+{
+"w": "marching band",
+"m": "军乐队",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"marching band\" in the recording.",
+"ipa": "/ˈmɑrʧɪŋ bænd/"
+},
+{
+"w": "market share",
+"m": "市场占有率",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"market share\" in the recording.",
+"ipa": "/ˈmɑrkɪt ʃɛr/"
+},
+{
+"w": "mass media",
+"m": "大众传媒",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"mass media\" in the recording.",
+"ipa": "/mæs ˈmidiə/"
+},
+{
+"w": "mean to",
+"m": "打算",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"mean to\" in the recording.",
+"ipa": "/min tɪ/"
+},
+{
+"w": "metal oxide",
+"m": "金属氧化物",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"metal oxide\" in the recording.",
+"ipa": "/ˈmɛtəl ˈɑkˌsaɪd/"
+},
+{
+"w": "mineral water",
+"m": "矿泉水",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"mineral water\" in the recording.",
+"ipa": "/ˈmɪnərəl ˈwɔtər/"
+},
+{
+"w": "mobile phones",
+"m": "移动电话",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"mobile phones\" in the recording.",
+"ipa": "/ˈmoʊbəl foʊnz/"
+},
+{
+"w": "modern society",
+"m": "现代社会",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"modern society\" in the recording.",
+"ipa": "/ˈmɑdərn soʊˈsaɪɪti/"
+},
+{
+"w": "more and more",
+"m": "越来越多",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"more and more\" in the recording.",
+"ipa": "/mɔr ənd mɔr/"
+},
+{
+"w": "most of",
+"m": "大部分",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"most of\" in the recording.",
+"ipa": "/moʊst əv/"
+},
+{
+"w": "moveon",
+"m": "前进",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"moveon\" in the recording."
+},
+{
+"w": "multipletasks",
+"m": "多任务",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"multipletasks\" in the recording."
+},
+{
+"w": "national holidays",
+"m": "国家法定节假日",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"national holidays\" in the recording.",
+"ipa": "/ˈnæʃənəl ˈhɑləˌdeɪz/"
+},
+{
+"w": "next to",
+"m": "紧挨着",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"next to\" in the recording.",
+"ipa": "/nɛkst tɪ/"
+},
+{
+"w": "no charge",
+"m": "免费",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"no charge\" in the recording.",
+"ipa": "/noʊ ʧɑrʤ/"
+},
+{
+"w": "no longer",
+"m": "不再",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"no longer\" in the recording.",
+"ipa": "/noʊ ˈlɔŋgər/"
+},
+{
+"w": "North Africa",
+"m": "非洲北部",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"North Africa\" in the recording.",
+"ipa": "/nɔrθ ˈæfrɪkɑ/"
+},
+{
+"w": "North America",
+"m": "北美洲",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"North America\" in the recording.",
+"ipa": "/nɔrθ əˈmɛrɪkə/"
+},
+{
+"w": "notice board",
+"m": "布告牌",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"notice board\" in the recording.",
+"ipa": "/ˈnoʊtɪs bɔrd/"
+},
+{
+"w": "nursing care",
+"m": "护理",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"nursing care\" in the recording.",
+"ipa": "/ˈnərsɪŋ kɛr/"
+},
+{
+"w": "ocean currents",
+"m": "洋流",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ocean currents\" in the recording.",
+"ipa": "/ˈoʊʃən kərənts/"
+},
+{
+"w": "ocean floor",
+"m": "海床",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ocean floor\" in the recording.",
+"ipa": "/ˈoʊʃən flɔr/"
+},
+{
+"w": "of course",
+"m": "当然",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"of course\" in the recording.",
+"ipa": "/əv kɔrs/"
+},
+{
+"w": "office assistant",
+"m": "办公室助理",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"office assistant\" in the recording.",
+"ipa": "/ˈɔfəs əˈsɪstənt/"
+},
+{
+"w": "oil tanker",
+"m": "油船，油罐车",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"oil tanker\" in the recording.",
+"ipa": "/ɔɪl ˈtæŋkər/"
+},
+{
+"w": "olive oil",
+"m": "橄榄油",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"olive oil\" in the recording.",
+"ipa": "/ˈɑlɪv ɔɪl/"
+},
+{
+"w": "on behalf of",
+"m": "代表",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"on behalf of\" in the recording.",
+"ipa": "/ɔn bɪˈhæf əv/"
+},
+{
+"w": "on duty",
+"m": "值班",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"on duty\" in the recording.",
+"ipa": "/ɔn ˈduti/"
+},
+{
+"w": "on offer",
+"m": "出售中",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"on offer\" in the recording.",
+"ipa": "/ɔn ˈɔfər/"
+},
+{
+"w": "on sale",
+"m": "廉价出售",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"on sale\" in the recording.",
+"ipa": "/ɔn seɪl/"
+},
+{
+"w": "on the other hand",
+"m": "另一方面",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"on the other hand\" in the recording.",
+"ipa": "/ɔn ðə ˈəðər hænd/"
+},
+{
+"w": "opera house",
+"m": "歌剧院",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"opera house\" in the recording.",
+"ipa": "/ˈɑprə haʊs/"
+},
+{
+"w": "orientation day",
+"m": "导向日，迎新日",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"orientation day\" in the recording.",
+"ipa": "/ˌɔriɛnˈteɪʃən deɪ/"
+},
+{
+"w": "ought to",
+"m": "应该",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ought to\" in the recording.",
+"ipa": "/ɔt tɪ/"
+},
+{
+"w": "out of bounds",
+"m": "禁止入内的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"out of bounds\" in the recording.",
+"ipa": "/aʊt əv baʊndz/"
+},
+{
+"w": "out of order",
+"m": "发生故障",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"out of order\" in the recording.",
+"ipa": "/aʊt əv ˈɔrdər/"
+},
+{
+"w": "out of use",
+"m": "废弃",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"out of use\" in the recording.",
+"ipa": "/aʊt əv juz/"
+},
+{
+"w": "palm trees",
+"m": "棕榈树",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"palm trees\" in the recording.",
+"ipa": "/pɑm triz/"
+},
+{
+"w": "part of",
+"m": "一部分",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"part of\" in the recording.",
+"ipa": "/pɑrt əv/"
+},
+{
+"w": "permanent dwellings",
+"m": "永久住所",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"permanent dwellings\" in the recording.",
+"ipa": "/ˈpərmɑˌnɛnt dˈwɛlɪŋz/"
+},
+{
+"w": "personnel department",
+"m": "人事部门",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"personnel department\" in the recording.",
+"ipa": "/ˌpərsəˈnɛl dɪˈpɑrtmənt/"
+},
+{
+"w": "pick up",
+"m": "捡起，获得，（汽车、飞机）接",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"pick up\" in the recording.",
+"ipa": "/pɪk əp/"
+},
+{
+"w": "plastic bags",
+"m": "塑料袋",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"plastic bags\" in the recording.",
+"ipa": "/ˈplæstɪk bægz/"
+},
+{
+"w": "plate glass",
+"m": "平板玻璃",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"plate glass\" in the recording.",
+"ipa": "/pleɪt glæs/"
+},
+{
+"w": "police force",
+"m": "警察部队",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"police force\" in the recording.",
+"ipa": "/pəˈlis fɔrs/"
+},
+{
+"w": "primary school",
+"m": "小学",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"primary school\" in the recording.",
+"ipa": "/ˈpraɪˌmɛri skul/"
+},
+{
+"w": "rather than",
+"m": "而不是",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"rather than\" in the recording.",
+"ipa": "/ˈrəðər ðən/"
+},
+{
+"w": "raw materials",
+"m": "原材料",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"raw materials\" in the recording.",
+"ipa": "/rɑ məˈtɪriəlz/"
+},
+{
+"w": "reference number",
+"m": "参考号码",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"reference number\" in the recording.",
+"ipa": "/ˈrɛfərəns ˈnəmbər/"
+},
+{
+"w": "repair kit",
+"m": "修理包",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"repair kit\" in the recording.",
+"ipa": "/rɪˈpɛr kɪt/"
+},
+{
+"w": "research methods",
+"m": "研究方法",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"research methods\" in the recording.",
+"ipa": "/ˈrisərʧ ˈmɛθədz/"
+},
+{
+"w": "roam around",
+"m": "闲逛",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"roam around\" in the recording.",
+"ipa": "/roʊm əraʊnd/"
+},
+{
+"w": "rock salt",
+"m": "岩盐",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"rock salt\" in the recording.",
+"ipa": "/rɑk sɔlt/"
+},
+{
+"w": "round off",
+"m": "使圆满",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"round off\" in the recording.",
+"ipa": "/raʊnd ɔf/"
+},
+{
+"w": "run down",
+"m": "使…变弱",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"run down\" in the recording.",
+"ipa": "/rən daʊn/"
+},
+{
+"w": "run off",
+"m": "逃跑",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"run off\" in the recording.",
+"ipa": "/rən ɔf/"
+},
+{
+"w": "run out",
+"m": "耗尽",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"run out\" in the recording.",
+"ipa": "/rən aʊt/"
+},
+{
+"w": "run through",
+"m": "浏览",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"run through\" in the recording.",
+"ipa": "/rən θru/"
+},
+{
+"w": "rush hour",
+"m": "上下班高峰时期",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"rush hour\" in the recording.",
+"ipa": "/rəʃ aʊər/"
+},
+{
+"w": "safety hazard",
+"m": "安全危害",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"safety hazard\" in the recording.",
+"ipa": "/ˈseɪfti ˈhæzərd/"
+},
+{
+"w": "salad bar",
+"m": "沙拉吧",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"salad bar\" in the recording.",
+"ipa": "/ˈsæləd bɑr/"
+},
+{
+"w": "sample surveys",
+"m": "抽样调查",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"sample surveys\" in the recording.",
+"ipa": "/ˈsæmpəl ˈsərˌveɪz/"
+},
+{
+"w": "scored for",
+"m": "把改写成器乐曲",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"scored for\" in the recording.",
+"ipa": "/skɔrd fər/"
+},
+{
+"w": "sea levels",
+"m": "海平面",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"sea levels\" in the recording.",
+"ipa": "/si ˈlɛvəlz/"
+},
+{
+"w": "sea water",
+"m": "海水",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"sea water\" in the recording.",
+"ipa": "/si ˈwɔtər/"
+},
+{
+"w": "seem",
+"m": "似乎",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"seem\" in the recording.",
+"ipa": "/sim/"
+},
+{
+"w": "senior citizen",
+"m": "老年人",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"senior citizen\" in the recording.",
+"ipa": "/ˈsinjər ˈsɪtɪzən/"
+},
+{
+"w": "set up",
+"m": "建立",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"set up\" in the recording.",
+"ipa": "/sɛt əp/"
+},
+{
+"w": "shift awayfrom",
+"m": "把·移走",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"shift awayfrom\" in the recording."
+},
+{
+"w": "shuttle service",
+"m": "接送服务",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"shuttle service\" in the recording.",
+"ipa": "/ˈʃətəl ˈsərvɪs/"
+},
+{
+"w": "side effects",
+"m": "副作用",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"side effects\" in the recording.",
+"ipa": "/saɪd ˈifɛkts/"
+},
+{
+"w": "side road",
+"m": "辅路",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"side road\" in the recording.",
+"ipa": "/saɪd roʊd/"
+},
+{
+"w": "snail shells",
+"m": "蜗牛壳",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"snail shells\" in the recording.",
+"ipa": "/sneɪl ʃɛlz/"
+},
+{
+"w": "so far",
+"m": "到目前为止",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"so far\" in the recording.",
+"ipa": "/soʊ fɑr/"
+},
+{
+"w": "soapmakers",
+"m": "制皂商",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"soapmakers\" in the recording."
+},
+{
+"w": "social issues",
+"m": "社会问题",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"social issues\" in the recording.",
+"ipa": "/ˈsoʊʃəl ˈɪʃuz/"
+},
+{
+"w": "social justice",
+"m": "社会公正",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"social justice\" in the recording.",
+"ipa": "/ˈsoʊʃəl ˈʤəstɪs/"
+},
+{
+"w": "social network",
+"m": "社交网络",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"social network\" in the recording.",
+"ipa": "/ˈsoʊʃəl ˈnɛtˌwərk/"
+},
+{
+"w": "soft toys",
+"m": "毛绒玩具",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"soft toys\" in the recording.",
+"ipa": "/sɔft tɔɪz/"
+},
+{
+"w": "sort of",
+"m": "有几分地",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"sort of\" in the recording.",
+"ipa": "/sɔrt əv/"
+},
+{
+"w": "southeast",
+"m": "东南的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"southeast\" in the recording.",
+"ipa": "/ˌsaʊˈθist/"
+},
+{
+"w": "southwest",
+"m": "西南的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"southwest\" in the recording.",
+"ipa": "/ˌsaʊθˈwɛst/"
+},
+{
+"w": "spare keys",
+"m": "备用钥匙",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"spare keys\" in the recording.",
+"ipa": "/spɛr kiz/"
+},
+{
+"w": "specialise in",
+"m": "专门从事/经营",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"specialise in\" in the recording."
+},
+{
+"w": "sportscentre",
+"m": "运动中心",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"sportscentre\" in the recording."
+},
+{
+"w": "spotlight tour",
+"m": "观光游",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"spotlight tour\" in the recording.",
+"ipa": "/ˈspɑˌtlaɪt tʊr/"
+},
+{
+"w": "stand up for",
+"m": "支持，拥护",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"stand up for\" in the recording.",
+"ipa": "/stænd əp fər/"
+},
+{
+"w": "standard procedure",
+"m": "标准流程",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"standard procedure\" in the recording.",
+"ipa": "/ˈstændərd prəˈsiʤər/"
+},
+{
+"w": "starting point",
+"m": "起始点",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"starting point\" in the recording.",
+"ipa": "/ˈstɑrtɪŋ pɔɪnt/"
+},
+{
+"w": "stateroom",
+"m": "大厅",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"stateroom\" in the recording."
+},
+{
+"w": "straight line",
+"m": "直线",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"straight line\" in the recording.",
+"ipa": "/streɪt laɪn/"
+},
+{
+"w": "student loans",
+"m": "学生贷款",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"student loans\" in the recording.",
+"ipa": "/ˈstudənt loʊnz/"
+},
+{
+"w": "studio apartment",
+"m": "单房公寓",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"studio apartment\" in the recording.",
+"ipa": "/ˈstudiˌoʊ əˈpɑrtmənt/"
+},
+{
+"w": "such as",
+"m": "比如",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"such as\" in the recording.",
+"ipa": "/səʧ ɛz/"
+},
+{
+"w": "swimming pool",
+"m": "游泳池",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"swimming pool\" in the recording.",
+"ipa": "/sˈwɪmɪŋ pul/"
+},
+{
+"w": "take care",
+"m": "注意",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take care\" in the recording.",
+"ipa": "/teɪk kɛr/"
+},
+{
+"w": "take in",
+"m": "吸收，领会",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take in\" in the recording.",
+"ipa": "/teɪk ɪn/"
+},
+{
+"w": "take into account",
+"m": "考虑",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take into account\" in the recording.",
+"ipa": "/teɪk ˈɪntu əˈkaʊnt/"
+},
+{
+"w": "take over",
+"m": "接管",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take over\" in the recording.",
+"ipa": "/teɪk ˈoʊvər/"
+},
+{
+"w": "take part in",
+"m": "参加",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take part in\" in the recording.",
+"ipa": "/teɪk pɑrt ɪn/"
+},
+{
+"w": "take place",
+"m": "发生",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"take place\" in the recording.",
+"ipa": "/teɪk pleɪs/"
+},
+{
+"w": "teaching practice",
+"m": "教学实习",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"teaching practice\" in the recording.",
+"ipa": "/ˈtiʧɪŋ ˈpræktɪs/"
+},
+{
+"w": "team leaders",
+"m": "组长",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"team leaders\" in the recording.",
+"ipa": "/tim ˈlidərz/"
+},
+{
+"w": "tennis court",
+"m": "网球场",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"tennis court\" in the recording.",
+"ipa": "/ˈtɛnɪs kɔrt/"
+},
+{
+"w": "textbook allowance",
+"m": "教材津贴",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"textbook allowance\" in the recording.",
+"ipa": "/ˈtɛkstˌbʊk əˈlaʊəns/"
+},
+{
+"w": "the United Kingdom",
+"m": "英国",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"the United Kingdom\" in the recording.",
+"ipa": "/ðə juˈnaɪtɪd ˈkɪŋdəm/"
+},
+{
+"w": "thin films",
+"m": "薄膜",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"thin films\" in the recording.",
+"ipa": "/θɪn fɪlmz/"
+},
+{
+"w": "thousands of",
+"m": "无数",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"thousands of\" in the recording.",
+"ipa": "/ˈθaʊzənz əv/"
+},
+{
+"w": "ticket offce",
+"m": "售票处",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"ticket offce\" in the recording."
+},
+{
+"w": "time off",
+"m": "休假",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"time off\" in the recording.",
+"ipa": "/taɪm ɔf/"
+},
+{
+"w": "to be honest",
+"m": "老实说",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"to be honest\" in the recording.",
+"ipa": "/tɪ bi ˈɑnəst/"
+},
+{
+"w": "to some extent",
+"m": "在一定程度上",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"to some extent\" in the recording.",
+"ipa": "/tɪ səm ɪkˈstɛnt/"
+},
+{
+"w": "top seller",
+"m": "最畅销的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"top seller\" in the recording.",
+"ipa": "/tɔp ˈsɛlər/"
+},
+{
+"w": "tourist attractions",
+"m": "旅游景点",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"tourist attractions\" in the recording.",
+"ipa": "/ˈtʊrɪst əˈtrækʃənz/"
+},
+{
+"w": "trade secrets",
+"m": "商业机密",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"trade secrets\" in the recording.",
+"ipa": "/treɪd ˈsikrɪts/"
+},
+{
+"w": "trade winds",
+"m": "信风",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"trade winds\" in the recording.",
+"ipa": "/treɪd wɪndz/"
+},
+{
+"w": "travel agency",
+"m": "旅行社",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"travel agency\" in the recording.",
+"ipa": "/ˈtrævəl ˈeɪʤənsi/"
+},
+{
+"w": "trial session",
+"m": "试听课",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"trial session\" in the recording.",
+"ipa": "/traɪəl ˈsɛʃən/"
+},
+{
+"w": "up to",
+"m": "多达",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"up to\" in the recording.",
+"ipa": "/əp tɪ/"
+},
+{
+"w": "up to date",
+"m": "最新的",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"up to date\" in the recording.",
+"ipa": "/əp tɪ deɪt/"
+},
+{
+"w": "used to",
+"m": "过去常常",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"used to\" in the recording.",
+"ipa": "/juzd tɪ/"
+},
+{
+"w": "video clip",
+"m": "视频剪辑",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"video clip\" in the recording.",
+"ipa": "/ˈvɪdioʊ klɪp/"
+},
+{
+"w": "video surveillance",
+"m": "视频监控",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"video surveillance\" in the recording.",
+"ipa": "/ˈvɪdioʊ sərˈveɪləns/"
+},
+{
+"w": "virgin materials",
+"m": "纯料",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"virgin materials\" in the recording.",
+"ipa": "/ˈvərʤɪn məˈtɪriəlz/"
+},
+{
+"w": "virtual reality",
+"m": "虚拟现实（VR）",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"virtual reality\" in the recording.",
+"ipa": "/ˈvərʧuəl ˌriˈæləˌti/"
+},
+{
+"w": "volcanicash",
+"m": "火山灰",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"volcanicash\" in the recording."
+},
+{
+"w": "wanderaround",
+"m": "四处走动",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"wanderaround\" in the recording."
+},
+{
+"w": "weak verbs",
+"m": "弱动词",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"weak verbs\" in the recording.",
+"ipa": "/wik vərbz/"
+},
+{
+"w": "weather forecasting",
+"m": "天气预报",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"weather forecasting\" in the recording.",
+"ipa": "/ˈwɛðər ˈfɔrˌkæstɪŋ/"
+},
+{
+"w": "what sort of",
+"m": "哪种",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"what sort of\" in the recording.",
+"ipa": "/wət sɔrt əv/"
+},
+{
+"w": "work out",
+"m": "解决",
+"c": "雅思听力满分词汇: 高频短语",
+"x": "Listen for \"work out\" in the recording.",
+"ipa": "/wərk aʊt/"
+},
+{
+"w": "Antarctica",
+"m": "南极洲（arctic北极圈）",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"Antarctica\" in the recording.",
+"ipa": "/ˌæˈnɑrtɪkə/"
+},
+{
+"w": "antibiotics",
+"m": "抗生素",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"antibiotics\" in the recording.",
+"ipa": "/ˌæntibaɪˈɑtɪks/"
+},
+{
+"w": "autonomy",
+"m": "自治",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"autonomy\" in the recording.",
+"ipa": "/əˈtɑnəmi/"
+},
+{
+"w": "bicycle",
+"m": "自行车",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"bicycle\" in the recording.",
+"ipa": "/ˈbaɪsɪkəl/"
+},
+{
+"w": "bilingual",
+"m": "双语的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"bilingual\" in the recording.",
+"ipa": "/baɪˈlɪŋgwəl/"
+},
+{
+"w": "cooperate",
+"m": "合作",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"cooperate\" in the recording.",
+"ipa": "/kˈwɑpərˌeɪt/"
+},
+{
+"w": "co-existed",
+"m": "共存的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"co-existed\" in the recording."
+},
+{
+"w": "kilogram",
+"m": "干克",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"kilogram\" in the recording.",
+"ipa": "/ˈkɪləˌgræm/"
+},
+{
+"w": "kilometre",
+"m": "公里",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"kilometre\" in the recording.",
+"ipa": "/ˌkɪˈlɔˌmətər/"
+},
+{
+"w": "microscope",
+"m": "显微镜",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"microscope\" in the recording.",
+"ipa": "/ˈmaɪkrəˌskoʊp/"
+},
+{
+"w": "multitask",
+"m": "多任务",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"multitask\" in the recording.",
+"ipa": "/ˈməltiˌtæsk/"
+},
+{
+"w": "prehistoric",
+"m": "史前的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"prehistoric\" in the recording.",
+"ipa": "/ˌprihɪˈstɔrɪk/"
+},
+{
+"w": "preview",
+"m": "预览",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"preview\" in the recording.",
+"ipa": "/ˈprivˌju/"
+},
+{
+"w": "review",
+"m": "回顾",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"review\" in the recording.",
+"ipa": "/ˌrivˈju/"
+},
+{
+"w": "unlike",
+"m": "不像",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"unlike\" in the recording.",
+"ipa": "/ənˈlaɪk/"
+},
+{
+"w": "unpredictable",
+"m": "不可预知的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"unpredictable\" in the recording.",
+"ipa": "/ˌənprɪˈdɪktəbəl/"
+},
+{
+"w": "intolerant",
+"m": "不能忍的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"intolerant\" in the recording.",
+"ipa": "/ˌɪnˈtɑlərənt/"
+},
+{
+"w": "incredible",
+"m": "难以置信的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"incredible\" in the recording.",
+"ipa": "/ˌɪnˈkrɛdəbəl/"
+},
+{
+"w": "irresponsible",
+"m": "不负责的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"irresponsible\" in the recording.",
+"ipa": "/ˌɪrəˈspɑnsəbəl/"
+},
+{
+"w": "dissatisfied",
+"m": "不满意的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"dissatisfied\" in the recording.",
+"ipa": "/dɪˈsætəsˌfaɪd/"
+},
+{
+"w": "semiconductor",
+"m": "半导体",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"semiconductor\" in the recording.",
+"ipa": "/ˌsɛmɪkənˈdəktər/"
+},
+{
+"w": "miner",
+"m": "矿工",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"miner\" in the recording.",
+"ipa": "/ˈmaɪnər/"
+},
+{
+"w": "astronomer",
+"m": "天文学家",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"astronomer\" in the recording.",
+"ipa": "/əˈstrɑnəmər/"
+},
+{
+"w": "supervisor",
+"m": "管理员",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"supervisor\" in the recording.",
+"ipa": "/ˈsupərˌvaɪzər/"
+},
+{
+"w": "editor",
+"m": "编辑",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"editor\" in the recording.",
+"ipa": "/ˈɛdɪtər/"
+},
+{
+"w": "responsible",
+"m": "负责的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"responsible\" in the recording.",
+"ipa": "/riˈspɑnsəbəl/"
+},
+{
+"w": "preservation",
+"m": "保存",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"preservation\" in the recording.",
+"ipa": "/ˌprɛzərˈveɪʃən/"
+},
+{
+"w": "injection",
+"m": "注射",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"injection\" in the recording.",
+"ipa": "/ˌɪnˈʤɛkʃən/"
+},
+{
+"w": "remoteness",
+"m": "遥远",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"remoteness\" in the recording.",
+"ipa": "/riˈmoʊtnəs/"
+},
+{
+"w": "housing",
+"m": "房屋",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"housing\" in the recording.",
+"ipa": "/ˈhaʊzɪŋ/"
+},
+{
+"w": "preferred",
+"m": "优先的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"preferred\" in the recording.",
+"ipa": "/prɪˈfərd/"
+},
+{
+"w": "appointment",
+"m": "约定",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"appointment\" in the recording.",
+"ipa": "/əˈpɔɪntmənt/"
+},
+{
+"w": "exactly",
+"m": "恰好地",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"exactly\" in the recording.",
+"ipa": "/ɪgˈzæktli/"
+},
+{
+"w": "largely",
+"m": "主要地",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"largely\" in the recording.",
+"ipa": "/ˈlɑrʤli/"
+},
+{
+"w": "environmental",
+"m": "环境的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"environmental\" in the recording.",
+"ipa": "/ɪnˌvaɪrənˈmɛnəl/"
+},
+{
+"w": "novelist",
+"m": "小说家",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"novelist\" in the recording.",
+"ipa": "/ˈnɑvələst/"
+},
+{
+"w": "consumerism",
+"m": "用户至上主义",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"consumerism\" in the recording.",
+"ipa": "/kənˈsumərˌɪzəm/"
+},
+{
+"w": "realism",
+"m": "现实主义",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"realism\" in the recording.",
+"ipa": "/ˈriəlɪzm/"
+},
+{
+"w": "journalism",
+"m": "新闻业",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"journalism\" in the recording.",
+"ipa": "/ˈʤərnəˌlɪzəm/"
+},
+{
+"w": "useless",
+"m": "无用的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"useless\" in the recording.",
+"ipa": "/ˈjusləs/"
+},
+{
+"w": "fearless",
+"m": "无畏的",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"fearless\" in the recording.",
+"ipa": "/ˈfɪrləs/"
+},
+{
+"w": "friendship",
+"m": "友谊",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"friendship\" in the recording.",
+"ipa": "/ˈfrɛndʃɪp/"
+},
+{
+"w": "apprenticeship",
+"m": "学徒期",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"apprenticeship\" in the recording.",
+"ipa": "/əˈprɛntəsˌʃɪp/"
+},
+{
+"w": "membership",
+"m": "会员",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"membership\" in the recording.",
+"ipa": "/ˈmɛmbərˌʃɪp/"
+},
+{
+"w": "attendee",
+"m": "出席者",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"attendee\" in the recording.",
+"ipa": "/əˈtɛnˈdi/"
+},
+{
+"w": "employee",
+"m": "雇员",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"employee\" in the recording.",
+"ipa": "/ɪmˈplɔɪi/"
+},
+{
+"w": "politician",
+"m": "政客",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"politician\" in the recording.",
+"ipa": "/ˌpɑləˈtɪʃən/"
+},
+{
+"w": "magician",
+"m": "魔术师",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"magician\" in the recording.",
+"ipa": "/məˈʤɪʃən/"
+},
+{
+"w": "participant",
+"m": "参与者",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"participant\" in the recording.",
+"ipa": "/pɑrˈtɪsəpənt/"
+},
+{
+"w": "auditorium",
+"m": "礼堂",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"auditorium\" in the recording.",
+"ipa": "/ˌɔdəˈtɔriəm/"
+},
+{
+"w": "methodology",
+"m": "方法学",
+"c": "雅思听力满分词汇: 构词扩展",
+"x": "Listen for \"methodology\" in the recording.",
+"ipa": "/ˌmɛθəˈdɑləʤi/"
+},
+{
+"w": "bridges",
+"m": "桥",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bridges\" in the recording.",
+"ipa": "/ˈbrɪʤɪz/"
+},
+{
+"w": "light",
+"m": "光",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"light\" in the recording.",
+"ipa": "/laɪt/"
+},
+{
+"w": "garden",
+"m": "花园",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"garden\" in the recording.",
+"ipa": "/ˈgɑrdən/"
+},
+{
+"w": "wood",
+"m": "木材",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"wood\" in the recording.",
+"ipa": "/wʊd/"
+},
+{
+"w": "family",
+"m": "家庭",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"family\" in the recording.",
+"ipa": "/ˈfæməli/"
+},
+{
+"w": "park",
+"m": "公园",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"park\" in the recording.",
+"ipa": "/pɑrk/"
+},
+{
+"w": "space",
+"m": "空间",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"space\" in the recording.",
+"ipa": "/speɪs/"
+},
+{
+"w": "time",
+"m": "时间",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"time\" in the recording.",
+"ipa": "/taɪm/"
+},
+{
+"w": "engineer",
+"m": "工程师",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"engineer\" in the recording.",
+"ipa": "/ˈɛnʤəˈnɪr/"
+},
+{
+"w": "fire",
+"m": "火",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fire\" in the recording.",
+"ipa": "/faɪər/"
+},
+{
+"w": "market",
+"m": "市场",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"market\" in the recording.",
+"ipa": "/ˈmɑrkɪt/"
+},
+{
+"w": "silver",
+"m": "银",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"silver\" in the recording.",
+"ipa": "/ˈsɪlvər/"
+},
+{
+"w": "training",
+"m": "训练",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"training\" in the recording.",
+"ipa": "/ˈtreɪnɪŋ/"
+},
+{
+"w": "waterfall",
+"m": "瀑布",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"waterfall\" in the recording.",
+"ipa": "/ˈwɔtərˌfɔl/"
+},
+{
+"w": "colour",
+"m": "颜色",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"colour\" in the recording.",
+"ipa": "/ˈkələr/"
+},
+{
+"w": "depth",
+"m": "深度",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"depth\" in the recording.",
+"ipa": "/dɛpθ/"
+},
+{
+"w": "flat",
+"m": "公寓",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"flat\" in the recording.",
+"ipa": "/flæt/"
+},
+{
+"w": "glass",
+"m": "玻璃",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"glass\" in the recording.",
+"ipa": "/glæs/"
+},
+{
+"w": "hall",
+"m": "大厅",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hall\" in the recording.",
+"ipa": "/hɔl/"
+},
+{
+"w": "June",
+"m": "六月",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"June\" in the recording.",
+"ipa": "/ʤun/"
+},
+{
+"w": "license",
+"m": "执照",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"license\" in the recording.",
+"ipa": "/ˈlaɪsəns/"
+},
+{
+"w": "lunch",
+"m": "午餐",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"lunch\" in the recording.",
+"ipa": "/lənʧ/"
+},
+{
+"w": "technology",
+"m": "技术",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"technology\" in the recording.",
+"ipa": "/tɛkˈnɑləʤi/"
+},
+{
+"w": "village",
+"m": "村庄",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"village\" in the recording.",
+"ipa": "/ˈvɪlɪʤ/"
+},
+{
+"w": "website",
+"m": "网站",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"website\" in the recording.",
+"ipa": "/ˈwɛbˌsaɪt/"
+},
+{
+"w": "writing",
+"m": "写作",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"writing\" in the recording.",
+"ipa": "/ˈraɪtɪŋ/"
+},
+{
+"w": "action",
+"m": "行动",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"action\" in the recording.",
+"ipa": "/ˈækʃən/"
+},
+{
+"w": "age",
+"m": "年龄",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"age\" in the recording.",
+"ipa": "/eɪʤ/"
+},
+{
+"w": "art",
+"m": "艺术",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"art\" in the recording.",
+"ipa": "/ɑrt/"
+},
+{
+"w": "attitude",
+"m": "态度",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"attitude\" in the recording.",
+"ipa": "/ˈætəˌtud/"
+},
+{
+"w": "blues",
+"m": "蓝色",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"blues\" in the recording.",
+"ipa": "/bluz/"
+},
+{
+"w": "breathing",
+"m": "呼吸",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"breathing\" in the recording.",
+"ipa": "/ˈbriðɪŋ/"
+},
+{
+"w": "candles",
+"m": "蜡烛",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"candles\" in the recording.",
+"ipa": "/ˈkændəlz/"
+},
+{
+"w": "castle",
+"m": "城堡",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"castle\" in the recording.",
+"ipa": "/ˈkæsəl/"
+},
+{
+"w": "culture",
+"m": "文化",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"culture\" in the recording.",
+"ipa": "/ˈkəlʧər/"
+},
+{
+"w": "efficiency",
+"m": "效率",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"efficiency\" in the recording.",
+"ipa": "/ɪˈfɪʃənsi/"
+},
+{
+"w": "family photo",
+"m": "家庭照片",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"family photo\" in the recording.",
+"ipa": "/ˈfæməli ˈfoʊˌtoʊ/"
+},
+{
+"w": "farm",
+"m": "农场",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"farm\" in the recording.",
+"ipa": "/fɑrm/"
+},
+{
+"w": "fertilizer",
+"m": "肥料",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fertilizer\" in the recording.",
+"ipa": "/ˈfərtəˌlaɪzər/"
+},
+{
+"w": "helmet",
+"m": "头盔",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"helmet\" in the recording.",
+"ipa": "/ˈhɛlmət/"
+},
+{
+"w": "house",
+"m": "房子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"house\" in the recording.",
+"ipa": "/haʊs/"
+},
+{
+"w": "income",
+"m": "收入",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"income\" in the recording.",
+"ipa": "/ˈɪnˌkəm/"
+},
+{
+"w": "jobs",
+"m": "工作",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"jobs\" in the recording.",
+"ipa": "/ʤɑbz/"
+},
+{
+"w": "larger",
+"m": "更大",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"larger\" in the recording.",
+"ipa": "/ˈlɑrʤər/"
+},
+{
+"w": "liquid",
+"m": "液体",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"liquid\" in the recording.",
+"ipa": "/ˈlɪkwɪd/"
+},
+{
+"w": "location",
+"m": "位置",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"location\" in the recording.",
+"ipa": "/loʊˈkeɪʃən/"
+},
+{
+"w": "lock",
+"m": "锁",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"lock\" in the recording.",
+"ipa": "/lɑk/"
+},
+{
+"w": "moderate",
+"m": "中等的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"moderate\" in the recording.",
+"ipa": "/ˈmɑdərˌeɪt/"
+},
+{
+"w": "museum",
+"m": "博物馆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"museum\" in the recording.",
+"ipa": "/mˈjuziəm/"
+},
+{
+"w": "pools",
+"m": "水池",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"pools\" in the recording.",
+"ipa": "/pulz/"
+},
+{
+"w": "printer",
+"m": "打印机",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"printer\" in the recording.",
+"ipa": "/ˈprɪnər/"
+},
+{
+"w": "river",
+"m": "河流",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"river\" in the recording.",
+"ipa": "/ˈrɪvər/"
+},
+{
+"w": "ship",
+"m": "船",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ship\" in the recording.",
+"ipa": "/ʃɪp/"
+},
+{
+"w": "supermarket",
+"m": "超市",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"supermarket\" in the recording.",
+"ipa": "/ˈsupərˌmɑrkɪt/"
+},
+{
+"w": "tastes",
+"m": "味道",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"tastes\" in the recording.",
+"ipa": "/teɪsts/"
+},
+{
+"w": "walking boots",
+"m": "步行靴",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"walking boots\" in the recording.",
+"ipa": "/ˈwɔkɪŋ buts/"
+},
+{
+"w": "April",
+"m": "四月",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"April\" in the recording.",
+"ipa": "/ˈeɪprəl/"
+},
+{
+"w": "beach",
+"m": "海滩",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"beach\" in the recording.",
+"ipa": "/biʧ/"
+},
+{
+"w": "communication",
+"m": "交流",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"communication\" in the recording.",
+"ipa": "/kəmˌjunəˈkeɪʃən/"
+},
+{
+"w": "laboratories",
+"m": "（原形",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"laboratories\" in the recording.",
+"ipa": "/ˈlæbrəˌtɔriz/"
+},
+{
+"w": "streets",
+"m": "街道",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"streets\" in the recording.",
+"ipa": "/strits/"
+},
+{
+"w": "cold drinks",
+"m": "冷饮",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cold drinks\" in the recording.",
+"ipa": "/koʊld drɪŋks/"
+},
+{
+"w": "concert hall",
+"m": "音乐厅",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"concert hall\" in the recording.",
+"ipa": "/ˈkɑnsərt hɔl/"
+},
+{
+"w": "conference centre",
+"m": "会议中心",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"conference centre\" in the recording.",
+"ipa": "/ˈkɑnfərəns ˈsɛntər/"
+},
+{
+"w": "journal",
+"m": "日报",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"journal\" in the recording.",
+"ipa": "/ˈʤərnəl/"
+},
+{
+"w": "phone",
+"m": "电话",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"phone\" in the recording.",
+"ipa": "/foʊn/"
+},
+{
+"w": "promotion",
+"m": "提升",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"promotion\" in the recording.",
+"ipa": "/pərˈmoʊʃən/"
+},
+{
+"w": "undergraduates",
+"m": "本科生",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"undergraduates\" in the recording.",
+"ipa": "/ˌəndərˈgræʤəwəts/"
+},
+{
+"w": "way",
+"m": "道路",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"way\" in the recording.",
+"ipa": "/weɪ/"
+},
+{
+"w": "accident",
+"m": "意外",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"accident\" in the recording.",
+"ipa": "/ˈæksədənt/"
+},
+{
+"w": "acid",
+"m": "酸的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"acid\" in the recording.",
+"ipa": "/ˈæsəd/"
+},
+{
+"w": "advertising",
+"m": "广告",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"advertising\" in the recording.",
+"ipa": "/ˈædvərˌtaɪzɪŋ/"
+},
+{
+"w": "affordable",
+"m": "负担得起的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"affordable\" in the recording.",
+"ipa": "/əˈfɔrdəbəl/"
+},
+{
+"w": "agricultural",
+"m": "农业的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"agricultural\" in the recording.",
+"ipa": "/ˌægrɪˈkəlʧərəl/"
+},
+{
+"w": "air-conditioning",
+"m": "空调系统",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"air-conditioning\" in the recording.",
+"ipa": "/ˈɛrkənˌdɪʃənɪŋ/"
+},
+{
+"w": "application",
+"m": "应用",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"application\" in the recording.",
+"ipa": "/ˌæpləˈkeɪʃən/"
+},
+{
+"w": "Baked Earth",
+"m": "干裂的地球",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Baked Earth\" in the recording.",
+"ipa": "/beɪkt ərθ/"
+},
+{
+"w": "behaviours",
+"m": "行为",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"behaviours\" in the recording.",
+"ipa": "/bɪˈheɪvjərz/"
+},
+{
+"w": "bike",
+"m": "自行车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bike\" in the recording.",
+"ipa": "/baɪk/"
+},
+{
+"w": "breakfast",
+"m": "早餐",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"breakfast\" in the recording.",
+"ipa": "/ˈbrɛkfəst/"
+},
+{
+"w": "building",
+"m": "建筑",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"building\" in the recording.",
+"ipa": "/ˈbɪldɪŋ/"
+},
+{
+"w": "buses",
+"m": "公交",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"buses\" in the recording.",
+"ipa": "/ˈbəsɪz/"
+},
+{
+"w": "butterflies",
+"m": "（原形butterfly）蝴蝶",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"butterflies\" in the recording.",
+"ipa": "/ˈbətərˌflaɪz/"
+},
+{
+"w": "camera",
+"m": "相机",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"camera\" in the recording.",
+"ipa": "/ˈkæmərə/"
+},
+{
+"w": "campus",
+"m": "校园",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"campus\" in the recording.",
+"ipa": "/ˈkæmpəs/"
+},
+{
+"w": "changing room",
+"m": "更衣室",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"changing room\" in the recording.",
+"ipa": "/ˈʧeɪnʤɪŋ rum/"
+},
+{
+"w": "choosing",
+"m": "选择",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"choosing\" in the recording.",
+"ipa": "/ˈʧuzɪŋ/"
+},
+{
+"w": "client engineer",
+"m": "客户端工程师",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"client engineer\" in the recording.",
+"ipa": "/klaɪənt ˈɛnʤəˈnɪr/"
+},
+{
+"w": "climbing",
+"m": "爬山",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"climbing\" in the recording.",
+"ipa": "/ˈklaɪmɪŋ/"
+},
+{
+"w": "coconut",
+"m": "椰子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"coconut\" in the recording.",
+"ipa": "/ˈkoʊkəˌnət/"
+},
+{
+"w": "comparison",
+"m": "比较",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"comparison\" in the recording.",
+"ipa": "/kəmˈpɛrəsən/"
+},
+{
+"w": "concentrated",
+"m": "浓缩的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"concentrated\" in the recording.",
+"ipa": "/ˈkɔnsənˌtreɪtɪd/"
+},
+{
+"w": "confirmation",
+"m": "批准",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"confirmation\" in the recording.",
+"ipa": "/ˌkɑnfərˈmeɪʃən/"
+},
+{
+"w": "connected",
+"m": "有联系的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"connected\" in the recording.",
+"ipa": "/kəˈnɛktɪd/"
+},
+{
+"w": "corn",
+"m": "谷物",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"corn\" in the recording.",
+"ipa": "/kɔrn/"
+},
+{
+"w": "crimes",
+"m": "犯罪",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"crimes\" in the recording.",
+"ipa": "/kraɪmz/"
+},
+{
+"w": "deposit",
+"m": "押金",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"deposit\" in the recording.",
+"ipa": "/dɪˈpɑzət/"
+},
+{
+"w": "display",
+"m": "陈列",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"display\" in the recording.",
+"ipa": "/dɪˈspleɪ/"
+},
+{
+"w": "dreams",
+"m": "梦",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"dreams\" in the recording.",
+"ipa": "/drimz/"
+},
+{
+"w": "eggs",
+"m": "蛋",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"eggs\" in the recording.",
+"ipa": "/ɛgz/"
+},
+{
+"w": "employee first",
+"m": "员工优先",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"employee first\" in the recording.",
+"ipa": "/ɪmˈplɔɪi fərst/"
+},
+{
+"w": "evening",
+"m": "晚上",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"evening\" in the recording.",
+"ipa": "/ˈivnɪŋ/"
+},
+{
+"w": "false horizon",
+"m": "假的地平线",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"false horizon\" in the recording.",
+"ipa": "/fɔls hərˈaɪzən/"
+},
+{
+"w": "farming",
+"m": "农业",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"farming\" in the recording.",
+"ipa": "/ˈfɑrmɪŋ/"
+},
+{
+"w": "festival",
+"m": "节日",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"festival\" in the recording.",
+"ipa": "/ˈfɛstɪvəl/"
+},
+{
+"w": "forest",
+"m": "森林",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"forest\" in the recording.",
+"ipa": "/ˈfɔrɪst/"
+},
+{
+"w": "freezing",
+"m": "冷冻的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"freezing\" in the recording.",
+"ipa": "/ˈfrizɪŋ/"
+},
+{
+"w": "fun",
+"m": "乐趣",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fun\" in the recording.",
+"ipa": "/fən/"
+},
+{
+"w": "grass",
+"m": "草",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"grass\" in the recording.",
+"ipa": "/græs/"
+},
+{
+"w": "guest",
+"m": "客人",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"guest\" in the recording.",
+"ipa": "/gɛst/"
+},
+{
+"w": "guidelines",
+"m": "指导方针",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"guidelines\" in the recording.",
+"ipa": "/ˈgaɪˌdlaɪnz/"
+},
+{
+"w": "handout",
+"m": "散发材料",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"handout\" in the recording.",
+"ipa": "/ˈhænˌdaʊt/"
+},
+{
+"w": "heater",
+"m": "加热器",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"heater\" in the recording.",
+"ipa": "/ˈhitər/"
+},
+{
+"w": "hot buffet",
+"m": "热菜",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hot buffet\" in the recording.",
+"ipa": "/hɑt ˈbəfət/"
+},
+{
+"w": "hotel",
+"m": "旅馆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hotel\" in the recording.",
+"ipa": "/hoʊˈtɛl/"
+},
+{
+"w": "hurricane",
+"m": "飓风",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hurricane\" in the recording.",
+"ipa": "/ˈhərəˌkeɪnz/"
+},
+{
+"w": "ice",
+"m": "冰",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ice\" in the recording.",
+"ipa": "/aɪs/"
+},
+{
+"w": "internal website",
+"m": "内部网站",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"internal website\" in the recording.",
+"ipa": "/ˌɪnˈtərnəl ˈwɛbˌsaɪt/"
+},
+{
+"w": "law",
+"m": "法律",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"law\" in the recording.",
+"ipa": "/lɔ/"
+},
+{
+"w": "learner",
+"m": "初学者",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"learner\" in the recording.",
+"ipa": "/ˈlərnər/"
+},
+{
+"w": "learning",
+"m": "学习",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"learning\" in the recording.",
+"ipa": "/ˈlərnɪŋ/"
+},
+{
+"w": "long stick",
+"m": "长棍",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"long stick\" in the recording.",
+"ipa": "/lɔŋ stɪk/"
+},
+{
+"w": "machinery",
+"m": "机械",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"machinery\" in the recording.",
+"ipa": "/məˈʃinəri/"
+},
+{
+"w": "marketing",
+"m": "市场宣传",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"marketing\" in the recording.",
+"ipa": "/ˈmɑrkətɪŋ/"
+},
+{
+"w": "meeting",
+"m": "回忆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"meeting\" in the recording.",
+"ipa": "/ˈmitɪŋ/"
+},
+{
+"w": "method",
+"m": "方法",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"method\" in the recording.",
+"ipa": "/ˈmɛθəd/"
+},
+{
+"w": "mirrors",
+"m": "镜子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"mirrors\" in the recording.",
+"ipa": "/ˈmɪrərz/"
+},
+{
+"w": "mistake",
+"m": "错误",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"mistake\" in the recording.",
+"ipa": "/mɪˈsteɪk/"
+},
+{
+"w": "monthly",
+"m": "按月地",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"monthly\" in the recording.",
+"ipa": "/ˈmənθli/"
+},
+{
+"w": "movement",
+"m": "运动",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"movement\" in the recording.",
+"ipa": "/ˈmuvmənt/"
+},
+{
+"w": "mushroom",
+"m": "蘑菇",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"mushroom\" in the recording.",
+"ipa": "/ˈməʃrum/"
+},
+{
+"w": "myth",
+"m": "神话",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"myth\" in the recording.",
+"ipa": "/mɪθ/"
+},
+{
+"w": "names",
+"m": "名字",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"names\" in the recording.",
+"ipa": "/neɪmz/"
+},
+{
+"w": "oil",
+"m": "油",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"oil\" in the recording.",
+"ipa": "/ɔɪl/"
+},
+{
+"w": "outdoor",
+"m": "户外的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"outdoor\" in the recording.",
+"ipa": "/ˈaʊtˌdɔr/"
+},
+{
+"w": "personal",
+"m": "个人的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"personal\" in the recording.",
+"ipa": "/ˈpərsɪnəl/"
+},
+{
+"w": "picture",
+"m": "照片",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"picture\" in the recording.",
+"ipa": "/ˈpɪkʧər/"
+},
+{
+"w": "plan",
+"m": "平面图",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"plan\" in the recording.",
+"ipa": "/plæn/"
+},
+{
+"w": "planning",
+"m": "规划",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"planning\" in the recording.",
+"ipa": "/ˈplænɪŋ/"
+},
+{
+"w": "post",
+"m": "邮递",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"post\" in the recording.",
+"ipa": "/poʊst/"
+},
+{
+"w": "privacy",
+"m": "隐私",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"privacy\" in the recording.",
+"ipa": "/ˈpraɪvəsi/"
+},
+{
+"w": "reading",
+"m": "阅读",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"reading\" in the recording.",
+"ipa": "/ˈrɛdɪŋ/"
+},
+{
+"w": "report",
+"m": "报告",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"report\" in the recording.",
+"ipa": "/rɪˈpɔrt/"
+},
+{
+"w": "sailing",
+"m": "航行",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sailing\" in the recording.",
+"ipa": "/ˈseɪlɪŋ/"
+},
+{
+"w": "salary",
+"m": "薪水",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"salary\" in the recording.",
+"ipa": "/ˈsæləri/"
+},
+{
+"w": "sleep",
+"m": "睡眠",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sleep\" in the recording.",
+"ipa": "/slip/"
+},
+{
+"w": "software",
+"m": "软件",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"software\" in the recording.",
+"ipa": "/ˈsɔfˌwɛr/"
+},
+{
+"w": "strategies",
+"m": "（原形strategy）策略",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"strategies\" in the recording.",
+"ipa": "/ˈstrætəʤiz/"
+},
+{
+"w": "sunglasses",
+"m": "太阳镜",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sunglasses\" in the recording.",
+"ipa": "/ˈsənˌglæsɪz/"
+},
+{
+"w": "sweetener",
+"m": "甜味剂",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sweetener\" in the recording.",
+"ipa": "/sˈwitənər/"
+},
+{
+"w": "switched off",
+"m": "（用开关）关掉",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"switched off\" in the recording.",
+"ipa": "/swɪʧt ɔf/"
+},
+{
+"w": "tanks",
+"m": "大容器",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"tanks\" in the recording.",
+"ipa": "/tæŋks/"
+},
+{
+"w": "teaching",
+"m": "教学",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"teaching\" in the recording.",
+"ipa": "/ˈtiʧɪŋ/"
+},
+{
+"w": "testing",
+"m": "测试",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"testing\" in the recording.",
+"ipa": "/ˈtɛstɪŋ/"
+},
+{
+"w": "textures",
+"m": "材质",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"textures\" in the recording.",
+"ipa": "/ˈtɛksʧərz/"
+},
+{
+"w": "theme architecture",
+"m": "主题建筑",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"theme architecture\" in the recording.",
+"ipa": "/θim ˈɑrkəˌtɛkʧər/"
+},
+{
+"w": "top",
+"m": "顶部",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"top\" in the recording.",
+"ipa": "/tɔp/"
+},
+{
+"w": "train",
+"m": "火车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"train\" in the recording.",
+"ipa": "/treɪn/"
+},
+{
+"w": "travelling",
+"m": "旅行",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"travelling\" in the recording.",
+"ipa": "/ˈtrævəlɪŋ/"
+},
+{
+"w": "uncontrolled",
+"m": "不受控制的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"uncontrolled\" in the recording.",
+"ipa": "/ˌənkənˈtroʊld/"
+},
+{
+"w": "varies",
+"m": "（原形vary）变化",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"varies\" in the recording.",
+"ipa": "/ˈvɛriz/"
+},
+{
+"w": "warning",
+"m": "警告",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"warning\" in the recording.",
+"ipa": "/ˈwɔrnɪŋ/"
+},
+{
+"w": "West Lake",
+"m": "西湖",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"West Lake\" in the recording.",
+"ipa": "/wɛst leɪk/"
+},
+{
+"w": "wildlife",
+"m": "野生动植物",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"wildlife\" in the recording.",
+"ipa": "/ˈwaɪlˌdlaɪf/"
+},
+{
+"w": "window",
+"m": "窗",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"window\" in the recording.",
+"ipa": "/ˈwɪndoʊ/"
+},
+{
+"w": "woodland",
+"m": "林地",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"woodland\" in the recording.",
+"ipa": "/ˈwʊˌdlænd/"
+},
+{
+"w": "workshop",
+"m": "工坊",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"workshop\" in the recording.",
+"ipa": "/ˈwərkˌʃɑp/"
+},
+{
+"w": "young children",
+"m": "年轻小孩",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"young children\" in the recording.",
+"ipa": "/jəŋ ˈʧɪldrən/"
+},
+{
+"w": "accents",
+"m": "口音",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"accents\" in the recording.",
+"ipa": "/ˈæksɛnts/"
+},
+{
+"w": "access",
+"m": "通道",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"access\" in the recording.",
+"ipa": "/ˈækˌsɛs/"
+},
+{
+"w": "ads",
+"m": "广告",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ads\" in the recording.",
+"ipa": "/ædz/"
+},
+{
+"w": "apartment",
+"m": "公寓",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"apartment\" in the recording.",
+"ipa": "/əˈpɑrtmənt/"
+},
+{
+"w": "apology",
+"m": "道歉",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"apology\" in the recording.",
+"ipa": "/əˈpɑləˌʤi/"
+},
+{
+"w": "ash",
+"m": "灰烬",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ash\" in the recording.",
+"ipa": "/æʃ/"
+},
+{
+"w": "Australia",
+"m": "澳大利亚",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Australia\" in the recording.",
+"ipa": "/ɔˈstreɪljə/"
+},
+{
+"w": "back door",
+"m": "后门",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"back door\" in the recording.",
+"ipa": "/bæk dɔr/"
+},
+{
+"w": "back problem",
+"m": "背部问题",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"back problem\" in the recording.",
+"ipa": "/bæk ˈprɑbləm/"
+},
+{
+"w": "bank statements",
+"m": "银行对账单",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bank statements\" in the recording.",
+"ipa": "/bæŋk ˈsteɪtmənts/"
+},
+{
+"w": "beach soccer",
+"m": "沙滩足球",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"beach soccer\" in the recording.",
+"ipa": "/biʧ ˈsɑkər/"
+},
+{
+"w": "bicycles",
+"m": "自行车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bicycles\" in the recording.",
+"ipa": "/ˈbaɪsɪkəlz/"
+},
+{
+"w": "bins",
+"m": "箱子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bins\" in the recording.",
+"ipa": "/bɪnz/"
+},
+{
+"w": "boards",
+"m": "板",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"boards\" in the recording.",
+"ipa": "/bɔrdz/"
+},
+{
+"w": "brushes",
+"m": "画笔",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"brushes\" in the recording.",
+"ipa": "/ˈbrəʃɪz/"
+},
+{
+"w": "bucket",
+"m": "桶",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bucket\" in the recording.",
+"ipa": "/ˈbəkɪt/"
+},
+{
+"w": "bus stops",
+"m": "公交站",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"bus stops\" in the recording.",
+"ipa": "/bəs stɑps/"
+},
+{
+"w": "business management",
+"m": "商务管理",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"business management\" in the recording.",
+"ipa": "/ˈbɪznɪs ˈmænɪʤmənt/"
+},
+{
+"w": "calculator",
+"m": "计算器",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"calculator\" in the recording.",
+"ipa": "/ˈkælkjəˌleɪtər/"
+},
+{
+"w": "camp",
+"m": "露营",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"camp\" in the recording.",
+"ipa": "/kæmp/"
+},
+{
+"w": "car",
+"m": "汽车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"car\" in the recording.",
+"ipa": "/kɑr/"
+},
+{
+"w": "cargo",
+"m": "货物",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cargo\" in the recording.",
+"ipa": "/ˈkɑrˌgoʊ/"
+},
+{
+"w": "carpet",
+"m": "地毯",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"carpet\" in the recording.",
+"ipa": "/ˈkɑrpət/"
+},
+{
+"w": "cave",
+"m": "洞穴",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cave\" in the recording.",
+"ipa": "/keɪv/"
+},
+{
+"w": "central",
+"m": "中央的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"central\" in the recording.",
+"ipa": "/ˈsɛntrəl/"
+},
+{
+"w": "ceremony",
+"m": "典礼",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ceremony\" in the recording.",
+"ipa": "/ˈsɛrəˌmoʊni/"
+},
+{
+"w": "character",
+"m": "特性",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"character\" in the recording.",
+"ipa": "/ˈkɛrɪktər/"
+},
+{
+"w": "chemist",
+"m": "化学家",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"chemist\" in the recording.",
+"ipa": "/ˈkɛmɪst/"
+},
+{
+"w": "cheaper and efficient",
+"m": "更便宜而有效的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cheaper and efficient\" in the recording.",
+"ipa": "/ˈʧipər ənd ɪˈfɪʃənt/"
+},
+{
+"w": "chemistry lab",
+"m": "化学实验室",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"chemistry lab\" in the recording.",
+"ipa": "/ˈkɛmɪstri læb/"
+},
+{
+"w": "Chinese",
+"m": "中国（人）的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Chinese\" in the recording.",
+"ipa": "/ʧaɪˈniz/"
+},
+{
+"w": "chocolate",
+"m": "巧克力",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"chocolate\" in the recording.",
+"ipa": "/ˈʧɔklət/"
+},
+{
+"w": "circles",
+"m": "圆圈",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"circles\" in the recording.",
+"ipa": "/ˈsərkəlz/"
+},
+{
+"w": "city council",
+"m": "市议会",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"city council\" in the recording.",
+"ipa": "/ˈsɪti ˈkaʊnsəl/"
+},
+{
+"w": "class",
+"m": "班级",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"class\" in the recording.",
+"ipa": "/klæs/"
+},
+{
+"w": "cleaning",
+"m": "清洁",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cleaning\" in the recording.",
+"ipa": "/ˈklinɪŋ/"
+},
+{
+"w": "client",
+"m": "客户",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"client\" in the recording.",
+"ipa": "/klaɪənt/"
+},
+{
+"w": "clothing",
+"m": "服装",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"clothing\" in the recording.",
+"ipa": "/ˈkloʊðɪŋ/"
+},
+{
+"w": "combination",
+"m": "联合",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"combination\" in the recording.",
+"ipa": "/ˌkɑmbəˈneɪʃən/"
+},
+{
+"w": "common",
+"m": "通常",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"common\" in the recording.",
+"ipa": "/ˈkɑmən/"
+},
+{
+"w": "company",
+"m": "公司",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"company\" in the recording.",
+"ipa": "/ˈkəmpəˌni/"
+},
+{
+"w": "computing",
+"m": "计算机技术",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"computing\" in the recording.",
+"ipa": "/kəmˈpjutɪŋ/"
+},
+{
+"w": "concentration",
+"m": "集中",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"concentration\" in the recording.",
+"ipa": "/ˌkɑnsənˈtreɪʃən/"
+},
+{
+"w": "confidence",
+"m": "自信",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"confidence\" in the recording.",
+"ipa": "/ˈkɑnfədɛns/"
+},
+{
+"w": "contexts",
+"m": "上下文",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"contexts\" in the recording.",
+"ipa": "/ˈkɑnˌtɛksts/"
+},
+{
+"w": "cooking",
+"m": "烹饪",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cooking\" in the recording.",
+"ipa": "/ˈkʊkɪŋ/"
+},
+{
+"w": "countryside living",
+"m": "乡村生活",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"countryside living\" in the recording.",
+"ipa": "/ˈkəntriˌsaɪd ˈlɪvɪŋ/"
+},
+{
+"w": "cousin",
+"m": "堂（表）兄弟姐妹",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cousin\" in the recording.",
+"ipa": "/ˈkəzən/"
+},
+{
+"w": "crowded",
+"m": "拥挤的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"crowded\" in the recording.",
+"ipa": "/ˈkraʊdɪd/"
+},
+{
+"w": "current",
+"m": "流",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"current\" in the recording.",
+"ipa": "/ˈkɑrənt/"
+},
+{
+"w": "cycling",
+"m": "骑车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"cycling\" in the recording.",
+"ipa": "/ˈsaɪkəlɪŋ/"
+},
+{
+"w": "dance",
+"m": "舞蹈",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"dance\" in the recording.",
+"ipa": "/dæns/"
+},
+{
+"w": "dancing",
+"m": "跳舞",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"dancing\" in the recording.",
+"ipa": "/ˈdænsɪŋ/"
+},
+{
+"w": "danger",
+"m": "危险",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"danger\" in the recording.",
+"ipa": "/ˈdeɪnʤər/"
+},
+{
+"w": "date",
+"m": "日期",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"date\" in the recording.",
+"ipa": "/deɪt/"
+},
+{
+"w": "decoration",
+"m": "装饰",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"decoration\" in the recording.",
+"ipa": "/ˌdɛkərˈeɪʃən/"
+},
+{
+"w": "democratic",
+"m": "民主的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"democratic\" in the recording.",
+"ipa": "/ˌdɛməˈkrætɪk/"
+},
+{
+"w": "design",
+"m": "设计",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"design\" in the recording.",
+"ipa": "/dɪˈzaɪn/"
+},
+{
+"w": "digestive",
+"m": "消化的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"digestive\" in the recording.",
+"ipa": "/daɪˈʤɛstɪv/"
+},
+{
+"w": "dinner",
+"m": "晚餐",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"dinner\" in the recording.",
+"ipa": "/ˈdɪnər/"
+},
+{
+"w": "disappear",
+"m": "消失",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"disappear\" in the recording.",
+"ipa": "/ˌdɪsəˈpɪr/"
+},
+{
+"w": "distorted",
+"m": "歪曲的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"distorted\" in the recording.",
+"ipa": "/dɪˈstɔrtɪd/"
+},
+{
+"w": "diving",
+"m": "潜水",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"diving\" in the recording.",
+"ipa": "/ˈdaɪvɪŋ/"
+},
+{
+"w": "doctor",
+"m": "医生",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"doctor\" in the recording.",
+"ipa": "/ˈdɔktər/"
+},
+{
+"w": "donation",
+"m": "捐款",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"donation\" in the recording.",
+"ipa": "/doʊˈneɪʃən/"
+},
+{
+"w": "double",
+"m": "两倍的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"double\" in the recording.",
+"ipa": "/ˈdəbəl/"
+},
+{
+"w": "double room",
+"m": "双人间",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"double room\" in the recording.",
+"ipa": "/ˈdəbəl rum/"
+},
+{
+"w": "dressing",
+"m": "穿着",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"dressing\" in the recording.",
+"ipa": "/ˈdrɛsɪŋ/"
+},
+{
+"w": "drink milk",
+"m": "喝牛奶",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"drink milk\" in the recording.",
+"ipa": "/drɪŋk mɪlk/"
+},
+{
+"w": "driver",
+"m": "司机",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"driver\" in the recording.",
+"ipa": "/ˈdraɪvər/"
+},
+{
+"w": "driving licence",
+"m": "驾驶执照",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"driving licence\" in the recording.",
+"ipa": "/ˈdraɪvɪŋ ˈlaɪsəns/"
+},
+{
+"w": "durable",
+"m": "耐用的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"durable\" in the recording.",
+"ipa": "/ˈdʊrəbəl/"
+},
+{
+"w": "electronics",
+"m": "电子学",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"electronics\" in the recording.",
+"ipa": "/ˌɪˌlɛkˈtrɑnɪks/"
+},
+{
+"w": "emotion",
+"m": "情绪",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"emotion\" in the recording.",
+"ipa": "/ˈiˌmoʊʃən/"
+},
+{
+"w": "emotional",
+"m": "情绪的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"emotional\" in the recording.",
+"ipa": "/ˈiˌmoʊʃənəl/"
+},
+{
+"w": "environment",
+"m": "环境",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"environment\" in the recording.",
+"ipa": "/ɪnˈvaɪrənmənt/"
+},
+{
+"w": "error",
+"m": "错误",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"error\" in the recording.",
+"ipa": "/ˈɛrər/"
+},
+{
+"w": "essay writing",
+"m": "论文写作",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"essay writing\" in the recording.",
+"ipa": "/ˈɛˌseɪ ˈraɪtɪŋ/"
+},
+{
+"w": "expectation",
+"m": "期待",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"expectation\" in the recording.",
+"ipa": "/ˌɛkspɛkˈteɪʃən/"
+},
+{
+"w": "experiences",
+"m": "经历",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"experiences\" in the recording.",
+"ipa": "/ɪkˈspɪriənsɪz/"
+},
+{
+"w": "experiment",
+"m": "实验",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"experiment\" in the recording.",
+"ipa": "/ɪkˈspɛrəmənt/"
+},
+{
+"w": "export routes",
+"m": "出口航线",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"export routes\" in the recording.",
+"ipa": "/ˈɛkspɔrt rʊts/"
+},
+{
+"w": "fabric",
+"m": "布料",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fabric\" in the recording.",
+"ipa": "/ˈfæbrɪk/"
+},
+{
+"w": "factory",
+"m": "工厂",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"factory\" in the recording.",
+"ipa": "/ˈfæktəri/"
+},
+{
+"w": "facts",
+"m": "事实",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"facts\" in the recording.",
+"ipa": "/fækts/"
+},
+{
+"w": "fear",
+"m": "恐惧",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fear\" in the recording.",
+"ipa": "/fɪr/"
+},
+{
+"w": "field",
+"m": "旷野",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"field\" in the recording.",
+"ipa": "/fild/"
+},
+{
+"w": "files",
+"m": "文件",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"files\" in the recording.",
+"ipa": "/faɪlz/"
+},
+{
+"w": "film",
+"m": "电影",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"film\" in the recording.",
+"ipa": "/fɪlm/"
+},
+{
+"w": "fish cakes",
+"m": "炸鱼饼",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"fish cakes\" in the recording.",
+"ipa": "/fɪʃ keɪks/"
+},
+{
+"w": "floated",
+"m": "漂浮的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"floated\" in the recording.",
+"ipa": "/ˈfloʊtɪd/"
+},
+{
+"w": "flu",
+"m": "流感",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"flu\" in the recording.",
+"ipa": "/flu/"
+},
+{
+"w": "food prices",
+"m": "粮食价格",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"food prices\" in the recording.",
+"ipa": "/fud ˈpraɪsɪz/"
+},
+{
+"w": "French",
+"m": "法语",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"French\" in the recording.",
+"ipa": "/frɛnʧ/"
+},
+{
+"w": "Friday evening",
+"m": "周五晚上",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Friday evening\" in the recording.",
+"ipa": "/ˈfraɪˌdeɪ ˈivnɪŋ/"
+},
+{
+"w": "game",
+"m": "游戏",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"game\" in the recording.",
+"ipa": "/geɪm/"
+},
+{
+"w": "gas",
+"m": "气体",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"gas\" in the recording.",
+"ipa": "/gæs/"
+},
+{
+"w": "genetic",
+"m": "遗传的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"genetic\" in the recording.",
+"ipa": "/ʤəˈnɛtɪk/"
+},
+{
+"w": "guess",
+"m": "假设",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"guess\" in the recording.",
+"ipa": "/gɛs/"
+},
+{
+"w": "handle",
+"m": "把手",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"handle\" in the recording.",
+"ipa": "/ˈhændəl/"
+},
+{
+"w": "harbour",
+"m": "港口",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"harbour\" in the recording.",
+"ipa": "/ˈhɑrbər/"
+},
+{
+"w": "heated",
+"m": "热的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"heated\" in the recording.",
+"ipa": "/ˈhitɪd/"
+},
+{
+"w": "higher",
+"m": "更高的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"higher\" in the recording.",
+"ipa": "/haɪər/"
+},
+{
+"w": "hot meal",
+"m": "热餐",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hot meal\" in the recording.",
+"ipa": "/hɑt mil/"
+},
+{
+"w": "hurt",
+"m": "伤害",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"hurt\" in the recording.",
+"ipa": "/hərt/"
+},
+{
+"w": "identification",
+"m": "鉴定",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"identification\" in the recording.",
+"ipa": "/aɪˌdɛntəfəˈkeɪʃən/"
+},
+{
+"w": "immune",
+"m": "免疫的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"immune\" in the recording.",
+"ipa": "/ˌɪmˈjun/"
+},
+{
+"w": "insurance company",
+"m": "保险公司",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"insurance company\" in the recording.",
+"ipa": "/ˌɪnˈʃʊrəns ˈkəmpəˌni/"
+},
+{
+"w": "kindness",
+"m": "好意",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"kindness\" in the recording.",
+"ipa": "/ˈkaɪndnəs/"
+},
+{
+"w": "know",
+"m": "知道",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"know\" in the recording.",
+"ipa": "/noʊ/"
+},
+{
+"w": "ladder",
+"m": "阶梯",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ladder\" in the recording.",
+"ipa": "/ˈlædər/"
+},
+{
+"w": "landscape",
+"m": "风景",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"landscape\" in the recording.",
+"ipa": "/ˈlænˌskeɪp/"
+},
+{
+"w": "large-scale",
+"m": "大规模的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"large-scale\" in the recording.",
+"ipa": "/ˈlɑrʤˌskeɪl/"
+},
+{
+"w": "letter",
+"m": "信",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"letter\" in the recording.",
+"ipa": "/ˈlɛtər/"
+},
+{
+"w": "undergraduate",
+"m": "生命科学专业本科生",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"undergraduate\" in the recording.",
+"ipa": "/ˌəndərˈgræʤəwət/"
+},
+{
+"w": "lifting",
+"m": "举起",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"lifting\" in the recording.",
+"ipa": "/ˈlɪftɪŋ/"
+},
+{
+"w": "local artists",
+"m": "当地艺术家",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"local artists\" in the recording.",
+"ipa": "/ˈloʊkəl ˈɑrtɪsts/"
+},
+{
+"w": "locker",
+"m": "储物柜",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"locker\" in the recording.",
+"ipa": "/ˈlɑkər/"
+},
+{
+"w": "logic",
+"m": "逻辑",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"logic\" in the recording.",
+"ipa": "/ˈlɑʤɪk/"
+},
+{
+"w": "long",
+"m": "长的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"long\" in the recording.",
+"ipa": "/lɔŋ/"
+},
+{
+"w": "Long Beach",
+"m": "长滩",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Long Beach\" in the recording.",
+"ipa": "/lɔŋ biʧ/"
+},
+{
+"w": "manufacturing",
+"m": "制造",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"manufacturing\" in the recording.",
+"ipa": "/ˌmænjəˈfækʧərɪŋ/"
+},
+{
+"w": "Mars",
+"m": "火星",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Mars\" in the recording.",
+"ipa": "/mɑrz/"
+},
+{
+"w": "massage",
+"m": "按摩",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"massage\" in the recording.",
+"ipa": "/məˈsɑʒ/"
+},
+{
+"w": "math",
+"m": "数学",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"math\" in the recording.",
+"ipa": "/mæθ/"
+},
+{
+"w": "May",
+"m": "五月",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"May\" in the recording.",
+"ipa": "/meɪ/"
+},
+{
+"w": "middle street",
+"m": "中街",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"middle street\" in the recording.",
+"ipa": "/ˈmɪdəl strit/"
+},
+{
+"w": "migration patterns",
+"m": "迁徙模式",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"migration patterns\" in the recording.",
+"ipa": "/maɪˈgreɪʃən ˈpætərnz/"
+},
+{
+"w": "million",
+"m": "百万",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"million\" in the recording.",
+"ipa": "/ˈmɪljən/"
+},
+{
+"w": "mining",
+"m": "矿业",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"mining\" in the recording.",
+"ipa": "/ˈmaɪnɪŋ/"
+},
+{
+"w": "monuments",
+"m": "纪念碑",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"monuments\" in the recording.",
+"ipa": "/ˈmɑnjəmənts/"
+},
+{
+"w": "multiple tasks",
+"m": "多任务",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"multiple tasks\" in the recording.",
+"ipa": "/ˈməltəpəl tæsks/"
+},
+{
+"w": "name",
+"m": "名字",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"name\" in the recording.",
+"ipa": "/neɪm/"
+},
+{
+"w": "native animals",
+"m": "本土动物",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"native animals\" in the recording.",
+"ipa": "/ˈneɪtɪv ˈænəməlz/"
+},
+{
+"w": "navigational",
+"m": "航行的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"navigational\" in the recording.",
+"ipa": "/ˌnævəˈgeɪʃənəl/"
+},
+{
+"w": "negative thinking",
+"m": "负面思维",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"negative thinking\" in the recording.",
+"ipa": "/ˈnɛgətɪv ˈθɪŋkɪŋ/"
+},
+{
+"w": "nest",
+"m": "巢穴",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"nest\" in the recording.",
+"ipa": "/nɛst/"
+},
+{
+"w": "nesting",
+"m": "筑巢",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"nesting\" in the recording.",
+"ipa": "/ˈnɛstɪŋ/"
+},
+{
+"w": "new car",
+"m": "新车",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"new car\" in the recording.",
+"ipa": "/nu kɑr/"
+},
+{
+"w": "new facts",
+"m": "新事实",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"new facts\" in the recording.",
+"ipa": "/nu fækts/"
+},
+{
+"w": "north gate",
+"m": "北门",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"north gate\" in the recording.",
+"ipa": "/nɔrθ geɪt/"
+},
+{
+"w": "noticeboard",
+"m": "布告栏",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"noticeboard\" in the recording."
+},
+{
+"w": "nut",
+"m": "坚果",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"nut\" in the recording.",
+"ipa": "/nət/"
+},
+{
+"w": "observation",
+"m": "观察",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"observation\" in the recording.",
+"ipa": "/ˌɑbzərˈveɪʃən/"
+},
+{
+"w": "oldest",
+"m": "最老的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"oldest\" in the recording.",
+"ipa": "/ˈoʊldəst/"
+},
+{
+"w": "organic",
+"m": "有机的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"organic\" in the recording.",
+"ipa": "/ɔrˈgænɪk/"
+},
+{
+"w": "orientation",
+"m": "（任职等前的）培训",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"orientation\" in the recording.",
+"ipa": "/ˌɔriɛnˈteɪʃən/"
+},
+{
+"w": "painting",
+"m": "油画",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"painting\" in the recording.",
+"ipa": "/ˈpeɪnɪŋ/"
+},
+{
+"w": "paper",
+"m": "纸",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"paper\" in the recording.",
+"ipa": "/ˈpeɪpər/"
+},
+{
+"w": "paper napkins",
+"m": "餐巾纸",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"paper napkins\" in the recording.",
+"ipa": "/ˈpeɪpər ˈnæpkɪnz/"
+},
+{
+"w": "part",
+"m": "部分",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"part\" in the recording.",
+"ipa": "/pɑrt/"
+},
+{
+"w": "partner",
+"m": "合伙人",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"partner\" in the recording.",
+"ipa": "/ˈpɑrtnər/"
+},
+{
+"w": "part-time",
+"m": "兼职的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"part-time\" in the recording.",
+"ipa": "/ˈpɑrtˈtaɪm/"
+},
+{
+"w": "password",
+"m": "密码",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"password\" in the recording.",
+"ipa": "/ˈpæsˌwərd/"
+},
+{
+"w": "peak season",
+"m": "旺季",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"peak season\" in the recording.",
+"ipa": "/pik ˈsizən/"
+},
+{
+"w": "personal information",
+"m": "个人信息",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"personal information\" in the recording.",
+"ipa": "/ˈpərsɪnəl ˌɪnˌfɔrˈmeɪʃən/"
+},
+{
+"w": "petrol stations",
+"m": "加油站",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"petrol stations\" in the recording.",
+"ipa": "/ˈpɛtroʊl ˈsteɪʃənz/"
+},
+{
+"w": "phone interviews",
+"m": "电话面试",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"phone interviews\" in the recording.",
+"ipa": "/foʊn ˈɪntərvˌjuz/"
+},
+{
+"w": "phone number",
+"m": "电话号码",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"phone number\" in the recording.",
+"ipa": "/foʊn ˈnəmbər/"
+},
+{
+"w": "photo",
+"m": "照片",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"photo\" in the recording.",
+"ipa": "/ˈfoʊˌtoʊ/"
+},
+{
+"w": "plant species",
+"m": "物种类",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"plant species\" in the recording.",
+"ipa": "/plænt ˈspiʃiz/"
+},
+{
+"w": "post office",
+"m": "邮局",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"post office\" in the recording.",
+"ipa": "/poʊst ˈɔfəs/"
+},
+{
+"w": "poster",
+"m": "海报",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"poster\" in the recording.",
+"ipa": "/ˈpoʊstər/"
+},
+{
+"w": "pottery",
+"m": "陶器",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"pottery\" in the recording.",
+"ipa": "/ˈpɑtəri/"
+},
+{
+"w": "powder",
+"m": "粉末",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"powder\" in the recording.",
+"ipa": "/ˈpaʊdər/"
+},
+{
+"w": "power",
+"m": "能量",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"power\" in the recording.",
+"ipa": "/paʊər/"
+},
+{
+"w": "present",
+"m": "现在；礼物",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"present\" in the recording.",
+"ipa": "/ˈprɛzənt/"
+},
+{
+"w": "printing",
+"m": "印刷",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"printing\" in the recording.",
+"ipa": "/ˈprɪnɪŋ/"
+},
+{
+"w": "private company",
+"m": "私人公司",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"private company\" in the recording.",
+"ipa": "/ˈpraɪvət ˈkəmpəˌni/"
+},
+{
+"w": "problem solving",
+"m": "解决问题",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"problem solving\" in the recording.",
+"ipa": "/ˈprɑbləm ˈsɑlvɪŋ/"
+},
+{
+"w": "producers",
+"m": "生产者",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"producers\" in the recording.",
+"ipa": "/prəˈdusərz/"
+},
+{
+"w": "profit",
+"m": "利益",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"profit\" in the recording.",
+"ipa": "/ˈprɑfɪt/"
+},
+{
+"w": "program",
+"m": "项目",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"program\" in the recording.",
+"ipa": "/ˈproʊˌgræm/"
+},
+{
+"w": "publishing",
+"m": "出版业",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"publishing\" in the recording.",
+"ipa": "/ˈpəblɪʃɪŋ/"
+},
+{
+"w": "pump",
+"m": "泵",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"pump\" in the recording.",
+"ipa": "/pəmp/"
+},
+{
+"w": "purpose",
+"m": "目的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"purpose\" in the recording.",
+"ipa": "/ˈpərpəs/"
+},
+{
+"w": "race",
+"m": "竞赛",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"race\" in the recording.",
+"ipa": "/reɪs/"
+},
+{
+"w": "raining",
+"m": "下雨",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"raining\" in the recording.",
+"ipa": "/ˈreɪnɪŋ/"
+},
+{
+"w": "rare trees",
+"m": "珍稀树木",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"rare trees\" in the recording.",
+"ipa": "/rɛr triz/"
+},
+{
+"w": "rats",
+"m": "鼠",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"rats\" in the recording.",
+"ipa": "/ræts/"
+},
+{
+"w": "recording",
+"m": "录音",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"recording\" in the recording.",
+"ipa": "/rɪˈkɔrdɪŋ/"
+},
+{
+"w": "recycled",
+"m": "回收利用的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"recycled\" in the recording.",
+"ipa": "/riˈsaɪkəld/"
+},
+{
+"w": "reference",
+"m": "参考书目",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"reference\" in the recording.",
+"ipa": "/ˈrɛfərəns/"
+},
+{
+"w": "regulation",
+"m": "规则",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"regulation\" in the recording.",
+"ipa": "/ˌrɛgjəˈleɪʃən/"
+},
+{
+"w": "relationship",
+"m": "关系",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"relationship\" in the recording.",
+"ipa": "/riˈleɪʃənˌʃɪp/"
+},
+{
+"w": "relatives",
+"m": "亲属",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"relatives\" in the recording.",
+"ipa": "/ˈrɛlətɪvz/"
+},
+{
+"w": "relocation",
+"m": "重新安置",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"relocation\" in the recording.",
+"ipa": "/ˌriˈloʊˈkeɪʃən/"
+},
+{
+"w": "repairs",
+"m": "修理",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"repairs\" in the recording.",
+"ipa": "/rɪˈpɛrz/"
+},
+{
+"w": "reproduction",
+"m": "繁殖",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"reproduction\" in the recording.",
+"ipa": "/ˌriprəˈdəkʃən/"
+},
+{
+"w": "restaurant",
+"m": "餐厅",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"restaurant\" in the recording.",
+"ipa": "/ˈrɛˌstrɑnt/"
+},
+{
+"w": "risk",
+"m": "风险",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"risk\" in the recording.",
+"ipa": "/rɪsk/"
+},
+{
+"w": "rose",
+"m": "玫瑰",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"rose\" in the recording.",
+"ipa": "/roʊz/"
+},
+{
+"w": "Russia",
+"m": "俄罗斯",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Russia\" in the recording.",
+"ipa": "/ˈrəʃə/"
+},
+{
+"w": "safety regulation",
+"m": "安全规则",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"safety regulation\" in the recording.",
+"ipa": "/ˈseɪfti ˌrɛgjəˈleɪʃən/"
+},
+{
+"w": "saliva",
+"m": "唾液",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"saliva\" in the recording.",
+"ipa": "/səˈlaɪvə/"
+},
+{
+"w": "sandwich",
+"m": "三明治",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sandwich\" in the recording.",
+"ipa": "/ˈsænwɪʧ/"
+},
+{
+"w": "screens",
+"m": "屏幕",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"screens\" in the recording.",
+"ipa": "/skrinz/"
+},
+{
+"w": "science mechanism",
+"m": "科学机制",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"science mechanism\" in the recording.",
+"ipa": "/saɪəns ˈmɛkəˌnɪzəm/"
+},
+{
+"w": "seat",
+"m": "座",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"seat\" in the recording.",
+"ipa": "/sit/"
+},
+{
+"w": "self-centred",
+"m": "自我为中心的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"self-centred\" in the recording."
+},
+{
+"w": "seminar",
+"m": "研讨会",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"seminar\" in the recording.",
+"ipa": "/ˈsɛməˌnɑr/"
+},
+{
+"w": "sentence",
+"m": "句子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sentence\" in the recording.",
+"ipa": "/ˈsɛntəns/"
+},
+{
+"w": "senior staff",
+"m": "高级职员",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"senior staff\" in the recording.",
+"ipa": "/ˈsinjər stæf/"
+},
+{
+"w": "service manager",
+"m": "服务部经理",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"service manager\" in the recording.",
+"ipa": "/ˈsərvɪs ˈmænɪʤər/"
+},
+{
+"w": "ship bell",
+"m": "船上的报时钟",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"ship bell\" in the recording.",
+"ipa": "/ʃɪp bɛl/"
+},
+{
+"w": "shipping",
+"m": "船运",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"shipping\" in the recording.",
+"ipa": "/ˈʃɪpɪŋ/"
+},
+{
+"w": "short talk",
+"m": "简短发言",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"short talk\" in the recording.",
+"ipa": "/ʃɔrt tɔk/"
+},
+{
+"w": "shorter",
+"m": "更短的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"shorter\" in the recording.",
+"ipa": "/ˈʃɔrtər/"
+},
+{
+"w": "side",
+"m": "方面",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"side\" in the recording.",
+"ipa": "/saɪd/"
+},
+{
+"w": "sing",
+"m": "唱歌",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sing\" in the recording.",
+"ipa": "/sɪŋ/"
+},
+{
+"w": "singer",
+"m": "歌手",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"singer\" in the recording.",
+"ipa": "/ˈsɪŋər/"
+},
+{
+"w": "singing",
+"m": "唱歌",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"singing\" in the recording.",
+"ipa": "/ˈsɪŋɪŋ/"
+},
+{
+"w": "sloping",
+"m": "倾斜的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sloping\" in the recording.",
+"ipa": "/sˈloʊpɪŋ/"
+},
+{
+"w": "snack",
+"m": "零食",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"snack\" in the recording.",
+"ipa": "/snæk/"
+},
+{
+"w": "snake",
+"m": "蛇",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"snake\" in the recording.",
+"ipa": "/sneɪk/"
+},
+{
+"w": "snowboarding",
+"m": "滑板滑雪",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"snowboarding\" in the recording."
+},
+{
+"w": "sociable",
+"m": "社交的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sociable\" in the recording.",
+"ipa": "/ˈsoʊʃəbəl/"
+},
+{
+"w": "social impact",
+"m": "社会影响",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"social impact\" in the recording.",
+"ipa": "/ˈsoʊʃəl ˌɪmˈpækt/"
+},
+{
+"w": "soft",
+"m": "软的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"soft\" in the recording.",
+"ipa": "/sɔft/"
+},
+{
+"w": "solution",
+"m": "解决方案",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"solution\" in the recording.",
+"ipa": "/səˈluʃən/"
+},
+{
+"w": "soup",
+"m": "汤",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"soup\" in the recording.",
+"ipa": "/sup/"
+},
+{
+"w": "sour",
+"m": "酸的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sour\" in the recording.",
+"ipa": "/saʊər/"
+},
+{
+"w": "southern Scotland",
+"m": "苏格兰南部",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"southern Scotland\" in the recording.",
+"ipa": "/ˈsəðərn ˈskɑtlənd/"
+},
+{
+"w": "Space Museum",
+"m": "太空馆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"Space Museum\" in the recording.",
+"ipa": "/speɪs mˈjuziəm/"
+},
+{
+"w": "special party hats",
+"m": "派对专用帽子",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"special party hats\" in the recording.",
+"ipa": "/ˈspɛʃəl ˈpɑrti hæts/"
+},
+{
+"w": "sports hall",
+"m": "体育馆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sports hall\" in the recording.",
+"ipa": "/spɔrts hɔl/"
+},
+{
+"w": "stickers",
+"m": "贴纸",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"stickers\" in the recording.",
+"ipa": "/ˈstɪkərz/"
+},
+{
+"w": "sticky",
+"m": "黏的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sticky\" in the recording.",
+"ipa": "/ˈstɪki/"
+},
+{
+"w": "stimulating",
+"m": "刺激",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"stimulating\" in the recording.",
+"ipa": "/ˈstɪmjəˌleɪtɪŋ/"
+},
+{
+"w": "storage space",
+"m": "储存空间",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"storage space\" in the recording.",
+"ipa": "/ˈstɔrɪʤ speɪs/"
+},
+{
+"w": "store",
+"m": "仓库",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"store\" in the recording.",
+"ipa": "/stɔr/"
+},
+{
+"w": "structure",
+"m": "框架",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"structure\" in the recording.",
+"ipa": "/ˈstrəkʧər/"
+},
+{
+"w": "student",
+"m": "学生",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"student\" in the recording.",
+"ipa": "/ˈstudənt/"
+},
+{
+"w": "subtopics",
+"m": "小标题",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"subtopics\" in the recording."
+},
+{
+"w": "summer",
+"m": "夏季",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"summer\" in the recording.",
+"ipa": "/ˈsəmər/"
+},
+{
+"w": "sun cream",
+"m": "防晒霜",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"sun cream\" in the recording.",
+"ipa": "/sən krim/"
+},
+{
+"w": "surveys",
+"m": "调查",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"surveys\" in the recording.",
+"ipa": "/ˈsərˌveɪz/"
+},
+{
+"w": "swans",
+"m": "天鹅",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"swans\" in the recording.",
+"ipa": "/swɔnz/"
+},
+{
+"w": "table",
+"m": "桌子的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"table\" in the recording.",
+"ipa": "/ˈteɪbəl/"
+},
+{
+"w": "team",
+"m": "队伍",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"team\" in the recording.",
+"ipa": "/tim/"
+},
+{
+"w": "technician",
+"m": "技术员",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"technician\" in the recording.",
+"ipa": "/tɛkˈnɪʃən/"
+},
+{
+"w": "telephones",
+"m": "电话",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"telephones\" in the recording.",
+"ipa": "/ˈtɛləˌfoʊnz/"
+},
+{
+"w": "threat",
+"m": "威胁",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"threat\" in the recording.",
+"ipa": "/θrɛt/"
+},
+{
+"w": "top roof",
+"m": "顶棚",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"top roof\" in the recording.",
+"ipa": "/tɔp rʊf/"
+},
+{
+"w": "train station",
+"m": "火车站",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"train station\" in the recording.",
+"ipa": "/treɪn ˈsteɪʃən/"
+},
+{
+"w": "transport methods",
+"m": "运输方法",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"transport methods\" in the recording.",
+"ipa": "/ˈtrænspɔrt ˈmɛθədz/"
+},
+{
+"w": "TV",
+"m": "电视",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"TV\" in the recording.",
+"ipa": "/ˌtɛləˈvɪʒən/"
+},
+{
+"w": "transport museum",
+"m": "交通博物馆",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"transport museum\" in the recording.",
+"ipa": "/ˈtrænspɔrt mˈjuziəm/"
+},
+{
+"w": "tree climbing",
+"m": "爬树",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"tree climbing\" in the recording.",
+"ipa": "/tri ˈklaɪmɪŋ/"
+},
+{
+"w": "unanswered questions",
+"m": "未解问题",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"unanswered questions\" in the recording.",
+"ipa": "/ˌəˈnænsərd kˈwɛsʧənz/"
+},
+{
+"w": "unimportant",
+"m": "不重要的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"unimportant\" in the recording.",
+"ipa": "/ənɪmˈpɔrtənt/"
+},
+{
+"w": "urban area",
+"m": "城市地区",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"urban area\" in the recording.",
+"ipa": "/ˈərbən ˈɛriə/"
+},
+{
+"w": "variety",
+"m": "多样化",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"variety\" in the recording.",
+"ipa": "/vərˈaɪəti/"
+},
+{
+"w": "vegetable burger",
+"m": "蔬菜堡",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"vegetable burger\" in the recording.",
+"ipa": "/ˈvɛʤtəbəl ˈbərgər/"
+},
+{
+"w": "waiter",
+"m": "服务员",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"waiter\" in the recording.",
+"ipa": "/ˈweɪtər/"
+},
+{
+"w": "wars",
+"m": "战争",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"wars\" in the recording.",
+"ipa": "/wɔrz/"
+},
+{
+"w": "watering",
+"m": "浇水",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"watering\" in the recording.",
+"ipa": "/ˈwɔtərɪŋ/"
+},
+{
+"w": "wealthy people",
+"m": "富人",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"wealthy people\" in the recording.",
+"ipa": "/ˈwɛlθi ˈpipəl/"
+},
+{
+"w": "weekend",
+"m": "周末",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"weekend\" in the recording.",
+"ipa": "/ˈwiˌkɪnd/"
+},
+{
+"w": "whales",
+"m": "鲸鱼",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"whales\" in the recording.",
+"ipa": "/weɪlz/"
+},
+{
+"w": "white mountain",
+"m": "白山",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"white mountain\" in the recording.",
+"ipa": "/waɪt ˈmaʊntən/"
+},
+{
+"w": "window shade",
+"m": "百叶窗",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"window shade\" in the recording.",
+"ipa": "/ˈwɪndoʊ ʃeɪd/"
+},
+{
+"w": "wooden",
+"m": "木质的",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"wooden\" in the recording.",
+"ipa": "/ˈwʊdən/"
+},
+{
+"w": "work",
+"m": "工作",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"work\" in the recording.",
+"ipa": "/wərk/"
+},
+{
+"w": "writers",
+"m": "作家",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"writers\" in the recording.",
+"ipa": "/ˈraɪtərz/"
+},
+{
+"w": "yoga",
+"m": "瑜伽",
+"c": "雅思听力满分词汇: 机经高频词汇",
+"x": "Listen for \"yoga\" in the recording.",
+"ipa": "/ˈjoʊgə/"
+},
+{
+"w": "(re)build(ing) = (re)construct(ion)",
+"m": "建造",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"(re)build(ing)\" may be heard as \"(re)construct(ion)\"."
+},
+{
+"w": "(un)important = (in)significant",
+"m": "(不)重要的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"(un)important\" may be heard as \"(in)significant\"."
+},
+{
+"w": "a couple of = two",
+"m": "一对",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"a couple of\" may be heard as \"two\"."
+},
+{
+"w": "a sign of = evidence of",
+"m": "迹象/证据",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"a sign of\" may be heard as \"evidence of\"."
+},
+{
+"w": "a small number of = a few",
+"m": "少量",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"a small number of\" may be heard as \"a few\"."
+},
+{
+"w": "about = approximately = around",
+"m": "大约",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"about\" may be heard as \"approximately\"."
+},
+{
+"w": "advantage = benefit",
+"m": "好处",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"advantage\" may be heard as \"benefit\"."
+},
+{
+"w": "aid = help",
+"m": "帮助",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"aid\" may be heard as \"help\"."
+},
+{
+"w": "alarm = warning",
+"m": "警告",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"alarm\" may be heard as \"warning\"."
+},
+{
+"w": "almost = nearly",
+"m": "差不多",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"almost\" may be heard as \"nearly\"."
+},
+{
+"w": "along = parallel",
+"m": "沿着/并行",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"along\" may be heard as \"parallel\"."
+},
+{
+"w": "altogether = in total",
+"m": "总共",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"altogether\" may be heard as \"in total\"."
+},
+{
+"w": "and = as well as = also",
+"m": "也",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"and\" may be heard as \"as well as\"."
+},
+{
+"w": "appear = seem",
+"m": "似乎",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"appear\" may be heard as \"seem\"."
+},
+{
+"w": "at first = initial",
+"m": "起初",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"at first\" may be heard as \"initial\"."
+},
+{
+"w": "attached = fixed",
+"m": "固定上",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"attached\" may be heard as \"fixed\"."
+},
+{
+"w": "available = accessible",
+"m": "可获得的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"available\" may be heard as \"accessible\"."
+},
+{
+"w": "begin = start",
+"m": "开始",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"begin\" may be heard as \"start\"."
+},
+{
+"w": "behind = at the back",
+"m": "后面",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"behind\" may be heard as \"at the back\"."
+},
+{
+"w": "better = superior = improved",
+"m": "优秀的/更好的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"better\" may be heard as \"superior\"."
+},
+{
+"w": "bicycles = bikes",
+"m": "自行车",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"bicycles\" may be heard as \"bikes\"."
+},
+{
+"w": "bus system = routes",
+"m": "公交系统/路线",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"bus system\" may be heard as \"routes\"."
+},
+{
+"w": "childcare = babysitting",
+"m": "儿童照管",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"childcare\" may be heard as \"babysitting\"."
+},
+{
+"w": "chilled = cold",
+"m": "冷的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"chilled\" may be heard as \"cold\"."
+},
+{
+"w": "classes = lessons",
+"m": "课程",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"classes\" may be heard as \"lessons\"."
+},
+{
+"w": "clear = definitive",
+"m": "明确的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"clear\" may be heard as \"definitive\"."
+},
+{
+"w": "coastline = shore",
+"m": "海岸",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"coastline\" may be heard as \"shore\"."
+},
+{
+"w": "colour = tint = dye",
+"m": "染色",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"colour\" may be heard as \"tint\"."
+},
+{
+"w": "complete = finish",
+"m": "完成",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"complete\" may be heard as \"finish\"."
+},
+{
+"w": "computer = laptop",
+"m": "电脑",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"computer\" may be heard as \"laptop\"."
+},
+{
+"w": "concept = sense",
+"m": "观念",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"concept\" may be heard as \"sense\"."
+},
+{
+"w": "connect = link",
+"m": "连接",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"connect\" may be heard as \"link\"."
+},
+{
+"w": "convenient = handy",
+"m": "方便的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"convenient\" may be heard as \"handy\"."
+},
+{
+"w": "copy = duplicate",
+"m": "复制",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"copy\" may be heard as \"duplicate\"."
+},
+{
+"w": "cover = include",
+"m": "包括",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"cover\" may be heard as \"include\"."
+},
+{
+"w": "cross = walk through = go over",
+"m": "穿过",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"cross\" may be heard as \"walk through\"."
+},
+{
+"w": "current(ly) = (at) present = (right) now",
+"m": "现在的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"current(ly)\" may be heard as \"(at) present\"."
+},
+{
+"w": "damage = destroy",
+"m": "损坏",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"damage\" may be heard as \"destroy\"."
+},
+{
+"w": "deal with = cope with",
+"m": "处理",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"deal with\" may be heard as \"cope with\"."
+},
+{
+"w": "demonstration = display = exhibition = show",
+"m": "展示",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"demonstration\" may be heard as \"display\"."
+},
+{
+"w": "depend on = rely on",
+"m": "依赖",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"depend on\" may be heard as \"rely on\"."
+},
+{
+"w": "direct = first-hand",
+"m": "直接的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"direct\" may be heard as \"first-hand\"."
+},
+{
+"w": "disruptions = interrupted",
+"m": "中断",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"disruptions\" may be heard as \"interrupted\"."
+},
+{
+"w": "disused = empty",
+"m": "闲置的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"disused\" may be heard as \"empty\"."
+},
+{
+"w": "diversity = variation = variety",
+"m": "多样性",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"diversity\" may be heard as \"variation\"."
+},
+{
+"w": "doubled = twice",
+"m": "两倍",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"doubled\" may be heard as \"twice\"."
+},
+{
+"w": "drop in = falling",
+"m": "下降",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"drop in\" may be heard as \"falling\"."
+},
+{
+"w": "each = every = per",
+"m": "每",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"each\" may be heard as \"every\"."
+},
+{
+"w": "easy = simple",
+"m": "容易",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"easy\" may be heard as \"simple\"."
+},
+{
+"w": "entrance = access",
+"m": "入口",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"entrance\" may be heard as \"access\"."
+},
+{
+"w": "especial(ly) = particular(ly) = specific(ally)",
+"m": "尤其/特定的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"especial(ly)\" may be heard as \"particular(ly)\"."
+},
+{
+"w": "establish = create",
+"m": "建立",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"establish\" may be heard as \"create\"."
+},
+{
+"w": "make = produce = generate",
+"m": "生产/制造",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"make\" may be heard as \"produce\"."
+},
+{
+"w": "features = characteristics",
+"m": "特色",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"features\" may be heard as \"characteristics\"."
+},
+{
+"w": "find = look for = investigate",
+"m": "寻找",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"find\" may be heard as \"look for\"."
+},
+{
+"w": "fitness centre/suite = gym",
+"m": "健身房",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"fitness centre/suite\" may be heard as \"gym\"."
+},
+{
+"w": "focus on emphasize = pay (special) attention to",
+"m": "强调",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"focus on emphasize\" may be heard as \"pay (special) attention to\"."
+},
+{
+"w": "footpath = pavement",
+"m": "人行道",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"footpath\" may be heard as \"pavement\"."
+},
+{
+"w": "free = no charge = complimentary",
+"m": "免费/赠送",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"free\" may be heard as \"no charge\"."
+},
+{
+"w": "good = wonderful",
+"m": "好的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"good\" may be heard as \"wonderful\"."
+},
+{
+"w": "great = extreme(ly) = awesome = very",
+"m": "极度的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"great\" may be heard as \"extreme(ly)\"."
+},
+{
+"w": "growing = increased = rising",
+"m": "增长",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"growing\" may be heard as \"increased\"."
+},
+{
+"w": "handout = worksheet",
+"m": "散发材料/活页练习题",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"handout\" may be heard as \"worksheet\"."
+},
+{
+"w": "hire = rent",
+"m": "租",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"hire\" may be heard as \"rent\"."
+},
+{
+"w": "imagine = visualise",
+"m": "想象",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"imagine\" may be heard as \"visualise\"."
+},
+{
+"w": "improve = enhance",
+"m": "提升",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"improve\" may be heard as \"enhance\"."
+},
+{
+"w": "improvement = development",
+"m": "发展",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"improvement\" may be heard as \"development\"."
+},
+{
+"w": "in advance = ahead of time",
+"m": "提前",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"in advance\" may be heard as \"ahead of time\"."
+},
+{
+"w": "interested in = keen on/to = passion for",
+"m": "热衷于",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"interested in\" may be heard as \"keen on/to\"."
+},
+{
+"w": "issue = matter",
+"m": "议题/问题",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"issue\" may be heard as \"matter\"."
+},
+{
+"w": "large = major = big = huge",
+"m": "大的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"large\" may be heard as \"major\"."
+},
+{
+"w": "leading = advanced = top",
+"m": "领先的/顶级的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"leading\" may be heard as \"advanced\"."
+},
+{
+"w": "learning = acquisition",
+"m": "习得",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"learning\" may be heard as \"acquisition\"."
+},
+{
+"w": "leisure = recreation",
+"m": "娱乐",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"leisure\" may be heard as \"recreation\"."
+},
+{
+"w": "looks out/at = view of = overlooking",
+"m": "向外眺望",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"looks out/at\" may be heard as \"view of\"."
+},
+{
+"w": "lovely = beautiful",
+"m": "漂亮的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"lovely\" may be heard as \"beautiful\"."
+},
+{
+"w": "manage = run",
+"m": "经营",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"manage\" may be heard as \"run\"."
+},
+{
+"w": "maximum = up to",
+"m": "高达",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"maximum\" may be heard as \"up to\"."
+},
+{
+"w": "minimum = at least",
+"m": "最小",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"minimum\" may be heard as \"at least\"."
+},
+{
+"w": "more or less = a bit more/less",
+"m": "或多或少",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"more or less\" may be heard as \"a bit more/less\"."
+},
+{
+"w": "most(ly) = majority = mainly",
+"m": "大多数",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"most(ly)\" may be heard as \"majority\"."
+},
+{
+"w": "movies = films",
+"m": "电影",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"movies\" may be heard as \"films\"."
+},
+{
+"w": "neighbourhood = environment = surrounding",
+"m": "周遭环境",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"neighbourhood\" may be heard as \"environment\"."
+},
+{
+"w": "newest = latest",
+"m": "最新的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"newest\" may be heard as \"latest\"."
+},
+{
+"w": "next to = beside by = bordered to",
+"m": "旁边/毗邻",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"next to\" may be heard as \"beside by\"."
+},
+{
+"w": "normal = standard",
+"m": "标准的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"normal\" may be heard as \"standard\"."
+},
+{
+"w": "obtain = gain = earn",
+"m": "获得",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"obtain\" may be heard as \"gain\"."
+},
+{
+"w": "occupation = job = career",
+"m": "职业",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"occupation\" may be heard as \"job\"."
+},
+{
+"w": "online = internet = website",
+"m": "网上",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"online\" may be heard as \"internet\"."
+},
+{
+"w": "only = just",
+"m": "仅",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"only\" may be heard as \"just\"."
+},
+{
+"w": "out of date = old-fashioned",
+"m": "过时的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"out of date\" may be heard as \"old-fashioned\"."
+},
+{
+"w": "outside = external = exterior",
+"m": "外部的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"outside\" may be heard as \"external\"."
+},
+{
+"w": "over = surplus = more than",
+"m": "超过",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"over\" may be heard as \"surplus\"."
+},
+{
+"w": "part = proportion",
+"m": "部分/比例",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"part\" may be heard as \"proportion\"."
+},
+{
+"w": "patterns = trends",
+"m": "模式/趋势",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"patterns\" may be heard as \"trends\"."
+},
+{
+"w": "permanent = long-lasting",
+"m": "长久的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"permanent\" may be heard as \"long-lasting\"."
+},
+{
+"w": "photos = graphs = pictures = images",
+"m": "图像",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"photos\" may be heard as \"graphs\"."
+},
+{
+"w": "plan = draft = arrangement = organise",
+"m": "计划/安排",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"plan\" may be heard as \"draft\"."
+},
+{
+"w": "precise = exact",
+"m": "精准的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"precise\" may be heard as \"exact\"."
+},
+{
+"w": "problem = drawback = difficulty",
+"m": "缺点/难点",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"problem\" may be heard as \"drawback\"."
+},
+{
+"w": "provide = give = offer",
+"m": "提供/给予",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"provide\" may be heard as \"give\"."
+},
+{
+"w": "pupil = student",
+"m": "学生",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"pupil\" may be heard as \"student\"."
+},
+{
+"w": "purpose = aim(ing) to = wanted for = idea",
+"m": "目的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"purpose\" may be heard as \"aim(ing) to\"."
+},
+{
+"w": "quantities of = amounts of",
+"m": "大量",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"quantities of\" may be heard as \"amounts of\"."
+},
+{
+"w": "recycled = reclaimed",
+"m": "回收利用的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"recycled\" may be heard as \"reclaimed\"."
+},
+{
+"w": "refurbished = redecorated",
+"m": "翻新",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"refurbished\" may be heard as \"redecorated\"."
+},
+{
+"w": "related = associated",
+"m": "有关的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"related\" may be heard as \"associated\"."
+},
+{
+"w": "request = require = ask (for) = need = demand",
+"m": "要求",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"request\" may be heard as \"require\"."
+},
+{
+"w": "reserve = book(ing)",
+"m": "预订",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"reserve\" may be heard as \"book(ing)\"."
+},
+{
+"w": "respect = esteem",
+"m": "尊重",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"respect\" may be heard as \"esteem\"."
+},
+{
+"w": "restrict = limit",
+"m": "限制",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"restrict\" may be heard as \"limit\"."
+},
+{
+"w": "result in = cause",
+"m": "导致",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"result in\" may be heard as \"cause\"."
+},
+{
+"w": "rigorous = strict",
+"m": "严格的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"rigorous\" may be heard as \"strict\"."
+},
+{
+"w": "rounded = curvier",
+"m": "弧形的/弯曲的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"rounded\" may be heard as \"curvier\"."
+},
+{
+"w": "sale = retail",
+"m": "零售",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"sale\" may be heard as \"retail\"."
+},
+{
+"w": "shift(ing) = change = convert = alter",
+"m": "转变/改变",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"shift(ing)\" may be heard as \"change\"."
+},
+{
+"w": "since = because of",
+"m": "因为",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"since\" may be heard as \"because of\"."
+},
+{
+"w": "size = room = capacity",
+"m": "大小/容量",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"size\" may be heard as \"room\"."
+},
+{
+"w": "skills = techniques = methods",
+"m": "技能/方法",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"skills\" may be heard as \"techniques\"."
+},
+{
+"w": "slim = thin = narrow",
+"m": "瘦的/细的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"slim\" may be heard as \"thin\"."
+},
+{
+"w": "small = mini",
+"m": "小的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"small\" may be heard as \"mini\"."
+},
+{
+"w": "soften = moisten",
+"m": "使湿润",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"soften\" may be heard as \"moisten\"."
+},
+{
+"w": "specific = distinct",
+"m": "特定的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"specific\" may be heard as \"distinct\"."
+},
+{
+"w": "spot = location",
+"m": "地点",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"spot\" may be heard as \"location\"."
+},
+{
+"w": "statue = sculpture",
+"m": "雕塑",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"statue\" may be heard as \"sculpture\"."
+},
+{
+"w": "structure = outline",
+"m": "大纲/结构",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"structure\" may be heard as \"outline\"."
+},
+{
+"w": "such as = like = for example/instance",
+"m": "比如（etc.~e.g）",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"such as\" may be heard as \"like\"."
+},
+{
+"w": "sufficient = enough",
+"m": "足够的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"sufficient\" may be heard as \"enough\"."
+},
+{
+"w": "suit = fit in",
+"m": "适合",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"suit\" may be heard as \"fit in\"."
+},
+{
+"w": "surprise = amazing = unexpected",
+"m": "惊讶",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"surprise\" may be heard as \"amazing\"."
+},
+{
+"w": "temporarily = a short time",
+"m": "暂时的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"temporarily\" may be heard as \"a short time\"."
+},
+{
+"w": "tends not to = not likely to",
+"m": "不太可能",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"tends not to\" may be heard as \"not likely to\"."
+},
+{
+"w": "threat = danger",
+"m": "威胁",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"threat\" may be heard as \"danger\"."
+},
+{
+"w": "top = summit",
+"m": "顶点",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"top\" may be heard as \"summit\"."
+},
+{
+"w": "turn into = transform into = convert into",
+"m": "转变",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"turn into\" may be heard as \"transform into\"."
+},
+{
+"w": "type of = sort of",
+"m": "种类",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"type of\" may be heard as \"sort of\"."
+},
+{
+"w": "uncommon special = unusual = rare",
+"m": "不寻常的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"uncommon special\" may be heard as \"unusual\"."
+},
+{
+"w": "under = below",
+"m": "下面",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"under\" may be heard as \"below\"."
+},
+{
+"w": "visits = trips = tours",
+"m": "参观/旅行",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"visits\" may be heard as \"trips\"."
+},
+{
+"w": "vocabulary = words",
+"m": "词汇",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"vocabulary\" may be heard as \"words\"."
+},
+{
+"w": "well(-)known = famous",
+"m": "出名的",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"well(-)known\" may be heard as \"famous\"."
+},
+{
+"w": "charge = cost = pay = price",
+"m": "要价/花费",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"charge\" may be heard as \"cost\"."
+},
+{
+"w": "injure = harm",
+"m": "伤害",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"injure\" may be heard as \"harm\"."
+},
+{
+"w": "interests = hobbies",
+"m": "兴趣爱好",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"interests\" may be heard as \"hobbies\"."
+},
+{
+"w": "study = learn",
+"m": "学习",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"study\" may be heard as \"learn\"."
+},
+{
+"w": "fee = payment = fare",
+"m": "费用",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"fee\" may be heard as \"payment\"."
+},
+{
+"w": "way = solution",
+"m": "解决方法",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"way\" may be heard as \"solution\"."
+},
+{
+"w": "see = spot = sight",
+"m": "看见",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"see\" may be heard as \"spot\"."
+},
+{
+"w": "prevent = stop",
+"m": "防止",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"prevent\" may be heard as \"stop\"."
+},
+{
+"w": "children = minors",
+"m": "未成年",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"children\" may be heard as \"minors\"."
+},
+{
+"w": "press = newspaper = media",
+"m": "报刊媒体",
+"c": "雅思听力满分词汇: 同义替换",
+"x": "Paraphrase: \"press\" may be heard as \"newspaper\"."
 }
 ];
