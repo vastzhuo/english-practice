@@ -12,3 +12,6 @@ main{padding:16px;max-width:560px;margin:auto}.card{background:#fff;border-radiu
 nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#fff;border-top:1px solid #e0e7ff;padding-bottom:env(safe-area-inset-bottom)}
 nav button{flex:1;border:0;background:none;padding:14px;font-size:.95rem;color:#666}nav button.on{color:#4f46e5;font-weight:700}
 input.fill{width:100%;padding:12px;font-size:1rem;border:2px solid #e0e7ff;border-radius:12px}small{color:#666}
+.sel{width:100%;padding:10px;font-size:16px;border-radius:10px;margin:6px 0}
+.spk{border:0;background:none;font-size:18px;cursor:pointer;padding:0 4px}
+.btn.alt{background:#e0e7ff;color:#3730a3}
