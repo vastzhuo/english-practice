@@ -58303,5 +58303,16584 @@ const WORDS = [
 "m": "报刊媒体",
 "c": "雅思听力满分词汇: 同义替换",
 "x": "Paraphrase: \"press\" may be heard as \"newspaper\"."
+},
+{
+"w": "confront",
+"m": "vt. 使面对, 对抗, 遭遇, 使对质, 比较 — To face up to and deal with a problem or difficult situation.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We must confront emerging competition, revamping offerings to stay relevant.",
+"x2": "She chose to confront management, addressing unfair promotion practices openly.",
+"ipa": "/kәn'frʌnt/"
+},
+{
+"w": "confused",
+"m": "a. 困惑的, 混乱的 — Unable to think clearly; bewildered.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our intern looked confused, needing clearer instructions for daily tasks.",
+"x2": "She appeared confused, mixing updated client requirements with outdated guidelines.",
+"ipa": "/kәn'fju:zd/"
+},
+{
+"w": "confusing",
+"m": "a. 令人困惑的；混淆的 — Difficult to understand; causing bewilderment.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We revised a confusing policy, simplifying compliance for every remote worker.",
+"x2": "She clarified confusing metrics, ensuring accurate data interpretations among department heads."
+},
+{
+"w": "connection",
+"m": "n. 连接, 关系, 前后关系 — A relationship in which a person or thing is linked with something else.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our new system ensures stable connection, avoiding unexpected downtime or delays.",
+"x2": "She valued her professional connection, exchanging insights on emerging development trends.",
+"ipa": "/kә'nekʃәn/"
+},
+{
+"w": "consider",
+"m": "v. 考虑, 思考, 认为 — To think carefully about something, typically before making a decision.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We should consider feedback carefully, refining product features for competitiveness.",
+"x2": "She advised the board to consider alternative suppliers for cost savings.",
+"ipa": "/kәn'sidŋ/"
+},
+{
+"w": "considerably",
+"m": "adv. 非常地, 很, 颇 — By a notably large amount or to a notably large extent.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our market share grew considerably, prompting higher production capacity expansions immediately.",
+"x2": "She noticed operational costs rose considerably, demanding urgent expense reviews soon.",
+"ipa": "/kәn'sidәrәbli/"
+},
+{
+"w": "constantly",
+"m": "adv. 不变地, 不断地, 时常地 — Continuously over a period of time; always.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our market data updates constantly, enabling quick pivots when trends shift.",
+"x2": "She constantly monitors budgets, avoiding financial overruns or hidden expenditures.",
+"ipa": "/'kɒnstәntli/"
+},
+{
+"w": "construction",
+"m": "n. 建筑, 构造, 建筑物 — The building of something, typically a large structure; the industry of erecting buildings.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our construction project advanced swiftly, enabling earlier move-in than anticipated.",
+"x2": "She oversees construction compliance, guaranteeing safety standards throughout large-scale developments.",
+"ipa": "/kәn'strʌkʃәn/"
+},
+{
+"w": "consumer",
+"m": "n. 消费者 — A person who purchases goods and services for personal use.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We surveyed consumer preferences, tailoring features to boost sale conversions.",
+"x2": "She studied consumer data trends, identifying gaps for new expansions.",
+"ipa": "/kәn'sju:mә/"
+},
+{
+"w": "contest",
+"m": "n. 竞赛, 争论；vt. 竞争, 争取, 争辩 — (n) an event in which people compete for supremacy in a sport or other activity. (v) to oppose or challenge a decisio…",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We held a design contest, crowdsourcing innovative ideas from creative freelancers.",
+"x2": "She plans to contest the board’s decision, citing procedural inconsistencies.",
+"ipa": "/'kɒntest/"
+},
+{
+"w": "contrasting",
+"m": "v. （靠近或作比较时）显出明显的差异, 形成对比( contrast的现在分词… — Showing a notable difference; placed or identified to highlight such differences.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our marketing campaign used contrasting visuals, capturing broad audience attention successfully.",
+"x2": "She presented contrasting results, prompting the team’s deeper analysis of data.",
+"ipa": "/kənˈtrɑ:stɪŋ/"
+},
+{
+"w": "control",
+"m": "n. 控制, 管理, 克制, 控制器, 操纵装置；vt. 控制, 操纵, 抑制 — (v) to exercise restraint or direct influence over. (n) the power to influence or direct behavior or the course of ev…",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We implement strict financial control, ensuring prudent resource allocation companywide.",
+"x2": "She needed to control spending, trimming unnecessary operational overhead immediately.",
+"ipa": "/kәn'trәul/"
+},
+{
+"w": "controlled",
+"m": "a. 受约束的, 克制的 — Done or arranged in a very careful way; under regulation or managed.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We launched a controlled beta, measuring user feedback before full rollout.",
+"x2": "She worked in a controlled environment, minimizing contamination risks for testing.",
+"ipa": "/kәn'trәuld/"
+},
+{
+"w": "cookie",
+"m": "n. 饼干, 小甜点 — A small sweet cake, typically round and flat.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We placed complimentary cookie trays, sweetening workshops for visiting attendees.",
+"x2": "She updated website cookie policies, meeting new data privacy regulations.",
+"ipa": "/'kuki/"
+},
+{
+"w": "copy",
+"m": "n. 副本, 摹仿, 一册；v. 复印, 抄袭, 复制 — (n) a thing made to be similar or identical to another. (v) to make a duplicate or reproduce something.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our marketing team refined ad copy, boosting click- through rates significantly.",
+"x2": "She requested a print copy, reviewing contracts outside digital channels.",
+"ipa": "/'kɒpi/"
+},
+{
+"w": "corner",
+"m": "n. 角落, 转角, 窘境；vt. 迫至一隅, 垄断, 使陷入绝境 — The point at which two lines or edges meet; a place or angle where two sides or surfaces meet.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We secured a corner location, increasing foot traffic for brand visibility.",
+"x2": "She arranged furniture carefully, utilizing every corner for functional workspace.",
+"ipa": "/'kɒ:nә/"
+},
+{
+"w": "cottage",
+"m": "n. 小屋, 茅舍 — A small simple house, typically in the countryside.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We booked a cottage retreat, invigorating executives during strategy brainstorming sessions.",
+"x2": "She invests in cottage renovations, converting them into exclusive meeting venues.",
+"ipa": "/'kɒtidʒ/"
+},
+{
+"w": "cough",
+"m": "n. 咳嗽；vi. 咳嗽 — (v) to expel air from the lungs suddenly with a harsh noise. (n) an act or sound of coughing.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our policy encourages employees to stay home with persistent cough symptoms.",
+"x2": "She apologized for a noisy cough, briefly disrupting stakeholder presentations.",
+"ipa": "/kɒf/"
+},
+{
+"w": "could",
+"m": "aux. 可以, 能 — Used to indicate possibility or past ability; a polite form of “can”.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We could pivot production lines, tackling sudden demand shifts more efficiently.",
+"x2": "She asked if we could extend deadlines for design updates.",
+"ipa": "/kud/"
+},
+{
+"w": "counter",
+"m": "n. 计算器, 计算者, 柜台, 筹码；a. 反方向的, 相反的 — (n) a level surface for working; a device or an argument in opposition. (v) to respond to something with a contrastin…",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our reception counter remains welcoming, encouraging quick client check-in experiences.",
+"x2": "She proposed a counter argument, challenging default assumptions in the report.",
+"ipa": "/'kauntә/"
+},
+{
+"w": "court",
+"m": "n. 法院, 庭院, 奉承；vt. 献殷勤, 追求, 招致 — (n) a tribunal presided over by judges; an area for certain sports. (v) to try to win the favor of someone or somethi…",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We prepared for potential court disputes, strengthening intellectual property protections.",
+"x2": "She will court venture capitalists, seeking substantial funding for expansions.",
+"ipa": "/kɒ:t/"
+},
+{
+"w": "covered",
+"m": "a. 隐蔽着的, 掩藏着的, 有屋顶的 — Included or dealt with; protected by a covering.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our insurance policy is fully covered, safeguarding expensive research equipment.",
+"x2": "She confirmed major changes were covered thoroughly at all briefings.",
+"ipa": "/'kʌvәd/"
+},
+{
+"w": "covering",
+"m": "n. 覆盖物, 掩蔽物；a. 掩护的, 掩盖的 — (n) something that covers or conceals. (adj) relating to or serving as a cover.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We arranged a protective covering, preventing dust from contaminating sensitive machinery.",
+"x2": "She submitted a covering memo, explaining appended documents for updated proposals.",
+"ipa": "/'kʌvәriŋ/"
+},
+{
+"w": "cracked",
+"m": "a. 破碎的, 破裂的, 声音嘶哑的 — Damaged by splitting; with lines showing partial breakage.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our storage containers arrived cracked, prompting refunds and expedited replacements.",
+"x2": "She identified cracked code frameworks, advising urgent security patch rollouts.",
+"ipa": "/krækt/"
+},
+{
+"w": "crash",
+"m": "n. 哗啦声, 猛撞, 崩溃, 粗布；v. 撞碎, 破碎, (使)...坠毁 — (v) to collide violently; to fail suddenly. (n) a violent collision or a sudden severe decline.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We mitigated server crash risks by implementing redundant backup systems.",
+"x2": "She studied 2008’s market crash, applying lessons to current investments.",
+"ipa": "/kræʃ/"
+},
+{
+"w": "crazy",
+"m": "a. 发狂的, 狂热的 — Extremely enthusiastic, excited, or mentally unsound; not sensible.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our schedule was crazy, juggling product launches for multiple regions simultaneously.",
+"x2": "She pitched a crazy idea, ultimately yielding surprising new revenue streams.",
+"ipa": "/'kreizi/"
+},
+{
+"w": "creation",
+"m": "n. 创造, 创作物, 发明 — The act or process of bringing something into existence.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our latest creation leverages AI, automating repetitive tasks with precision.",
+"x2": "She oversaw brand identity creation, reflecting updated company values and direction.",
+"ipa": "/kri:'eiʃәn/"
+},
+{
+"w": "criminal",
+"m": "n. 罪犯, 犯人, 刑事；a. 犯了罪的, 刑事的, 有罪的 — (adj) relating to crime; illegal. (n) a person who has committed a crime.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We strengthened policies to prevent criminal misconduct within corporate operations.",
+"x2": "She discovered potential criminal behavior, prompting immediate internal investigations internally.",
+"ipa": "/'kriminәl/"
+},
+{
+"w": "crisp",
+"m": "a. 脆的, 新鲜的, 活泼的；v. (使)烘脆, (使)拳曲, (使)起皱 — Firm, dry, and easily breakable; clear and succinct.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We presented crisp data charts, instantly clarifying complex insights for stakeholders.",
+"x2": "She maintained a crisp tone, ensuring emails remained brief yet informative.",
+"ipa": "/krisp/"
+},
+{
+"w": "criterion",
+"m": "n. 标准, 准则, 规范 — A principle or standard by which something may be judged or decided.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our hiring criterion prioritizes technical expertise combined with interpersonal communication skills.",
+"x2": "She established selection criterion, narrowing vendor options for costeffective solutions.",
+"ipa": "/krai'tiәriәn/"
+},
+{
+"w": "critic",
+"m": "n. 批评家, 鉴定家 — A person who expresses an unfavorable opinion of something; someone who professionally judges artistic or other work.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our software faced a tough critic, exposing minor stability glitches rapidly.",
+"x2": "She welcomed an internal critic, refining brand messaging before public campaigns.",
+"ipa": "/'kritik/"
+},
+{
+"w": "crop",
+"m": "n. 农作物, 产量, 平头；vt. 收割, 修剪, 种植 — (n) a cultivated plant grown as food. (v) to cut off or trim (photographs, text, etc.).",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We assessed crop outputs, ensuring stable supply for factory expansions.",
+"x2": "She decided to crop marketing images, highlighting crucial product details.",
+"ipa": "/krɒp/"
+},
+{
+"w": "crowd",
+"m": "n. 群众, 一伙人；vt. 拥挤, 挤满, 挤进 — (n) a large number of people gathered together. (v) to fill a space almost completely, leaving little room.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our exhibit attracted a crowd, generating leads beyond projected targets.",
+"x2": "She used a crowd voting platform, validating proposed product features feasibly.",
+"ipa": "/kraud/"
+},
+{
+"w": "crown",
+"m": "n. 王冠, 王权, 顶点；vt. 使成王, 加冕, 居...之顶 — (n) the top part of something; a symbolic headpiece for a monarch. (v) to bestow a royal-like title or to designate s…",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We will crown the annual champion, rewarding outstanding product launch results.",
+"x2": "She calls that groundbreaking innovation the crown of our lineup.",
+"ipa": "/kraun/"
+},
+{
+"w": "cry",
+"m": "n. 叫声, 哭声, 大叫；vi. 哭, 叫, 喊 — (v) to shed tears. (n) a loud inarticulate shout or scream expressing an emotion.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our rallying cry united departments, mobilizing swift collaboration amid tight deadlines.",
+"x2": "She heard a cry for better resources, approving İmmediate budget increases.",
+"ipa": "/krai/"
+},
+{
+"w": "cure",
+"m": "n. 治疗, 治愈, 治疗法；vt. 治疗, 治愈, 改正, 腌制, 加工处理,… — (v) to relieve a person or animal of the symptoms of a disease. (n) a substance or treatment that cures a disease.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our biotech partner researches cures for persistent illnesses plaguing rural communities.",
+"x2": "She believes reorganizing departments is the cure for process inefficiencies.",
+"ipa": "/kjuә/"
+},
+{
+"w": "curl",
+"m": "n. 拳曲, 鬈发；vt. 弄卷 — (v) to form or cause something to form into a curved shape. (n) a thing of spiral or curved shape.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We allowed packaging edges to curl intentionally, signifying unique brand identity.",
+"x2": "She designed a distinctive curl pattern, elevating product aesthetics significantly.",
+"ipa": "/kә:l/"
+},
+{
+"w": "curl up",
+"m": "卷起 — To sit or lie in a curved or bent position.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We sometimes curl up during breaks, relieving stress amid tough deadlines.",
+"x2": "She suggested employees curl up with reading material for downtime."
+},
+{
+"w": "currently",
+"m": "adv. 现在, 当前, 一般, 普通 — At the present time.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We currently operate three regional hubs, expanding supply chain coverage globally.",
+"x2": "She is currently evaluating software proposals, anticipating final selections next month.",
+"ipa": "/'kʌrәntli/"
+},
+{
+"w": "custom",
+"m": "n. 习惯, 风俗, 海关, 自定义；a. 定制的 — (adj) made or done to order; specialized. (n) a traditional practice or usual way of doing something.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We offer custom software packages, meeting each client’s unique needs thoroughly.",
+"x2": "She studied local custom, integrating cultural practices into marketing strategies.",
+"ipa": "/'kʌstәm/"
+},
+{
+"w": "customs",
+"m": "n. 海关, 关卡, 关税 — The official department that administers and collects duties on imported goods, traditional practices of a society.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our shipments passed customs inspection quickly, preventing expensive distribution delays.",
+"x2": "She respects local customs, adapting marketing pitches for cultural receptivity."
+},
+{
+"w": "cut down",
+"m": "砍倒, 胜过, 削减, 删节 — To reduce in size or amount; to remove or reduce something.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "Our CFO proposed to cut down overhead, focusing on core capabilities.",
+"x2": "She found ways to cut down duplicative processes, expediting project timelines."
+},
+{
+"w": "cute",
+"m": "a. 可爱的, 聪明的, 伶俐的 — Attractive in a pretty or endearing way.",
+"c": "Vocabulary in Use 600: 单词 C",
+"x": "We featured a cute mascot, resonating strongly with younger consumers.",
+"x2": "She suggested a cute packaging style, emphasizing playful brand identity.",
+"ipa": "/kju:t/"
+},
+{
+"w": "dad",
+"m": "n. 爸爸, 爹爹 — An informal term for father.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our new policy grants extra leave when any dad needs support.",
+"x2": "She praised one dad colleague balancing deadlines with childcare effectively.",
+"ipa": "/dæd/"
+},
+{
+"w": "dare",
+"m": "n. 挑战, 挑动, 大胆；v. 敢, 胆敢 — (v) to have the courage to do something. (n) a challenge to do something.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We dare each department to exceed last quarter’s performance milestones.",
+"x2": "She accepted a marketing dare, launching a boldly unconventional campaign successfully.",
+"ipa": "/dєә/"
+},
+{
+"w": "date back",
+"m": "回溯至 — To have originated at a particular time in the past.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our company values date back to its pioneering founders’ vision.",
+"x2": "She discovered issues that date back to previous management practices."
+},
+{
+"w": "day",
+"m": "n. 天, 日子, 白天, 工作日 — A period of 24 hours as a unit of time.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We launched a five-day workshop, training employees in advanced analytics.",
+"x2": "She sets weekly goals, reviewing progress each day before closing.",
+"ipa": "/dei/"
+},
+{
+"w": "dead",
+"m": "a. 死的, 不活泼的, 麻木的, 熄灭的；n. 死者 — No longer alive; not functioning or connected.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our prototype’s battery is dead, hindering the scheduled product demonstration session.",
+"x2": "She declared that marketing strategy dead, pivoting to new tactics swiftly.",
+"ipa": "/ded/"
+},
+{
+"w": "deaf",
+"m": "a. 聋的 — Lacking the power of hearing or having limited hearing.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We hired interpreters, accommodating deaf attendees during our annual global summit.",
+"x2": "She revised training videos, adding captions for deaf team members.",
+"ipa": "/def/"
+},
+{
+"w": "debate",
+"m": "n. 辩论, 讨论；v. 争论, 辩论 — (n) a formal discussion on a particular matter. (v) to argue about a subject in a formal manner.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We held a debate on acquisition tactics, examining short- versus longterm gains.",
+"x2": "She chaired a lively debate, encouraging multiple viewpoints on budget priorities.",
+"ipa": "/di'beit/"
+},
+{
+"w": "decade",
+"m": "n. 十年, 十 — A period of ten years.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our data spans a decade, revealing cyclical patterns in consumer demands.",
+"x2": "She marked a decade leading the firm, championing global expansions.",
+"ipa": "/'dekeid/"
+},
+{
+"w": "decay",
+"m": "n. 衰退, 腐败；v. (使)衰退, (使)腐败 — (n) the process of rotting or decomposition. (v) to rot or decompose.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We measured product decay, adjusting shelf-life estimates for better accuracy.",
+"x2": "She recognized brand decay, revitalizing corporate messaging to recapture audience interest.",
+"ipa": "/di'kei/"
+},
+{
+"w": "decision",
+"m": "n. 决定, 决心, 决断 — A conclusion or resolution reached after consideration.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our board’s decision clarified immediate actions, halting unprofitable product lines.",
+"x2": "She revealed the hiring decision, selecting a candidate with strong qualifications.",
+"ipa": "/di'siʒәn/"
+},
+{
+"w": "declare",
+"m": "v. 宣布, 声明, 申报, 断言 — To make an official, public, or emphatic statement; to proclaim.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We will declare our quarterly earnings next week, anticipating stakeholder reviews.",
+"x2": "She decided to declare compliance readiness, reassuring regulatory bodies proactively.",
+"ipa": "/di'klєә/"
+},
+{
+"w": "deserve",
+"m": "vt. 该得到, 值得；vi. 应得报答 — To do something or have qualities that make one worthy of reward or punishment.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We believe top performers deserve significant bonuses, encouraging strong staff engagement.",
+"x2": "She emphasized staff deserve honest feedback, promoting transparent growth opportunities.",
+"ipa": "/di'zә:v/"
+},
+{
+"w": "designer",
+"m": "n. 设计者, 谋划者, 制图者 — A person who plans the form, look, or workings of something before it is made.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We hired a product designer, refreshing outdated models for modern audiences.",
+"x2": "She coordinated with a graphic designer, finalizing trade show booth visuals.",
+"ipa": "/di'zainә/"
+},
+{
+"w": "desire",
+"m": "n. 欲望, 要求；vt. 想要, 请求 — (n) a strong feeling of wanting something. (v) to wish or long for something.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We identified consumer desire for simplicity, shaping new minimalist campaigns.",
+"x2": "She expressed desire to lead expansions, leveraging diverse operational skills.",
+"ipa": "/di'zaiә/"
+},
+{
+"w": "desperate",
+"m": "a. 不顾一切的, 危急的, 令人绝望的, 极渴望的 — Feeling, showing, or involving a hopeless sense that a situation is so bad as to be impossible to deal with.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our finances appeared desperate, prompting immediate cost cuts across divisions.",
+"x2": "She pitched desperate solutions, attempting to salvage crucial market opportunities.",
+"ipa": "/'despәrәt/"
+},
+{
+"w": "despite",
+"m": "n. 轻视, 憎恨；prep. 虽然, 尽管 — Without being affected by; in spite of.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We progressed significantly despite limited budgets, surpassing early growth projections swiftly.",
+"x2": "She maintained stakeholder support despite initial doubts about resource feasibility.",
+"ipa": "/di'spait/"
+},
+{
+"w": "detailed",
+"m": "a. 详细的, 复杂的 — Including many small facts or aspects; intricate in specifics.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our detailed blueprint covers timeline, resource needs, and contingency plans.",
+"x2": "She requested a detailed cost breakdown, approving budgets with caution.",
+"ipa": "/'di:teild/"
+},
+{
+"w": "determine",
+"m": "v. 决定, 决心 — To officially decide something, to discover facts or prove something is true.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We aim to determine market viability, analyzing consumer response patterns meticulously.",
+"x2": "She helps determine final budgets, ensuring alignment with corporate objectives.",
+"ipa": "/di'tә:min/"
+},
+{
+"w": "development",
+"m": "n. 发展 — The process of developing or being developed; a specified state of growth or advancement.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We prioritized employee development, implementing robust internal training programs organization-wide.",
+"x2": "She oversees app development, ensuring feature rollouts meet scheduled milestones.",
+"ipa": "/di'velәpmәnt/"
+},
+{
+"w": "devoted",
+"m": "a. 投入的, 深爱的 — Very loving or loyal; giving all or most of one’s time/resources to something.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our devoted client base remained steadfast during supply chain disruptions.",
+"x2": "She’s a devoted mentor, guiding interns through rigorous skill-building exercises.",
+"ipa": "/di'vәutid/"
+},
+{
+"w": "diagram",
+"m": "n. 图表；图解 — (n) a simplified drawing showing the appearance, structure, or workings of something. (v) to create such a drawing.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We displayed a clear diagram, mapping each phase of production.",
+"x2": "She can diagram system architecture, exposing vulnerabilities in legacy code.",
+"ipa": "/'daiәɡræm/"
+},
+{
+"w": "dialogue",
+"m": "n. 对话；vi. 对话 — A conversation between two or more people as a feature of a book, play, or discussion.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We established ongoing dialogue, bridging cultural divides between partner companies overseas.",
+"x2": "She welcomed dialogue, collecting opinions from cross-functional teams for strategic clarity.",
+"ipa": "/'daiәlɒg/"
+},
+{
+"w": "diary",
+"m": "n. 日记 — A book in which one keeps a daily record of events and experiences.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our manager keeps a diary of achievements, reviewing progress monthly.",
+"x2": "She recommended a diary system, organizing tasks for consistent accountability.",
+"ipa": "/'daiәri/"
+},
+{
+"w": "dictionary",
+"m": "n. 字典, 词典 — A book or electronic resource listing words in alphabetical order with their meanings.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We compiled an internal dictionary, clarifying jargon for all new hires.",
+"x2": "She referenced an industry dictionary, translating complex technical terms for marketing.",
+"ipa": "/'dikʃәnәri/"
+},
+{
+"w": "difference",
+"m": "n. 不同, 差异 — A point or way in which people or things are not the same.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We studied profit difference, uncovering operational gaps requiring immediate corrective actions.",
+"x2": "She explained the difference between proposed estimates and actual production costs.",
+"ipa": "/'difәrәns/"
+},
+{
+"w": "difficulty",
+"m": "n. 困难, 难点 — The state or condition of being difficult; a problem or obstacle.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We encountered a scheduling difficulty, delaying deliverables beyond initial estimates.",
+"x2": "She overcame each technical difficulty, showcasing adaptability under immense project pressure.",
+"ipa": "/'difikәlti/"
+},
+{
+"w": "direction",
+"m": "n. 方向, 指导, 趋势 — A course along which someone or something moves; guidance or supervision.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We established a unified direction, aligning projects with corporate mission statements.",
+"x2": "She provided direction for the design team, ensuring consistent branding visuals.",
+"ipa": "/di'rekʃәn/"
+},
+{
+"w": "directly",
+"m": "adv. 径直地, 直接地, 直率地, 正好地, 直截了当地, (非正式)立即,… — In a direct way; without changing direction or stopping; openly.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We shipped packages directly to clients, slashing logistics overhead considerably.",
+"x2": "She spoke directly to concerns, delivering transparent updates on project status.",
+"ipa": "/di'rektli, dai'rektli/"
+},
+{
+"w": "disability",
+"m": "n. 无力, 无能, 残疾 — A physical or mental condition that limits a person’s movements, senses, or activities.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We prioritize accessibility, ensuring employees with disability have equal support.",
+"x2": "She launched awareness training, accommodations among all colleagues.",
+"ipa": "/disә'biliti/"
+},
+{
+"w": "disadvantage",
+"m": "n. 缺点, 不利, 坏处 — An unfavorable circumstance or condition that reduces the chances of success.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We overcame location disadvantage by leveraging robust online sales channels.",
+"x2": "She recognized staff shortage as a disadvantage, hiring additional talent.",
+"ipa": "/.disәd'vɑ:ntidʒ/"
+},
+{
+"w": "disagree",
+"m": "vi. 不一致, 不适宜 — To have or express a different opinion.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We sometimes disagree on timelines, requiring compromise for feasible roadmaps.",
+"x2": "She might disagree with budget allocations, proposing alternative distribution tactics.",
+"ipa": "/.disә'gri:/"
+},
+{
+"w": "disagreement",
+"m": "n. 不合, 争论, 不一致 — Lack of consensus or approval; a situation in which people have different opinions.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our disagreement on pricing forced extended stakeholder meetings for resolution.",
+"x2": "She mitigated disagreement, guiding compromise among strong-willed cross-functional leaders.",
+"ipa": "/.disә'gri:mәnt/"
+},
+{
+"w": "disappoint",
+"m": "vt. 使失望 — To fail to fulfill the hopes or expectations of someone.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We must not disappoint shareholders, ensuring steady progress and profitability.",
+"x2": "She reworked the campaign, refusing to disappoint upper management again.",
+"ipa": "/.disә'pɒint/"
+},
+{
+"w": "disappointing",
+"m": "a. 使失望的, 期待落空的, 令人沮丧的 — Failing to fulfill someone’s hopes or expectations; unsatisfactory.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our quarterly sales were disappointing, spurring immediate product marketing enhancements.",
+"x2": "She found the pilot outcome disappointing, prompting a pivot to alternatives.",
+"ipa": "/.disә'pɒintiŋ/"
+},
+{
+"w": "disappointment",
+"m": "n. 失望 — The feeling of sadness or displeasure caused by the non-fulfillment of one’s hopes or expectations.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We expressed disappointment over slow approvals, realigning our project timelines diligently.",
+"x2": "She overcame disappointment by mobilizing additional resources for next-phase They turned disappointment into lessons, fueling determined progress across departments.",
+"ipa": "/.disә'pɒintmәnt/"
+},
+{
+"w": "disapproval",
+"m": "n. 不赞成 — Possession or expression of an unfavourable opinion.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We noted staff disapproval, adjusting office policies to fit majority preferences.",
+"x2": "She faced executive disapproval, pausing expansions until thorough feasibility emerges.",
+"ipa": "/.disә'pru:vәl/"
+},
+{
+"w": "disapprove",
+"m": "v. 不赞成 — To have or express an unfavourable opinion about something.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We must address stakeholders who disapprove the new digital strategy proposals.",
+"x2": "She will disapprove hasty budget cuts, demanding thorough financial impact assessments.",
+"ipa": "/.disә'pru:v/"
+},
+{
+"w": "disapproving",
+"m": "a. 不满的, 反对的；v. 不赞成( disapprove的现在分词 ) — Showing that one does not like or approve of someone or something.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We restructured after upper management’s disapproving response toward previous organizational designs.",
+"x2": "She noticed disapproving glances, adjusting communication to address key concerns.",
+"ipa": "/ˌdɪsəˈpru:vɪŋ/"
+},
+{
+"w": "disaster",
+"m": "n. 灾祸, 不幸, 彻底失败 — A sudden event, such as an accident or a natural catastrophe, that causes great damage or loss of life.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We prepared disaster recovery protocols, preserving data across critical server arrays.",
+"x2": "She guided quick communication during PR disaster, salvaging company trust quickly.",
+"ipa": "/di'zɑ:stә/"
+},
+{
+"w": "discovery",
+"m": "n. 发现, 被发现的事物 — The action or process of discovering or being discovered.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our lab’s latest discovery streamlined efficiency, revolutionizing entire manufacturing steps.",
+"x2": "She praised the market discovery, unlocking lucrative untapped consumer segments.",
+"ipa": "/dis'kʌvәri/"
+},
+{
+"w": "discuss",
+"m": "vt. 讨论, 论述 — To talk about a topic in detail, examining ideas or opinions.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We must discuss revised targets, ensuring each department understands new expectations.",
+"x2": "She wants to discuss resource reallocation, balancing needs across urgent projects.",
+"ipa": "/dis'kʌs/"
+},
+{
+"w": "disease",
+"m": "n. 疾病, 弊病 — A disorder of structure or function in a human, animal, or plant, especially one producing specific symptoms.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We implemented health screenings, minimizing disease outbreaks among onsite employees.",
+"x2": "She tracked livestock disease data, ensuring supply chain stability for exports.",
+"ipa": "/di'zi:z/"
+},
+{
+"w": "disgust",
+"m": "n. 厌恶, 嫌恶；vi. 令人厌恶 — A feeling of revulsion or strong disapproval aroused by something unpleasant or offensive.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We avoided unethical suppliers, dodging public disgust and reputational damage.",
+"x2": "She voiced disgust at manipulative contract terms, demanding immediate fair revisions.",
+"ipa": "/dis'gʌst/"
+},
+{
+"w": "disgusted",
+"m": "a. 厌恶的；厌烦的 — Feeling or expressing revulsion or strong disapproval.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our staff felt disgusted by poor conditions, prompting urgent structural updates.",
+"x2": "She was disgusted seeing competitor’s unethical tactics overshadow honest efforts.",
+"ipa": "/dis'ɡʌstid/"
+},
+{
+"w": "dish",
+"m": "n. 盘子, 碟, 菜肴 — A shallow container for cooking or serving food; a particular kind of food prepared in a specific way.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We sampled each dish, finalizing the catering menu for conferences.",
+"x2": "She recommended local favorites, ensuring every dish showcases regional cuisine.",
+"ipa": "/diʃ/"
+},
+{
+"w": "dishonest",
+"m": "a. 不诚实的 — Behaving or prone to behave in an untrustworthy or fraudulent way.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We dismissed staff found repeatedly dishonest, preserving ethical corporate culture.",
+"x2": "She condemned dishonest billing practices, insisting on swift policy corrections.",
+"ipa": "/dis'ɒnist/"
+},
+{
+"w": "dislike",
+"m": "n. 嫌恶；vt. 讨厌, 不喜欢 — (v) to feel distaste for or hostility towards something. (n) a feeling of distaste or hostility.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We adjusted aesthetics employees dislike, improving office productivity and comfort.",
+"x2": "She addressed consumer dislike, revising packaging to match user preferences.",
+"ipa": "/dis'laik/"
+},
+{
+"w": "distant",
+"m": "a. 远的, 疏远的 — Far away in space or time; not friendly or forthcoming.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We maintained contact with distant branches, scheduling routine crossregional syncs frequently.",
+"x2": "She remained distant, limiting dialogue during challenging contract negotiations internally.",
+"ipa": "/'distәnt/"
+},
+{
+"w": "disturbing",
+"m": "a. 引起烦恼的, 令人不安的 — Causing anxiety or worry; troubling.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We uncovered disturbing errors, prompting immediate code audits for crucial systems.",
+"x2": "She found the competitor’s smear tactics disturbing, refuting claims with evidence.",
+"ipa": "/dis'tә:biŋ/"
+},
+{
+"w": "divorce",
+"m": "n. 离婚；vt. 与...离婚 — (n) the legal dissolution of a marriage. (v) to legally dissolve one’s marriage.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "She handled a divorce privately, maintaining focus on client commitments.",
+"x2": "They offered counseling resources for employees experiencing divorce or family strains.",
+"ipa": "/di'vɒ:s/"
+},
+{
+"w": "divorced",
+"m": "a. 离婚的 — No longer married because the marriage has been legally dissolved.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our benefits accommodate divorced staff, covering dependent care seamlessly.",
+"x2": "She remained divorced, balancing co-parenting with demanding executive responsibilities daily."
+},
+{
+"w": "dollar",
+"m": "n. 美元, 元(加、澳等国货币单位) — The basic monetary unit of the US, Canada, Australia, etc.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We pegged pricing to the US dollar, hedging against currency volatility.",
+"x2": "She monitored dollar shifts, adjusting resource allocations to remain profitable.",
+"ipa": "/'dɒlә/"
+},
+{
+"w": "dot",
+"m": "n. 点, 圆点, 小数点, 小东西, 嫁妆；vt. 作小点记号, 加小点于 — A small round mark or spot.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We recognized domain synergy, registering dot brand expansions for consistent identity.",
+"x2": "She used a dot graph, clarifying distribution trends across product lines.",
+"ipa": "/dɒt/"
+},
+{
+"w": "downward",
+"m": "a. 向下的 — Moving or pointing toward a lower place or level.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our downward performance triggered urgent discussions on product repositioning strategies.",
+"x2": "She observed a downward slide, reassigning marketing budgets to stable channels.",
+"ipa": "/'daunwәd/"
+},
+{
+"w": "dozen",
+"m": "n. 打, 十二个；a. 一打的 — A group or set of twelve.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We ordered a dozen test prototypes, evaluating viability before mass production.",
+"x2": "She prepared a dozen final slides, summarizing research outcomes for stakeholders.",
+"ipa": "/'dʌzn/"
+},
+{
+"w": "drag",
+"m": "n. 拖, 拖累；v. 拖累, 拖拉, 沉重缓慢地走, 拖动 — (v) to pull something or someone along forcefully or with difficulty. (n) something that slows progress or makes it t…",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We must avoid tasks that drag productivity, updating outdated procedures immediately.",
+"x2": "She tried to drag the table, reorganizing shared workspace for collaboration.",
+"ipa": "/dræg/"
+},
+{
+"w": "drawer",
+"m": "n. 抽屉, 开票人 — A sliding boxlike storage compartment, often built into furniture.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We keep backup drives locked in a secure drawer nightly.",
+"x2": "She retrieved archived contracts from the bottom drawer for reference.",
+"ipa": "/'drɒ:ә/"
+},
+{
+"w": "drawing",
+"m": "n. 图画, 制图, 拉 — A picture or diagram made with pencil, pen, or crayon.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We displayed each drawing, clarifying facility layout for prospective investors.",
+"x2": "She produced a schematic drawing, explaining complex mechanisms to junior engineers.",
+"ipa": "/'drɒ:iŋ/"
+},
+{
+"w": "dressed",
+"m": "a. 穿好衣服的；打扮好的 — Wearing clothes; (of a food) prepared or garnished.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our employees remained well dressed, reflecting elevated corporate brand standards.",
+"x2": "She served fully dressed samples, impressing potential clients at tasting events.",
+"ipa": "/'dresid/"
+},
+{
+"w": "drink",
+"m": "n. 饮料, 酒；v. 喝, 喝酒 — (n) a liquid for consumption. (v) to take a liquid into the mouth and swallow.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We keep a drink station, encouraging hydration throughout busy operational hours.",
+"x2": "She suggested a celebratory drink, commemorating achieved sales milestones collectively.",
+"ipa": "/driŋk/"
+},
+{
+"w": "driving",
+"m": "n. 赶, 操纵, 驾驶；a. 推进的, 强劲的, 精力旺盛的 — (n) the act of operating a vehicle. (adj) providing power or motivation.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our driving principle is innovation, continually improving products for leadership.",
+"x2": "She oversaw driving tests, verifying each potential fleet employee’s competency.",
+"ipa": "/'draiviŋ/"
+},
+{
+"w": "drug",
+"m": "n. 药, 麻药, 麻醉药；vi. 吸毒 — A medicine or other substance which has a physiological effect when ingested or otherwise introduced into the body.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "Our pharmaceutical division developed a new drug addressing respiratory ailments quickly.",
+"x2": "She enforced zero-tolerance drug policies, safeguarding workplace wellbeing and compliance.",
+"ipa": "/drʌg/"
+},
+{
+"w": "drugstore",
+"m": "n. 药房, 杂货店 — A retail store that sells medicines and other items, typically also including personal care products.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We partnered with a nationwide drugstore chain, boosting brand visibility widely.",
+"x2": "She analyzed drugstore traffic, targeting convenience-driven consumers for impulse buys.",
+"ipa": "/'drʌgstɒ:/"
+},
+{
+"w": "drum",
+"m": "n. 鼓, 鼓声；vi. 击鼓, 作鼓声 — (n) a percussion instrument or cylindrical container. (v) to make a continuous rhythmic noise.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We used an oil drum, securing raw materials in standardized containers.",
+"x2": "She hopes to drum up interest, sending pre-launch teaser emails.",
+"ipa": "/drʌm/"
+},
+{
+"w": "drunk",
+"m": "a. 喝醉了的；drink的过去式 — Affected by alcohol to the extent of losing control of one’s faculties or behavior.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We enforced a “no drunk behavior” rule, maintaining corporate party civility.",
+"x2": "She escorted a drunk colleague home, prioritizing safety post-office gathering.",
+"ipa": "/drʌŋk/"
+},
+{
+"w": "dry off",
+"m": "（使）弄干, （使）变干 — To remove moisture from something or someone.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We must dry off equipment, preventing short circuits from unexpected leaks.",
+"x2": "She told staff to dry off wet packaging carefully."
+},
+{
+"w": "dull",
+"m": "a. 钝的, 无趣的, 呆滞的, 阴暗的；vt. 使迟钝, 使阴暗, 缓和 — Lacking interest or excitement; lacking brightness or vividness.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We overhauled a dull presentation, adding visuals for impactful audience reception.",
+"x2": "She changed the dull interior, boosting staff morale through vibrant designs.",
+"ipa": "/dʌl/"
+},
+{
+"w": "dvd",
+"m": "abbr. 数字化视频光盘（Digital Video Disk） — A type of compact disc able to store large amounts of data, especially highresolution audiovisual material.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We archived outdated training modules on DVD, freeing main server storage.",
+"x2": "She distributed product demos via DVD for offline client presentations."
+},
+{
+"w": "dying",
+"m": "a. 垂死的 — On the point of death; losing force or vitality.",
+"c": "Vocabulary in Use 600: 单词 D",
+"x": "We revitalized a dying brand, innovating to recapture loyal consumer bases.",
+"x2": "She addressed a dying sector, exploring synergy with newly emerging industries.",
+"ipa": "/'daiiŋ/"
+},
+{
+"w": "each",
+"m": "a. 每个, 每一；adv. 每个 — Every one of two or more people or things considered separately.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We gave each team clear goals, ensuring minimal overlap or redundancy.",
+"x2": "She briefed each candidate thoroughly, highlighting transparent roles and responsibilities.",
+"ipa": "/i:tʃ/"
+},
+{
+"w": "each other",
+"m": "彼此 — Used to refer to two or more people or things doing the same thing mutually.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We encourage departments to assist each other, optimizing crossfunctional efficiency.",
+"x2": "She reminded coworkers to appreciate each other’s strengths for better solutions."
+},
+{
+"w": "ear",
+"m": "n. 耳朵, 倾听, 听觉, 穗；vi. 抽穗 — The organ of hearing; a willingness or ability to listen to someone.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We gave an attentive ear, capturing staff input during reorg planning.",
+"x2": "She had an ear for market trends, swiftly adapting strategies.",
+"ipa": "/iә/"
+},
+{
+"w": "earn",
+"m": "vt. 赚得, 获得, 博得 — To receive something (money, respect, etc.) in return for work or service.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We earn client satisfaction through transparent communication and reliable after-sales support.",
+"x2": "She aims to earn recognition, consistently exceeding quarterly performance targets.",
+"ipa": "/ә:n/"
+},
+{
+"w": "ease",
+"m": "n. 安乐, 安逸, 悠闲；vt. 使安乐, 使安心, 减轻, 放松 — (n) absence of difficulty or effort; comfort. (v) to make something less serious or severe.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We redesigned interfaces, creating ease of use for daily operations.",
+"x2": "She tried to ease tensions, mediating conflicts between marketing and finance.",
+"ipa": "/i:z/"
+},
+{
+"w": "easily",
+"m": "adv. 容易地, 轻易地, 流利地 — Without difficulty or effort.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "Our software easily handles scalability, adapting to fluctuating user demands.",
+"x2": "She found complexities easily solved, attributing success to thorough planning.",
+"ipa": "/'i:zili/"
+},
+{
+"w": "east",
+"m": "n. 东方, 东；a. 东方的, 向东的 — (n) the direction toward the sunrise. (adv) toward the east. (adj) relating to or situated in the east.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We expanded east, accessing new markets with thriving technology demands.",
+"x2": "She traveled east, arranging distribution partnerships across multiple developing regions.",
+"ipa": "/i:st/"
+},
+{
+"w": "eastern",
+"m": "n. 东方人, 东正教徒；a. 东方的, 向东的, 自东的 — Situated in, directed toward, or facing the east; relating to the east.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "Our eastern division reported increased sales, fueling company-wide expansion efforts.",
+"x2": "She attended an eastern trade fair, forging beneficial cross-border networks.",
+"ipa": "/'i:stәn/"
+},
+{
+"w": "eat up",
+"m": "吃光, 耗尽, 吞灭 — To consume or devour completely; to use up resources quickly.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We cautioned that expansions could eat up restricted marketing funds.",
+"x2": "She found repetitive tasks eat up valuable development hours unnecessarily."
+},
+{
+"w": "economic",
+"m": "a. 经济上的, 实用的, 节省的 — Relating to economics or the economy; financially viable.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "Our economic forecasts guided cautious allocations in R&D this quarter.",
+"x2": "She reported strong economic indicators, prompting further retail expansions promptly.",
+"ipa": "/.i:kә'nɒmik/"
+},
+{
+"w": "edition",
+"m": "n. 版本, 版, 翻版 — A particular form or version of a published text.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We released a second edition manual, incorporating fresh compliance standards.",
+"x2": "She designed the anniversary edition packaging, boosting exclusive product appeal.",
+"ipa": "/i'diʃәn/"
+},
+{
+"w": "educate",
+"m": "vt. 教育, 培养, 训练 — To give knowledge to or develop the abilities of someone.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We aim to educate employees, empowering them with advanced manufacturing techniques.",
+"x2": "She helps educate clients, clarifying benefits for new product releases.",
+"ipa": "/'edjukeit/"
+},
+{
+"w": "educated",
+"m": "a. 受过教育的, 有教养的 — Having been educated, especially to a high level.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "Our staff is highly educated, quickly mastering emerging technologies and workflows.",
+"x2": "She prefers an educated approach, analyzing market data before making decisions.",
+"ipa": "/'edjukeitid/"
+},
+{
+"w": "educational",
+"m": "a. 教育的, 教育性的 — Relating to the provision of education; providing instruction or information.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hosted an educational seminar, explaining compliance protocols to suppliers thoroughly.",
+"x2": "She created educational content, broadening user understanding of complex software features.",
+"ipa": "/.edju'keiʃәnl/"
+},
+{
+"w": "effectively",
+"m": "adv. 有效地, 有力地, 实际上 — In such a manner as to achieve a desired result.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We must effectively communicate changes, avoiding confusion across all remote teams.",
+"x2": "She delegates tasks effectively, meeting deadlines under strict resource constraints.",
+"ipa": "/i'fektivli/"
+},
+{
+"w": "egg",
+"m": "n. 蛋, 卵；vt. 挑唆, 煽动, 调蛋黄 — An oval or round object laid by a female bird, reptile, or fish.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We ensure safe egg handling, meeting strict food safety regulations daily.",
+"x2": "She launched a seasonal egg promotion, celebrating spring across multiple outlets.",
+"ipa": "/eg/"
+},
+{
+"w": "elbow",
+"m": "n. 手肘, 弯头, 扶手；v. 用手肘推开, 推挤 — The joint connecting the forearm and the upper arm.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We recommended elbow rests, optimizing posture for extended computer-based tasks.",
+"x2": "She needed elbow room, reorganizing the workspace for design prototyping equipment.",
+"ipa": "/'elbәu/"
+},
+{
+"w": "elect",
+"m": "n. 当选人, 被选的人；a. 被选的, 选出的 — To choose someone to hold public office or some other position by voting.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We will elect new board directors, reinforcing diverse executive leadership.",
+"x2": "She scheduled to elect a committee chair, finalizing departmental synergy soon.",
+"ipa": "/i'lekt/"
+},
+{
+"w": "election",
+"m": "n. 选举, 当选, 选择权 — A formal and organized choice by vote of a person for a political office or other position.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We prepared for a leadership election, rotating roles among strategic groups.",
+"x2": "She supported open election processes, strengthening employee faith in representation.",
+"ipa": "/i'lekʃәn/"
+},
+{
+"w": "elegant",
+"m": "a. 优雅的, 端庄的, 高雅的 — Stylish, sophisticated, or gracefully refined.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We developed elegant branding materials, capturing client attention and loyalty.",
+"x2": "She presented elegant financial solutions, effectively addressing complex budget issues.",
+"ipa": "/'eligәnt/"
+},
+{
+"w": "elevator",
+"m": "n. 电梯, 升降机 — Compartment or platform used for vertical transport of people or goods.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We upgraded elevator services, greatly enhancing convenience for employees daily.",
+"x2": "She mastered elevator pitches, attracting investor interest within limited timeframes.",
+"ipa": "/'eliveitә/"
+},
+{
+"w": "eliminate",
+"m": "vt. 除去, 排除, 剔除, 消除 — To completely remove or get rid of something.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We systematically eliminate wasteful procedures, increasing efficiency throughout organizational workflows.",
+"x2": "He proposed eliminating redundant roles, optimizing workforce structure and reducing costs.",
+"ipa": "/i'limineit/"
+},
+{
+"w": "elsewhere",
+"m": "adv. 在别处 — In, at, or to another place.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We sourced raw materials elsewhere, significantly reducing production costs this year.",
+"x2": "She expanded client operations elsewhere, capturing emerging opportunities in global markets.",
+"ipa": "/'elshwєә/"
+},
+{
+"w": "embarrass",
+"m": "vt. 使困窘, 使局促不安, 阻碍 — To cause someone to feel awkward, self- conscious, or ashamed.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We strive never to embarrass colleagues publicly during departmental meetings.",
+"x2": "She handled sensitive issues carefully, avoiding decisions that embarrass senior management.",
+"ipa": "/im'bærәs/"
+},
+{
+"w": "embarrassed",
+"m": "a. 尴尬的；窘迫的 — Feeling awkward, self-conscious, or ashamed.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We supported embarrassed staff members, offering constructive feedback after mistakes.",
+"x2": "She felt embarrassed about presentation errors, quickly improving future preparation methods.",
+"ipa": "/im'bærәst/"
+},
+{
+"w": "embarrassing",
+"m": "a. 令人为难的, 麻烦的 — Causing discomfort, awkwardness, or shame.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We avoided embarrassing errors, reviewing financial reports carefully before publication.",
+"x2": "She corrected embarrassing presentation flaws swiftly, preserving credibility among investors.",
+"ipa": "/im'bærәsiŋ/"
+},
+{
+"w": "embarrassment",
+"m": "n. 困难, 阻碍, 困窘 — State of feeling awkward, self-conscious, or shameful.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We minimized embarrassment from accounting errors through immediate transparent disclosure.",
+"x2": "She apologized quickly, effectively resolving client embarrassment from billing discrepancies.",
+"ipa": "/im'bærәsmәnt/"
+},
+{
+"w": "emerge",
+"m": "vi. 浮现, 形成, 出现, (事实)显露 — To come into view or become apparent.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We monitor markets, identifying fresh opportunities that emerge unexpectedly each quarter.",
+"x2": "She watched cost-saving solutions emerge, driving immediate resource reallocation decisions.",
+"ipa": "/i'mә:dʒ/"
+},
+{
+"w": "emphasize",
+"m": "vt. 强调, 加强语气, 着重 — To give special importance to something in speaking or writing.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We emphasize data integrity, verifying all metrics before final report publication.",
+"x2": "She will emphasize quick resolutions, driving timely outcomes for customers’ issues.",
+"ipa": "/'emfәsaiz/"
+},
+{
+"w": "employer",
+"m": "n. 雇主, 老板 — A person or organization that employs people.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We strive to be an employer of choice, investing in resources.",
+"x2": "She evaluated employer benefits, ensuring competitive packages meet industry standards.",
+"ipa": "/im'plɒiә/"
+},
+{
+"w": "empty",
+"m": "a. 空的, 空虚的, 空腹的, 空洞的；n. 空的东西, 空车 — (adj) containing nothing; vacant. (v) to remove contents or evacuate.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We converted an empty office, repurposing it into a collaborative training room.",
+"x2": "She will empty old files, updating storage for more relevant data.",
+"ipa": "/'empti/"
+},
+{
+"w": "encounter",
+"m": "n. 相会, 相遇, 遭遇；vt. 遇见, 邂逅, 会战 — (v) to unexpectedly face or experience something. (n) an unexpected meeting or experience.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We might encounter unforeseen setbacks, maintaining flexible schedules for contingencies.",
+"x2": "She documented every client encounter, guiding consistent follow-up interactions effectively.",
+"ipa": "/in'kauntә/"
+},
+{
+"w": "encouragement",
+"m": "n. 鼓励, 激励, 奖励 — The act of giving someone support, confidence, or hope.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We prioritized managerial encouragement, boosting morale amid tough project deliverables.",
+"x2": "She valued consistent encouragement, fueling her commitment to ambitious initiatives.",
+"ipa": "/in'kʌridʒmәnt/"
+},
+{
+"w": "end",
+"m": "n. 结束, 终点, 目标, 末端, 梢, 死亡, 残余；v. 结束, 终结, … — (n) the final part of something. (v) to bring something to a conclusion.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We monitored tasks closely, ensuring a clean end to each sprint.",
+"x2": "She decided to end the pilot, reassigning resources for expansions.",
+"ipa": "/end/"
+},
+{
+"w": "ending",
+"m": "n. 终止, 终了, 收场 — The final part of something; a conclusion.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We planned a satisfying ending, finalizing deals amid mutual celebrations.",
+"x2": "She considered stakeholder feedback, achieving an ending that satisfied all parties.",
+"ipa": "/'endiŋ/"
+},
+{
+"w": "enemy",
+"m": "n. 敌人, 仇敌, 敌军；a. 敌人的 — A person or thing that harms or weakens something else.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We recognized complacency as our greatest enemy in evolving markets.",
+"x2": "She studied major rivals, calling them the ultimate enemy brand-wise.",
+"ipa": "/'enimi/"
+},
+{
+"w": "engaged",
+"m": "a. 忙碌的, 使用中的 — Involved or busy; committed to a task or person.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We recognized engaged staff, awarding meaningful incentives for consistent dedication.",
+"x2": "She kept the committee engaged, frequently updating everyone on progress.",
+"ipa": "/in'geidʒd/"
+},
+{
+"w": "engine",
+"m": "n. 引擎, 发动机, 机车；vt. 安装发动机于 — A machine that converts energy into mechanical force; the driving force behind something.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We replaced the production engine, boosting factory output significantly overnight.",
+"x2": "She identified marketing as the engine driving organizational global expansion.",
+"ipa": "/'endʒin/"
+},
+{
+"w": "enjoyable",
+"m": "a. 可从中得到乐趣的, 令人愉快的 — Giving pleasure or satisfaction.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We strive for an enjoyable office culture, reducing stress significantly.",
+"x2": "She designed an enjoyable training program, making learning fun and meaningful.",
+"ipa": "/in'dʒɒiәbl/"
+},
+{
+"w": "enjoyment",
+"m": "n. 享乐, 快乐, 享受 — The state of experiencing pleasure or satisfaction.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We boosted overall enjoyment at work, integrating playful team-building activities.",
+"x2": "She measured enjoyment levels among testers, refining product features iteratively.",
+"ipa": "/in'dʒɒimәnt/"
+},
+{
+"w": "entertainer",
+"m": "n. 表演娱乐节目的人, 演艺人员 — A person who entertains; performer.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hired a top entertainer, captivating attendees during our product showcase.",
+"x2": "She recommended a motivational entertainer, sparking excitement at leadership summits.",
+"ipa": "/.entә'teinә/"
+},
+{
+"w": "entertaining",
+"m": "a. 使人愉快的, 有趣的 — Providing amusement or enjoyment.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hosted an entertaining kickoff, motivating teams for busy project cycles.",
+"x2": "She created entertaining training modules, boosting completion rates among new hires.",
+"ipa": "/.entә'teiniŋ/"
+},
+{
+"w": "enthusiasm",
+"m": "n. 巨大的热情, 热心 — Intense and eager enjoyment, interest, or approval.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We rewarded enthusiasm, recognizing employees continuous process improvements consistently.",
+"x2": "championing She approached challenges with steady enthusiasm, inspiring peers under pressing timelines.",
+"ipa": "/in'θju:ziæzәm/"
+},
+{
+"w": "entirely",
+"m": "adv. 完全, 全然, 一概 — Completely or fully; in every way.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We overhauled processes entirely, ensuring minimal redundancy and greater operational speed.",
+"x2": "She realized the workflow needed rethinking, changing its approach entirely.",
+"ipa": "/in'taiәli/"
+},
+{
+"w": "envelope",
+"m": "n. 信封, 封套, 封袋 — A flat paper container used to enclose documents or letters.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We designed custom envelope headers, reinforcing company image for mailed correspondence.",
+"x2": "She sealed each envelope securely, shipping sensitive legal documents to clients.",
+"ipa": "/'envәlәup/"
+},
+{
+"w": "equally",
+"m": "adv. 相等地, 同样地, 平等地 — In the same manner or to the same extent.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We consider all stakeholder feedback equally, valuing balanced perspectives from everyone.",
+"x2": "She divided workloads equally, ensuring no single group faced undue burden.",
+"ipa": "/'i:kwәli/"
+},
+{
+"w": "equivalent",
+"m": "n. 同等物, 等价物, 相等物；a. 相等的, 相当的, 同意义的 — Equal in value, amount, function, or meaning.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We found an equivalent tool, matching original specifications without extra costs.",
+"x2": "She provided equivalent responsibilities, workloads across two merged teams.",
+"ipa": "/i'kwivәlәnt/"
+},
+{
+"w": "essentially",
+"m": "adv. 本质上, 本来 — Used to emphasize the basic, fundamental nature of something.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We’re essentially unifying product lines, cutting redundant overhead and complexity.",
+"x2": "She explained the plan essentially, highlighting critical milestones for immediate actions.",
+"ipa": "/i'senʃәli/"
+},
+{
+"w": "even",
+"m": "a. 平坦的, 相等的, 连贯的, 均等的, 公平的, 偶数的, 平均的, 平衡… — (adj) flat or smooth; equal or balanced. (adv) used to emphasize something surprising.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We maintained an even workload, preventing burnout among crossfunctional team members.",
+"x2": "She delivered ahead of schedule, impressing even the toughest internal critics.",
+"ipa": "/'i:vәn/"
+},
+{
+"w": "event",
+"m": "n. 事件, 结果, 事情的进程, 竞赛项目 — A planned public or social occasion.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hosted a major event, celebrating significant organizational milestones collaboratively.",
+"x2": "She managed the entire event logistics, ensuring flawless execution for attendees.",
+"ipa": "/i'vent/"
+},
+{
+"w": "ever",
+"m": "adv. 曾经, 究竟, 永远 — At any time; always.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We remain ever vigilant, swiftly adapting to shifting competitor tactics.",
+"x2": "She enforced policies ensuring ever reliable product standards for global consumers.",
+"ipa": "/'evә/"
+},
+{
+"w": "every",
+"m": "a. 每一, 所有的 — All the individual members of a set without exception.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We engaged every stakeholder, refining final product features with cross-functional synergy.",
+"x2": "She monitored every site, guaranteeing brand consistency across regional distribution centers.",
+"ipa": "/'evri/"
+},
+{
+"w": "everyone",
+"m": "pron. 每个人, 人人 — Every person; all people.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We welcomed everyone’s feedback, driving consensus on new workflow processes.",
+"x2": "She announced that everyone must complete mandatory compliance training promptly.",
+"ipa": "/'evriwʌn/"
+},
+{
+"w": "everything",
+"m": "pron. 每件事物, 所有事物 — All things; all that exists; the whole lot.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We meticulously tested everything, eliminating hidden bugs in system updates.",
+"x2": "She ensured everything matched brand guidelines, from signage to user interfaces.",
+"ipa": "/'evriθiŋ/"
+},
+{
+"w": "everywhere",
+"m": "adv. 各处, 到处 — In or to every place.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We introduced cloud services, accessible everywhere for distributed remote employees globally.",
+"x2": "She saw product demand climbing everywhere, prompting urgent increases in production.",
+"ipa": "/'evrihwєә/"
+},
+{
+"w": "ex-",
+"m": "pref. 向外, 离开, 超过, 向上 — Former; indicating something previously but not currently.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hired an ex- competitor employee, learning valuable industry insights promptly.",
+"x2": "She consulted an ex- CFO, revising crucial financial structures without confusion."
+},
+{
+"w": "exaggerated",
+"m": "a. 夸大的, 夸张的, 言过其实的 — Regarded or described as larger, better, or worse than in reality.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We clarified any exaggerated marketing claims, maintaining an honest brand narrative.",
+"x2": "She disapproved exaggerated project timelines, insisting on accurate resource and schedule estimates.",
+"ipa": "/ig'zædʒәreitid/"
+},
+{
+"w": "examination",
+"m": "n. 考试, 测验, 审查 — A detailed inspection or study; formal testing of knowledge.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We performed a detailed examination, pinpointing inefficiencies in cross-department workflows.",
+"x2": "She prepared for the certification examination, revising complex technical content thoroughly.",
+"ipa": "/ig.zæmi'neiʃәn/"
+},
+{
+"w": "example",
+"m": "n. 例子, 样本, 实例 — A thing characteristic of its kind or illustrating a general principle.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We cited a best-practice example, guiding employees toward consistent performance improvement.",
+"x2": "She provided an example scenario, ensuring clarity in complex compliance directives.",
+"ipa": "/ig'zæmpl/"
+},
+{
+"w": "exception",
+"m": "n. 例外, 除外, 异议 — A person or thing that is excluded from a general statement or does not follow a rule.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We rarely allow exceptions, ensuring consistent application of corporate policies.",
+"x2": "She granted an exception request, expediting equipment shipments despite backlog.",
+"ipa": "/ik'sepʃәn/"
+},
+{
+"w": "excite",
+"m": "vt. 刺激, 使兴奋, 激励 — To cause strong feelings of enthusiasm or eagerness.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We used teasers to excite stakeholders, hinting upcoming brand evolutions effectively.",
+"x2": "She planned dynamic events, aiming to excite employees across every division.",
+"ipa": "/ik'sait/"
+},
+{
+"w": "excitement",
+"m": "n. 刺激, 兴奋 — A feeling of great enthusiasm and eagerness.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We harnessed excitement early, sustaining momentum throughout the product’s entire lifecycle.",
+"x2": "She built excitement incrementally, drip-feeding announcements to engage potential buyers.",
+"ipa": "/ik'saitmәnt/"
+},
+{
+"w": "exciting",
+"m": "a. 令人兴奋的, 刺激的 — Causing great enthusiasm and eagerness.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We introduced an exciting rewards program, spurring employee achievements significantly.",
+"x2": "She teased an exciting new platform, emphasizing cutting- edge capabilities heavily.",
+"ipa": "/ik'saitiŋ/"
+},
+{
+"w": "excluding",
+"m": "prep. 把...排除在外, 不包括..., 不计... — Not including; leaving out.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We considered everyone’s feedback, excluding contractors lacking official project credentials.",
+"x2": "She prepared final budgets, excluding unapproved expenditures from expense calculations."
+},
+{
+"w": "excuse",
+"m": "vt. 原谅, 申辩, 做为...的托辞；n. 致歉, 理由, 饶恕, 借口 — (n) a reason or explanation to justify or defend something. (v) to release someone from a duty or requirement.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We rarely accept a weak excuse, promoting consistent accountability among staff.",
+"x2": "She asked to excuse certain employees, accommodating urgent personal matters responsibly.",
+"ipa": "/ik'skju:z/"
+},
+{
+"w": "executive",
+"m": "n. 执行部门, 执行委员会, 执行者, 经理主管人员；a. 执行的, 善于执行… — (adj) relating to or having the power to put plans into effect. (n) a person with senior managerial responsibility in…",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We hired an executive coach, shaping better leadership styles among managers.",
+"x2": "She occupied an executive role, spearheading global brand expansions.",
+"ipa": "/ig'zekjutiv/"
+},
+{
+"w": "exercise",
+"m": "n. 行使, 执行, 运动, 练习, 作业；vt. 运用, 练习, 运动 — (n) activity requiring physical effort; a task or activity for practice. (v) to use or apply.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We sponsored a lunchtime exercise program, promoting balanced worklife synergy.",
+"x2": "She will exercise new leadership techniques, supporting diverse subordinates effectively.",
+"ipa": "/'eksәsaiz/"
+},
+{
+"w": "exhibit",
+"m": "n. 显示, 显现, 展览品, 陈列品, 展览；vt. 展现, 陈列, 展览 — (v) to publicly display or show. (n) an object or collection shown in public.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We plan to exhibit prototypes, attracting interest at industry trade fairs.",
+"x2": "She curated a historical exhibit, celebrating decades of corporate innovation.",
+"ipa": "/ig'zibit/"
+},
+{
+"w": "existence",
+"m": "n. 存在, 生存 — The state or fact of living or having objective reality.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We acknowledged strong brand existence, leveraging consumer trust in expansions.",
+"x2": "She confirmed flaw existence, gathering evidence before addressing engineering defects thoroughly.",
+"ipa": "/ig'zistәns/"
+},
+{
+"w": "exit",
+"m": "n. 出口, 退场, 离去, 去世；vi. 退出, 脱离, 去世 — (n) a way out; departure. (v) to go out or leave.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We planned an exit route, finalizing prudent withdrawal from lowgrowth segments.",
+"x2": "She triggered an emergency exit, swiftly evacuating staff during critical outages.",
+"ipa": "/'eksit/"
+},
+{
+"w": "expected",
+"m": "a. 预期的；预料的 — Regarded as likely to happen.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We encountered fewer obstacles than expected, finishing major tasks promptly.",
+"x2": "She flagged higher costs than expected, triggering budget recalibration mid-quarter."
+},
+{
+"w": "explanation",
+"m": "n. 解释, 说明, 辩解, 表明 — A statement or account that makes something clear.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We offered a thorough explanation, justifying reallocated funds for urgent expansions.",
+"x2": "She requested an explanation, confirming each step aligns with compliance requirements.",
+"ipa": "/.eksplә'neiʃәn/"
+},
+{
+"w": "expression",
+"m": "n. 表达, 表现, 词语, 措辞 — The process of making known one’s thoughts or feelings; a look on someone’s face.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We value honest expression, nurturing respectful debates during strategic discussions.",
+"x2": "She read subtle expression cues, realigning pitches to hesitant investors.",
+"ipa": "/ik'spreʃәn/"
+},
+{
+"w": "eye",
+"m": "n. 眼睛, 视力, 看；vt. 看, 注视 — The organ of sight; used figuratively for observation or scrutiny.",
+"c": "Vocabulary in Use 600: 单词 E",
+"x": "We keep an eye on budgets, preventing overspending each financial period.",
+"x2": "She maintained a sharp eye for detail, catching unnoticed compliance violations.",
+"ipa": "/ai/"
+},
+{
+"w": "faint",
+"m": "n. 昏厥, 昏倒；a. 模糊的, 微弱的, 无力的 — (adj) barely perceptible; lacking strength or enthusiasm. (v) to lose consciousness briefly.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We detected faint interest, shifting resources to promising leads promptly.",
+"x2": "She recognized faint early warnings, preventing larger compliance issues from escalating.",
+"ipa": "/feint/"
+},
+{
+"w": "fairly",
+"m": "adv. 美观地, 公平地, 相当地, 清楚地 — With justice; in a reasonable or equitable way.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We distribute workloads fairly, preventing burnout and maintaining consistent project progress.",
+"x2": "She priced products fairly, balancing profitability with consumer accessibility demands.",
+"ipa": "/'fєәli/"
+},
+{
+"w": "faithful",
+"m": "a. 忠实的, 详确的, 可靠的；n. 信徒 — Loyal, constant, and steadfast.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We praised her faithful service, honoring years of unwavering organizational support.",
+"x2": "She noted faithful clients, always returning for new product releases happily.",
+"ipa": "/'feiθful/"
+},
+{
+"w": "faithfully",
+"m": "adv. 忠实地, 诚心诚意地, 深信着地 — In a loyal, constant manner; with strict adherence to facts or instructions.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We perform tasks faithfully, adhering strictly to documented operational guidelines daily.",
+"x2": "She reported data faithfully, ensuring objective findings for the final audit.",
+"ipa": "/'feiθfuli/"
+},
+{
+"w": "familiar",
+"m": "a. 熟悉的, 常见的, 亲密的；n. 熟友, 常客 — Well known from long or close association.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We assigned tasks to staff already familiar with complex procedures.",
+"x2": "She felt familiar with emerging markets, suggesting timely expansion initiatives.",
+"ipa": "/fә'miljә/"
+},
+{
+"w": "farmer",
+"m": "n. 农夫, 农场主 — A person who owns or manages a farm.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We contracted an organic farmer, enhancing eco-friendly offerings for corporate dining.",
+"x2": "She appreciates each local farmer, negotiating fair compensation for raw inputs.",
+"ipa": "/'fɑ:mә/"
+},
+{
+"w": "farther",
+"m": "a. 更远的, 进一步的；adv. 更远的, 此外, far的比较级 — (adv) at, to, or by a greater distance. (adj) more distant in space than something else of the same kind.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We must expand farther, tapping newly discovered international customer bases soon.",
+"x2": "She realized product deadlines were farther than initially planned targets.",
+"ipa": "/'fɑ:ðә/"
+},
+{
+"w": "farthest",
+"m": "a. 最远的, 最久的；adv. 最远, far的最高级 — At or to the greatest distance.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We reached the farthest region, successfully completing global rollout targets.",
+"x2": "She assigned resources to the farthest customer branches, guaranteeing uniform service.",
+"ipa": "/'fɑ:ðist/"
+},
+{
+"w": "fashion",
+"m": "n. 流行, 风尚, 时样；vt. 形成, 造, 作 — A popular or latest style of clothing, decoration, or behavior.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We observed shifting fashion trends, tailoring new product designs for consumers.",
+"x2": "She launched a fashion line, rapidly acquiring a loyal client base.",
+"ipa": "/'fæʃәn/"
+},
+{
+"w": "fashionable",
+"m": "a. 时髦的, 上流社会的, 流行的 — Characteristic of, influenced by, or representing a current popular trend or style.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We introduced fashionable packaging, impressing key buyers in upscale markets abroad.",
+"x2": "She rebranded visuals, making them fashionable for younger, trendsavvy consumers.",
+"ipa": "/'fæʃәnәbl/"
+},
+{
+"w": "fasten",
+"m": "vt. 拴紧, 使固定, 系, 集中于, 强加于；vi. 扣紧 — To close or secure something firmly.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We instructed employees to fasten protective gear before starting assembly tasks.",
+"x2": "She must fasten important documents, avoiding potential data loss from mishandling.",
+"ipa": "/'fɑ:sәn/"
+},
+{
+"w": "father",
+"m": "n. 父亲, 祖先, 长辈, 神父, 创始者；vt. 当...的父亲, 保护, … — A man in relation to his child or children.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We extended father-friendly policies, allowing flexible schedules for newborn caregiving.",
+"x2": "He balanced father duties while leading major cross-country logistical operations.",
+"ipa": "/'fɑ:ðә/"
+},
+{
+"w": "fault",
+"m": "n. 过错, 故障, 毛病；vt. 挑剔 — A mistake, especially one that causes problems; responsibility for wrongdoing.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We traced manufacturing delays to a specific mechanical fault mid-line.",
+"x2": "She took fault for inaccurate data, revising final reports accordingly.",
+"ipa": "/fɒ:lt/"
+},
+{
+"w": "favor",
+"m": "n. 好意, 喜爱；vt. 赐予, 支持, 喜欢, 证实 — (n) approval, support, or liking. (v) to show preference for or to do kindness for someone.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We gained client favor, outpacing competitors with reliable after-sales support.",
+"x2": "She agreed to favor our proposal, ensuring greenlight for critical expansions.",
+"ipa": "/'feivә/"
+},
+{
+"w": "favorite",
+"m": "n. 喜欢的事物, 幸运儿；a. 特别受喜爱的, 喜爱的, 宠爱的, 中意的 — (adj) preferred before all others of the same kind. (n) a person or thing that is especially popular or well liked.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We offered her favorite tasks, boosting engagement and encouraging deeper commitment.",
+"x2": "She shared her favorite analytics tool, increasing adoption among colleagues quickly.",
+"ipa": "/'feivәrit/"
+},
+{
+"w": "feather",
+"m": "n. 羽毛；vi. 长羽毛 — One of the flat, thin parts growing from a bird’s skin.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We included a feather motif, refreshing corporate identity for upcoming launches.",
+"x2": "She showcased sustainable pillow prototypes, substituting synthetic for feather fillings.",
+"ipa": "/'feðә/"
+},
+{
+"w": "federal",
+"m": "a. 联邦的, 联合的, 同盟的 — Relating to the central government of a country.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We adhered to federal guidelines, meeting strict safety standards across sites.",
+"x2": "She monitored federal grants, exploring subsidized funding for technology expansions.",
+"ipa": "/'fedәrәl/"
+},
+{
+"w": "feeling",
+"m": "n. 摸, 触觉, 知觉, 感觉, 情绪, 同情；a. 有同情心的, 有感觉的,… — An emotional state or reaction.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We gauged team feeling, adjusting workloads to maintain healthy satisfaction.",
+"x2": "She valued positive customer feeling, fueling repeat purchases across product lines.",
+"ipa": "/'fi:liŋ/"
+},
+{
+"w": "fellow",
+"m": "n. 男人, 朋友, 同事；a. 同伴的, 同事的, 同道的 — (adj) belonging to the same class or group. (n) a person in the same position or involved in the same activity.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We recognized our fellow teams, combining resources for multinational joint initiatives.",
+"x2": "She praised fellow colleagues, attributing project success to collective commitment.",
+"ipa": "/'felәu/"
+},
+{
+"w": "fence",
+"m": "n. 围墙, 栅栏, 买卖赃物的人, 剑术；vt. 用篱笆围住, 练习剑术, 防… — A barrier enclosing or bordering a field, yard, etc., typically made of posts and wire or wood.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We erected a sturdy fence, safeguarding warehouse grounds from unauthorized entry.",
+"x2": "She recommended fence repairs, reducing liability risks around our outdoor facility.",
+"ipa": "/fens/"
+},
+{
+"w": "fight",
+"m": "n. 打架, 争吵, 斗志；v. 对抗, 打架 — (v) to take part in a battle or dispute. (n) an intense argument or conflict.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We resolved an internal fight, fostering harmony among project subteams quickly.",
+"x2": "She prepared to fight off aggressive competitors, defending market position assertively.",
+"ipa": "/fait/"
+},
+{
+"w": "figure",
+"m": "n. 数字, 价格, 图形, 形状；vt. 描绘, 表示, 演算, 认为 — (n) a number, especially one representing a particular amount, or a person’s bodily shape. (v) to think, consider, or…",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We posted record sales figure improvements, surpassing quarterly performance benchmarks.",
+"x2": "She might figure resource needs carefully, avoiding additional overhead expansions.",
+"ipa": "/'figә/"
+},
+{
+"w": "fill up",
+"m": "填补, 装满, 装满油 — To make something completely full.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We expect to fill up every seat, maximizing conference attendance.",
+"x2": "She planned to fill up supply cabinets, preventing mid-cycle item shortages."
+},
+{
+"w": "finally",
+"m": "adv. 最后, 终于 — After a long time or process; at the last.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We finally received regulatory approval, enabling product launch next month nationwide.",
+"x2": "She finally unveiled the new system, streamlining departmental workflows extensively.",
+"ipa": "/'fainәli/"
+},
+{
+"w": "finely",
+"m": "adv. 雅致地, 仔细地, 敏锐地, 微细地 — In a very detailed or subtle way.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We reviewed that contract finely, preventing hidden clauses from hindering operations.",
+"x2": "She analyzed user feedback finely, iterating interface improvements for superior usability.",
+"ipa": "/'fainli/"
+},
+{
+"w": "finger",
+"m": "n. 手指, 指状物, (手套的)手指部分, 指针；v. 用手指拨弄, 伸出 — Each of the five digits at the end of the hand.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We kept a finger on market changes, staying agile under flux.",
+"x2": "She injured a finger operating machinery, reinforcing better safety guidelines.",
+"ipa": "/'fiŋgә/"
+},
+{
+"w": "finished",
+"m": "a. 完成的, 完结的, 精巧的, 完美的 — Completed; brought to a final state.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We marked the sprint finished, handing results to senior management.",
+"x2": "She declared testing finished, implementing updates in the live environment quickly.",
+"ipa": "/'finiʃt/"
+},
+{
+"w": "firm",
+"m": "n. 公司, 商号；a. 坚定的, 坚强的, 牢固的, 结实的, 坚硬的, 坚挺… — (adj) solid, steady, or unyielding. (n) a business, company, or enterprise.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We took a firm position, insisting on fair contractual clauses strictly.",
+"x2": "She leads a consulting firm, guiding multinational clients toward stronger profitability.",
+"ipa": "/fә:m/"
+},
+{
+"w": "firmly",
+"m": "adv. 坚固, 坚定, 断然 — In a strong, steady, or unwavering manner.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We firmly reiterated policies, eliminating ambiguity and preventing compliance violations.",
+"x2": "She held negotiations firmly, defending pivotal contract terms without compromise.",
+"ipa": "/'fә:mli/"
+},
+{
+"w": "fit",
+"m": "n. 适宜, 合身, 发作, 痉挛；a. 适宜的, 对的, 准备好的 — (v) to be of the right size or shape; to match. (adj) in good shape or suitable for a particular purpose.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We must fit the right roles, matching skills with tasks effectively.",
+"x2": "She stayed physically fit, modeling healthy practices throughout our wellness program.",
+"ipa": "/fit/"
+},
+{
+"w": "fixed",
+"m": "a. 固定的, 不变的 — Fastened, secure, or unchanging.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We adhered to a fixed schedule, completing projects exactly on time.",
+"x2": "She introduced a fixed pricing model, simplifying client contract negotiations.",
+"ipa": "/fikst/"
+},
+{
+"w": "flame",
+"m": "n. 火焰, 火舌, 热情, 光辉；vt. 焚烧, 用火焰给...灭菌, 用火焰… — The visible, gaseous part of a fire.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We contained a small flame, preventing further damage in production units.",
+"x2": "She avoided flame emails, maintaining constructive approaches during intense negotiations.",
+"ipa": "/fleim/"
+},
+{
+"w": "flesh",
+"m": "n. 肉, 肉体, 肉欲, 人性, 亲属, 人类, 众生, 人体；vt. 以肉喂… — The soft substance of a human or other animal body.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We plan to flesh out proposals, detailing each cost justification thoroughly.",
+"x2": "She tested prototypes on synthetic flesh, simulating real conditions before approvals.",
+"ipa": "/'fleʃ/"
+},
+{
+"w": "float",
+"m": "n. 漂流物, 浮舟, 漂浮, 浮萍, 彩车；vi. 浮动, 飘动, 散播, 摇… — (v) to rest or move on a liquid surface; to propose. (n) a soft drink with ice cream or an initial public offering po…",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We might float new shares, raising capital for expansion strategies.",
+"x2": "She decided to float a concept, gauging early stakeholder interest quickly.",
+"ipa": "/flәut/"
+},
+{
+"w": "flood",
+"m": "n. 洪水, 大量之水, 涨潮；vt. 淹没, 使泛滥, 注满 — (n) an overflow of water beyond its normal confines. (v) to overflow or fill beyond capacity.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We handled an email flood, implementing auto-responses for immediate client reassurance.",
+"x2": "She anticipated a market flood, adjusting inventory for upcoming seasonal rush.",
+"ipa": "/flʌd/"
+},
+{
+"w": "flour",
+"m": "n. 面粉, 粉沫, 碎粉 — A powder obtained by grinding grain, typically wheat.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We sourced high-grade flour, bolstering premium baked goods for hospitality clients.",
+"x2": "She tested alternative flour blends, improving gluten-free product variety significantly.",
+"ipa": "/'flauә/"
+},
+{
+"w": "flow",
+"m": "n. 流程, 流动, 流量, 洋溢, 泛滥, 涨潮；vi. 流动, 流泄, 畅流… — (n) the action or fact of moving along in a steady, continuous stream. (v) to move steadily and continuously.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We mapped operational flow, identifying constraints hampering final product delivery.",
+"x2": "She helped cash flow remain positive, trimming excessive monthly expenditures.",
+"ipa": "/flәu/"
+},
+{
+"w": "flower",
+"m": "n. 花, 开花植物, 精华, 盛时；vi. 开花, 发育, 旺盛, 成熟 — The seed-bearing part of a plant, often brightly colored.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We decorated the lobby with flower arrangements, welcoming executive visitors aesthetically.",
+"x2": "She chose flower themes, personalizing brand events to engage attendees.",
+"ipa": "/'flauә/"
+},
+{
+"w": "fly",
+"m": "n. 苍蝇, 两翼昆虫, 飞行；vi. 飞, 飞翔, 飘扬, 逃走 — (v) to move through the air under control. (n) a small flying insect.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We must fly staff overseas, finalizing deals for new expansions.",
+"x2": "She let tasks fly by quickly, accomplishing goals under strict deadlines.",
+"ipa": "/flai/"
+},
+{
+"w": "flying",
+"m": "a. 飞的, 飘扬的, 飞速的；n. 飞行, 飞花 — (adj) moving or able to move through the air with wings. (n) flight or the action of traveling by air.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We organized flying arrangements, minimizing layovers for critical leadership conferences.",
+"x2": "She reviewed the company’s flying policy, ensuring cost- effective business class bookings.",
+"ipa": "/'flaiiŋ/"
+},
+{
+"w": "fold",
+"m": "n. 折层, 折, 羊栏, 折痕, 信徒；vt. 折叠, 包, 合拢, 交迭 — (v) to bend something over on itself. (n) a line or crease made by folding.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We must fold promotional pamphlets, preparing for tomorrow’s trade booth displays.",
+"x2": "She recommended a tri-fold design, consolidating essential info for clarity.",
+"ipa": "/fәuld/"
+},
+{
+"w": "folding",
+"m": "a. 可折叠的 — Able to be folded or designed to fold.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We introduced folding tables, transforming multipurpose spaces for larger gatherings quickly.",
+"x2": "She selected folding crates, optimizing warehouse storage with easy stacking capabilities.",
+"ipa": "/'fәuldiŋ/"
+},
+{
+"w": "folk",
+"m": "n. 人们, 家人, 亲属, 民族；a. 民间的 — People in general; members of a certain group or community.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We invited local folk, building community ties around corporate outreach events.",
+"x2": "She reminded sales folk about changing consumer demands and advanced tactics.",
+"ipa": "/fәuk/"
+},
+{
+"w": "following",
+"m": "n. 下列各项, 部下, 追随者；a. 下列的, 其次的 — (adj) coming after or as a result of. (n) a body of supporters.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We detailed the following items, finalizing our monthly action list.",
+"x2": "She grew a substantial following online, magnifying personal brand influence.",
+"ipa": "/'fɒlәuiŋ/"
+},
+{
+"w": "football",
+"m": "n. 足球, 橄榄球 — A form of team ball game played on a field. (soccer or American football)",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We sponsored a local football tournament, raising brand awareness regionally.",
+"x2": "She organized an office football match, fostering morale among diverse employees.",
+"ipa": "/'futbɒ:l/"
+},
+{
+"w": "for",
+"m": "prep. 为, 因为, 至于；conj. 因为 — Used to indicate the purpose, destination, or suitability of something.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We allocated funds for expansions, targeting promising international markets meticulously.",
+"x2": "She proposed a new timeline for marketing deliverables aligned with promotions.",
+"ipa": "/fɒ:/"
+},
+{
+"w": "force",
+"m": "n. 力量, 武力, 势力, 影响力, 军队, 力, 效力；vt. 强迫, 强夺… — (n) strength or energy as an attribute of physical action or movement. (v) to make someone do something against their…",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We harnessed market force, shaping expansions to leverage consumer appetite.",
+"x2": "She never tried to force compliance, emphasizing mutual respect and trust.",
+"ipa": "/fɒ:s/"
+},
+{
+"w": "forever",
+"m": "adv. 永远 — For all future time; for always.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We never assume clients remain forever, continually nurturing consistent satisfaction metrics.",
+"x2": "She emphasized no policy stands forever, encouraging periodic updates for relevance.",
+"ipa": "/fә'revә/"
+},
+{
+"w": "forgive",
+"m": "vt. 原谅, 宽恕, 免除 — To stop feeling angry or resentful toward someone for an offense, flaw, or mistake.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We try to forgive occasional errors, fostering supportive corporate cultures.",
+"x2": "She agreed to forgive slight miscommunications, rebuilding trust among creative teams.",
+"ipa": "/fә'giv/"
+},
+{
+"w": "fork",
+"m": "n. 叉子, 叉状物, 分岔；vi. 分支, 分歧 — An implement with two or more prongs used for eating or serving food.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We provided a fork set, elevating professionalism at executive lunch meetings.",
+"x2": "She proposed to fork the open-source code, customizing internal workflows.",
+"ipa": "/fɒ:k/"
+},
+{
+"w": "former",
+"m": "a. 从前的, 前者的；n. 起形成作用的人(或物), 模型, 样板 — Having previously been a particular thing; in the past.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We consulted our former CFO, validating strategic financial decisions for expansions.",
+"x2": "She replaced the former policy, adopting updated versions after staff feedback.",
+"ipa": "/'fɒ:mә/"
+},
+{
+"w": "formerly",
+"m": "adv. 从前, 以前 — In the past; previously.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We introduced new branding, formerly known by a different product trademark.",
+"x2": "She led what was formerly our HR department, now restructured entirely.",
+"ipa": "/'fɒ:mәli/"
+},
+{
+"w": "found",
+"m": "vt. 建立, 创立, 铸造；find的过去式和过去分词 — To establish or originate an institution or organization.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We plan to found a subsidiary, tackling underserved niche consumer needs.",
+"x2": "She helped found an advocacy group, advancing corporate social responsibility causes.",
+"ipa": "/faund/"
+},
+{
+"w": "freedom",
+"m": "n. 自由, 坦率, 特权 — The power or right to act, speak, or think as one wants.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We value freedom in scheduling, empowering staff to control working hours.",
+"x2": "She appreciated creative freedom, shaping distinctive solutions for demanding client projects.",
+"ipa": "/'fri:dәm/"
+},
+{
+"w": "freely",
+"m": "adv. 自由地, 随意地, 无拘束地, 直率地, 坦白地, 慷慨地, 免费地,… — Without restriction or limitation.",
+"c": "Vocabulary in Use 600: 单词 F",
+"x": "We let staff discuss issues freely, creating transparent problem-resolution pipelines.",
+"x2": "She distributed budgets freely, trusting departments to allocate appropriately and ethically.",
+"ipa": "/'fri:li/"
+},
+{
+"w": "get on with",
+"m": "继续（干某事）; 和…友好相处 — to submit",
+"c": "IELTS 8.5 词汇大师课: 重要短语动词",
+"x": "She was busy, so I got on with my essay."
+},
+{
+"w": "join in",
+"m": "参加, 加入 — to stay at the same pace or level",
+"c": "IELTS 8.5 词汇大师课: 重要短语动词",
+"x": "She joined in the conversation at the party."
+},
+{
+"w": "let down",
+"m": "放下, 使失望, 使屈辱, 松劲, 减速下降 — to disappoint",
+"c": "IELTS 8.5 词汇大师课: 重要短语动词",
+"x": "She was supposed to collect me at 6:00 but she didn’t."
+},
+{
+"w": "pass away",
+"m": "去世, 停止, 离去, 消逝 — to postpone",
+"c": "IELTS 8.5 词汇大师课: 重要短语动词",
+"x": "My grandfather passed away last night."
+},
+{
+"w": "rule out",
+"m": "划去, 排除, 取消 — to consider",
+"c": "IELTS 8.5 词汇大师课: 重要短语动词"
+},
+{
+"w": "get at",
+"m": "得到; 找到; 责备; 暗示 — to hint or to mean",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "What are you getting at?"
+},
+{
+"w": "get away",
+"m": "离开, 逃脱, 起跑, 出发 — to escape",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "The prisoners got away through a hole in the wall."
+},
+{
+"w": "get back",
+"m": "回来, 恢复, 送回, 重新上台 — to return",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "Jeremy always gets back late from the office."
+},
+{
+"w": "get by",
+"m": "通过, 混过 — to survive",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "When we were young my family had no money, but we got by."
+},
+{
+"w": "get in",
+"m": "进入, 到达, 收获, 插入, 陷入 — to arrive",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "The bus got in an hour early because of the mistake in the timetable."
+},
+{
+"w": "get together",
+"m": "聚集, 收集, 积累 — to meet up with someone",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "They got together for a drink and 6 months later they were married!"
+},
+{
+"w": "get up",
+"m": "(使)起床, (使)起立, (使)爬上 — wake up and get out of bed",
+"c": "IELTS 8.5 词汇大师课: Get 短语动词",
+"x": "My new job starts at 8 am so I have to get up at 6 o´clock."
+},
+{
+"w": "come around",
+"m": "来, 前来, 过访, 顺便来访, 笼络, 诱骗 — to change opinions",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词"
+},
+{
+"w": "come by",
+"m": "从旁边走过, 得到 — to get or obtain",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "I came by this watch when I was walking along the beach and found it."
+},
+{
+"w": "come from",
+"m": "来自, 出生于 — to originate",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "Madison comes from a wealthy family."
+},
+{
+"w": "come in",
+"m": "进来, 到达, 流行起来, 当选, 到手 — to finish",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "Madison came in last in the race, but she enjoyed herself."
+},
+{
+"w": "come into",
+"m": "得到, 继承 — to acquire",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "Madison came into money when she was 21, after her parents suddenly died."
+},
+{
+"w": "come on",
+"m": "偶遇, 进步, 发生, 开始, 出场, 快来 — to give the impression",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "Jack comes on as a hard person, but in fact he is quite caring."
+},
+{
+"w": "come out",
+"m": "到边远地区来, 出现, 露出, 出版, 罢工, 结果是, 褪去, 被解出, 宣布 — to be revealed or to reveal information",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "The player’s past came out when his old friends spoke to the press."
+},
+{
+"w": "come over",
+"m": "过来 — to visit causally or spontaneously",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "Come over for dinner tonight, we´re having a Sunday roast!"
+},
+{
+"w": "come through",
+"m": "经历...仍活着, 安然度过, 胜利, 表现 — to do what is expected",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "William came through only after Wanda begged him for three days to get the tickets for the game."
+},
+{
+"w": "come to",
+"m": "谈到, 被...继承, 苏醒, 停止 — to total (counting money)",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词"
+},
+{
+"w": "come upon",
+"m": "偶遇, 袭击, 要求, 成为...负担 — to discover by accident",
+"c": "IELTS 8.5 词汇大师课: Come 短语动词",
+"x": "While cleaning the house, we came upon an amazing picture from the 19th century."
+},
+{
+"w": "to depart → to go to",
+"m": "正式 vi. 离开, 出发, 背离, 违反, 去世 — informal: to go to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/di'pɑ:t/"
+},
+{
+"w": "out → to do to",
+"m": "正式 a. 外面的, 熄灭的, 结束的；adv. 在外, 熄灭, 出现 — informal: to do to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/aut/"
+},
+{
+"w": "provide → to give to",
+"m": "正式 vt. 提供, 供应, 规定, 预备；vi. 作准备, 抚养, 规定 — informal: to give to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/prә'vaid/"
+},
+{
+"w": "retain → keep to",
+"m": "正式 vt. 保持, 保有, 留住, 记得, 付定金聘请 — informal: keep to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/ri'tein/"
+},
+{
+"w": "cease → stop to",
+"m": "正式 n. 停止；v. 停止, 终了 — informal: stop to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/si:s/"
+},
+{
+"w": "seek → look for",
+"m": "正式 vt. 寻求, 寻找, 探索, 追求, 搜索, 请求；vi. 寻找, 搜索 — informal: look for",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/si:k/"
+},
+{
+"w": "assist, aid → to help",
+"m": "正式 n. 帮助, 协助；vt. 帮助, 促进 — informal: to help",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/ә'sist/"
+},
+{
+"w": "liberate → to free",
+"m": "正式 vt. 解放, 释放, 使自由 — informal: to free",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/'libәreit/"
+},
+{
+"w": "obtain → to get to",
+"m": "正式 vt. 获得, 达到；vi. 流行, 得到公认 — informal: to get to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/әb'tein/"
+},
+{
+"w": "desire → want",
+"m": "正式 n. 欲望, 要求；vt. 想要, 请求 — informal: want",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/di'zaiә/"
+},
+{
+"w": "request → to ask for",
+"m": "正式 n. 请求, 需要, 申请书；vt. 请求, 要求, 邀请 — informal: to ask for",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/ri'kwest/"
+},
+{
+"w": "to function → work to",
+"m": "正式 n. 官能, 职务, 功能, 函数；vi. 活动, 运行, 行使职责 — informal: work to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/'fʌŋkʃәn/"
+},
+{
+"w": "demonstrate → show to",
+"m": "正式 vt. 示范, 证明；vi. 示威 — informal: show to",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/'demәnstreit/"
+},
+{
+"w": "reside → live",
+"m": "正式 vi. 住, 居留, 属于 — informal: live",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/ri'zaid/"
+},
+{
+"w": "require → need",
+"m": "正式 vt. 需要, 命令, 要求 — informal: need",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/ri'kwaiә/"
+},
+{
+"w": "subsequently → next /",
+"m": "正式 adv. 后来, 随后 — informal: next /",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/'sʌbsikwәntli/"
+},
+{
+"w": "immature, infantile → childish",
+"m": "正式 a. 不成熟的, 未完全发育的, 粗糙的 — informal: childish",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/.imә'tjuә/"
+},
+{
+"w": "sufficient → enough",
+"m": "正式 a. 充分的, 足够的 — informal: enough",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/sә'fiʃәnt/"
+},
+{
+"w": "further → more (information)",
+"m": "正式 a. 更远的, 此外的, 更多的；vt. 促进, 增进, 助长 — informal: more (information)",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/'fә:ðә/"
+},
+{
+"w": "hence, therefore → so",
+"m": "正式 adv. 因此, 从此 — informal: so",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/hens/"
+},
+{
+"w": "perspiration → sweat",
+"m": "正式 n. 汗, 流汗, 努力 — informal: sweat",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/.pә:spә'reiʃәn/"
+},
+{
+"w": "inexpensive → cheap",
+"m": "正式 a. 便宜的, 不贵重的 — informal: cheap",
+"c": "IELTS 8.5 词汇大师课: 正式 vs 非正式",
+"ipa": "/.inik'spensiv/"
+},
+{
+"w": "fell and then quickly recovered",
+"m": "下降后迅速回升",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "dipped",
+"m": "小幅下降",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "plummeted to",
+"m": "暴跌至",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "plunged to",
+"m": "骤降至",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "dropped and then levelled off at",
+"m": "下降后趋于平稳于",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "evened out at",
+"m": "趋于平稳于",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "soared",
+"m": "猛增",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "rocketed",
+"m": "飙升",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "hit a peak",
+"m": "达到顶峰",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "peaked at",
+"m": "在…达到峰值",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "reached a high of",
+"m": "达到最高点",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "fluctuated",
+"m": "波动",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "was erratic",
+"m": "起伏不定",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "hit a low of",
+"m": "跌至最低点",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "rose steadily",
+"m": "稳步上升",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "increased gradually",
+"m": "逐渐增加",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "remained flat",
+"m": "保持平稳",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "remained constant at",
+"m": "稳定在",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "remained unchanged",
+"m": "保持不变",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "fell gradually",
+"m": "逐渐下降",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "four-fifths",
+"m": "五分之四 (80%)",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "three-quarters",
+"m": "四分之三 (75%)",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "seven in ten",
+"m": "十分之七 (70%)",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "two-thirds",
+"m": "三分之二 (65%)",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "three-fifths",
+"m": "五分之三 (60%)",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "more than half",
+"m": "超过一半",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "just under",
+"m": "略低于",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "just over",
+"m": "略高于",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "roughly",
+"m": "大约",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "in comparison",
+"m": "相比之下",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "likewise",
+"m": "同样地",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "accounts for",
+"m": "占（比例）",
+"c": "IELTS 8.5 词汇大师课: 图表描述 Task 1"
+},
+{
+"w": "I'm into…",
+"m": "我喜欢/迷上…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'm a keen/avid (surfer)",
+"m": "我是个狂热的（冲浪爱好者）",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'm keen on/fond of (surfing)",
+"m": "我喜欢（冲浪）",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I like nothing more than (to go surfing)",
+"m": "我最喜欢的就是（去冲浪）",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'm itching to try…",
+"m": "我非常想试试…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "to escape the stresses and strains of day-to-day life",
+"m": "逃离日常生活的压力",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Both pictures show…",
+"m": "两张图片都显示…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "In this picture they look as though they are…",
+"m": "这张图里他们看起来像是在…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "We see eye to eye",
+"m": "我们看法一致。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Yeah, I'd go along with that",
+"m": "嗯，我同意。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "You took the words right out of my mouth",
+"m": "你说出了我想说的话。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I couldn't agree more",
+"m": "我非常同意。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "You have a point there",
+"m": "你说得有道理。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'm with you 100% on this one",
+"m": "这一点我完全赞同你。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Let's get down to the nitty gritty",
+"m": "我们谈谈核心问题吧。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "The bottom line is…",
+"m": "归根结底…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "As far as I'm concerned",
+"m": "就我而言，",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "As I see it",
+"m": "在我看来，",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "From my point of view",
+"m": "从我的角度看，",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "In my humble opinion",
+"m": "依我拙见，",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "The first thing that strikes me about this picture is…",
+"m": "这张图首先让我注意到的是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "The thing that really jumps out of this picture is…",
+"m": "这张图里最突出的是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'm pretty sure that they're feeling…",
+"m": "我很确定他们感觉…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'd guess that they are…",
+"m": "我猜他们是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "We don't see eye to eye",
+"m": "我们意见不一致。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I take your point but…",
+"m": "我明白你的意思，但是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I tend to disagree with you there",
+"m": "这点我不太同意你。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "That's not always the case",
+"m": "并不总是这样。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I beg to differ",
+"m": "恕我不能同意。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Isn't it more a case of…?",
+"m": "难道不更像是…吗？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "What's your take on…?",
+"m": "你对…怎么看？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Where do you stand on…?",
+"m": "你对…持什么立场？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "It's a tough one, I'm torn between … and …",
+"m": "这很难选，我在…和…之间犹豫",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Shall we go with…?",
+"m": "我们选…好吗？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "What are your thoughts on this?",
+"m": "你对此有什么想法？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Speaking from personal experience,…",
+"m": "从个人经验来说，…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "For me personally,…",
+"m": "就我个人而言，…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "This is a topic that is particularly close to my heart",
+"m": "这是我特别关心的话题。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "It's funny, I was just thinking about this the other day",
+"m": "真巧，我前几天正好在想这个。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "My gut reaction is…",
+"m": "我的第一反应是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Another point I'd like to add about … is…",
+"m": "关于…我想补充的另一点是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "It's also worth bearing in mind that…",
+"m": "同样值得记住的是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I'd also like to point out that…",
+"m": "我还想指出…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I think it's important not to forget that…",
+"m": "我认为不能忘记的是…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "The vast majority of people tend to think that…",
+"m": "绝大多数人倾向于认为…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "At the end of the day…",
+"m": "说到底…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "When all's said and done…",
+"m": "归根到底…",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "I beg your pardon, I didn't catch that",
+"m": "不好意思，我没听清。",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Sorry, would you mind repeating that?",
+"m": "抱歉，您介意再说一遍吗？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "Could you repeat the question, please?",
+"m": "请您重复一下问题好吗？",
+"c": "IELTS 8.5 词汇大师课: 口语高分句型 8-9分",
+"t": 1
+},
+{
+"w": "abseiling",
+"m": "v. （登山运动中的）沿绳滑下法( abseil的现在分词 )",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/æb'si:lɪŋ/"
+},
+{
+"w": "accessories",
+"m": "n. 辅助程序",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "Accounts (department)",
+"m": "n. 账号；会计账簿",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "ache",
+"m": "n. 疼痛；vi. 痛, 哀怜, 渴望",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/eik/"
+},
+{
+"w": "across from",
+"m": "在...对面",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "act",
+"m": "n. 行动, 行为, 幕, 法案；vi. 行动, 表演, 假装, 见效, 表现,…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/ækt/"
+},
+{
+"w": "action movie",
+"m": "动作片",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "actor",
+"m": "n. 男演员, 行动者",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'æktә/"
+},
+{
+"w": "adaptable",
+"m": "a. 能适应的, 适合的, 可修改的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/ә'dæptәbl/"
+},
+{
+"w": "adhesive tape",
+"m": "胶带",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "Administration (department)",
+"m": "n. 行政, 管理, 政府机关",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/әd.mini'streiʃәn/"
+},
+{
+"w": "adverts",
+"m": "abbr. advertisements 广告, 做广告；n. 提及( adve…",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/ədˈvə:ts/"
+},
+{
+"w": "aeroplane",
+"m": "n. 飞机",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'єәrәplein/"
+},
+{
+"w": "afternoon",
+"m": "n. 午后, 下午",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'ɑ:ftә'nu:n/"
+},
+{
+"w": "aftershave",
+"m": "n. 须后水；修脸润肤露",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'ɑːftəʃeɪv/"
+},
+{
+"w": "against the clock",
+"m": "抢在某一时刻之前",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "ahead",
+"m": "a. 领先的, 预先的, 向前的；adv. 领先, 预先, 向前, 胜于, 在前…",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/ә'hed/"
+},
+{
+"w": "ahead of the game",
+"m": "领先",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "air mattress",
+"m": "充气床垫",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "airplane",
+"m": "n. 飞机",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'єәplein/"
+},
+{
+"w": "album",
+"m": "n. 粘贴簿, 唱片套",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'ælbәm/"
+},
+{
+"w": "Alice band",
+"m": "彩色宽头巾",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "all-inclusive",
+"m": "a. 包括一切的",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'ɔ:lin'klu:siv/"
+},
+{
+"w": "alternative energy",
+"m": "n. 替代能源",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns"
+},
+{
+"w": "amazed",
+"m": "a. 吃惊的, 惊奇的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ә'meizd/"
+},
+{
+"w": "ambulance",
+"m": "n. 救护车",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'æmbjulәns/"
+},
+{
+"w": "American football",
+"m": "n. 美式足球, 橄榄球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "anemone",
+"m": "n. 银莲花, 海葵",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/ә'nemәni/"
+},
+{
+"w": "angry",
+"m": "a. 生气的, 愤怒的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'æŋgri/"
+},
+{
+"w": "annoyed",
+"m": "a. 恼怒的；烦闷的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods"
+},
+{
+"w": "ant",
+"m": "n. 蚂蚁",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/ænt/"
+},
+{
+"w": "antiseptic",
+"m": "n. 抗菌剂, 防腐剂；a. 抗菌的, 防腐的",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/.ænti'septik/"
+},
+{
+"w": "anxious",
+"m": "a. 忧虑的, 发愁的, 渴望的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'æŋʃәs/"
+},
+{
+"w": "AOB",
+"m": "abbr. 倾斜角（angle of bank）",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting",
+"ipa": "/,ei əu 'bi:/"
+},
+{
+"w": "apartment block",
+"m": "公寓楼",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house"
+},
+{
+"w": "appendicitis",
+"m": "n. 阑尾炎",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/ә.pendi'saitis/"
+},
+{
+"w": "applause",
+"m": "n. 鼓掌, 喝彩, 赞许",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/ә'plɒ:z/"
+},
+{
+"w": "apple",
+"m": "n. 苹果, 家伙",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'æpl/"
+},
+{
+"w": "approachable",
+"m": "a. 可接近的, 可亲近的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/ә'prәutʃәbl/"
+},
+{
+"w": "apricot",
+"m": "n. 杏子, 杏树, 杏黄色；a. 杏黄色的",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'eiprikɒt/"
+},
+{
+"w": "aquarium",
+"m": "n. 水族馆, 养鱼池, 水草缸",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/ә'kwєәriәm/"
+},
+{
+"w": "archery",
+"m": "n. 射箭术",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'ɑ:tʃәri/"
+},
+{
+"w": "Argentina",
+"m": "n. 阿根廷",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/.ɑ:dʒәn'ti:nә/"
+},
+{
+"w": "Argentinian",
+"m": "n. 阿根廷人；a. 阿根廷的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/,a:dʒən'tiniən/"
+},
+{
+"w": "arm",
+"m": "n. 手臂, 袖子, 狭长港湾, 武器；vt. 武装, 装备",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/ɑ:m/"
+},
+{
+"w": "armadillo",
+"m": "n. 犰狳",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/.ɑ:mә'dilәu/"
+},
+{
+"w": "armband",
+"m": "n. 臂章",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'ɑ:mbænd/"
+},
+{
+"w": "armchair",
+"m": "n. 扶手椅",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/.ɑ:m'tʃєә/"
+},
+{
+"w": "aromatherapy",
+"m": "n. 用香料按摩",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/ərəʊmə'θerəpɪ/"
+},
+{
+"w": "arrogant",
+"m": "a. 自大的, 傲慢的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'ærәɡәnt/"
+},
+{
+"w": "arrow",
+"m": "n. 箭, 箭状物, 箭头记号",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'ærәu/"
+},
+{
+"w": "artichokes",
+"m": "n. 洋蓟( artichoke的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/'ɑ:tɪtʃəʊks/"
+},
+{
+"w": "article",
+"m": "n. 文章, 冠词, 物品, 物件, 条款, 契约",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'ɑ:tikl/"
+},
+{
+"w": "artist",
+"m": "n. 艺术家, 画家",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'ɑ:tist/"
+},
+{
+"w": "ask directions",
+"m": "问路",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "assertive",
+"m": "a. 武断的, 过分自信的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/ә'sә:tiv/"
+},
+{
+"w": "attachment",
+"m": "n. 连接, 附属物, 连接物, 爱慕",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/ә'tʃætʃmәnt/"
+},
+{
+"w": "attend a meeting",
+"m": "出席会议",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting"
+},
+{
+"w": "attention-grabbing",
+"m": "引人注目的",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "attic",
+"m": "n. 阁楼, 顶楼",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/'ætik/"
+},
+{
+"w": "aubergines",
+"m": "n. 茄子, （茄子般的）紫红色( aubergine的复数形式 )；v. 拍卖…",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "audience",
+"m": "n. 听众, 观众, 读者",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'ɒ:diәns/"
+},
+{
+"w": "autumn",
+"m": "n. 秋天, 成熟期",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'ɒ:tәm/"
+},
+{
+"w": "avocados",
+"m": "n. 鳄梨( avocado的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/ˌævəˈkɑ:dəʊz/"
+},
+{
+"w": "ax",
+"m": "n. 斧头；vt. 用斧削或砍, 削减",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/æks/"
+},
+{
+"w": "baby",
+"m": "n. 婴孩",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'beibi/"
+},
+{
+"w": "baby carriage",
+"m": "童车",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "babygro",
+"m": "（弹性）婴儿连身服",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "backache",
+"m": "n. 背痛",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'bækeik/"
+},
+{
+"w": "bacon",
+"m": "n. 熏猪肉",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'beikәn/"
+},
+{
+"w": "badge",
+"m": "n. 徽章, 标记",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/bædʒ/"
+},
+{
+"w": "bagel",
+"m": "n. 百吉饼（先蒸后烤的发面圈）",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'beiɡәl/"
+},
+{
+"w": "bait",
+"m": "n. 饵；vt. 以饵引诱, 欺负",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/beit/"
+},
+{
+"w": "baker",
+"m": "n. 面包师",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/'beikә/"
+},
+{
+"w": "balcony (building)",
+"m": "n. 阳台, 戏院楼厅",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/'bælkәni/"
+},
+{
+"w": "balloon",
+"m": "n. 气球；vt. 使成气球状",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/bә'lu:n/"
+},
+{
+"w": "banana",
+"m": "n. 香蕉",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/bә'nɑ:nә/"
+},
+{
+"w": "bar (goalpost)",
+"m": "n. 条, 棒, 酒吧, 栅, 障碍物；vt. 禁止, 阻挡, 妨碍",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/bɑ:/"
+},
+{
+"w": "bar (pub)",
+"m": "n. 条, 棒, 酒吧, 栅, 障碍物；vt. 禁止, 阻挡, 妨碍",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/bɑ:/"
+},
+{
+"w": "bark",
+"m": "n. 树皮, 吠声；vi. 吠, 叫骂",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/bɑ:k/"
+},
+{
+"w": "baseball",
+"m": "n. 棒球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'beisbɒ:l/"
+},
+{
+"w": "baseball bat",
+"m": "[医]棒球棒",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "basil",
+"m": "n. 罗勒属植物",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'bæzil/"
+},
+{
+"w": "basket",
+"m": "n. 篮, 篮子；vt. 装入篮",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'bɑ:skit/"
+},
+{
+"w": "basketball",
+"m": "n. 篮球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'bɑ:skitbɒ:l/"
+},
+{
+"w": "bathrobe",
+"m": "n. 浴衣",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'bɑ:θrәub/"
+},
+{
+"w": "be booked",
+"m": "被抓住",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "beach ball",
+"m": "n. <美>（在海滨, 游泳池等玩的）大充气球, 水皮球",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "beak",
+"m": "n. 鸟嘴, 喙",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/bi:k/"
+},
+{
+"w": "beaker",
+"m": "n. 大口酒杯, 烧杯",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/'bi:kә/"
+},
+{
+"w": "beans",
+"m": "n. 豆子；豆类",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "beautiful",
+"m": "a. 美丽的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'bju:tiful/"
+},
+{
+"w": "bed and breakfast",
+"m": "欧洲的一种简易旅馆；住宿加早餐",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "bedside table",
+"m": "[医]床头桌",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house"
+},
+{
+"w": "bee",
+"m": "n. 蜜蜂, 聚会",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/bi:/"
+},
+{
+"w": "beliefs",
+"m": "n. 信仰；信?（belief的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs"
+},
+{
+"w": "bestseller",
+"m": "n. 畅销书",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading"
+},
+{
+"w": "bib",
+"m": "n. 围涎；v. (使)大量喝酒",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/bib/"
+},
+{
+"w": "bicycle lane",
+"m": "非机动车道",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "bill",
+"m": "n. 帐单, 清单, 钞票, 鸟嘴, 广告, 法案, 票据；vt. 开帐单, (…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/bil/"
+},
+{
+"w": "bills",
+"m": "n. 账单；议案（bill的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "bin liner",
+"m": "n. （套入垃圾桶内的）塑料垃圾袋",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "biologist",
+"m": "n. 生物学家",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/bai'ɒlәdʒist/"
+},
+{
+"w": "birdwatching",
+"m": "观鸟",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "biscuit",
+"m": "n. 饼干",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'biskit/"
+},
+{
+"w": "bite",
+"m": "n. 咬, 一口；v. 咬, 刺痛, 穿透",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/bait/"
+},
+{
+"w": "blackberries",
+"m": "n. 黑莓( blackberry的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈblækbəriz/"
+},
+{
+"w": "blackcurrants",
+"m": "n. 黑醋栗( blackcurrant的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/blæk'kʌrənts/"
+},
+{
+"w": "bleach",
+"m": "vt. 漂白；vi. 变白",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/bli:tʃ/"
+},
+{
+"w": "bleat",
+"m": "n. 羊的叫声；vi. 咩咩叫",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/bli:t/"
+},
+{
+"w": "bleed",
+"m": "vi. 流血, 悲痛, 渗出；vt. 使出血, 榨取",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/bli:d/"
+},
+{
+"w": "blender",
+"m": "n. 混合者, 混合器, 搅拌器",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'blendә/"
+},
+{
+"w": "blizzard",
+"m": "n. 大风雪, 暴风雪",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'blizәd/"
+},
+{
+"w": "blood test",
+"m": "验血",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "blouse",
+"m": "n. 宽松的上衣",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/blauz/"
+},
+{
+"w": "blue whale",
+"m": "n. 蓝鲸",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "blueberries",
+"m": "n. 越橘的一种( blueberry的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/b'lu:berɪz/"
+},
+{
+"w": "blush (action)",
+"m": "vi. 脸红, 羞愧；vt. 弄成红色",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/blʌʃ/"
+},
+{
+"w": "blush",
+"m": "vi. 脸红, 羞愧；vt. 弄成红色",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/blʌʃ/"
+},
+{
+"w": "boar",
+"m": "n. 公猪, 野猪",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/bɒ:/"
+},
+{
+"w": "boarding pass",
+"m": "登机卡,飞机票",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "boat",
+"m": "n. 船；vi. 乘船",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/bәut/"
+},
+{
+"w": "bodysuit",
+"m": "n. 紧身衣裤",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/ˈbɒdisu:t/"
+},
+{
+"w": "boiled egg",
+"m": "煮鸡蛋",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "boiling",
+"m": "a. 沸腾的, 激昂的；adv. 沸腾",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'bɒiliŋ/"
+},
+{
+"w": "boiling point",
+"m": "沸点",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate"
+},
+{
+"w": "bolt",
+"m": "n. 门闩, 螺钉, 筛子, 闪电, 意外事件；vt. 闩住, 发射, 脱口而出…",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/bәult/"
+},
+{
+"w": "bonnet (car)",
+"m": "n. 软帽",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'bɒnit/"
+},
+{
+"w": "book club",
+"m": "n. <美>读书俱乐部（一种以优待价格向其成员出售书籍的组织）",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "bookcase",
+"m": "n. 书架, 书柜",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/'bukkeis/"
+},
+{
+"w": "booked",
+"m": "a. 记载入册的, 登记了的",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "bookstore",
+"m": "n. 书店",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/'bukstɒ:/"
+},
+{
+"w": "boot (car)",
+"m": "n. 长靴, 踢, 解雇, 效用；vt. 使穿靴, 踢, 解雇, 有用",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/bu:t/"
+},
+{
+"w": "boot camp",
+"m": "n. 新兵训练营; 劳教营",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "booties",
+"m": "n. 婴儿袜",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "bored",
+"m": "a. 无聊的；烦人的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods"
+},
+{
+"w": "bottle opener",
+"m": "n. 开瓶器; 起子",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "bow (archery)",
+"m": "n. 弓, 眼睛框；v. 用弓拉琴, 弯成弓形",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/bәu.bau/"
+},
+{
+"w": "bow (gesture)",
+"m": "n. 弓, 眼睛框；v. 用弓拉琴, 弯成弓形",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/bәu.bau/"
+},
+{
+"w": "bow tie",
+"m": "蝴蝶结领结",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "bowl (container)",
+"m": "n. 碗, 木球, 大酒杯；v. 滚木球, 快而稳地行驶",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/bәul/"
+},
+{
+"w": "bowling",
+"m": "n. 保龄球戏",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'bәuliŋ/"
+},
+{
+"w": "box",
+"m": "n. 盒子, 箱, 方框, 一巴掌；vt. 装...入盒中, 装箱, 打耳光",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/bɒks/"
+},
+{
+"w": "boxer shorts",
+"m": "n. 拳击短裤, 男式平腿泳裤; 男贴身短裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "boxing",
+"m": "n. 拳击",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'bɒksiŋ/"
+},
+{
+"w": "boxing ring",
+"m": "n. 拳赛场地",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "boy",
+"m": "n. 男孩",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/bɒi/"
+},
+{
+"w": "boyfriend",
+"m": "n. 男朋友",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'bɔifrend/"
+},
+{
+"w": "bra",
+"m": "n. 奶罩",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/brɑ:/"
+},
+{
+"w": "bracelet",
+"m": "n. 手镯",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'breislit/"
+},
+{
+"w": "Brazil",
+"m": "n. 巴西",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/brә'zil/"
+},
+{
+"w": "Brazilian",
+"m": "n. 巴西人；a. 巴西的, 巴西人的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/brә'ziljәn/"
+},
+{
+"w": "bread",
+"m": "n. 面包, 生计, 食物；vt. 裹以面包屑",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/bred/"
+},
+{
+"w": "break even",
+"m": "并列起跑, 得失相当",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "breakthrough",
+"m": "n. 突破",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future",
+"ipa": "/'breikθru:/"
+},
+{
+"w": "breast",
+"m": "n. 胸部, 乳房, 胸怀；vt. 以胸对着, 面对",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/brest/"
+},
+{
+"w": "breathe",
+"m": "vi. 呼吸, 生存, 低语；vt. 呼吸, 使喘息, 发散, 低声说",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/bri:ð/"
+},
+{
+"w": "breathtaking",
+"m": "a. 惊人的, 惊险的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'breθ.teikiŋ/"
+},
+{
+"w": "bribery",
+"m": "n. 贿赂行为, 行贿, 受贿",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'braibәri/"
+},
+{
+"w": "briefcase",
+"m": "n. 公事包",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'bri:fkeis/"
+},
+{
+"w": "broil",
+"m": "vi. 烤, 争吵, 激动；vt. 烤",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/brɒil/"
+},
+{
+"w": "broom",
+"m": "n. 扫帚, 金雀花；vt. 扫除",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/bru:m/"
+},
+{
+"w": "brother",
+"m": "n. 兄弟",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'brʌðә/"
+},
+{
+"w": "brother-in-law",
+"m": "n. 姊妹的丈夫",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "brunch",
+"m": "n. 早午餐",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/brʌntʃ/"
+},
+{
+"w": "buckle",
+"m": "n. 皮带扣, 扣子；vt. 扣住, 使弯曲",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'bʌkl/"
+},
+{
+"w": "buggy",
+"m": "a. 多虫的；n. 双轮单座轻马车, 四轮单座马车",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'bʌgi/"
+},
+{
+"w": "bugs",
+"m": "a. 疯狂的, 发疯的",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/bʌgz/"
+},
+{
+"w": "bungalow",
+"m": "n. 平房",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'bʌŋgәlәu/"
+},
+{
+"w": "Bunsen burner",
+"m": "本生灯",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment"
+},
+{
+"w": "burger",
+"m": "n. 汉堡包（等于hamburger）",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'bә:ɡә/"
+},
+{
+"w": "burglary",
+"m": "n. 夜盗行为, 盗窃, 盗窃行为",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'bә:^lәri/"
+},
+{
+"w": "burrow",
+"m": "n. 洞穴, 藏身处；vi. 掘洞穴, 躲藏",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'bʌrәu/"
+},
+{
+"w": "bus station",
+"m": "n. 公交车站",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town"
+},
+{
+"w": "bus stop",
+"m": "公共汽车站",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "business studies",
+"m": "经营研究",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education"
+},
+{
+"w": "businessman",
+"m": "n. 商人, 实业家, 工商业家",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'biznismæn/"
+},
+{
+"w": "businesswoman",
+"m": "n. 商人, 办理实务的人, 经商者",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'bizniswjmæn/"
+},
+{
+"w": "busk",
+"m": "vt.<苏> 准备好",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/bʌsk/"
+},
+{
+"w": "butcher",
+"m": "n. 屠夫, 肉商, 小贩；vt. 屠宰, 屠杀",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'butʃә/"
+},
+{
+"w": "butterfly",
+"m": "n. 蝴蝶",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'bʌtәflai/"
+},
+{
+"w": "butternut squash",
+"m": "n. （菜名）白胡桃泥（是美国一道汤菜）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "buzz",
+"m": "n. 嗡嗡声, 流言；vi. 发出嗡嗡声, 说闲话",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/bʌz/"
+},
+{
+"w": "cabin",
+"m": "n. 小屋, 客舱；vt. 关在小屋",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'kæbin/"
+},
+{
+"w": "cage",
+"m": "n. 笼, 牢房, 战俘营；vt. 关进笼内",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/keidʒ/"
+},
+{
+"w": "cake",
+"m": "n. 蛋糕, 块, 饼；vt. 使结块, 加块状物于",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/keik/"
+},
+{
+"w": "calcium",
+"m": "n. 钙",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/'kælsiәm/"
+},
+{
+"w": "camper van",
+"m": "n. （吃、住设施齐全的）野营车",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "campfire",
+"m": "n. 营火, 营火会",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'kæmpfaiә/"
+},
+{
+"w": "camping",
+"m": "n. 野营, 露营",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'kæmpiŋ/"
+},
+{
+"w": "can opener",
+"m": "n. 开罐器",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "candy",
+"m": "n. 糖果, 冰糖；vt. 用糖煮, 使结晶为砂糖",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'kændi/"
+},
+{
+"w": "canoeing",
+"m": "n. 划独木舟, 玩独木舟",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/kә'nu:iŋ/"
+},
+{
+"w": "car wash",
+"m": "洗车处",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "carbohydrates",
+"m": "n. 碳水化合物, 糖类( carbohydrate的复数形式 ); 淀粉质或糖…",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/kɑ:bə'haɪdreɪts/"
+},
+{
+"w": "carbonated",
+"m": "a. 含二氧化碳的；碳化的, 碳酸的",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating"
+},
+{
+"w": "caring",
+"m": "a. 有同情心的；表示或感到关怀或关心的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'kεәriŋ/"
+},
+{
+"w": "carrier bag",
+"m": "装物的手提厚纸袋",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "carrots",
+"m": "n. 胡萝卜；红萝卜（carrot的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "carton",
+"m": "n. 硬纸盒, 纸板箱",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'kɑ:tn/"
+},
+{
+"w": "cash machine",
+"m": "自动取款机",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "cash register",
+"m": "现金出纳机",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "catch a train",
+"m": "赶上火车",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "caterpillar",
+"m": "n. 毛虫",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'kætәpilә/"
+},
+{
+"w": "cello",
+"m": "n. 大提琴",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'tʃelәu/"
+},
+{
+"w": "cells",
+"m": "n. 细胞；牢房",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment"
+},
+{
+"w": "Celsius",
+"m": "a. 摄氏的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'selsiәs/"
+},
+{
+"w": "cemetery",
+"m": "n. 墓地, 公墓",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/'semitәri/"
+},
+{
+"w": "century",
+"m": "n. 世纪, 百年",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'sentʃuri/"
+},
+{
+"w": "chain",
+"m": "n. 链, 枷锁, 束缚；vt. 用铁练锁住, 束缚, 囚禁",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/tʃein/"
+},
+{
+"w": "chair",
+"m": "n. 椅子, 显要的席位, 主席；vt. 使入座, 使就任要职",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/tʃєә/"
+},
+{
+"w": "chalet",
+"m": "n. 瑞士山中的牧人小屋",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'ʃælei/"
+},
+{
+"w": "change (clothes)",
+"m": "n. 变化, 找回的零钱, 找头, 更换；vt. 改变, 更换, 兑换",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/tʃeindʒ/"
+},
+{
+"w": "change of pace",
+"m": "换口味",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "chat show",
+"m": "n. （电视或广播电台的）访谈节目",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "check (payment)",
+"m": "n. 检查, 支票, 阻止物, 寄物牌, 象棋中将军；vt. 检查, 阻止, 核…",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance",
+"ipa": "/tʃek/"
+},
+{
+"w": "check (restaurant)",
+"m": "n. 检查, 支票, 阻止物, 寄物牌, 象棋中将军；vt. 检查, 阻止, 核…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/tʃek/"
+},
+{
+"w": "checked",
+"m": "a. 有格子图案的, 闭音节的, 选中的",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/tʃekt/"
+},
+{
+"w": "cheek",
+"m": "n. 颊, 厚颜, 脸蛋",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/tʃi:k/"
+},
+{
+"w": "cheerful",
+"m": "a. 快活的, 高兴的, 兴高采烈的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'tʃiәful/"
+},
+{
+"w": "cheesecake",
+"m": "n. 干酪饼, 半裸体的女人照片",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'tʃi:zkeik/"
+},
+{
+"w": "cheetah",
+"m": "n. 猎豹",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'tʃi:tә/"
+},
+{
+"w": "chef",
+"m": "n. 厨师",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/ʃef/"
+},
+{
+"w": "cherries",
+"m": "n. 樱桃( cherry的复数形式 ); 樱桃树; 樱桃木; 樱桃色",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈtʃeri:z/"
+},
+{
+"w": "chest",
+"m": "n. 胸, 胸部, 衣柜, 箱子",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/tʃest/"
+},
+{
+"w": "chest of drawers",
+"m": "五屉橱,衣柜",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house"
+},
+{
+"w": "chew",
+"m": "vt. 咀嚼, 嚼碎；vi. 咀嚼, 细想",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/tʃu:/"
+},
+{
+"w": "chickenpox",
+"m": "n. 水痘",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness"
+},
+{
+"w": "chili",
+"m": "n. 干辣椒, 辣椒粉",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'tʃili/"
+},
+{
+"w": "chill out",
+"m": "冷静点=calm down; 冷静下来; 别紧张; 放松一下。",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "chilled",
+"m": "a. 已冷的, 冷硬了的, 冷冻了的",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/tʃild/"
+},
+{
+"w": "chilly",
+"m": "a. 寒冷的, 冷淡的, 不友好的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'tʃili/"
+},
+{
+"w": "chin",
+"m": "n. 下巴, 颏",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/tʃin/"
+},
+{
+"w": "China",
+"m": "n. 中国, 瓷器；a. 中国的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'tʃainә/"
+},
+{
+"w": "chips",
+"m": "n. 炸土豆条；小木片",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/tʃips/"
+},
+{
+"w": "chives",
+"m": "韭黃",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/tʃaɪvz/"
+},
+{
+"w": "cholesterol",
+"m": "n. 胆固醇",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/kә'lestәrɒl/"
+},
+{
+"w": "chopping board",
+"m": "斩（剁）肉板",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "chopsticks",
+"m": "n. 筷子",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'tʃɒpstiks/"
+},
+{
+"w": "chutney",
+"m": "n. 酸辣酱, 一种酸辣调味品",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "cilantro",
+"m": "n. 芫荽叶",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/si'lɑ:ntrәj/"
+},
+{
+"w": "circle",
+"m": "n. 圆周, 社交圈, 循环, 范围；vt. 围着, 环绕",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'sә:kl/"
+},
+{
+"w": "circuit training",
+"m": "循环训练（法）",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "clam",
+"m": "n. 蛤, 沉默寡言的人；vi. 捞蛤",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/klæm/"
+},
+{
+"w": "clap",
+"m": "n. 拍手, 拍手声, 霹雳声, 花柳病；v. 鼓掌, (使)啪地关上",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/klæp/"
+},
+{
+"w": "claw(s)",
+"m": "n. 爪, 螯, 抓伤；v. 用爪抓, 挖, 搜刮",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/klɒ:/"
+},
+{
+"w": "clean up",
+"m": "打扫干净, 清理, 做完",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "cleaner",
+"m": "n. 清洁工人, 清洁剂, 干洗商",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'kli:nә/"
+},
+{
+"w": "click",
+"m": "n. 咔哒声, 啪嗒声；vi. 作咔哒声",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/klik/"
+},
+{
+"w": "cliff",
+"m": "n. 悬崖, 绝壁",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/klif/"
+},
+{
+"w": "climb",
+"m": "v. 攀登, 上升, 爬；n. 攀登, 爬升",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/klaim/"
+},
+{
+"w": "climbing frame",
+"m": "n. （儿童玩的）攀登架",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "clipboard",
+"m": "n. 有纸夹的写字板, 剪贴板",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'klipbɒ:d/"
+},
+{
+"w": "close friend",
+"m": "密友，亲密的朋友",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships"
+},
+{
+"w": "closed",
+"m": "a. 关闭的, 限于少数人的",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/klәuzd/"
+},
+{
+"w": "cloth",
+"m": "n. 布料, 织品, 布",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/klɒ:θ. klɒθ/"
+},
+{
+"w": "clothes line",
+"m": "n. 晒衣绳",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "cloud",
+"m": "n. 云, 阴暗, 烟雾, 疑团；vt. 以云遮敝, 笼罩, 使黯然",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/klaud/"
+},
+{
+"w": "coat",
+"m": "n. 外套；vt. 外面覆盖, 给...穿外套",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/kәut/"
+},
+{
+"w": "cockpit",
+"m": "n. 驾驶员座舱, 战场",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'kɒkpit/"
+},
+{
+"w": "cockroach",
+"m": "n. 蟑螂",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'kɒkrәutʃ/"
+},
+{
+"w": "cod",
+"m": "n. 鳕, 欺骗, 愚弄；v. 欺骗, 愚弄",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/kɒd/"
+},
+{
+"w": "coins",
+"m": "n. 硬币（coin的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "cola",
+"m": "结肠, 冒号, 科朗",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'kәulә/"
+},
+{
+"w": "colander",
+"m": "n. 滤器",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'kʌlәndә/"
+},
+{
+"w": "cold (sickness)",
+"m": "n. 感冒, 寒冷；a. 寒冷的, 冷淡的, 冷静的",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/kәuld/"
+},
+{
+"w": "cold (temperature)",
+"m": "n. 感冒, 寒冷；a. 寒冷的, 冷淡的, 冷静的",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/kәuld/"
+},
+{
+"w": "cold feet",
+"m": "害怕、胆怯",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "collaborate",
+"m": "vi. 合作, 勾结",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job",
+"ipa": "/kә'læbәreit/"
+},
+{
+"w": "collar (pet)",
+"m": "n. 衣领, 颈圈；vt. 控制, 扭住衣领, 给...装上领子",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'kɒlә/"
+},
+{
+"w": "collar (shirt)",
+"m": "n. 衣领, 颈圈；vt. 控制, 扭住衣领, 给...装上领子",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'kɒlә/"
+},
+{
+"w": "coloring",
+"m": "n. 着色, 色彩, 色调, 面色, 气色, 外貌, 伪装, 色素, 颜料, 染…",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'kʌlәriŋ/"
+},
+{
+"w": "colors",
+"m": "n. 国旗, 旗帜, 船旗, 军旗, 衣帽, 徽章, 绶带",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts"
+},
+{
+"w": "comb",
+"m": "n. 头梳, 鸡冠；vt. 梳头发, 梳毛",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/kәum/"
+},
+{
+"w": "comic",
+"m": "n. 连环漫画, 喜剧演员, 滑稽的人；a. 滑稽的, 有趣的, 喜剧的",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'kɒmik/"
+},
+{
+"w": "commit a crime",
+"m": "犯罪",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law"
+},
+{
+"w": "commuters",
+"m": "n. （远距离）上下班往返的人( commuter的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/kəˈmju:təz/"
+},
+{
+"w": "company name",
+"m": "公司名称；注册之公司名称",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "compare and contrast",
+"m": "比较,对比",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "competitive",
+"m": "a. 竞争的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/kәm'petitiv/"
+},
+{
+"w": "composer",
+"m": "n. 作曲家, 作家, 调停者",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/kәm'pәuzә/"
+},
+{
+"w": "computer",
+"m": "n. 电脑, 电子计算机",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/kәm'pju:tә/"
+},
+{
+"w": "condiments",
+"m": "n. 调味品（condiment的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "conductor",
+"m": "n. 领导者, 指挥者, 售票员, 向导",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/kәn'dʌktә/"
+},
+{
+"w": "considerate",
+"m": "a. 体贴的, 体谅的, 考虑周到的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/kәn'sidәrit/"
+},
+{
+"w": "construction industry",
+"m": "建筑工业",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "construction worker",
+"m": "建筑工人",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "continuous assessment",
+"m": "n. （对学生学业进步的）连续评估",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "conversational",
+"m": "a. 会话的, 对话的, 健谈的",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language",
+"ipa": "/.kɒnvә'seiʃәnl/"
+},
+{
+"w": "cool down",
+"m": "变凉, 平静下来",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "coriander",
+"m": "n. 芫荽",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/,kɔri'ændә/"
+},
+{
+"w": "corkscrew",
+"m": "n. 拔塞钻；a. 螺旋形的",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'kɒ:kskru:/"
+},
+{
+"w": "corner kick",
+"m": "角球",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "corner the market",
+"m": "垄断市场",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "correction fluid",
+"m": "n. 修正液, 纠正液",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "cosmopolitan",
+"m": "a. 世界主义的, 世界性的, 全世界的, 遍生的, 不偏狭的, 卓有见识的；n…",
+"c": "DK 词汇大全 Vocabulary Builder: 75 Urban life",
+"ipa": "/,kɔzmә'pɔlitәn/"
+},
+{
+"w": "costume drama",
+"m": "古装剧",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "cot",
+"m": "n. 行军床, 小屋, (家畜等的)棚, (家畜等的)栏",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/kɒt/"
+},
+{
+"w": "cottage cheese",
+"m": "软白干酪",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "cotton wool",
+"m": "原棉, 棉絮",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "couch",
+"m": "n. 长沙发, 睡椅, 卧榻；vt. 横躺, 表达",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/kautʃ/"
+},
+{
+"w": "couch potato",
+"m": "n. 花大量时间看电视的人, 电视迷; 美国人说整天看电视的人是“沙发土豆”",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "counseling",
+"m": "n. 咨询服务",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/'kaunsәliŋ/"
+},
+{
+"w": "courgettes",
+"m": "n. 小胡瓜( courgette的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/ku:əˈʒets/"
+},
+{
+"w": "co-worker",
+"m": "n. 同事",
+"c": "DK 词汇大全 Vocabulary Builder: 35 Working conditions",
+"ipa": "/'kәu'wә:kә/"
+},
+{
+"w": "crab",
+"m": "n. 螃蟹, 偏航, 脾气乖戾的人, 沙果；vi. 捕蟹, 偏航, 发牢骚",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/kræb/"
+},
+{
+"w": "cranberries",
+"m": "n. <植>越橘( cranberry的名词复数 )",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈkrænbəriz/"
+},
+{
+"w": "crawl",
+"m": "n. 爬行, 匍匐而行, 养鱼池；v. 爬行",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/krɒ:l/"
+},
+{
+"w": "cream (colour)",
+"m": "n. 乳酪, 奶油, 面霜",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/kri:m/"
+},
+{
+"w": "cream (dairy)",
+"m": "n. 乳酪, 奶油, 面霜",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/kri:m/"
+},
+{
+"w": "crib",
+"m": "n. 婴儿小床, 食槽, 蓄栏；vi. 抄袭",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/krib/"
+},
+{
+"w": "cricket",
+"m": "n. 蟋蟀, 板球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'krikit/"
+},
+{
+"w": "crime wave",
+"m": "恶浪",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law"
+},
+{
+"w": "croak",
+"m": "n. 呱呱叫声, 哇哇声；vi. 呱呱地叫, 发牢骚",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/krәuk/"
+},
+{
+"w": "crockery",
+"m": "n. 陶器, 瓦器",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'krɒkәri/"
+},
+{
+"w": "croissant",
+"m": "n. 羊角面包",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/krwә:'sɑ:nt/"
+},
+{
+"w": "crossroads",
+"m": "n. 十字路口, 交叉路口, 聚会的中心地点, (喻)需作抉择的重要关头, 紧要…",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "cross-trainer",
+"m": "多功能健身器",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "crow (bird)",
+"m": "n. 啼叫, 乌鸦, 鸡鸣, 撬棍；vi. 啼叫, 报晓",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/krәu/"
+},
+{
+"w": "crow (cockerel)",
+"m": "n. 啼叫, 乌鸦, 鸡鸣, 撬棍；vi. 啼叫, 报晓",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/krәu/"
+},
+{
+"w": "cucumbers",
+"m": "n. 黄瓜, 胡瓜( cucumber的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/k'ju:kʌmbəz/"
+},
+{
+"w": "cuff",
+"m": "n. 袖口, 一巴掌；vt. 用巴掌打",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/kʌf/"
+},
+{
+"w": "cufflinks",
+"m": "n. （衬衣的）袖扣( cufflink的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "culture shock",
+"m": "n. 文化冲击",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "cupcake",
+"m": "n. 杯形蛋糕",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'kʌpkeik/"
+},
+{
+"w": "currant",
+"m": "n. 葡萄干",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'kʌrәnt/"
+},
+{
+"w": "currency",
+"m": "n. 货币, 通货, 流通, 通用",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance",
+"ipa": "/'kʌrәnsi/"
+},
+{
+"w": "current affairs",
+"m": "n. 时事; 新闻; 时务",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "customer service",
+"m": "客户服务",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "cut (food preparation)",
+"m": "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/kʌt/"
+},
+{
+"w": "cut (wound)",
+"m": "n. 切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删…",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/kʌt/"
+},
+{
+"w": "cutting board",
+"m": "n. 切肉板",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "cutting-edge",
+"m": "a. 前沿的, 最前沿的",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future",
+"ipa": "/'kʌtɪŋ'edʒ/"
+},
+{
+"w": "Czech Republic",
+"m": "n. 捷克共和国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "decimals",
+"m": "n. 位数；小数（decimal的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "decision-making",
+"m": "n. 决策；a. 决策的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "deck chair",
+"m": "折叠帆布躺椅",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "defender",
+"m": "n. 防卫者, 防护者, 辩护者",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/di'fendә/"
+},
+{
+"w": "degree (qualification)",
+"m": "n. 程度, 度数, 学位, 度",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/di'gri:/"
+},
+{
+"w": "degrees (temperature)",
+"m": "n. 角度, 学历；度数（degree的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate"
+},
+{
+"w": "delayed",
+"m": "a. 定时的；延时的",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/di'leid/"
+},
+{
+"w": "delete",
+"m": "vt. 删除",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/di'li:t/"
+},
+{
+"w": "delicatessen",
+"m": "n. 熟食店",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/,delikә'tesn/"
+},
+{
+"w": "delicious",
+"m": "a. 美味的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/di'liʃәs/"
+},
+{
+"w": "denim",
+"m": "n. 斜纹粗棉布, 牛仔布, 劳动布, (非正式)工作服, 工装裤",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/'denim/"
+},
+{
+"w": "dental floss",
+"m": "洁牙线",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "deodorant",
+"m": "n. 除臭药, 防臭剂；a. 止臭的, 防臭的",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/di:'әudәrәnt/"
+},
+{
+"w": "department store",
+"m": "百货公司",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "departments (workplace)",
+"m": "n. 部( department的复数形式 ); （任何事物的）部分; （企业单…",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/dɪ'pɑ:tmənts/"
+},
+{
+"w": "departure gate",
+"m": "登机口",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "depressed",
+"m": "a. 沮丧的, 降低的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/di'prest/"
+},
+{
+"w": "desktop computer",
+"m": "台式电脑",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "desserts",
+"m": "n. （餐后）甜食, 甜点( dessert的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/dɪ'zɜ:ts/"
+},
+{
+"w": "detox",
+"m": "n. 戒瘾病房；戒瘾诊所",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/di:'tɔks/"
+},
+{
+"w": "diabetes",
+"m": "n. 糖尿病, 多尿症",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/daiә'bi:ti:z/"
+},
+{
+"w": "dialog",
+"m": "n. 会话, 对话",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'daiәlɒg/"
+},
+{
+"w": "diaper",
+"m": "n. 尿布",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'daiәpә/"
+},
+{
+"w": "diesel",
+"m": "n. 内燃机, 柴油机, 柴油",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'di:zәl/"
+},
+{
+"w": "dine",
+"m": "vi. 用正餐, 进餐；vt. 宴请",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/dain/"
+},
+{
+"w": "dinnerware",
+"m": "n. 整套餐具",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'dinәwєә/"
+},
+{
+"w": "direct flight",
+"m": "n. 直航：飞行于两地之间，经停一个或以上机场，但不更换航班号或飞行器的航班",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "disastrous",
+"m": "a. 损失惨重的, 悲伤的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/di'zɑ:strәs/"
+},
+{
+"w": "discus",
+"m": "n. 铁饼, 掷铁饼比赛",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'diskәs/"
+},
+{
+"w": "dishwashing liquid",
+"m": "洗碗精；洗碟剂",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "distracted",
+"m": "a. 心烦意乱的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/dis'træktid/"
+},
+{
+"w": "diving board",
+"m": "n. <美>跳水板",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "do",
+"m": "v. 做, 进行, 完成",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/du:/"
+},
+{
+"w": "do homework",
+"m": "做家庭作业;做准备工作",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "do puzzles",
+"m": "解谜",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "do the dishes",
+"m": "（饭后）洗餐具",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "do up",
+"m": "修缮, 包扎, 整理",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "doghouse",
+"m": "n. 狗窝",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'dɒghaus/"
+},
+{
+"w": "doll",
+"m": "n. 洋娃娃, 无头脑的美丽女人",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/dɒl/"
+},
+{
+"w": "dollhouse",
+"m": "n. 玩具小屋",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'dɔlhajs/"
+},
+{
+"w": "donkey",
+"m": "n. 驴子, 笨蛋, 顽固者, 辅助发动机, 辅助泵",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'dɒŋki/"
+},
+{
+"w": "dorm",
+"m": "n. 宿舍",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/dɒ:m/"
+},
+{
+"w": "dove",
+"m": "n. 鸽子；dive的过去式",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/dʌv/"
+},
+{
+"w": "downpour",
+"m": "n. 倾盆大雨；注下",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'daunpɔ:/"
+},
+{
+"w": "draw (art)",
+"m": "vi. 拉, 拖, 拔剑；vt. 拖拉, 挨近, 领取, 打成平局, 引导, 抽…",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities",
+"ipa": "/drɒ:/"
+},
+{
+"w": "draw (sports result)",
+"m": "vi. 拉, 拖, 拔剑；vt. 拖拉, 挨近, 领取, 打成平局, 引导, 抽…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/drɒ:/"
+},
+{
+"w": "drawing pin",
+"m": "图钉",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "dresser",
+"m": "n. 化妆台, (剧团)服装师, 碗柜",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/'dresә/"
+},
+{
+"w": "dressing gown",
+"m": "晨衣",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "drift apart",
+"m": "（两者）漂移, 疏远",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships"
+},
+{
+"w": "drill",
+"m": "n. 钻孔机, 钻子, 播种机, 粗斜纹布；v. 训练, 钻孔",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/dril/"
+},
+{
+"w": "dry cleaners",
+"m": "n. 干洗店，干洗工( dry cleaner的名词复数 )",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "duck",
+"m": "n. 鸭子；vi. 没入水中, 闪避",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/dʌk/"
+},
+{
+"w": "dummy",
+"m": "n. 傀儡, 假人, 仿制品；a. 虚设的, 假的, 名义上的",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'dʌmi/"
+},
+{
+"w": "dumplings",
+"m": "n. 汤团( dumpling的名词复数 ); 饺子; 水果布丁; 矮胖的人",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'dʌmplɪŋz/"
+},
+{
+"w": "duplex",
+"m": "a. 双的, 复式的, 双联的, 二重的, 二倍的",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'dju:pleks/"
+},
+{
+"w": "duster",
+"m": "n. 掸子, 打扫灰尘的人",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/'dʌstә/"
+},
+{
+"w": "dustpan",
+"m": "n. 畚箕",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/'dʌstpæn/"
+},
+{
+"w": "eagle",
+"m": "n. 鹰, 鹰状标饰",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'i:gl/"
+},
+{
+"w": "earphones",
+"m": "n. 耳机; 耳机, 听筒( earphone的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/ˈɪəfəʊnz/"
+},
+{
+"w": "earrings",
+"m": "n. 耳环；耳饰（earring的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "ecstatic",
+"m": "n. 狂喜的人；a. 狂喜的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ik'stætik/"
+},
+{
+"w": "eczema",
+"m": "n. 湿疹",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'eksimә/"
+},
+{
+"w": "eel",
+"m": "n. 鳗鱼, 鳝鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/i:l/"
+},
+{
+"w": "egg white",
+"m": "n. 蛋白",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "eggplants",
+"m": "n. 茄子( eggplant的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/'eɡplɑ:nts/"
+},
+{
+"w": "Egypt",
+"m": "n. 埃及",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'i:dʒipt/"
+},
+{
+"w": "Egyptian",
+"m": "n. 埃及人；a. 埃及的, 埃及人的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/i'dʒipʃәn/"
+},
+{
+"w": "eight",
+"m": "num. 八, 八个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/eit/"
+},
+{
+"w": "eighteen",
+"m": "num. 十八, 十八个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'ei'ti:n/"
+},
+{
+"w": "eighth",
+"m": "num. 第八, 八分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/eitθ/"
+},
+{
+"w": "eighty",
+"m": "num. 八十, 八十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'eiti/"
+},
+{
+"w": "electric guitar",
+"m": "n. 电吉他",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music"
+},
+{
+"w": "electrical appliances",
+"m": "日用电器；电气制品",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "electrician",
+"m": "n. 电学家, 电气技师, 电工",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/.ilek'triʃәn/"
+},
+{
+"w": "electronics industry",
+"m": "电子工业；电子业",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "eleven",
+"m": "num. 十一, 十一个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/i'levn/"
+},
+{
+"w": "eleventh",
+"m": "num. 第十一, 十一分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/i'levnθ/"
+},
+{
+"w": "elliptical",
+"m": "a. 椭圆的",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/i'liptikәl/"
+},
+{
+"w": "email",
+"m": "n. 电子信函",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/'i:'meil/"
+},
+{
+"w": "email address",
+"m": "电子邮件地址,(用以传送电子邮件的指定地址)",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "encore",
+"m": "n. 再演唱的要求, 要次登场；interj. 再演唱一次",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/ɒŋ'kɒ:/"
+},
+{
+"w": "endangered",
+"m": "a. 有生命危险的；濒临灭绝的",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns",
+"ipa": "/in'deindʒәd/"
+},
+{
+"w": "enroll in",
+"m": "登记,报名参加",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "entertainment industry",
+"m": "娱乐业",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "episode",
+"m": "n. 插曲, 插话, 有趣的事件, 一段情节",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/'episәud/"
+},
+{
+"w": "eraser",
+"m": "n. 擦子",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/i'reisә/"
+},
+{
+"w": "escalator",
+"m": "n. 电动扶梯, 自动扶梯",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/'eskәleitә/"
+},
+{
+"w": "evening class",
+"m": "n. （成年人的）夜校, 夜间课程",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "every day",
+"m": "每天; 日; 天天; 逐日",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions"
+},
+{
+"w": "every other day",
+"m": "每隔一天",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions"
+},
+{
+"w": "exercise bike",
+"m": "[体]室内健身自行车",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "exercise book",
+"m": "n. 练习本",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education"
+},
+{
+"w": "expenditure",
+"m": "n. 开支, 费用, 用光, 消费额",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance",
+"ipa": "/ik'spenditʃә/"
+},
+{
+"w": "eyebrow",
+"m": "n. 眉毛",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'aibrau/"
+},
+{
+"w": "eyelashes",
+"m": "n. 睫毛; 睫毛( eyelash的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'aɪlæʃɪz/"
+},
+{
+"w": "eyeliner",
+"m": "n. 眼线膏",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'ailainә/"
+},
+{
+"w": "eyeshadow",
+"m": "眼影",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "face the music",
+"m": "勇于承担责任, 临危不惧",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "facial hair",
+"m": "[医]面毛",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance"
+},
+{
+"w": "Facilities (department)",
+"m": "n. 工具, 设施, 设备",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "Fahrenheit",
+"m": "a. 华氏温度计的；n. 华氏温度计",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'færәnhait/"
+},
+{
+"w": "fairy tale",
+"m": "神话故事, 童话, 谎言",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs"
+},
+{
+"w": "fall (action)",
+"m": "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天；vi. 倒…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/fɒ:l/"
+},
+{
+"w": "fall (season)",
+"m": "n. 落下, 瀑布, 采伐量, 下降, 落差, 降低, 堕落, 秋天；vi. 倒…",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/fɒ:l/"
+},
+{
+"w": "fans",
+"m": "n. 风扇；狂热者, 粉丝（fan的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "fashion designer",
+"m": "时装设计师",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "fashion industry",
+"m": "时装工业,服装业",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "fast food",
+"m": "n. 速食; 快餐",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "fast-paced",
+"m": "a. 快步调的, 快节奏的",
+"c": "DK 词汇大全 Vocabulary Builder: 75 Urban life",
+"ipa": "/'fɑ:stp'eɪst/"
+},
+{
+"w": "feel under the weather",
+"m": "不舒服, 有点小病, 微恙, 不愉快",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "feelings",
+"m": "n. 感情, 情绪, 心情, 情感",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods"
+},
+{
+"w": "fiber",
+"m": "n. 纤维, 构造, 纤维制品",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/'faibә/"
+},
+{
+"w": "field (land)",
+"m": "n. 领域, 田地, 场地, 战场, 场, 域；vt. 使...晒在场上, 使上…",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/fi:ld/"
+},
+{
+"w": "field (sports)",
+"m": "n. 领域, 田地, 场地, 战场, 场, 域；vt. 使...晒在场上, 使上…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/fi:ld/"
+},
+{
+"w": "fifteen",
+"m": "num. 十五, 十五个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'fif'ti:n/"
+},
+{
+"w": "fifth",
+"m": "num. 第五, 五分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/fifθ/"
+},
+{
+"w": "fifty",
+"m": "num. 五十, 五十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'fifti/"
+},
+{
+"w": "fig",
+"m": "n. 无花果, 无价值的东西, 少许, 服装；vt. 打扮, 使马跑快",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/fig/"
+},
+{
+"w": "filing cabinet",
+"m": "档案橱柜",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "film star",
+"m": "电影明星",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "fin",
+"m": "n. 鳍, 鱼翅, 鳍状物, 五元纸币；vi. 猛挥鳍",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/fin/"
+},
+{
+"w": "Finance (department)",
+"m": "n. 财政, 财务；vt. 供给...经费, 负担经费",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/fai'næns/"
+},
+{
+"w": "fired",
+"m": "n. 因祸得福（电影名）",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working"
+},
+{
+"w": "firefighter",
+"m": "n. <美>消防队员",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/ˈfaɪəfaɪtə(r)/"
+},
+{
+"w": "first aid kit",
+"m": "急救包",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "first floor",
+"m": "n. 第一层",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "first name",
+"m": "名",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "fish slice",
+"m": "分鱼刀, 煎鱼锅铲",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "fish tank",
+"m": "n. 鱼缸",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals"
+},
+{
+"w": "fishing rod",
+"m": "钓鱼桿",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "fishmonger",
+"m": "n. 鱼贩, 鱼商",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/'fiʃ.mʌŋgә/"
+},
+{
+"w": "five",
+"m": "num. 五, 五个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/faiv/"
+},
+{
+"w": "flap",
+"m": "n. 飘, 摆动, 拍打, 拍打声, 片状垂悬物；v. 拍打, 鼓翼而飞, 飘动",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/flæp/"
+},
+{
+"w": "flashlight",
+"m": "n. 手电筒, 闪光信号灯",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'flæʃlait/"
+},
+{
+"w": "flask",
+"m": "n. 细颈瓶, 烧瓶, 小水瓶",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/flæsk/"
+},
+{
+"w": "flat tire",
+"m": "车胎爆了,车胎跑气",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "flats",
+"m": "n. 平原, 扁钢；低沼泽（flat的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/flæts/"
+},
+{
+"w": "flavorings",
+"m": "n. 调味品，调味料( flavoring的名词复数 )",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/f'leɪvərɪŋz/"
+},
+{
+"w": "flea market",
+"m": "跳蚤市场",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "flick through",
+"m": "浏览,翻阅",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading"
+},
+{
+"w": "flight attendant",
+"m": "n. 飞行服务员",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "flip through",
+"m": "浏览,翻阅",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading"
+},
+{
+"w": "flip-flops",
+"m": "n. （非正式） 政策突然转向; 政策突变 Informal. a sudden…",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "flippers",
+"m": "n. （用于游泳或潜水的）脚蹼, 鸭脚板( flipper的复数形式 ); 鸭掌",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/f'lɪpəz/"
+},
+{
+"w": "florist",
+"m": "n. 花匠, 花商, 花卉研究者",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/'flɒrist/"
+},
+{
+"w": "fly a kite",
+"m": "放风筝, 试探舆论, 开空头支票",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "fog",
+"m": "n. 雾, 迷惑, (割后的)最生草, 苔藓；vi. 被雾笼罩, 变模糊",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/fɒg/"
+},
+{
+"w": "foggy",
+"m": "a. 雾深的, 模糊的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'fɒgi/"
+},
+{
+"w": "folders",
+"m": "n. 文件夹, 方法；折页, 档案夹（folder复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "folding chair",
+"m": "折（叠）椅",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "folklore",
+"m": "n. 民俗学, 民间风俗, 民间传说",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs",
+"ipa": "/'fәuklɒ:/"
+},
+{
+"w": "food court",
+"m": "n. 美食广场",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "food poisoning",
+"m": "na. 食物中毒",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness"
+},
+{
+"w": "foraging",
+"m": "v. 搜寻（食物）, 尤指动物觅（食）( forage的现在分词 ); （尤指用…",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities",
+"ipa": "/'fɒrɪdʒɪŋ/"
+},
+{
+"w": "fork (cutlery)",
+"m": "n. 叉子, 叉状物, 分岔；vi. 分支, 分歧",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/fɒ:k/"
+},
+{
+"w": "fork (gardening)",
+"m": "n. 叉子, 叉状物, 分岔；vi. 分支, 分歧",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/fɒ:k/"
+},
+{
+"w": "forty",
+"m": "num. 四十, 四十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'fɒ:ti/"
+},
+{
+"w": "forward (email action)",
+"m": "a. 向前的, 早的, 迅速的, 在前的, 进步的；vt. 促进...的生长, …",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/'fɒ:wәd/"
+},
+{
+"w": "forward (soccer player)",
+"m": "a. 向前的, 早的, 迅速的, 在前的, 进步的；vt. 促进...的生长, …",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'fɒ:wәd/"
+},
+{
+"w": "fourteen",
+"m": "num. 十四, 十四个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'fɒ:'ti:n/"
+},
+{
+"w": "fourth",
+"m": "num. 第四, 四分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/fɒ:θ/"
+},
+{
+"w": "fractions",
+"m": "n. <数>分数( fraction的名词复数 ); 小部分; 分裂; [化学]…",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/f'rækʃnz/"
+},
+{
+"w": "France",
+"m": "n. 法国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/frɑ:ns/"
+},
+{
+"w": "freckles",
+"m": "n. 雀斑（freckle的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance"
+},
+{
+"w": "freeway",
+"m": "n. 高速公路",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'fri:wei/"
+},
+{
+"w": "freezer",
+"m": "n. 冰库, 冰箱, 冷冻库",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/fri:zә/"
+},
+{
+"w": "freezing point",
+"m": "n. 冰点, 凝固点",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate"
+},
+{
+"w": "fresher",
+"m": "n. 大学一年级生",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "fried egg",
+"m": "n. 荷包蛋",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "fries",
+"m": "n. 炸薯条（French fries）",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "frightened",
+"m": "a. 受惊吓的, 受惊的, (非正式)害怕...的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'frait(ә)nd/"
+},
+{
+"w": "frightening",
+"m": "a. 令人恐惧的；引起突然惊恐的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'fraitәniŋ/"
+},
+{
+"w": "frosty",
+"m": "a. 霜冻的, 严寒的, 冷淡的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'frɒsti/"
+},
+{
+"w": "fruit salad",
+"m": "n. 水果色拉",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "fry",
+"m": "n. 油炸食物, 鱼苗；v. 油炸, 煎",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/frai/"
+},
+{
+"w": "frying pan",
+"m": "煎锅, 长柄平底锅",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "fuel",
+"m": "n. 燃料, 木炭；vt. 加燃料, 供燃料",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'fjuәl/"
+},
+{
+"w": "full time",
+"m": "专职,全部工作时间的,全日制",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "fur",
+"m": "n. 毛皮；vt. 以毛皮制作, 使生苔, 使生水垢",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/fә:/"
+},
+{
+"w": "furious",
+"m": "a. 狂怒的, 激烈的, 吵闹的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'fjuәriәs/"
+},
+{
+"w": "future-proof",
+"m": "n. 不会过时的技术",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future"
+},
+{
+"w": "gadgets",
+"m": "n. 小配件；小工具（gadget的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "gain weight",
+"m": "体重增加",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "gale",
+"m": "n. 狂风, 大风, 定期租金",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/geil/"
+},
+{
+"w": "game plan",
+"m": "球队比赛的策略;行动方案,行动计划,战略",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "game show",
+"m": "n. （电视）游戏节目, 有奖竞赛节目",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "gardener",
+"m": "n. 园丁, 花匠, 园艺家",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'gɑ:dәnә/"
+},
+{
+"w": "gardening",
+"m": "n. 园艺(学)",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'gɑ:dniŋ/"
+},
+{
+"w": "gas station",
+"m": "加油站",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "gasoline",
+"m": "n. 汽油",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'gæsәli:n/"
+},
+{
+"w": "gecko",
+"m": "n. 壁虎",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'gekәu/"
+},
+{
+"w": "German",
+"m": "n. 德国人, 德语；a. 德国的, 德国人的, 德国语的, 同父母的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'dʒә:mәn/"
+},
+{
+"w": "get ahead",
+"m": "领先, 走在前面, 进步, 获得成功",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working"
+},
+{
+"w": "get down to business",
+"m": "开始做正经事,言归正传",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "get dressed",
+"m": "穿衣服",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "get into debt",
+"m": "负债",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "getaway",
+"m": "n. 逃走, 起步",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism",
+"ipa": "/'^etә,wei/"
+},
+{
+"w": "geyser",
+"m": "n. 喷泉, 间歇泉",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/'gaizә/"
+},
+{
+"w": "gill",
+"m": "n. 鳃, 菌褶, 沟壑, 少女；vt. 用刺网捕, 去除内脏",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/gil/"
+},
+{
+"w": "ginger",
+"m": "n. 姜, 精力, 姜黄色；a. 姜黄色的",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'dʒindʒә/"
+},
+{
+"w": "girl",
+"m": "n. 女孩, 少女, 女佣",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/gә:l/"
+},
+{
+"w": "girlfriend",
+"m": "n. 女朋友",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "give a presentation",
+"m": "表演,演出,发表演说",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting"
+},
+{
+"w": "give and take",
+"m": "平等交换, 互让, 交换意见",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working"
+},
+{
+"w": "give birth",
+"m": "使诞生, 生（孩子）",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships"
+},
+{
+"w": "give notice",
+"m": "通知",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "glacier",
+"m": "n. 冰川",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/'gleiʃә/"
+},
+{
+"w": "gluten-free",
+"m": "[医]无谷蛋白，无谷胶",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/ɡ'lu:tənfr'i:/"
+},
+{
+"w": "go abroad",
+"m": "出国",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "go home",
+"m": "回家",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "go on holiday",
+"m": "去度假",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "go on vacation",
+"m": "去度假",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "go out",
+"m": "出去, 熄灭, 过时, 辞职, 倒塌, 罢工",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "go past",
+"m": "经过；路过",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "go right",
+"m": "进展顺利",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "go shopping",
+"m": "去买东西",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "go to bed",
+"m": "上床, 睡觉",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "go to school",
+"m": "上学",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "go to work",
+"m": "上班",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "goalkeeper",
+"m": "n. 守门员",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'gәulki:pә/"
+},
+{
+"w": "goalpost",
+"m": "n. 球门柱",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'gәulpәust/"
+},
+{
+"w": "goatee",
+"m": "n. 山羊胡子",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/gәu'ti:/"
+},
+{
+"w": "goggles",
+"m": "n. 护目镜, 风镜",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "golden raisin",
+"m": "= sultana (1)",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts"
+},
+{
+"w": "golf club",
+"m": "n. 高尔夫球棍; 高尔夫俱乐部",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "golf course",
+"m": "n. 高尔夫球场",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "good",
+"m": "n. 善行, 好处, 利益；a. 好的, 优良的, 上等的, 愉快的, 有益的,…",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/gud/"
+},
+{
+"w": "good deal",
+"m": "划算, 好交易",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "goose",
+"m": "n. 鹅, 雌鹅, 鹅肉, 弯把熨斗；vt. 与...性交, 突然加大油门, 使…",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/gu:s/"
+},
+{
+"w": "gooseberries",
+"m": "n. 醋栗( gooseberry的名词复数 ); 醋栗树丛; （陪伴年轻女人到…",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈgu:sˌberi:z/"
+},
+{
+"w": "gossip",
+"m": "n. 闲聊, 随笔, 流言, 爱讲闲话的人；vi. 说闲话, 闲聊",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs",
+"ipa": "/'gɒsip/"
+},
+{
+"w": "government building",
+"m": "萨摩亚政府办公大楼；惠灵顿国会大厦",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town"
+},
+{
+"w": "GPS",
+"m": "abbr. 全球定位系统（Global Position System）；通用雷…",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "graffiti",
+"m": "n. 墙上乱写乱画的东西",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law"
+},
+{
+"w": "granddaughter",
+"m": "n. 孙女, 外孙女",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'^rændɔ:tә(r)/"
+},
+{
+"w": "grandson",
+"m": "n. 孙子, 外孙",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'grændsʌn/"
+},
+{
+"w": "grapefruit",
+"m": "n. 葡萄轴",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'greipfru:t/"
+},
+{
+"w": "grassland",
+"m": "n. 牧草地, 草原",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/'græslænd/"
+},
+{
+"w": "grate",
+"m": "n. 炉格, 炉篦, 炉栅, 火炉, 壁炉, 格栅；vt. 装格栅于, 磨擦, …",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/^reit/"
+},
+{
+"w": "grater",
+"m": "n. 磨擦者, 磨光机, 粗齿木锉",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'^reitә/"
+},
+{
+"w": "gray",
+"m": "n. 灰色, 暗淡；a. 灰色的, 灰白的, 面色苍白的, 年老的, 老练的, …",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/grei/"
+},
+{
+"w": "Greece",
+"m": "n. 希腊",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/gri:s/"
+},
+{
+"w": "Greek",
+"m": "n. 希腊人, 希腊语；a. 希腊的, 希腊人的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/gri:k/"
+},
+{
+"w": "green eyes",
+"m": "绿色的眼睛；越战余恨",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance"
+},
+{
+"w": "greengrocer",
+"m": "n. 蔬菜水果商, 菜贩",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/'gri:ngrәusә/"
+},
+{
+"w": "grill",
+"m": "n. 烤架, 铁格子, 烤肉；v. 烧, 烤, 严加盘问, 给...装栅栏",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/gril/"
+},
+{
+"w": "grin",
+"m": "n. 露齿笑；v. 露齿而笑",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/grin/"
+},
+{
+"w": "groundsheet",
+"m": "n. 铺在地上的防潮布",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "group",
+"m": "n. 团体, 组, 团, 群；v. 聚合, 成群",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/gru:p/"
+},
+{
+"w": "grow up",
+"m": "成熟, 成年, 发展, 逐渐形成",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships"
+},
+{
+"w": "guava",
+"m": "n. 番石榴",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'^wɑ:vә/"
+},
+{
+"w": "guesthouse",
+"m": "n. 宾馆, 高级寄宿舍, 招待所",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'^esthajs/"
+},
+{
+"w": "guilty",
+"m": "a. 犯罪的, 有过失的, 自觉有错的, 心虚的",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'gilti/"
+},
+{
+"w": "guinea pig",
+"m": "天竺鼠",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals"
+},
+{
+"w": "guitar",
+"m": "n. 吉他",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/gi'tɑ:/"
+},
+{
+"w": "guitar player",
+"m": "n. 吉他手",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music"
+},
+{
+"w": "gulp",
+"m": "vt. 吞, 大口大口地吸气, 吸收, 抑制；vi. 吞咽",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/gʌlp/"
+},
+{
+"w": "guy rope",
+"m": "定绳, 支索, 钢缆",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "gymnastics",
+"m": "n. 体操, 体育",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/dʒim'næstiks/"
+},
+{
+"w": "hacksaw",
+"m": "n. 弓锯, 钢锯",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'hæksɒ:/"
+},
+{
+"w": "haggle",
+"m": "vi. 争论, 杀价；vt. 乱砍, 乱劈",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/hægl/"
+},
+{
+"w": "hailstone",
+"m": "n. 冰雹块",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'heilstәun/"
+},
+{
+"w": "hair dye",
+"m": "n. 染毛剂，染发剂; 染发水",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "hair gel",
+"m": "供应发胶；供应出口发胶",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "hairbrush",
+"m": "n. 发刷",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'hєәbrʌʃ/"
+},
+{
+"w": "ham",
+"m": "n. 火腿, 后腿, 笨拙演员；a. 过火的, 做作的",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/hæm/"
+},
+{
+"w": "hammer",
+"m": "n. 锤, 铁锤, 钉锤；vt. 锤打, 敲打, 钉",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'hæmә/"
+},
+{
+"w": "hamster",
+"m": "n. 仓鼠",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'hæmstә/"
+},
+{
+"w": "handbag",
+"m": "n. 手提包",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'hændbæg/"
+},
+{
+"w": "handkerchief",
+"m": "n. 手帕, 头巾, 围巾",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'hæŋkәtʃif/"
+},
+{
+"w": "handlebar",
+"m": "n. 手把, 八字胡",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'hændlbɑ:/"
+},
+{
+"w": "handsome",
+"m": "a. 英俊的, 大方的, 慷慨的, 相当可观的, 美观的, 灵敏的",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/'hænsәm/"
+},
+{
+"w": "hang gliding",
+"m": "n. 悬挂式滑翔, 乘风滑翔",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "hard shoulder",
+"m": "隔离墩",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "hardback",
+"m": "a. 硬封面的；n. 精装本",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'hɑ:dbæk/"
+},
+{
+"w": "hardware store",
+"m": "n. 五金店",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "hardworking",
+"m": "a. 苦干的, 不辞辛劳的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'hɑ:d.wә:kiŋ/"
+},
+{
+"w": "harmless",
+"m": "a. 无害处的, 未受损害的, 无辜的, 无恶意的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'hɑ:mlis/"
+},
+{
+"w": "harmonica",
+"m": "n. 口琴, 玻璃钟琴",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/hɑ:'mɒnikә/"
+},
+{
+"w": "hat",
+"m": "n. 帽子；vt. 给...戴帽子",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/hæt/"
+},
+{
+"w": "have a bath",
+"m": "沐浴",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "have a break",
+"m": "休息一下",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "have a heart of gold",
+"m": "心地善良,有一颗金子般善良的心",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "have a picnic",
+"m": "吃野餐,去野餐",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "have a shower",
+"m": "下阵雨;洗淋浴",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "have dinner",
+"m": "吃晚饭",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "hawk",
+"m": "n. 鹰, 掠夺者, 鹰派成员；vi. 放鹰行猎, 像鹰一般地袭击, 清嗓, 咳…",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/hɒ:k/"
+},
+{
+"w": "hazelnut",
+"m": "n. 榛实",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'heizlnʌt/"
+},
+{
+"w": "head over heels",
+"m": "头朝下, 颠倒, 完全地",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "headlight",
+"m": "n. 前灯, 桅灯",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'hedlait/"
+},
+{
+"w": "headline",
+"m": "n. 大标题, 新闻摘要；vt. 为...做标题, 写标题",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'hedlain/"
+},
+{
+"w": "headquarters",
+"m": "n. 总部, 司令部, 总部人员",
+"c": "DK 词汇大全 Vocabulary Builder: 35 Working conditions",
+"ipa": "/hed'kwɒ:tәz/"
+},
+{
+"w": "headset",
+"m": "n. (一副)耳机",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'hedset/"
+},
+{
+"w": "heart of gold",
+"m": "金子般的心,心地善良",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "hedge",
+"m": "n. 树篱, 障碍, 套头交易；vt. 用树篱围, 套期保值, 妨碍, 两面下注…",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/hedʒ/"
+},
+{
+"w": "herbal tea",
+"m": "[医]凉茶",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating"
+},
+{
+"w": "herbs",
+"m": "n. 药草；草本植物（herb的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "here",
+"m": "adv. 在这里, 此时, 这里；n. 这里",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/hiә/"
+},
+{
+"w": "high blood pressure",
+"m": "n. 高血压（症）",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness"
+},
+{
+"w": "high chair",
+"m": "n. （小孩吃饭时坐的）高脚椅子",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "high heels",
+"m": "n. 高跟鞋",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "high jump",
+"m": "跳高",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "high tide",
+"m": "高潮",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "highbrow",
+"m": "n. (自以为)文化修养高的人, 卖弄知识的人；a. 自炫博学的, 知识分子的,…",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'haibrau/"
+},
+{
+"w": "highlighter",
+"m": "n. 萤光笔, 亮光笔；轮廓色",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'hai.laitә/"
+},
+{
+"w": "hill",
+"m": "n. 小山, 丘陵, 小土堆；vt. 作成土堆, 堆成小丘",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/hil/"
+},
+{
+"w": "hip",
+"m": "n. 臀部, 蔷薇果, 忧郁；a. 熟悉内情的",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/hip/"
+},
+{
+"w": "hip-hop",
+"m": "n. 嬉蹦舞乐曲; 街舞; 嘻哈",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'hɪph'ɒp/"
+},
+{
+"w": "hiss",
+"m": "n. 嘘声, 嘶嘶声；vi. 发出嘘声, 发嘶嘶声",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/his/"
+},
+{
+"w": "hit",
+"m": "n. 打击, 打, 冲撞, 讽刺；vt. 打, 打击, 碰撞, 打中, 袭击, …",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/hit/"
+},
+{
+"w": "hitchhike",
+"m": "vi. 搭便车；vt. 要求(搭便车)",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'hitʃhaik/"
+},
+{
+"w": "hockey",
+"m": "n. 冰球, 曲棍球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'hɒki/"
+},
+{
+"w": "hockey stick",
+"m": "曲棍",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "hoe",
+"m": "n. 锄头；v. 用锄耕地, 锄",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/hәu/"
+},
+{
+"w": "holiday",
+"m": "n. 假日, 假期, 节日；vi. 度假",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'hɒlәdi/"
+},
+{
+"w": "hood (car)",
+"m": "n. 头巾, 兜帽, 覆盖, 强盗；vt. 罩上, 覆盖",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/hud/"
+},
+{
+"w": "hood (clothing)",
+"m": "n. 头巾, 兜帽, 覆盖, 强盗；vt. 罩上, 覆盖",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/hud/"
+},
+{
+"w": "hooliganism",
+"m": "n. 流氓行为",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law"
+},
+{
+"w": "hoot",
+"m": "n. 叫嚣, 嘲骂声, 鸣响；vi. 大声叫嚣, 鸣响, 猫头鹰叫",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/hu:t/"
+},
+{
+"w": "hop",
+"m": "n. 单脚跳, 跳跃, 舞会, 飞行；vi. 单脚跳, 跳跃",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/hɒp/"
+},
+{
+"w": "horoscope",
+"m": "n. 星占, 算命天宫图",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'hɔrәskәup/"
+},
+{
+"w": "horrible",
+"m": "a. 可怕的, 遭透的, 极讨厌的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'hɒrәbl/"
+},
+{
+"w": "hose",
+"m": "n. 水管, 橡皮软管, 长统袜；vt. 用水管浇",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/hәuz/"
+},
+{
+"w": "hot chocolate",
+"m": "巧克力热饮",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating"
+},
+{
+"w": "hot dog",
+"m": "n. <口>热狗（一种中间夹有熏红肠并配有芥菜, 作料等的面包）",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "hot tub",
+"m": "n. （可供多人共浴的）热水澡桶, 热水浴池",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "hour",
+"m": "n. 小时, 钟头, 时间, ...点钟, 课时",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/auә/"
+},
+{
+"w": "hourly",
+"m": "a. 每小时的, 以小时计的, 频繁的；adv. 每小时地, 频繁地, 不绝地",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'auәli/"
+},
+{
+"w": "household name",
+"m": "n. 家喻户晓的事或人",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "humidity",
+"m": "n. 湿气, 潮湿, 湿度",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/hju:'miditi/"
+},
+{
+"w": "hummingbird",
+"m": "n. 蜂鸟",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'hʌmiŋb\\\\\\\\:d/"
+},
+{
+"w": "humor",
+"m": "n. 幽默, 诙谐, 心情；vt. 迎合, 牵就, 顺应",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'hju:mә/"
+},
+{
+"w": "humpback whale",
+"m": "驼背鲸",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "hundred",
+"m": "n. 百, 百个东西；num. 百, 百个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'hʌndrәd/"
+},
+{
+"w": "hurdles",
+"m": "n. 障碍( hurdle的名词复数 ); 跳栏; （供人或马跳跃的）栏架; 跨…",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/ˈhə:dlz/"
+},
+{
+"w": "ice cream",
+"m": "冰淇淋",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "ice hockey",
+"m": "na. 冰球; 冰上曲棍球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "ice rink",
+"m": "n. 溜冰场；滑冰场",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "ice tea",
+"m": "冰茶",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating"
+},
+{
+"w": "iced",
+"m": "a. 冰冷的；装冰的",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/aist/"
+},
+{
+"w": "icy",
+"m": "a. 冰的, 冰冷的, 冷淡的, 滑溜的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'aisi/"
+},
+{
+"w": "iguana",
+"m": "n. 鬣蜥",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/i'gwɑ:nә/"
+},
+{
+"w": "ill",
+"m": "n. 疾病, 坏事, 罪恶, 灾难；a. 生病的, 邪恶的, 不吉利的, 敌意的…",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/il/"
+},
+{
+"w": "illustration",
+"m": "n. 例证, 插图",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/.ilә'streiʃәn/"
+},
+{
+"w": "immature",
+"m": "a. 不成熟的, 未完全发育的, 粗糙的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.imә'tjuә/"
+},
+{
+"w": "impatient",
+"m": "a. 不耐烦的, 着急的, 急切的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/im'peiʃәnt/"
+},
+{
+"w": "impulsive",
+"m": "a. 冲动的, 受感情驱使的, 任性的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/im'pʌlsiv/"
+},
+{
+"w": "in front of",
+"m": "在...前面",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "in the long run",
+"m": "长远, 最后",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future"
+},
+{
+"w": "in the public eye",
+"m": "常公开出现的, 广为人知的",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "Indian",
+"m": "n. 印度人, 印第安人, 印第安语；a. 印度的, 印度群岛的, 印第安语的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'indiәn/"
+},
+{
+"w": "indicator",
+"m": "n. 指示器, 指示剂, 指标",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'indikeitә/"
+},
+{
+"w": "indigestion",
+"m": "n. 消化不良",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/.indi'dʒestʃәn/"
+},
+{
+"w": "industries",
+"m": "n. 行业, 工业；实业公司（industry的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "inhaler",
+"m": "n. 吸入者, 吸入器, 空气过滤器",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/in'heilә/"
+},
+{
+"w": "injury time",
+"m": "n. （足球）受伤延长赛时",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "innovative",
+"m": "a. 革新的, 创新的, 富有革新精神的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'inәjveitiv/"
+},
+{
+"w": "insect repellent",
+"m": "n. 杀虫剂",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "insensitive",
+"m": "a. 对...没有感觉的, 感觉迟钝的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/in'sensitiv/"
+},
+{
+"w": "interested",
+"m": "a. 感兴趣的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'intristid/"
+},
+{
+"w": "interesting",
+"m": "a. 有趣的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'intristiŋ/"
+},
+{
+"w": "intrigued",
+"m": "a. 好奇的, 被迷住了的；v. 搞阴谋诡计(intrigue的过去式); 激起…",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ɪnˈtri:gd/"
+},
+{
+"w": "ironing",
+"m": "n. 熨烫",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/'aiәniŋ/"
+},
+{
+"w": "ironing board",
+"m": "熨衣板",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "irritated",
+"m": "a. 被激怒的, 生了气的, 变粗的, 因刺激而发炎的, 发红的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'iriteitid/"
+},
+{
+"w": "irritating",
+"m": "a. 刺激的, 使愤怒的, 气人的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'iriteitiŋ/"
+},
+{
+"w": "island",
+"m": "n. 岛, 岛屿, 孤立地区, 安全岛；vt. 使成岛状, 孤立",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/'ailәnd/"
+},
+{
+"w": "IT (department)",
+"m": "pron. 它",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/it/"
+},
+{
+"w": "itchy",
+"m": "a. 渴望的, 痒的, 生疥疮的",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'itʃi/"
+},
+{
+"w": "itchy feet",
+"m": "n. 漫游的渴望，旅行的渴望",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "jaguar",
+"m": "n. 美洲虎",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'dʒægjuә/"
+},
+{
+"w": "jam",
+"m": "n. 果酱, 拥塞之物, 堵塞, 困境；vt. 挤进, 使塞满, 混杂, 压碎,…",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/dʒæm/"
+},
+{
+"w": "janitor",
+"m": "n. 守卫, 门警, 管理人",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'dʒænitә/"
+},
+{
+"w": "Japan",
+"m": "n. 日本",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/dʒә'pæn/"
+},
+{
+"w": "Japanese",
+"m": "n. 日本人, 日语；a. 日本的, 日语的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/.dʒæpә'ni:z/"
+},
+{
+"w": "jar",
+"m": "n. 广口瓶, 震动, 刺耳声；vi. 震惊, 冲突, 发刺耳声, 不一致",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/dʒɑ:/"
+},
+{
+"w": "javelin",
+"m": "n. 标枪",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'dʒævlin/"
+},
+{
+"w": "jealous",
+"m": "a. 嫉妒的, 羡慕的, 留心的, 戒备的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'dʒelәs/"
+},
+{
+"w": "jet ski",
+"m": "喷气式滑雪板或滑橇",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "jewelers",
+"m": "n. 珠宝商( jeweler的复数形式 ); 宝石匠; 钟表商; 钟表匠",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/d'ʒu:ələrz/"
+},
+{
+"w": "jewelry",
+"m": "n. 珠宝, 珠宝类",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'dʒu:әlri/"
+},
+{
+"w": "jigsaw (tool)",
+"m": "n. 线锯；vt. 用线锯锯",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'dʒigsɒ:/"
+},
+{
+"w": "jigsaw puzzle",
+"m": "n. 七巧板, 智力拼图玩具; 拼板玩具",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "job title",
+"m": "职别",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "jockey shorts",
+"m": "运动短裤；骑士短裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "judge",
+"m": "n. 法官, 裁判员, 审判官, 鉴定人；vt. 审理, 鉴定, 判断, 判决,…",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/dʒʌdʒ/"
+},
+{
+"w": "juice",
+"m": "n. 汁, 活力, 体液；vt. 挤出汁来, 加汁",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/dʒu:s/"
+},
+{
+"w": "jump rope",
+"m": "n. [体]跳绳",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "jumper",
+"m": "n. 跳跃者, 工作服",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'dʒʌmpә/"
+},
+{
+"w": "junk mail",
+"m": "邮寄宣传品",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "jury",
+"m": "n. 陪审团, 评判委员会；a. 应急的",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'dʒuәri/"
+},
+{
+"w": "karaoke",
+"m": "n. 卡拉OK；卡拉OK录音, 自动伴奏录音",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities",
+"ipa": "/'kærә.әuki. kærә'әuki/"
+},
+{
+"w": "kayaking",
+"m": "n. [体]皮艇运动",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "kebab",
+"m": "n. 烤肉串配蔬菜",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/kә'bɑ:b/"
+},
+{
+"w": "keep fit",
+"m": "保持健康,健身",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "kennel",
+"m": "n. 狗舍, 狗屋, 阴沟；vt. 置于狗舍, 宿于狗舍",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'kenl/"
+},
+{
+"w": "ketchup",
+"m": "n. 蕃茄酱",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'ketʃәp/"
+},
+{
+"w": "kettle",
+"m": "n. 茶壶, 罐",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'ketl/"
+},
+{
+"w": "key",
+"m": "n. 钥匙, 键, 解答, 关键, 要害, 基调, 线索, 答案, 暗礁；vt.…",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/ki:/"
+},
+{
+"w": "kick",
+"m": "n. 踢, 反冲, 后座力, 凹底；vi. 踢, 反抗, 反冲",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/kik/"
+},
+{
+"w": "kickoff",
+"m": "n. 开球, 开始, 肇始",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'kikɒf/"
+},
+{
+"w": "killer whale",
+"m": "n. [动]逆戟鲸,虎鲸",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "kilometer",
+"m": "n. 千米, 公里",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'kilәmi:tә/"
+},
+{
+"w": "kind",
+"m": "n. 种类, 性质, 方式；a. 亲切的, 仁慈的, 和蔼的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/kaind/"
+},
+{
+"w": "kitchen knife",
+"m": "菜刀",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "kitchenware",
+"m": "n. 厨房用具",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/'kitʃinwєә/"
+},
+{
+"w": "kite",
+"m": "n. 风筝, 筝帆, 空头支票, 骗子；vi. 象风筝一样飞, 轻快地移动, 使…",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/kait/"
+},
+{
+"w": "kiwi (bird)",
+"m": "n. 鹬鸵, 地勤人员, 新西兰人",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'ki:wi:/"
+},
+{
+"w": "kiwi fruit",
+"m": "奇异果",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts"
+},
+{
+"w": "knickers",
+"m": "n. 短裤, 灯笼裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'nikәz/"
+},
+{
+"w": "knife",
+"m": "n. 小刀, 匕首；vt. 切割, 伤害, 切, 戳",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/naif/"
+},
+{
+"w": "knit",
+"m": "v. 编织, 结合",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities",
+"ipa": "/nit/"
+},
+{
+"w": "laces",
+"m": "abbr. 工程学会洛杉矶委员会（Los Angeles Council of …",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "ladle",
+"m": "n. 勺子, 长柄勺；vt. 以勺舀取, 以勺掬, 不分对象予以赠送",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'leidl/"
+},
+{
+"w": "ladybird",
+"m": "n. 瓢虫",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'leidibә:d/"
+},
+{
+"w": "ladybug",
+"m": "n. 瓢虫",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'leidibʌg/"
+},
+{
+"w": "laid-back",
+"m": "a. 懒散的; 悠闲的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/ˌleidˈbæk/"
+},
+{
+"w": "last name",
+"m": "姓",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "latin",
+"m": "n. 拉丁人, 拉丁语；a. 拉丁人的, 拉丁语的",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'lætin/"
+},
+{
+"w": "laugh",
+"m": "n. 笑, 笑声；vi. 笑, 大笑",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/lɑ:f/"
+},
+{
+"w": "laundry basket",
+"m": "洗衣筐",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "laundry detergent",
+"m": "洗衣精",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "lawn mower",
+"m": "n. 割草机; 剪草机",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening"
+},
+{
+"w": "lead (electrical)",
+"m": "n. 铅, 铅条, 领导, 超前量, 领引, 榜样, 主角, 导线；vt. 引导…",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/li:d. led/"
+},
+{
+"w": "lead (for a pet)",
+"m": "n. 铅, 铅条, 领导, 超前量, 领引, 榜样, 主角, 导线；vt. 引导…",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/li:d. led/"
+},
+{
+"w": "leash",
+"m": "n. (拴狗颈的)皮带；vt. 以皮带束缚, 束缚",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/li:ʃ/"
+},
+{
+"w": "leeks",
+"m": "n. <植>韭葱( leek的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/li:ks/"
+},
+{
+"w": "left",
+"m": "a. 左边的, 左倾的, 左侧的, 左派的；adv. 在左面",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/left/"
+},
+{
+"w": "leg",
+"m": "n. 腿, 假腿, 路程；vi. 走, 跑",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/leg/"
+},
+{
+"w": "Legal (department)",
+"m": "a. 法律的, 法定的, 合法的",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/'li:gәl/"
+},
+{
+"w": "leggings",
+"m": "n. 护胫, 护腿",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "legumes",
+"m": "abbr. legumbres (Spanish-American trunca…",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/'leɡju:mz/"
+},
+{
+"w": "lemongrass",
+"m": "n. 柠檬香草",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'lemәn^rɑ:s;-^ræs/"
+},
+{
+"w": "lend a hand",
+"m": "帮助",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "let the cat out of the bag",
+"m": "真相大白, 秘密泄露; 露马脚; 露出狐狸尾巴; 露馅儿",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "level",
+"m": "n. 水平, 水准, 平地；a. 同高的, 平坦的, 齐平的, 水平的",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'levl/"
+},
+{
+"w": "lick",
+"m": "n. 舔, 少许, 打；vt. 舔, 卷过, 鞭打",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/lik/"
+},
+{
+"w": "lie down",
+"m": "躺下",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "life preserver",
+"m": "n. <美>救生工具, <英>（用以自卫的）护身棒",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "life ring",
+"m": "n. 救生圈",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "lifeguard",
+"m": "n. 卫兵, 禁卫军, 救生员",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/'laifgɑ:d/"
+},
+{
+"w": "lifejacket",
+"m": "救生衣",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'laɪfɪdʒækɪt/"
+},
+{
+"w": "lift",
+"m": "n. 举起, 帮助, 昂扬, 电梯；vt. 升高, 提高, 鼓舞, 清偿, 空运…",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/lift/"
+},
+{
+"w": "linesman",
+"m": "n. 常备步兵, 线路保养工, 边线裁判员",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'lainzmәn/"
+},
+{
+"w": "lingerie",
+"m": "n. 女式内衣",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/,lænʒә'ri:, 'læn-/"
+},
+{
+"w": "lingua franca",
+"m": "n. 混合语, 任何混合国际商业用的语言",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language"
+},
+{
+"w": "lips",
+"m": "n. 嘴唇（lip的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/lips/"
+},
+{
+"w": "lipstick",
+"m": "n. 口红, 唇膏",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'lipstik/"
+},
+{
+"w": "listen",
+"m": "vi. 听, 倾听, 听从；n. 听, 倾听",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/'lisn/"
+},
+{
+"w": "listening",
+"m": "n. 听, 监听；a. 助听用的",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language",
+"ipa": "/'lisniŋ/"
+},
+{
+"w": "little",
+"m": "n. 一点点, 少许, 一会儿, 短时间；a. 小的, 很少的, 幼小的, 琐碎…",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/'litl/"
+},
+{
+"w": "lizard",
+"m": "n. 蜥蜴",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'lizәd/"
+},
+{
+"w": "llama",
+"m": "n. 美洲驼",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'lɑ:mә/"
+},
+{
+"w": "lobster",
+"m": "n. 龙虾",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'lɒbstә/"
+},
+{
+"w": "locker room",
+"m": "衣帽间",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "locust",
+"m": "n. 蝗虫, 蚱蜢, 蝉",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'lәukәst/"
+},
+{
+"w": "lodger",
+"m": "n. 寄宿者, 房客",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'lɔdʒә(r)/"
+},
+{
+"w": "long jump",
+"m": "跳远",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "look around",
+"m": "四下观望; （作出选择前）进行调查; 骋目四顾; 四顾",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "loose",
+"m": "n. 发射, 放任, 放纵；a. 宽松的, 松的, 宽的, 不牢固的, 散漫的,…",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/lu:s/"
+},
+{
+"w": "lorry",
+"m": "n. 卡车, 货车",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'lɒri/"
+},
+{
+"w": "lose",
+"m": "vt. 遗失, 损失, 丢失, 使失去, 错过, 浪费, 迷失, 使迷路, 输去…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/lu:z/"
+},
+{
+"w": "lose weight",
+"m": "体重减轻",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "low tide",
+"m": "低潮",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "loyalty card",
+"m": "n. （商店的）积分卡",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "lucky",
+"m": "a. 幸运的, 吉祥的, 好运的, 侥幸的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'lʌki/"
+},
+{
+"w": "luggage",
+"m": "n. 行李, 皮箱",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'lʌgidʒ/"
+},
+{
+"w": "lychees",
+"m": "n. [园艺] 荔枝（lychee的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts"
+},
+{
+"w": "lyrics",
+"m": "n. 歌词",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music"
+},
+{
+"w": "mackerel",
+"m": "n. 鲭",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'mækәrәl/"
+},
+{
+"w": "mad",
+"m": "a. 疯狂的, 发疯的, 生气的, 愚蠢的, 狂欢的；n. 狂怒",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/mæd/"
+},
+{
+"w": "mail",
+"m": "n. 邮件, 邮政, 邮递, 盔甲；vt. 邮寄, 给...穿盔甲",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/meil/"
+},
+{
+"w": "main character",
+"m": "主要人物",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "main road",
+"m": "干道, 主要道路",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "make",
+"m": "vt. 制造, 安排, 创造, 构成, 使得, 产生, 造成, 整理, 布置, …",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/meik/"
+},
+{
+"w": "make a wish",
+"m": "欲望, 企图, 幻想",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs"
+},
+{
+"w": "make the bed",
+"m": "铺床",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "mandarin",
+"m": "n. 中国官话, 国语, 满清官吏, 柑橘；a. (中国式)紧身马褂的",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'mændәrin/"
+},
+{
+"w": "marbles",
+"m": "n. （在地上玩的）弹子游戏; 大理石( marble的名词复数 ); （用玻璃…",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/ˈmɑ:blz/"
+},
+{
+"w": "margarine",
+"m": "n. 人造黄油",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/.mɑ:dʒә'ri:n/"
+},
+{
+"w": "Marketing (department)",
+"m": "n. 行销, 买卖",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/'mɑ:kitiŋ/"
+},
+{
+"w": "marmalade",
+"m": "n. (橘子等制成的)果酱",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'mɑ:mleid/"
+},
+{
+"w": "mascara",
+"m": "n. 染眉毛油；vt. 在...上涂染眉毛油",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/mæ'skɑ:rә/"
+},
+{
+"w": "mascot",
+"m": "n. 福神, 吉祥的东西",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'mæskәt/"
+},
+{
+"w": "mash",
+"m": "n. 碎麦芽, 饲料, 糊状物；vt. 调情, 捣碎",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/mæʃ/"
+},
+{
+"w": "mayonnaise",
+"m": "n. 蛋黄酱",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/meiә'neiz/"
+},
+{
+"w": "meadow",
+"m": "n. 草地, 牧场",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/'medәu/"
+},
+{
+"w": "mean",
+"m": "a. 低劣的, 卑贱的, 简陋的, 吝啬的, 惭愧的, 平均的, 中间的, 普通…",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/mi:n/"
+},
+{
+"w": "measles",
+"m": "n. 麻疹, 风疹, 家畜囊尾蚴病, 米珠",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'mi:zlz/"
+},
+{
+"w": "mechanic",
+"m": "n. 机械工, 技工；a. 手工的",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/mi'kænik/"
+},
+{
+"w": "medicine (subject)",
+"m": "n. 药, 医学, 内科；vt. 给...用药",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/'medisin/"
+},
+{
+"w": "mediocre",
+"m": "a. 不好不坏的, 通常, 平凡的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/.mi:di'әukә/"
+},
+{
+"w": "meditate",
+"m": "vt. 想, 考虑, 计划；vi. 沉思, 反省",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/'mediteit/"
+},
+{
+"w": "meerkat",
+"m": "(南非)海岛猫鼬, 蒙哥",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'miәkæt/"
+},
+{
+"w": "memo",
+"m": "n. 备忘录",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/'memәu/"
+},
+{
+"w": "memory card",
+"m": "记忆卡片, 存储器插件板",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "meow",
+"m": "n. 猫叫声；vi. 猫叫",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/mi'au/"
+},
+{
+"w": "meringue",
+"m": "n. 糕饼, 蛋白甜馅饼, 蛋白甜饼, 蛋白酥皮筒/酥皮卷, 蛋白酥皮",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/mә'ræŋ/"
+},
+{
+"w": "meter",
+"m": "n. 米, 公尺, 仪表, 计量器；vt. 以仪表计量",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'mi:tә/"
+},
+{
+"w": "Mexican",
+"m": "n. 墨西哥人, 墨西哥语；a. 墨西哥的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'meksikәn/"
+},
+{
+"w": "Mexico",
+"m": "n. 墨西哥",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'meksikәu/"
+},
+{
+"w": "middle name",
+"m": "n. 中名, 名和姓之间的名字, 突出的个性",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "midfielder",
+"m": "n. 中场队员",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'mid.fi:ldә/"
+},
+{
+"w": "migraine",
+"m": "n. 严重的周期性偏头痛",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'mi:^rein, 'mai-/"
+},
+{
+"w": "mile",
+"m": "n. 英里, 很大距离",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/mail/"
+},
+{
+"w": "milkshake",
+"m": "n. 奶昔",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating"
+},
+{
+"w": "millennium",
+"m": "n. 千禧年, 一千年",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/mi'leniәm/"
+},
+{
+"w": "mince",
+"m": "n. 切碎物；vt. 切碎, 矫揉做作地说",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/mins/"
+},
+{
+"w": "mint",
+"m": "n. 薄荷, 造币厂, 巨额；vt. 铸造, 铸币, 制造",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/mint/"
+},
+{
+"w": "minus",
+"m": "n. 负号, 不足；a. 减的, 负的, 阴性的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'mainәs/"
+},
+{
+"w": "minute",
+"m": "n. 分, 分钟, 片刻, 备忘录, 笔记；vt. 记录, 摘录, 测定时间",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'minit. mai'nju:t/"
+},
+{
+"w": "miss a train",
+"m": "没赶上火车",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "moisturizer",
+"m": "n. 润肤霜; 保湿霜",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/ˈmɔɪstʃəraɪzə(r)/"
+},
+{
+"w": "mole (animal)",
+"m": "n. 痣, 鼹鼠, 防波堤, 摩尔, 克分子",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/mәul/"
+},
+{
+"w": "mole (skin)",
+"m": "n. 痣, 鼹鼠, 防波堤, 摩尔, 克分子",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/mәul/"
+},
+{
+"w": "molecules",
+"m": "n. 分子, 微粒；摩尔（molecule的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment"
+},
+{
+"w": "molt",
+"m": "n. 换毛, 脱皮, 脱落物；v. 脱毛, 换毛",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/mәult/"
+},
+{
+"w": "mom",
+"m": "n. 妈妈",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/mʌm/"
+},
+{
+"w": "Mongolia",
+"m": "n. 蒙古",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/mɒŋ'gәuljә/"
+},
+{
+"w": "Mongolian",
+"m": "n. 蒙古人, 属于蒙古人种的人, 蒙古语, 先天愚型患者；a. 蒙古人的, 蒙…",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/mɒŋ'gәuljәn/"
+},
+{
+"w": "mongoose",
+"m": "n. 猫鼬；獴狐猴（等于mongoose lemur）",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'mɔŋɡu:s. mɔn-/"
+},
+{
+"w": "monkey wrench",
+"m": "活动扳手",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening"
+},
+{
+"w": "month",
+"m": "n. 月",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/mʌnθ/"
+},
+{
+"w": "moods",
+"m": "n. 情绪（mood的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods"
+},
+{
+"w": "moose",
+"m": "n. 麋, 驼鹿",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/mu:s/"
+},
+{
+"w": "moped",
+"m": "n. 助动车",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'mәuped/"
+},
+{
+"w": "mortar",
+"m": "n. 臼, 研钵, 灰泥；vt. 用灰泥涂抹, 用灰泥结合",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'mɒ:tә/"
+},
+{
+"w": "mortgage",
+"m": "n. 抵押, 约束性义务, 抵押借款；vt. 抵押, 以...作担保, 把...…",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance",
+"ipa": "/'mɒ:gidʒ/"
+},
+{
+"w": "mosque",
+"m": "n. 清真寺",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/mɒsk/"
+},
+{
+"w": "mosquito",
+"m": "n. 蚊子",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/mә'ski:tәu/"
+},
+{
+"w": "moth",
+"m": "n. 蛾害, 蛾, 乌头叶菜豆",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/mɒθ/"
+},
+{
+"w": "motor home",
+"m": "旅宿汽车",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "motor racing",
+"m": "赛车运动",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "motorbike",
+"m": "n. 机动脚踏两用车, 摩托车",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'mәjtәbaik/"
+},
+{
+"w": "motorway",
+"m": "n. 高速公路",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'mәutәwei/"
+},
+{
+"w": "mountain bike",
+"m": "n. 山地车, 山地自行车",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "mountain range",
+"m": "山脉; 山峦; 岭",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "mouse (animal)",
+"m": "n. 老鼠, 胆小羞怯的人, 鼠标；vi. 捕鼠, 窥探",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/maus/"
+},
+{
+"w": "mouse (computer)",
+"m": "n. 老鼠, 胆小羞怯的人, 鼠标；vi. 捕鼠, 窥探",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/maus/"
+},
+{
+"w": "mouse mat",
+"m": "n. 鼠标垫",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "mouse pad",
+"m": "鼠标垫",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "mousse",
+"m": "n. 奶油冻",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/mu:s/"
+},
+{
+"w": "mouthwash",
+"m": "n. 漱口剂, 洗口药",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'majθwɔʃ/"
+},
+{
+"w": "move in",
+"m": "生活于, 迁入",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "move out",
+"m": "搬出, 出发",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "movie",
+"m": "n. 电影",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'mu:vi/"
+},
+{
+"w": "movie star",
+"m": "n. 电影明星",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "movie theater",
+"m": "电影院",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "moving",
+"m": "a. 动人的, 令人感动的, 鼓动的, 原动的, [无比较级]活动的, 转动的",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'mu:viŋ/"
+},
+{
+"w": "mow the lawn",
+"m": "修刈草坪",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening"
+},
+{
+"w": "mug",
+"m": "n. 有柄大杯, 脸, 苦读者；vt. 给...拍照, 攻击, 苦读",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/mʌg/"
+},
+{
+"w": "mugging",
+"m": "n. 行凶抢劫；（美）哑剧",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'mʌ^iŋ/"
+},
+{
+"w": "multiplex",
+"m": "a. 多样的, 许多的, 多路传输的；v. 多路传输",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'mʌltipleks/"
+},
+{
+"w": "mum",
+"m": "n. 菊花, 沉默；a. 沉默的",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/mʌm/"
+},
+{
+"w": "mumps",
+"m": "n. 流行性腮腺炎, 愠怒",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/mʌmps/"
+},
+{
+"w": "musical instrument",
+"m": "乐器",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "musician",
+"m": "n. 音乐家, 乐师, 作曲家",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/mju:'ziʃәn/"
+},
+{
+"w": "mussel",
+"m": "n. 贻贝, 珠蚌",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'mʌsl/"
+},
+{
+"w": "mustache",
+"m": "n. 髭, 胡子",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/'mʌstæʃ/"
+},
+{
+"w": "mustard",
+"m": "n. 芥末, 芥菜, 强烈的兴趣",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'mʌstәd/"
+},
+{
+"w": "nail polish",
+"m": "n. 指甲油, 趾甲油",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "napkin",
+"m": "n. 餐巾, 餐巾纸, 尿布",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/'næpkin/"
+},
+{
+"w": "nappy",
+"m": "n. 尿布, 菜盆；a. 起毛的, 多毛的, 酒精含量高的",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'næpi/"
+},
+{
+"w": "nasty",
+"m": "a. 污秽的, 下流的, 险恶的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'nɑ:sti/"
+},
+{
+"w": "nationalities",
+"m": "n. 国籍, 民族（nationality的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "native speaker",
+"m": "说本族语的人",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language"
+},
+{
+"w": "navy blue",
+"m": "n. 深蓝色, 藏青色；a. 深蓝色的, 藏青色的",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts"
+},
+{
+"w": "near",
+"m": "a. 近的, 近亲的, 近似的；adv. 接近, 亲近",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/niә/"
+},
+{
+"w": "neck",
+"m": "n. 脖子, 衣领, 颈；vi. 拥抱, 拥吻, 收缩",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/nek/"
+},
+{
+"w": "necklace",
+"m": "n. 项链",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'neklis/"
+},
+{
+"w": "nectarine",
+"m": "n. 蜜桃",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'nektәri:n/"
+},
+{
+"w": "negotiating",
+"m": "n. 谈判",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "nephew",
+"m": "n. 侄子, 外甥",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'nefju:/"
+},
+{
+"w": "net",
+"m": "n. 网, 网状物, 罗网, 净利, 净价；a. 净的, 最终的",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/net/"
+},
+{
+"w": "Netherlands",
+"m": "n. 荷兰",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'neðәlәndz/"
+},
+{
+"w": "news",
+"m": "n. 新闻, 消息, 报导",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/nju:z/"
+},
+{
+"w": "newspaper",
+"m": "n. 报纸",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'nju:z.peipә/"
+},
+{
+"w": "newspaper headline",
+"m": "报纸标题",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "newsreader",
+"m": "n. 新闻广播员",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/'nju:zri:dә/"
+},
+{
+"w": "nibble",
+"m": "n. 少量食物, 细咬, 轻咬, 啃；v. 一点一点地咬, 细咬, 吹毛求疵",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'nibl/"
+},
+{
+"w": "nice",
+"m": "a. 美好的, 和蔼的, 正派的, 做得好的, 精密的, 细微的, 挑剔的, 谨…",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/nais/"
+},
+{
+"w": "niece",
+"m": "n. 侄女, 甥女",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/ni:s/"
+},
+{
+"w": "night",
+"m": "n. 夜, 夜晚, 晚上, 黑暗, 夜晚的工作",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/nait/"
+},
+{
+"w": "nightclub",
+"m": "n. 夜总会",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/'naitklʌb/"
+},
+{
+"w": "nine",
+"m": "num. 九, 九个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/nain/"
+},
+{
+"w": "nineteen",
+"m": "num. 十九, 十九个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/.nain'ti:n/"
+},
+{
+"w": "nine-to-five",
+"m": "adj. 上班时间朝九晚五的",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working",
+"ipa": "/'naɪnt'əf'aɪv/"
+},
+{
+"w": "ninety",
+"m": "num. 九十, 九十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'nainti/"
+},
+{
+"w": "ninth",
+"m": "num. 第九, 九分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/nainθ/"
+},
+{
+"w": "nod",
+"m": "n. 点头, 打盹, 晃动；vi. 点头, 打盹",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/nɒd/"
+},
+{
+"w": "non-fiction",
+"m": "n. 非小说类文学作品",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/nɒn 'fɪkʃn/"
+},
+{
+"w": "noodles",
+"m": "n. 面条, 挂面（noodle的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "northwest",
+"m": "n. 西北, 西北方；a. 西北的, 在西北的, 来自西北的",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/.nɒ:θ'west/"
+},
+{
+"w": "nose",
+"m": "n. 鼻子, 突出部分, 嗅觉；vt. 嗅到, 探出, 用鼻子触",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/nәuz/"
+},
+{
+"w": "nosebleed",
+"m": "n. 鼻出血",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'nәuzbli:d/"
+},
+{
+"w": "nostrils",
+"m": "n. 鼻孔( nostril的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'nɒstrəlz/"
+},
+{
+"w": "note",
+"m": "n. 笔记, 记录, 注解, 票据, 符号, 显要, 注重, 便笺, 照会；vt…",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/nәut/"
+},
+{
+"w": "notepad",
+"m": "n. 记事本",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "novel",
+"m": "n. 小说, 长篇故事；a. 新奇的, 异常的",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'nɒvl/"
+},
+{
+"w": "numeracy",
+"m": "n. 识数,计算能力",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'njumәrәsi/"
+},
+{
+"w": "oars",
+"m": "n. 桨；桨手（oar的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/ɔ:z. әuz/"
+},
+{
+"w": "oasis",
+"m": "n. 绿洲, 舒适的地方",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/әu'eisis/"
+},
+{
+"w": "observe",
+"m": "vt. 觉察到, 遵守, 注意到, 庆祝；vi. 注意, 评论",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/әb'zә:v/"
+},
+{
+"w": "octopus",
+"m": "n. 章鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'ɒktәpәs/"
+},
+{
+"w": "off (food)",
+"m": "a. 关着的, 不再生效的, 处于...境况的, 休假的, 空闲的；adv. 走…",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/ɒf/"
+},
+{
+"w": "off the beaten track",
+"m": "鲜有人涉足地, 偏僻地, 不落俗套地",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "often",
+"m": "adv. 时常, 常常",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'ɒ:fn/"
+},
+{
+"w": "oil (car)",
+"m": "n. 油, 石油, 油画颜料；vt. 涂油于, 使融化成油状, 加油于",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/ɒil/"
+},
+{
+"w": "oil (cooking)",
+"m": "n. 油, 石油, 油画颜料；vt. 涂油于, 使融化成油状, 加油于",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/ɒil/"
+},
+{
+"w": "old-fashioned",
+"m": "a. 旧式的, 过时的, 保守的, 大人模样的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'әjld'fæʃәnd/"
+},
+{
+"w": "omelet",
+"m": "n. 煎蛋卷, 煎蛋饼, 炒蛋",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'ɔmlit, -let/"
+},
+{
+"w": "on the ball",
+"m": "机警的, 勤奋的, 高明的",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "on the left",
+"m": "在左边",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "once a week",
+"m": "每星期一次",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions"
+},
+{
+"w": "once-in-a-lifetime",
+"m": "adj. 千载难逢的",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "one",
+"m": "n. 一(个)；pron. 一, 任何人",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/wʌn/"
+},
+{
+"w": "one hundred",
+"m": "一百",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "one percent",
+"m": "是百分之一；一帕",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "one thousand",
+"m": "[医]一千",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "one-way street",
+"m": "单行线; 单行道",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "onions",
+"m": "n. 奥尼恩斯（姓氏）；奥尼恩斯（英国语言学家、词典编纂家）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/'ʌnjәnz/"
+},
+{
+"w": "only child",
+"m": "独生子",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "open",
+"m": "n. 公开, 户外, 空旷；a. 开着的, 开放的, 开阔的, 营业着的, 公开…",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/'әupәn/"
+},
+{
+"w": "opening night",
+"m": "（戏等）上演的第一夜",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "open-plan",
+"m": "a. （房屋或办公室的）开敞式平面布置",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/ˈəupən plæn/"
+},
+{
+"w": "operation",
+"m": "n. 操作, 动作, 手术, 运算, 作用, 业务",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/.ɒpә'reiʃәn/"
+},
+{
+"w": "orange (colour)",
+"m": "n. 柑橘, 桔子, 橘色；a. 橘色的",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/'ɒ:rindʒ/"
+},
+{
+"w": "orange (fruit)",
+"m": "n. 柑橘, 桔子, 橘色；a. 橘色的",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'ɒ:rindʒ/"
+},
+{
+"w": "orangeade",
+"m": "n. 橘子水",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/.ɒ:rindʒ'eid/"
+},
+{
+"w": "orchestra pit",
+"m": "（剧场舞台前面的）乐池",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "organization",
+"m": "n. 组织, 结构, 团体, 体制",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/.ɒ:gәnai'zeiʃәn/"
+},
+{
+"w": "organize",
+"m": "vt. 组织, 有机化, 给予生机；vi. 组织起来",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job",
+"ipa": "/'ɒ:gәnaiz/"
+},
+{
+"w": "organized",
+"m": "a. 有组织的, 组织起来的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'ɔ:^әnaizd/"
+},
+{
+"w": "out of date",
+"m": "过时的, 废弃的",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future"
+},
+{
+"w": "out of season",
+"m": "过时, 不合时令",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "outbox",
+"m": "n. 待发箱",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/'autbɒks/"
+},
+{
+"w": "over the top",
+"m": "过火的， 不得当的",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "overcast",
+"m": "a. 阴天的, 阴暗的, 愁闷的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'әuvәkɑ:st/"
+},
+{
+"w": "overpriced",
+"m": "a. 价格过高的; 定价太高的；v. 将…标价过高, 索价过高（ overpri…",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/ˌəʊvəˈpraɪst/"
+},
+{
+"w": "overtake",
+"m": "vt. 赶上, 突然降临于, 压倒, 代替",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/.әuvә'teik/"
+},
+{
+"w": "owl",
+"m": "n. 猫头鹰",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/aul/"
+},
+{
+"w": "oyster",
+"m": "n. 牡蛎, 蚝, 沉默者",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'ɒistә/"
+},
+{
+"w": "PA",
+"m": "私人秘书, (露天)扩音系统",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/pɑ:/"
+},
+{
+"w": "pacifier",
+"m": "n. 慰抚者, 调解人, 橡皮奶头, 镇静剂",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'pæsifaiә/"
+},
+{
+"w": "packet",
+"m": "n. 小包, 一批信件, 大量, 信息包；vt. 打包, 装进小包",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'pækit/"
+},
+{
+"w": "paddle",
+"m": "n. 桨, 划桨, 明轮翼；vi. 划桨, 戏水, 涉水",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'pædl/"
+},
+{
+"w": "page",
+"m": "n. 页, 记录, 事件, 专栏, 男侍；vt. 标明...的页数, 翻...的…",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/peidʒ/"
+},
+{
+"w": "page-turner",
+"m": "n. 引人入胜的著作",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/peidʒ ˈtə:nə/"
+},
+{
+"w": "pain in the neck",
+"m": "Neck 是指脖子。但是，pain in the neck 并不是脖子痛的意思，…",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "painful",
+"m": "a. 痛苦的, 困难的, 令人烦恼的",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'peinful/"
+},
+{
+"w": "painkillers",
+"m": "n. 止痛药( painkiller的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/ˈpeɪnˌkɪləz/"
+},
+{
+"w": "paint",
+"m": "n. 油漆, 颜料, 绘画作品, 涂漆；vt. 油漆, 绘, 画, 描绘, 装饰…",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/peint/"
+},
+{
+"w": "paintbrush",
+"m": "n. 画笔, 漆刷",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'peintbrʌʃ/"
+},
+{
+"w": "pajamas",
+"m": "n. 睡衣, 宽松裤, 喇叭裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/pә'dʒɑ:mәs/"
+},
+{
+"w": "Pakistan",
+"m": "n. 巴基斯坦",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/.pɑ:ki'stɑ:n/"
+},
+{
+"w": "Pakistani",
+"m": "a. 巴基斯坦的；n. 巴基斯坦人",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/.pɑ:ki'stɑ:ni/"
+},
+{
+"w": "pancakes",
+"m": "n. 烙饼( pancake的复数形式 ); （尤指舞台化装用的）粉饼; 完全平…",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'pænkeɪks/"
+},
+{
+"w": "panda",
+"m": "n. 大熊猫, 小熊猫",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'pændә/"
+},
+{
+"w": "panties",
+"m": "n. 女式短裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'pænti/"
+},
+{
+"w": "pants",
+"m": "n. 裤子, 长裤, 短衬裤, 女式运动短裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/pænts/"
+},
+{
+"w": "pantyhose",
+"m": "n. 连裤袜",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'pæntihәuz/"
+},
+{
+"w": "paparazzi",
+"m": "n. 狗仔队（专门追逐名人偷拍照片的摄影者或记者, paparazzo的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity",
+"ipa": "/.pɑ:pә'rɑ:tsi:/"
+},
+{
+"w": "papaya",
+"m": "n. 番木瓜树",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/pә'paiә/"
+},
+{
+"w": "paperback",
+"m": "n. 平装本, 纸面本",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'peipәbæk/"
+},
+{
+"w": "paragliding",
+"m": "(paraglide 的现在分词) v. 进行滑翔伞运动",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "paramedic",
+"m": "n. 伞兵军医, 伞降急救人员",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'pærәmedik/"
+},
+{
+"w": "park (recreation area)",
+"m": "n. 公园, 停车处；vt. 停车, 置于",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/pɑ:k/"
+},
+{
+"w": "park (vehicle)",
+"m": "n. 公园, 停车处；vt. 停车, 置于",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/pɑ:k/"
+},
+{
+"w": "parking space",
+"m": "n. 停车位",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "pass (overtake)",
+"m": "n. 经过, 要隘, 途径, 通行, 护照, 及格；vt. 经过, 越过, 通过…",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/pæs/"
+},
+{
+"w": "pass (succeed)",
+"m": "n. 经过, 要隘, 途径, 通行, 护照, 及格；vt. 经过, 越过, 通过…",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/pæs/"
+},
+{
+"w": "pass with flying colors",
+"m": "凯旋；巨大的成功",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "passion fruit",
+"m": "n. 西番莲果",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts"
+},
+{
+"w": "passionate",
+"m": "a. 热情的, 热烈的, 易怒的, 热恋的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'pæʃәnit/"
+},
+{
+"w": "pasta",
+"m": "n. 意大利面食",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'pæstә/"
+},
+{
+"w": "patient (hospital)",
+"m": "n. 病人, 承受者；a. 忍耐的, 容忍的, 有耐性的, 坚忍的",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'peiʃәnt/"
+},
+{
+"w": "patient (personality trait)",
+"m": "n. 病人, 承受者；a. 忍耐的, 容忍的, 有耐性的, 坚忍的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'peiʃәnt/"
+},
+{
+"w": "paws",
+"m": "（等于Polar Automatic Weather Station） 极地自动…",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals"
+},
+{
+"w": "peach",
+"m": "n. 桃子, 桃树, 桃色, 美人儿, 极好的事物；vt. 告发",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/pi:tʃ/"
+},
+{
+"w": "peanut",
+"m": "n. 花生, 小人物, 极小的数额；a. 渺小的, 微不足道的",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'pi:nʌt/"
+},
+{
+"w": "peanut butter",
+"m": "n. 花生酱",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "pear",
+"m": "n. 梨子, 梨树, 梨木",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/pєә/"
+},
+{
+"w": "peas",
+"m": "n. 豌豆（pea的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "peck",
+"m": "n. 配克(英美干量单位), 啄痕, 啄食, 许多；vt. 啄, 啄食, 琢, …",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/pek/"
+},
+{
+"w": "pedal",
+"m": "n. 踏板, 脚蹬子；a. 脚的, 脚踏的",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'pedl/"
+},
+{
+"w": "pedestrian crossing",
+"m": "n. 行人交叉路",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "peel",
+"m": "n. 皮, 外壳；vt. 削...皮, 剥去...的壳",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/pi:l/"
+},
+{
+"w": "peeler",
+"m": "n. 警察, 巡警, 胶合板材, 爱尔兰的警官, 剥皮的人, 去皮机, 精力充沛…",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'pi:lә/"
+},
+{
+"w": "peg",
+"m": "n. 钉, 桩, 栓, 藉口, 销子, 借口；vt. 钉木钉, 固定, 限制, …",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/peg/"
+},
+{
+"w": "pelican",
+"m": "n. 鹈鹕鸟, 伽蓝鸟",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'pelikәn/"
+},
+{
+"w": "pen",
+"m": "n. 钢笔, 笔, 笔调, 笔杆子, 作家, 围栏, 栅栏, 禽畜；vt. 写,…",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/pen/"
+},
+{
+"w": "pencil",
+"m": "n. 铅笔, 色笔, 眉笔, 画笔, 光线束；vt. 用铅笔写或涂, 草拟",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'pensl/"
+},
+{
+"w": "pencil sharpener",
+"m": "铅笔刀, 转笔刀; 卷笔刀",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "peppers",
+"m": "n. 胡椒粉( pepper的名词复数 ); 辣椒",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/ˈpepəz/"
+},
+{
+"w": "percentages",
+"m": "n. 百分比( percentage的复数形式 ); 比例; 利润的分成; 提成",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/pə'sentɪdʒɪz/"
+},
+{
+"w": "performance",
+"m": "n. 施行, 工作情况, 成绩, 行为, 表现, 演出",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/pә'fɒ:mәns/"
+},
+{
+"w": "perfumery",
+"m": "n. 香料类, 香水(总称), 香料制造业",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/pә'fju:mәri/"
+},
+{
+"w": "personal assistant",
+"m": "私人秘书",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "personal trainer",
+"m": "私人健身教练",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "perspire",
+"m": "v. 出汗, 流汗, 分泌, 渗出",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/pә'spaiә/"
+},
+{
+"w": "pestle",
+"m": "n. 槌, 杵；v. 用槌磨, 用杵捣",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'pesl/"
+},
+{
+"w": "petrol station",
+"m": "n. 加油站",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "phone call",
+"m": "n. 电话",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "photocopier",
+"m": "n. 影印机, 摄影复制机",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'fәutәu.kɒpiә/"
+},
+{
+"w": "photographer",
+"m": "n. 摄影师, 摄影者",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/fә'tɔ^rәfә/"
+},
+{
+"w": "phrasebook",
+"m": "n. 短语手册, 成语汇编, 熟语指南",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "physical therapy",
+"m": "n. 物理治疗法, 理疗",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "physicist",
+"m": "n. 物理学家, 机械唯物论者, 自然科学家",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/'fizisist/"
+},
+{
+"w": "physiotherapy",
+"m": "n. 物理疗法, 理疗",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/.fiziә'θerәpi/"
+},
+{
+"w": "pig",
+"m": "n. 猪, 猪肉, 贪婪的人, 猪一样的人；v. 生小猪, 象猪般地生活",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/pig/"
+},
+{
+"w": "Pilates",
+"m": "n. 普拉提, 一种健身体操",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/pɪ'lɑːtiz/"
+},
+{
+"w": "pills",
+"m": "n. 丸剂；药丸（pill的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "pin",
+"m": "n. 大头针, 针, 别针, 栓, 销子, 图钉, 插头, 管脚, 品(液量单位…",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/pin/"
+},
+{
+"w": "pineapple",
+"m": "n. 凤梨, 菠萝, 失业救济金",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'pain.æpl/"
+},
+{
+"w": "pistachio",
+"m": "n. 阿月浑子树, 阿月浑子果实, 淡草绿色",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/pi'stɑ:ʃiәu/"
+},
+{
+"w": "pitch (sports)",
+"m": "n. 程度, 坡度, 顶点, 前倾, 倾斜, 投掷, 音高, 螺距, 节距, 摊…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/pitʃ/"
+},
+{
+"w": "plain (adjective)",
+"m": "n. 平原, 草原, 朴实无华的东西, 无格式；a. 简单的, 明白的, 平常的…",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/plein/"
+},
+{
+"w": "plain (landscape)",
+"m": "n. 平原, 草原, 朴实无华的东西, 无格式；a. 简单的, 明白的, 平常的…",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/plein/"
+},
+{
+"w": "plane",
+"m": "n. 平面, 扁平物, 机翼, 飞机, 水准, 地位；a. 平的, 平面的",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/plein/"
+},
+{
+"w": "planner",
+"m": "n. 计划者, 设计者, 安排者",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'plænә/"
+},
+{
+"w": "plaster",
+"m": "n. 石膏, 灰泥, 安慰(缓解)用品, 膏药；vt. 涂以灰泥, 敷以膏药, …",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'plæstә/"
+},
+{
+"w": "play (action)",
+"m": "n. 游戏, 游玩, 玩笑, 运动, 比赛, 赌博, 跳动, 表演, 剧本；v.…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/plei/"
+},
+{
+"w": "playpen",
+"m": "n. 游戏围栏",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'pleipen/"
+},
+{
+"w": "plays (performance)",
+"m": "n. 戏剧集；戏剧（play的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "pleasant",
+"m": "a. 愉快的, 可爱的, 活泼的, 亲切的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'pleznt/"
+},
+{
+"w": "pliers",
+"m": "n. 钳子",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'plaiәz/"
+},
+{
+"w": "plot",
+"m": "n. 小块土地, 地区图, 图, 阴谋, 情节；vt. 划分, 绘图, 密谋",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/plɒt/"
+},
+{
+"w": "plug in",
+"m": "插上电源",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "plum",
+"m": "n. 李子",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/plʌm/"
+},
+{
+"w": "plumber",
+"m": "n. 水管工人",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'plʌmә/"
+},
+{
+"w": "poach",
+"m": "vt. 水煮(蛋), 偷猎, 侵入, 窃取；vi. 偷猎, 陷入泥中",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/pәutʃ/"
+},
+{
+"w": "poached egg",
+"m": "n. 荷包蛋",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "pocket",
+"m": "n. 口袋, 钱袋, 钱, 容器；vt. 装...在口袋里, 隐藏, 抑制, 私…",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'pɒkit/"
+},
+{
+"w": "Poland",
+"m": "n. 波兰",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'pәulәnd/"
+},
+{
+"w": "polar bear",
+"m": "北极熊",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals"
+},
+{
+"w": "polar region",
+"m": "极地，近极区域",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "police officer",
+"m": "n. 警察",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "police station",
+"m": "警察分局",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town"
+},
+{
+"w": "polite",
+"m": "a. 有礼貌的, 文雅的, 客气的, 有教养的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/pә'lait/"
+},
+{
+"w": "polka dot",
+"m": "n. 圆点花样的布料",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "pomegranate",
+"m": "n. 石榴",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'pɒmgrænit/"
+},
+{
+"w": "pool",
+"m": "n. 池, 水塘, 石油层, 联营；vt. 合伙经营, 共享, 采掘, 汇聚成",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/pu:l/"
+},
+{
+"w": "pool cue",
+"m": "n. 撞球球杆",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "pop",
+"m": "n. 砰然声, 枪击, 含气饮料, 流行音乐, 通俗艺术；a. 流行的, 热门的…",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/pɒp/"
+},
+{
+"w": "popcorn",
+"m": "n. 爆米花",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'pɒpkɒ:n/"
+},
+{
+"w": "porpoise",
+"m": "n. 海豚, 鼠海豚",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/'pɒ:pәs/"
+},
+{
+"w": "portfolio",
+"m": "n. 皮包, 公文包, 部长职务, 有价证券财产目录, 艺术代表作选辑",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job",
+"ipa": "/pɒ:t'fәuliәu/"
+},
+{
+"w": "Portugal",
+"m": "n. 葡萄牙",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'pɒ:tʃugl/"
+},
+{
+"w": "Portuguese",
+"m": "n. 葡萄牙人, 葡萄牙语；a. 葡萄牙的, 葡萄牙人的, 葡萄牙语的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/.pɒ:tju'gi:z/"
+},
+{
+"w": "potatoes",
+"m": "n. 马铃薯；土豆（potato的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "pothole",
+"m": "n. 壶穴",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'pɒthәul/"
+},
+{
+"w": "potty",
+"m": "a. 微小的, 不足道的；n. 便壶",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'pɒti/"
+},
+{
+"w": "pour",
+"m": "n. 流出, 倾泻, 骤雨；vt. 倒, 灌, 注, 倾泻, 诉说, 倾吐",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/pɒ:/"
+},
+{
+"w": "PR",
+"m": "与公众的关系, 公关",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "pram",
+"m": "n. 婴儿车, 平底船, (送牛奶用的)手推车",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/præm/"
+},
+{
+"w": "prawn",
+"m": "n. 明虾, 对虾；vi. 捕虾",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/prɒ:n/"
+},
+{
+"w": "presenter",
+"m": "n. 节目主持人, 奉献者, 提出者",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/pri'zentә/"
+},
+{
+"w": "press-up",
+"m": "n. 俯伏撑",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "price tag",
+"m": "价格标签",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "print",
+"m": "n. 打印, 版, 印刷物, 痕迹, 印刷业, 印刷字体, 图片, 印花布, 印…",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/print/"
+},
+{
+"w": "problem-solving",
+"m": "问题解决",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "Production (department)",
+"m": "n. 制造, 生产, 产物",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments",
+"ipa": "/prә'dʌkʃәn/"
+},
+{
+"w": "programme (TV)",
+"m": "n. 节目, 节目单, 程序, 纲要, 大纲, 计划；vt. 规划, 拟...计…",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/'prәugræm/"
+},
+{
+"w": "projector",
+"m": "n. 计划人, 发起人, 规划人, 放映机, 映画器, 幻灯机, 幻灯, 探照灯…",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/prә'dʒektә/"
+},
+{
+"w": "pronunciation",
+"m": "n. 发音, 读法",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language",
+"ipa": "/prәu.nʌnsi'eiʃәn/"
+},
+{
+"w": "props",
+"m": "n. 小道具；支柱",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/prɔps/"
+},
+{
+"w": "prowl",
+"m": "n. 潜行, 徘徊, 悄悄踱步；vi. 潜行以觅食, 徘徊",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/praul/"
+},
+{
+"w": "Public Relations",
+"m": "公共关系",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "public speaking",
+"m": "n. 演说, 演讲",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "pudding",
+"m": "n. 布丁",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/'pudiŋ/"
+},
+{
+"w": "puddle",
+"m": "n. 小池, 水坑, 胶土；vt. 搅浊, 搅炼",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'pʌdl/"
+},
+{
+"w": "pull",
+"m": "vt. 拉, 拖, 拔, 牵, 撕开, 吸引；vi. 拉, 拖, 拔, 有吸引力",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/pul/"
+},
+{
+"w": "pulses",
+"m": "n. 脉搏( pulse的名词复数 ); [无线电]（电磁波等）脉动; 活力; …",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/pʌlsiz/"
+},
+{
+"w": "punctual",
+"m": "a. 准时的, 守时的, 点状的, 中肯的",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'pәŋktʃuәl/"
+},
+{
+"w": "purr",
+"m": "v. 呼噜呼噜叫, 发出喉音；n. 呼噜呼噜声",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/pә:/"
+},
+{
+"w": "purse",
+"m": "n. 钱包, 小钱袋, 金钱, 募捐款, 囊状物；v. 缩拢, 皱起",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/pә:s/"
+},
+{
+"w": "push-up",
+"m": "n. 俯伏撑",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "put on (clothes)",
+"m": "把...放上去, 穿上, 假装, 增加, 上演, 使...上场, 使起作用, 施…",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "puzzles",
+"m": "n. 智力游戏；游戏拼图",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities"
+},
+{
+"w": "pyjamas",
+"m": "n. 睡衣裤, 宽松裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/pә'dʒɑ:mәs/"
+},
+{
+"w": "quack",
+"m": "n. 鸭叫声, 冒牌医生, 冒充内行之人；a. 冒牌医生的",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/kwæk/"
+},
+{
+"w": "quiz show",
+"m": "智力竞赛节目",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "rabbit hutch",
+"m": "兔棚",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals"
+},
+{
+"w": "raccoon",
+"m": "n. 浣熊, 浣熊毛皮",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/ræ'ku:n/"
+},
+{
+"w": "rain forest",
+"m": "雨林",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "raincoat",
+"m": "n. 雨衣",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'reinkәut/"
+},
+{
+"w": "raindrop",
+"m": "n. 雨滴, 雨点",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'reindrɒp/"
+},
+{
+"w": "raisin",
+"m": "n. 葡萄干",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'reizn/"
+},
+{
+"w": "rake",
+"m": "n. 耙子, 钱耙, 斜度, 浪子；v. 搜索, 掠过, (用耙子)耙, (使)…",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/reik/"
+},
+{
+"w": "ranch house",
+"m": "n. 低矮的平房",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "rap",
+"m": "n. 轻敲, 拍击, 责骂, 无价值的东西；vt. 轻敲, 厉声说出, 叱责, …",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/ræp/"
+},
+{
+"w": "rapids",
+"m": "n. 湍流；急流",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/ræpidz/"
+},
+{
+"w": "raspberries",
+"m": "n. 悬钩子（树）( raspberry的复数形式 ); 木莓（树）; （将舌头…",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈræzˌberi:z/"
+},
+{
+"w": "rattle",
+"m": "vt. 使嘎嘎响, 喋喋不休地说；vi. 格格响, 喋喋不休",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'rætl/"
+},
+{
+"w": "ray",
+"m": "n. 光线, 射线, 闪烁, 光辉；vi. 射出光线, 浮现, 放射光线",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/rei/"
+},
+{
+"w": "razor",
+"m": "n. 剃刀；vt. 剃",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'reizә/"
+},
+{
+"w": "reaction",
+"m": "n. 反应, 反作用, 反动",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/ri'ækʃәn/"
+},
+{
+"w": "real estate",
+"m": "不动产",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "reality TV",
+"m": "现实电视",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "realtor",
+"m": "n. 房地产经纪人",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'riәltә/"
+},
+{
+"w": "recycling bin",
+"m": "回收桶；废物回收箱",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "red card",
+"m": "n. （足球）红牌",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "red carpet",
+"m": "红地毯, 隆重的接待",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "red tape",
+"m": "官样文章",
+"c": "DK 词汇大全 Vocabulary Builder: 41 Work and business idioms"
+},
+{
+"w": "redcurrants",
+"m": "n. 红浆果树丛；红醋栗树",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/,red'kʌrənt/"
+},
+{
+"w": "reference (landlord)",
+"m": "n. 参考, 索引, 参照；vt. 给...加上参考资料",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'refәrәns/"
+},
+{
+"w": "references (employer)",
+"m": "n. 参考文献；参照",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job"
+},
+{
+"w": "reflector",
+"m": "n. 反射镜, 反射物",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/ri'flektә/"
+},
+{
+"w": "relationships",
+"m": "n. （事物之间的）关系( relationship的复数形式 ); （人、团体…",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships",
+"ipa": "/rɪ'leɪʃnʃɪps/"
+},
+{
+"w": "relaxed",
+"m": "a. 松懈的, 不严密的, 不严格的, 放松的, 得到休息的, 随意的, 不拘束…",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ri'lækst/"
+},
+{
+"w": "relaxing",
+"m": "a. 令人轻松的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions"
+},
+{
+"w": "removal van",
+"m": "n. 搬家卡车",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "renting",
+"m": "v. 租用；出租（rent的ing形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "repel",
+"m": "vt. 逐退, 抵制, 使厌恶, 抗御；vi. 使厌恶, 相互排斥",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/ri'pel/"
+},
+{
+"w": "reply",
+"m": "n. 答复, 回答, 答辩；vi. 答复, 回答, 回击, 反响, 答辩",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/ri'plai/"
+},
+{
+"w": "reporter",
+"m": "n. 记者, 报告者",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/ri'pɒ:tә/"
+},
+{
+"w": "Republic of Ireland",
+"m": "爱尔兰国家队；爱尔兰共和国护照",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "residential area",
+"m": "居民区，住宅区",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting"
+},
+{
+"w": "respectable",
+"m": "a. 值得尊重的, 人格高尚的, 相当数量的；n. 品格高尚的人",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/ri'spektәbl/"
+},
+{
+"w": "responsible for",
+"m": "为…负责, 是造成…的原因",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job"
+},
+{
+"w": "resuscitate",
+"m": "v. (使)复苏, (使)复兴",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/ri'sʌsiteit/"
+},
+{
+"w": "retire",
+"m": "n. 隐居；vi. 引退, 退役, 退休, 退去, 撤退, 退却",
+"c": "DK 词汇大全 Vocabulary Builder: 35 Working conditions",
+"ipa": "/ri'taiә/"
+},
+{
+"w": "rice",
+"m": "n. 米, 米饭, 稻；vt. 将...压成米粒状",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/rais/"
+},
+{
+"w": "ride",
+"m": "n. 骑马, 乘坐, 乘车, 搭便车；vt. 骑, 乘坐, 压迫, 控制",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/raid/"
+},
+{
+"w": "rip-off",
+"m": "n. 偷窃",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "road sign",
+"m": "交通标志; 路标",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "roadmap",
+"m": "n. 路标",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'rod,mæp/"
+},
+{
+"w": "roar",
+"m": "n. 吼, 咆哮, 轰鸣；vi. 吼, 大声说出, 叫喊, 喧闹",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/rɒ:/"
+},
+{
+"w": "rock (music)",
+"m": "n. 岩石, 岩礁, 石头, 基石, 暗礁, 摇动, 摇滚乐；vt. 摇摆, 摇…",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/rɒk/"
+},
+{
+"w": "ROI",
+"m": "abbr. 投资回收率（return on investment）；利润率（Ra…",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/rwɑ:/"
+},
+{
+"w": "roll (action)",
+"m": "n. 卷, 滚动, 名单, 案卷, 压路机；vi. 滚, 滚动, 飘流, 起伏,…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/rәul/"
+},
+{
+"w": "roll (bread)",
+"m": "n. 卷, 滚动, 名单, 案卷, 压路机；vi. 滚, 滚动, 飘流, 起伏,…",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/rәul/"
+},
+{
+"w": "roller (paint)",
+"m": "n. 滚筒, 滚轴, 压路机",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'rәulә/"
+},
+{
+"w": "roller-skating",
+"m": "滑旱冰; 滑轱辘",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'rəʊləskeɪtɪŋ/"
+},
+{
+"w": "rolling pin",
+"m": "n. 擀面杖",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "roomer",
+"m": "n. 房客",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'ru:mә/"
+},
+{
+"w": "rowing",
+"m": "n. 划船",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'rәuiŋ/"
+},
+{
+"w": "rowing machine",
+"m": "[医]划船运动练习器",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "rubber band",
+"m": "橡皮圈",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "rucksack",
+"m": "n. 帆布背包",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'rʌksæk/"
+},
+{
+"w": "rude",
+"m": "a. 粗鲁无礼的, 粗陋的, 粗暴的, 原始的, 未开化的, 大略的, 崎岖不平…",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/ru:d/"
+},
+{
+"w": "rugby",
+"m": "n. 橄榄球, 橄榄球赛",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'rʌ^bi/"
+},
+{
+"w": "ruler",
+"m": "n. 统治者, 管理者, 尺, 直尺；n. 划线板",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'ru:lә/"
+},
+{
+"w": "run",
+"m": "n. 跑, 赛跑, 奔跑, 奔跑的路程, 趋向, 流出, 运转时间, 连续；vi…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/rʌn/"
+},
+{
+"w": "run in the family",
+"m": "为一家人所共有,世代相传",
+"c": "DK 词汇大全 Vocabulary Builder: 21 Family and relationships"
+},
+{
+"w": "run-down",
+"m": "a. 荒芜的, 疲惫的",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "Russian",
+"m": "n. 俄国人, 俄语；a. 俄国的, 俄语的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'rʌʃәn/"
+},
+{
+"w": "rusty",
+"m": "a. 生锈的, 腐蚀的, 生疏的, 顽固的, 腐烂的",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language",
+"ipa": "/'rʌsti/"
+},
+{
+"w": "sad",
+"m": "a. 忧愁的, 悲哀的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/sæd/"
+},
+{
+"w": "saddle",
+"m": "n. 鞍, 马鞍, 车座, 鞍状物；vt. 装以马鞍, 使负担",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'sædl/"
+},
+{
+"w": "safety pin",
+"m": "n. 安全别针",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "sale",
+"m": "n. 出售, 卖, 拍卖, 销售额, 廉价出售",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/seil/"
+},
+{
+"w": "Sales (department)",
+"m": "a. 销售的",
+"c": "DK 词汇大全 Vocabulary Builder: 36 Industries and departments"
+},
+{
+"w": "salmon",
+"m": "n. 鲑鱼, 大麻哈鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'sæmәn/"
+},
+{
+"w": "salty",
+"m": "a. 有盐分的, 咸味浓的, 海洋的, 辛辣的, 有经验的",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'sɒ:lti/"
+},
+{
+"w": "sand dune",
+"m": "n. 沙丘, 风吹积成的沙丘",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features"
+},
+{
+"w": "sandals",
+"m": "n. 凉鞋；便鞋",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "sandbox",
+"m": "n. 沙箱, 沙盒",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'sændbɒks/"
+},
+{
+"w": "sandcastle",
+"m": "n. 沙堡",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/'sændkɑ:s(ә)l/"
+},
+{
+"w": "sandpit",
+"m": "n. 采沙场, 沙坑",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'sændpit/"
+},
+{
+"w": "sandstorm",
+"m": "n. (沙漠地带的)沙暴",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'sændstɒ:m/"
+},
+{
+"w": "sardines",
+"m": "n. 沙丁鱼（罐装的）( sardine的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/sɑ:ˈdi:nz/"
+},
+{
+"w": "satnav",
+"m": "n. （卫星信息辅助的）航行; （可接收卫星信息的）航海系统",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/'sætnæv/"
+},
+{
+"w": "saturated fat",
+"m": "（来自肉类和乳类的）饱和脂肪",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating"
+},
+{
+"w": "saucepan",
+"m": "n. (长柄有盖)深平底锅, 炖锅",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'sɒ:spәn/"
+},
+{
+"w": "sauna",
+"m": "n. 桑拿浴",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/'saunә/"
+},
+{
+"w": "sausages",
+"m": "n. 腊肠, 香肠; 香肠( sausage的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'sɒsɪdʒɪz/"
+},
+{
+"w": "savory",
+"m": "a. 风味极佳的, 可口的, 味香的；n. 开胃菜",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'seivәri/"
+},
+{
+"w": "saw",
+"m": "n. 锯子, 谚语；vt. 锯, 锯开, 来回移动",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/sɒ:/"
+},
+{
+"w": "saxophone",
+"m": "n. 萨克斯管",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'sæksәfәun/"
+},
+{
+"w": "scale (fish)",
+"m": "n. 刻度, 衡量, 比例, 比例尺, 数值范围, 等级, 规模, 天平, 秤,…",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/skeil/"
+},
+{
+"w": "scales (measure)",
+"m": "n. 缩放；天平",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions"
+},
+{
+"w": "scallops",
+"m": "n. 扇贝( scallop的名词复数 ); 扇形皱褶; 扇形饰边; 扇贝壳",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/'skɒləp/"
+},
+{
+"w": "scanner",
+"m": "n. 扫描仪, 扫描盘, 审视者",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'skænә/"
+},
+{
+"w": "science fiction",
+"m": "科幻, 科学幻想小说; 科幻小说",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading"
+},
+{
+"w": "scientist",
+"m": "n. 科学家",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'saiәntist/"
+},
+{
+"w": "scissors",
+"m": "pl. 剪刀",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'sizәz/"
+},
+{
+"w": "scrambled eggs",
+"m": "炒鸡蛋，摊鸡蛋; 帽饰",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks"
+},
+{
+"w": "screw",
+"m": "n. 螺旋, 螺杆, 螺钉, 螺旋桨, 吝啬鬼；vt. 调节, 扭紧, 旋, 拧…",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/skru:/"
+},
+{
+"w": "screwdriver",
+"m": "n. 螺丝起子",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'skru:draivә/"
+},
+{
+"w": "script",
+"m": "n. 手迹, 手稿, 正本, 手写体；vt. 改编为演出本",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/skript/"
+},
+{
+"w": "sea lion",
+"m": "海狮",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "sea urchin",
+"m": "n. 海胆",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "seagull",
+"m": "n. 鸥",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'si:^ʌl/"
+},
+{
+"w": "seahorse",
+"m": "n. 海马, 马头鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "seasons",
+"m": "n. 季节, 四季",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions"
+},
+{
+"w": "seatbelt",
+"m": "n. 座位安全带",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "second",
+"m": "n. 秒, 瞬间, 第二名, 支持者, 助手；a. 第二的, 其次的, 次要的,…",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'sekәnd/"
+},
+{
+"w": "second floor",
+"m": "三楼,二楼",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "secretive",
+"m": "a. 秘密的, 偷偷摸摸的, 分泌的, 促进分泌的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/si'kri:tiv/"
+},
+{
+"w": "see",
+"m": "vt. 看见, 查看, 参观, 游览, 理解, 知道, 同意；vi. 看, 观看…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/si:/"
+},
+{
+"w": "seesaw",
+"m": "n. 跷跷板, 跷跷板游戏, 起伏交替的动作；a. 上下或前后摇动的, 交互的",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'si:sɒ:/"
+},
+{
+"w": "self-help",
+"m": "n. 自助, 自立",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/'self'help/"
+},
+{
+"w": "selfish",
+"m": "a. 自私的, 利己主义的, 自我中心的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'selfiʃ/"
+},
+{
+"w": "sensationalize",
+"m": "vt. 使引起轰动, 耸人听闻地报道, 耸人听闻地描绘",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity",
+"ipa": "/sen'seiʃәn,laiz/"
+},
+{
+"w": "sensitive",
+"m": "a. 敏感的, 易感的, 灵敏的, 感光的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'sensitiv/"
+},
+{
+"w": "service-oriented",
+"m": "n. 服务导向",
+"c": "DK 词汇大全 Vocabulary Builder: 42 Applying for a job",
+"ipa": "/'sɜ:vɪs'ɔ:rɪəntɪd/"
+},
+{
+"w": "set off",
+"m": "出发, 开始, 引起, 衬托, 点缀, 抵销, 分开, 划分",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "set the table",
+"m": "摆餐具,摆餐桌",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "sets",
+"m": "n. 集合, 设置（set的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "seven",
+"m": "num. 七, 七个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'sevn/"
+},
+{
+"w": "seventeen",
+"m": "num. 十七, 十七个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/sevn'ti:n/"
+},
+{
+"w": "seventh",
+"m": "num. 第七, 七分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'sevnθ/"
+},
+{
+"w": "seventy",
+"m": "num. 七十, 七十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'sevnti/"
+},
+{
+"w": "shake",
+"m": "n. 摇动, 震动；vt. 摇动, 动摇, 使震动, 挥舞",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/ʃeik/"
+},
+{
+"w": "shallow",
+"m": "n. 水浅的地方, 浅滩；a. 浅的, 肤浅的",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/'ʃælәu/"
+},
+{
+"w": "shark",
+"m": "n. 鲨鱼, 骗子；v. 诈骗",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/ʃɑ:k/"
+},
+{
+"w": "shaving foam",
+"m": "泡沫刮胡膏",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "shears",
+"m": "n. 大剪刀",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/ʃiәz/"
+},
+{
+"w": "shell",
+"m": "n. 贝壳, 壳, 外形, 炮弹；vt. 去壳, 脱落, 炮轰",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/ʃel/"
+},
+{
+"w": "shelves",
+"m": "pl. 架子",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/ʃelvz/"
+},
+{
+"w": "shin",
+"m": "n. 胫骨；v. 攀, 爬",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/ʃin/"
+},
+{
+"w": "shirt",
+"m": "n. 衬衫, 内衣, 汗衫",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/ʃә:t/"
+},
+{
+"w": "shiver",
+"m": "vi. 颤抖, 哆嗦, 被打碎；vt. 使迎风飘动, 粉碎",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'ʃivә/"
+},
+{
+"w": "shocked",
+"m": "a. 震撼的；震惊的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ʃɔkt/"
+},
+{
+"w": "shocking",
+"m": "a. 令人震惊的, 极坏的, 不正当的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'ʃɒkiŋ/"
+},
+{
+"w": "shoe shop",
+"m": "鞋店",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "shoe store",
+"m": "[贸易] 鞋店",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "shop",
+"m": "n. 商店, 工厂, 车间；vi. 购物, 到处寻找",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning",
+"ipa": "/ʃɒp/"
+},
+{
+"w": "shop around",
+"m": "逐店进行搜购, 到处寻找好职业, 到处寻找好主意",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "shoplifting",
+"m": "n. 入店行窃",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'ʃɒp.liftiŋ/"
+},
+{
+"w": "shopping bag",
+"m": "n. （带挽手的）购物袋; 提包",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "shopping cart",
+"m": "购物车",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "shorts",
+"m": "n. 短裤, (美)男人的短衬裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/ʃɔ:ts/"
+},
+{
+"w": "shoulder (body)",
+"m": "n. 肩, 肩膀, 衣肩；vt. 肩负, 负担, 担任",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'ʃәuldә/"
+},
+{
+"w": "shoulder (road)",
+"m": "n. 肩, 肩膀, 衣肩；vt. 肩负, 负担, 担任",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/'ʃәuldә/"
+},
+{
+"w": "shredder",
+"m": "n. 切菜器, 碎纸机",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'ʃredә/"
+},
+{
+"w": "shrimp",
+"m": "n. 虾, 小虾, 矮子；vi. 捕小虾",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/ʃrimp/"
+},
+{
+"w": "shrug",
+"m": "n. 耸肩；v. 耸肩",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/ʃrʌg/"
+},
+{
+"w": "shuttlecock",
+"m": "n. 羽毛球, 一来一回的事物(如争论)；vt. 往返递送",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'ʃʌtlkɒk/"
+},
+{
+"w": "shy",
+"m": "n. 惊跳, 惊避；a. 胆怯的, 畏缩的, 迟疑的, 羞怯的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/ʃai/"
+},
+{
+"w": "side order",
+"m": "（餐馆中）主菜之外另点的小菜",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out"
+},
+{
+"w": "sideburns",
+"m": "n. 连鬓胡子, 鬓脚",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/'saidbә:nz/"
+},
+{
+"w": "sieve",
+"m": "n. 筛子, 滤网；vt. 筛, 滤",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/siv/"
+},
+{
+"w": "sigh",
+"m": "n. 叹息；vi. 叹息, 渴望",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/sai/"
+},
+{
+"w": "signal",
+"m": "n. 信号, 暗号, 近因, 导火线；vt. 向...作信号, 标志, 用信号通…",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'signl/"
+},
+{
+"w": "silk",
+"m": "n. 丝, 绸, 绸锻类, 丝织品；a. 丝的, 丝织的",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/silk/"
+},
+{
+"w": "silly",
+"m": "a. 愚蠢的, 糊涂的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'sili/"
+},
+{
+"w": "silverware",
+"m": "n. 银器",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'silvәwєә/"
+},
+{
+"w": "simmer",
+"m": "vt. 煨；vi. 炖, 内心充满",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/'simә/"
+},
+{
+"w": "sink (action)",
+"m": "n. 藏垢的场所, 沟渠, 污水槽；vi. 下沉, 沉没, 下陷, 减弱, 衰退…",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/siŋk/"
+},
+{
+"w": "sink (household fixture)",
+"m": "n. 藏垢的场所, 沟渠, 污水槽；vi. 下沉, 沉没, 下陷, 减弱, 衰退…",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/siŋk/"
+},
+{
+"w": "sip",
+"m": "n. 啜饮, 小口喝, 抿；vi. 啜饮",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/sip/"
+},
+{
+"w": "sister",
+"m": "n. 姐妹, 姐, 妹, 护士, 修女；vt. 姐妹般对待",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'sistә/"
+},
+{
+"w": "sister-in-law",
+"m": "n. 夫(或妻)的姊妹, 嫂子, 弟媳",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "sit down",
+"m": "坐下, 占据, 参加静坐罢工(或示威)",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions"
+},
+{
+"w": "sit on the fence",
+"m": "采取骑墙态度, 保持中立",
+"c": "DK 词汇大全 Vocabulary Builder: 08 Common English idioms"
+},
+{
+"w": "sitcom",
+"m": "abbr. 情景喜剧（situation comedy）",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv",
+"ipa": "/'sitkɔm/"
+},
+{
+"w": "sit-up",
+"m": "n. 仰卧起坐",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "six",
+"m": "num. 六, 六个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/siks/"
+},
+{
+"w": "sixteen",
+"m": "num. 十六, 十六个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'siks'ti:n/"
+},
+{
+"w": "sixth",
+"m": "num. 第六, 六分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/siksθ/"
+},
+{
+"w": "sixty",
+"m": "num. 六十, 六十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'siksti/"
+},
+{
+"w": "skateboarding",
+"m": "n. 滑板运动",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'skeit.bɔ:diŋ/"
+},
+{
+"w": "ski slope",
+"m": "n. [体]滑雪斜坡",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "skip",
+"m": "n. 跳跃, 跳读；vi. 跳越, 跳读, 跳绳, 遗漏, 跳级",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/skip/"
+},
+{
+"w": "skipping rope",
+"m": "跳绳用绳子",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "skis",
+"m": "n. 滑雪板( ski的名词复数 )；v. 滑雪( ski的第三人称单数 )",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/ski:z/"
+},
+{
+"w": "skydiving",
+"m": "n. 尽量延缓张伞的跳伞运动",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "sleep well",
+"m": "睡得好",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "slide",
+"m": "n. 滑, 滑道, 山崩, 雪崩, 幻灯片；vt. 使滑动, 偷偷放入",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/slaid/"
+},
+{
+"w": "sloth",
+"m": "n. 怠惰, 懒惰",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/slәuθ/"
+},
+{
+"w": "Slovakia",
+"m": "n. 斯洛伐克",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/slәu'vækiә/"
+},
+{
+"w": "slow down",
+"m": "(使)慢下来",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "small",
+"m": "a. 小的, 少的, 小型的, 低微的, 小气的, 细微的；adv. 些微地",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/smɒ:l/"
+},
+{
+"w": "smoothie",
+"m": "n. 举止优雅的人, 善于奉承的人, 油嘴滑舌的人",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'smu:ði/"
+},
+{
+"w": "smuggling",
+"m": "n. 走私",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law"
+},
+{
+"w": "sneeze",
+"m": "n. 喷嚏；vi. 打喷嚏",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/sni:z/"
+},
+{
+"w": "sniff",
+"m": "n. 以鼻吸气, 嗅, 气息；vi. 嗅, 蔑视, 嗤之以鼻",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/snif/"
+},
+{
+"w": "snore",
+"m": "n. 鼾声, 打鼾；vi. 打鼾",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/snɒ:/"
+},
+{
+"w": "snorkeling",
+"m": "v. 用通气管潜泳",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/ˈsnɔ:klɪŋ/"
+},
+{
+"w": "snort",
+"m": "vi. 喷着气弄响鼻子, 轻蔑地哼, 嘶嘶响着排气；vt. 哼着鼻子说, 喷出,…",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/snɒ:t/"
+},
+{
+"w": "snowboard",
+"m": "n. 滑雪板",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'snәubɔ:d/"
+},
+{
+"w": "snowdrift",
+"m": "n. (被风刮在一起的)雪堆, 随风飘飞的雪",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'snәudrift/"
+},
+{
+"w": "snowed under",
+"m": "压倒的, 忙得不可开交的",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working"
+},
+{
+"w": "snowflake",
+"m": "n. 雪片, 雪花, 雪片莲",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'snәufleik/"
+},
+{
+"w": "snowstorm",
+"m": "n. 暴风雪",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'snәustɒ:m/"
+},
+{
+"w": "snowsuit",
+"m": "n. 孩童风雪装",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'snәusju:t/"
+},
+{
+"w": "snowy",
+"m": "a. 多雪的, 雪的, 被雪所覆盖着的, 下雪的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'snәui/"
+},
+{
+"w": "soap",
+"m": "n. 肥皂, 阿谀；vt. 以肥皂洗, 阿谀",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/sәup/"
+},
+{
+"w": "soap opera",
+"m": "肥皂剧",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "soccer",
+"m": "n. 英式足球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'sɒkә/"
+},
+{
+"w": "social networking",
+"m": "n. 社会交往",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "sofa",
+"m": "n. 沙发",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/'sәufә/"
+},
+{
+"w": "soft toy",
+"m": "n. 软体类玩具；毛绒玩具",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "solar panel",
+"m": "太阳(能)板(指装有太阳电池的平翼)",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns"
+},
+{
+"w": "solar power",
+"m": "太阳能",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns"
+},
+{
+"w": "solid",
+"m": "n. 固体；a. 坚硬的, 稳固的, 固体的, 实心的, 纯质的, 立体的, 立…",
+"c": "DK 词汇大全 Vocabulary Builder: 78 Science and scientific equipment",
+"ipa": "/'sɒlid/"
+},
+{
+"w": "solo",
+"m": "n. 独奏, 独唱, 单独表演；a. 单独的, 独奏的, 独唱的",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'sәulәu/"
+},
+{
+"w": "son",
+"m": "n. 儿子, 女婿, 子孙",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/sʌn/"
+},
+{
+"w": "sorbet",
+"m": "n. 加果汁的冰水",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'sɔ:bәt/"
+},
+{
+"w": "sore",
+"m": "a. 悲伤的, 痛的, 引起痛苦的；n. 痛处, 溃疡, 疮",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/sɒ:/"
+},
+{
+"w": "soul",
+"m": "n. 灵魂, 心灵, 精神, 精髓, 人, 化身, 典型, 鬼魂；a. 黑人的",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/sәul/"
+},
+{
+"w": "South Africa",
+"m": "南非",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "soy sauce",
+"m": "n. 酱",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments"
+},
+{
+"w": "spa",
+"m": "n. 矿泉, 温泉浴场, 矿泉治疗地",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/spɑ:/"
+},
+{
+"w": "spaghetti",
+"m": "n. 意大利面条",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/spә'geti/"
+},
+{
+"w": "Spain",
+"m": "n. 西班牙",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/spein/"
+},
+{
+"w": "spam",
+"m": "n. 罐头猪肉, 垃圾邮件；v. 发送垃圾邮件",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "spanner",
+"m": "n. 扳手",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'spænә/"
+},
+{
+"w": "sparkling",
+"m": "a. 闪闪发光的, 闪烁的, 闪烁着才华的",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'spɑ:liŋ/"
+},
+{
+"w": "spatula",
+"m": "n. 刮刀, 压舌片, 匙突",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'spætʃәlә/"
+},
+{
+"w": "special effects",
+"m": "n. 特殊效果( special effect的名词复数 ); 特技",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "special offer",
+"m": "n. 特殊报价, 特价优待",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket"
+},
+{
+"w": "specials (menu)",
+"m": "n. 特殊的人或事；特刊",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out"
+},
+{
+"w": "speed camera",
+"m": "n. （用来自动拍摄超速车辆的）超速摄像头, 电子警察, 电子眼",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "speed up",
+"m": "加速",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "speeding",
+"m": "n. 超速行驶",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'spi:diŋ/"
+},
+{
+"w": "sperm whale",
+"m": "n. 抹香鲸",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures"
+},
+{
+"w": "spinach",
+"m": "n. 菠菜, 货币, 胡说八道",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/'spinitʃ/"
+},
+{
+"w": "spine",
+"m": "n. 背骨, 脊柱, 尖刺",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading",
+"ipa": "/spain/"
+},
+{
+"w": "splinter",
+"m": "n. 碎片, 尖片, 分裂出来的小派别, 微小的东西；v. 使分裂, (使)破裂",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'splintә/"
+},
+{
+"w": "sponge",
+"m": "n. 海绵, 海绵状的东西；vt. 用海绵擦拭, 吸收掉, 抹掉",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/spʌndʒ/"
+},
+{
+"w": "spoon",
+"m": "n. 匙, 调羹, 匙形工具；vt. 以匙舀起, 调情, 使成匙状",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/spu:n/"
+},
+{
+"w": "sports show",
+"m": "体育表演,体育盛会",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "spotted",
+"m": "a. 有斑点的, 斑纹的, 弄污了的",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'spɒtid/"
+},
+{
+"w": "sprain",
+"m": "vt. 挫伤, 扭筋, 错筋；n. 扭伤, 扭筋",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/sprein/"
+},
+{
+"w": "sprinkler",
+"m": "n. 洒水车, 洒水器",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'spriŋklә/"
+},
+{
+"w": "squat",
+"m": "n. 蹲, 窝；a. 蹲着的, 矮胖的",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/skwɒt/"
+},
+{
+"w": "squeak",
+"m": "n. 吱吱声, 侥幸；vi. 吱吱叫, 告密, 侥幸成功",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/skwi:k/"
+},
+{
+"w": "squid",
+"m": "n. 枪乌贼, 鱿鱼, 反潜水雷发射装置",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/skwid/"
+},
+{
+"w": "stage",
+"m": "n. 阶段, 舞台, 场所, 戏剧, 站, 驿站, 级, 层, 脚手架；vt. …",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/steidʒ/"
+},
+{
+"w": "stalls",
+"m": "n. 戏院正厅前排座位, 前座观众",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "stand up",
+"m": "站起来, 竖立, 站得住脚, 经得起",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions"
+},
+{
+"w": "standing ovation",
+"m": "n. 长时间起立鼓掌",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays"
+},
+{
+"w": "stapler",
+"m": "n. 主要物产商, 把羊毛分级的人, 订书机",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'steiplә/"
+},
+{
+"w": "staples",
+"m": "n. 主要产物, 主要原料（staple的复数）；n. (Staples)人名",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment"
+},
+{
+"w": "starfish",
+"m": "n. 海星",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/'stɑ:fiʃ/"
+},
+{
+"w": "starfruit",
+"m": "n. 杨桃",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/ˈstɑ:fru:t/"
+},
+{
+"w": "starter",
+"m": "n. 开端者, 在起跑线上的人, 参加赛跑的人, 调度员, 起动机, 酵母",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/'stɑ:tә/"
+},
+{
+"w": "state-of-the-art",
+"m": "a. 已经发展的, 最新型的",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future"
+},
+{
+"w": "steam room",
+"m": "蒸汽浴室",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "step down",
+"m": "走下, 逐步减低, 辞职, 下台",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working"
+},
+{
+"w": "stepbrother",
+"m": "n. 异父(母)兄弟",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'stepbrʌðә/"
+},
+{
+"w": "stepmom",
+"m": "继母",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "stepmother",
+"m": "n. 继母",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'step.mʌðә/"
+},
+{
+"w": "stepsister",
+"m": "n. 异父(母)姊妹",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'stepsistә/"
+},
+{
+"w": "steward",
+"m": "n. 管理人, 招待员, 管家, 乘务员",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'stju:wәd/"
+},
+{
+"w": "stifling",
+"m": "a. 令人窒息的, 发闷的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'staifliŋ/"
+},
+{
+"w": "still (drink)",
+"m": "n. 蒸馏室, 寂静, 剧照；v. 蒸馏, (使)平静, (使)静止",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/stil/"
+},
+{
+"w": "stitches",
+"m": "n. 缝针；针法",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "stock exchange",
+"m": "证券交易(所)",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance"
+},
+{
+"w": "stomach",
+"m": "n. 胃, 食欲, 欲望, 肚子；vt. 吃下, 忍受",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/'stʌmәk/"
+},
+{
+"w": "stomachache",
+"m": "n. 胃痛, 肚子痛",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'stʌmәkeik/"
+},
+{
+"w": "stop off",
+"m": "中途停留",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "stopwatch",
+"m": "n. 计时表, 码表",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'stɒpwɒtʃ/"
+},
+{
+"w": "storage",
+"m": "n. 存储器, 储藏, 保管, 库存, 仓库",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/'stɒ:ridʒ/"
+},
+{
+"w": "stork",
+"m": "n. 鹳",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/stɒ:k/"
+},
+{
+"w": "storm",
+"m": "n. 暴风雨, 骚动, 风波, 风暴, 猛攻；vi. 起风, 猛冲, 怒吼",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/stɒ:m/"
+},
+{
+"w": "stormy",
+"m": "a. 暴风雨的, 粗暴的, 激烈的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'stɒ:mi/"
+},
+{
+"w": "strange",
+"m": "a. 奇怪的, 陌生的, 生疏的, 不熟悉的, 不可思议的, 外行的, 外地的,…",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/streindʒ/"
+},
+{
+"w": "strawberries",
+"m": "n. 草莓( strawberry的复数形式 )",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/st'rɔ:brɪz/"
+},
+{
+"w": "stream",
+"m": "n. 水流, 小河, 流出, 趋势, 人潮；vt. 流出, 流动, 展开",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/stri:m/"
+},
+{
+"w": "street address",
+"m": "街道地址",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "stressed",
+"m": "a. 感到有压力的；紧张的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods"
+},
+{
+"w": "striker",
+"m": "n. 打击者, 罢工者",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/'straikә/"
+},
+{
+"w": "striped",
+"m": "a. 有斑纹的",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/straipt/"
+},
+{
+"w": "stroller",
+"m": "n. 散步者, 流浪者",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'strәulә/"
+},
+{
+"w": "strong",
+"m": "a. 强壮的, 坚固的, 坚强的, 强烈的, 有力的, 优良的；adv. 强劲地…",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/strɒŋ/"
+},
+{
+"w": "stubble",
+"m": "n. 残株, 茬",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/'stʌbl/"
+},
+{
+"w": "studying",
+"m": "v. 学习；研究（study的ing形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education"
+},
+{
+"w": "stuffed animal",
+"m": "填充玩具动物, 一种在布料内部装填粉状东西的布玩具",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "stunt",
+"m": "n. 特技, 绝技, 花招, 噱头, 手腕, 发育不良；vt. 阻碍成长",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/stʌnt/"
+},
+{
+"w": "styles",
+"m": "n. 风格；样式",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes"
+},
+{
+"w": "stylist",
+"m": "n. 文体学家, 时装设计师",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs",
+"ipa": "/'stailist/"
+},
+{
+"w": "substitutes",
+"m": "n. 代替者( substitute的名词复数 ); 替补（运动员）; 替代物;…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/ˈsʌbstitju:ts/"
+},
+{
+"w": "subtitles",
+"m": "n. 说明字幕, 印在外国影片上的对白翻译字幕, 译文对白字幕",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "subtract",
+"m": "vt. 减去, 扣掉, 减少；vi. 做减法",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/sәb'trækt/"
+},
+{
+"w": "suck",
+"m": "vt. 吸, 吮, 吸入, 吮吸, 吸收；vi. 吸, 吸奶",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/sʌk/"
+},
+{
+"w": "suit (clothing)",
+"m": "n. 套装, 诉讼, 请求, 起诉, 套, 组；vt. 适合, 使适应",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/sju:t. su:t/"
+},
+{
+"w": "suit (someone)",
+"m": "n. 套装, 诉讼, 请求, 起诉, 套, 组；vt. 适合, 使适应",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/sju:t. su:t/"
+},
+{
+"w": "suitcase",
+"m": "n. 手提箱",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'sju:tkeis/"
+},
+{
+"w": "sultana",
+"m": "n. 无核小葡萄干",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/sʌl'tɑ:nә/"
+},
+{
+"w": "sum up",
+"m": "计算...的总数, 概括, 总结",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting"
+},
+{
+"w": "sunbathing",
+"m": "n. 日光浴",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "superb",
+"m": "a. 极度的, 华丽的, 极好的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/sju'pә:b/"
+},
+{
+"w": "supportive",
+"m": "a. 支撑, 支承, 资助, 赞助, 支援, 经受, 忍受, 扶养, 证实, 鼓…",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/sә'pɔ:tiv/"
+},
+{
+"w": "surfboard",
+"m": "n. 冲浪板, 用冲浪板滑水",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues",
+"ipa": "/'sә:fbɒ:d/"
+},
+{
+"w": "swallow",
+"m": "n. 燕子, 吞咽, 喉；vt. 咽, 淹没, 吞没, 耗尽, 轻信, 忍受, …",
+"c": "DK 词汇大全 Vocabulary Builder: 32 Drinking and eating",
+"ipa": "/'swɒlәu/"
+},
+{
+"w": "swamp",
+"m": "n. 沼泽, 进退两难的困境；vt. 淹没, 击溃, 清除, 使陷于沼泽",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/swɒmp/"
+},
+{
+"w": "swan",
+"m": "n. 天鹅, 天鹅星座, 有才华的诗人；vi. 闲荡, 蜿蜒而行",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/swɒn/"
+},
+{
+"w": "sweat",
+"m": "n. 汗, 汗水, 水珠, 焦急；vi. 出汗, 渗出, 冒出水气, 结水珠, …",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/swet/"
+},
+{
+"w": "sweetcorn",
+"m": "n. 甜玉米",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/ˈswi:tkɔ:n/"
+},
+{
+"w": "sweets",
+"m": "n. 糖果；甜食（sweet的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/swi:ts/"
+},
+{
+"w": "swimming cap",
+"m": "n. 泳帽",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "swimming trunks",
+"m": "n. 泳裤",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "swimsuit",
+"m": "n. 游泳衣",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/'swimsju:t/"
+},
+{
+"w": "swing",
+"m": "n. 摇摆, 振幅, 音律, 节奏, 涨落, 秋千, 旋转, 行动自由；vi. …",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/swiŋ/"
+},
+{
+"w": "swings",
+"m": "n. （复数）秋千；摇摆, 改变, 冲力（swing的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "swollen",
+"m": "a. 肿大的, 涨水的, 夸张的, 骄傲的；swell的过去分词",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/'swәulәn/"
+},
+{
+"w": "swoop",
+"m": "n. 俯冲, 攫取；vt. 抓取",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/swu:p/"
+},
+{
+"w": "swordfish",
+"m": "n. 箭鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/'sɒ:dfiʃ/"
+},
+{
+"w": "synagogue",
+"m": "n. 犹太人集会, 犹太教会堂, 犹太教",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/'sinәgɒg/"
+},
+{
+"w": "table tennis",
+"m": "乒乓球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports"
+},
+{
+"w": "tablet (gadget)",
+"m": "n. 平板, 门牌, 笔记簿, 碑, 匾, 药片",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/'tæblit/"
+},
+{
+"w": "tablets (medicine)",
+"m": "n. 药片( tablet的名词复数 ); （木、竹）简; 碑; 一块肥皂",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'tæblɪts/"
+},
+{
+"w": "tail (animal)",
+"m": "n. 尾部, 后部, 辫子, 随员, 特务, 燕尾服, 踪迹, 限定继承(权)；…",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/teil/"
+},
+{
+"w": "take a bath",
+"m": "洗个澡",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "take a flight",
+"m": "飞行;乘坐班机",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "take a shower",
+"m": "洗淋浴",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "take a test",
+"m": "参加测验",
+"c": "DK 词汇大全 Vocabulary Builder: 24 Studying"
+},
+{
+"w": "take away",
+"m": "取走",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out"
+},
+{
+"w": "take minutes",
+"m": "作记录",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting"
+},
+{
+"w": "take out",
+"m": "拿出, 取出, 去掉, 扣除, 发泄, 抵充, 取得, 出发",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out"
+},
+{
+"w": "talent show",
+"m": "新秀发掘演出",
+"c": "DK 词汇大全 Vocabulary Builder: 67 Media and celebrity"
+},
+{
+"w": "talented",
+"m": "a. 天资高的, 有才能的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'tælәntid/"
+},
+{
+"w": "talk",
+"m": "n. 谈话, 交谈, 会谈, 讲话, 演讲, 空谈, 谣言, 方言, 语言；vi…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/tɒ:k/"
+},
+{
+"w": "talk show",
+"m": "访谈节目",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "talkative",
+"m": "a. 喜欢说话的, 饶舌的, 多嘴的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/'tɒ:kәtiv/"
+},
+{
+"w": "tambourine",
+"m": "n. 小手鼓",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/.tæmbә'ri:n/"
+},
+{
+"w": "tan",
+"m": "n. 黄褐色, 鞣料, 马戏团；a. 黄褐色的, 鞣皮的",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/tæn/"
+},
+{
+"w": "tandem",
+"m": "adv. 一前一后地, 纵排地；a. 纵排的, 串联的",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'tændәm/"
+},
+{
+"w": "tapir",
+"m": "n. 貘",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/'teipә/"
+},
+{
+"w": "tattletale",
+"m": "n. 告密者, 搬弄是非的人",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs",
+"ipa": "/'tætlteil/"
+},
+{
+"w": "taxi driver",
+"m": "出租车司机；的士司机",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "taxi rank",
+"m": "n. 计程汽车车站, 出租汽车总称",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "taxi stand",
+"m": "(侯租的)出租车行列",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel"
+},
+{
+"w": "teacher",
+"m": "n. 教师, 老师, 导师",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/'ti:tʃә/"
+},
+{
+"w": "team player",
+"m": "n. 合作意识强的人；有团队精神的人",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "teamwork",
+"m": "n. 协同作业, 协力",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities",
+"ipa": "/'ti:mwә:k/"
+},
+{
+"w": "technophile",
+"m": "n. 技术爱好者",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future",
+"ipa": "/'teknәjfail/"
+},
+{
+"w": "technophobe",
+"m": "n. 科技产品排斥者, 技术恐惧者（指不喜欢新科技的人）",
+"c": "DK 词汇大全 Vocabulary Builder: 77 Technology and the future",
+"ipa": "/ˈteknəʊfəʊb/"
+},
+{
+"w": "teddy bear",
+"m": "n. 玩具熊",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "telltale",
+"m": "n. 搬弄是非者, 迹象, 指示器；a. 搬弄是非的, 泄露秘密的, 报警的",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs",
+"ipa": "/'telteil/"
+},
+{
+"w": "ten",
+"m": "num. 十, 十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/ten/"
+},
+{
+"w": "tennis racket",
+"m": "n. 网球拍",
+"c": "DK 词汇大全 Vocabulary Builder: 62 Sports equipment and venues"
+},
+{
+"w": "tent peg",
+"m": "帐篷桩",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling"
+},
+{
+"w": "tenth",
+"m": "num. 第十, 十分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/tenθ/"
+},
+{
+"w": "terrarium",
+"m": "n. 陆栖小动物饲养箱, 小植物裁培盒",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/te'rєәriәm/"
+},
+{
+"w": "test",
+"m": "n. 测试, 试验, 化验, 检验, 考验, 甲壳；vt. 测试, 试验, 化验",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/test/"
+},
+{
+"w": "text message",
+"m": "正文消息",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information"
+},
+{
+"w": "textbook",
+"m": "n. 教科书",
+"c": "DK 词汇大全 Vocabulary Builder: 23 Education",
+"ipa": "/'tekstbuk/"
+},
+{
+"w": "Thailand",
+"m": "n. 泰国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'tailәnd/"
+},
+{
+"w": "theater",
+"m": "n. 戏院, 电影院, 剧场, 全体观众, 戏剧, 戏剧效果, 阶梯式讲堂, 场…",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'θiәtә/"
+},
+{
+"w": "there",
+"m": "adv. 在那里",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/ðєә/"
+},
+{
+"w": "thigh",
+"m": "n. 大腿, 股",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/θai/"
+},
+{
+"w": "think",
+"m": "vt. 想, 考虑, 想起, 想像, 打算, 认为；vi. 思考, 料想",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/θiŋk/"
+},
+{
+"w": "thirteen",
+"m": "num. 十三, 十三个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'θә:'ti:n/"
+},
+{
+"w": "thirty",
+"m": "num. 三十, 三十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'θә:ti/"
+},
+{
+"w": "three",
+"m": "num. 三, 三个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/θri:/"
+},
+{
+"w": "thrilled",
+"m": "a. 非常兴奋的; 极为激动的；vt. “thrill”的过去式和过去分词",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/θrɪld/"
+},
+{
+"w": "thriller",
+"m": "n. 使人激动的东西, 使人毛骨悚然的东西, 使人毛骨悚然的小说",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'θrilә/"
+},
+{
+"w": "thrilling",
+"m": "a. 毛骨悚然的, 令人兴奋的, 令人发抖的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'θriliŋ/"
+},
+{
+"w": "throw",
+"m": "vt. 投, 掷, 抛, 发射, 摔下, 匆匆穿上(或脱下), 抛弃, 摆脱；v…",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/θrәu/"
+},
+{
+"w": "throw-in",
+"m": "n. （足球的）掷界外球",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/ˈθrəuin/"
+},
+{
+"w": "thumb",
+"m": "n. 拇指；vt. 以拇指拨弄, 笨拙地摆弄, 用拇指翻旧, 迅速翻阅, 作搭车…",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/θʌm/"
+},
+{
+"w": "thumbtack",
+"m": "n. 图钉",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/'θʌmtæk/"
+},
+{
+"w": "thundery",
+"m": "a. 将有雷的, 雷鸣般的, 情形不妙的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'θʌndәri/"
+},
+{
+"w": "ticket",
+"m": "n. 票, 券, 车票, 标签, 入场券, 证明书；vt. 加标签于, 为...…",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'tikit/"
+},
+{
+"w": "tie (clothing)",
+"m": "n. 带子, 线, 鞋带, 领带, 领结, 关系, 束缚, 平局, 不分胜负；v…",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/tai/"
+},
+{
+"w": "tie (sports result)",
+"m": "n. 带子, 线, 鞋带, 领带, 领结, 关系, 束缚, 平局, 不分胜负；v…",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer",
+"ipa": "/tai/"
+},
+{
+"w": "tight",
+"m": "a. 紧的, 密封的, 吝啬的, 严厉的；adv. 紧紧地",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/tait/"
+},
+{
+"w": "tights",
+"m": "n. 紧身衣裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/taits/"
+},
+{
+"w": "till",
+"m": "prep. 直到, 在...以前, 迄；conj. 直到...为止",
+"c": "DK 词汇大全 Vocabulary Builder: 38 Money and finance",
+"ipa": "/til/"
+},
+{
+"w": "tin opener",
+"m": "n. 开罐头刀",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "tip",
+"m": "n. 顶, 尖端, 梢, 末端, 倾斜, 垃圾场, 小费, 轻击, 指点, 秘密…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/tip/"
+},
+{
+"w": "tire",
+"m": "n. 轮胎, 头饰；vt. 使疲倦, 使厌烦, 打扮",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/taiә/"
+},
+{
+"w": "tiring",
+"m": "a. 引起疲劳的, 累人的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'taiәriŋ/"
+},
+{
+"w": "toe",
+"m": "n. 足趾, 趾部, 脚趾；vt. 以趾踏触, 用脚尖走",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/tәu/"
+},
+{
+"w": "toilet paper",
+"m": "卫生纸, 草纸",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "toiletries",
+"m": "n. 化妆用品, 梳妆用具, 化妆用具",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "tomatoes",
+"m": "n. 蕃茄（tomato的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables"
+},
+{
+"w": "tonsillitis",
+"m": "n. 扁桃腺炎",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/.tɒnsi'laitis/"
+},
+{
+"w": "tooth",
+"m": "n. 牙齿, 齿状物, 爱好；vt. 装以齿, 将...切成齿状",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/tu:θ/"
+},
+{
+"w": "toothbrush",
+"m": "n. 牙刷",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/'tu:θbrʌʃ/"
+},
+{
+"w": "torch",
+"m": "n. 火把, 启发之物",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/tɒ:tʃ/"
+},
+{
+"w": "tornado",
+"m": "n. 旋风, 龙卷风, 大雷雨",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/tɒ:'neidәu/"
+},
+{
+"w": "tortoise",
+"m": "n. 龟, 行动迟缓的人",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'tɒ:tәs/"
+},
+{
+"w": "toucan",
+"m": "n. 巨嘴鸟",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'tu:kәn/"
+},
+{
+"w": "touch wood",
+"m": "但愿走好运",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs"
+},
+{
+"w": "tour guide",
+"m": "旅游向导,导游",
+"c": "DK 词汇大全 Vocabulary Builder: 34 Jobs"
+},
+{
+"w": "tourism",
+"m": "n. 观光业, 游览",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism",
+"ipa": "/'tuәrizm/"
+},
+{
+"w": "tourist office",
+"m": "游客咨询处",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town"
+},
+{
+"w": "tourist trap",
+"m": "敲游客竹杠的旅馆",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism"
+},
+{
+"w": "town",
+"m": "n. 城镇, 市, 镇",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town",
+"ipa": "/taun/"
+},
+{
+"w": "town hall",
+"m": "市政厅",
+"c": "DK 词汇大全 Vocabulary Builder: 72 Around town"
+},
+{
+"w": "traffic lights",
+"m": "红绿灯",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "tragedy",
+"m": "n. 悲剧, 惨案, 悲剧作品",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'trædʒidi/"
+},
+{
+"w": "train set",
+"m": "一套玩具火车",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys"
+},
+{
+"w": "trainers",
+"m": "n. 训练员；运动鞋",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products"
+},
+{
+"w": "translation",
+"m": "n. 翻译, 译文, 转化, 调任, 平移, 转译",
+"c": "DK 词汇大全 Vocabulary Builder: 25 Speaking a foreign language",
+"ipa": "/træns'leiʃәn/"
+},
+{
+"w": "trash",
+"m": "n. 垃圾, 废物；vt. 丢弃",
+"c": "DK 词汇大全 Vocabulary Builder: 07 Sharing information",
+"ipa": "/træʃ/"
+},
+{
+"w": "trash can",
+"m": "垃圾桶",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house"
+},
+{
+"w": "travel",
+"m": "n. 旅行, 游历, 行进；vi. 旅行, 行进, 移动, 被传播",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/'trævl/"
+},
+{
+"w": "trays",
+"m": "n. 盘子( tray的名词复数 ); 托盘; 文件盘; （各种用途的）浅塑料盒",
+"c": "DK 词汇大全 Vocabulary Builder: 37 Office equipment",
+"ipa": "/t'reɪz/"
+},
+{
+"w": "treadmill",
+"m": "n. 踏车, 令人厌倦的工作",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/'tredmil/"
+},
+{
+"w": "triplets",
+"m": "n. 三胞胎；一窝三子",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree"
+},
+{
+"w": "trombone",
+"m": "n. 长号",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'trɒmbәun/"
+},
+{
+"w": "trousers",
+"m": "pl. 裤子, 长裤",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'trauzәz/"
+},
+{
+"w": "trout",
+"m": "n. 鲑鱼",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/traut/"
+},
+{
+"w": "trowel",
+"m": "n. 泥铲, 泥刀；vt. 用泥铲涂",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'trauәl/"
+},
+{
+"w": "truck",
+"m": "n. 卡车, 货车, 对...进行交易, 来往, 实物工资, (供应市场的)蔬菜…",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/trʌk/"
+},
+{
+"w": "trumpet",
+"m": "n. 喇叭, 小号, 喇叭声；vi. 吹喇叭",
+"c": "DK 词汇大全 Vocabulary Builder: 64 Music",
+"ipa": "/'trʌmpit/"
+},
+{
+"w": "trunk",
+"m": "n. 树干, 干线, 躯干, 主干, 象鼻, 箱子；vt. 把...放入旅行箱内",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/trʌŋk/"
+},
+{
+"w": "tumble dryer",
+"m": "n. 转筒式干燥机",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "turkey",
+"m": "n. 火鸡, 无用的家伙, 土耳其",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals",
+"ipa": "/'tә:ki/"
+},
+{
+"w": "Turkish",
+"m": "n. 土耳其语；a. 土耳其的, 土耳其人的, 土耳其语的",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/'tә:kiʃ/"
+},
+{
+"w": "turn off",
+"m": "关掉, 卖掉, 使转变方向, 解雇, 生产, 制造, 车削成, 使厌烦, 拐弯,…",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "turn on",
+"m": "开, 开始, 变得兴奋, 突然显出",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "turn signal",
+"m": "n. 转弯指示灯, （车辆的）方向灯",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "turtle",
+"m": "n. 海龟",
+"c": "DK 词汇大全 Vocabulary Builder: 57 Fish, whales, and sea creatures",
+"ipa": "/'tә:tl/"
+},
+{
+"w": "tusk",
+"m": "n. 长牙, 獠牙, 尖物；vt. 以长牙刺戳, 以长牙掘",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/tʌsk/"
+},
+{
+"w": "TV guide",
+"m": "电视指南（美国知名的电视类刊物）",
+"c": "DK 词汇大全 Vocabulary Builder: 63 Books and reading"
+},
+{
+"w": "TV set",
+"m": "电视机",
+"c": "DK 词汇大全 Vocabulary Builder: 66 Tv"
+},
+{
+"w": "tweezers",
+"m": "n. 镊子",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'twi:zәz/"
+},
+{
+"w": "twelfth",
+"m": "num. 第十二, 十二分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/twelfθ/"
+},
+{
+"w": "twelve",
+"m": "num. 十二, 十二个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/twelv/"
+},
+{
+"w": "twentieth",
+"m": "num. 第二十, 二十分之一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'twentiiθ/"
+},
+{
+"w": "twenty",
+"m": "num. 二十, 二十个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/'twenti/"
+},
+{
+"w": "twenty-first",
+"m": "第二十一",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/ˈtwenti: fə:st/"
+},
+{
+"w": "twenty-one",
+"m": "num. 二十一, 二十一个；n. 二十一, 二十一个, 二十一点牌戏",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "twenty-two",
+"m": "二十二",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/ˌtwentɪ'tu:/"
+},
+{
+"w": "two",
+"m": "num. 二, 二个",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers",
+"ipa": "/tu:/"
+},
+{
+"w": "two hundred",
+"m": "二百",
+"c": "DK 词汇大全 Vocabulary Builder: 02 Numbers"
+},
+{
+"w": "two weeks",
+"m": "两周；两星期",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions"
+},
+{
+"w": "tyre",
+"m": "n. 轮胎；vt. 装轮胎于",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/'taiә/"
+},
+{
+"w": "UAE",
+"m": "阿拉伯联合酋长国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "ugly",
+"m": "a. 丑陋的, 邪恶的, 险恶的, 不祥的；n. 丑陋的人(或物)",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'ʌgli/"
+},
+{
+"w": "unapproachable",
+"m": "a. 不易接近的, 不可亲的, 无与伦比的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.ʌnә'prәutʃәbl/"
+},
+{
+"w": "understand",
+"m": "vt. 理解, 了解, 领会, 听说, 懂；vi. 懂得, 认为",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/.ʌndә'stænd/"
+},
+{
+"w": "undo",
+"m": "vt. 解开, 取消, 破坏, 毁灭, 扰乱；vi. 松开",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/.ʌn'du:/"
+},
+{
+"w": "unenthusiastic",
+"m": "a. 不热心的, 缺乏热情的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/ʌnɪn'θjʊzɪ'æstɪk/"
+},
+{
+"w": "unfasten",
+"m": "vt. 解开, 放松",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/.ʌn'fɑ:sn/"
+},
+{
+"w": "unfriendly",
+"m": "adv. 不友善地",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.ʌn'frendli/"
+},
+{
+"w": "unhappy",
+"m": "a. 不快乐的, 不幸的, 不适当的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/.ʌn'hæpi/"
+},
+{
+"w": "unicycle",
+"m": "n. 单轮脚踏车",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/'ju:nisaikl/"
+},
+{
+"w": "unimpressed",
+"m": "a. 无印记的, 没有印象的, 未受感动的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'ʌnim'prest/"
+},
+{
+"w": "United Arab Emirates",
+"m": "阿拉伯联合酋长国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "United Kingdom",
+"m": "n. 联合王国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "United States of America",
+"m": "美国, 美利坚合众国",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities"
+},
+{
+"w": "unkind",
+"m": "a. 不仁慈的, 不亲切的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.ʌn'kaind/"
+},
+{
+"w": "unpack",
+"m": "vt. 从包裹中取出, 卸下, 打开；vi. 打开包裹",
+"c": "DK 词汇大全 Vocabulary Builder: 13 Moving and renting",
+"ipa": "/.ʌn'pæk/"
+},
+{
+"w": "unpleasant",
+"m": "a. 使人不愉快的, 使人厌恶的, 煞风景的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/.ʌn'pleznt/"
+},
+{
+"w": "unreasonable",
+"m": "a. 不合理的, 过度的, 不切实际的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.ʌn'ri:znәbl/"
+},
+{
+"w": "unreliable",
+"m": "a. 不可靠的",
+"c": "DK 词汇大全 Vocabulary Builder: 18 Personality traits",
+"ipa": "/.ʌnri'laiәbl/"
+},
+{
+"w": "unsaturated fat",
+"m": "[医]不饱和脂肪",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating"
+},
+{
+"w": "unspoiled",
+"m": "a. 未损坏的；未宠坏的",
+"c": "DK 词汇大全 Vocabulary Builder: 48 Travel and tourism",
+"ipa": "/ʌn'spɔild/"
+},
+{
+"w": "up",
+"m": "a. 向上的, 起床的, 涨的；adv. 向上, 上涨",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/ʌp/"
+},
+{
+"w": "upmarket",
+"m": "a. 高级的, 高档的, 高端的",
+"c": "DK 词汇大全 Vocabulary Builder: 74 At the supermarket",
+"ipa": "/ˌʌpˈmɑ:kɪt/"
+},
+{
+"w": "urban myth",
+"m": "n. 城市神话（很多人相信但实际上并不真实的离奇故事）",
+"c": "DK 词汇大全 Vocabulary Builder: 26 Communication and beliefs"
+},
+{
+"w": "US",
+"m": "pron. 我们",
+"c": "DK 词汇大全 Vocabulary Builder: 01 Countries and nationalities",
+"ipa": "/ʌs/"
+},
+{
+"w": "USB drive",
+"m": "随身碟；U（优）盘",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets"
+},
+{
+"w": "useful",
+"m": "a. 有用的, 有益的",
+"c": "DK 词汇大全 Vocabulary Builder: 06 Describing things: opinions",
+"ipa": "/'ju:sful/"
+},
+{
+"w": "usher",
+"m": "n. 引座员, 招待员；vt. 引导, 招待",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'ʌʃә/"
+},
+{
+"w": "usually",
+"m": "adv. 通常, 大抵",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'ju:ʒuәli/"
+},
+{
+"w": "vacation",
+"m": "n. 假期, 休假",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/vei'keiʃәn/"
+},
+{
+"w": "vacuum cleaner",
+"m": "真空吸尘器",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "van",
+"m": "n. 货车, 篷车, 先锋, 前驱, 前卫；vt. 用货车搬运",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/væn/"
+},
+{
+"w": "vegan",
+"m": "n. 严格的素食主义者",
+"c": "DK 词汇大全 Vocabulary Builder: 70 Healthy eating",
+"ipa": "/'vegәn/"
+},
+{
+"w": "vice",
+"m": "n. 恶习, 恶行, 罪恶, 堕落, 缺陷, 恶癖, 老虎钳；vt. 钳住",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/vais/"
+},
+{
+"w": "villa",
+"m": "n. 别墅",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation",
+"ipa": "/'vilә/"
+},
+{
+"w": "villain",
+"m": "n. 坏人, 恶棍",
+"c": "DK 词汇大全 Vocabulary Builder: 65 Movies and plays",
+"ipa": "/'vilәn/"
+},
+{
+"w": "vinegar",
+"m": "n. 醋, 尖酸刻薄；vt. 加醋于",
+"c": "DK 词汇大全 Vocabulary Builder: 31 Bread, desserts, and condiments",
+"ipa": "/'vinigә/"
+},
+{
+"w": "volleyball",
+"m": "n. 排球",
+"c": "DK 词汇大全 Vocabulary Builder: 60 Sports",
+"ipa": "/'vɒlibɒ:l/"
+},
+{
+"w": "vulture",
+"m": "n. 秃鹫, 贪婪的人",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'vʌltʃә/"
+},
+{
+"w": "wages",
+"m": "n. 工资, 报酬, 薪金, 工钱, 报应, 报答, 年产额",
+"c": "DK 词汇大全 Vocabulary Builder: 35 Working conditions"
+},
+{
+"w": "waist",
+"m": "n. 腰部, 腰",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/weist/"
+},
+{
+"w": "waiting room",
+"m": "候车室, 等候室",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment"
+},
+{
+"w": "wallet",
+"m": "n. 皮夹",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/'wɒlit/"
+},
+{
+"w": "walnut",
+"m": "n. 胡桃",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'wɒ:lnәt/"
+},
+{
+"w": "want",
+"m": "n. 需要的东西, 缺乏, 贫困, 需要；vt. 要, 希望, 应该, 缺少",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping",
+"ipa": "/wɒnt/"
+},
+{
+"w": "warm up",
+"m": "热身, 重新煮热, 变暖",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "washing line",
+"m": "n. 晾衣绳",
+"c": "DK 词汇大全 Vocabulary Builder: 11 Chores and cleaning"
+},
+{
+"w": "wasp",
+"m": "n. 黄蜂, 胡蜂, 易怒的人, 刻毒的人",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/wɒsp/"
+},
+{
+"w": "watch",
+"m": "n. 观察, 手表, 看守, 守护, 监视, 值班人；vt. 看, 注视, 照顾…",
+"c": "DK 词汇大全 Vocabulary Builder: 16 Accessories and beauty products",
+"ipa": "/wɒtʃ/"
+},
+{
+"w": "watch television",
+"m": "看电视",
+"c": "DK 词汇大全 Vocabulary Builder: 04 Daily routines"
+},
+{
+"w": "watermelon",
+"m": "n. 西瓜",
+"c": "DK 词汇大全 Vocabulary Builder: 29 Fruit and nuts",
+"ipa": "/'wɒtә.melәn/"
+},
+{
+"w": "waterproofs",
+"m": "n. 防水衣物, 雨衣 usually plural( waterproof的名…",
+"c": "DK 词汇大全 Vocabulary Builder: 49 Camping and cycling",
+"ipa": "/ˈwɔ:təpru:fs/"
+},
+{
+"w": "wave (gesture)",
+"m": "n. 波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变；v…",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/weiv/"
+},
+{
+"w": "wave (water)",
+"m": "n. 波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变；v…",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/weiv/"
+},
+{
+"w": "weeding",
+"m": "n. 除草；除杂草",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening"
+},
+{
+"w": "week",
+"m": "n. 星期, 周",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/wi:k/"
+},
+{
+"w": "weekly",
+"m": "n. 周刊, 周报；a. 每周的, 一周一次的, 周刊的",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/'wi:kli/"
+},
+{
+"w": "weights",
+"m": "n. 重量；砝码（weight的复数）",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being"
+},
+{
+"w": "well-being",
+"m": "a. 安宁的, 康乐的",
+"c": "DK 词汇大全 Vocabulary Builder: 71 Fitness and well-being",
+"ipa": "/'welbiiŋ/"
+},
+{
+"w": "wet suit",
+"m": "n. 紧身潜水衣",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach"
+},
+{
+"w": "wheel",
+"m": "n. 轮子, 车轮, 轮, 方向盘, 旋转, 机构, 重要人物；vt. 使旋转,…",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/hwi:l/"
+},
+{
+"w": "wheel clamp",
+"m": "v. 用轮夹锁住；n. （用以锁住非法停靠车辆的）车轮固定夹, 轮夹",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car"
+},
+{
+"w": "wheelbarrow",
+"m": "n. 手推车, 独轮车",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'hwi:l.bærәu/"
+},
+{
+"w": "whisk (action)",
+"m": "n. 掸, 扫帚, 毛掸子, 搅拌器, 拂；vt. 扫, 拂, 挥动, 迅速移动…",
+"c": "DK 词汇大全 Vocabulary Builder: 33 Eating in and eating out",
+"ipa": "/hwisk/"
+},
+{
+"w": "whisk (equipment)",
+"m": "n. 掸, 扫帚, 毛掸子, 搅拌器, 拂；vt. 扫, 拂, 挥动, 迅速移动…",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/hwisk/"
+},
+{
+"w": "whiskers",
+"m": "n. 腮须, 胡须",
+"c": "DK 词汇大全 Vocabulary Builder: 54 Pets and farm animals"
+},
+{
+"w": "whisper",
+"m": "n. 耳语, 密谈, 谣传, 沙沙声；vi. 耳语, 密谈, 沙沙地响",
+"c": "DK 词汇大全 Vocabulary Builder: 59 Abilities and actions",
+"ipa": "/'hwispә/"
+},
+{
+"w": "widow",
+"m": "n. 寡妇, 孀妇；vt. 使成寡妇",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'widәu/"
+},
+{
+"w": "widower",
+"m": "n. 鳏夫",
+"c": "DK 词汇大全 Vocabulary Builder: 20 Family tree",
+"ipa": "/'widәuә/"
+},
+{
+"w": "Wi-Fi",
+"m": "abbr. Wireless Fidelity 基于IEEE 802.11b标准…",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/ˈwaɪ faɪ/"
+},
+{
+"w": "wind farm",
+"m": "风力田",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns"
+},
+{
+"w": "wind power",
+"m": "风力,风能",
+"c": "DK 词汇大全 Vocabulary Builder: 53 Environmental concerns"
+},
+{
+"w": "windbreak",
+"m": "n. 防风林, 防风物",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/'windbreik/"
+},
+{
+"w": "window seat",
+"m": "n. （窗槛下的）窗座, 靠窗座位",
+"c": "DK 词汇大全 Vocabulary Builder: 47 Travel and accommodation"
+},
+{
+"w": "window shopping",
+"m": "随便看看、看而不买",
+"c": "DK 词汇大全 Vocabulary Builder: 73 Shopping"
+},
+{
+"w": "windsurfing",
+"m": "n. [体]帆板运动",
+"c": "DK 词汇大全 Vocabulary Builder: 50 Beach",
+"ipa": "/'wind.sә:fiŋ/"
+},
+{
+"w": "windy",
+"m": "a. 多风的, 风强的, 腹胀的, 吹牛的",
+"c": "DK 词汇大全 Vocabulary Builder: 51 Weather and climate",
+"ipa": "/'windi/"
+},
+{
+"w": "wing (bird)",
+"m": "n. 翅膀, 翼, 机翼, 派别；vt. 给...装上翼, 飞过, 使飞, 空运…",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/wiŋ/"
+},
+{
+"w": "wink",
+"m": "n. 眨眼, 使眼色, 瞬间；vi. 眨眼, 使眼色, 闪烁",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/wiŋk/"
+},
+{
+"w": "wipers",
+"m": "n. 擦拭者( wiper的复数形式 ); 手帕; 雨刷; 接帚",
+"c": "DK 词汇大全 Vocabulary Builder: 45 Driving a car",
+"ipa": "/ˈwaipəz/"
+},
+{
+"w": "wireless",
+"m": "n. 无线电；a. 无线的, 无线电的",
+"c": "DK 词汇大全 Vocabulary Builder: 76 Technology and gadgets",
+"ipa": "/'waiәlis/"
+},
+{
+"w": "witness",
+"m": "n. 证人, 目击者, 证据, 证词；vt. 目击, 作证, 证明, 表明",
+"c": "DK 词汇大全 Vocabulary Builder: 27 Crime and the law",
+"ipa": "/'witnis/"
+},
+{
+"w": "wok",
+"m": "n. 锅（源自广东话）；炒菜锅",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries",
+"ipa": "/wɔk/"
+},
+{
+"w": "wood (landscape)",
+"m": "n. 木材, 木制品；vt. 植林于, 给...添加木柴",
+"c": "DK 词汇大全 Vocabulary Builder: 52 Geographical features",
+"ipa": "/wud/"
+},
+{
+"w": "wood (material)",
+"m": "n. 木材, 木制品；vt. 植林于, 给...添加木柴",
+"c": "DK 词汇大全 Vocabulary Builder: 05 Describing things: facts",
+"ipa": "/wud/"
+},
+{
+"w": "wooden spoon",
+"m": "末名奖, 木匙",
+"c": "DK 词汇大全 Vocabulary Builder: 10 Kitchen implements and toiletries"
+},
+{
+"w": "woodpecker",
+"m": "n. 啄木鸟",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/'wudpekә/"
+},
+{
+"w": "woolen",
+"m": "n. 毛制品；a. 羊毛的, 羊毛制的, 毛织的",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/'wulin/"
+},
+{
+"w": "working",
+"m": "n. 工作, 运转, 劳动；a. 工作的, 劳动的, 经营的, 抽搐的, 运转的",
+"c": "DK 词汇大全 Vocabulary Builder: 39 Working",
+"ipa": "/'wә:kiŋ/"
+},
+{
+"w": "workplace",
+"m": "n. 工作场所, 工厂, 车间",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "worm",
+"m": "n. 虫, 蠕虫, 小人物, 螺纹, 蜗杆；vi. 蠕行, 慢慢前进",
+"c": "DK 词汇大全 Vocabulary Builder: 56 Birds and bugs",
+"ipa": "/wә:m/"
+},
+{
+"w": "worried",
+"m": "a. 担心的, 闷闷不乐的",
+"c": "DK 词汇大全 Vocabulary Builder: 19 Feelings and moods",
+"ipa": "/'wʌrid/"
+},
+{
+"w": "wound",
+"m": "n. 创伤, 伤口, 伤疤, 伤害, 痛苦；vt. 伤害, 损害, 使受伤",
+"c": "DK 词汇大全 Vocabulary Builder: 68 Sickness",
+"ipa": "/wu:nd/"
+},
+{
+"w": "wrap (sandwich)",
+"m": "n. 外套, 围巾, 包裹物, 限制, 约束, 秘密, 换行；vt. 包装, 卷…",
+"c": "DK 词汇大全 Vocabulary Builder: 28 Meat, fish, dairy, and snacks",
+"ipa": "/ræp/"
+},
+{
+"w": "wrap up",
+"m": "掩饰, 伪装, 围好围巾, 包起来",
+"c": "DK 词汇大全 Vocabulary Builder: 40 Meeting and presenting"
+},
+{
+"w": "wrench",
+"m": "n. 扳钳, 扳手, 扭伤, 歪曲, 痛苦；vt. 猛扭, 扭伤, 曲解, 折磨",
+"c": "DK 词汇大全 Vocabulary Builder: 12 Tools and gardening",
+"ipa": "/'rentʃ/"
+},
+{
+"w": "wrinkles",
+"m": "n. 皱纹；皱褶（wrinkle的复数形式）",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance"
+},
+{
+"w": "write",
+"m": "vt. 书写, 著述, 写, 写满, 写信给；vi. 写, 写字, 写信, 写作…",
+"c": "DK 词汇大全 Vocabulary Builder: 58 Free time activities",
+"ipa": "/rait/"
+},
+{
+"w": "written communication",
+"m": "un. 书面通信；书面交流",
+"c": "DK 词汇大全 Vocabulary Builder: 43 Workplace skills and abilities"
+},
+{
+"w": "X-ray",
+"m": "a. X射线的；vt. 用X光检查, 照X光",
+"c": "DK 词汇大全 Vocabulary Builder: 69 Medicine and treatment",
+"ipa": "/'eks'rei/"
+},
+{
+"w": "yacht",
+"m": "n. 快艇, 游艇；vi. 驾游艇, 乘游艇",
+"c": "DK 词汇大全 Vocabulary Builder: 44 Transportation and travel",
+"ipa": "/jɒt/"
+},
+{
+"w": "yak",
+"m": "n. 牦牛, 饶舌, 连篇废话；vi. 饶舌, 喋喋不休, 放声大笑",
+"c": "DK 词汇大全 Vocabulary Builder: 55 Wild animals",
+"ipa": "/jæk/"
+},
+{
+"w": "yard (garden)",
+"m": "n. 码, 庭院, 工场",
+"c": "DK 词汇大全 Vocabulary Builder: 09 Around the house",
+"ipa": "/jɑ:d/"
+},
+{
+"w": "yard (measurement)",
+"m": "n. 码, 庭院, 工场",
+"c": "DK 词汇大全 Vocabulary Builder: 46 Maps and directions",
+"ipa": "/jɑ:d/"
+},
+{
+"w": "yawn",
+"m": "n. 哈欠；vi. 打哈欠, 裂开",
+"c": "DK 词汇大全 Vocabulary Builder: 14 The body",
+"ipa": "/jɒ:n/"
+},
+{
+"w": "year",
+"m": "n. 年, 年度, 年龄",
+"c": "DK 词汇大全 Vocabulary Builder: 03 Time expressions",
+"ipa": "/jiә/"
+},
+{
+"w": "yellow card",
+"m": "n. （足球）黄牌",
+"c": "DK 词汇大全 Vocabulary Builder: 61 Soccer"
+},
+{
+"w": "young",
+"m": "a. 年轻的, 无经验的, 朝气蓬勃的；n. 青年们, 幼小动物, 崽",
+"c": "DK 词汇大全 Vocabulary Builder: 17 Appearance",
+"ipa": "/jʌŋ/"
+},
+{
+"w": "yo-yo",
+"m": "n. 溜溜球",
+"c": "DK 词汇大全 Vocabulary Builder: 22 Baby equipment and toys",
+"ipa": "/'jәu,jәu/"
+},
+{
+"w": "zip",
+"m": "n. 尖啸声, 拉链, 活力；vt. 给...以速度, 使增加活力, 拉(拉链)",
+"c": "DK 词汇大全 Vocabulary Builder: 15 Clothes",
+"ipa": "/zip/"
+},
+{
+"w": "zucchini",
+"m": "n. 绿皮密生西葫芦",
+"c": "DK 词汇大全 Vocabulary Builder: 30 Vegetables",
+"ipa": "/zu:'ki:ni/"
+},
+{
+"w": "outer space",
+"m": "n. 太空, 外层空间",
+"c": "1000 Words: Nature 自然: Our planet"
+},
+{
+"w": "rock",
+"m": "n. 岩石, 岩礁, 石头, 基石, 暗礁, 摇动, 摇滚乐；vt. 摇摆, 摇…",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/rɒk/"
+},
+{
+"w": "meteor",
+"m": "n. 流星, 大气现象",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'mi:tiә/"
+},
+{
+"w": "inner",
+"m": "a. 内部的, 内心的；n. 内部",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'inә/"
+},
+{
+"w": "pterosaur",
+"m": "n. 翼手龙",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'terәsɒ:/"
+},
+{
+"w": "ichthyosaur",
+"m": "n. 鱼龙",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'ikθiәsɒ:/"
+},
+{
+"w": "mammoth",
+"m": "n. 猛犸, 庞然大物；a. 猛犸似的, 巨大的",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'mæmәθ/"
+},
+{
+"w": "away",
+"m": "adv. 离去",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/ә'wei/"
+},
+{
+"w": "wasteful",
+"m": "a. 浪费的, 不经济的",
+"c": "1000 Words: Nature 自然: Our planet",
+"ipa": "/'weistful/"
+},
+{
+"w": "mend",
+"m": "n. 改进, 修补, 好转；vt. 修改, 改进, 加快, 修理",
+"c": "1000 Words: Nature 自然: Helping our world",
+"ipa": "/mend/"
+},
+{
+"w": "reuse",
+"m": "vt. 再使用；n. 重新使用",
+"c": "1000 Words: Nature 自然: Helping our world",
+"ipa": "/ri:'ju:z/"
+},
+{
+"w": "insulate",
+"m": "vt. 使绝缘, 隔离",
+"c": "1000 Words: Nature 自然: Helping our world",
+"ipa": "/'insjuleit/"
+},
+{
+"w": "turbine",
+"m": "n. 涡轮机",
+"c": "1000 Words: Nature 自然: Helping our world",
+"ipa": "/'tә:bain/"
+},
+{
+"w": "ground",
+"m": "n. 土地, 战场, 场地, 地面, 范围；a. 土地的, 地面上的",
+"c": "1000 Words: Nature 自然: Helping our world",
+"ipa": "/graund/"
+},
+{
+"w": "water butt",
+"m": "n. 集雨桶, 大水桶",
+"c": "1000 Words: Nature 自然: Helping our world"
+},
+{
+"w": "compostable",
+"m": "a. compost（混合物）的变形",
+"c": "1000 Words: Nature 自然: Helping our world"
+},
+{
+"w": "tractor",
+"m": "n. 牵引器, 拖拉机, 拉纸器",
+"c": "1000 Words: Nature 自然: Humans and nature",
+"ipa": "/'træktә/"
+},
+{
+"w": "goats",
+"m": "n. 山羊（goat的复数形式）",
+"c": "1000 Words: Nature 自然: Humans and nature"
+},
+{
+"w": "geese",
+"m": "n. 鹅, 鹅肉, 呆头鹅, 傻瓜",
+"c": "1000 Words: Nature 自然: Humans and nature",
+"ipa": "/^i:s/"
+},
+{
+"w": "chickens",
+"m": "n. 鸡( chicken的复数形式 ); 鸡肉",
+"c": "1000 Words: Nature 自然: Humans and nature",
+"ipa": "/ˈtʃikinz/"
+},
+{
+"w": "pigs",
+"m": "n. 猪（pig的复数）",
+"c": "1000 Words: Nature 自然: Humans and nature"
+},
+{
+"w": "kitten",
+"m": "n. 小猫, 淘气姑娘；vt. 产仔, 卖弄风情",
+"c": "1000 Words: Nature 自然: Humans and nature",
+"ipa": "/'kitn/"
+},
+{
+"w": "goldfish",
+"m": "n. 金鱼",
+"c": "1000 Words: Nature 自然: Humans and nature",
+"ipa": "/'gәuldfiʃ/"
+},
+{
+"w": "fish farm",
+"m": "养鱼场",
+"c": "1000 Words: Nature 自然: More types of farming"
+},
+{
+"w": "beekeeping",
+"m": "n. 养蜂",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/'bi:,ki:piŋ/"
+},
+{
+"w": "vineyard",
+"m": "n. 葡萄园",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/'vinjәd/"
+},
+{
+"w": "beehives",
+"m": "n. 蜂窝( beehive的复数形式 ); 蜂巢; 蜂箱; 拥挤的地方",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/ˈbi:ˌhaɪvz/"
+},
+{
+"w": "ostriches",
+"m": "n. 鸵鸟( ostrich的复数形式 ); 逃避现实的人, 不愿正视现实者",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/ˈɔstrɪtʃiz/"
+},
+{
+"w": "snails",
+"m": "n. 腹足类；蜗牛",
+"c": "1000 Words: Nature 自然: More types of farming"
+},
+{
+"w": "sheepdog",
+"m": "n. 牧羊狗",
+"c": "1000 Words: Nature 自然: More types of farming"
+},
+{
+"w": "guide dog",
+"m": "导盲狗,盲人引路犬",
+"c": "1000 Words: Nature 自然: More types of farming"
+},
+{
+"w": "limestone",
+"m": "n. 石灰石",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/'laimstәun/"
+},
+{
+"w": "quarry",
+"m": "n. 采石场, 方形石, 猎物, 被追求物, 来源；vt. 挖出, 努力挖掘",
+"c": "1000 Words: Nature 自然: More types of farming",
+"ipa": "/'kwɒri/"
+},
+{
+"w": "nature trail",
+"m": "n. 通往自然景观的小径",
+"c": "1000 Words: Nature 自然: Nature"
+},
+{
+"w": "a den",
+"m": "n. 兽穴, 洞穴",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/den/"
+},
+{
+"w": "spotting",
+"m": "n. 测定点位；合模",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/'spɔtiŋ/"
+},
+{
+"w": "rubbing",
+"m": "n. 摩擦, 研磨, 摹拓",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/'rʌbiŋ/"
+},
+{
+"w": "binoculars",
+"m": "n. 双目镜, 双筒镜",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/bi'nɒkjulәs/"
+},
+{
+"w": "tree",
+"m": "n. 树, 木料, 树状物；vt. 把...赶上树",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/tri:/"
+},
+{
+"w": "hugging",
+"m": "v. 热烈地拥抱, 抱住, 紧抱( hug的现在分词 ); 紧靠…走; 抱有, …",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/hʌɡɪŋ/"
+},
+{
+"w": "collecting",
+"m": "v. 收集( collect的现在分词 ); 收到; 收藏; 聚积",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/kəˈlektɪŋ/"
+},
+{
+"w": "a map",
+"m": "n. 地图, 天体图, 映像；vt. 映射, 绘制...地图, 计划",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/mæp/"
+},
+{
+"w": "binning",
+"m": "装箱, 进仓",
+"c": "1000 Words: Nature 自然: Nature",
+"ipa": "/'biniŋ/"
+},
+{
+"w": "blue sky",
+"m": "蓝天；彼苍",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "sun hat",
+"m": "n. 阔边防晒草帽, 阔边遮阳帽",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "thunderstorm",
+"m": "n. 雷暴雨",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'θʌndәstɒ:m/"
+},
+{
+"w": "icicles",
+"m": "n. 冰柱( icicle的复数形式 ); 树挂; 银笋",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'aɪsɪklz/"
+},
+{
+"w": "drizzle",
+"m": "n. 细雨；v. 下毛毛雨",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'drizl/"
+},
+{
+"w": "hail",
+"m": "n. 冰雹, 致敬, 欢呼, 招呼；vt. 向...欢呼, 致敬, 招呼, 使象…",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/heil/"
+},
+{
+"w": "snowflakes",
+"m": "n. 雪花, 雪片( snowflake的复数形式 )",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'snəʊfleɪks/"
+},
+{
+"w": "puddles",
+"m": "n. 水坑, （尤指道路上的）雨水坑( puddle的名词复数 )",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/ˈpʌdlz/"
+},
+{
+"w": "frozen",
+"m": "a. 冻结的, 冰冷的, 严寒的, 冻伤的, 冷酷的；freeze的过去分词",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'frәuzn/"
+},
+{
+"w": "cumulus",
+"m": "n. 积云, 堆积物",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'kju:mjulәs/"
+},
+{
+"w": "dry season",
+"m": "干季，旱季，枯水季",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "wet season",
+"m": "雨季",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "cyclone",
+"m": "n. 龙卷风, 暴风",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'saiklәun/"
+},
+{
+"w": "hailstorm",
+"m": "n. 雹暴",
+"c": "1000 Words: Nature 自然: Weather",
+"ipa": "/'heilstɒ:m/"
+},
+{
+"w": "ice storm",
+"m": "n. 冰暴",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "active volcano",
+"m": "活火山",
+"c": "1000 Words: Nature 自然: Weather"
+},
+{
+"w": "living things",
+"m": "生物",
+"c": "1000 Words: Nature 自然: Kingdoms of"
+},
+{
+"w": "oysters",
+"m": "n. 牡蛎, 蚝（oyster的复数形式）",
+"c": "1000 Words: Nature 自然: Kingdoms of"
+},
+{
+"w": "woodlouse",
+"m": "n. 土鳖, 土鳖虫",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/ˈwʊdlaʊs/"
+},
+{
+"w": "mould",
+"m": "n. 模子, 模制品, 松软沃土, 霉；vt. 形成, 浇铸, 用泥土覆盖",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/mәuld/"
+},
+{
+"w": "apple tree",
+"m": "苹果树",
+"c": "1000 Words: Nature 自然: Kingdoms of"
+},
+{
+"w": "algae",
+"m": "pl. 藻类, 海藻",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/'ælgi:/"
+},
+{
+"w": "protozoan",
+"m": "n. 原生动物",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/.prәutәu'zәuәn/"
+},
+{
+"w": "conifer",
+"m": "n. 松柏目植物, 针叶树",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/'kɒnifә/"
+},
+{
+"w": "tick",
+"m": "n. 滴答声, 一瞬间, 壁虱, 褥套, 信用, 赊欠；vi. 滴答响, 活动",
+"c": "1000 Words: Nature 自然: Kingdoms of",
+"ipa": "/tik/"
+},
+{
+"w": "liverworts",
+"m": "(liverwort 的复数) n. 叶苔",
+"c": "1000 Words: Nature 自然: Kingdoms of"
+},
+{
+"w": "human",
+"m": "n. 人, 人类；a. 人类的, 似人类的, 人性的, 有同情心的",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/'hju:mәn/"
+},
+{
+"w": "robin",
+"m": "n. 旅鸫",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/'rɒbin/"
+},
+{
+"w": "newt",
+"m": "n. 水螈",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/nju:t/"
+},
+{
+"w": "clownfish",
+"m": "n. 小丑鱼；海葵鱼",
+"c": "1000 Words: Nature 自然: Animals"
+},
+{
+"w": "millipede",
+"m": "n. 千足虫",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/'milәpid/"
+},
+{
+"w": "centipede",
+"m": "n. 百脚",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/'sentipi:d/"
+},
+{
+"w": "leech",
+"m": "n. 水蛭, 吸血鬼, 榨取他人利益的人；vt. 以水蛭吸血",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/li:tʃ/"
+},
+{
+"w": "earthworm",
+"m": "n. 蚯蚓",
+"c": "1000 Words: Nature 自然: Animals",
+"ipa": "/'ә:θwә:m/"
+},
+{
+"w": "hydrangea",
+"m": "n. 八仙花属植物",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/hai'dreindʒә/"
+},
+{
+"w": "boxwood",
+"m": "n. 黄杨木材, 黄杨木",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/'bɒkswud/"
+},
+{
+"w": "hibiscus",
+"m": "n. 木槿",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/hai'biskәs/"
+},
+{
+"w": "orchid",
+"m": "n. 兰花, 淡紫色",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/'ɒ:kid/"
+},
+{
+"w": "petal",
+"m": "n. 花瓣",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/'petәl/"
+},
+{
+"w": "flytrap",
+"m": "n. 捕蝇器, 捕蝇草",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/'flaitræp/"
+},
+{
+"w": "air plant",
+"m": "压缩空气装置",
+"c": "1000 Words: Nature 自然: All sorts of plants"
+},
+{
+"w": "bud",
+"m": "n. 芽, 花蕾；vi. 发芽, 萌芽",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/bʌd/"
+},
+{
+"w": "leaf",
+"m": "n. 叶, 树叶, 花瓣, 页；vi. 生叶, 翻书页",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/li:f/"
+},
+{
+"w": "stalk",
+"m": "n. 茎, 追踪, 高视阔步；vi. 悄悄靠近, 蹑手蹑脚地走近, 蔓延, 高视…",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/stɒ:k/"
+},
+{
+"w": "thorn",
+"m": "n. 刺, 棘, 荆棘",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/θɒ:n/"
+},
+{
+"w": "daffodils",
+"m": "n. 黄水仙, （黄）水仙花( daffodil的复数形式 )",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/ˈdæfədɪlz/"
+},
+{
+"w": "tulips",
+"m": "n. 郁金香( tulip的复数形式 )",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/t'ju:lɪps/"
+},
+{
+"w": "baobab",
+"m": "n. 猴面包树",
+"c": "1000 Words: Nature 自然: All sorts of plants",
+"ipa": "/'beiәubæb/"
+},
+{
+"w": "golden",
+"m": "a. 金的, 含金的, 金色的, 贵重的, 繁盛的",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'gәuldn/"
+},
+{
+"w": "barrel",
+"m": "n. 桶；vt. 装入桶内",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'bærәl/"
+},
+{
+"w": "bunny",
+"m": "n. 兔子",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'bʌni/"
+},
+{
+"w": "ivy",
+"m": "n. 常春藤；a. 学院的, 抽象的",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'aivi/"
+},
+{
+"w": "runner bean",
+"m": "n. 红花菜豆",
+"c": "1000 Words: Nature 自然: Climbers"
+},
+{
+"w": "broadleaved",
+"m": "阔叶的",
+"c": "1000 Words: Nature 自然: Climbers"
+},
+{
+"w": "maple",
+"m": "n. 枫, 枫木, 淡棕色",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'meipl/"
+},
+{
+"w": "conifers",
+"m": "n. 针叶树( conifer的复数形式 )",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'kɒnɪfəz/"
+},
+{
+"w": "weeping willow",
+"m": "n. 垂柳, <俚>枕头",
+"c": "1000 Words: Nature 自然: Climbers"
+},
+{
+"w": "fir",
+"m": "n. 枞树, 杉木",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/fә:/"
+},
+{
+"w": "sunlight",
+"m": "n. 日光",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'sʌnlait/"
+},
+{
+"w": "dioxide",
+"m": "n. 二氧化物",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/dai'ɒksaid/"
+},
+{
+"w": "oxygen",
+"m": "n. 氧",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'ɒksәdʒәn/"
+},
+{
+"w": "seaweed",
+"m": "n. 海草, 海藻",
+"c": "1000 Words: Nature 自然: Climbers",
+"ipa": "/'si:wi:d/"
+},
+{
+"w": "water lily",
+"m": "睡莲",
+"c": "1000 Words: Nature 自然: Climbers"
+},
+{
+"w": "lobed",
+"m": "a. 分裂的, 有叶的",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/lәubd/"
+},
+{
+"w": "prickly",
+"m": "a. 多刺的, 满是针刺的, 针刺般痛的",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/'prikli/"
+},
+{
+"w": "pointy",
+"m": "a. 尖的",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/'pɒinti/"
+},
+{
+"w": "needles",
+"m": "n. 针数, 千针本；折页顶针（needle复数形式）",
+"c": "1000 Words: Nature 自然: A closer look"
+},
+{
+"w": "a leaf",
+"m": "n. 叶, 树叶, 花瓣, 页；vi. 生叶, 翻书页",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/li:f/"
+},
+{
+"w": "pine cone",
+"m": "n. 松果, 松球",
+"c": "1000 Words: Nature 自然: A closer look"
+},
+{
+"w": "midrib",
+"m": "n. 中脉",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/'midrib/"
+},
+{
+"w": "vein",
+"m": "n. 血管, 静脉, 纹理, 气质, 情绪；vt. 使有脉络, 像脉络般分布于",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/vein/"
+},
+{
+"w": "twigs",
+"m": "n. 细枝, 嫩枝( twig的名词复数 )",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/twiɡz/"
+},
+{
+"w": "stem",
+"m": "n. 茎, 干, 柄, 船首, 血统, 堵塞物；vt. 摘掉茎, 装柄于, 阻止…",
+"c": "1000 Words: Nature 自然: A closer look",
+"ipa": "/stem/"
+},
+{
+"w": "evergreen",
+"m": "n. 常绿树, 常绿植物；a. 常绿的",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'evәgri:n/"
+},
+{
+"w": "cherry",
+"m": "n. 樱桃, 樱桃树, 樱桃色",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'tʃeri/"
+},
+{
+"w": "blossom",
+"m": "n. 花, 花开的状态, 兴旺期；vi. 开花, 兴旺, 发展",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'blɒsәm/"
+},
+{
+"w": "apples",
+"m": "n. 苹果（复数）；井架小零件",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'æplz/"
+},
+{
+"w": "pine tree",
+"m": "n. 松树",
+"c": "1000 Words: Nature 自然: Tree flowers"
+},
+{
+"w": "plums",
+"m": "n. 李子( plum的复数形式 ); 李子树; 理想之物（尤指高薪的职位）; …",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/p'lʌmz/"
+},
+{
+"w": "lemons",
+"m": "n. 柠檬（lemon的复数）",
+"c": "1000 Words: Nature 自然: Tree flowers"
+},
+{
+"w": "oak",
+"m": "n. 橡树, 橡木；a. 橡木制的",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/әuk/"
+},
+{
+"w": "knot",
+"m": "n. 结, 群, 难题；v. 打结, (使)纠缠",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/nɒt/"
+},
+{
+"w": "sticks",
+"m": "n. 树枝；棍",
+"c": "1000 Words: Nature 自然: Tree flowers"
+},
+{
+"w": "acorns",
+"m": "n. 橡子, 栎实( acorn的复数形式 )",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'eɪkɔ:nz/"
+},
+{
+"w": "deciduous",
+"m": "a. 每年落叶的, 非永久性的",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/di'sidjuәs/"
+},
+{
+"w": "pollinator",
+"m": "n. 传粉者, 传粉媒介, 传粉昆虫; 授花粉器",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/'pɒlɪneɪtə/"
+},
+{
+"w": "germination",
+"m": "n. 发芽, 萌芽, 发育",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/.dʒә:mi'neiʃәn/"
+},
+{
+"w": "plant",
+"m": "n. 植物, 作物, 工厂, 树枝, 生长, 设施, 成套设备；vt. 种植, …",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/plænt. plɑ:nt/"
+},
+{
+"w": "shoot",
+"m": "n. 射击, 狩猎, 芽, 射伤, 发射, 发芽, 急流, 推力, 摄影, 急送…",
+"c": "1000 Words: Nature 自然: Tree flowers",
+"ipa": "/ʃu:t/"
+},
+{
+"w": "seed",
+"m": "n. 种子, 籽, 萌芽, 子孙, 精液；vt. 在...播种, 催...发育,…",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/si:d/"
+},
+{
+"w": "woody",
+"m": "a. 多树木的, 木质的",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'wudi/"
+},
+{
+"w": "scales",
+"m": "n. 缩放；天平",
+"c": "1000 Words: Nature 自然: More seeds"
+},
+{
+"w": "sapling",
+"m": "n. 树苗, 小树",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'sæpliŋ/"
+},
+{
+"w": "stigma",
+"m": "n. 耻辱, 污名, 烙印",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'stigmә/"
+},
+{
+"w": "pollen",
+"m": "n. 花粉；vt. 传授花粉给",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'pɒlәn/"
+},
+{
+"w": "ovary",
+"m": "n. 卵巢, 子房, 果核",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'әuvәri/"
+},
+{
+"w": "spores",
+"m": "n. （细菌、苔藓、蕨类植物）孢子( spore的复数形式 )；v. （细菌、苔…",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/spɔ:z/"
+},
+{
+"w": "fruiting",
+"m": "[医]结果的, 具子实体的",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/f'ru:tɪŋ/"
+},
+{
+"w": "body",
+"m": "n. 身体, 人, 尸体, 主要部分, 团体；vt. 赋以形体",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/'bɒdi/"
+},
+{
+"w": "spore",
+"m": "n. 孢子；vi. 长孢子",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/spɒ:/"
+},
+{
+"w": "mycelium",
+"m": "n. 菌丝体",
+"c": "1000 Words: Nature 自然: More seeds",
+"ipa": "/mai'si:liәm/"
+},
+{
+"w": "pregnant",
+"m": "a. 怀孕的, 充满的, 思想丰富的, 成果丰硕的",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/'pregnәnt/"
+},
+{
+"w": "adult",
+"m": "n. 成人, 成虫；a. 成年的, 成熟的",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/'ædʌlt/"
+},
+{
+"w": "child",
+"m": "n. 孩子, 产物, 追随者",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/tʃaild/"
+},
+{
+"w": "tuna fish",
+"m": "金枪鱼",
+"c": "1000 Words: Nature 自然: Animal life cycles"
+},
+{
+"w": "joey",
+"m": "n. 幼兽",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/dʒәui/"
+},
+{
+"w": "pouch",
+"m": "n. 小袋, 小包, 眼袋, 邮袋, 育儿袋；vt. 装...入袋中, 使成袋状",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/pautʃ/"
+},
+{
+"w": "marsupial",
+"m": "n. 有袋类动物；a. 有袋的, 袋状的",
+"c": "1000 Words: Nature 自然: Animal life cycles",
+"ipa": "/mɑ:'sju:piәl/"
+},
+{
+"w": "pupa",
+"m": "n. 蛹",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'pju:pә/"
+},
+{
+"w": "leathery",
+"m": "a. 皮似的, 皮质的, 皮般吞坚韧的",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'leðәri/"
+},
+{
+"w": "hatchling",
+"m": "n. 人工孵化的鱼苗或小鸟",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'hætʃliŋ/"
+},
+{
+"w": "python",
+"m": "n. 大蟒, 巨蟒",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'paiθɒn/"
+},
+{
+"w": "juvenile",
+"m": "n. 少年, 少年读物；a. 少年的, 不成熟的, 适于少年的",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'dʒu:vinail/"
+},
+{
+"w": "moult",
+"m": "n. 换毛, 脱毛；v. 脱毛, 换毛",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/mәult/"
+},
+{
+"w": "frogspawn",
+"m": "n. 蛙卵",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/ˈfrɒgspɔ:n/"
+},
+{
+"w": "tadpole",
+"m": "n. 蝌蚪",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'tædpәul/"
+},
+{
+"w": "froglet",
+"m": "n. [动]小蛙, 幼蛙",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/'frɔ^lit/"
+},
+{
+"w": "chick",
+"m": "n. 小鸡, 小鸟, 竹帘",
+"c": "1000 Words: Nature 自然: Monarch",
+"ipa": "/tʃik/"
+},
+{
+"w": "stallion",
+"m": "n. 种马",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/'stæljәn/"
+},
+{
+"w": "foal",
+"m": "n. 驹；v. 生仔",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/fәul/"
+},
+{
+"w": "cockerel",
+"m": "n. 小公鸡",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/'kɒkәrәl/"
+},
+{
+"w": "ewe",
+"m": "n. 母羊",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/ju:/"
+},
+{
+"w": "ram",
+"m": "n. 公羊, 撞锤；vi. 猛击, 撞",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/ræm/"
+},
+{
+"w": "lambs",
+"m": "n. 羔羊肉( lamb的名词复数 ); （慈爱或怜悯地描述或称呼某人）宝贝; …",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/læmz/"
+},
+{
+"w": "hen",
+"m": "n. 母鸡, 雌禽",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/hen/"
+},
+{
+"w": "sow",
+"m": "n. 母猪, 懒胖女人；vt. 播种, 散布, 使密布",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/sau. sәu/"
+},
+{
+"w": "bitch",
+"m": "n. 母狗, 母狼, 母狐",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/bitʃ/"
+},
+{
+"w": "tom",
+"m": "n. 雄性动物, 雄猫",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/tɒm/"
+},
+{
+"w": "larvae",
+"m": "幼虫(昆虫), 幼体, 蚴(蠕虫)",
+"c": "1000 Words: Nature 自然: Animal families"
+},
+{
+"w": "puppy",
+"m": "n. 小狗, 小动物, 自负的年轻人",
+"c": "1000 Words: Nature 自然: Animal families",
+"ipa": "/'pʌpi/"
+},
+{
+"w": "drake",
+"m": "n. 公鸭, 蜉蝣类",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/dreik/"
+},
+{
+"w": "duckling",
+"m": "n. 小鸭子",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/'dʌkliŋ/"
+},
+{
+"w": "doe",
+"m": "n. 母鹿, 雌兔",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/dәu/"
+},
+{
+"w": "stag",
+"m": "n. 牡鹿, 男性社交晚会；vi. 不带女伴参加晚会",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/stæg/"
+},
+{
+"w": "man",
+"m": "n. 男人, 人类, 人；vt. 为...配备人手, 操纵, 使振奋",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/mæn/"
+},
+{
+"w": "fawn",
+"m": "n. 小鹿；vi. 摇尾乞怜, 奉承",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/fɒ:n/"
+},
+{
+"w": "flyer",
+"m": "n. 飞鸟, 飞行物, 飞行员, 快车, 传单, 飞跳",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/'flaiә/"
+},
+{
+"w": "woman",
+"m": "n. 女人, 妇女, 女仆；a. 女用的, 女性的, 妇女的",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/'wumәn/"
+},
+{
+"w": "cub",
+"m": "n. 幼兽, 年轻人",
+"c": "1000 Words: Nature 自然: Animal groups",
+"ipa": "/kʌb/"
+},
+{
+"w": "feathered",
+"m": "a. 有羽毛的, 羽状的, 用羽毛覆盖的",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'feðәd/"
+},
+{
+"w": "horns",
+"m": "n. 喇叭；号",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet"
+},
+{
+"w": "snout",
+"m": "n. 鼻口部, 鼻子, 口吻状物, 烟草",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/snaut/"
+},
+{
+"w": "antlers",
+"m": "n. 鹿角( antler的复数形式 ); 角枝",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'æntləz/"
+},
+{
+"w": "eyestalk",
+"m": "n. 眼柄",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'aistɒ:lk/"
+},
+{
+"w": "mane",
+"m": "n. 鬃毛",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/mein/"
+},
+{
+"w": "fang",
+"m": "n. 尖牙, 犬牙",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'fæŋ/"
+},
+{
+"w": "blowhole",
+"m": "n. 喷水孔, 通风孔, 通气孔",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'blәuhәul/"
+},
+{
+"w": "antenna",
+"m": "n. 天线, 触须, 触角",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/æn'tenә/"
+},
+{
+"w": "abdomen",
+"m": "n. 腹部",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/'æbdәmen/"
+},
+{
+"w": "spines",
+"m": "n. 脊柱( spine的复数形式 ); 脊椎; （动植物的）刺; 书脊",
+"c": "1000 Words: Nature 自然: Heads, bodies, and feet",
+"ipa": "/spainz/"
+},
+{
+"w": "flipper",
+"m": "n. 鳍状肢, (潜水用)脚蹼",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/'flipә/"
+},
+{
+"w": "talons",
+"m": "n. （尤指猛禽的）爪( talon的复数形式 ); （如爪般的）手指; 爪状物…",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/'tælənz/"
+},
+{
+"w": "hooves",
+"m": "n. 蹄脚；蹄（hoof的复数）",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/hu:vz/"
+},
+{
+"w": "prolegs",
+"m": "(proleg 的复数) n. 原足, (幼虫的)腹脚",
+"c": "1000 Words: Nature 自然: Feet (and hands!)"
+},
+{
+"w": "toes",
+"m": "n. 脚趾（toe的复数）",
+"c": "1000 Words: Nature 自然: Feet (and hands!)"
+},
+{
+"w": "four-legged",
+"m": "a. 有四根桅樯的",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/'fɔ:'le^d,-'le^id/"
+},
+{
+"w": "tail",
+"m": "n. 尾部, 后部, 辫子, 随员, 特务, 燕尾服, 踪迹, 限定继承(权)；…",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/teil/"
+},
+{
+"w": "bristles",
+"m": "n. 猪鬃（bristle的复数形式）",
+"c": "1000 Words: Nature 自然: Feet (and hands!)"
+},
+{
+"w": "exoskeleton",
+"m": "n. 外骨胳, 外甲",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/,eksәu'skelitәn/"
+},
+{
+"w": "endoskeleton",
+"m": "n. 内骨骼",
+"c": "1000 Words: Nature 自然: Feet (and hands!)",
+"ipa": "/.endә'skelitәn/"
+},
+{
+"w": "omnivore",
+"m": "n. 不偏食的人, 杂食动物",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'ɒmnivɒ:/"
+},
+{
+"w": "predator",
+"m": "n. 食肉动物, 掠夺者",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'predәtә/"
+},
+{
+"w": "scavenger",
+"m": "n. (英)清道夫, 清扫工, 拾垃圾的人, 清除剂, 净化剂, 食腐动物, 黄…",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'skævindʒә/"
+},
+{
+"w": "about",
+"m": "prep. 在...周围, 大约, 有关, 关于；adv. 大约, 四处, 在附…",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/ә'baut/"
+},
+{
+"w": "eating",
+"m": "n. 吃, 食物；a. 侵蚀的, 腐蚀性的",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'i:tiŋ/"
+},
+{
+"w": "proboscis",
+"m": "n. 长鼻子, 喙",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/prәu'bɒsis/"
+},
+{
+"w": "gnaw",
+"m": "v. 咬, 啃, 侵蚀, 消耗, 折磨",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/nɒ:/"
+},
+{
+"w": "other",
+"m": "a. 其他的, 另外的, 从前的；pron. 其他的, 他人, 另外一个",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'ʌðә/"
+},
+{
+"w": "mandibles",
+"m": "n. 下颌骨；上颚, 嘴的上部",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/'mændɪb(ə)l/"
+},
+{
+"w": "lap",
+"m": "n. 膝盖, 舔, 一圈, 下摆, 衣兜, 山坳；vi. 重叠, 围住, 轻拍,…",
+"c": "1000 Words: Nature 自然: Feeding time",
+"ipa": "/læp/"
+},
+{
+"w": "dung beetle",
+"m": "n. 金龟子科, 甲虫, 蜣螂",
+"c": "1000 Words: Nature 自然: Animals with specialised diets"
+},
+{
+"w": "vampire bat",
+"m": "吸血蝠",
+"c": "1000 Words: Nature 自然: Animals with specialised diets"
+},
+{
+"w": "blood",
+"m": "n. 血, 血统, 流血, 气质, 生命；vt. 使出血, 用血涂",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/blʌd/"
+},
+{
+"w": "dung",
+"m": "n. 粪；vt. 施粪肥于",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/dʌŋ/"
+},
+{
+"w": "bamboo",
+"m": "n. 竹子",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/bæm'bu:/"
+},
+{
+"w": "liquefy",
+"m": "v. (使)溶解, (使)液化",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/'likwifai/"
+},
+{
+"w": "krill",
+"m": "n. [动]磷虾",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/kril/"
+},
+{
+"w": "suckle",
+"m": "vt. 哺乳, 养育, 吮吸",
+"c": "1000 Words: Nature 自然: Animals with specialised diets",
+"ipa": "/'sʌkl/"
+},
+{
+"w": "birdsong",
+"m": "n. 鸟鸣声",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/ˈbɜ:dsɒŋ/"
+},
+{
+"w": "low-pitched",
+"m": "a. 低调的, 缓坡的",
+"c": "1000 Words: Nature 自然: Communicating"
+},
+{
+"w": "sound",
+"m": "n. 声音, 语音, 吵闹, 声调, 听力范围, 探条, 海峡；a. 健全的, …",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/saund/"
+},
+{
+"w": "marking",
+"m": "n. 印记, 印, 分",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/'mɑ:kiŋ/"
+},
+{
+"w": "posture",
+"m": "n. 姿势, 态度, 情形, 形势；vt. 作...的姿势",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/'pɒstʃә/"
+},
+{
+"w": "rearing",
+"m": "n. 饲养；抚养",
+"c": "1000 Words: Nature 自然: Communicating"
+},
+{
+"w": "call",
+"m": "n. 呼叫, 访问, 打电话, 号召, 召集, 要求；vt. 呼叫, 召集, 打…",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/kɒ:l/"
+},
+{
+"w": "growling",
+"m": "a. 咆哮的, 隆隆响的",
+"c": "1000 Words: Nature 自然: Communicating"
+},
+{
+"w": "thumping",
+"m": "a. 发出重击声的, 巨大的, 极大的",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/'θʌmpiŋ/"
+},
+{
+"w": "howling",
+"m": "a. 咆哮的, 极大的, 荒凉的；n. 啸声",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/'hauliŋ/"
+},
+{
+"w": "grooming",
+"m": "n. 修饰",
+"c": "1000 Words: Nature 自然: Communicating"
+},
+{
+"w": "cheep",
+"m": "n. 吱吱的叫声；v. 吱吱地叫",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/tʃi:p/"
+},
+{
+"w": "language",
+"m": "n. 语言, 文字, 措辞",
+"c": "1000 Words: Nature 自然: Communicating",
+"ipa": "/'læŋgwidʒ/"
+},
+{
+"w": "wolves",
+"m": "狼, 狼皮, 残暴成性的人, 贪婪的人, 阴险狡猾的人, (贬)追逐女性的人, …",
+"c": "1000 Words: Nature 自然: Animal comparisons"
+},
+{
+"w": "tame",
+"m": "a. 驯服的, 柔顺的, 被开垦的, 顺从的, 乏味的, 平淡的；vt. 驯养,…",
+"c": "1000 Words: Nature 自然: Animal comparisons",
+"ipa": "/teim/"
+},
+{
+"w": "domesticated",
+"m": "a. 喜欢家庭生活的; （指动物）被驯养了的；v. 驯化( domesticat…",
+"c": "1000 Words: Nature 自然: Animal comparisons",
+"ipa": "/dəʊ'mestɪkeɪtɪd/"
+},
+{
+"w": "smallest",
+"m": "a. 最小的（small的最高级）",
+"c": "1000 Words: Nature 自然: Animal comparisons"
+},
+{
+"w": "biggest",
+"m": "a. 最大的（big的最高级）",
+"c": "1000 Words: Nature 自然: Animal comparisons"
+},
+{
+"w": "microorganisms",
+"m": "n. [微] 微生物, 微生虫（microorganism的复数）",
+"c": "1000 Words: Nature 自然: Animal comparisons"
+},
+{
+"w": "thing",
+"m": "n. 事物, 东西, 物, 用品, 事, 事件, 情况, 行为, 特征",
+"c": "1000 Words: Nature 自然: Animal comparisons",
+"ipa": "/θiŋ/"
+},
+{
+"w": "microbes",
+"m": "n. 微生物, 细菌( microbe的复数形式 )",
+"c": "1000 Words: Nature 自然: Animal comparisons",
+"ipa": "/'maɪkrəʊbz/"
+},
+{
+"w": "animal",
+"m": "n. 动物",
+"c": "1000 Words: Nature 自然: Animal comparisons",
+"ipa": "/'ænimәl/"
+},
+{
+"w": "tracks",
+"m": "n. 轮胎；磁道",
+"c": "1000 Words: Nature 自然: Animal comparisons"
+},
+{
+"w": "wormcast",
+"m": "n. 蚯蚓粪",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/'wә:mkɑ:st/"
+},
+{
+"w": "growth",
+"m": "n. 生长, 栽培, 增长",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/grәuθ/"
+},
+{
+"w": "log",
+"m": "n. 记录, 圆木, 日志, 计程仪；vt. 伐木, 切, 航行",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/lɒg/"
+},
+{
+"w": "fungi",
+"m": "pl. 真菌, 突然发生而迅速生长的东西",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/'fʌndʒai, 'fʌŋ^ai/"
+},
+{
+"w": "stag beetle",
+"m": "n. 鹿角虫, 锹虫",
+"c": "1000 Words: Nature 自然: Seeds can be"
+},
+{
+"w": "ago",
+"m": "adv. 以前",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/ә'gәu/"
+},
+{
+"w": "amber",
+"m": "n. 琥珀, 琥珀色；a. 琥珀色的, 琥珀似的",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/'æmbә/"
+},
+{
+"w": "coprolite",
+"m": "n. 粪化石",
+"c": "1000 Words: Nature 自然: Seeds can be",
+"ipa": "/'kɒprәlait/"
+},
+{
+"w": "shed",
+"m": "n. 车棚, 小屋, 脱落之物, 分水岭；vt. 使流出, 放射, 脱落, 散发…",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/ʃed/"
+},
+{
+"w": "bird",
+"m": "n. 鸟, 羽毛球；vi. 打鸟",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/bә:d/"
+},
+{
+"w": "feeder",
+"m": "n. 饲养者, 供给者, 奶瓶",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/'fi:dә/"
+},
+{
+"w": "flowerpots",
+"m": "n. 花盆, 花钵( flowerpot的复数形式 )",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/ˈflauəpɔts/"
+},
+{
+"w": "sparrow",
+"m": "n. 麻雀",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/'spærәu/"
+},
+{
+"w": "bird table",
+"m": "n. 鸟食台",
+"c": "1000 Words: Nature 自然: Gardens and parks"
+},
+{
+"w": "watering can",
+"m": "n. 喷壶",
+"c": "1000 Words: Nature 自然: Gardens and parks"
+},
+{
+"w": "grasshopper",
+"m": "n. 蚱蜢, 蝗虫",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/'græshɒpә/"
+},
+{
+"w": "lawnmower",
+"m": "n. 刈割者, 草坪割草机, 割草机",
+"c": "1000 Words: Nature 自然: Gardens and parks"
+},
+{
+"w": "flowerbed",
+"m": "n. 花坛",
+"c": "1000 Words: Nature 自然: Gardens and parks",
+"ipa": "/'flajәbed/"
+},
+{
+"w": "compost bin",
+"m": "堆肥桶",
+"c": "1000 Words: Nature 自然: Gardens and parks"
+},
+{
+"w": "vegetable patch",
+"m": "菜园",
+"c": "1000 Words: Nature 自然: Gardens and parks"
+},
+{
+"w": "barn owl",
+"m": "鸱",
+"c": "1000 Words: Nature 自然: Fields and meadows"
+},
+{
+"w": "wildflower",
+"m": "n. 野花",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/'waild,flajә(r)/"
+},
+{
+"w": "wheat field",
+"m": "小麦田；小麦田野图片",
+"c": "1000 Words: Nature 自然: Fields and meadows"
+},
+{
+"w": "pasture",
+"m": "n. 牧场, 草地, 牧草；vt. 放牧",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/'pæstʃә/"
+},
+{
+"w": "buzzing",
+"m": "a. 嗡嗡响的, 营营响的",
+"c": "1000 Words: Nature 自然: Fields and meadows"
+},
+{
+"w": "oats",
+"m": "n. 燕麦, 燕麦属植物, 燕麦粥, 麦片粥",
+"c": "1000 Words: Nature 自然: Fields and meadows"
+},
+{
+"w": "barley",
+"m": "n. 大麦",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/'bɑ:li/"
+},
+{
+"w": "millet",
+"m": "n. 稷, 粟, 黍",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/'milit/"
+},
+{
+"w": "hedgerow",
+"m": "n. 灌木篱墙",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/'hedʒrәu/"
+},
+{
+"w": "wheat",
+"m": "n. 小麦",
+"c": "1000 Words: Nature 自然: Fields and meadows",
+"ipa": "/hwi:t/"
+},
+{
+"w": "chestnut",
+"m": "n. 栗子, 栗树, 栗色；a. 栗色的",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'tʃesnʌt/"
+},
+{
+"w": "conker",
+"m": "n. 七叶树果实",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'kɔŋkә/"
+},
+{
+"w": "chiffchaff",
+"m": "n. 棕柳莺",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'tʃiftʃæf/"
+},
+{
+"w": "ting",
+"m": "n. 叮当声, 叮叮声；v. (使)发叮叮声",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/tiŋ/"
+},
+{
+"w": "hoo",
+"m": "int. 呼！（表示高兴, 轻蔑, 赞同, 激动等）",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/hu:/"
+},
+{
+"w": "tawny",
+"m": "a. 黄褐色的, 茶色的；n. 黄褐色",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'tɒ:ni/"
+},
+{
+"w": "bluebells",
+"m": "n. 圆叶风铃草( bluebell的复数形式 )",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/ˈblu:belz/"
+},
+{
+"w": "chestnut tree",
+"m": "栗树",
+"c": "1000 Words: Nature 自然: Woodlands"
+},
+{
+"w": "ferns",
+"m": "n. 蕨类；蕨类植物（fern的复数形式）",
+"c": "1000 Words: Nature 自然: Woodlands"
+},
+{
+"w": "dragonfly",
+"m": "n. 蜻蜓",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'drægәnflai/"
+},
+{
+"w": "skater",
+"m": "n. 溜冰者",
+"c": "1000 Words: Nature 自然: Woodlands",
+"ipa": "/'skeitә/"
+},
+{
+"w": "cockatoo",
+"m": "n. 风头鹦鹉",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/kɒkә'tu:/"
+},
+{
+"w": "koalas",
+"m": "n. 树袋熊( koala的复数形式 )",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/kəʊˈɑ:ləz/"
+},
+{
+"w": "giant",
+"m": "n. 巨人, 大力士, 巨大怪物；a. 庞大的, 巨大的",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/'dʒaiәnt/"
+},
+{
+"w": "redwood",
+"m": "n. (美国)红杉, 红树",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/'redwud/"
+},
+{
+"w": "lichen",
+"m": "n. 青苔, 地衣, 苔藓病",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/'laikәn/"
+},
+{
+"w": "bobcat",
+"m": "n. 红猫, 短尾猫",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/'bɒbkæt/"
+},
+{
+"w": "ing",
+"m": "abbr. 惯性导航与制导（Inertial Navigation and Gu…",
+"c": "1000 Words: Nature 自然: American redwood forest"
+},
+{
+"w": "toadstool",
+"m": "n. 伞菌",
+"c": "1000 Words: Nature 自然: American redwood forest",
+"ipa": "/'tәudstu:l/"
+},
+{
+"w": "weeping",
+"m": "n. 哭泣, 流泪；a. 哭泣的, 滴水的, 泪汪汪的, 下雨的, 多雨的, 垂…",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'wi:piŋ/"
+},
+{
+"w": "willow tree",
+"m": "柳树",
+"c": "1000 Words: Nature 自然: Rivers"
+},
+{
+"w": "riverbank",
+"m": "n. 河堤, 河岸",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'rivәbæŋk/"
+},
+{
+"w": "muskrat",
+"m": "n. 麝鼠",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'mʌskræt/"
+},
+{
+"w": "water vole",
+"m": "河鼠",
+"c": "1000 Words: Nature 自然: Rivers"
+},
+{
+"w": "osprey",
+"m": "n. 白色的羽毛, 鹗",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'ɒspri/"
+},
+{
+"w": "moorhen",
+"m": "n. 雌苏格兰雷鸟, 黑水鸡",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'muәhen/"
+},
+{
+"w": "carp",
+"m": "n. 鲤鱼；vi. 吹毛求疵, 挑剔",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/kɑ:p/"
+},
+{
+"w": "reeds",
+"m": "n. [植]芦苇属植物（reed的复数）",
+"c": "1000 Words: Nature 自然: Rivers"
+},
+{
+"w": "mayfly",
+"m": "n. 蜉蝣, 蜉蝣状钓饵",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'meiflai/"
+},
+{
+"w": "pondweed",
+"m": "n. 水池草",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'pɒndwi:d/"
+},
+{
+"w": "stickleback",
+"m": "n. 刺鱼",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'stiklbæk/"
+},
+{
+"w": "crayfish",
+"m": "n. 小龙虾",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'kreifiʃ/"
+},
+{
+"w": "pike",
+"m": "n. 长矛, 尖头, (体操)屈体, 流浪者, 狗鱼, 通行费；vi. 用矛刺杀…",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/paik/"
+},
+{
+"w": "canoe",
+"m": "n. 独木舟, 轻舟；vi. 乘独木舟",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/kә'nu:/"
+},
+{
+"w": "weir",
+"m": "n. 堰, 鱼梁",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/wiә/"
+},
+{
+"w": "heron",
+"m": "n. 鹭",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'herәn/"
+},
+{
+"w": "floodplain",
+"m": "n. 泛滥平原",
+"c": "1000 Words: Nature 自然: Rivers",
+"ipa": "/'flʌdplein/"
+},
+{
+"w": "surf",
+"m": "n. 海浪, 拍岸浪；vi. 作冲浪运动",
+"c": "1000 Words: Nature 自然: Oceans and coasts",
+"ipa": "/sә:f/"
+},
+{
+"w": "wave",
+"m": "n. 波, 波浪, 波动, 起伏, 高潮, 潮涌, 挥手致意, (气压)突变；v…",
+"c": "1000 Words: Nature 自然: Oceans and coasts",
+"ipa": "/weiv/"
+},
+{
+"w": "dive",
+"m": "n. 潜水, 跳水；vi. 跳水, 俯冲, 猛冲",
+"c": "1000 Words: Nature 自然: Oceans and coasts",
+"ipa": "/daiv/"
+},
+{
+"w": "blue crab",
+"m": "蓝蟹, 青蟹, 三疣梭子蟹",
+"c": "1000 Words: Nature 自然: Oceans and coasts"
+},
+{
+"w": "brittle star",
+"m": "海蛇尾",
+"c": "1000 Words: Nature 自然: Oceans and coasts"
+},
+{
+"w": "pebbles",
+"m": "n. 桔皮表面；鹅卵石, 小软石（pebble的复数形式）",
+"c": "1000 Words: Nature 自然: Oceans and coasts"
+},
+{
+"w": "spiny lobster",
+"m": "大螯虾",
+"c": "1000 Words: Nature 自然: Oceans and coasts"
+},
+{
+"w": "gull",
+"m": "n. 鸥, 易受骗之人, 呆子；vt. 欺诈, 骗",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/gʌl/"
+},
+{
+"w": "oil rig",
+"m": "n. 石油钻塔",
+"c": "1000 Words: Nature 自然: Deep sea"
+},
+{
+"w": "cliffs",
+"m": "n. 悬崖, 峭壁（cliff的复数形式）",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/klɪfs/"
+},
+{
+"w": "rockpool",
+"m": "[医]吉氏高？",
+"c": "1000 Words: Nature 自然: Deep sea"
+},
+{
+"w": "fishing boat",
+"m": "渔船",
+"c": "1000 Words: Nature 自然: Deep sea"
+},
+{
+"w": "submarine",
+"m": "n. 潜水艇, 海底生物；a. 海中的, 生长在海中的",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'sʌbmәri:n/"
+},
+{
+"w": "anglerfish",
+"m": "n. 琵琶鱼, 华脐鱼",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'ængləfɪʃ/"
+},
+{
+"w": "lanternfish",
+"m": "[医]灯鱼",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'læntənfɪʃ/"
+},
+{
+"w": "giant squid",
+"m": "n. 巨型鱿鱼; 大王乌贼",
+"c": "1000 Words: Nature 自然: Deep sea"
+},
+{
+"w": "harpy",
+"m": "n. 哈比(希腊神话中残酷贪婪者)",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'hɑ:pi/"
+},
+{
+"w": "macaw",
+"m": "n. 金刚鹦鹉, 芳香核果棕榈",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/mә'kɒ:/"
+},
+{
+"w": "howler",
+"m": "n. 咆哮者, 号哭的人",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'haulә/"
+},
+{
+"w": "vampire",
+"m": "n. 吸血鬼",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/'væmpaiә/"
+},
+{
+"w": "hang",
+"m": "n. 悬挂, 诀窍, 意义；vt. 悬挂, 附着, 装饰, 垂下, 踌躇, 绞死…",
+"c": "1000 Words: Nature 自然: Deep sea",
+"ipa": "/hæŋ/"
+},
+{
+"w": "harlequin",
+"m": "n. 丑角",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/'hɑ:likwin/"
+},
+{
+"w": "scorpion",
+"m": "n. 蝎子, 心黑的人, 蝎尾鞭",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/'skɒ:piәn/"
+},
+{
+"w": "cocoa",
+"m": "n. 可可粉, 可可茶, 可可色",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/'kәukәu/"
+},
+{
+"w": "pod",
+"m": "n. 豆荚, (豆荚状的)保护性外壳, 扁豆形矿体；vt. 从豆荚中剥出",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/pɒd/"
+},
+{
+"w": "buttress",
+"m": "n. 拱壁, 扶壁, 支持物；vt. 支持, 以扶壁支撑",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/'bʌtris/"
+},
+{
+"w": "red-eyed",
+"m": "adj. 红眼的，眼圈哭红的",
+"c": "1000 Words: Nature 自然: Forest floor",
+"ipa": "/'red'aɪd/"
+},
+{
+"w": "tree frog",
+"m": "n. 树蛙, 雨蛙",
+"c": "1000 Words: Nature 自然: Forest floor"
+},
+{
+"w": "acacia tree",
+"m": "n. 金合欢树[有些树的树汁用于制作黏胶]",
+"c": "1000 Words: Nature 自然: Savannahs"
+},
+{
+"w": "watching",
+"m": "vt. 观看, 守望；监视, 注意（watch现在分词）",
+"c": "1000 Words: Nature 自然: Savannahs",
+"ipa": "/'wɔtʃiŋ/"
+},
+{
+"w": "termite",
+"m": "n. 白蚁",
+"c": "1000 Words: Nature 自然: Savannahs",
+"ipa": "/'tә:mait/"
+},
+{
+"w": "lions",
+"m": "n. 腰角；雄狮",
+"c": "1000 Words: Nature 自然: Savannahs"
+},
+{
+"w": "mound",
+"m": "n. 土墩, 堤, 小山；vt. 筑堤, 用土堆防卫",
+"c": "1000 Words: Nature 自然: Savannahs",
+"ipa": "/maund/"
+},
+{
+"w": "savannah",
+"m": "n. 大草原, 热带草原（等于savanna）",
+"c": "1000 Words: Nature 自然: Savannahs",
+"ipa": "/sә'vænә/"
+},
+{
+"w": "echidna",
+"m": "n. 针鼹鼠",
+"c": "1000 Words: Nature 自然: Savannahs",
+"ipa": "/e'kidnә/"
+},
+{
+"w": "pampas grass",
+"m": "n. 蒲苇",
+"c": "1000 Words: Nature 自然: South American savannah"
+},
+{
+"w": "rhea",
+"m": "n. [动]美洲鸵",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/riә. 'ri:ә/"
+},
+{
+"w": "guinea",
+"m": "n. 几内亚",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'gini/"
+},
+{
+"w": "pampas",
+"m": "n. 蒲苇",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'pæmpәs/"
+},
+{
+"w": "footprints",
+"m": "n. 足迹；足印",
+"c": "1000 Words: Nature 自然: South American savannah"
+},
+{
+"w": "zebras",
+"m": "n. 斑马, 斑马纹（zebra复数）",
+"c": "1000 Words: Nature 自然: South American savannah"
+},
+{
+"w": "impala",
+"m": "n. 黑斑羚",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/im'pɒlә/"
+},
+{
+"w": "hole",
+"m": "n. 孔, 洞, 穴, 漏洞；vt. 挖洞, 掘坑",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/hәul/"
+},
+{
+"w": "aardvark",
+"m": "n. 土豚",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'ɑ:dvɑ:k/"
+},
+{
+"w": "wildfire",
+"m": "n. (古时战争时所用的)燃料剂, 磷火, 鬼火, 野火",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'waildfaiә/"
+},
+{
+"w": "eucalyptus",
+"m": "n. 桉(树)属植物",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/.ju:kә'liptәs/"
+},
+{
+"w": "frilled",
+"m": "a. 有饰边的",
+"c": "1000 Words: Nature 自然: South American savannah"
+},
+{
+"w": "possum",
+"m": "n. 负鼠",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'pɒsәm/"
+},
+{
+"w": "bandicoot",
+"m": "n. 袋狸",
+"c": "1000 Words: Nature 自然: South American savannah",
+"ipa": "/'bændiku:t/"
+},
+{
+"w": "red-tailed",
+"m": "[医]红尾？",
+"c": "1000 Words: Nature 自然: Deserts"
+},
+{
+"w": "cactus",
+"m": "n. 仙人掌",
+"c": "1000 Words: Nature 自然: Deserts",
+"ipa": "/'kæktәs/"
+},
+{
+"w": "rattlesnake",
+"m": "n. 响尾蛇",
+"c": "1000 Words: Nature 自然: Deserts",
+"ipa": "/'rætlsneik/"
+},
+{
+"w": "jackrabbit",
+"m": "n. 长耳大野兔",
+"c": "1000 Words: Nature 自然: Deserts",
+"ipa": "/ˈdʒækræbɪt/"
+},
+{
+"w": "tumbleweed",
+"m": "n. 风滚草",
+"c": "1000 Words: Nature 自然: Deserts",
+"ipa": "/'tʌmblwi:d/"
+},
+{
+"w": "coyote",
+"m": "n. 丛林狼, 讨厌的家伙",
+"c": "1000 Words: Nature 自然: Deserts",
+"ipa": "/'kɒiәut/"
+},
+{
+"w": "barrel cactus",
+"m": "桶形仙人掌",
+"c": "1000 Words: Nature 自然: Deserts"
+},
+{
+"w": "golden eagle",
+"m": "n. 鹫; 金雕",
+"c": "1000 Words: Nature 自然: Find three birds"
+},
+{
+"w": "bighorn sheep",
+"m": "[医]大角羊",
+"c": "1000 Words: Nature 自然: Find three birds"
+},
+{
+"w": "roadrunner",
+"m": "n. [鸟](中美、北美产)走鹃",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'rәjd,rʌnә(r)/"
+},
+{
+"w": "yucca",
+"m": "n. 丝兰",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'jʌkә/"
+},
+{
+"w": "aloe",
+"m": "n. 芦荟, 芦荟叶汁",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'ælәu/"
+},
+{
+"w": "tarantula",
+"m": "n. 鸟蛛, 狼蛛",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/tә'ræntjulә/"
+},
+{
+"w": "marten",
+"m": "n. 貂, 貂皮",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'mɑ:tin/"
+},
+{
+"w": "stone",
+"m": "n. 石头, 宝石, 果核, 纪念碑, 结石；vt. 投扔石子, 铺石头",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/stәun/"
+},
+{
+"w": "foothill",
+"m": "n. 山麓小丘",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'futhil/"
+},
+{
+"w": "lynx",
+"m": "n. 猞猁",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/liŋks/"
+},
+{
+"w": "bog bilberry",
+"m": "水越橘，笃斯越橘",
+"c": "1000 Words: Nature 自然: Find three birds"
+},
+{
+"w": "lemming",
+"m": "n. 旅鼠",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'lemiŋ/"
+},
+{
+"w": "beluga",
+"m": "n. 大白鳇, 白鲸",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/bә'lu:gә/"
+},
+{
+"w": "narwhal",
+"m": "n. 独角鲸（等于narwal）；一角鲸（一种齿鲸, 雄性有一长牙）",
+"c": "1000 Words: Nature 自然: Find three birds",
+"ipa": "/'nɑ:hwәl. -hwɑ:l/"
+},
+{
+"w": "polar",
+"m": "a. 两极的, 极地的, 正好相反的, 极性的；n. 极线, 极面",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/'pәulә/"
+},
+{
+"w": "hair grass",
+"m": "南极发草",
+"c": "1000 Words: Nature 自然: Antarctic"
+},
+{
+"w": "pearlwort",
+"m": "n. [植]漆姑草",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/'pә:lwә:t/"
+},
+{
+"w": "wandering",
+"m": "a. 漫游的, 徘徊的, 流浪的, 蜿蜒的；n. 闲逛, 流浪, 离题, 胡言乱…",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/'wɒndәriŋ/"
+},
+{
+"w": "albatross",
+"m": "n. 信天翁, 沉重负担",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/'ælbәtrɒs/"
+},
+{
+"w": "orca",
+"m": "n. 逆戟鲸,类逆戟鲸,魔鬼,兽人",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/ɔ:kә/"
+},
+{
+"w": "adelie penguin",
+"m": "un. 企鹅；阿得里企鹅",
+"c": "1000 Words: Nature 自然: Antarctic"
+},
+{
+"w": "leopard seal",
+"m": "豹形海豹",
+"c": "1000 Words: Nature 自然: Antarctic"
+},
+{
+"w": "reintroduction",
+"m": "n. 再介绍；再引入",
+"c": "1000 Words: Nature 自然: Antarctic",
+"ipa": "/.ri:intrә-'dʌkʃәn/"
+},
+{
+"w": "kites",
+"m": "n. 风筝；轻帆（kite的复数）",
+"c": "1000 Words: Nature 自然: Antarctic"
+},
+{
+"w": "electric car",
+"m": "电车",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "walking",
+"m": "n. 步行, 步态；a. 步行的, 步行用的",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/'wɒ:kiŋ/"
+},
+{
+"w": "reforestation",
+"m": "n. 重新造林",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/.ri:fɒ:ris'teiʃәn/"
+},
+{
+"w": "warming",
+"m": "n. 暖和, 加温, 暖热, 温暖, (非正式)打, 鞭打",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/'wɔ:miŋ/"
+},
+{
+"w": "wildfires",
+"m": "(wildfire 的复数) n. (古时战争时所用的)燃料剂, 磷火, 鬼火,…",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "ling",
+"m": "n. 鳕鱼, 帚石南",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/liŋ/"
+},
+{
+"w": "melting",
+"m": "a. 熔化的, 温柔的, 令人感动的, 甜美的",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/'meltiŋ/"
+},
+{
+"w": "cleaning up",
+"m": "清理",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "the environment",
+"m": "n. 环境, 外界, 围绕",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/in'vairәnmәnt/"
+},
+{
+"w": "tree surgeon",
+"m": "n. 树木整形专家",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "zookeeper",
+"m": "n. 动物园管理者",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/'zu:,ki:pә(r)/"
+},
+{
+"w": "natural history",
+"m": "n. 博物学, 有关博物学的书",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "street cleaner",
+"m": "n. 清道夫",
+"c": "1000 Words: Nature 自然: Our air"
+},
+{
+"w": "an aquarium",
+"m": "n. 水族馆, 养鱼池, 水草缸",
+"c": "1000 Words: Nature 自然: Our air",
+"ipa": "/ә'kwєәriәm/"
+},
+{
+"w": "The present simple is used to make simple statements of fact, to talk about things that happen repeatedly, and to describe things that are always true",
+"m": "【一般现在时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To make the present simple of most verbs, use the base form (the infinitive without “to”)",
+"m": "【一般现在时】The Present Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To make negative sentences using “be” in the present simple, “not” is added after the verb. For other verbs, the auxiliary verb “do not” or “does not” is used",
+"m": "【一般现在时否定】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To form questions in the present simple using “be,” reverse the order of the subject and the verb",
+"m": "【一般现在时疑问句】Questions With “Be” In The Present Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Never add “-s” or “-es” to the base form of the verb when asking a question, even in the third person singular (“he,” “she,” or “it”)",
+"m": "【一般现在时疑问句】Common Mistakes Forming Present Simple Questions",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present continuous is used to talk about continued actions that are happening in the present moment. It is formed with “be” and a present participle",
+"m": "【现在进行时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present continuous is used to describe a current, continued action",
+"m": "【现在进行时】The Present Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present participle is formed by adding “-ing” to the base form of the verb. Some participles have slightly different spelling rules",
+"m": "【现在进行时】Present Participle Spelling Rules",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Action verbs can be used in simple and continuous forms",
+"m": "【现在进行时】Common Mistakes State Verbs In Continuous Tenses",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To ask questions in the present continuous, swap the subject and the form of “be.” “He” is the subject",
+"m": "【现在进行时】Questions In The Present Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "There are different ways to form questions and negatives with these tenses",
+"m": "【现在时总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present simple is used to talk about permanent situations, regular occurrences, things that are always true, repeated actions, and ongoing states",
+"m": "【现在时总览】The Present Simple And The Present Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Present simple questions with “be” are formed differently from other verbs",
+"m": "【现在时总览】Present Tense Questions",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "An “-s” is added to the base form in affirmative sentences",
+"m": "【现在时总览】Affirmative",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The base form is used in the negative",
+"m": "【现在时总览】Negative",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Imperatives are used to give commands or to make requests. They can also be used to give warnings or directions",
+"m": "【祈使句】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "An exclamation mark is used if the imperative is urgent",
+"m": "【祈使句】Imperatives",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "An imperative sentence does not usually have a subject, but sometimes a noun or a pronoun is used to make it clear who is being talked to",
+"m": "【祈使句】Subjects With Imperatives",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Imperatives in English can be considered rude",
+"m": "【祈使句】Polite Requests",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple is used to talk about completed actions that happened at a fixed time in the past. It is the most commonly used past tense in English",
+"m": "【一般过去时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To form a regular verb in the past simple, “-ed” is added to the base form",
+"m": "【一般过去时】Regular Verbs In The Past Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple of all regular verbs ends in “-ed,” but for some verbs, there are some spelling changes, too",
+"m": "【一般过去时】Spelling Rules For The Past Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple of “be” is completely irregular",
+"m": "【一般过去时】“Be” In The Past Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple negative is used to talk about things that did not happen in the past. It is always formed the same way, unless the main verb is “be.”",
+"m": "【一般过去时否定】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "To make the negative, “didn’t” is used with the base form",
+"m": "【一般过去时否定】Last Week",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "When using the negative form of the past simple, “didn’t” plus the main verb in the base form is used. The main verb is never in the past simple",
+"m": "【一般过去时否定】Common Mistakes Base Forms In The Past Simple Negative",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Questions in the past simple are formed using “did.” For past simple questions with “be,” the subject and the verb “was” or “were” are swapped around",
+"m": "【一般过去时疑问句】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Use “did” plus the base form of the verb to ask a question in the past simple",
+"m": "【一般过去时疑问句】Questions In The Past Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Past simple shows the action happened once and is now finished",
+"m": "【过去进行时】The Past Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past continuous shows the action went on for some time, but is now finished",
+"m": "【过去进行时】12:30Pm",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past continuous is often used in storytelling to set a scene or describe a situation",
+"m": "【过去进行时】The Past Continuous For Scene-Setting",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present perfect can be used to talk about the past in a number of different ways: To give new information or news",
+"m": "【现在完成时】Present Perfect",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Regular past participles are formed by adding “-ed” to the base form",
+"m": "【现在完成时】Regular Past Participles",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "English has a lot of irregular past participles, which sometimes look very different from the base form",
+"m": "【现在完成时】Irregular Past Participles",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "It is important not to mix up past simple forms with past participles",
+"m": "【现在完成时】Common Mistakes Past Simple Forms And Past Participles",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple is used to talk about something that happened at a definite time. The present perfect is used when a particular time is not specified",
+"m": "【现在完成时】The Present Perfect Simple And The Past Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "US English often uses the past simple when UK English would use the present perfect",
+"m": "【现在完成时】The Present Perfect In Us English",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present perfect continuous is used to show that an activity in the past was in progress. It is possible that the activity is still taking place",
+"m": "【现在完成进行时】The Present Perfect Continuous And The Present Perfect Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present perfect simple is used to show that an activity in the past is finished",
+"m": "【现在完成进行时】Present Perfect Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "English uses the past perfect simple with the past simple to talk about two or more events that happened at different times in the past",
+"m": "【过去完成时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past participle expresses the action in the past",
+"m": "【过去完成时】Past Participle",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present perfect is used to talk about an action that took place in the recent past and is still relevant to the present moment",
+"m": "【过去完成时】Present Perfect Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past perfect is used to talk about an action that took place before another moment in the past",
+"m": "【过去完成时】Past Perfect Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "English uses the past perfect continuous with the past simple to talk about an activity that was in progress before another action or event happened",
+"m": "【过去完成进行时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present perfect continuous is used to talk about an action in progress or repeated activity that was taking place until the present moment",
+"m": "【过去完成进行时】Present Perfect Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past perfect continuous is used to talk about an ongoing action or repeated activity that was taking place until another specified moment in the past",
+"m": "【过去完成进行时】Past Perfect Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "When talking about habits or states in the past, “used to” or “would” are often used. English often uses these forms to contrast the past with the present",
+"m": "【used to 与 would（过去习惯）】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The differences between the past simple and the present perfect simple are particularly important",
+"m": "【过去时总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple refers to a single, completed action in the past",
+"m": "【过去时总览】Past Tenses",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past simple is used to refer to single, completed actions or events in the past",
+"m": "【过去时总览】Past Simple And Present Perfect Simple",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Narrative tenses are types of past tense that are used when telling a story",
+"m": "【过去时总览】Key Language Narrative Tenses",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Future forms in English are formed using auxiliary verbs. One of the most commonly used constructions is “going to” plus the base form of the main verb",
+"m": "【be going to 表将来】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "“Will” is used to form some future tenses in English. It can be used in several different ways, which are all different from the future with “going to.”",
+"m": "【will 表将来】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The future continuous can be formed using “will” or “going to.” It describes an event or situation that will be in progress at some point in the future",
+"m": "【将来进行时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The future continuous is also used to ask neutral questions: questions asked for information, not to make a request",
+"m": "【将来进行时】Neutral Questions",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "You can also use the future continuous to speculate about what is happening at the present moment",
+"m": "【将来进行时】The Future Continuous To Talk About The Present",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The future perfect is used to describe an action or event that will be finished before a certain future time",
+"m": "【将来完成时】The Future Perfect",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The future perfect continuous can be used to predict the length of an activity",
+"m": "【将来完成时】The Future Perfect Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "There are a number of constructions in English that can be used to describe thoughts about the future that someone had at some point in the past",
+"m": "【过去将来时】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The future in the past is used to look back on an earlier prediction",
+"m": "【过去将来时】The Future In The Past Using “Was Going To”",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "Where “will” is used to talk about a future event from the present, “would” is used to talk about a past view of it",
+"m": "【过去将来时】The Future In The Past Using “Would”",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The past continuous is used to talk about an arranged future event from a time in the past",
+"m": "【过去将来时】The Future In The Past Using The Past Continuous",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "This tense looks back from an imagined time in the future",
+"m": "【将来时总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present simple can be used to talk about events that are timetabled or scheduled to take place in the future",
+"m": "【将来时总览】The Future",
+"c": "DK 英语语法指南 Grammar: 时态",
+"t": 1
+},
+{
+"w": "The present continuous passive is used to refer to ongoing actions",
+"m": "【被动语态】The Present Continuous Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The thing that receives the action",
+"m": "【被动语态】“Am / Is / Are”",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "English uses the passive voice in the past to stress the effect of an action that happened in the past, rather than the cause of that action",
+"m": "【过去时被动】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The past simple passive is used when referring to a single completed action in the past, focusing on the effect rather than the cause",
+"m": "【过去时被动】The Past Simple Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The past continuous can also be used in the passive voice. It is used to refer to ongoing actions in the past",
+"m": "【过去时被动】The Past Continuous Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The main verb is expressed as a past participle",
+"m": "【过去时被动】\"By\" + Agent",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The present perfect passive is used to talk about events in the past that still have an effect on the present moment",
+"m": "【过去时被动】The Present Perfect Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The past perfect passive is used to refer to events that happened before another event in the past",
+"m": "【过去时被动】The Past Perfect Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "English uses the passive voice in the future to stress the effect of an action that will happen in the future, rather than the cause of that action",
+"m": "【将来时被动】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "It is not known or important who will catch the thief",
+"m": "【将来时被动】Future Simple Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The future perfect passive is used to talk about events that will be finished at some point in the future",
+"m": "【将来时被动】The Future Perfect Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The main verb is a past participle",
+"m": "【将来时被动】Past Participle",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Modal verbs in English can be used in passive forms. As with other passive constructions, the emphasis changes to the object that receives the action",
+"m": "【情态动词被动】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Modals in passive forms don’t change. The sentence starts with the modal, then the verb “be” plus the past participle",
+"m": "【情态动词被动】Modals In The Present Passive",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Many idioms in English use passive forms. Some idioms use standard rules for passive forms, while others are slightly different",
+"m": "【其他被动结构】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Some passive constructions are used to distance the writer or speaker from the facts. They are often used in academic writing or news reports",
+"m": "【其他被动结构】Reporting With Passives",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Conditional sentences are used to describe real or hypothetical results of real or hypothetical situations. They can use many different verb forms",
+"m": "【条件句】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Present simple describes the action",
+"m": "【条件句】Action (Present Simple)",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Result is described using present simple",
+"m": "【条件句】Result (Present Simple)",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The first conditional, also called the “future real” conditional, uses “if ” to describe a realistic action that might lead to a future result",
+"m": "【条件句】The First Conditional",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Comma goes at the end of the “if ” clause",
+"m": "【条件句】Future With “Will”",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The “if “ clause is the unreal past condition",
+"m": "【条件句】“Had” + Past Participle",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Using different modals changes the certainty of the imagined result",
+"m": "【条件句】“Would / Could / Might”",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The conditional clause is the unreal result",
+"m": "【条件句】“Have” + Past Participle",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The second conditional is used to talk about hypothetical situations in the present",
+"m": "【条件句】Third Conditional",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Mixed conditionals are usually used to talk about hypothetical present reults of unreal past situations",
+"m": "【条件句】Mixed Conditional",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "English allows for some variations in conditional sentence structures. These give more information about the context of the conditional",
+"m": "【其他条件句】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "In the third conditional, “would” can be replaced by “could” or “might” to express ability, possibility, or uncertainty",
+"m": "【其他条件句】Third Conditional",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "The first conditional is used to talk about hypothetical situations that are likely to happen",
+"m": "【条件句总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "When the action comes before the result, a comma separates the two clauses of the conditional sentence. However, when the result comes first, no comma is used",
+"m": "【条件句总览】Using Commas In Conditional Sentences",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "There are many ways to talk about imaginary future situations. Different structures can be used to indicate whether a situation is likely or unlikely",
+"m": "【将来的可能性】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "English uses the verb “wish” to talk about present and past regrets. The tense of the verb that follows “wish” affects the meaning of the sentence",
+"m": "【愿望与遗憾（wish）】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Stronger regrets about the present can be expressed by using “if only” and the past simple",
+"m": "【愿望与遗憾（wish）】Present Regrets",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Stronger regrets about the past can be expressed by using “if only” and the past perfect",
+"m": "【愿望与遗憾（wish）】Past Regrets",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "To make a question using the verb “be,” the verb goes before the subject",
+"m": "【疑问句构成】Questions With “Be”",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "To ask questions about the past using the verb “be,” the subject and verb swap places",
+"m": "【疑问句构成】Questions With “Be” In The Past",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "When questions are formed with the auxiliary verb “do,” the main verb must be in the base form",
+"m": "【疑问句构成】Common Mistakes Base Forms In Questions With “Do”",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Open questions are questions that do not have simple “yes” or “no” answers. In English, they are formed by using question words",
+"m": "【疑问词】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "There are nine common question words in English",
+"m": "【疑问词】Question Words",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "Open questions can’t be answered with “yes” or “no.” They are formed differently depending on the main verb of the question",
+"m": "【开放式问题】核心规则",
+"c": "DK 英语语法指南 Grammar: 被动与条件句",
+"t": 1
+},
+{
+"w": "There are two kinds of question: object questions and subject questions. They are formed in different ways and are used to ask about different things",
+"m": "【宾语/主语疑问句】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Object questions must use a form of the auxiliary “do.” “Did” is the auxiliary verb in this object question",
+"m": "【宾语/主语疑问句】Common Mistakes Object And Subject Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Indirect questions are more polite than direct questions. They are very common in formal spoken English, particularly when asking for information",
+"m": "【间接疑问句】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "A polite opening phrase comes first",
+"m": "【间接疑问句】Opening Phrase",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Indirect closed questions are formed using “if ” or “whether.” In this context, “if ” and “whether” mean the same thing",
+"m": "【间接疑问句】Indirect Closed Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "When a question has an opening phrase, the word order in indirect questions is the same as in a statement",
+"m": "【间接疑问句】Common Mistakes Word Order With Indirect Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "The simplest question tags use the verb “be” with a pronoun matching the subject of the sentence",
+"m": "【反义疑问句】Question Tags Using “Be”",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Question tag uses negative form of verb",
+"m": "【反义疑问句】Negative Question Tag",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Question tag uses positive form of verb",
+"m": "【反义疑问句】Positive Question Tag",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Main verb describes the action",
+"m": "【反义疑问句】Question Tag",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "If the intonation goes up at the end of the question tag, it is a question requiring an answer",
+"m": "【反义疑问句】Intonation With Question Tags",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Short questions are a way of showing interest during conversation. They’re used to keep conversation going, rather than to ask for new information",
+"m": "【简短问句】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Short questions must be in the same tense as the statement they’re responding to",
+"m": "【简短问句】Short Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "In US English, short questions are sometimes not inverted",
+"m": "【简短问句】Short Questions In Us English",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "When answering closed questions in English, some words can often be left out to make responses shorter. These short answers are often used in spoken English",
+"m": "【简略回答】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "When the question uses “there,” it is also used in the answer",
+"m": "【简略回答】Short Answers With “There”",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "The subject and the auxiliary verb swap places",
+"m": "【疑问句总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Questions in English are formed differently depending on whether they are asking who or what did an action or who or what received an action",
+"m": "【疑问句总览】Subject And Object Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Subject Subject questions ask who did an action",
+"m": "【疑问句总览】Statement",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Closed questions can only be answered with “yes” or “no.” When they are spoken, the voice often rises at the end of the question",
+"m": "【疑问句总览】Closed And Open Questions",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "The words that people say are called direct speech. Reported speech is often used to describe what someone said at an earlier point in time",
+"m": "【间接引语】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "Direct speech uses the present simple",
+"m": "【间接引语】Reported Speech",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "In reported speech, “tell” can also be used as the main verb. It must be followed by an object, which shows who someone is talking to",
+"m": "【间接引语】“Tell” In Reported Speech",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "In reported speech, the reported verb usually “goes back” a tense. Time and place references and pronouns sometimes also change",
+"m": "【间接引语的时态】核心规则",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "The tense used in reported speech is usually one tense back in time from the tense in direct speech",
+"m": "【间接引语的时态】Reported Speech In Different Tenses",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "The past simple in direct speech can either stay as the past simple or change to the past perfect in reported speech. The meaning is the same",
+"m": "【间接引语的时态】Reported Speech And The Past Simple",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "If the situation described is ongoing, the verb does not have to change tense in reported speech",
+"m": "【间接引语的时态】Reported Speech Without Change Of Tense",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "If speech is reported some time after it was said, words used to talk about times and places may need to change",
+"m": "【间接引语的时态】Time And Place References",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "In reported speech, pronouns may also need to be changed to ensure they refer to the correct person or thing",
+"m": "【间接引语的时态】Other Changes In Reported Speech",
+"c": "DK 英语语法指南 Grammar: 疑问句",
+"t": 1
+},
+{
+"w": "In reported speech, “said” can be replaced with a wide variety of verbs that give people more information about how someone said something",
+"m": "【转述动词】核心规则",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Verb introduces reported speech and gives more information about it",
+"m": "【转述动词】Reporting Verb (Past Tense)",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Verb is followed by “that.” Reported speech changes tense as usual",
+"m": "【转述动词】Past Tense",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Some reporting verbs are followed by an object and an infinitive. English often uses these verbs to report orders, advice, and instructions",
+"m": "【转述动词】Reporting Verbs With Object And Infinitive",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "The object shows who was being spoken to",
+"m": "【转述动词】Reporting Verb (Past Tense)",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "When the direct speech is negative using “do not,” “is not,” and “has not,” “do,” “is,” or “has” changes tense, rather than the main verb",
+"m": "【否定的间接引语】Reporting Negative Auxiliaries",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "If a reporting verb is followed by an object and an infinitive, “not” goes between the object and the infinitive to form the negative",
+"m": "【否定的间接引语】Reporting Other Verbs With Negatives",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Reported questions are used to describe questions that someone has asked. Direct questions and reported questions use different word orders",
+"m": "【间接引语中的问句】核心规则",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Direct open questions are reported by swapping the order of the subject and the verb",
+"m": "【间接引语中的问句】Reported Open Questions",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "The subject comes before the verb in reported questions",
+"m": "【间接引语中的问句】Question Word",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "When a direct question uses the verb “do,” this is left out of reported questions",
+"m": "【间接引语中的问句】Reporting Questions With “Do”",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "It is incorrect to swap the verb and object in reported questions",
+"m": "【间接引语中的问句】Common Mistakes Word Order In Reported Questions",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "PRONOUNS",
+"m": "【间接引语总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Certain words have variable reference, which means their meaning is context-dependent",
+"m": "【间接引语总览】Changing References In Reported Speech",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "The reporting verb can be in the present tense",
+"m": "【间接引语总览】Reporting Verbs In The Present Tense",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Most modal verbs, except for “will” and “can,” behave differently from other verbs",
+"m": "【间接引语总览】Reporting Modal Verbs",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Verbs can be described as main verbs or auxiliary verbs. Main verbs describe actions, occurrences, or states of being",
+"m": "【动词类型】核心规则",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Linking verbs express a state of being or becoming. They link a subject to a complement, which renames or describes the subject",
+"m": "【动词类型】Linking Verbs",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "The direct object is what the verb “gave” refers to",
+"m": "【动词类型】Direct Object",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Verbs that describe actions or events are known as “action” or “dynamic” verbs, whereas those that describe states are known as “state” or “stative” verbs",
+"m": "【动作动词与状态动词】核心规则",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Action verbs usually describe what people or things do",
+"m": "【动作动词与状态动词】Action And State Verbs",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Action verbs can be used in simple forms and continuous forms",
+"m": "【动作动词与状态动词】Action Verb",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "State verbs are not usually used in the continuous form",
+"m": "【动作动词与状态动词】State Verb",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Most state verbs cannot be used in continuous forms",
+"m": "【动作动词与状态动词】Common Mistakes Using State Verbs In Continuous Tenses",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Some verbs can be both action and state verbs. When these verbs are describing an action, they can be used in continuous forms",
+"m": "【动作动词与状态动词】Using State Verbs In Continuous Forms",
+"c": "DK 英语语法指南 Grammar: 间接引语",
+"t": 1
+},
+{
+"w": "Infinitives and participles are forms of verbs that are rarely used on their own, but are important when making other forms or constructions",
+"m": "【不定式与分词】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "The infinitive is the simplest form of the verb. English verbs have two types of infinitive",
+"m": "【不定式与分词】Infinitives",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Present participles and gerunds are formed by adding “-ing” to the base form of the verb",
+"m": "【不定式与分词】Present Participles And Gerunds",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Past participles are used with auxiliary verbs to form perfect simple tenses, such as the present perfect simple",
+"m": "【不定式与分词】Past Participles",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verbs in English can only go with a gerund or an infinitive. Some verbs can go with either",
+"m": "【动词搭配模式】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Infinitive with “to” describes the activity",
+"m": "【动词搭配模式】Infinitive",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "English uses gerunds after certain verbs that say how a person feels about an activity",
+"m": "【动词搭配模式】Verbs With Gerunds",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verbs can be followed by a gerund (an “-ing” form) or a “to” infinitive, with little or no change in meaning",
+"m": "【动词搭配模式】Verbs Followed By Infinitive Or Gerund (No Change In Meaning)",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verbs that are followed by an infinitive must also have an object before that infinitive",
+"m": "【带宾语的动词模式】Verb With Object And Infinitive",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "When the verb “want” is followed by an object and an infinitive, it is not formed with a “that” clause",
+"m": "【带宾语的动词模式】Common Mistakes Verb Patterns With “Want”",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verbs that are followed by a gerund must also have an object before that gerund",
+"m": "【带宾语的动词模式】Verb + Object + Gerund Patterns",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "The preposition is dropped when the order of the objects is reversed",
+"m": "【带宾语的动词模式】Indirect Object",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "If the direct object is a pronoun, it must come before the indirect object",
+"m": "【带宾语的动词模式】Using Double Object Verbs With Pronouns",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verb patterns include prepositions. Prepositions cannot be followed by infinitives, so these verb patterns only use gerunds",
+"m": "【动词+介词模式】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "If a preposition is followed by a verb, the verb must be a gerund (the “-ing” form)",
+"m": "【动词+介词模式】Verb With Preposition And Gerund",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "If a verb takes an object, that object must come between the verb and the preposition",
+"m": "【动词+介词模式】Verb With Object, Preposition, And Gerund",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Some verbs in English have two or more words in them, and usually have a new meaning when they are used together. These are called phrasal verbs",
+"m": "【短语动词】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Phrasal verbs have a verb plus one or more particles (prepositions or adverbs.) The particle often changes the usual meaning of the verb",
+"m": "【短语动词】Phrasal Verbs",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "When phrasal verbs are used in different tenses, the verb changes, but the particle remains the same",
+"m": "【短语动词】Phrasal Verbs In Different Tenses",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "If the direct object of a separable phrasal verb is a pronoun, it must go between the verb and the particle",
+"m": "【短语动词】Common Mistakes Separable Phrasal Verbs",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "The verb changes with the subject",
+"m": "【短语动词】Verb + Particle + Preposition",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "In spoken English, the stress is on the middle word of a three-word phrasal verb",
+"m": "【短语动词】Intonation",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Modal verbs are very common in English. They are used to talk about a variety of things, particularly possibilities, obligations, and deductions",
+"m": "【情态动词】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "English has many modal verbs. Each modal verb can can be used in several different contexts",
+"m": "【情态动词】Uses Of Modal Verbs",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "Modal verbs share certain characteristics. They don’t change form to match the subject, and they are always followed by a main verb in its base form",
+"m": "【情态动词】Modal Verb Formations",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "The modal verb stays the same for any subject",
+"m": "【情态动词】Modal Verb",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "“Can” is a modal verb that describes what someone is able to do. It is used in different forms to describe past and present abilities",
+"m": "【表能力】核心规则",
+"c": "DK 英语语法指南 Grammar: 动词用法",
+"t": 1
+},
+{
+"w": "“Can,” “could,” and “may” are used to ask permission to do something, or to ask someone to do something for you. They can also be used to offer to help someone",
+"m": "【许可、请求与提议】核心规则",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The modal verb “could” can be used to offer suggestions. “Could” is not as strong as “should.” It communicates gentle advice",
+"m": "【建议与劝告】核心规则",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "English uses “if I were you” to give advice in second conditional sentences",
+"m": "【建议与劝告】“If I Were You”",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "When people give suggestions using “could,” they often give more than one option to choose from",
+"m": "【建议与劝告】“Could” And “Or” For Suggestions",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "One of the most common ways of recommending something or making a suggestion is to use modal verbs",
+"m": "【建议与劝告】Making Recommendations",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "In English, “have to” or “must” are used when talking about obligations or things that are necessary. They are often used to give important instructions",
+"m": "【义务（must / have to）】核心规则",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "There is no future form of “must.” The future of “have to” is formed with the auxiliary verb “will.” “Will must” is incorrect",
+"m": "【义务（must / have to）】“Must” And “Have To” In The Future",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "There is no past form of “must.” The past tense of “have to” is used instead",
+"m": "【义务（must / have to）】“Must” And “Have To” In The Past",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The modal verbs “might” and “could” are used to talk about something with uncertainty",
+"m": "【推测】Speculation And Deduction",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "Modal verbs can be used to talk about possibility, or to express uncertainty. “Might” is the most common modal verb used for this purpose",
+"m": "【可能性】核心规则",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "As well as “might,” other modal verbs can be used to talk about something that possibly happened in the past",
+"m": "【可能性】Past Possibility",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The indefinite article “a” or “an” is used to talk about something in general",
+"m": "【冠词】The Indefinite Article",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The definite article “the” is used to talk about a specific person or thing that everyone understands",
+"m": "【冠词】The Definite Article",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "Some adjectives can be used with the definite article to refer to a group or class of people",
+"m": "【冠词】“The” With Adjectives For Certain Groups",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The zero article can be used with plural nouns to talk about a class of things in general. This can also be done with the definite article, plus a singular noun",
+"m": "【冠词】The Zero Article And Generic “The”",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "The zero article is normally used with the name of a person",
+"m": "【冠词】Definite And Indefinite Articles With Names",
+"c": "DK 英语语法指南 Grammar: 情态动词",
+"t": 1
+},
+{
+"w": "“No” and “none” both show the absence or lack of something. “No” is always used with a noun, whereas “none” replaces a noun in a sentence",
+"m": "【no 与 none】核心规则",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Although “no” has the same meaning as “not any” in this context, “no” is often emphatic",
+"m": "【no 与 none】“No” And Noun For Emphasis",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "“Each” and “every” are words that go before singular nouns to refer to all members of a group of people or things",
+"m": "【each 与 every】核心规则",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "In most cases, there is no difference in meaning between “each” and “every.” Means all the times",
+"m": "【each 与 every】“Each” And “Every”",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Unlike “each,” “every” cannot be used to talk about just two things",
+"m": "【each 与 every】Common Mistakes “Each” And “Every”",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "“Either,” “neither,” and “both” are used in situations where two options are being described. They indicate that one, two, or none of the options are possible",
+"m": "【either / neither / both】核心规则",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "When “either… or” or “neither… nor” are used to join two nouns, the verb usually agrees with the second noun",
+"m": "【either / neither / both】Agreement After “Either… Or” And “Neither... Nor”",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Nouns in English do not have a gender. They change form depending on whether they are singular, meaning there is one, or plural, meaning there is more than one",
+"m": "【单复数名词】核心规则",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Common nouns often come after articles",
+"m": "【单复数名词】Common Nouns",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Nouns that refer to specific names of people, places, days, and months are called proper nouns, and begin with a capital letter",
+"m": "【单复数名词】Proper Nouns",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "To make most nouns plural, “-s” is added to the singular noun",
+"m": "【单复数名词】Spelling Rules For Plurals",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Countable and uncountable nouns In English, nouns can be countable or uncountable. Countable nouns can be individually counted",
+"m": "【可数与不可数名词】核心规则",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Uncountable nouns are always used with verbs in the singular",
+"m": "【可数与不可数名词】Uncountable Nouns",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "For both countable and uncountable nouns, “any” is used in negative sentences and questions",
+"m": "【可数与不可数名词】Negatives",
+"c": "DK 英语语法指南 Grammar: 冠词与限定词",
+"t": 1
+},
+{
+"w": "Most abstract nouns are uncountable. Some, however, can be either countable or uncountable, and the two forms often mean slightly different things",
+"m": "【抽象与具体名词】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Some abstract nouns have both countable and uncountable forms",
+"m": "【抽象与具体名词】Countable And Uncountable Abstract Nouns",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Each “time” is a specific occasion",
+"m": "【抽象与具体名词】Countable",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Compound nouns are two or more nouns that act as a single unit. The first noun(s) modifies the last, in a similar way to an adjective",
+"m": "【复合名词】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Two nouns can go together to talk about one thing",
+"m": "【复合名词】Compound Nouns",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Two or more nouns can be put with another noun to modify it. This structure is common in newspaper headlines in order to save space",
+"m": "【复合名词】Longer Compound Nouns",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "To make a compound noun plural, the final noun becomes plural",
+"m": "【复合名词】Plural Compound Nouns",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Cardinal numbers are used for counting and saying how many of something there are. Ordinal numbers give the position of something in an ordered list",
+"m": "【数字】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "You can say “one hundred” or “a hundred.” Both are correct",
+"m": "【数字】Large Numbers",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "It is important to stress the correct syllable in these numbers to avoid confusion",
+"m": "【数字】Numbers",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Decimals are always written as numbers, not words. The decimal point is spoken as “point,” and all numbers after the decimal point are spoken separately",
+"m": "【数字】Decimals",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "The % symbol is written and spoken as “percent.” “Per cent” is also sometimes written in UK English. Percentages are normally written as numbers, not words",
+"m": "【数字】Percentages",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "In English there are many ways to express general or specific quantities, say whether quantities are adequate, and compare different quantities",
+"m": "【数量表达】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "English has different phrases for quantities when the exact number is not known",
+"m": "【数量表达】Using Quantity Phrases",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "If specific figures are known, it can be useful to give them. However, more general terms may be needed if figures are not known, or to avoid repetition",
+"m": "【约数表达】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "There are certain quantifying phrases used in English when exact figures are not known, or not necessary to give",
+"m": "【约数表达】Approximate Quantities",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Certain expressions are used to show that a particular number or quantity is surprising",
+"m": "【约数表达】Surprising Numbers",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Reflexive pronouns show that the subject of a verb is the same as its object. They can also be used in other situations to add emphasis",
+"m": "【反身代词】核心规则",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Sometimes reflexive pronouns are not essential to the grammar of the sentence, but can be used to add emphasis in different ways",
+"m": "【反身代词】Using Reflexive Pronouns For Emphasis",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "When two or more people or things perform the same action to the other, “each other” is used instead of a reflexive pronoun",
+"m": "【反身代词】“Each Other”",
+"c": "DK 英语语法指南 Grammar: 名词与数量",
+"t": 1
+},
+{
+"w": "Possessive determiners, possessive pronouns, apostrophe with “s,” and the verbs “have” and “have got” are all used to express possession in English",
+"m": "【所有格】核心规则",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Possessive determiners are used before a noun to show who it belongs to. They change form depending on whether the owner is singular, plural, male, or female",
+"m": "【所有格】Possessive Determiners",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Possessive pronouns can also be used to explain who owns something. Unlike possessive determiners, they replace the noun they are showing possession of",
+"m": "【所有格】Possessive Pronouns",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "An apostrophe and the letter “s” are added to the end of a singular noun to show that what comes after the noun belongs to it",
+"m": "【所有格】Apostrophe With “S”",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Apostrophes are often incorrectly added before the “s” when talking about years or decades",
+"m": "【所有格】Common Mistakes Apostrophes",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "To show belonging with a plural noun that ends in “-s,” just an apostrophe with no “s” is added",
+"m": "【所有格】Apostrophes And Plural Nouns",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Although “have” is irregular, its negative is formed in the usual way",
+"m": "【所有格】“Have” Negatives",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "A defining, or restrictive, relative clause identifies the subject being talked about",
+"m": "【限制性定语从句】核心规则",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "English uses different relative pronouns to talk about people and things",
+"m": "【限制性定语从句】Relative Pronouns",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Relative clauses are made up of a subject, a verb, and usually an object",
+"m": "【限制性定语从句】Subjects And Objects In Defining Relative Clauses",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "A comma must go before the non-defining relative clause",
+"m": "【非限制性定语从句】Non-Defining Relative Clause",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Commas go before and after the non-defining relative clause",
+"m": "【非限制性定语从句】Non-Defining Relative Clause",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "The non-defining relative clause comes between the subject and the main verb",
+"m": "【非限制性定语从句】Rest Of Main Clause",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Relative words introduce phrases that describe a noun in the main part of the sentence. Different relative words are used to refer to different types of nouns",
+"m": "【其他关系结构】核心规则",
+"c": "DK 英语语法指南 Grammar: 代词与所有格",
+"t": 1
+},
+{
+"w": "Adding “-ever” to question words changes their meaning. These words can be adverbs or determiners in their own clauses, or they can join two clauses together",
+"m": "【-ever 疑问词（whatever 等）】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "In the past simple, “there was” is used to talk about singular or uncountable nouns, and “there were” is used to talk about plural nouns",
+"m": "【there be 句型】“There” In The Past Simple",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "In the present perfect, “there has been” is used to talk about singular or uncountable nouns, and “there have been” is used to talk about plural nouns",
+"m": "【there be 句型】“There” In The Present Perfect",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "In the future with “will,” “there will be” is used to talk about both singular and plural nouns",
+"m": "【there be 句型】“There” In The Future",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Some “it” clauses are followed by a “to” infinitive",
+"m": "【形式主语 it】“It” Clause",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Some “it” clauses are followed by “that” clauses",
+"m": "【形式主语 it】“That” Clause",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "“It” clauses, “what” clauses, or moving a noun to the front of a sentence can all be used to put emphasis on a certain word or phrase",
+"m": "【强调句（转移焦点）】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "If the subject of the sentence cannot be replaced with “what” (for example, people, places, or times) a general noun that has a similar meaning can be used",
+"m": "【强调句（转移焦点）】Focusing With A Noun",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Reversing the normal order of words, or inversion, can be used for emphasis or a sense of drama. It is common after certain types of adverbials",
+"m": "【倒装】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Some words can be left out of a sentence to avoid repetition, or when the meaning can be understood without them. This is called ellipsis",
+"m": "【省略】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "When two phrases are joined by “and,” “but,” or “or” it is common to leave out repeated words of various kinds",
+"m": "【省略】Ellipsis After Conjunctions",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Phrases with infinitives can sometimes be reduced or shortened to prevent repetition. This helps language to sound more natural",
+"m": "【不定式省略】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Sometimes “to” can be used instead of repeating the whole infinitive",
+"m": "【不定式省略】Shortening Infinitives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "As well as ellipsis (leaving words out), repetition can be avoided by replacing some phrases with shorter ones. This is called substitution",
+"m": "【替代（so / one / do）】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Adjectives are words that describe nouns. In English, they usually come before the noun that they are describing",
+"m": "【形容词】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Adjectives in English are usually placed before the noun they describe. They do not change form to agree with the noun",
+"m": "【形容词】Using Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Fact adjectives tell you a particular fact about the noun they are describing. There are many different categories of fact adjectives",
+"m": "【形容词】Types Of Fact Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Opinion adjectives describe what somebody thinks about something",
+"m": "【形容词】Types Of Opinion Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Adjectives that end in “-ing” describe the effect something has",
+"m": "【形容词】“-Ing” Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Adjectives ending in “-ed” describe how something is affected",
+"m": "【形容词】“-Ed” Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Gradable adjectives can be modified by adverbs to make the adjective’s original meaning more or less powerful",
+"m": "【可分级/不可分级形容词】Gradable Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Non-gradable adjectives like “fantastic” cannot be modified by adverbs",
+"m": "【可分级/不可分级形容词】Absolute Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Comparative adjectives are used to compare two things. They can either be formed by adding the suffix “-er,” or by putting “more” or “less” before the adjective",
+"m": "【形容词比较级】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "For most adjectives with one or two syllables, “-er” is added to make the comparative",
+"m": "【形容词比较级】Comparative Adjectives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "There are different rules for forming comparatives depending on the ending of the simple form of the adjective",
+"m": "【形容词比较级】Forming Comparatives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "If the adjective ends in “-e,” just an “-r” is added",
+"m": "【形容词比较级】Comparative",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Some common adjectives have irregular comparatives",
+"m": "【形容词比较级】Irregular Comparatives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "When forming comparatives, it is incorrect to add “more” before the adjective if it already has a comparative ending",
+"m": "【形容词比较级】Common Mistakes Forming Comparatives",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Modifiers can go before comparatives to make comparisons stronger or weaker",
+"m": "【形容词比较级】Adjectives With Modifiers",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Two comparatives can be used together in a sentence to show the effect of an action. They are also used to show that something is changing",
+"m": "【双比较级（越…越…）】核心规则",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Pairing two phrases that use comparative adjectives is a way of making comparisons that show cause and effect",
+"m": "【双比较级（越…越…）】Comparatives Showing Cause And Effect",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "A comparative can be repeated to show that something is changing",
+"m": "【双比较级（越…越…）】Comparatives Showing Change",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "In two comparatives that go with with long adjectives, “more” is repeated but the adjective is not",
+"m": "【双比较级（越…越…）】Long Comparatives Showing Change",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Modifiers can be added to “as… as” comparisons to make them more detailed or to add emphasis",
+"m": "【as…as 比较】“As… As” Comparisons With Modifiers",
+"c": "DK 英语语法指南 Grammar: 从句与特殊句型",
+"t": 1
+},
+{
+"w": "Superlative adjectives, such as “the biggest” or “the smallest,” are used to talk about extremes. Long adjectives take “most” and “least” to show an extreme",
+"m": "【形容词最高级】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "For most adjectives with one or two syllables, “-est” is added to make the superlative",
+"m": "【形容词最高级】Superlative Adjectives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "There are different rules for forming superlatives depending on the ending of the simple form of the adjective",
+"m": "【形容词最高级】Forming Superlatives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "If the adjective ends in “-e,” “-st” is added",
+"m": "【形容词最高级】Superlative",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some common adjectives have irregular superlatives",
+"m": "【形容词最高级】Irregular Superlatives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "For some two-syllable adjectives and for adjectives of three syllables or more, use “the most” or “the least” before the adjective to form the superlative",
+"m": "【形容词最高级】Superlatives With Long Adjectives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "When forming superlatives, it is incorrect to add “most” before the adjective if it already has a superlative ending",
+"m": "【形容词最高级】Common Mistakes Forming Superlatives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Words such as “quietly” and “loudly” are adverbs. They describe and give more information about verbs, adjectives, phrases, and other adverbs",
+"m": "【方式副词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Adverbs of manner describe the way something is done",
+"m": "【方式副词】Adverbs Of Manner",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some adverbs aren’t formed by adding “-ly” to the adjective",
+"m": "【方式副词】Irregular Adverbs Of Manner",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some adjectives have more than one meaning. In these cases, the equivalent adverb is often formed differently depending on the meaning of the adjective",
+"m": "【方式副词】Adverbs With The Same Form As Adjectives",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Comparative and superlative adverbs Adverbs have comparative forms to compare or show differences. They also have superlative forms to talk about extremes",
+"m": "【副词比较级与最高级】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "For some shorter adverbs, the comparative or superlative adjective is sometimes used as the comparative or superlative adverb",
+"m": "【副词比较级与最高级】Short Comparative And Superlative Adverbs",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Adverbs that can be used with gradable adjectives are called grading adverbs",
+"m": "【程度副词】Grading Adverbs",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Only grading adverbs can be used with gradable adjectives, and only non-grading adverbs can be used with non-gradable adjectives",
+"m": "【程度副词】Common Mistakes Grading And Non-Grading Adverbs",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Adverbs of time are used to give more precise information about exactly when something happens. They can also refer to a continuing event or action",
+"m": "【时间副词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "These adverbs give more information about when or if an action happened",
+"m": "【时间副词】“Just” And “About To”",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Adverbs of frequency show how often something is done, from something done very frequently (“always”) to something not done at all (“never”)",
+"m": "【频率副词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "These are used for things that happen all or a lot of the time",
+"m": "【频率副词】Adverbs Of Frequency",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Frequency can also be described with more precise expressions",
+"m": "【频率副词】Adverbs And Expressions Of Frequency",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "“So” and “such” are adverbs which can be used with certain words to add emphasis. They are similar in meaning, but they are used in different structures",
+"m": "【so 与 such】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "“Enough” is used when there is the correct degree or amount of something. “Too” is used when something is more than necessary or wanted",
+"m": "【enough 与 too】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Prepositions are words that are used to show relationships between different parts of a clause, for example relationships of time, place, or reason",
+"m": "【介词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some prepositions are made up of two words which act as a single unit",
+"m": "【介词】Complex Prepositions",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "When the same preposition applies to more than one word in a list, the preposition only needs to be used once",
+"m": "【介词】Parallel Prepositions",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "If a verb comes immediately after a preposition, it has to be a gerund, which is the “-ing” form of a verb",
+"m": "【介词】Prepositions And Gerunds",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Prepositions can come in many different places in a sentence, including at the end",
+"m": "【介词】Prepositions At The End Of Sentences",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some prepositions of place show the precise position or location of something in relation to something else. They can be used to answer a “where” question",
+"m": "【地点介词】Precise Prepositions Of Place",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Prepositions of time are often used to talk about schedules and routines. They give information about when something happens, and how long it lasts",
+"m": "【时间介词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Prepositions can be used to express relationships other than place and time, such as origin, ownership, and absence",
+"m": "【其他介词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some words must be followed by a specific preposition, called a dependent preposition. These words can be adjectives, verbs, or nouns",
+"m": "【固定搭配介词】核心规则",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some adjectives are always followed by the same preposition when used in a sentence",
+"m": "【固定搭配介词】Adjectives With Dependent Prepositions",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some adjectives can take one of a choice of prepositions in the same sentence without changing their meaning",
+"m": "【固定搭配介词】Adjective + Preposition",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some verbs can take either “to” or “for,” depending on the context",
+"m": "【固定搭配介词】Verbs With “To” Or “For”",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some nouns are always followed by the same preposition when used in a sentence",
+"m": "【固定搭配介词】Nouns With Dependent Prepositions",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Some nouns can take one of a choice of prepositions in the same sentence without changing their meaning",
+"m": "【固定搭配介词】Noun + Preposition",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "If a coordinating conjunction is joining two main clauses, a comma usually goes before the conjunction",
+"m": "【并列连词】Using Commas With Coordinating Conjunctions",
+"c": "DK 英语语法指南 Grammar: 形容词与副词",
+"t": 1
+},
+{
+"w": "Subordinating conjunctions are used to connect words, phrases, and clauses of unequal importance. They’re used to say why, where, or when something happens",
+"m": "【从属连词】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "UK English sometimes uses the present perfect instead of the present simple in subordinate time clauses",
+"m": "【从属连词】Another Way To Say It",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some words can be used to show a relationship between two sentences, or parts of a sentence. This can be cause, effect, emphasis, contrast, or comparison",
+"m": "【更多连接词】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some linking words are used most often in formal writing and speaking situations",
+"m": "【更多连接词】Formal Linking Words",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Subordinating conjunction",
+"m": "【连接词总览】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Coordinating conjunctions join together two words, phrases, or clauses of equal importance",
+"m": "【连接词总览】Conjunctions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Conjunctions can be used to describe a variety of relationships between two words, phrases, or clauses",
+"m": "【连接词总览】Uses Of Conjunctions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The subordinate clause can also go at the start of a sentence",
+"m": "【连接词总览】Main Clause",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Prefixes attach to the start of a word to change its meaning. Prefixes usually give the same change in meaning to each word they attach to",
+"m": "【前缀】Prefixes",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some words can take more than one kind of prefix to give different meanings",
+"m": "【前缀】Using Prefixes",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Suffixes attach to the end of a word to change its meaning. Suffixes usually give the same change in meaning to each word they attach to",
+"m": "【后缀】Suffixes",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some words can take more than one kind of suffix to give different meanings",
+"m": "【后缀】Using Suffixes",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Certain suffixes are only used for specific types of words. The suffix of a word can sometimes show what part of speech the word is",
+"m": "【后缀】Suffixes Changing Word Class",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "In English, there are several phrases which sound or look similar, but have different meanings. It is important not to get these confused",
+"m": "【易混淆短语】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The action happens to the object",
+"m": "【易混淆短语】Past Participle",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Certain words and phrases indicate at what point in a sequence something happens",
+"m": "【排序与组织】Sequencing Phrases",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some discourse markers show what is coming next. They help organize paragraphs and longer passages of formal text",
+"m": "【排序与组织】Formal Organizing Phrases",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Certain words can be used to show you disagree with someone or to correct a misunderstanding",
+"m": "【纠正与转换话题】Correcting And Disagreeing",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "FURTHER EXAMPLES 326",
+"m": "【决定与委婉表达】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "There are specific words and phrases which are used to discuss or compare the good and bad sides of an argument",
+"m": "【决定与委婉表达】Discussing Arguments",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Hedging words and phrases can be added to a sentence to make its meaning less definite, direct, or strong",
+"m": "【决定与委婉表达】Hedging",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Many words and phrases are used in English to ease the flow of conversation. These techniques are often called organizing, backchanneling, or stalling",
+"m": "【日常交谈】核心规则",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "A number of general words can be used to move from one topic to another in conversational English",
+"m": "【日常交谈】Informal Organizing Words",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "When listening to another speaker, it’s common to use words to show you agree and are paying attention",
+"m": "【日常交谈】Backchanneling",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The English alphabet has 26 letters. “A,” “E,” “I,” “O,” and “U” are vowels, and the rest are consonants",
+"m": "【日常交谈】The Alphabet",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Imperatives are used to give commands or to make requests",
+"m": "【日常交谈】The Imperative",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The past simple describes single, completed actions in the past",
+"m": "【日常交谈】Past Tenses",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The past perfect simple is used to talk about a completed action that took place before another completed action in the past",
+"m": "【日常交谈】Past Perfect Tenses",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "The future perfect is used to talk about an event that will overlap with, or finish before, another event or point in the future",
+"m": "【日常交谈】Future Perfect",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "These contractions are often spelled incorrectly because they look and sound very similar to other words. Contracted forms always use an apostrophe",
+"m": "【日常交谈】Common Mistakes Contractions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some adjectives have to be followed by a specific preposition",
+"m": "【日常交谈】Adjectives And Prepositions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some nouns have to be followed by a specific preposition",
+"m": "【日常交谈】Nouns And Prepositions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some verbs have to be followed by a specific preposition",
+"m": "【日常交谈】Verbs And Prepositions",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some verbs are followed by an infinitive or a gerund. Some can be followed by either without changing their meaning",
+"m": "【日常交谈】Verbs With Gerunds Or Infinitives",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "State verbs describe states, such as emotions, possession, senses, or thoughts. They are not usually used in continuous tenses",
+"m": "【日常交谈】Common State Verbs",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Some phrasal verbs cannot be separated. Their object always comes after them, even if it is a pronoun",
+"m": "【日常交谈】Inseparable Phrasal Verbs",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Last letter is \"-e,\" so just add \"-d\" Change consonant plus \"-y\" to \"-ied.\" Double last letter if word ends with stressed syllable of consonant-vowel-consonant",
+"m": "【日常交谈】Past Participle",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Most plurals in English are formed by adding “-s” to the end of the singular noun",
+"m": "【日常交谈】Irregular Plurals",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "Linking words are used to link two or more words, phrases or clauses together",
+"m": "【日常交谈】Linking Words",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
+},
+{
+"w": "English has lots of words to talk about when things happen. They usually act as prepositions, conjunctions, or adverbs",
+"m": "【日常交谈】Time Words",
+"c": "DK 英语语法指南 Grammar: 介词与连词",
+"t": 1
 }
 ];
