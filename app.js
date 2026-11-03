@@ -67,7 +67,7 @@ function makeQ(w,k){const L=list().length>=8?list():WORDS;const others=shuf(L.fi
  return {q:`Which one means: <b>${esc(w.m)}</b>?`,opts:opts.map(x=>x.w),a:w.w}}
 let Q=[],qi=0,score=0;
 function quizStart(){Q=shuf(pool()).map(makeQ);qi=0;score=0;quiz()}
-function quiz(){const el=$('tab-quiz');if(!Q.length){el.innerHTML=picker()+`<div class="card"><h2>Daily quiz</h2><p>${S.qlen} questions: meaning, fill-in-the-blank and listening.</p>${S.days[TK]?'<p>✅ Already done today — practise again anytime!</p>':''}<button class="btn" onclick="quizStart()">Start quiz</button></div>`;$('cat').onchange=e=>{S.cat=e.target.value;save();quiz()};return}
+function quiz(){const el=$('tab-quiz');if(!Q.length){el.innerHTML=`<select id="qlen2" class="sel">${[10,20,50].map(x=>`<option value="${x}" ${x==S.qlen?'selected':''}>Quiz length: ${x} questions</option>`).join('')}</select>`+picker()+`<div class="card"><h2>Daily quiz</h2><p>${S.qlen} questions: meaning, fill-in-the-blank and listening.</p>${S.days[TK]?'<p>✅ Already done today — practise again anytime!</p>':''}<button class="btn" onclick="quizStart()">Start quiz</button></div>`;$('cat').onchange=e=>{S.cat=e.target.value;save();quiz()};$('qlen2').onchange=e=>{S.qlen=+e.target.value;save();quiz()};return}
  if(qi>=Q.length){finish();el.innerHTML=`<div class="card"><h2>🎉 ${score}/${Q.length}</h2><p>${score>=.8*Q.length?'Excellent!':score>=.6*Q.length?'Good job!':'Keep practising!'} Streak: 🔥 ${streak()}</p><button class="btn" onclick="quizStart()">Try again</button><button class="btn" onclick="go('progress')">See progress</button></div>`;return}
  const q=Q[qi];el.innerHTML=`<div class="card"><small>Question ${qi+1} of ${Q.length}</small><p>${q.q}</p>${q.listen?`<button class="btn" data-say="${esc(q.listen)}">🔊 Play again</button>`:''}${q.opts.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}<div class="fb" id="fb"></div></div>`;
  if(q.listen)setTimeout(()=>say(q.listen),200);
@@ -96,4 +96,5 @@ function go(t){document.querySelectorAll('nav button').forEach(b=>b.classList.to
  if(t==='quiz'&&qi>=Q.length)Q=[];if(t==='learn')learn();if(t==='quiz')quiz();if(t==='progress')progress();if(t==='shadow')shadow()}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
 learn();badge();quiz();
-if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+if('serviceWorker'in navigator){let rl=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!rl){rl=true;location.reload()}});
+ navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}
