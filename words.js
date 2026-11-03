@@ -28581,5 +28581,3649 @@ const WORDS = [
 "x": "withdraw one's promise 收回诺言",
 "c": "雅思听力1000词: 综合篇",
 "ipa": "/wɪθˈdrɔ/"
+},
+{
+"w": "outlay",
+"m": "n. 支出；费用",
+"x": "Listen for \"outlay\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'aʊtle/"
+},
+{
+"w": "asset",
+"m": "n. 资产，财产；有价值的人或物；优点",
+"x": "Listen for \"asset\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'æsɛt/"
+},
+{
+"w": "taxation",
+"m": "n. 税金；征税，课税",
+"x": "Listen for \"taxation\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/tæk'seʃən/"
+},
+{
+"w": "import",
+"m": "v. 进口，输入",
+"x": "Listen for \"import\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'ɪmpɔt/"
+},
+{
+"w": "recession",
+"m": "n. 后退，撤退，撤回",
+"x": "recession → recess n. 中止或暂停期间 recessionary adj. 经济衰退的",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/rɪ'sɛʃən/"
+},
+{
+"w": "auction",
+"m": "n. 拍卖；拍卖方式",
+"x": "auction → auctioneer n. 拍卖人，拍卖商",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'ɔkʃən/"
+},
+{
+"w": "audit",
+"m": "v. 审计，查账",
+"x": "audit → auditor n. 审计员，稽核员",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'ɔdɪt/"
+},
+{
+"w": "mercantile",
+"m": "adj. 企业的；贸易的",
+"x": "Listen for \"mercantile\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/'mɝkəntɪl/"
+},
+{
+"w": "logistics",
+"m": "n. 后勤；物流",
+"x": "Listen for \"logistics\" in this topic.",
+"c": "雅思官方词汇速背: 人文·经济",
+"ipa": "/lə'dʒɪstɪks/"
+},
+{
+"w": "justice",
+"m": "n. 正义；公正，合理",
+"x": "Listen for \"justice\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/'dʒʌstɪs/"
+},
+{
+"w": "judicial",
+"m": "adj. 司法的；法庭的",
+"x": "judicial → judiciary n. 司法部；法官 jury n. 陪审团",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/dʒʊ'dɪʃəl/"
+},
+{
+"w": "decree",
+"m": "n. 法令；判决　v. 命令；颁布",
+"x": "Listen for \"decree\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/dɪ'kri/"
+},
+{
+"w": "statute",
+"m": "n. 法规；法令；条例",
+"x": "statute → statutory adj. 法定的；法令的",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/'stætʃut/"
+},
+{
+"w": "clause",
+"m": "n. （法律文件等的）条款",
+"x": "clause → clausal adj. 条款的",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/klɔz/"
+},
+{
+"w": "solicitor",
+"m": "n. 事务律师，诉状律师",
+"x": "Listen for \"solicitor\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/sə'lɪsɪtɚ/"
+},
+{
+"w": "tribunal",
+"m": "n. 特别法庭",
+"x": "Listen for \"tribunal\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/traɪ'bjunl/"
+},
+{
+"w": "arbitral",
+"m": "adj. 仲裁的",
+"x": "arbitral → arbitrational adj. 关于仲裁的",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/'ɑrbətrəl/"
+},
+{
+"w": "implementation",
+"m": "n. 贯彻，执行",
+"x": "Listen for \"implementation\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/ˌɪmpləmɛnˈteɪʃən/"
+},
+{
+"w": "abide",
+"m": "v. 坚持；遵守",
+"x": "Listen for \"abide\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/ə'baɪd/"
+},
+{
+"w": "enact",
+"m": "v. 制定（法律）；通过（法案）",
+"x": "Listen for \"enact\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/ɪ'nækt/"
+},
+{
+"w": "defend",
+"m": "v. 辩护",
+"x": "defend → defence n. 辩护，防御 defendant n. 被告人",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/dɪ'fɛnd/"
+},
+{
+"w": "verify",
+"m": "v. 证实",
+"x": "verify → verification n. 证明",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/'vɛrɪfaɪ/"
+},
+{
+"w": "prosecution",
+"m": "n. 起诉，诉讼",
+"x": "Listen for \"prosecution\" in this topic.",
+"c": "雅思官方词汇速背: 人文·法律",
+"ipa": "/,prɑsɪ'kjuʃən/"
+},
+{
+"w": "genre",
+"m": "n.（文学、艺术等的）类型，体裁，风格",
+"x": "Listen for \"genre\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'ʒɑnrə/"
+},
+{
+"w": "anecdote",
+"m": "n. 轶事，趣闻",
+"x": "anecdote → anecdotal adj. 轶事的，趣闻的",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'ænɪkdot/"
+},
+{
+"w": "myth",
+"m": "n. 神话",
+"x": "myth → mythical adj. 想象的，虚构的",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/mɪθ/"
+},
+{
+"w": "discourse",
+"m": "n. 演讲，谈论",
+"x": "Listen for \"discourse\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'dɪskɔrs/"
+},
+{
+"w": "treatise",
+"m": "n. 专题论文，专著",
+"x": "Listen for \"treatise\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'tritɪs/"
+},
+{
+"w": "synopsis",
+"m": "n. 大纲，梗概",
+"x": "Listen for \"synopsis\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/sɪ'nɑpsɪs/"
+},
+{
+"w": "transcribe",
+"m": "v. 抄写；把（资料）改录成另一种形式",
+"x": "transcribe → transcription n. 抄写",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/træn'skraɪb/"
+},
+{
+"w": "epitomise",
+"m": "v. 成为（某事物）的缩影",
+"x": "Listen for \"epitomise\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学"
+},
+{
+"w": "rhetoric",
+"m": "n. 修辞，修辞学",
+"x": "rhetoric → rhetorical adj. 修辞的；辞藻华丽的",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'rɛtərɪk/"
+},
+{
+"w": "literally",
+"m": "adv. 照字面，原义；确实",
+"x": "literally → literal adj. 逐字的，照字面的；确实的，完全的 illiterate adj. 文盲的",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'lɪtərəli/"
+},
+{
+"w": "narrative",
+"m": "n. 叙述，讲述　adj. 叙事的",
+"x": "narrative → narrate v. 讲（故事） narration n. 叙述事情的经过",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/'nærətɪv/"
+},
+{
+"w": "quotation",
+"m": "n. 引用，引述",
+"x": "Listen for \"quotation\" in this topic.",
+"c": "雅思官方词汇速背: 人文·文学",
+"ipa": "/kwo'teʃən/"
+},
+{
+"w": "psychiatrist",
+"m": "n. 精神病专家，精神病医生",
+"x": "psychiatrist → psychiatry n. 精神病学 psychiatrical adj. 精神病学的",
+"c": "雅思官方词汇速背: 人文·心理",
+"ipa": "/saɪ'kaɪətrɪst/"
+},
+{
+"w": "encode",
+"m": "v. 编码",
+"x": "Listen for \"encode\" in this topic.",
+"c": "雅思官方词汇速背: 人文·心理",
+"ipa": "/ɪn'kod/"
+},
+{
+"w": "subliminal",
+"m": "adj. 潜意识的",
+"x": "Listen for \"subliminal\" in this topic.",
+"c": "雅思官方词汇速背: 人文·心理",
+"ipa": "/,sʌb'lɪmɪnl/"
+},
+{
+"w": "extrovert",
+"m": "n. 性格外向的人",
+"x": "Listen for \"extrovert\" in this topic.",
+"c": "雅思官方词汇速背: 人文·心理",
+"ipa": "/,ɛkstrə'vɝt/"
+},
+{
+"w": "pessimistic",
+"m": "adj. 悲观的；悲观主义的",
+"x": "pessimistic → pessimism n. 悲观主义 pessimist n. 悲观主义者",
+"c": "雅思官方词汇速背: 人文·心理",
+"ipa": "/,pɛsɪ'mɪstɪk/"
+},
+{
+"w": "corpus",
+"m": "n. （复数.pora）汇编，语料库",
+"x": "Listen for \"corpus\" in this topic.",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/'kɔrpəs/"
+},
+{
+"w": "alphabetical",
+"m": "adj. 按字母（表）顺序的",
+"x": "Listen for \"alphabetical\" in this topic.",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/,ælfə'bɛtɪkl/"
+},
+{
+"w": "bilingual",
+"m": "adj. 能说两种语言的",
+"x": "Listen for \"bilingual\" in this topic.",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/'baɪ'lɪŋgwəl/"
+},
+{
+"w": "verbal",
+"m": "adj. 词语的；口头的",
+"x": "Listen for \"verbal\" in this topic.",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/'vɝbl/"
+},
+{
+"w": "phonetic",
+"m": "adj. 语音的，语音学的",
+"x": "phonetic → phonetics n. 语音（学）",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/fə'nɛtɪk/"
+},
+{
+"w": "lexical",
+"m": "adj. 词汇的",
+"x": "lexical → lexis n. 词，词汇",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/'lɛksɪkl/"
+},
+{
+"w": "semantic",
+"m": "adj. 语义的；语义学的",
+"x": "semantic → semantics n. 语义学 semanticist n. 语义学者",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/sɪ'mæntɪk/"
+},
+{
+"w": "irony",
+"m": "n. 反语，冷嘲",
+"x": "irony → ironic(al) adj. 冷嘲的，挖苦的",
+"c": "雅思官方词汇速背: 人文·语言学",
+"ipa": "/'aɪrəni/"
+},
+{
+"w": "hierarchy",
+"m": "n. 等级制度；统治集团",
+"x": "Listen for \"hierarchy\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'haɪərɑrki/"
+},
+{
+"w": "bureaucracy",
+"m": "n. 官僚，官僚作风",
+"x": "bureaucracy → bureaucratic adj. 官僚的",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/bjʊ'rɑkrəsi/"
+},
+{
+"w": "empire",
+"m": "n. 帝国",
+"x": "Listen for \"empire\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'ɛmpaɪr/"
+},
+{
+"w": "imperial",
+"m": "adj. 帝王的；帝国的",
+"x": "imperial → imperialistic adj. 帝国主义的 imperialism n. 帝国主义",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/ɪm'pɪrɪəl/"
+},
+{
+"w": "sovereign",
+"m": "n. 君主，国王",
+"x": "sovereign → sovereignty n. 最高统治权",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'sɑvrən/"
+},
+{
+"w": "royal",
+"m": "adj. 国王的；女王的",
+"x": "royal → royalty n. 王族（成员）",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'rɔɪəl/"
+},
+{
+"w": "republic",
+"m": "n. 共和国；共和政体",
+"x": "republic → republican adj. 共和国的，共和政体的",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/rɪ'pʌblɪk/"
+},
+{
+"w": "federation",
+"m": "n. 联邦；联合会，同盟",
+"x": "Listen for \"federation\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'fɛdə'reʃən/"
+},
+{
+"w": "autonomous",
+"m": "adj. 自治的",
+"x": "Listen for \"autonomous\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/ɔ'tɑnəməs/"
+},
+{
+"w": "democratic",
+"m": "adj. 民主的；有民主精神或作风的",
+"x": "democratic → democracy n. 民主, 民主制",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'dɛmə'krætɪk/"
+},
+{
+"w": "senate",
+"m": "n. 参议院，上院",
+"x": "senate → senator n. 参议员 senatorial adj. 参议院的",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'sɛnət/"
+},
+{
+"w": "ambassador",
+"m": "n. 大使，使节",
+"x": "Listen for \"ambassador\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/æm'bæsədɚ/"
+},
+{
+"w": "enfranchise",
+"m": "v. 给予选举权",
+"x": "Listen for \"enfranchise\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/ɪn'fræntʃaɪz/"
+},
+{
+"w": "nominate",
+"m": "v. 提名……为候选人；任命",
+"x": "nominate → nomination n. 提名，任命 nominator n. 提名者，任命者",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'nɑmɪnet/"
+},
+{
+"w": "repatriate",
+"m": "v. 把（某人）遣送回国，遣返",
+"x": "repatriate → repatriation n. 遣送回国",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/,ri'petrɪet/"
+},
+{
+"w": "abolish",
+"m": "v. 取消；结束",
+"x": "Listen for \"abolish\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/ə'bɑlɪʃ/"
+},
+{
+"w": "refuge",
+"m": "n. 避难（所, 处）；庇护",
+"x": "Listen for \"refuge\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'rɛfjʊdʒ/"
+},
+{
+"w": "conservative",
+"m": "adj. 符合习俗的；传统的",
+"x": "Listen for \"conservative\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/kən'sɝvətɪv/"
+},
+{
+"w": "treaty",
+"m": "n. 条约",
+"x": "Listen for \"treaty\" in this topic.",
+"c": "雅思官方词汇速背: 人文·政治",
+"ipa": "/'triti/"
+},
+{
+"w": "coverage",
+"m": "n. 新闻报道；报道量",
+"x": "Listen for \"coverage\" in this topic.",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'kʌvərɪdʒ/"
+},
+{
+"w": "newsreel",
+"m": "n. 新闻短片",
+"x": "Listen for \"newsreel\" in this topic.",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'nuzril/"
+},
+{
+"w": "mainstream",
+"m": "n. （思想等的）主流",
+"x": "Listen for \"mainstream\" in this topic.",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'menstrim/"
+},
+{
+"w": "criticism",
+"m": "n. 评论",
+"x": "criticism → critic n. 批评家 critical adj. 决定性的",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'krɪtə'sɪzəm/"
+},
+{
+"w": "advertise",
+"m": "v. 公布，宣传",
+"x": "advertise → advertisement n. 广告 advertising n. 广告",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'ædvɚtaɪz/"
+},
+{
+"w": "pictorial",
+"m": "adj. 以图画表示的；有画面的",
+"x": "Listen for \"pictorial\" in this topic.",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/pɪk'tɔrɪəl/"
+},
+{
+"w": "censor",
+"m": "v. 审查；新闻审查",
+"x": "Listen for \"censor\" in this topic.",
+"c": "雅思官方词汇速背: 人文·传媒",
+"ipa": "/'sɛnsɚ/"
+},
+{
+"w": "shipment",
+"m": "n. 船运，水运",
+"x": "Listen for \"shipment\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'ʃɪpmənt/"
+},
+{
+"w": "cruise",
+"m": "v. 乘船巡游",
+"x": "Listen for \"cruise\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/krʊz/"
+},
+{
+"w": "warship",
+"m": "n. 军舰，战舰",
+"x": "Listen for \"warship\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'wɔrʃɪp/"
+},
+{
+"w": "shuttle",
+"m": "n. 短程穿梭运行的飞机（或火车、汽车）　 v. 穿梭般来回移动",
+"x": "Listen for \"shuttle\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'ʃʌtl/"
+},
+{
+"w": "brake",
+"m": "n. 制动器　v. 刹（车）",
+"x": "Listen for \"brake\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/brek/"
+},
+{
+"w": "commute",
+"m": "v. 通勤",
+"x": "commute → commuter n.（远距离）上下班往返的人",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/kə'mjʊt/"
+},
+{
+"w": "migrate",
+"m": "v. 迁移；移往",
+"x": "migrate → migration n. 迁移",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'maɪɡret/"
+},
+{
+"w": "pedestrian",
+"m": "n. 步行者",
+"x": "Listen for \"pedestrian\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/pə'dɛstrɪən/"
+},
+{
+"w": "overpass",
+"m": "n. 立交桥",
+"x": "Listen for \"overpass\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'ovɚpæs/"
+},
+{
+"w": "aviation",
+"m": "n. 航空，航空学",
+"x": "aviation → aviate v. 驾驶（飞机）",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/,evɪ'eʃən/"
+},
+{
+"w": "pilot",
+"m": "n. 飞行员，宇航员",
+"x": "Listen for \"pilot\" in this topic.",
+"c": "雅思官方词汇速背: 人文·交通",
+"ipa": "/'paɪlət/"
+},
+{
+"w": "apprentice",
+"m": "n. 学徒",
+"x": "Listen for \"apprentice\" in this topic.",
+"c": "雅思官方词汇速背: 人文·教育",
+"ipa": "/ə'prɛntɪs/"
+},
+{
+"w": "schooling",
+"m": "n. 教育，学校教育",
+"x": "schooling → schoolmate n. 同学，校友",
+"c": "雅思官方词汇速背: 人文·教育",
+"ipa": "/'skulɪŋ/"
+},
+{
+"w": "truancy",
+"m": "n. 逃课",
+"x": "truancy → truant n. 逃课的学生 adj. 逃学的 v. 逃学",
+"c": "雅思官方词汇速背: 人文·教育",
+"ipa": "/'truənsi/"
+},
+{
+"w": "hike",
+"m": "n. 徒步旅行",
+"x": "hike → hiker n. 远足者, 长途旅行者; hiking n. 徒步旅行; hitch-hike n. 搭便车旅行",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/haɪk/"
+},
+{
+"w": "sightseeing",
+"m": "n. 观光",
+"x": "Listen for \"sightseeing\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/'saɪtsiɪŋ/"
+},
+{
+"w": "lounge",
+"m": "n. 休息厅，休息室，客厅",
+"x": "Listen for \"lounge\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/laʊndʒ/"
+},
+{
+"w": "resort",
+"m": "n. 度假胜地　v. 求助于或诉诸某人（to）",
+"x": "Listen for \"resort\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/rɪ'zɔrt/"
+},
+{
+"w": "megacity",
+"m": "n. 大城市",
+"x": "Listen for \"megacity\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游"
+},
+{
+"w": "fountain",
+"m": "n. 喷泉",
+"x": "Listen for \"fountain\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/'faʊntn/"
+},
+{
+"w": "farmland",
+"m": "n. 农田",
+"x": "Listen for \"farmland\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/'fɑrmlænd/"
+},
+{
+"w": "compass",
+"m": "n. 罗盘，指南针",
+"x": "Listen for \"compass\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/'kʌmpəs/"
+},
+{
+"w": "parcel",
+"m": "n. 包裹",
+"x": "Listen for \"parcel\" in this topic.",
+"c": "雅思官方词汇速背: 人文·旅游",
+"ipa": "/'pɑrsl/"
+},
+{
+"w": "rink",
+"m": "n. 溜冰场",
+"x": "Listen for \"rink\" in this topic.",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/rɪŋk/"
+},
+{
+"w": "racecourse",
+"m": "n. 赛马跑道，赛马场",
+"x": "Listen for \"racecourse\" in this topic.",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/'reskɔrs/"
+},
+{
+"w": "championship",
+"m": "n. 锦标赛",
+"x": "Listen for \"championship\" in this topic.",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/'tʃæmpɪənʃɪp/"
+},
+{
+"w": "sponsorship",
+"m": "n. 赞助者的地位；主办；倡议",
+"x": "Listen for \"sponsorship\" in this topic.",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/'spɑnsɚʃɪp/"
+},
+{
+"w": "jog",
+"m": "v. 慢跑；轻敲，轻推",
+"x": "Listen for \"jog\" in this topic.",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/dʒɑɡ/"
+},
+{
+"w": "sprint",
+"m": "n. 短距离疾跑",
+"x": "sprint → sprinter n. 短跑运动员",
+"c": "雅思官方词汇速背: 人文·体育",
+"ipa": "/sprɪnt/"
+},
+{
+"w": "rendition",
+"m": "n. 表演；演唱",
+"x": "Listen for \"rendition\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/rɛn'dɪʃən/"
+},
+{
+"w": "improvise",
+"m": "v. 即兴创作；即兴演说",
+"x": "Listen for \"improvise\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'ɪmprəvaɪz/"
+},
+{
+"w": "harmonious",
+"m": "adj. 和谐的，悦耳的",
+"x": "harmonious → harmony n. 和谐",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/hɑr'monɪəs/"
+},
+{
+"w": "choir",
+"m": "n. 合奏，合唱",
+"x": "Listen for \"choir\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'kwaɪɚ/"
+},
+{
+"w": "instrument",
+"m": "n. 乐器",
+"x": "Listen for \"instrument\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'ɪnstrəmənt/"
+},
+{
+"w": "opera",
+"m": "n. 歌剧",
+"x": "opera → opera-house n. 歌剧院，（尤指乡间的）剧场",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'ɑprə/"
+},
+{
+"w": "theatrical",
+"m": "adj. 剧场的　n. 戏剧表演",
+"x": "Listen for \"theatrical\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/θɪ'ætrɪkl/"
+},
+{
+"w": "scenario",
+"m": "n. 剧情说明；脚本；情景，场面",
+"x": "Listen for \"scenario\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/sə'nærɪo/"
+},
+{
+"w": "scene",
+"m": "n. （戏剧的）一场；背景",
+"x": "scene → scenic adj. 自然景色的，景色优美的",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/sin/"
+},
+{
+"w": "acrobatic",
+"m": "adj. 杂技的，杂技般的",
+"x": "acrobatic → acrobatics n. 杂技，杂技表演",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/,ækrə'bætɪk/"
+},
+{
+"w": "aesthetic",
+"m": "adj. 有关美的，美学的",
+"x": "Listen for \"aesthetic\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/ɛs'θɛtɪk/"
+},
+{
+"w": "sketch",
+"m": "n. 草图，素描",
+"x": "Listen for \"sketch\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/skɛtʃ/"
+},
+{
+"w": "handicraft",
+"m": "n. 手工艺；手工艺品",
+"x": "handicraft → handicraftsman n. 手工业者；手工艺人",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'hændɪkræft/"
+},
+{
+"w": "puppet",
+"m": "n. 木偶，玩偶",
+"x": "Listen for \"puppet\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/'pʌpɪt/"
+},
+{
+"w": "engrave",
+"m": "v. 雕刻；（使）铭记",
+"x": "Listen for \"engrave\" in this topic.",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/ɪn'ɡrev/"
+},
+{
+"w": "photography",
+"m": "n. 摄影术",
+"x": "photography → photographer n. 摄影者；（尤指）摄影师 photographic adj. 摄影（术）的，摄影用的，摄制的",
+"c": "雅思官方词汇速背: 人文·艺术",
+"ipa": "/fə'tɑɡrəfi/"
+},
+{
+"w": "universe",
+"m": "n. 宇宙；星系",
+"x": "universe → universal adj. 广泛的，普遍的",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/'junɪvɝs/"
+},
+{
+"w": "planet",
+"m": "n. 行星",
+"x": "Listen for \"planet\" in this topic.",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/'plænɪt/"
+},
+{
+"w": "eclipse",
+"m": "n./v. （日、月）食；消失，黯然失色",
+"x": "Listen for \"eclipse\" in this topic.",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/ɪ'klɪps/"
+},
+{
+"w": "martian",
+"m": "n. 火星人　adj. 火星的",
+"x": "martian → Mar n. 火星；<罗神>战神 martial adj. 军队的，军事的",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/ˈmɑrʃən/"
+},
+{
+"w": "astronaut",
+"m": "n. 宇航员，太空人",
+"x": "astronaut → astronautic adj. 太空航行的",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/'æstrə'nɔt/"
+},
+{
+"w": "orbiter",
+"m": "n. 人造卫星",
+"x": "Listen for \"orbiter\" in this topic.",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/'ɔrbɪtɚ/"
+},
+{
+"w": "orbital",
+"m": "adj. 轨道的；势力范围的",
+"x": "Listen for \"orbital\" in this topic.",
+"c": "雅思官方词汇速背: 应用·天文",
+"ipa": "/'ɔrbɪtl/"
+},
+{
+"w": "centigrade",
+"m": "n. 摄氏",
+"x": "Listen for \"centigrade\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/'sɛntɪɡred/"
+},
+{
+"w": "moisture",
+"m": "n. 水分，水气，湿气",
+"x": "Listen for \"moisture\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/'mɔɪstʃɚ/"
+},
+{
+"w": "bleak",
+"m": "adj.（天气）寒冷的；凄凉的；前景黯淡的",
+"x": "bleak → bleakness n. 缺少颜色；缺少植被；凄凉",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/blik/"
+},
+{
+"w": "chill",
+"m": "n. 寒冷；寒气；寒意",
+"x": "Listen for \"chill\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/tʃɪl/"
+},
+{
+"w": "rainfall",
+"m": "n. 下雨，降雨",
+"x": "Listen for \"rainfall\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/'ren'fɔl/"
+},
+{
+"w": "breeze",
+"m": "n. 微风，轻风",
+"x": "breeze → breezy adj. 有微风的；轻松愉快的",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/briz/"
+},
+{
+"w": "hurricane",
+"m": "n. 飓风，（尤指西印度群岛的）旋风",
+"x": "Listen for \"hurricane\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/'hɝrəkən/"
+},
+{
+"w": "frost",
+"m": "n. 霜冻；严寒天气",
+"x": "frost → frosty adj. 寒冷的",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/frɔst/"
+},
+{
+"w": "smog",
+"m": "n. 烟雾",
+"x": "Listen for \"smog\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/smɑːɡ/"
+},
+{
+"w": "capricious",
+"m": "adj. 变幻莫测的",
+"x": "Listen for \"capricious\" in this topic.",
+"c": "雅思官方词汇速背: 应用·气象",
+"ipa": "/kə'prɪʃəs/"
+},
+{
+"w": "altitude",
+"m": "n. 高度",
+"x": "Listen for \"altitude\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地理",
+"ipa": "/'æltɪtud/"
+},
+{
+"w": "horizontal",
+"m": "n. 地平线 adj. 水平的，地平线的",
+"x": "Listen for \"horizontal\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地理",
+"ipa": "/'hɔrə'zɑntl/"
+},
+{
+"w": "strait",
+"m": "n. 海峡 adj. 窘迫的",
+"x": "Listen for \"strait\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地理",
+"ipa": "/stret/"
+},
+{
+"w": "geology",
+"m": "n. 地质学",
+"x": "geology → geologic(al) adj. 地质（学）的 geologist n. 地质学家",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/dʒɪ'ɑlədʒi/"
+},
+{
+"w": "terrain",
+"m": "n. 地带，地形",
+"x": "Listen for \"terrain\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/tə'ren/"
+},
+{
+"w": "eruption",
+"m": "n. 喷发，爆发",
+"x": "Listen for \"eruption\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/ɪ'rʌpʃən/"
+},
+{
+"w": "subsoil",
+"m": "n. （土壤的）底土",
+"x": "Listen for \"subsoil\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/'sʌb'sɔɪl/"
+},
+{
+"w": "silt",
+"m": "n. 淤泥",
+"x": "silt → siltation n. 沉积作用，淤积",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/sɪlt/"
+},
+{
+"w": "iceberg",
+"m": "n. 冰山，流冰",
+"x": "Listen for \"iceberg\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/'aɪs'bɝg/"
+},
+{
+"w": "weather",
+"m": "v. 晒干；风化",
+"x": "Listen for \"weather\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/'wɛðɚ/"
+},
+{
+"w": "gaseous",
+"m": "adj. 气态的；似气体的",
+"x": "Listen for \"gaseous\" in this topic.",
+"c": "雅思官方词汇速背: 应用·地质",
+"ipa": "/'ɡæsɪəs/"
+},
+{
+"w": "jungle",
+"m": "n. 丛林，密林",
+"x": "Listen for \"jungle\" in this topic.",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/'dʒʌŋɡl/"
+},
+{
+"w": "scrub",
+"m": "n. 灌木丛 v. (-bbed; -bbing) 用力擦洗",
+"x": "Listen for \"scrub\" in this topic.",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/skrʌb/"
+},
+{
+"w": "seedling",
+"m": "n. 幼苗",
+"x": "Listen for \"seedling\" in this topic.",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/'sidlɪŋ/"
+},
+{
+"w": "timber",
+"m": "n. 木料，木材",
+"x": "timber → timbering n. 木支架；建筑用材",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/'tɪmbɚ/"
+},
+{
+"w": "bloom",
+"m": "n. 花",
+"x": "bloom → blossom v. 开花",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/blum/"
+},
+{
+"w": "ripen",
+"m": "v. 成熟，使熟",
+"x": "Listen for \"ripen\" in this topic.",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/'raɪpən/"
+},
+{
+"w": "perennial",
+"m": "adj. 经常出现的；长期的",
+"x": "Listen for \"perennial\" in this topic.",
+"c": "雅思官方词汇速背: 应用·植物",
+"ipa": "/pə'rɛnɪəl/"
+},
+{
+"w": "bacterial",
+"m": "adj. 细菌的",
+"x": "bacterial → bacterium n.（复数-ria）细菌 bacterin n. 疫苗",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/bæk'tɪrɪəl/"
+},
+{
+"w": "germ",
+"m": "n. 微生物；病菌",
+"x": "Listen for \"germ\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/dʒɝm/"
+},
+{
+"w": "parasitic",
+"m": "adj. 寄生的；寄生虫的",
+"x": "parasitic → parasite n. 寄生虫",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/,pærə'sɪtɪk/"
+},
+{
+"w": "livestock",
+"m": "n. 家畜，牲畜",
+"x": "Listen for \"livestock\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/'laɪvstɑk/"
+},
+{
+"w": "biodiversity",
+"m": "n. 生物多样性",
+"x": "Listen for \"biodiversity\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/,baɪodaɪ'vɝsəti/"
+},
+{
+"w": "hatch",
+"m": "v. 孵化",
+"x": "Listen for \"hatch\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/hætʃ/"
+},
+{
+"w": "incubator",
+"m": "n. 孵化器",
+"x": "incubator → incubate v. （卵）被孵化 incubation n. 孵卵；孵化",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/ˈɪŋkjubeɪtər/"
+},
+{
+"w": "evolution",
+"m": "n. 演变，进化，发展",
+"x": "evolution → evolutionary adj. 进化的",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/ˌiːvəˈluːʃn/"
+},
+{
+"w": "larva",
+"m": "n.（昆虫的）幼虫，幼体",
+"x": "Listen for \"larva\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/ˈlɑːrvə/"
+},
+{
+"w": "beetle",
+"m": "n. 甲虫",
+"x": "Listen for \"beetle\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/ˈbitəl/"
+},
+{
+"w": "spider",
+"m": "n. 蜘蛛",
+"x": "Listen for \"spider\" in this topic.",
+"c": "雅思官方词汇速背: 应用·动物",
+"ipa": "/ˈspaɪdər/"
+},
+{
+"w": "skeleton",
+"m": "n. 骨骼；骷髅",
+"x": "skeleton → skeletal adj. 骨骼的",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/'skɛlɪtn/"
+},
+{
+"w": "kidney",
+"m": "n. 肾，肾脏",
+"x": "Listen for \"kidney\" in this topic.",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/'kɪdni/"
+},
+{
+"w": "nerve",
+"m": "n. 神经",
+"x": "nerve → nervous adj. 神经质的；紧张的 neural adj. 神经的，神经系统的",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/nɝv/"
+},
+{
+"w": "embryo",
+"m": "n. 胚，胚胎",
+"x": "Listen for \"embryo\" in this topic.",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/'ɛmbrɪo/"
+},
+{
+"w": "scar",
+"m": "n. 伤痕",
+"x": "Listen for \"scar\" in this topic.",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/skɑr/"
+},
+{
+"w": "pregnancy",
+"m": "n. 怀孕；妊娠",
+"x": "pregnancy → pregnant adj. 怀孕的，怀胎的",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/'prɛgnənsi/"
+},
+{
+"w": "respiratory",
+"m": "adj. 呼吸的，呼吸作用的",
+"x": "respiratory → respire v. 呼吸 respiration n. 呼吸",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/'rɛspərətɔri/"
+},
+{
+"w": "inhalation",
+"m": "n. 吸入",
+"x": "Listen for \"inhalation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/,ɪnhə'leʃən/"
+},
+{
+"w": "excrete",
+"m": "v. 排除，排泄",
+"x": "excrete → excretive adj. 排泄的",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/ɪk'skrit/"
+},
+{
+"w": "digest",
+"m": "v. 消化",
+"x": "digest → digestive adj. 消化的 digestion n. 消化，消化能力",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/daɪ'dʒɛst/"
+},
+{
+"w": "blink",
+"m": "n. 眨眼睛 v. 眨眼睛",
+"x": "Listen for \"blink\" in this topic.",
+"c": "雅思官方词汇速背: 应用·生理",
+"ipa": "/blɪŋk/"
+},
+{
+"w": "beam",
+"m": "n. 束，柱　v. 播送",
+"x": "beam → beaming adj. 照耀的；愉快的 beamy adj. 光亮的",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/bim/"
+},
+{
+"w": "reflex",
+"m": "n. 反应能力；反射作用",
+"x": "Listen for \"reflex\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'riflɛks/"
+},
+{
+"w": "flash",
+"m": "v. 发出；闪光 n. 闪光",
+"x": "Listen for \"flash\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/flæʃ/"
+},
+{
+"w": "glimmer",
+"m": "n. 微弱的光　v. 发闪光，发微光",
+"x": "Listen for \"glimmer\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'ɡlɪmɚ/"
+},
+{
+"w": "radiation",
+"m": "n. 辐射（能）；放射",
+"x": "Listen for \"radiation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/,redɪ'eʃən/"
+},
+{
+"w": "fume",
+"m": "n. 烟雾，气味（常用复数-s）",
+"x": "Listen for \"fume\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/fjum/"
+},
+{
+"w": "foam",
+"m": "v. 起泡沫；吐白沫",
+"x": "Listen for \"foam\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/fom/"
+},
+{
+"w": "liquid",
+"m": "n. 液体",
+"x": "liquid → liquidity n. 流动性",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'lɪkwɪd/"
+},
+{
+"w": "dilute",
+"m": "v. 稀释，冲淡",
+"x": "Listen for \"dilute\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/daɪ'l(j)ut/"
+},
+{
+"w": "extract",
+"m": "v. 提取",
+"x": "extract → extraction n. 提取；取出",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'ɛkstrækt/"
+},
+{
+"w": "volatile",
+"m": "adj. （液体或油）易挥发的；易变的",
+"x": "volatile → volatility n. 挥发性 volatilise v. 挥发",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'vɑlətl/"
+},
+{
+"w": "smelt",
+"m": "v. 熔炼；提炼（矿石）",
+"x": "smelt → smeltery n. 冶炼厂",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/smɛlt/"
+},
+{
+"w": "dissolve",
+"m": "v. （使）溶解",
+"x": "dissolve → dissolvable adj. 可溶解的 dissoluble adj. 可溶解的，可解除的",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/dɪ'zɑlv/"
+},
+{
+"w": "thermal",
+"m": "adj. 热的，热量的",
+"x": "Listen for \"thermal\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'θɝml/"
+},
+{
+"w": "congeal",
+"m": "v. 使凝结，冻结",
+"x": "Listen for \"congeal\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/kən'dʒil/"
+},
+{
+"w": "ultrasonic",
+"m": "adj.（声波）超声的",
+"x": "Listen for \"ultrasonic\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/,ʌltrə'sɑnɪk/"
+},
+{
+"w": "resonance",
+"m": "n. 回响；洪亮；共鸣",
+"x": "Listen for \"resonance\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'rɛznəns/"
+},
+{
+"w": "explode",
+"m": "v. （使）爆炸",
+"x": "explode → explosive n. 爆炸物 adj. 爆炸的",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/ɪk'splod/"
+},
+{
+"w": "burst",
+"m": "v. （使）爆炸",
+"x": "Listen for \"burst\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/bɝst/"
+},
+{
+"w": "gravity",
+"m": "n. 万有引力；重力",
+"x": "Listen for \"gravity\" in this topic.",
+"c": "雅思官方词汇速背: 应用·物理",
+"ipa": "/'ɡrævəti/"
+},
+{
+"w": "atom",
+"m": "n. 原子",
+"x": "atom → atomic adj. 原子的",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/'ætəm/"
+},
+{
+"w": "hydrogen",
+"m": "n. 氢",
+"x": "Listen for \"hydrogen\" in this topic.",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/'haɪdrədʒən/"
+},
+{
+"w": "monoxide",
+"m": "n. 一氧化物",
+"x": "Listen for \"monoxide\" in this topic.",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/məˈnɑksaɪd/"
+},
+{
+"w": "alloy",
+"m": "n. 合金",
+"x": "Listen for \"alloy\" in this topic.",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/'ælɔɪ/"
+},
+{
+"w": "combustion",
+"m": "n. 燃烧，烧毁",
+"x": "Listen for \"combustion\" in this topic.",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/kəm'bʌstʃən/"
+},
+{
+"w": "synthesis",
+"m": "n. 综合物；合成（复数-ses）",
+"x": "synthesis → synthesise v. 使合成",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/'sɪnθəsɪs/"
+},
+{
+"w": "corrosive",
+"m": "adj. 腐蚀的",
+"x": "Listen for \"corrosive\" in this topic.",
+"c": "雅思官方词汇速背: 应用·化学",
+"ipa": "/kə'rosɪv/"
+},
+{
+"w": "equation",
+"m": "n. 等式；平衡",
+"x": "Listen for \"equation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/ɪ'kweʒn/"
+},
+{
+"w": "digital",
+"m": "adj. 数字式的；数码的",
+"x": "digital → digit n. 数字 digitize v. 将资料数字化",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/'dɪdʒɪtl/"
+},
+{
+"w": "decimal",
+"m": "adj. 十进制的，小数的　n. 小数",
+"x": "decimal → decade n. 十年",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/'dɛsɪml/"
+},
+{
+"w": "geometry",
+"m": "n. 几何（学）",
+"x": "geometry → geometric(al) adj. 几何（学）的 geometrician n. 几何学者",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/dʒɪ'ɑmətri/"
+},
+{
+"w": "circumference",
+"m": "n. 圆周",
+"x": "Listen for \"circumference\" in this topic.",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/sɚ'kʌmfərəns/"
+},
+{
+"w": "perimeter",
+"m": "n. 周边；周围",
+"x": "Listen for \"perimeter\" in this topic.",
+"c": "雅思官方词汇速背: 应用·数学",
+"ipa": "/pə'rɪmɪtɚ/"
+},
+{
+"w": "terrace",
+"m": "n. 梯田",
+"x": "Listen for \"terrace\" in this topic.",
+"c": "雅思官方词汇速背: 应用·农业",
+"ipa": "/'tɛrəs/"
+},
+{
+"w": "pest",
+"m": "n. 有害的人或物",
+"x": "pest → pesticide n. 杀虫剂",
+"c": "雅思官方词汇速背: 应用·农业",
+"ipa": "/pɛst/"
+},
+{
+"w": "reclaim",
+"m": "v./n. 开拓，开垦",
+"x": "reclaim → reclaimed adj. 再生的，回收的 reclamation n. 开垦，开拓",
+"c": "雅思官方词汇速背: 应用·农业",
+"ipa": "/rɪ'klem/"
+},
+{
+"w": "sewage",
+"m": "n. （下水道里的）污物",
+"x": "Listen for \"sewage\" in this topic.",
+"c": "雅思官方词汇速背: 应用·环境",
+"ipa": "/'sʊɪdʒ/"
+},
+{
+"w": "epidemic",
+"m": "n. 流行病",
+"x": "Listen for \"epidemic\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/,ɛpɪ'dɛmɪk/"
+},
+{
+"w": "acute",
+"m": "adj. 急性的；极大的；尖锐的",
+"x": "Listen for \"acute\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/ə'kjut/"
+},
+{
+"w": "inflammation",
+"m": "n. 炎症",
+"x": "Listen for \"inflammation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'ɪnflə'meʃən/"
+},
+{
+"w": "virus",
+"m": "n. 病毒，毒害",
+"x": "virus → viral adj. 病毒的，病毒引起的",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'vaɪrəs/"
+},
+{
+"w": "cholera",
+"m": "n. 霍乱",
+"x": "Listen for \"cholera\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'kɑlərə/"
+},
+{
+"w": "cardiology",
+"m": "n. 心（脏）病学",
+"x": "Listen for \"cardiology\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/,kɑrdɪ'ɑlədʒi/"
+},
+{
+"w": "paralysis",
+"m": "n. 麻痹，瘫痪",
+"x": "Listen for \"paralysis\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/pə'ræləsɪs/"
+},
+{
+"w": "bruise",
+"m": "n. 瘀伤, 伤痕　v. （使）碰伤，（使）成瘀伤",
+"x": "Listen for \"bruise\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/bruz/"
+},
+{
+"w": "abortion",
+"m": "n. 流产；中止",
+"x": "abortion → abort v. 流产，中止 abortive adj. 流产的，失败的",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/ə'bɔrʃən/"
+},
+{
+"w": "curative",
+"m": "adj. 医疗的",
+"x": "Listen for \"curative\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'kjʊrətɪv/"
+},
+{
+"w": "heal",
+"m": "v. （使）愈合，（使）恢复健康",
+"x": "Listen for \"heal\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/hil/"
+},
+{
+"w": "diagnose",
+"m": "v. 诊断",
+"x": "diagnose → diagnosis n.（复数-ses）诊断，诊断结论",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/,daɪəɡ'nos/"
+},
+{
+"w": "glucose",
+"m": "n. 葡萄糖",
+"x": "Listen for \"glucose\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'ɡlukos/"
+},
+{
+"w": "acupuncture",
+"m": "n. 针灸（疗法）",
+"x": "Listen for \"acupuncture\" in this topic.",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/'ækjupʌŋktʃɚ/"
+},
+{
+"w": "immune",
+"m": "adj. 免疫的，有免疫力的；不受……影响的",
+"x": "immune → immunity n. 免除，豁免",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/ɪ'mjʊn/"
+},
+{
+"w": "pharmaceutical",
+"m": "adj. 制药的；配药的 n. 药",
+"x": "pharmaceutical → pharmaceutics n. 配药学，制药学 pharmacist n. 药师, 药剂师",
+"c": "雅思官方词汇速背: 应用·医疗",
+"ipa": "/,fɑrmə'sutɪkl/"
+},
+{
+"w": "skyscraper",
+"m": "n. 摩天大楼",
+"x": "skyscraper → skyscraping adj. 极高的，高耸的",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/'skaɪ'skrepɚ/"
+},
+{
+"w": "pagoda",
+"m": "n. 塔，宝塔",
+"x": "Listen for \"pagoda\" in this topic.",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/pə'ɡodə/"
+},
+{
+"w": "stairway",
+"m": "n. 楼梯",
+"x": "Listen for \"stairway\" in this topic.",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/'stɛr'we/"
+},
+{
+"w": "drainage",
+"m": "n. 排水，放水",
+"x": "Listen for \"drainage\" in this topic.",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/'drenɪdʒ/"
+},
+{
+"w": "tile",
+"m": "n. 瓦片；瓷砖",
+"x": "Listen for \"tile\" in this topic.",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/taɪl/"
+},
+{
+"w": "concrete",
+"m": "n. 混凝土 adj. 实体的",
+"x": "Listen for \"concrete\" in this topic.",
+"c": "雅思官方词汇速背: 应用·建筑",
+"ipa": "/'kɑŋkrit/"
+},
+{
+"w": "telecommunication",
+"m": "n. 电信",
+"x": "Listen for \"telecommunication\" in this topic.",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/,tɛlɪkə,mjʊnə'keʃən/"
+},
+{
+"w": "laser",
+"m": "n. 激光",
+"x": "Listen for \"laser\" in this topic.",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/'lezɚ/"
+},
+{
+"w": "telescope",
+"m": "n. 望远镜",
+"x": "telescope → telescopic adj. 望远镜的，用望远镜的",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/'tɛlɪskop/"
+},
+{
+"w": "echolocation",
+"m": "n. 回声定位能力，回声定位法",
+"x": "Listen for \"echolocation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/,ɛkolo'keʃən/"
+},
+{
+"w": "vacuum",
+"m": "n. 真空",
+"x": "vacuum → vacuum-packed adj. 真空包装的",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/'vækjʊəm/"
+},
+{
+"w": "simulation",
+"m": "n. 模仿，模拟",
+"x": "Listen for \"simulation\" in this topic.",
+"c": "雅思官方词汇速背: 应用·科技",
+"ipa": "/'sɪmjə'leʃən/"
+},
+{
+"w": "extraordinary",
+"m": "adj. 非凡的，不一般的",
+"x": "Listen for \"extraordinary\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/ɪkˈstrɔːrdəneri/"
+},
+{
+"w": "charismatic",
+"m": "adj. 有魅力的；有感召力的",
+"x": "Listen for \"charismatic\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/,kærɪz'mætɪk/"
+},
+{
+"w": "outstanding",
+"m": "adj. 突出的；杰出的",
+"x": "Listen for \"outstanding\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'aʊt'stændɪŋ/"
+},
+{
+"w": "genius",
+"m": "n. 天才，天赋",
+"x": "Listen for \"genius\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'dʒinjəs/"
+},
+{
+"w": "immortal",
+"m": "adj. 流芳百世的　n. 不朽的人物",
+"x": "Listen for \"immortal\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/ɪ'mɔrtl/"
+},
+{
+"w": "renowned",
+"m": "adj. 有名的",
+"x": "Listen for \"renowned\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/rɪˈnaʊnd/"
+},
+{
+"w": "prominence",
+"m": "n. 声望，杰出；重要",
+"x": "Listen for \"prominence\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'prɑmɪnəns/"
+},
+{
+"w": "celebrated",
+"m": "adj. 有名的，著名的",
+"x": "Listen for \"celebrated\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'sɛlə'bretɪd/"
+},
+{
+"w": "reputable",
+"m": "adj. 值得尊敬的；声誉好的",
+"x": "Listen for \"reputable\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'rɛpjətəbl/"
+},
+{
+"w": "fame",
+"m": "n. 名声；名望",
+"x": "fame → famous adj. 著名的",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/fem/"
+},
+{
+"w": "vibrant",
+"m": "adj. 响亮的；精力充沛的",
+"x": "Listen for \"vibrant\" in this topic.",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'vaɪbrənt/"
+},
+{
+"w": "vigorous",
+"m": "adj. 有力的；精力充沛的",
+"x": "vigorous → vigor n. 活力",
+"c": "雅思官方词汇速背: WHO·优秀",
+"ipa": "/'vɪɡərəs/"
+},
+{
+"w": "carnival",
+"m": "n. 狂欢节",
+"x": "Listen for \"carnival\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'kɑrnɪvl/"
+},
+{
+"w": "recreational",
+"m": "adj. 娱乐的",
+"x": "Listen for \"recreational\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/,rɛkri'eʃənəl/"
+},
+{
+"w": "entertainment",
+"m": "n. 娱乐；款待",
+"x": "Listen for \"entertainment\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'ɛntɚ'tenmənt/"
+},
+{
+"w": "amused",
+"m": "adj. 愉快的；被逗笑的",
+"x": "Listen for \"amused\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/əmˈjuzd/"
+},
+{
+"w": "judicious",
+"m": "adj. 明智的；谨慎的",
+"x": "Listen for \"judicious\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/dʒu'dɪʃəs/"
+},
+{
+"w": "ingenuity",
+"m": "n. 独创力，心灵手巧",
+"x": "Listen for \"ingenuity\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/,ɪndʒə'nuəti/"
+},
+{
+"w": "intellectual",
+"m": "adj. 智力的；理智的",
+"x": "Listen for \"intellectual\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/,ɪntə'lɛktʃuəl/"
+},
+{
+"w": "shrewd",
+"m": "adj. 精明的；敏锐的",
+"x": "shrewd → shrewd-brained adj. 头脑精明的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ʃrud/"
+},
+{
+"w": "studious",
+"m": "adj. 用功的，勤奋的",
+"x": "Listen for \"studious\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'studɪəs/"
+},
+{
+"w": "laborious",
+"m": "adj. 勤劳的；费劲的",
+"x": "Listen for \"laborious\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/lə'bɔrɪəs/"
+},
+{
+"w": "enterprising",
+"m": "adj. 有事业心的；有胆量的",
+"x": "Listen for \"enterprising\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'ɛntɚpraɪzɪŋ/"
+},
+{
+"w": "benevolence",
+"m": "n. 仁慈",
+"x": "Listen for \"benevolence\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/bə'nɛvələns/"
+},
+{
+"w": "humanitarian",
+"m": "n. 人道主义者 adj. 人道主义的",
+"x": "humanitarian → humanitarianism n. 博爱主义；humanistic adj. 人文主义的； humanist n. 人道主义者； humane adj. 仁爱的，慈善的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/hju,mænɪ'tɛrɪən/"
+},
+{
+"w": "sympathetic",
+"m": "adj. 表示同情的",
+"x": "sympathetic → sympathise v. 同情，支持 sympathy n. 同情（心）",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/,sɪmpə'θɛtɪk/"
+},
+{
+"w": "audacious",
+"m": "adj. 大胆的，有冒险精神的",
+"x": "Listen for \"audacious\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ɔ'deʃəs/"
+},
+{
+"w": "intrepid",
+"m": "adj. 无畏的，勇敢的",
+"x": "Listen for \"intrepid\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ɪn'trɛpɪd/"
+},
+{
+"w": "malice",
+"m": "n. 恶意",
+"x": "malice → malicious adj. 恶意的, 恶毒的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'mælɪs/"
+},
+{
+"w": "malignant",
+"m": "adj. 恶性的；恶毒的",
+"x": "malignant → malignancy n. 恶意",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/mə'lɪgnənt/"
+},
+{
+"w": "afflict",
+"m": "v. 使受痛苦，折磨",
+"x": "Listen for \"afflict\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ə'flɪkt/"
+},
+{
+"w": "seclusion",
+"m": "n. 隔绝",
+"x": "seclusion → seclusive adj. 爱隐居的，孤僻的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/sɪ'klʊʒən/"
+},
+{
+"w": "solely",
+"m": "adv. 唯一（地）",
+"x": "Listen for \"solely\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'solli/"
+},
+{
+"w": "eccentric",
+"m": "adj. 古怪的；异乎寻常的",
+"x": "Listen for \"eccentric\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ɪk'sɛntrɪk/"
+},
+{
+"w": "oddly",
+"m": "adv. 奇怪地",
+"x": "oddly → oddity n. 奇特，古怪",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'ɑdli/"
+},
+{
+"w": "weird",
+"m": "adj. 怪诞的，古怪的",
+"x": "weird → weirdness n. 古怪",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/wɪrd/"
+},
+{
+"w": "barren",
+"m": "adj. 贫瘠的；不结果的",
+"x": "Listen for \"barren\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'bærən/"
+},
+{
+"w": "impoverished",
+"m": "adj. 穷困的；用尽了的",
+"x": "Listen for \"impoverished\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/ɪm'pɑvərɪʃt/"
+},
+{
+"w": "dearth",
+"m": "n. 缺乏，（供应）不足",
+"x": "Listen for \"dearth\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/dərθ/"
+},
+{
+"w": "famine",
+"m": "n. 饥荒；缺乏",
+"x": "Listen for \"famine\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'fæmɪn/"
+},
+{
+"w": "lethal",
+"m": "adj. 致死的，能致命的",
+"x": "Listen for \"lethal\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'liθl/"
+},
+{
+"w": "poison",
+"m": "n. 毒药，毒物",
+"x": "poison → poisonous adj. 有毒的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'pɔɪzn/"
+},
+{
+"w": "mortality",
+"m": "n. 必死性；死亡率",
+"x": "mortality → mortal adj. 终有一死的 immortal adj. 不朽的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/mɔr'tæləti/"
+},
+{
+"w": "perish",
+"m": "v. 消亡，死亡",
+"x": "Listen for \"perish\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'pɛrɪʃ/"
+},
+{
+"w": "slaughter",
+"m": "v. 屠杀, 杀",
+"x": "Listen for \"slaughter\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'slɔtɚ/"
+},
+{
+"w": "suicidal",
+"m": "adj. 自杀的，可能导致自杀的",
+"x": "suicidal → suicide n. 自杀 suicidally adv. 毁灭性地；自杀地",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'sʊə'saɪdl/"
+},
+{
+"w": "toil",
+"m": "v. 长时间或辛苦工作",
+"x": "toil → toiler n. 辛劳者 toilful adj. 费力的，辛苦的",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/tɔɪl/"
+},
+{
+"w": "burnout",
+"m": "n. 筋疲力尽；烧毁，烧坏",
+"x": "Listen for \"burnout\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'bɝnaʊt/"
+},
+{
+"w": "stringent",
+"m": "adj. 严格的；严厉的",
+"x": "Listen for \"stringent\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'strɪndʒənt/"
+},
+{
+"w": "rigid",
+"m": "adj. 严格的；死板的，不变的",
+"x": "Listen for \"rigid\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/'rɪdʒɪd/"
+},
+{
+"w": "harsh",
+"m": "adj. 严厉的；严酷的",
+"x": "Listen for \"harsh\" in this topic.",
+"c": "雅思官方词汇速背: WHO·积极",
+"ipa": "/hɑrʃ/"
+},
+{
+"w": "array",
+"m": "n. 一系列",
+"x": "Listen for \"array\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ə're/"
+},
+{
+"w": "troop",
+"m": "v. 群集；成群而行",
+"x": "Listen for \"troop\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/trʊp/"
+},
+{
+"w": "asymmetry",
+"m": "n. 不对称性",
+"x": "asymmetry → asymmetric adj. 不对称的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/e'sɪmɪtri/"
+},
+{
+"w": "semi-circle",
+"m": "n. 半圆形",
+"x": "Listen for \"semi-circle\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'sɛmi/"
+},
+{
+"w": "configuration",
+"m": "n. 构造，形状",
+"x": "Listen for \"configuration\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/kən,fɪɡjə'reʃən/"
+},
+{
+"w": "cube",
+"m": "n. 立方体",
+"x": "cube → cubic adj. 立方体的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/kjʊb/"
+},
+{
+"w": "curve",
+"m": "n. 曲线",
+"x": "Listen for \"curve\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/kɝv/"
+},
+{
+"w": "ancestor",
+"m": "n. 先驱者，前辈",
+"x": "Listen for \"ancestor\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ænsɛstɚ/"
+},
+{
+"w": "antecedent",
+"m": "n. 前身；祖先",
+"x": "Listen for \"antecedent\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'æntə'sidnt/"
+},
+{
+"w": "inherit",
+"m": "v. 继承",
+"x": "inherit → inheritance n. 继承物, 遗产 inheritor n. 继承人，后继者",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ɪn'hɛrɪt/"
+},
+{
+"w": "inherent",
+"m": "adj. 固有的，内在的",
+"x": "Listen for \"inherent\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ɪn'hɪrənt/"
+},
+{
+"w": "posterity",
+"m": "n. 后代，后世",
+"x": "Listen for \"posterity\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/pɑ'stɛrəti/"
+},
+{
+"w": "heritage",
+"m": "n. 遗产，继承物",
+"x": "Listen for \"heritage\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'hɛrɪtɪdʒ/"
+},
+{
+"w": "descend",
+"m": "v. 下降；遗传",
+"x": "descend → descent n. 血统，出身 descendant n. 后代，后裔",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/dɪ'sɛnd/"
+},
+{
+"w": "offspring",
+"m": "n. 后代",
+"x": "Listen for \"offspring\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ɔfsprɪŋ/"
+},
+{
+"w": "infant",
+"m": "n. 婴儿，幼儿",
+"x": "Listen for \"infant\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ɪnfənt/"
+},
+{
+"w": "audible",
+"m": "adj. 听得见的",
+"x": "Listen for \"audible\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ɔdəbl/"
+},
+{
+"w": "sense",
+"m": "v. 官能；领悟",
+"x": "sense → sensible adj. 明智的，合情理的； sensitive adj. 敏感的；灵敏的；sensory adj. 感觉的，感知的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/sɛns/"
+},
+{
+"w": "hearing",
+"m": "n. 听力，听觉",
+"x": "Listen for \"hearing\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'hɪrɪŋ/"
+},
+{
+"w": "acoustic",
+"m": "adj. 声音的；听觉的",
+"x": "acoustic → acoustical adj. 听觉的；acoustically adv. 听觉上，声学上； acoustics n. 声学",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ə'kʊstɪk/"
+},
+{
+"w": "scent",
+"m": "n. 气味；香水",
+"x": "Listen for \"scent\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/sɛnt/"
+},
+{
+"w": "audiovisual",
+"m": "n. 视听设备　adj. 视听的",
+"x": "Listen for \"audiovisual\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ɔdɪo'vɪʒʊəl/"
+},
+{
+"w": "odour",
+"m": "n. 气味",
+"x": "Listen for \"odour\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ˈoʊdər/"
+},
+{
+"w": "utterance",
+"m": "n. 发声，语调",
+"x": "Listen for \"utterance\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ʌtərəns/"
+},
+{
+"w": "agony",
+"m": "n. 极大的痛苦",
+"x": "Listen for \"agony\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'æɡəni/"
+},
+{
+"w": "annoying",
+"m": "adj. 使恼怒的，使生气的，使烦恼的",
+"x": "Listen for \"annoying\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ə'nɔɪɪŋ/"
+},
+{
+"w": "rage",
+"m": "n. 动怒，怒斥　v. 动怒",
+"x": "Listen for \"rage\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/redʒ/"
+},
+{
+"w": "grieve",
+"m": "v. 感到悲痛；伤心",
+"x": "Listen for \"grieve\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/griv/"
+},
+{
+"w": "indignant",
+"m": "adj. 愤怒的，愤慨的",
+"x": "indignant → indignation n. 愤怒；气愤",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/ɪn'dɪɡnənt/"
+},
+{
+"w": "irritate",
+"m": "v. 使发怒；使急躁",
+"x": "Listen for \"irritate\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ɪrɪtet/"
+},
+{
+"w": "panic",
+"m": "v. （使）恐慌　n. 恐慌，惊慌",
+"x": "Listen for \"panic\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'pænɪk/"
+},
+{
+"w": "loath",
+"m": "adj. 不愿意的，不喜欢的",
+"x": "loath → loathe v. 厌恶，憎恶 loathsome adj. 令人憎恨的，讨厌的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/loθ/"
+},
+{
+"w": "sorrow",
+"m": "n. 悲痛，悲伤　v. 感到（或表示）悲伤",
+"x": "sorrow → sorrowful adj. 伤心的，悲伤的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'sɔro/"
+},
+{
+"w": "zipper",
+"m": "n. 拉链　v. 拉上拉链",
+"x": "Listen for \"zipper\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'zɪpɚ/"
+},
+{
+"w": "sew",
+"m": "v. 缝",
+"x": "Listen for \"sew\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/so/"
+},
+{
+"w": "waterproof",
+"m": "n. 雨衣，防水服 adj. 防水的",
+"x": "Listen for \"waterproof\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'wɔtɚpruf/"
+},
+{
+"w": "textile",
+"m": "n. 纺织品，织物；纺织业",
+"x": "Listen for \"textile\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'tɛkstaɪl/"
+},
+{
+"w": "sleeve",
+"m": "n. 衣服袖子",
+"x": "sleeve → sleevelet n. 袖套 sleeveless adj. 无袖的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/sliv/"
+},
+{
+"w": "banquet",
+"m": "n. 宴会",
+"x": "Listen for \"banquet\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'bæŋkwɪt/"
+},
+{
+"w": "feast",
+"m": "n. 盛会",
+"x": "Listen for \"feast\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/fist/"
+},
+{
+"w": "alcohol",
+"m": "n. 酒",
+"x": "alcohol → alcoholic adj. 酒精的",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/'ælkəhɔl/"
+},
+{
+"w": "steak",
+"m": "n. 牛排",
+"x": "steak → steakhouse n. 牛排餐厅",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/stek/"
+},
+{
+"w": "yolk",
+"m": "n. 蛋黄",
+"x": "Listen for \"yolk\" in this topic.",
+"c": "雅思官方词汇速背: WHO·日常",
+"ipa": "/jok/"
+},
+{
+"w": "archaic",
+"m": "adj. 古时的；陈旧的；古式的",
+"x": "Listen for \"archaic\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·时间",
+"ipa": "/ɑr'keɪk/"
+},
+{
+"w": "antique",
+"m": "adj. 古时制造的，古董的　n. 古玩，古物",
+"x": "Listen for \"antique\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·时间",
+"ipa": "/æn'tik/"
+},
+{
+"w": "immemorial",
+"m": "adj. 无法追忆的；远古的",
+"x": "Listen for \"immemorial\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·时间",
+"ipa": "/,ɪmə'mɔrɪəl/"
+},
+{
+"w": "outdated",
+"m": "adj. 过时的；无用的",
+"x": "Listen for \"outdated\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·时间",
+"ipa": "/'aʊt'detɪd/"
+},
+{
+"w": "occasionally",
+"m": "adv. 偶尔",
+"x": "Listen for \"occasionally\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·时间",
+"ipa": "/o'keʒənəli/"
+},
+{
+"w": "finite",
+"m": "adj. 有限的，有限度的",
+"x": "Listen for \"finite\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·程度",
+"ipa": "/'faɪnaɪt/"
+},
+{
+"w": "finitude",
+"m": "n. 界限，限制",
+"x": "Listen for \"finitude\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·程度",
+"ipa": "/'fɪnə,tjʊd/"
+},
+{
+"w": "attain",
+"m": "v. 实现；达到",
+"x": "Listen for \"attain\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·程度",
+"ipa": "/ə'ten/"
+},
+{
+"w": "procure",
+"m": "v. 努力取得",
+"x": "procure → procurement n. 取得",
+"c": "雅思官方词汇速背: WHEN·程度",
+"ipa": "/prə'kjʊr/"
+},
+{
+"w": "retrieve",
+"m": "v. 寻回",
+"x": "Listen for \"retrieve\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·程度",
+"ipa": "/rɪ'triv/"
+},
+{
+"w": "lag",
+"m": "n. 滞后；落后 v. 落后",
+"x": "Listen for \"lag\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/læɡ/"
+},
+{
+"w": "linger",
+"m": "v. 逗留，徘徊",
+"x": "Listen for \"linger\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/'lɪŋɡɚ/"
+},
+{
+"w": "postpone",
+"m": "v. 延期，推迟",
+"x": "Listen for \"postpone\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/po'spon/"
+},
+{
+"w": "stall",
+"m": "n. 摊；棚　v. 拖延",
+"x": "Listen for \"stall\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/stɔl/"
+},
+{
+"w": "legacy",
+"m": "n. 遗赠物",
+"x": "legacy → legatary n. 受遗赠人",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/'lɛgəsi/"
+},
+{
+"w": "memento",
+"m": "n. 纪念品",
+"x": "Listen for \"memento\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/mɛˈmɛntoʊ/"
+},
+{
+"w": "initiate",
+"m": "v. 开始",
+"x": "initiate → initiative n. 主动性 initiation n. 开始",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/ɪ'nɪʃɪet/"
+},
+{
+"w": "inaugurate",
+"m": "v. 开始；为……举行就职典礼",
+"x": "Listen for \"inaugurate\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/ɪ'nɔɡjəret/"
+},
+{
+"w": "revive",
+"m": "v. 恢复；苏醒，复活",
+"x": "revive → revival n. 复活",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/rɪ'vaɪv/"
+},
+{
+"w": "embark",
+"m": "v. 从事；上船或飞机",
+"x": "Listen for \"embark\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/ɪm'bɑrk/"
+},
+{
+"w": "truce",
+"m": "n. 休战；中止，暂停",
+"x": "Listen for \"truce\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/trus/"
+},
+{
+"w": "cease",
+"m": "v. 停止，终止，结束",
+"x": "cease → ceaseless adj. 不停的",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/sis/"
+},
+{
+"w": "halt",
+"m": "v. 停止，暂停",
+"x": "Listen for \"halt\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/hɔlt/"
+},
+{
+"w": "terminate",
+"m": "v. 结束，使终结",
+"x": "Listen for \"terminate\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/'tɝmɪnet/"
+},
+{
+"w": "balk",
+"m": "v. 畏缩不前，犹豫",
+"x": "Listen for \"balk\" in this topic.",
+"c": "雅思官方词汇速背: WHEN·行动",
+"ipa": "/bɔk/"
+},
+{
+"w": "situate",
+"m": "v. 使位于，使处于……地位（位置）",
+"x": "Listen for \"situate\" in this topic.",
+"c": "雅思官方词汇速背: WHERE·位于",
+"ipa": "/'sɪtʃʊet/"
+},
+{
+"w": "scan",
+"m": "v. 扫描",
+"x": "Listen for \"scan\" in this topic.",
+"c": "雅思官方词汇速背: WHERE·办公",
+"ipa": "/skæn/"
+},
+{
+"w": "constituent",
+"m": "n. 组成部分，成分；选民",
+"x": "Listen for \"constituent\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/kən'stɪtʃuənt/"
+},
+{
+"w": "segment",
+"m": "n. 部分，片段",
+"x": "segment → segmental adj. 部分的 segmentation n. 分割",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/'sɛɡmənt/"
+},
+{
+"w": "ingredient",
+"m": "n. 组成部分；配料",
+"x": "Listen for \"ingredient\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/ɪn'ɡridɪənt/"
+},
+{
+"w": "conflict",
+"m": "n. 冲突；战斗，斗争",
+"x": "Listen for \"conflict\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/'kɑnflɪkt/"
+},
+{
+"w": "riot",
+"m": "n. 暴乱，骚乱",
+"x": "riot → rioter n. 暴徒，暴民",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/'raɪət/"
+},
+{
+"w": "eventuality",
+"m": "n. 可能发生的事情",
+"x": "Listen for \"eventuality\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/ɪ,vɛntʃu'æləti/"
+},
+{
+"w": "incident",
+"m": "n. 事件，骚乱，事故",
+"x": "incident → incidental adj. 易发生的；偶然发生的",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/'ɪnsɪdənt/"
+},
+{
+"w": "urgency",
+"m": "n. 紧迫，紧要；急事",
+"x": "urgency → urgent adj. 急迫的，紧急的 urgently adv. 紧急地",
+"c": "雅思官方词汇速背: WHAT·要事",
+"ipa": "/'ɝdʒənsi/"
+},
+{
+"w": "norm",
+"m": "n. 标准，规范",
+"x": "norm → normal adj. 正常的",
+"c": "雅思官方词汇速背: WHAT·范例",
+"ipa": "/nɔrm/"
+},
+{
+"w": "touchstone",
+"m": "n. 试金石；（检验）标准",
+"x": "Listen for \"touchstone\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·范例",
+"ipa": "/'tʌtʃ'ston/"
+},
+{
+"w": "precedent",
+"m": "n. 范例，判例",
+"x": "precedent → precedence n. 优先，优先权 precedented adj. 有先例（可援）的",
+"c": "雅思官方词汇速背: WHAT·范例",
+"ipa": "/'prɛsɪdənt/"
+},
+{
+"w": "prototype",
+"m": "n. 原型，雏形",
+"x": "Listen for \"prototype\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·范例",
+"ipa": "/'protə'taɪp/"
+},
+{
+"w": "exemplify",
+"m": "v. 是……的典型，实例",
+"x": "Listen for \"exemplify\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·范例",
+"ipa": "/ɪɡ'zɛmplɪfaɪ/"
+},
+{
+"w": "domain",
+"m": "n. 范围，领域",
+"x": "Listen for \"domain\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·区域",
+"ipa": "/do'men/"
+},
+{
+"w": "span",
+"m": "n. 跨度，跨径",
+"x": "Listen for \"span\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·区域",
+"ipa": "/spæn/"
+},
+{
+"w": "realm",
+"m": "n. 领域，范围",
+"x": "Listen for \"realm\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·区域",
+"ipa": "/rɛlm/"
+},
+{
+"w": "holistic",
+"m": "adj. 全部的",
+"x": "Listen for \"holistic\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·大小",
+"ipa": "/ho'lɪstɪk/"
+},
+{
+"w": "integrate",
+"m": "v. 使结合成为整体 adj. 整体的",
+"x": "integrate → integration n. 结合，整合",
+"c": "雅思官方词汇速背: WHAT·大小",
+"ipa": "/'ɪntɪɡret/"
+},
+{
+"w": "subtle",
+"m": "adj. 细微的；难以捉摸的",
+"x": "Listen for \"subtle\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·大小",
+"ipa": "/'sʌtl/"
+},
+{
+"w": "trivial",
+"m": "adj. 琐碎的；没有价值的，没有意义的",
+"x": "Listen for \"trivial\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·大小",
+"ipa": "/'trɪvɪəl/"
+},
+{
+"w": "slight",
+"m": "adj. 微小的，轻微的",
+"x": "Listen for \"slight\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·大小",
+"ipa": "/slaɪt/"
+},
+{
+"w": "fatal",
+"m": "adj. 致命的",
+"x": "Listen for \"fatal\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/'fetl/"
+},
+{
+"w": "calamity",
+"m": "n. 灾祸, 灾难",
+"x": "Listen for \"calamity\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/kə'læməti/"
+},
+{
+"w": "adversity",
+"m": "n. 逆境，灾难",
+"x": "Listen for \"adversity\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/əd'vɝsəti/"
+},
+{
+"w": "intimidate",
+"m": "v. 恐吓，威胁",
+"x": "Listen for \"intimidate\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/ɪn'tɪmɪdet/"
+},
+{
+"w": "dilemma",
+"m": "n. 左右为难",
+"x": "Listen for \"dilemma\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/dɪˈlemə/"
+},
+{
+"w": "deadlock",
+"m": "n. 僵局，僵持",
+"x": "Listen for \"deadlock\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/'dɛdlɑk/"
+},
+{
+"w": "doom",
+"m": "n. 厄运 v. 注定",
+"x": "Listen for \"doom\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/dʊm/"
+},
+{
+"w": "stranded",
+"m": "adj. 处于困境的",
+"x": "Listen for \"stranded\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·威胁",
+"ipa": "/'strændɪd/"
+},
+{
+"w": "feat",
+"m": "n. 功绩，伟业",
+"x": "Listen for \"feat\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/fit/"
+},
+{
+"w": "triumph",
+"m": "n. 胜利，获胜",
+"x": "Listen for \"triumph\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/'traɪʌmf/"
+},
+{
+"w": "accomplishment",
+"m": "n. 完成，实现",
+"x": "accomplishment → accomplishable adj. 可完成的，可达到的",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/ə'kɑmplɪʃmənt/"
+},
+{
+"w": "optimum",
+"m": "adj. 最有利的；最适宜的",
+"x": "Listen for \"optimum\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/'ɑptəməm/"
+},
+{
+"w": "defect",
+"m": "n. 缺点，缺陷",
+"x": "Listen for \"defect\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/‘dɪfɛkt/"
+},
+{
+"w": "awful",
+"m": "adj. 非常差的，很糟的",
+"x": "Listen for \"awful\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/'ɔfl/"
+},
+{
+"w": "disgusting",
+"m": "adj. 令人作呕的，令人厌恶的",
+"x": "Listen for \"disgusting\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/dɪs'ɡʌstɪŋ/"
+},
+{
+"w": "evil",
+"m": "adj. 邪恶的；讨厌的",
+"x": "Listen for \"evil\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·性质",
+"ipa": "/'ivl/"
+},
+{
+"w": "trait",
+"m": "n. 个性；显著的特点",
+"x": "Listen for \"trait\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/tret/"
+},
+{
+"w": "personality",
+"m": "n. 人格，个性",
+"x": "Listen for \"personality\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/,pɝsə'næləti/"
+},
+{
+"w": "residue",
+"m": "n. 剩余，余渣",
+"x": "Listen for \"residue\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'rɛzɪdu/"
+},
+{
+"w": "remainder",
+"m": "n. 剩余",
+"x": "Listen for \"remainder\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/rɪ'mendɚ/"
+},
+{
+"w": "debris",
+"m": "n. 散落的碎片，残骸",
+"x": "Listen for \"debris\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/də'bri/"
+},
+{
+"w": "rift",
+"m": "n. 裂缝；不和 v. 裂开",
+"x": "Listen for \"rift\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/rɪft/"
+},
+{
+"w": "resign",
+"m": "v. 辞职；放弃",
+"x": "resign → resignation n. 辞职 resigned adj. 已辞职的；顺从的",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/rɪ'zaɪn/"
+},
+{
+"w": "engage",
+"m": "v. 从事，忙于",
+"x": "engage → engagement n. 订婚；约会",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɪn'ɡedʒ/"
+},
+{
+"w": "accountability",
+"m": "n. 有责任，有义务",
+"x": "Listen for \"accountability\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/ə,kaʊntə'bɪləti/"
+},
+{
+"w": "obligation",
+"m": "n. 义务，责任",
+"x": "Listen for \"obligation\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/,ɑblɪ'ɡeʃən/"
+},
+{
+"w": "commitment",
+"m": "n. 承诺",
+"x": "Listen for \"commitment\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/kə'mɪtmənt/"
+},
+{
+"w": "equity",
+"m": "n. 公平，公正",
+"x": "Listen for \"equity\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/'ɛkwəti/"
+},
+{
+"w": "equitable",
+"m": "adj. 公正的，合理的",
+"x": "equitable → equitableness n. 公正 equitably adv. 公正地",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/ˈɛkwɪtəbəl/"
+},
+{
+"w": "neutral",
+"m": "adj. 中立的，不偏不倚的",
+"x": "Listen for \"neutral\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/'nʊtrəl/"
+},
+{
+"w": "disinterested",
+"m": "adj. 公正的",
+"x": "Listen for \"disinterested\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·益处",
+"ipa": "/dɪs'ɪntərɪsɪd/"
+},
+{
+"w": "drastic",
+"m": "adj. 激烈的；极端的；严厉的",
+"x": "Listen for \"drastic\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'dræstɪk/"
+},
+{
+"w": "conspicuous",
+"m": "adj. 显眼的，明显的",
+"x": "Listen for \"conspicuous\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/kən'spɪkjʊəs/"
+},
+{
+"w": "apparent",
+"m": "adj. 显然的，明显的，清晰可见的",
+"x": "Listen for \"apparent\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ə'pærənt/"
+},
+{
+"w": "dramatic",
+"m": "adj. 引人注目的",
+"x": "Listen for \"dramatic\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/drə'mætɪk/"
+},
+{
+"w": "explicit",
+"m": "adj. 明确的；详述的；直言的",
+"x": "Listen for \"explicit\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɪk'splɪsɪt/"
+},
+{
+"w": "compelling",
+"m": "adj. 非常强烈的；引人入胜的",
+"x": "Listen for \"compelling\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/kəm'pɛlɪŋ/"
+},
+{
+"w": "culprit",
+"m": "n. 罪犯",
+"x": "Listen for \"culprit\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'kʌlprɪt/"
+},
+{
+"w": "misdeed",
+"m": "n. 违法行为，罪恶",
+"x": "Listen for \"misdeed\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/,mɪs'did/"
+},
+{
+"w": "hijack",
+"m": "v. 绑架；拦路抢劫",
+"x": "Listen for \"hijack\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'haɪdʒæk/"
+},
+{
+"w": "homicide",
+"m": "n. <律>杀人（行为）；杀人犯",
+"x": "homicide → homicidal adj. 嗜杀成性的",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'hɑmɪsaɪd/"
+},
+{
+"w": "delinquency",
+"m": "n. 不法行为；过失，罪过",
+"x": "delinquency → delinquent adj. 违法的",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/dɪ'lɪŋkwənsi/"
+},
+{
+"w": "assault",
+"m": "n. 攻击；殴打　v. 袭击，殴打；强暴",
+"x": "Listen for \"assault\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ə'sɔlt/"
+},
+{
+"w": "robbery",
+"m": "n. 抢劫案；抢劫，盗取",
+"x": "Listen for \"robbery\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'rɑbəri/"
+},
+{
+"w": "loot",
+"m": "n. 赃物，掠夺物，战利品 v. 抢劫，掠夺",
+"x": "loot → looter n. 掠夺者，抢劫者",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/lut/"
+},
+{
+"w": "embezzlement",
+"m": "n. 盗用，挪用",
+"x": "Listen for \"embezzlement\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɪm'bɛzlmənt/"
+},
+{
+"w": "corrupt",
+"m": "adj. 贪污的，受贿的",
+"x": "corrupt → corruption n. 堕落；腐化",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/kə'rʌpt/"
+},
+{
+"w": "revenge",
+"m": "n. 报仇，报复　v. 为……报仇",
+"x": "Listen for \"revenge\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/rɪ'vɛndʒ/"
+},
+{
+"w": "punitive",
+"m": "adj. 处罚的，惩罚的",
+"x": "Listen for \"punitive\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'pjʊnətɪv/"
+},
+{
+"w": "penalty",
+"m": "n. 惩罚，处罚",
+"x": "Listen for \"penalty\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'pɛnəlti/"
+},
+{
+"w": "notorious",
+"m": "adj. 臭名昭著的，声名狼藉的",
+"x": "Listen for \"notorious\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/no'tɔrɪəs/"
+},
+{
+"w": "prejudice",
+"m": "n. 偏见，歧视",
+"x": "Listen for \"prejudice\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'prɛdʒədɪs/"
+},
+{
+"w": "mislead",
+"m": "v. 误导，将……引入歧途",
+"x": "Listen for \"mislead\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'mɪs'lid/"
+},
+{
+"w": "bias",
+"m": "n. 偏见，偏心",
+"x": "bias → biased adj. 有偏见的 unbiased adj. 不偏不倚的，公正的",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'baɪəs/"
+},
+{
+"w": "odds",
+"m": "n. 可能性，机会",
+"x": "Listen for \"odds\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɑdz/"
+},
+{
+"w": "incidence",
+"m": "n. 发生率；影响范围",
+"x": "Listen for \"incidence\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'ɪnsɪdəns/"
+},
+{
+"w": "sheer",
+"m": "adj. 完全的　adv. 完全；垂直",
+"x": "Listen for \"sheer\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ʃɪr/"
+},
+{
+"w": "gross",
+"m": "adj. 总的；总重量的，毛重的 v. 总收入为",
+"x": "Listen for \"gross\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɡros/"
+},
+{
+"w": "abnormal",
+"m": "adj. 反常的；变态的",
+"x": "Listen for \"abnormal\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/æb'nɔrml/"
+},
+{
+"w": "habitual",
+"m": "adj. 习惯的，惯常的",
+"x": "Listen for \"habitual\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/hə'bɪtʃuəl/"
+},
+{
+"w": "plastic",
+"m": "adj. 可塑的 n. 塑料",
+"x": "plastic → plasticity n. 可塑性",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'plæstɪk/"
+},
+{
+"w": "elastic",
+"m": "adj. 有弹力的",
+"x": "Listen for \"elastic\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ɪ'læstɪk/"
+},
+{
+"w": "tensile",
+"m": "adj. 拉力的；可伸展的",
+"x": "tensile → tension n. 张力",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'tɛnsl/"
+},
+{
+"w": "flavour",
+"m": "n. 味道；香料",
+"x": "Listen for \"flavour\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点"
+},
+{
+"w": "acid",
+"m": "adj. 酸味的，酸的",
+"x": "Listen for \"acid\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'æsɪd/"
+},
+{
+"w": "yummy",
+"m": "adj. 美味的",
+"x": "Listen for \"yummy\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'jʌmi/"
+},
+{
+"w": "tasty",
+"m": "adj. 美味的",
+"x": "Listen for \"tasty\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'testi/"
+},
+{
+"w": "awkward",
+"m": "adj. 笨重的；尴尬的",
+"x": "Listen for \"awkward\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'ɔkwɚd/"
+},
+{
+"w": "cumbersome",
+"m": "adj. 大而笨重的；冗长的",
+"x": "Listen for \"cumbersome\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/ˈkəmbərsəm/"
+},
+{
+"w": "sluggish",
+"m": "adj. 行动迟缓的，不机警的",
+"x": "Listen for \"sluggish\" in this topic.",
+"c": "雅思官方词汇速背: WHAT·特点",
+"ipa": "/'slʌɡɪʃ/"
+},
+{
+"w": "ascribe",
+"m": "v. 把……归于，认为……具有",
+"x": "Listen for \"ascribe\" in this topic.",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/ə'skraɪb/"
+},
+{
+"w": "account",
+"m": "v. 说明……原因　n. 讲述；账户",
+"x": "account → accountancy n. 会计工作；accountant n. 会计人员，会计师； accountable adj. 应作解释的，负有责任的",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/ə'kaʊnt/"
+},
+{
+"w": "arise",
+"m": "v. 引起；唤醒",
+"x": "Listen for \"arise\" in this topic.",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/ə'raɪz/"
+},
+{
+"w": "evoke",
+"m": "v. 产生，引起；唤起",
+"x": "Listen for \"evoke\" in this topic.",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/ɪ'vok/"
+},
+{
+"w": "pose",
+"m": "v. 引起，产生；提出",
+"x": "Listen for \"pose\" in this topic.",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/poz/"
+},
+{
+"w": "rouse",
+"m": "v. 唤醒；使……活跃起来（产生兴趣）",
+"x": "Listen for \"rouse\" in this topic.",
+"c": "雅思官方词汇速背: WHY·引起",
+"ipa": "/raʊz/"
+},
+{
+"w": "startling",
+"m": "adj. 令人震惊的",
+"x": "Listen for \"startling\" in this topic.",
+"c": "雅思官方词汇速背: WHY·惊奇",
+"ipa": "/'stɑrtlɪŋ/"
+},
+{
+"w": "obsession",
+"m": "n. 困扰，无法摆脱的思想（或情感）",
+"x": "Listen for \"obsession\" in this topic.",
+"c": "雅思官方词汇速背: WHY·惊奇",
+"ipa": "/əb'sɛʃ(ə)n/"
+},
+{
+"w": "perplex",
+"m": "v. 使迷惑，使混乱",
+"x": "Listen for \"perplex\" in this topic.",
+"c": "雅思官方词汇速背: WHY·惊奇",
+"ipa": "/pɚ'plɛks/"
+},
+{
+"w": "baffle",
+"m": "v. 使困难，使为难",
+"x": "Listen for \"baffle\" in this topic.",
+"c": "雅思官方词汇速背: WHY·惊奇",
+"ipa": "/'bæfl/"
+},
+{
+"w": "contemplate",
+"m": "v. 深思，细想，仔细考虑",
+"x": "Listen for \"contemplate\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/'kɑntəmplet/"
+},
+{
+"w": "introspection",
+"m": "n. 反省，内省",
+"x": "Listen for \"introspection\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/'ɪntrə'spɛkʃən/"
+},
+{
+"w": "deliberate",
+"m": "v. 仔细思考，深思熟虑",
+"x": "Listen for \"deliberate\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/dɪ'lɪbərət/"
+},
+{
+"w": "envision",
+"m": "v. 想象，展望",
+"x": "Listen for \"envision\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/ɪn'vɪʒn/"
+},
+{
+"w": "fantasy",
+"m": "n. 想象，幻想",
+"x": "fantasy → fantastic adj. 荒诞的，奇异的",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/'fæntəsi/"
+},
+{
+"w": "forecast",
+"m": "v. 预言，预报　n. 预言，预知",
+"x": "Listen for \"forecast\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/'fɔrkæst/"
+},
+{
+"w": "unexpected",
+"m": "adj. 料想不到的，意外的",
+"x": "Listen for \"unexpected\" in this topic.",
+"c": "雅思官方词汇速背: WHY·思考",
+"ipa": "/'ʌnɪk'spɛktɪd/"
+},
+{
+"w": "imperative",
+"m": "adj. 必要的　n. 必要的事",
+"x": "Listen for \"imperative\" in this topic.",
+"c": "雅思官方词汇速背: WHY·重要",
+"ipa": "/ɪm'pɛrətɪv/"
+},
+{
+"w": "prime",
+"m": "adj. 首要的；第一流的",
+"x": "Listen for \"prime\" in this topic.",
+"c": "雅思官方词汇速背: WHY·重要",
+"ipa": "/praɪm/"
+},
+{
+"w": "significance",
+"m": "n. 意义；重要性同 importance",
+"x": "Listen for \"significance\" in this topic.",
+"c": "雅思官方词汇速背: WHY·重要",
+"ipa": "/sɪɡ'nɪfɪkəns/"
+},
+{
+"w": "steady",
+"m": "adj. 稳的，坚定的",
+"x": "Listen for \"steady\" in this topic.",
+"c": "雅思官方词汇速背: HOW·保持",
+"ipa": "/'stɛdi/"
+},
+{
+"w": "reserve",
+"m": "v./n. 保持（预订）",
+"x": "reserve → reservation n. 保留的座位（住处）等",
+"c": "雅思官方词汇速背: HOW·保持",
+"ipa": "/rɪ'zɝv/"
+},
+{
+"w": "modify",
+"m": "v. 修改；缓和",
+"x": "Listen for \"modify\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/'mɑdɪfaɪ/"
+},
+{
+"w": "transform",
+"m": "v. 改变",
+"x": "transform → transformable adj.可变形的 transformation n. 变化",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/træns'fɔrm/"
+},
+{
+"w": "ascertain",
+"m": "v. 弄清，确定，查明",
+"x": "Listen for \"ascertain\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/'æsɚ'ten/"
+},
+{
+"w": "detect",
+"m": "v. 发现；发觉，查明",
+"x": "Listen for \"detect\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/dɪ'tɛkt/"
+},
+{
+"w": "discern",
+"m": "v. 看见；辨明",
+"x": "Listen for \"discern\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/dɪ'sɝn/"
+},
+{
+"w": "fracture",
+"m": "v.（使）折断，破碎",
+"x": "fracture → fraction n. 小部分；分数",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/'fræktʃɚ/"
+},
+{
+"w": "dismantle",
+"m": "v. 拆开，拆卸",
+"x": "dismantle → dismantlement n. 拆卸",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/dɪs'mæntl/"
+},
+{
+"w": "elicit",
+"m": "v. 引出，探出",
+"x": "elicit → elicitation n. 引出，诱出",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ɪ'lɪsɪt/"
+},
+{
+"w": "expose",
+"m": "n./v. 揭示",
+"x": "Listen for \"expose\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ɪk'spoz/"
+},
+{
+"w": "stimulate",
+"m": "v. 刺激，激励",
+"x": "Listen for \"stimulate\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'stɪmjə'let/"
+},
+{
+"w": "propel",
+"m": "v. 推进，推动",
+"x": "Listen for \"propel\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/prə'pɛl/"
+},
+{
+"w": "boost",
+"m": "v. 向上推起，提升",
+"x": "Listen for \"boost\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/bʊst/"
+},
+{
+"w": "adopt",
+"m": "v. 采用，采纳",
+"x": "adopt → adopted adj. 被收养的 adoption n. 采用",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ə'dɑpt/"
+},
+{
+"w": "approve",
+"m": "v. 赞成，同意",
+"x": "Listen for \"approve\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ə'prʊv/"
+},
+{
+"w": "conform",
+"m": "v. 遵守；符合",
+"x": "conform → conformable adj. 适合的，一致的 conformity n. 遵照，符合",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/kən'fɔrm/"
+},
+{
+"w": "compliment",
+"m": "n. 赞美，恭维（话）",
+"x": "Listen for \"compliment\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'kɑmpləmənt/"
+},
+{
+"w": "advocate",
+"m": "v. 提倡，拥护",
+"x": "Listen for \"advocate\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'ædvəket/"
+},
+{
+"w": "endorse",
+"m": "v. 赞同，认可",
+"x": "Listen for \"endorse\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ɪn'dɔrs/"
+},
+{
+"w": "boom",
+"m": "v. 激增，猛涨；兴隆",
+"x": "boom → booming adj. 急速发展的",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/bʊm/"
+},
+{
+"w": "accelerate",
+"m": "v.（使）加快，（使）增速",
+"x": "Listen for \"accelerate\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ək'sɛləret/"
+},
+{
+"w": "facilitate",
+"m": "v. 使便利；促进",
+"x": "facilitate → facility n. 设备；能力",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/fə'sɪlə'tet/"
+},
+{
+"w": "collaboration",
+"m": "n. 合作，协作",
+"x": "Listen for \"collaboration\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/kə,læbə'reʃən/"
+},
+{
+"w": "patronage",
+"m": "n. 支持，帮助",
+"x": "Listen for \"patronage\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'pætrənɪdʒ/"
+},
+{
+"w": "assure",
+"m": "v. 使相信；使确信",
+"x": "assure → assurance n. 保证；信心",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ə'ʃʊr/"
+},
+{
+"w": "outdo",
+"m": "v. 胜过，优于",
+"x": "Listen for \"outdo\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/,aʊt'du/"
+},
+{
+"w": "surpass",
+"m": "v. 超过；优于",
+"x": "Listen for \"surpass\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/sə'pæs/"
+},
+{
+"w": "foster",
+"m": "v. 培养，促进",
+"x": "Listen for \"foster\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'fɔstɚ/"
+},
+{
+"w": "nurture",
+"m": "v. 养育，培育",
+"x": "Listen for \"nurture\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/'nɝtʃɚ/"
+},
+{
+"w": "enlighten",
+"m": "v. 启发，开导",
+"x": "Listen for \"enlighten\" in this topic.",
+"c": "雅思官方词汇速背: HOW·促进",
+"ipa": "/ɪn'laɪtn/"
+},
+{
+"w": "amass",
+"m": "v. 积累，积聚",
+"x": "Listen for \"amass\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ə'mæs/"
+},
+{
+"w": "compact",
+"m": "v. 压紧　adj. 整齐填满的",
+"x": "Listen for \"compact\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/'kɑmpækt/"
+},
+{
+"w": "assemble",
+"m": "v. 集合，收集",
+"x": "assemble → assembly n. 集合；装配",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ə'sɛmbl/"
+},
+{
+"w": "compression",
+"m": "n. 挤压，压缩",
+"x": "Listen for \"compression\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/kəm'prɛʃən/"
+},
+{
+"w": "abate",
+"m": "v. 减少，减轻，减退",
+"x": "abate → abatement n. 减少",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ə'bet/"
+},
+{
+"w": "deplete",
+"m": "v.（大量）减少；使空虚",
+"x": "Listen for \"deplete\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/dɪ'plit/"
+},
+{
+"w": "curtail",
+"m": "v. 缩短",
+"x": "Listen for \"curtail\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/kɚ'tel/"
+},
+{
+"w": "impair",
+"m": "v. 削弱",
+"x": "impair → impairment n. 损害，损伤",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ɪm'pɛr/"
+},
+{
+"w": "adverse",
+"m": "adj. 不利的，敌对的",
+"x": "adverse → adversity n. 逆境；厄运",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ædˈvɚs, ˈædˌvɚs/"
+},
+{
+"w": "opponent",
+"m": "n. 对手，反对者",
+"x": "Listen for \"opponent\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/ə'ponənt/"
+},
+{
+"w": "reject",
+"m": "v. 拒绝；排斥",
+"x": "Listen for \"reject\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/rɪ'dʒɛkt/"
+},
+{
+"w": "frown",
+"m": "v. 皱眉",
+"x": "Listen for \"frown\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/fraʊn/"
+},
+{
+"w": "substitute",
+"m": "v. 代替，替换 n. 替代",
+"x": "Listen for \"substitute\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/'sʌbstɪtut/"
+},
+{
+"w": "replenish",
+"m": "v. 补充",
+"x": "Listen for \"replenish\" in this topic.",
+"c": "雅思官方词汇速背: HOW·改变",
+"ipa": "/rɪ'plɛnɪʃ/"
+},
+{
+"w": "reproach",
+"m": "n./v. 责备",
+"x": "Listen for \"reproach\" in this topic.",
+"c": "雅思官方词汇速背: HOW·阻止",
+"ipa": "/rɪ'protʃ/"
+},
+{
+"w": "condemn",
+"m": "v. 谴责，判刑",
+"x": "condemn → condemnation n. 谴责；定罪",
+"c": "雅思官方词汇速背: HOW·阻止",
+"ipa": "/kən'dɛm/"
+},
+{
+"w": "accuse",
+"m": "v. 指责，谴责，控告",
+"x": "accuse → accusation n. 控告；非难 accused adj. 被控告的 n. 被告",
+"c": "雅思官方词汇速背: HOW·阻止",
+"ipa": "/ə'kjuz/"
 }
 ];

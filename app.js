@@ -2,11 +2,14 @@ const EPOCH=new Date(2026,0,1);
 const key=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 const today=new Date(), TK=key(today);
 let S=JSON.parse(localStorage.getItem('ep')||'{"days":{},"learned":[],"best":0}');
-S.days=S.days||{};S.learned=S.learned||[];S.best=S.best||0;S.cat=S.cat||'All';S.goal=S.goal||50;S.qlen=S.qlen||20;S.lt=S.lt||{};S.sh=S.sh||{i:{},h:{}};
+S.days=S.days||{};S.learned=S.learned||[];S.best=S.best||0;S.cat=S.cat||'All';if(S.cat!=='All'&&!S.cat.startsWith('G:')&&!WORDS.some(w=>w.c===S.cat))S.cat='All';S.goal=S.goal||50;S.qlen=S.qlen||20;S.lt=S.lt||{};S.sh=S.sh||{i:{},h:{}};
 const save=()=>localStorage.setItem('ep',JSON.stringify(S));
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const CATS=['All',...new Set(WORDS.map(w=>w.c))];
-const list=()=>S.cat==='All'?WORDS:WORDS.filter(w=>w.c===S.cat);
+const GRP=c=>c.includes(': ')?c.split(': ')[0]:'Daily English';const SUB=c=>c.includes(': ')?c.slice(c.indexOf(': ')+2):c;const GROUPS=[...new Set(CATS.slice(1).map(GRP))];
+const list=()=>S.cat==='All'?WORDS:S.cat.startsWith('G:')?WORDS.filter(w=>GRP(w.c)===S.cat.slice(2)):WORDS.filter(w=>w.c===S.cat);
+const curG=()=>S.cat==='All'?'All':S.cat.startsWith('G:')?S.cat.slice(2):GRP(S.cat);const catLabel=()=>S.cat==='All'?'All':S.cat.startsWith('G:')?S.cat.slice(2)+' · All':S.cat;
+function setG(g){const v=g==='All'?'All':'G:'+g;$('cat').onchange({target:{value:v}})}
 const dayN=Math.floor((new Date(today.getFullYear(),today.getMonth(),today.getDate())-EPOCH)/864e5);
 function todays(){const k=TK+'|'+S.cat+'|'+S.goal;if(!S.plan||S.plan.k!==k){const L=list(),lt=S.lt[TK]||[];let n=L.filter(w=>!S.learned.includes(w.w)||lt.includes(w.w));if(n.length<S.goal)n=n.concat(shuf(L.filter(w=>!n.includes(w))));S.plan={k,items:n.slice(0,S.goal).map(w=>w.w)};save()}
  const L=list();return S.plan.items.map(t=>L.find(w=>w.w===t)).filter(Boolean)}
@@ -52,12 +55,12 @@ function recordMine(btn){if(!navigator.mediaDevices||!window.MediaRecorder){btn.
   mr.onstop=()=>{st.getTracks().forEach(x=>x.stop());const u=URL.createObjectURL(new Blob(ch,{type:mr.mimeType}));btn.textContent='▶ 播放我的录音';btn.onclick=()=>new Audio(u).play()};
   mr.start();btn.textContent='⏹ 录音中… 读完点我停止';btn.onclick=()=>mr.stop()}).catch(()=>btn.textContent='❌ 无法录音（请允许麦克风）')}
 function card(w){return `<div class="card"><div class="word">${esc(w.w)} ${spk(w.w)}</div>${w.ipa?`<div class="ex"><small>${esc(w.ipa)}</small></div>`:''}<div class="mean">${esc(w.m)}</div><div class="ex">${esc(w.x)} ${spk(w.x)}</div>${w.x2?`<div class="ex">${esc(w.x2)} ${spk(w.x2)}</div>`:''}${w.n?`<div class="ex"><small>${esc(w.n)}</small></div>`:''}</div>`}
-function picker(){return `<button class="btn alt" id="spd">${S.slow?'🐢 Slow':'🐇 Normal'}</button>${SR?'':'<p><small>🎤 Speaking practice needs Chrome on Android/desktop.</small></p>'}<select id="cat" class="sel">${CATS.map(c=>`<option ${c===S.cat?'selected':''}>${esc(c)}</option>`).join('')}</select>`}
+function picker(){return `<button class="btn alt" id="spd">${S.slow?'🐢 Slow':'🐇 Normal'}</button>${SR?'':'<p><small>🎤 Speaking practice needs Chrome on Android/desktop.</small></p>'}<select id="catg" class="sel" onchange="setG(this.value)">${['All',...GROUPS].map(g=>`<option value="${esc(g)}" ${g===curG()?'selected':''}>📚 ${esc(g)}${g==='All'?'':' ('+WORDS.filter(w=>GRP(w.c)===g).length+')'}</option>`).join('')}</select>${curG()==='All'?'<select id="cat" class="sel" style="display:none"></select>':`<select id="cat" class="sel"><option value="G:${esc(curG())}">📖 All</option>${CATS.slice(1).filter(c=>GRP(c)===curG()).map(c=>`<option value="${esc(c)}" ${c===S.cat?'selected':''}>📖 ${esc(SUB(c))} (${WORDS.filter(w=>w.c===c).length})</option>`).join('')}</select>`}`}
 let browse=false;
 function learn(){const L=list(),T=browse?L:todays(),pages=Math.max(1,Math.ceil(T.length/PG));page=Math.min(page,pages-1);const lt=S.lt[TK]||[],d=T.filter(w=>lt.includes(w.w)).length;
  const opt=(id,v,a)=>`<select id="${id}" class="sel half">${a.map(x=>`<option value="${x}" ${x==v?'selected':''}>${id==='goal'?'Daily goal: ':'Quiz: '}${x}</option>`).join('')}</select>`;
  $('tab-learn').innerHTML=picker()+opt('goal',S.goal,[20,50,75,100])+opt('qlen',S.qlen,[10,20,50])+
- `<div class="card"><b>Today: ${doneToday()}/${S.goal}</b> ${doneToday()>=S.goal?'🎉 Goal reached!':''}<div class="bar"><i style="width:${Math.min(100,doneToday()/S.goal*100)}%"></i></div><small>${S.cat} · ${L.length} items · ${browse?'browsing all':'this list '+d+'/'+T.length}</small></div>`+
+ `<div class="card"><b>Today: ${doneToday()}/${S.goal}</b> ${doneToday()>=S.goal?'🎉 Goal reached!':''}<div class="bar"><i style="width:${Math.min(100,doneToday()/S.goal*100)}%"></i></div><small>${esc(catLabel())} · ${L.length} items · ${browse?'browsing all':'this list '+d+'/'+T.length}</small></div>`+
  T.slice(page*PG,page*PG+PG).map(w=>card(w).replace(/<\/div>$/,`<button class="btn ${lt.includes(w.w)?'done':'alt'}" data-learn="${esc(w.w)}">${lt.includes(w.w)?'✓ Learned':'Mark as learned'}</button></div>`)).join('')+
  `<div class="pager"><button class="btn alt" id="prev" ${page?'':'disabled'}>← Prev</button><span>Page ${page+1}/${pages}</span><button class="btn alt" id="nxt" ${page<pages-1?'':'disabled'}>Next →</button></div>`+
  `<button class="btn alt" id="all10">Mark this page learned</button><button class="btn" onclick="go('quiz')">Take today's quiz →</button>`+
@@ -97,16 +100,16 @@ function progress(){const y=today.getFullYear(),m=today.getMonth(),first=new Dat
 function shadow(){const L=list(),i=Math.min(S.sh.i[S.cat]||0,L.length-1),w=L[i];const hist=t=>{const h=S.sh.h[t]||[];return h.length?`<small>History: ${h.join(', ')} · best ${Math.max(...h)}</small>`:'<small>No attempts yet</small>'};
  const tg=(t,lab)=>`<div class="card"><small>${lab}</small><div class="word">${esc(t)}</div>${hist(t)}<div><button class="btn alt half" data-say="${esc(t)}">🔊 听原音</button><button class="btn half shrec" data-t="${esc(t)}">🎤 跟读</button></div></div>`;
  const sc=L.map(x=>S.sh.h[x.w]).filter(Boolean).map(h=>h[h.length-1]);
- $('tab-shadow').innerHTML=`<div class="card">📢 先点🔊听原音，再点🎤跟着大声读，读完会自动打分（需要联网）。<label style="display:block;margin-top:6px"><input type="checkbox" id="recOn" ${S.recOn?'checked':''}> 评分后允许录下自己的声音对比</label></div>`+picker()+`<div class="card"><b>跟读 ${i+1}/${L.length}</b> · ${esc(S.cat)}<br><small>Practised ${sc.length} items · avg ${sc.length?Math.round(sc.reduce((a,b)=>a+b)/sc.length):0}/100</small>${SR?'':'<p>⚠️ Speech recognition not supported in this browser — you can still listen. Use Chrome on Android to score.</p>'}</div>`+
+ $('tab-shadow').innerHTML=`<div class="card">📢 先点🔊听原音，再点🎤跟着大声读，读完会自动打分（需要联网）。<label style="display:block;margin-top:6px"><input type="checkbox" id="recOn" ${S.recOn?'checked':''}> 评分后允许录下自己的声音对比</label></div>`+picker()+`<div class="card"><b>跟读 ${i+1}/${L.length}</b> · ${esc(catLabel())}<br><small>Practised ${sc.length} items · avg ${sc.length?Math.round(sc.reduce((a,b)=>a+b)/sc.length):0}/100</small>${SR?'':'<p>⚠️ Speech recognition not supported in this browser — you can still listen. Use Chrome on Android to score.</p>'}</div>`+
   tg(w.w,'Word / phrase · '+esc(w.m))+(w.x&&w.x!==w.w?tg(w.x,'Sentence'):'')+
   `<div class="pager"><button class="btn alt" id="shp" ${i?'':'disabled'}>← Prev</button><button class="btn alt" id="shn" ${i<L.length-1?'':'disabled'}>Next →</button></div>`;
  $('cat').onchange=e=>{S.cat=e.target.value;save();shadow()};$('recOn').onchange=e=>{S.recOn=e.target.checked;save()};
  const mv=d=>{S.sh.i[S.cat]=i+d;save();shadow()};$('shp').onclick=()=>mv(-1);$('shn').onclick=()=>mv(1);
  document.querySelectorAll('.shrec').forEach(b=>b.onclick=()=>rec(b.dataset.t,b.parentElement,()=>{}))}
 function badge(){$('streakBadge').textContent='🔥 '+streak()}
-function go(t){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));['learn','quiz','shadow','progress'].forEach(x=>$('tab-'+x).hidden=x!==t);
+function go(t){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));['learn','quiz','shadow','progress'].forEach(x=>{$('tab-'+x).hidden=x!==t;if(x!==t&&x!=='quiz')$('tab-'+x).innerHTML=''});document.querySelectorAll('#tab-quiz select').forEach(e=>{if(t!=='quiz')e.removeAttribute('id')});
  if(t==='quiz'&&qi>=Q.length)Q=[];if(t==='learn')learn();if(t==='quiz')quiz();if(t==='progress')progress();if(t==='shadow')shadow()}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
-learn();badge();quiz();
+learn();badge();
 if('serviceWorker'in navigator){let rl=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!rl){rl=true;location.reload()}});
  navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}
