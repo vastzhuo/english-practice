@@ -2,7 +2,7 @@
 const WORDS = [
 {
 "w": "break the ice",
-"m": "to start a conversation in a relaxed way",
+"m": "打破僵局 — to start a conversation in a relaxed way",
 "x": "He told a joke to break the ice at the meeting.",
 "x2": "Asking about the weekend is an easy way to break the ice.",
 "c": "Core vocabulary",
@@ -10,7 +10,7 @@ const WORDS = [
 },
 {
 "w": "resilient",
-"m": "able to recover quickly from difficulties",
+"m": "有韧性的 — able to recover quickly from difficulties",
 "x": "Kids are surprisingly resilient after setbacks.",
 "x2": "Our team stayed resilient during the tough quarter.",
 "c": "Core vocabulary",
@@ -18,7 +18,7 @@ const WORDS = [
 },
 {
 "w": "follow up",
-"m": "to contact someone again about something",
+"m": "跟进 — to contact someone again about something",
 "x": "I'll follow up with you by email tomorrow.",
 "x2": "Did you follow up on the client's request?",
 "c": "Core vocabulary",
@@ -26,7 +26,7 @@ const WORDS = [
 },
 {
 "w": "meticulous",
-"m": "very careful and precise",
+"m": "一丝不苟的 — very careful and precise",
 "x": "She is meticulous about checking every number.",
 "x2": "The report was meticulous and well organised.",
 "c": "Core vocabulary",
@@ -34,7 +34,7 @@ const WORDS = [
 },
 {
 "w": "on the same page",
-"m": "in agreement; understanding the same thing",
+"m": "达成共识 — in agreement; understanding the same thing",
 "x": "Let's make sure we're on the same page before we start.",
 "x2": "After the call, everyone was on the same page.",
 "c": "Core vocabulary",
@@ -42,7 +42,7 @@ const WORDS = [
 },
 {
 "w": "candid",
-"m": "honest and direct",
+"m": "坦率的 — honest and direct",
 "x": "Thanks for your candid feedback.",
 "x2": "He gave a candid answer about the risks.",
 "c": "Core vocabulary",
@@ -50,7 +50,7 @@ const WORDS = [
 },
 {
 "w": "figure out",
-"m": "to understand or solve",
+"m": "弄明白 — to understand or solve",
 "x": "I can't figure out how this app works.",
 "x2": "We'll figure out a plan together.",
 "c": "Core vocabulary",
@@ -58,7 +58,7 @@ const WORDS = [
 },
 {
 "w": "ambiguous",
-"m": "having more than one possible meaning",
+"m": "模棱两可的 — having more than one possible meaning",
 "x": "The instructions were ambiguous, so I asked for clarification.",
 "x2": "His reply was ambiguous: yes or no?",
 "c": "Core vocabulary",
@@ -66,7 +66,7 @@ const WORDS = [
 },
 {
 "w": "get the hang of",
-"m": "to learn how to do something",
+"m": "掌握窍门 — to learn how to do something",
 "x": "You'll get the hang of driving after a few lessons.",
 "x2": "I'm finally getting the hang of this software.",
 "c": "Core vocabulary",
@@ -74,7 +74,7 @@ const WORDS = [
 },
 {
 "w": "thrive",
-"m": "to grow or develop well",
+"m": "茁壮成长 — to grow or develop well",
 "x": "Plants thrive in sunlight.",
 "x2": "She thrives under pressure.",
 "c": "Core vocabulary",
@@ -82,7 +82,7 @@ const WORDS = [
 },
 {
 "w": "a piece of cake",
-"m": "something very easy",
+"m": "小菜一碟 — something very easy",
 "x": "The exam was a piece of cake.",
 "x2": "Setting up the phone was a piece of cake.",
 "c": "Core vocabulary",
@@ -90,7 +90,7 @@ const WORDS = [
 },
 {
 "w": "diligent",
-"m": "showing care and effort in work",
+"m": "勤奋的 — showing care and effort in work",
 "x": "He's a diligent student who never misses class.",
 "x2": "Diligent practice builds fluency.",
 "c": "Core vocabulary",
@@ -98,7 +98,7 @@ const WORDS = [
 },
 {
 "w": "run out of",
-"m": "to use all of something",
+"m": "用完 — to use all of something",
 "x": "We ran out of milk this morning.",
 "x2": "I'm running out of time to finish this.",
 "c": "Core vocabulary",
@@ -106,7 +106,7 @@ const WORDS = [
 },
 {
 "w": "feasible",
-"m": "possible and practical to do",
+"m": "可行的 — possible and practical to do",
 "x": "Is it feasible to finish by Friday?",
 "x2": "The plan is ambitious but feasible.",
 "c": "Core vocabulary",
@@ -114,7 +114,7 @@ const WORDS = [
 },
 {
 "w": "keep in mind",
-"m": "to remember or consider",
+"m": "记住 — to remember or consider",
 "x": "Keep in mind that the shop closes at six.",
 "x2": "Please keep in mind the budget limit.",
 "c": "Core vocabulary",
@@ -122,7 +122,7 @@ const WORDS = [
 },
 {
 "w": "concise",
-"m": "short and clear",
+"m": "简洁的 — short and clear",
 "x": "Keep your emails concise.",
 "x2": "She gave a concise summary of the book.",
 "c": "Core vocabulary",
@@ -130,7 +130,7 @@ const WORDS = [
 },
 {
 "w": "call it a day",
-"m": "to stop working for now",
+"m": "今天到此为止 — to stop working for now",
 "x": "We've done enough; let's call it a day.",
 "x2": "After ten hours, he finally called it a day.",
 "c": "Core vocabulary",
@@ -138,7 +138,7 @@ const WORDS = [
 },
 {
 "w": "reluctant",
-"m": "unwilling or hesitant",
+"m": "不情愿的 — unwilling or hesitant",
 "x": "She was reluctant to speak in public.",
 "x2": "I'm reluctant to spend that much money.",
 "c": "Core vocabulary",
@@ -146,7 +146,7 @@ const WORDS = [
 },
 {
 "w": "look forward to",
-"m": "to feel happy about a future event",
+"m": "期待 — to feel happy about a future event",
 "x": "I look forward to meeting you.",
 "x2": "We're looking forward to the holidays.",
 "c": "Core vocabulary",
@@ -154,7 +154,7 @@ const WORDS = [
 },
 {
 "w": "versatile",
-"m": "able to do many different things",
+"m": "多才多艺的 — able to do many different things",
 "x": "A versatile tool for any kitchen.",
 "x2": "He's a versatile player who can play any position.",
 "c": "Core vocabulary",
@@ -162,7 +162,7 @@ const WORDS = [
 },
 {
 "w": "under the weather",
-"m": "feeling a bit sick",
+"m": "身体不适 — feeling a bit sick",
 "x": "I'm feeling under the weather today.",
 "x2": "She stayed home because she was under the weather.",
 "c": "Core vocabulary",
@@ -170,7 +170,7 @@ const WORDS = [
 },
 {
 "w": "inevitable",
-"m": "certain to happen",
+"m": "不可避免的 — certain to happen",
 "x": "Change is inevitable.",
 "x2": "Some mistakes are inevitable when learning.",
 "c": "Core vocabulary",
@@ -178,7 +178,7 @@ const WORDS = [
 },
 {
 "w": "bring up",
-"m": "to mention a topic",
+"m": "提出（话题） — to mention a topic",
 "x": "She brought up an interesting point.",
 "x2": "Don't bring up politics at dinner.",
 "c": "Core vocabulary",
@@ -186,7 +186,7 @@ const WORDS = [
 },
 {
 "w": "prioritize",
-"m": "to decide what is most important",
+"m": "优先处理 — to decide what is most important",
 "x": "Prioritize the urgent tasks first.",
 "x2": "You need to prioritize your health.",
 "c": "Core vocabulary",
@@ -194,7 +194,7 @@ const WORDS = [
 },
 {
 "w": "hit the road",
-"m": "to leave or start a journey",
+"m": "上路，出发 — to leave or start a journey",
 "x": "It's late; we should hit the road.",
 "x2": "We'll hit the road at 7 a.m.",
 "c": "Core vocabulary",
@@ -202,7 +202,7 @@ const WORDS = [
 },
 {
 "w": "eloquent",
-"m": "fluent and persuasive in speaking or writing",
+"m": "雄辩的 — fluent and persuasive in speaking or writing",
 "x": "She gave an eloquent speech.",
 "x2": "His letter was short but eloquent.",
 "c": "Core vocabulary",
@@ -210,7 +210,7 @@ const WORDS = [
 },
 {
 "w": "put off",
-"m": "to postpone",
+"m": "推迟 — to postpone",
 "x": "Don't put off your homework.",
 "x2": "They put off the meeting until next week.",
 "c": "Core vocabulary",
@@ -218,7 +218,7 @@ const WORDS = [
 },
 {
 "w": "substantial",
-"m": "large in amount or importance",
+"m": "大量的 — large in amount or importance",
 "x": "There was a substantial increase in sales.",
 "x2": "He made a substantial contribution to the project.",
 "c": "Core vocabulary",
@@ -226,14 +226,14 @@ const WORDS = [
 },
 {
 "w": "the ball is in your court",
-"m": "it's your turn to act or decide",
+"m": "该你做决定了 — it's your turn to act or decide",
 "x": "I've made my offer; the ball is in your court.",
 "x2": "The ball is in their court now.",
 "c": "Core vocabulary"
 },
 {
 "w": "genuine",
-"m": "real and sincere",
+"m": "真诚的 — real and sincere",
 "x": "She showed genuine interest in my work.",
 "x2": "Is this a genuine leather bag?",
 "c": "Core vocabulary",
@@ -241,7 +241,7 @@ const WORDS = [
 },
 {
 "w": "come up with",
-"m": "to think of an idea",
+"m": "想出 — to think of an idea",
 "x": "We came up with a great name.",
 "x2": "Can you come up with a solution?",
 "c": "Core vocabulary",
@@ -249,7 +249,7 @@ const WORDS = [
 },
 {
 "w": "overwhelmed",
-"m": "feeling too much pressure or emotion",
+"m": "不知所措的 — feeling too much pressure or emotion",
 "x": "I felt overwhelmed by all the emails.",
 "x2": "She was overwhelmed with joy.",
 "c": "Core vocabulary",
@@ -257,7 +257,7 @@ const WORDS = [
 },
 {
 "w": "cut corners",
-"m": "to do something cheaply or badly to save time",
+"m": "偷工减料 — to do something cheaply or badly to save time",
 "x": "Don't cut corners on safety.",
 "x2": "The builder cut corners and the roof leaked.",
 "c": "Core vocabulary",
@@ -265,7 +265,7 @@ const WORDS = [
 },
 {
 "w": "consistent",
-"m": "always behaving or happening the same way",
+"m": "一致的 — always behaving or happening the same way",
 "x": "Consistent practice is the key to success.",
 "x2": "His results have been consistent all year.",
 "c": "Core vocabulary",
@@ -273,7 +273,7 @@ const WORDS = [
 },
 {
 "w": "turn down",
-"m": "to refuse an offer",
+"m": "拒绝 — to refuse an offer",
 "x": "She turned down the job offer.",
 "x2": "He turned down the invitation politely.",
 "c": "Core vocabulary",
@@ -281,7 +281,7 @@ const WORDS = [
 },
 {
 "w": "anticipate",
-"m": "to expect or predict",
+"m": "预料 — to expect or predict",
 "x": "We anticipate high demand this summer.",
 "x2": "I didn't anticipate so many questions.",
 "c": "Core vocabulary",
@@ -289,14 +289,14 @@ const WORDS = [
 },
 {
 "w": "once in a blue moon",
-"m": "very rarely",
+"m": "千载难逢，很少 — very rarely",
 "x": "I eat fast food once in a blue moon.",
 "x2": "He calls once in a blue moon.",
 "c": "Core vocabulary"
 },
 {
 "w": "adequate",
-"m": "good enough",
+"m": "足够的 — good enough",
 "x": "The room was small but adequate.",
 "x2": "Make sure you get adequate sleep.",
 "c": "Core vocabulary",
@@ -304,7 +304,7 @@ const WORDS = [
 },
 {
 "w": "catch up",
-"m": "to reach the same level; to talk after time apart",
+"m": "叙旧；赶上 — to reach the same level; to talk after time apart",
 "x": "Let's catch up over coffee.",
 "x2": "I need to catch up on my reading.",
 "c": "Core vocabulary",
@@ -312,7 +312,7 @@ const WORDS = [
 },
 {
 "w": "tedious",
-"m": "boring and long",
+"m": "乏味的 — boring and long",
 "x": "Filling in forms is tedious.",
 "x2": "The tedious task took all afternoon.",
 "c": "Core vocabulary",
@@ -320,7 +320,7 @@ const WORDS = [
 },
 {
 "w": "get along with",
-"m": "to have a good relationship with",
+"m": "与……相处融洽 — to have a good relationship with",
 "x": "I get along with my coworkers.",
 "x2": "Do you get along with your neighbours?",
 "c": "Core vocabulary",
@@ -328,7 +328,7 @@ const WORDS = [
 },
 {
 "w": "ambitious",
-"m": "having a strong desire to succeed",
+"m": "有抱负的 — having a strong desire to succeed",
 "x": "She's ambitious and wants to start a company.",
 "x2": "That's an ambitious goal for one month.",
 "c": "Core vocabulary",
@@ -336,7 +336,7 @@ const WORDS = [
 },
 {
 "w": "in a nutshell",
-"m": "in a few words; summarized",
+"m": "简而言之 — in a few words; summarized",
 "x": "In a nutshell, we need more time.",
 "x2": "That's the plan in a nutshell.",
 "c": "Core vocabulary",
@@ -344,7 +344,7 @@ const WORDS = [
 },
 {
 "w": "reliable",
-"m": "able to be trusted",
+"m": "可靠的 — able to be trusted",
 "x": "My car is old but reliable.",
 "x2": "We need a reliable source of data.",
 "c": "Core vocabulary",
@@ -352,7 +352,7 @@ const WORDS = [
 },
 {
 "w": "point out",
-"m": "to direct attention to something",
+"m": "指出 — to direct attention to something",
 "x": "He pointed out a mistake in my report.",
 "x2": "She pointed out that the store was closed.",
 "c": "Core vocabulary",
@@ -360,7 +360,7 @@ const WORDS = [
 },
 {
 "w": "obsolete",
-"m": "no longer used; out of date",
+"m": "过时的 — no longer used; out of date",
 "x": "Fax machines are almost obsolete.",
 "x2": "This software version is now obsolete.",
 "c": "Core vocabulary",
@@ -368,7 +368,7 @@ const WORDS = [
 },
 {
 "w": "see eye to eye",
-"m": "to agree completely",
+"m": "意见一致 — to agree completely",
 "x": "We don't always see eye to eye, but we respect each other.",
 "x2": "They finally saw eye to eye on the price.",
 "c": "Core vocabulary",
@@ -376,7 +376,7 @@ const WORDS = [
 },
 {
 "w": "persuade",
-"m": "to convince someone to do something",
+"m": "说服 — to convince someone to do something",
 "x": "She persuaded me to join the gym.",
 "x2": "It's hard to persuade him to change.",
 "c": "Core vocabulary",
@@ -384,7 +384,7 @@ const WORDS = [
 },
 {
 "w": "carry on",
-"m": "to continue",
+"m": "继续 — to continue",
 "x": "Please carry on with your work.",
 "x2": "Despite the rain, they carried on walking.",
 "c": "Core vocabulary",
@@ -392,7 +392,7 @@ const WORDS = [
 },
 {
 "w": "vivid",
-"m": "producing clear, strong images in the mind",
+"m": "生动的 — producing clear, strong images in the mind",
 "x": "I have vivid memories of that trip.",
 "x2": "The book has vivid descriptions.",
 "c": "Core vocabulary",
@@ -400,14 +400,14 @@ const WORDS = [
 },
 {
 "w": "cost an arm and a leg",
-"m": "to be very expensive",
+"m": "贵得要命 — to be very expensive",
 "x": "That phone cost an arm and a leg.",
 "x2": "Repairs can cost an arm and a leg.",
 "c": "Core vocabulary"
 },
 {
 "w": "grateful",
-"m": "feeling thankful",
+"m": "感激的 — feeling thankful",
 "x": "I'm grateful for your help.",
 "x2": "She was grateful to have a second chance.",
 "c": "Core vocabulary",
@@ -415,7 +415,7 @@ const WORDS = [
 },
 {
 "w": "make up one's mind",
-"m": "to decide",
+"m": "下定决心 — to decide",
 "x": "I can't make up my mind about which to buy.",
 "x2": "Have you made up your mind yet?",
 "c": "Core vocabulary",
@@ -423,7 +423,7 @@ const WORDS = [
 },
 {
 "w": "sustainable",
-"m": "able to continue over time without harm",
+"m": "可持续的 — able to continue over time without harm",
 "x": "We need a sustainable business model.",
 "x2": "Sustainable habits last longer than quick fixes.",
 "c": "Core vocabulary",
@@ -431,7 +431,7 @@ const WORDS = [
 },
 {
 "w": "back up",
-"m": "to support; to make a copy of data",
+"m": "备份；支持 — to support; to make a copy of data",
 "x": "My friends backed me up.",
 "x2": "Always back up your files.",
 "c": "Core vocabulary",
@@ -439,7 +439,7 @@ const WORDS = [
 },
 {
 "w": "cautious",
-"m": "careful to avoid risk",
+"m": "谨慎的 — careful to avoid risk",
 "x": "Be cautious when investing.",
 "x2": "She's cautious about trusting strangers.",
 "c": "Core vocabulary",
@@ -447,7 +447,7 @@ const WORDS = [
 },
 {
 "w": "learn the ropes",
-"m": "to learn how to do a job",
+"m": "学会门道 — to learn how to do a job",
 "x": "It took me a month to learn the ropes.",
 "x2": "The new hire is still learning the ropes.",
 "c": "Core vocabulary",
@@ -455,7 +455,7 @@ const WORDS = [
 },
 {
 "w": "comprehensive",
-"m": "complete; including everything",
+"m": "全面的 — complete; including everything",
 "x": "A comprehensive guide to English grammar.",
 "x2": "We did a comprehensive review.",
 "c": "Core vocabulary",
@@ -463,7 +463,7 @@ const WORDS = [
 },
 {
 "w": "deal with",
-"m": "to handle a problem or situation",
+"m": "处理 — to handle a problem or situation",
 "x": "I'll deal with it tomorrow.",
 "x2": "How do you deal with stress?",
 "c": "Core vocabulary",
@@ -471,7 +471,7 @@ const WORDS = [
 },
 {
 "w": "spontaneous",
-"m": "happening without planning",
+"m": "自发的 — happening without planning",
 "x": "We took a spontaneous trip to the beach.",
 "x2": "His spontaneous laugh made everyone smile.",
 "c": "Core vocabulary",
@@ -479,7 +479,7 @@ const WORDS = [
 },
 {
 "w": "beat around the bush",
-"m": "to avoid saying something directly",
+"m": "拐弯抹角 — to avoid saying something directly",
 "x": "Stop beating around the bush and tell me.",
 "x2": "She didn't beat around the bush.",
 "c": "Core vocabulary",
@@ -487,7 +487,7 @@ const WORDS = [
 },
 {
 "w": "acknowledge",
-"m": "to accept or admit something",
+"m": "承认 — to accept or admit something",
 "x": "He acknowledged his mistake.",
 "x2": "Please acknowledge receipt of this email.",
 "c": "Core vocabulary",
@@ -495,7 +495,7 @@ const WORDS = [
 },
 {
 "w": "set up",
-"m": "to arrange or establish",
+"m": "建立 — to arrange or establish",
 "x": "Let's set up a meeting.",
 "x2": "She set up her own business.",
 "c": "Core vocabulary",
@@ -503,7 +503,7 @@ const WORDS = [
 },
 {
 "w": "pragmatic",
-"m": "dealing with things practically",
+"m": "务实的 — dealing with things practically",
 "x": "We need a pragmatic solution.",
 "x2": "He's pragmatic rather than idealistic.",
 "c": "Core vocabulary",
@@ -511,7 +511,7 @@ const WORDS = [
 },
 {
 "w": "get cold feet",
-"m": "to become nervous before something important",
+"m": "临阵退缩 — to become nervous before something important",
 "x": "He got cold feet before the wedding.",
 "x2": "Don't get cold feet now—you're ready!",
 "c": "Core vocabulary",
@@ -519,7 +519,7 @@ const WORDS = [
 },
 {
 "w": "enthusiastic",
-"m": "showing great excitement",
+"m": "热情的 — showing great excitement",
 "x": "The audience was enthusiastic.",
 "x2": "She's enthusiastic about learning English.",
 "c": "Core vocabulary",
@@ -527,7 +527,7 @@ const WORDS = [
 },
 {
 "w": "give up",
-"m": "to stop trying",
+"m": "放弃 — to stop trying",
 "x": "Never give up on your dreams.",
 "x2": "He gave up smoking last year.",
 "c": "Core vocabulary",
@@ -535,7 +535,7 @@ const WORDS = [
 },
 {
 "w": "thorough",
-"m": "complete and careful",
+"m": "彻底的 — complete and careful",
 "x": "The doctor did a thorough check.",
 "x2": "Thanks for the thorough explanation.",
 "c": "Core vocabulary",
@@ -543,7 +543,7 @@ const WORDS = [
 },
 {
 "w": "better late than never",
-"m": "it's better to do something late than not at all",
+"m": "迟到总比不到好 — it's better to do something late than not at all",
 "x": "You finished the course—better late than never!",
 "x2": "He arrived an hour late, but better late than never.",
 "c": "Core vocabulary",
@@ -551,7 +551,7 @@ const WORDS = [
 },
 {
 "w": "curious",
-"m": "eager to know or learn",
+"m": "好奇的 — eager to know or learn",
 "x": "Children are naturally curious.",
 "x2": "I'm curious about how this works.",
 "c": "Core vocabulary",
@@ -559,7 +559,7 @@ const WORDS = [
 },
 {
 "w": "look into",
-"m": "to investigate",
+"m": "调查 — to investigate",
 "x": "I'll look into the problem.",
 "x2": "The police are looking into the case.",
 "c": "Core vocabulary",
@@ -567,7 +567,7 @@ const WORDS = [
 },
 {
 "w": "exhausted",
-"m": "extremely tired",
+"m": "筋疲力尽的 — extremely tired",
 "x": "I'm exhausted after the long flight.",
 "x2": "She was exhausted but happy.",
 "c": "Core vocabulary",
@@ -575,7 +575,7 @@ const WORDS = [
 },
 {
 "w": "speak up",
-"m": "to speak louder; to express your opinion",
+"m": "大声说出来 — to speak louder; to express your opinion",
 "x": "Please speak up, I can't hear you.",
 "x2": "Don't be afraid to speak up in meetings.",
 "c": "Core vocabulary",
@@ -583,7 +583,7 @@ const WORDS = [
 },
 {
 "w": "optimistic",
-"m": "hopeful about the future",
+"m": "乐观的 — hopeful about the future",
 "x": "I'm optimistic about our chances.",
 "x2": "She stays optimistic even in hard times.",
 "c": "Core vocabulary",
@@ -591,7 +591,7 @@ const WORDS = [
 },
 {
 "w": "out of the blue",
-"m": "unexpectedly",
+"m": "突然，出乎意料 — unexpectedly",
 "x": "He called me out of the blue.",
 "x2": "The idea came out of the blue.",
 "c": "Core vocabulary",
@@ -599,7 +599,7 @@ const WORDS = [
 },
 {
 "w": "essential",
-"m": "absolutely necessary",
+"m": "必不可少的 — absolutely necessary",
 "x": "Water is essential for life.",
 "x2": "Good communication is essential.",
 "c": "Core vocabulary",
@@ -607,7 +607,7 @@ const WORDS = [
 },
 {
 "w": "work out",
-"m": "to exercise; to find a solution",
+"m": "锻炼；解决 — to exercise; to find a solution",
 "x": "I work out three times a week.",
 "x2": "Things will work out in the end.",
 "c": "Core vocabulary",
@@ -615,7 +615,7 @@ const WORDS = [
 },
 {
 "w": "hesitate",
-"m": "to pause before doing something",
+"m": "犹豫 — to pause before doing something",
 "x": "Don't hesitate to ask questions.",
 "x2": "She hesitated before answering.",
 "c": "Core vocabulary",
@@ -623,7 +623,7 @@ const WORDS = [
 },
 {
 "w": "hang in there",
-"m": "don't give up during a hard time",
+"m": "坚持住 — don't give up during a hard time",
 "x": "Hang in there—the weekend is almost here.",
 "x2": "Hang in there, it gets easier.",
 "c": "Core vocabulary",
@@ -631,7 +631,7 @@ const WORDS = [
 },
 {
 "w": "efficient",
-"m": "working well without wasting time",
+"m": "高效的 — working well without wasting time",
 "x": "This is a more efficient way to work.",
 "x2": "Our new system is very efficient.",
 "c": "Core vocabulary",
@@ -639,7 +639,7 @@ const WORDS = [
 },
 {
 "w": "take for granted",
-"m": "to not appreciate something",
+"m": "视为理所当然 — to not appreciate something",
 "x": "Don't take your health for granted.",
 "x2": "We often take electricity for granted.",
 "c": "Core vocabulary",
@@ -647,7 +647,7 @@ const WORDS = [
 },
 {
 "w": "modest",
-"m": "not boasting about oneself",
+"m": "谦虚的 — not boasting about oneself",
 "x": "He's very modest about his success.",
 "x2": "She lives in a modest apartment.",
 "c": "Core vocabulary",
@@ -655,7 +655,7 @@ const WORDS = [
 },
 {
 "w": "fill in",
-"m": "to complete a form; to replace someone temporarily",
+"m": "填写；代班 — to complete a form; to replace someone temporarily",
 "x": "Please fill in this form.",
 "x2": "Can you fill in for me tomorrow?",
 "c": "Core vocabulary",
@@ -663,7 +663,7 @@ const WORDS = [
 },
 {
 "w": "significant",
-"m": "important or noticeable",
+"m": "重要的 — important or noticeable",
 "x": "There's a significant difference.",
 "x2": "This is a significant achievement.",
 "c": "Core vocabulary",
@@ -671,7 +671,7 @@ const WORDS = [
 },
 {
 "w": "keep an eye on",
-"m": "to watch carefully",
+"m": "留意 — to watch carefully",
 "x": "Keep an eye on the soup so it doesn't burn.",
 "x2": "Can you keep an eye on my bag?",
 "c": "Core vocabulary",
@@ -679,7 +679,7 @@ const WORDS = [
 },
 {
 "w": "confident",
-"m": "sure of yourself",
+"m": "自信的 — sure of yourself",
 "x": "She's confident speaking English now.",
 "x2": "I'm confident we'll succeed.",
 "c": "Core vocabulary",
@@ -687,7 +687,7 @@ const WORDS = [
 },
 {
 "w": "turn out",
-"m": "to happen in a particular way",
+"m": "结果是 — to happen in a particular way",
 "x": "The party turned out great.",
 "x2": "It turned out that he was right.",
 "c": "Core vocabulary",
@@ -695,7 +695,7 @@ const WORDS = [
 },
 {
 "w": "flexible",
-"m": "able to change easily",
+"m": "灵活的 — able to change easily",
 "x": "My working hours are flexible.",
 "x2": "Be flexible with your plans.",
 "c": "Core vocabulary",
@@ -703,7 +703,7 @@ const WORDS = [
 },
 {
 "w": "on the fence",
-"m": "undecided",
+"m": "犹豫不决 — undecided",
 "x": "I'm still on the fence about moving.",
 "x2": "Many voters are on the fence.",
 "c": "Core vocabulary",
@@ -711,7 +711,7 @@ const WORDS = [
 },
 {
 "w": "accurate",
-"m": "correct and exact",
+"m": "准确的 — correct and exact",
 "x": "Is this information accurate?",
 "x2": "Her prediction was accurate.",
 "c": "Core vocabulary",
@@ -719,7 +719,7 @@ const WORDS = [
 },
 {
 "w": "show up",
-"m": "to arrive",
+"m": "出现 — to arrive",
 "x": "He showed up late again.",
 "x2": "Only five people showed up.",
 "c": "Core vocabulary",
@@ -727,7 +727,7 @@ const WORDS = [
 },
 {
 "w": "generous",
-"m": "willing to give more than expected",
+"m": "慷慨的 — willing to give more than expected",
 "x": "Thank you for your generous gift.",
 "x2": "He's generous with his time.",
 "c": "Core vocabulary",
@@ -735,7 +735,7 @@ const WORDS = [
 },
 {
 "w": "sleep on it",
-"m": "to wait until tomorrow to decide",
+"m": "考虑一晚再说 — to wait until tomorrow to decide",
 "x": "Don't decide now—sleep on it.",
 "x2": "I'll sleep on it and let you know.",
 "c": "Core vocabulary",
@@ -743,7 +743,7 @@ const WORDS = [
 },
 {
 "w": "appropriate",
-"m": "suitable for the situation",
+"m": "恰当的 — suitable for the situation",
 "x": "Jeans aren't appropriate for the interview.",
 "x2": "Choose an appropriate word.",
 "c": "Core vocabulary",
@@ -751,7 +751,7 @@ const WORDS = [
 },
 {
 "w": "run into",
-"m": "to meet by chance",
+"m": "偶遇 — to meet by chance",
 "x": "I ran into an old friend at the mall.",
 "x2": "We ran into some problems.",
 "c": "Core vocabulary",
@@ -759,7 +759,7 @@ const WORDS = [
 },
 {
 "w": "patient",
-"m": "able to wait calmly",
+"m": "耐心的 — able to wait calmly",
 "x": "Be patient—learning takes time.",
 "x2": "The teacher was very patient with us.",
 "c": "Core vocabulary",
@@ -767,7 +767,7 @@ const WORDS = [
 },
 {
 "w": "get the ball rolling",
-"m": "to start something",
+"m": "开始行动 — to start something",
 "x": "Let's get the ball rolling on this project.",
 "x2": "I'll get the ball rolling with a quick intro.",
 "c": "Core vocabulary",
@@ -775,7 +775,7 @@ const WORDS = [
 },
 {
 "w": "obvious",
-"m": "easy to see or understand",
+"m": "明显的 — easy to see or understand",
 "x": "The answer is obvious.",
 "x2": "It was obvious she was tired.",
 "c": "Core vocabulary",
@@ -783,7 +783,7 @@ const WORDS = [
 },
 {
 "w": "figure of speech",
-"m": "an expression not meant literally",
+"m": "修辞，比喻说法 — an expression not meant literally",
 "x": "'It's raining cats and dogs' is a figure of speech.",
 "x2": "Don't worry, it was just a figure of speech.",
 "c": "Core vocabulary",
@@ -791,7 +791,7 @@ const WORDS = [
 },
 {
 "w": "pursue",
-"m": "to try to achieve something",
+"m": "追求 — to try to achieve something",
 "x": "She decided to pursue a career in law.",
 "x2": "Pursue your passion.",
 "c": "Core vocabulary",
@@ -799,7 +799,7 @@ const WORDS = [
 },
 {
 "w": "by the way",
-"m": "used to add a new topic",
+"m": "顺便说一下 — used to add a new topic",
 "x": "By the way, have you seen my keys?",
 "x2": "By the way, congratulations on the new job!",
 "c": "Core vocabulary",
@@ -807,7 +807,7 @@ const WORDS = [
 },
 {
 "w": "delighted",
-"m": "very pleased",
+"m": "高兴的 — very pleased",
 "x": "I'd be delighted to help.",
 "x2": "We were delighted with the results.",
 "c": "Core vocabulary",
@@ -815,7 +815,7 @@ const WORDS = [
 },
 {
 "w": "take off",
-"m": "to leave the ground; to become successful quickly",
+"m": "起飞；突然走红 — to leave the ground; to become successful quickly",
 "x": "The plane took off on time.",
 "x2": "Her career really took off.",
 "c": "Core vocabulary",
@@ -823,7 +823,7 @@ const WORDS = [
 },
 {
 "w": "frustrated",
-"m": "annoyed because you can't do something",
+"m": "沮丧的 — annoyed because you can't do something",
 "x": "I get frustrated when the internet is slow.",
 "x2": "He was frustrated with the delay.",
 "c": "Core vocabulary",
@@ -831,7 +831,7 @@ const WORDS = [
 },
 {
 "w": "no wonder",
-"m": "it's not surprising",
+"m": "难怪 — it's not surprising",
 "x": "No wonder you're tired—you worked all night.",
 "x2": "She practices daily; no wonder her English is great.",
 "c": "Core vocabulary",
@@ -839,7 +839,7 @@ const WORDS = [
 },
 {
 "w": "inspire",
-"m": "to make someone want to do something",
+"m": "激励 — to make someone want to do something",
 "x": "Her story inspired me to travel.",
 "x2": "Great teachers inspire their students.",
 "c": "Core vocabulary",
@@ -847,7 +847,7 @@ const WORDS = [
 },
 {
 "w": "pick up",
-"m": "to collect; to learn informally",
+"m": "捡起；学会 — to collect; to learn informally",
 "x": "I'll pick you up at eight.",
 "x2": "He picked up some Spanish while traveling.",
 "c": "Core vocabulary",
@@ -855,7 +855,7 @@ const WORDS = [
 },
 {
 "w": "reasonable",
-"m": "fair and sensible",
+"m": "合理的 — fair and sensible",
 "x": "The price is reasonable.",
 "x2": "That's a reasonable request.",
 "c": "Core vocabulary",
@@ -863,7 +863,7 @@ const WORDS = [
 },
 {
 "w": "it's up to you",
-"m": "you decide",
+"m": "由你决定 — you decide",
 "x": "Pizza or sushi? It's up to you.",
 "x2": "It's up to you whether you come.",
 "c": "Core vocabulary",
@@ -871,7 +871,7 @@ const WORDS = [
 },
 {
 "w": "fluent",
-"m": "able to speak a language easily",
+"m": "流利的 — able to speak a language easily",
 "x": "She is fluent in three languages.",
 "x2": "Daily practice will make you fluent.",
 "c": "Core vocabulary",
@@ -879,7 +879,7 @@ const WORDS = [
 },
 {
 "w": "end up",
-"m": "to finally be in a place or situation",
+"m": "最终 — to finally be in a place or situation",
 "x": "We ended up staying until midnight.",
 "x2": "He ended up becoming a teacher.",
 "c": "Core vocabulary",
@@ -887,7 +887,7 @@ const WORDS = [
 },
 {
 "w": "courage",
-"m": "the ability to do something frightening",
+"m": "勇气 — the ability to do something frightening",
 "x": "It takes courage to speak a new language.",
 "x2": "She found the courage to ask.",
 "c": "Core vocabulary",
@@ -895,7 +895,7 @@ const WORDS = [
 },
 {
 "w": "practice makes perfect",
-"m": "doing something often makes you good at it",
+"m": "熟能生巧 — doing something often makes you good at it",
 "x": "Keep studying—practice makes perfect.",
 "x2": "My pronunciation improved; practice makes perfect!",
 "c": "Core vocabulary",
@@ -903,7 +903,7 @@ const WORDS = [
 },
 {
 "w": "progress",
-"m": "movement toward a goal",
+"m": "进步 — movement toward a goal",
 "x": "You've made great progress this month.",
 "x2": "Progress is slow but steady.",
 "c": "Core vocabulary",
@@ -911,7 +911,7 @@ const WORDS = [
 },
 {
 "w": "step by step",
-"m": "gradually, one stage at a time",
+"m": "一步一步 — gradually, one stage at a time",
 "x": "Learn grammar step by step.",
 "x2": "We fixed the problem step by step.",
 "c": "Core vocabulary",
@@ -919,7 +919,7 @@ const WORDS = [
 },
 {
 "w": "determined",
-"m": "having made a firm decision",
+"m": "坚定的 — having made a firm decision",
 "x": "She's determined to pass the test.",
 "x2": "He was determined to finish the marathon.",
 "c": "Core vocabulary",
@@ -927,7 +927,7 @@ const WORDS = [
 },
 {
 "w": "get through",
-"m": "to survive or finish something difficult",
+"m": "度过 — to survive or finish something difficult",
 "x": "We'll get through this together.",
 "x2": "I got through the whole book in a day.",
 "c": "Core vocabulary",
@@ -935,7 +935,7 @@ const WORDS = [
 },
 {
 "w": "remarkable",
-"m": "unusual and worth noticing",
+"m": "非凡的 — unusual and worth noticing",
 "x": "She made remarkable progress.",
 "x2": "It was a remarkable performance.",
 "c": "Core vocabulary",
@@ -943,7 +943,7 @@ const WORDS = [
 },
 {
 "w": "keep it up",
-"m": "continue doing well",
+"m": "继续保持 — continue doing well",
 "x": "Great job—keep it up!",
 "x2": "Your English is improving, keep it up.",
 "c": "Core vocabulary",
@@ -951,7 +951,7 @@ const WORDS = [
 },
 {
 "w": "achieve",
-"m": "to succeed in doing something",
+"m": "实现 — to succeed in doing something",
 "x": "You can achieve anything with practice.",
 "x2": "We achieved our goal early.",
 "c": "Core vocabulary",
