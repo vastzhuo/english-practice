@@ -198,47 +198,26 @@
     if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill') we.view = 'bank';
     if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
     if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
-    if (!we.api || typeof we.api !== 'object' || Array.isArray(we.api)) we.api = {};
-    if ((!we.api.base || !String(we.api.base).trim()) && we.ollama && we.ollama.base) we.api.base = we.ollama.base;
-    if ((!we.api.model || !String(we.api.model).trim()) && we.ollama && we.ollama.model) we.api.model = we.ollama.model;
-    if (typeof we.api.base !== 'string' || !we.api.base.trim()) we.api.base = 'https://api.deepseek.com';
-    if (typeof we.api.model !== 'string' || !we.api.model.trim()) we.api.model = 'deepseek-chat';
-    if (typeof we.api.key !== 'string') we.api.key = '';
-    if (typeof we.chatId !== 'string') we.chatId = '';
+    delete we.api;
+    delete we.ollama;
+    delete we.chatId;
+    Object.keys(we.notes).forEach(id => { if (we.notes[id] && we.notes[id].chat) delete we.notes[id].chat; });
     return we;
   }
-  function apiIsLocal(base) {
-    return /localhost|127\.0\.0\.1/i.test(String(base || ''));
-  }
-  function chatEndpoint(base) {
-    let b = String(base || '').trim().replace(/\/$/, '');
-    if (!b) b = 'https://api.deepseek.com';
-    if (/\/chat\/completions$/.test(b)) return b;
-    if (apiIsLocal(b) && !/\/v1$/.test(b)) b += '/v1';
-    if (!/\/v1$/.test(b)) b += '/v1';
-    return b + '/chat/completions';
-  }
-  function weTutorPrompt(q, type, cards, note) {
+  function weCopyPrompt(q, typeName, topicName, note) {
     const saved = note || {};
-    const frames = (cards || []).map((card, i) => 'Set ' + (i + 1) + ': ' + card.intro + ' / ' + card.conclusion).join('\n');
     return [
-      'You are Joel\'s PTE Write Essay tutor. He speaks Mandarin and may write in Chinese or English.',
-      'Help him remember the key sentences and the strategy for this one prompt.',
-      'Suggest a stance, two arguments, one introduction sentence and one conclusion sentence.',
-      'If he writes an English sentence, correct it briefly and give one better sentence.',
-      'Quiz him sometimes: ask him to say the stance and two arguments from memory.',
-      'Keep each reply short enough for a phone. Put each English model sentence on its own line.',
-      'Type: ' + ((type && type.name) || '') + ' (' + ((type && type.id) || '') + ')',
-      'Type tip: ' + ((type && type.tip) || ''),
-      'Chinese prompt: ' + ((q && q.zh) || ''),
-      'English prompt: ' + ((q && q.en) || ''),
-      'Sentence frames:',
-      frames,
-      'Saved stance: ' + (saved.stance || '(none yet)'),
-      'Argument 1: ' + (saved.arg1 || '(none yet)'),
-      'Argument 2: ' + (saved.arg2 || '(none yet)'),
-      'Chunks: ' + [saved.c1, saved.c2, saved.c3].filter(Boolean).join(' | '),
-      'Opening sentence: ' + (saved.opening || '(none yet)')
+      '请帮我记住这道 PTE Write Essay 的关键句和答题策略，方便我背下来。',
+      '请写出可替换的英文开头句、结尾句和两个论点句，并考我复述。',
+      '题型：' + (typeName || ''),
+      '话题：' + (topicName || ''),
+      '题目：' + ((q && q.zh) || ''),
+      'English: ' + ((q && q.en) || ''),
+      '我的立场：' + (saved.stance || ''),
+      '论点1：' + (saved.arg1 || ''),
+      '论点2：' + (saved.arg2 || ''),
+      '词块：' + [saved.c1, saved.c2, saved.c3].filter(Boolean).join(' | '),
+      '英文开头：' + (saved.opening || '')
     ].join('\n');
   }
   function ensureState(S, cats) {
@@ -299,8 +278,6 @@
     wordCount: wordCount,
     essayFit: essayFit,
     ensureWe: ensureWe,
-    weTutorPrompt: weTutorPrompt,
-    apiIsLocal: apiIsLocal,
-    chatEndpoint: chatEndpoint
+    weCopyPrompt: weCopyPrompt
   };
 })(this);

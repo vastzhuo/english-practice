@@ -309,30 +309,22 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
   assert.equal(st.we.notes['077055'].stance, 'city');
   assert.equal(st.we.view, 'essay');
   assert.equal(st.mode, 'wfd');
-  assert.equal(st.we.api.base, 'https://api.deepseek.com');
-  assert.equal(st.we.api.model, 'deepseek-chat');
-  assert.equal(st.we.api.key, '');
-  S.pte.we.api = { base: 'https://api.x.ai/v1', model: 'grok-3', key: 'phone-local-only' };
+  S.pte.we.api = { key: 'should-be-removed' };
   S.pte.we.notes['077055'].chat = [{ role: 'user', content: '考我' }];
   const again = PTELogic.ensureState(S, []);
-  assert.equal(again.we.api.model, 'grok-3');
-  assert.equal(again.we.api.key, 'phone-local-only');
-  assert.equal(PTELogic.chatEndpoint('https://api.deepseek.com'), 'https://api.deepseek.com/v1/chat/completions');
-  assert.equal(PTELogic.chatEndpoint('https://api.openai.com/v1'), 'https://api.openai.com/v1/chat/completions');
-  assert.equal(PTELogic.chatEndpoint('https://api.x.ai/v1/'), 'https://api.x.ai/v1/chat/completions');
-  assert.equal(PTELogic.chatEndpoint('http://localhost:11434'), 'http://localhost:11434/v1/chat/completions');
-  assert.equal(PTELogic.apiIsLocal('http://127.0.0.1:11434/v1'), true);
-  assert.equal(PTELogic.apiIsLocal('https://api.openai.com/v1'), false);
-  assert.equal(again.we.notes['077055'].chat[0].content, '考我');
-  const prompt = PTELogic.weTutorPrompt(
-    bank.questions[0],
-    bank.types.find(type => type.id === 'two'),
-    bank.cards.two,
-    { stance: 'I prefer the city while studying.' }
-  );
-  assert.match(prompt, /077055|Some people prefer to live in cities/);
-  assert.match(prompt, /I prefer the city while studying/);
-  assert.match(prompt, /This task raises two questions/);
+  assert.equal(again.we.api, undefined);
+  assert.equal(again.we.notes['077055'].chat, undefined);
+  assert.equal(again.we.notes['077055'].stance, 'city');
+  const copied = PTELogic.weCopyPrompt(bank.questions[0], '两问', '社会、法律与政府', {
+    stance: 'I prefer the city while studying.', arg1: 'jobs', arg2: 'transit', c1: 'public transport', opening: 'Some people prefer cities.'
+  });
+  assert.match(copied, /Some people prefer to live in cities/);
+  assert.match(copied, /两问/);
+  assert.match(copied, /I prefer the city while studying/);
+  assert.match(copied, /jobs/);
+  assert.match(copied, /transit/);
+  assert.match(copied, /public transport/);
+  assert.match(copied, /请帮我记住这道 PTE Write Essay 的关键句和答题策略/);
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {
