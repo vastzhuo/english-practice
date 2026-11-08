@@ -60,7 +60,7 @@ function picker(){return `<button class="btn alt" id="spd">${S.slow?'🐢 Slow':
 let browse=false;
 function learn(){const L=list(),T=browse?L:todays(),pages=Math.max(1,Math.ceil(T.length/PG));page=Math.min(page,pages-1);const lt=S.lt[TK]||[],d=T.filter(w=>lt.includes(w.w)).length;
  const opt=(id,v,a)=>`<select id="${id}" class="sel half">${a.map(x=>`<option value="${x}" ${x==v?'selected':''}>${id==='goal'?'Daily goal: ':'Quiz: '}${x}</option>`).join('')}</select>`;
- $('tab-learn').innerHTML=picker()+opt('goal',S.goal,[20,50,75,100])+opt('qlen',S.qlen,[10,20,50])+
+ $('tab-learn').innerHTML=`<button class="btn study-go" id="studyGo" type="button">今日学习</button>`+picker()+opt('goal',S.goal,[20,50,75,100])+opt('qlen',S.qlen,[10,20,50])+
  `<div class="card"><b>Today: ${doneToday()}/${S.goal}</b> ${doneToday()>=S.goal?'🎉 Goal reached!':''}<div class="bar"><i style="width:${Math.min(100,doneToday()/S.goal*100)}%"></i></div><small>${esc(catLabel())} · ${L.length} items · ${browse?'browsing all':'this list '+d+'/'+T.length}</small></div>`+
  T.slice(page*PG,page*PG+PG).map(w=>card(w).replace(/<\/div>$/,`<button class="btn ${lt.includes(w.w)?'done':'alt'}" data-learn="${esc(w.w)}">${lt.includes(w.w)?'✓ Learned':'Mark as learned'}</button></div>`)).join('')+
  `<div class="pager"><button class="btn alt" id="prev" ${page?'':'disabled'}>← Prev</button><span>Page ${page+1}/${pages}</span><button class="btn alt" id="nxt" ${page<pages-1?'':'disabled'}>Next →</button></div>`+
@@ -109,7 +109,7 @@ function shadow(){const L=RND()?sshuf(list(),TK+'|'+S.cat):list(),i=Math.min(S.s
  const mv=d=>{S.sh.i[S.cat]=i+d;save();shadow()};$('shp').onclick=()=>mv(-1);$('shn').onclick=()=>mv(1);
  document.querySelectorAll('.shrec').forEach(b=>b.onclick=()=>rec(b.dataset.t,b.parentElement,()=>{}))}
 function badge(){$('streakBadge').textContent='🔥 '+streak()}
-function go(t){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));['learn','quiz','shadow','drive','pte','progress'].forEach(x=>{$('tab-'+x).hidden=x!==t;if(x!==t&&x!=='quiz')$('tab-'+x).innerHTML=''});document.querySelectorAll('#tab-quiz select').forEach(e=>{if(t!=='quiz')e.removeAttribute('id')});
+function go(t){if(window.studyClose)window.studyClose();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===t));['learn','quiz','shadow','drive','pte','progress'].forEach(x=>{$('tab-'+x).hidden=x!==t;if(x!==t&&x!=='quiz')$('tab-'+x).innerHTML=''});document.querySelectorAll('#tab-quiz select').forEach(e=>{if(t!=='quiz')e.removeAttribute('id')});
  if(t==='quiz'&&qi>=Q.length)Q=[];if(t==='learn')learn();if(t==='quiz')quiz();if(t==='progress')progress();if(t==='shadow')shadow();if(t==='drive')drive();if(t==='pte'&&window.pteOpen)window.pteOpen()}
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
 learn();badge();

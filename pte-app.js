@@ -230,6 +230,7 @@ async function pteLoop(tok) {
 function pteStart() {
   if (PTE_PLAY.on || !pteDriveItems().length) return;
   if (typeof DV !== 'undefined' && DV.on && typeof dvPlay === 'function') dvPlay(false);
+  if (window.studyStop) window.studyStop();
   if (typeof pickVoice === 'function') pickVoice();
   const st = pteState();
   st.mode = 'drive';
