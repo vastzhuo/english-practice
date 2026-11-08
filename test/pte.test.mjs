@@ -160,7 +160,7 @@ test('raising the repeat count mid-sentence adds more reads and never drops belo
 
 test('PTE progress is stored beside existing ep data', () => {
   const S = {
-    days: { '2026-11-01': 1 },
+    days: { '2024-04-02': 1 },
     learned: ['resilient'],
     best: 4,
     cat: 'All',
@@ -171,7 +171,7 @@ test('PTE progress is stored beside existing ep data', () => {
   const st = PTELogic.ensureState(S, PTELogic.categories(PTE));
   st.mem['123056'] = 1;
   assert.equal(S.learned[0], 'resilient');
-  assert.equal(S.days['2026-11-01'], 1);
+  assert.equal(S.days['2024-04-02'], 1);
   assert.equal(S.best, 4);
   assert.equal(S.cat, 'All');
   assert.equal(S.goal, 50);
@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v14 cache bump keeps the PTE files and the existing tabs', () => {
+test('v15 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v14</);
+  assert.match(index, />v15</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -216,13 +216,13 @@ test('v14 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=14'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=15'));
   }
-  assert.equal(index.includes('?v=13'), false);
-  assert.match(sw, /ep-v14/);
-  assert.equal(sw.includes('ep-v13'), false);
-  assert.match(sw, /study-plan\.js\?v=14/);
-  assert.match(sw, /study-ui\.js\?v=14/);
+  assert.equal(index.includes('?v=14'), false);
+  assert.match(sw, /ep-v15/);
+  assert.equal(sw.includes('ep-v14'), false);
+  assert.match(sw, /study-plan\.js\?v=15/);
+  assert.match(sw, /study-ui\.js\?v=15/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -425,74 +425,62 @@ test('reading vocab is topic-predicted only when the article has no source text'
   assert.equal(new Set(choices.map(item => item.zh)).size, choices.length);
 });
 
-test('today study queue follows the plan and completion dates', () => {
-  const context = { console, Intl, Date, Math, Object, String, Array };
+test('today study queue follows completion dates', () => {
+  const context = { console, Date, Math, Object, String, Array };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8'), context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte-sst.js'), 'utf8') + '\nglobalThis.PTE_SST = PTE_SST;\n', context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte.js'), 'utf8') + '\nglobalThis.PTE = PTE;\n', context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte-rs.js'), 'utf8') + '\nglobalThis.PTE_RS = PTE_RS;\n', context);
   const Plan = context.StudyPlan;
-  const empty = { learned: {}, done: {} };
   const pools = { wfd: context.PTE, rs: context.PTE_RS };
   const items = context.PTE_SST.items;
-  assert.equal(Plan.sydneyDate(new Date('2026-11-08T17:30:00Z')), '2026-11-09');
-  assert.equal(Plan.sydneyDate(new Date('2026-11-08T10:00:00Z')), '2026-11-08');
-  assert.equal(Plan.heading('2026-11-09'), '11月9日 · 周一');
-  assert.equal(Plan.heading('2026-11-22'), '11月22日 · 周日');
-  const ids = Plan.rows().map(row => row.id);
-  assert.equal(ids.length, 50);
-  assert.equal(new Set(ids).size, 50);
-  ids.forEach(id => assert.ok(items.some(item => item.id === id)));
-  assert.equal(Plan.tasks('2026-11-08', empty, items, pools).length, 0);
-  const nov9 = Plan.tasks('2026-11-09', empty, items, pools);
-  assert.equal(JSON.stringify(nov9.filter(task => task.kind === 'sst-new').map(task => task.sstId)), JSON.stringify(['100188', '100028', '100177', '100027', '100141']));
-  assert.equal(nov9.some(task => task.kind === 'sst-review'), false);
-  assert.equal(nov9.filter(task => task.kind === 'wfd').length, 20);
-  assert.equal(nov9.filter(task => task.kind === 'rs').length, 10);
-  assert.equal(nov9.filter(task => task.kind === 'ra').length, 6);
-  assert.equal(nov9.filter(task => task.kind === 'write').length, 2);
-  assert.equal(nov9.filter(task => task.kind === 'di').length, 3);
-  assert.ok(nov9.find(task => task.sstId === '100141').notes.some(note => note.includes('不是讲座')));
-  const rsIds = new Set(nov9.filter(task => task.kind === 'rs').map(task => task.id));
-  assert.equal(nov9.filter(task => task.kind === 'ra').some(task => rsIds.has(task.id.replace(':ra:', ':rs:'))), false);
-  const drive9 = Plan.driveTasks(nov9);
-  assert.equal(drive9.some(task => task.kind === 'write' || task.kind === 'di'), false);
-  assert.ok(drive9.some(task => task.kind === 'wfd' && task.sstId == null));
-  assert.equal(Plan.resumeIndex(nov9, { [nov9[0].id]: '2026-11-09', [nov9[1].id]: '2026-11-09' }), 2);
-  const learned = { '100188': '2026-11-09' };
-  const nov10 = Plan.tasks('2026-11-10', { learned: learned, done: {} }, items, pools);
-  const review188 = nov10.find(task => task.sstId === '100188' && task.kind === 'sst-review');
-  assert.equal(review188.gap, 1);
-  assert.equal(review188.reviewSource, 'done');
-  assert.ok(nov10.some(task => task.sstId === '100028' && task.reviewSource === 'plan'));
-  const shifted = { '100188': '2026-11-10' };
-  assert.equal(Plan.tasks('2026-11-10', { learned: shifted, done: {} }, items, pools).some(task => task.sstId === '100188' && task.kind === 'sst-review'), false);
-  const nov11 = Plan.tasks('2026-11-11', { learned: shifted, done: {} }, items, pools);
-  assert.ok(nov11.some(task => task.sstId === '100188' && task.gap === 1 && task.reviewSource === 'done'));
-  const nov12 = Plan.tasks('2026-11-12', empty, items, pools);
-  assert.equal(nov12.filter(task => task.kind === 'sst-review' && task.gap === 1).length, 5);
-  assert.equal(nov12.filter(task => task.kind === 'sst-review' && task.gap === 3).length, 5);
-  const nov16 = Plan.tasks('2026-11-16', empty, items, pools);
-  assert.ok(nov16.some(task => task.sstId === '100188' && task.gap === 7));
-  assert.ok(nov16.some(task => task.sstId === '100189' && task.gap === 3));
-  const bees = nov16.find(task => task.sstId === '100198' && task.kind === 'sst-new');
-  assert.ok(bees.notes.some(note => note.includes('蜜蜂')));
-  assert.ok(bees.notes.some(note => note.includes('回忆')));
-  const fish = Plan.tasks('2026-11-18', empty, items, pools).find(task => task.sstId === '100058');
-  assert.ok(fish.notes.some(note => note.includes('回忆')));
-  assert.equal(Plan.tasks('2026-11-14', empty, items, pools).some(task => task.kind === 'sst-new'), false);
-  assert.ok(Plan.tasks('2026-11-14', empty, items, pools).some(task => task.kind === 'mock'));
-  assert.equal(Plan.tasks('2026-11-15', empty, items, pools).filter(task => task.kind === 'write').length, 3);
-  const exam = Plan.tasks('2026-11-22', { learned: { '100139': '2026-11-21' }, done: {} }, items, pools);
-  assert.equal(exam.some(task => task.kind === 'sst-new' || task.kind === 'sst-review' || task.kind === 'write'), false);
-  assert.equal(exam.filter(task => task.kind === 'wfd').length, 10);
-  assert.ok(exam.some(task => task.kind === 'skeleton'));
-  const bag = { learned: ['keep-me'], days: { '2026-11-01': 1 }, pte: { wfdMem: { a: 1 } }, study: { learned: { bad: 'yesterday', '100188': '2026-11-09' } } };
-  const st = Plan.ensure(bag);
-  assert.equal(st.learned['100188'], '2026-11-09');
-  assert.equal(st.learned.bad, undefined);
+  const day = '2024-06-10';
+  assert.equal(Plan.localDate(new Date(2024, 5, 10, 15, 0, 0)), day);
+  assert.equal(Plan.heading(), '今天');
+  const st = { learned: {}, done: {} };
+  Plan.lockDay(st, day, items);
+  const today = Plan.tasks(day, st, items, pools);
+  const fresh = today.filter(task => task.kind === 'sst-new').map(task => task.sstId);
+  const sorted = items.map(item => item.id).slice().sort();
+  assert.equal(fresh.length, Plan.NEW_PER_DAY);
+  assert.equal(JSON.stringify(fresh), JSON.stringify(sorted.slice(0, Plan.NEW_PER_DAY)));
+  assert.equal(today.some(task => task.kind === 'sst-review'), false);
+  assert.equal(today.filter(task => task.kind === 'wfd').length, 20);
+  assert.equal(today.filter(task => task.kind === 'rs').length, 10);
+  assert.equal(today.filter(task => task.kind === 'ra').length, 6);
+  assert.equal(today.filter(task => task.kind === 'write').length, 2);
+  assert.equal(today.filter(task => task.kind === 'di').length, 3);
+  assert.equal(today.some(task => task.kind === 'mock' || task.kind === 'sleep' || task.kind === 'check' || task.kind === 'skeleton'), false);
+  const rsIds = new Set(today.filter(task => task.kind === 'rs').map(task => task.id));
+  assert.equal(today.filter(task => task.kind === 'ra').some(task => rsIds.has(task.id.replace(':ra:', ':rs:'))), false);
+  const drive = Plan.driveTasks(today);
+  assert.equal(drive.some(task => task.kind === 'write' || task.kind === 'di'), false);
+  assert.ok(drive.some(task => task.kind === 'wfd'));
+  st.learned[fresh[0]] = day;
+  const sameDay = Plan.tasks(day, st, items, pools);
+  assert.equal(JSON.stringify(sameDay.filter(task => task.kind === 'sst-new').map(task => task.sstId)), JSON.stringify(fresh));
+  assert.equal(sameDay.some(task => task.sstId === fresh[0] && task.kind === 'sst-review'), false);
+  const reviewState = { learned: { [fresh[0]]: day }, done: {} };
+  assert.ok(Plan.tasks('2024-06-11', reviewState, items, pools).some(task => task.sstId === fresh[0] && task.gap === 1));
+  assert.ok(Plan.tasks('2024-06-13', reviewState, items, pools).some(task => task.sstId === fresh[0] && task.gap === 3));
+  assert.ok(Plan.tasks('2024-06-17', reviewState, items, pools).some(task => task.sstId === fresh[0] && task.gap === 7));
+  assert.equal(Plan.tasks('2024-06-12', reviewState, items, pools).some(task => task.sstId === fresh[0] && task.kind === 'sst-review'), false);
+  Plan.lockDay(st, '2024-06-11', items);
+  const next = Plan.tasks('2024-06-11', st, items, pools);
+  assert.equal(next.some(task => task.sstId === fresh[0] && task.kind === 'sst-new'), false);
+  assert.equal(next.filter(task => task.kind === 'sst-new').length, Plan.NEW_PER_DAY);
+  const model = items.find(item => item.group === 'model' || item.audio_content_type === 'model_answer');
+  assert.ok(Plan.notesFor(model).some(note => note.includes('不是讲座')));
+  const warned = Plan.notesFor({ id: 'sample', title_content_mismatch: true, content_note: 'mismatch-note', is_recalled_version: true, recall_note: 'recall-note' });
+  assert.ok(warned.indexOf('mismatch-note') >= 0);
+  assert.ok(warned.indexOf('recall-note') >= 0);
+  assert.equal(Plan.resumeIndex(today, { [today[0].id]: day, [today[1].id]: day }), 2);
+  const bag = { learned: ['keep-me'], days: { '2024-04-02': 1 }, pte: { wfdMem: { a: 1 } }, study: { learned: { bad: 'yesterday', [fresh[0]]: day } } };
+  const kept = Plan.ensure(bag);
+  assert.equal(kept.learned[fresh[0]], day);
+  assert.equal(kept.learned.bad, undefined);
   assert.deepEqual(bag.learned, ['keep-me']);
   assert.equal(bag.pte.wfdMem.a, 1);
-  assert.equal(bag.days['2026-11-01'], 1);
+  assert.equal(bag.days['2024-04-02'], 1);
 });
