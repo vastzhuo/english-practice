@@ -282,7 +282,7 @@ function pteCatOptions(current) {
 }
 function pteModes(st) {
   const btn = (id, label) => `<button type="button" data-pte-act="mode" data-mode="${id}" class="${st.mode === id ? 'on' : ''}">${label}</button>`;
-  return `<div class="pte-sub">${btn('wfd', 'WFD 听写')}${btn('rs', 'RS 复述')}${btn('read', '阅读')}${btn('drive', '开车')}</div>`;
+  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('drive', '开车')}</div>`;
 }
 function slotOrder(slot, items, ord) {
   const key = slot + '|' + ord + '|' + items.map(item => item.id).join('.');
@@ -525,6 +525,7 @@ function pteView() {
     if (PTE_PLAY.readId) return viewArticle(st);
     return viewRead(st);
   }
+  if (st.mode === 'we' && window.pteWeView) return window.pteWeView(st);
   return viewWfd(st);
 }
 function pteOpen() {
@@ -547,7 +548,8 @@ function onPteClick(e) {
   if (act === 'mode') {
     flowStop();
     const m = b.dataset.mode;
-    st.mode = (m === 'rs' || m === 'read' || m === 'drive') ? m : 'wfd';
+    st.mode = (m === 'rs' || m === 'read' || m === 'drive' || m === 'we') ? m : 'wfd';
+    if (m !== 'we' && window.pteWeStop) window.pteWeStop();
     if (m !== 'read') PTE_PLAY.deck = null;
     save();
     pteRefresh(false);

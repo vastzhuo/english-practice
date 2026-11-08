@@ -214,7 +214,7 @@ test('v11 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="shadow"/);
   assert.match(index, /data-t="drive"/);
   assert.match(index, /data-t="progress"/);
-  for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-app.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-app.js', 'pte-we-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=11'));
   }
   assert.equal(index.includes('?v=10'), false);
@@ -264,6 +264,51 @@ test('driving plays one set and never mixes WFD with RS', () => {
   assert.equal(rsItems.find(item => item.sourceNumber === '020767').text, 'Current statistical evidence indicates that further research is required');
   assert.equal(rsItems.find(item => item.sourceNumber === '020743').text, 'Mobile phone charges very differently from one place to another');
   assert.equal(rsItems.find(item => item.sourceNumber === '020751'), undefined);
+});
+
+test('write essay bank has 35 prompts, six types, and sentence cards', () => {
+  const context = {};
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-we.js'), 'utf8') + '\nglobalThis.PTE_WE = PTE_WE;\n', context);
+  const bank = context.PTE_WE;
+  assert.equal(bank.questions.length, 35);
+  assert.equal(bank.topics.length, 7);
+  assert.equal(bank.types.length, 6);
+  const types = {};
+  const topics = {};
+  const ids = new Set();
+  for (const q of bank.questions) {
+    types[q.type] = (types[q.type] || 0) + 1;
+    topics[q.topic] = (topics[q.topic] || 0) + 1;
+    assert.equal(ids.has(q.id), false);
+    ids.add(q.id);
+    assert.ok(q.zh && q.en);
+    assert.equal(/[\u3400-\u9fff]/.test(q.en), false);
+  }
+  assert.deepEqual(types, { agree: 13, two: 7, pros: 6, open: 4, choose: 4, example: 1 });
+  assert.deepEqual(topics, { society: 8, work: 6, media: 3, business: 4, environment: 3, tech: 3, education: 8 });
+  assert.equal(bank.questions.filter(q => q.personal).map(q => q.id).join(','), '077055,076014');
+  for (const type of bank.types) {
+    assert.equal(bank.cards[type.id].length, 3);
+    for (const card of bank.cards[type.id]) {
+      assert.ok(card.intro && card.conclusion && card.note);
+      assert.equal(/[\u3400-\u9fff]/.test(card.intro), false);
+      assert.equal(/[\u3400-\u9fff]/.test(card.conclusion), false);
+    }
+  }
+  assert.equal(bank.experiences.length, 2);
+  assert.equal(PTELogic.wordCount('one  two\nthree'), 3);
+  assert.equal(PTELogic.wordCount(''), 0);
+  assert.equal(PTELogic.essayFit(200), 'ok');
+  assert.equal(PTELogic.essayFit(300), 'ok');
+  assert.equal(PTELogic.essayFit(199), 'short');
+  assert.equal(PTELogic.essayFit(301), 'over');
+  const S = { learned: ['resilient'], pte: { we: { notes: { '077055': { stance: 'city' } }, view: 'essay' } } };
+  const st = PTELogic.ensureState(S, []);
+  assert.equal(S.learned[0], 'resilient');
+  assert.equal(st.we.notes['077055'].stance, 'city');
+  assert.equal(st.we.view, 'essay');
+  assert.equal(st.mode, 'wfd');
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {

@@ -177,6 +177,29 @@
     return shuffle([card].concat(others), rand);
   }
 
+  function wordCount(text) {
+    const s = String(text || '').trim();
+    if (!s) return 0;
+    return s.split(/\s+/).filter(Boolean).length;
+  }
+  function essayFit(n) {
+    if (n >= 200 && n <= 300) return 'ok';
+    if (n > 300) return 'over';
+    return 'short';
+  }
+  function ensureWe(st) {
+    if (!st.we || typeof st.we !== 'object' || Array.isArray(st.we)) st.we = {};
+    const we = st.we;
+    if (!we.notes || typeof we.notes !== 'object' || Array.isArray(we.notes)) we.notes = {};
+    if (typeof we.outlineDay !== 'string') we.outlineDay = '';
+    if (!Array.isArray(we.outlineIds)) we.outlineIds = [];
+    if (typeof we.essayId !== 'string') we.essayId = '';
+    if (typeof we.drillId !== 'string') we.drillId = '';
+    if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill') we.view = 'bank';
+    if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
+    if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
+    return we;
+  }
   function ensureState(S, cats) {
     if (!S.pte || typeof S.pte !== 'object' || Array.isArray(S.pte)) S.pte = {};
     const st = S.pte;
@@ -198,7 +221,8 @@
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
-    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive') st.mode = 'wfd';
+    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we') st.mode = 'wfd';
+    ensureWe(st);
     if (st.readType !== 'double' && st.readType !== 'single' && st.readType !== 'parallel' && st.readType !== 'none') st.readType = '全部';
     Object.keys(st.readPass).forEach(k => {
       const n = Number(st.readPass[k]);
@@ -230,6 +254,9 @@
     vocabSource: vocabSource,
     parseRsLines: parseRsLines,
     asRs: asRs,
-    quizChoices: quizChoices
+    quizChoices: quizChoices,
+    wordCount: wordCount,
+    essayFit: essayFit,
+    ensureWe: ensureWe
   };
 })(this);

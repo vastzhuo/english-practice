@@ -72,3 +72,4 @@ textarea.pte-box{width:100%;min-height:96px;font-size:1.05rem;padding:12px;borde
 .pte-lesson{border-left:3px solid #c7d2fe;padding-left:10px;margin:8px 0}
 details.pte-ref{margin:8px 0 14px}details.pte-ref summary,.card summary{cursor:pointer;font-weight:700}
 .pte-clock{font-size:2rem;font-weight:800;text-align:center;letter-spacing:.04em;margin:8px 0}
+.pte-count{font-weight:800}.pte-count.ok{color:#166534}.pte-count.short,.pte-count.over{color:#b91c1c}
