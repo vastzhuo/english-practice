@@ -20,7 +20,7 @@ async function dvLock(){try{if('wakeLock'in navigator&&!DV.lock){DV.lock=await n
 document.addEventListener('visibilitychange',()=>{if(DV.on&&document.visibilityState==='visible')dvLock()});
 function dvMS(){if(!('mediaSession'in navigator))return;const w=DV.L[DV.i];try{navigator.mediaSession.metadata=new MediaMetadata({title:w?w.w:'Daily English',artist:w?zhOf(w):'',album:'🚗 开车模式'});navigator.mediaSession.playbackState=DV.on?'playing':'paused';
  const h={play:()=>dvPlay(true),pause:()=>dvPlay(false),stop:()=>dvPlay(false),nexttrack:()=>dvMove(1),previoustrack:()=>dvMove(-1),seekforward:()=>dvMove(1),seekbackward:()=>dvMove(-1)};for(const k in h){try{navigator.mediaSession.setActionHandler(k,h[k])}catch(e){}}}catch(e){}}
-function dvPlay(on){DV.on=on;if(on){if(!DV.L.length)DV.L=dvList();dvSilent().play().catch(()=>{});dvLock();dvRun()}else{DV.tok++;speechSynthesis.cancel();DV.au&&DV.au.pause();if(DV.lock){DV.lock.release().catch(()=>{});DV.lock=null}}dvShow()}
+function dvPlay(on){if(on&&window.pteStop)window.pteStop();DV.on=on;if(on){if(!DV.L.length)DV.L=dvList();dvSilent().play().catch(()=>{});dvLock();dvRun()}else{DV.tok++;speechSynthesis.cancel();DV.au&&DV.au.pause();if(DV.lock){DV.lock.release().catch(()=>{});DV.lock=null}}dvShow()}
 function dvMove(d){DV.i=(DV.i+d+DV.L.length)%DV.L.length;S.dv.pos=DV.i;save();if(DV.on)dvRun();else dvShow()}
 function dvRepeat(){if(DV.on)dvRun();else dvPlay(true)}
 function dvShow(){const w=DV.L[DV.i];dvMS();const e=document.getElementById('dvnow');if(!e)return;e.innerHTML=w?`<div class="dvw">${esc(w.w)}</div><div class="dvm">${esc(zhOf(w))}</div><small>${DV.i+1}/${DV.L.length}</small>`:'';const p=document.getElementById('dvplay');if(p)p.textContent=DV.on?'⏸ 暂停':'▶ 播放'}
