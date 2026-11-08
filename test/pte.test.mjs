@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v15 cache bump keeps the PTE files and the existing tabs', () => {
+test('v16 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v15</);
+  assert.match(index, />v16</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -215,14 +215,14 @@ test('v15 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="drive"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=15'));
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=16'));
   }
-  assert.equal(index.includes('?v=14'), false);
-  assert.match(sw, /ep-v15/);
-  assert.equal(sw.includes('ep-v14'), false);
-  assert.match(sw, /study-plan\.js\?v=15/);
-  assert.match(sw, /study-ui\.js\?v=15/);
+  assert.equal(index.includes('?v=15'), false);
+  assert.match(sw, /ep-v16/);
+  assert.equal(sw.includes('ep-v15'), false);
+  assert.match(sw, /synonyms\.js\?v=16/);
+  assert.match(sw, /study-plan\.js\?v=16/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -483,4 +483,39 @@ test('today study queue follows completion dates', () => {
   assert.deepEqual(bag.learned, ['keep-me']);
   assert.equal(bag.pte.wfdMem.a, 1);
   assert.equal(bag.days['2024-04-02'], 1);
+});
+
+test('synonym comparisons cover high-frequency words and leave the rest for later', () => {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'words.js'), 'utf8') + '\nglobalThis.WORDS = WORDS;\n', context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'synonyms.js'), 'utf8'), context);
+  const bank = new Set(context.WORDS.map(word => String(word.w).trim().toLowerCase()));
+  const seen = new Set();
+  const optional = new Set(['gaze', 'peek']);
+  assert.ok(context.SYNONYMS.groups.length >= 30);
+  for (const group of context.SYNONYMS.groups) {
+    assert.ok(group.line && /[\u3400-\u9fff]/.test(group.line));
+    assert.ok(group.items.length >= 2 && group.items.length <= 4);
+    for (const item of group.items) {
+      const key = item.w.toLowerCase();
+      assert.equal(seen.has(key), false);
+      seen.add(key);
+      assert.ok(item.zh && item.scene && item.tone && item.col && item.en && item.cn);
+      assert.equal(/[\u3400-\u9fff]/.test(item.en), false);
+      assert.ok(/[\u3400-\u9fff]/.test(item.cn));
+      assert.ok(/[\u3400-\u9fff]/.test(item.scene));
+      if (!optional.has(key)) assert.equal(bank.has(key), true, key);
+    }
+  }
+  const glance = context.SYNONYMS.lookup('Glance');
+  assert.ok(glance.items.some(item => item.w === 'stare'));
+  assert.ok(glance.items.some(item => item.w === 'gaze'));
+  assert.equal(context.SYNONYMS.lookup('not-a-real-headword'), null);
+  const covered = [...bank].filter(word => context.SYNONYMS.lookup(word)).length;
+  assert.ok(covered >= 100);
+  const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+  assert.match(app, /同义词对比/);
+  assert.match(app, /即将推出/);
+  assert.match(app, /一句话区分/);
 });
