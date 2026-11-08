@@ -193,6 +193,13 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(created.set, 'wfd');
   assert.equal(JSON.stringify(created.wfdMem), '{}');
   assert.equal(JSON.stringify(created.rsMem), '{}');
+  assert.equal(JSON.stringify(created.readFlow), '{}');
+  const kept = { learned: ['resilient'], pte: { readFlow: { '063020': { signals: 'however', steps: { '1': 1 } } }, readPass: { '063020': 2 }, readErr: { '063020': '词不认识' } } };
+  const back = PTELogic.ensureState(kept, []);
+  assert.equal(kept.learned[0], 'resilient');
+  assert.equal(back.readFlow['063020'].signals, 'however');
+  assert.equal(back.readPass['063020'], 2);
+  assert.equal(back.readErr['063020'], '词不认识');
 });
 
 test('v11 cache bump keeps the PTE files and the existing tabs', () => {
@@ -251,6 +258,24 @@ test('reading vocab is topic-predicted only when the article has no source text'
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte-read.js'), 'utf8') + '\nglobalThis.PTE_READ = PTE_READ;\n', context);
   const read = context.PTE_READ;
+  assert.equal(read.articles.length, 70);
+  const typeCounts = {};
+  const ids = new Set();
+  for (const article of read.articles) {
+    typeCounts[article.type] = (typeCounts[article.type] || 0) + 1;
+    assert.equal(ids.has(article.id), false);
+    ids.add(article.id);
+    assert.equal(article.text, null);
+    assert.equal(PTELogic.vocabSource(article), 'predicted');
+    assert.ok(article.vocab.length >= 4);
+    for (const word of article.vocab) {
+      assert.equal(word.source, 'predicted');
+      assert.ok(word.w && word.zh && word.ex && word.col);
+      assert.equal(/[\u3400-\u9fff]/.test(word.ex), false);
+      assert.equal(/[\u3400-\u9fff]/.test(word.col), false);
+    }
+  }
+  assert.deepEqual(typeCounts, { double: 5, single: 16, parallel: 21, none: 28 });
   assert.equal(read.types.length, 4);
   for (const type of read.types) {
     assert.ok(type.connectives.length >= 3);

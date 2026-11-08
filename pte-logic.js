@@ -182,6 +182,7 @@
     if (!st.readPass || typeof st.readPass !== 'object' || Array.isArray(st.readPass)) st.readPass = {};
     if (!st.readErr || typeof st.readErr !== 'object' || Array.isArray(st.readErr)) st.readErr = {};
     if (!st.vocabKnown || typeof st.vocabKnown !== 'object' || Array.isArray(st.vocabKnown)) st.vocabKnown = {};
+    if (!st.readFlow || typeof st.readFlow !== 'object' || Array.isArray(st.readFlow)) st.readFlow = {};
     if (st.mem && typeof st.mem === 'object' && !Array.isArray(st.mem)) {
       Object.keys(st.mem).forEach(k => { if (st.wfdMem[k] == null && st.mem[k]) st.wfdMem[k] = 1; });
     }

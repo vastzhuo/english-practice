@@ -339,6 +339,58 @@ function lessonHtml(type) {
   const att = (type.attitudes || []).length ? `<h3>态度词</h3>${lessonBits(type.attitudes)}` : '';
   return `<p>${esc(type.blurb || '')}</p><h3>信号词</h3>${lessonBits(type.connectives)}${att}<h3>句型</h3>${lessonBits(type.patterns, 'pattern')}`;
 }
+function extraNote(article) {
+  const n = article.note || '';
+  if (!n || n === '—' || n === '双次转折类' || n === '单次转折类' || n === '并列对比类') return '';
+  return n;
+}
+function pteFlow(id) {
+  const st = pteState();
+  if (!st.readFlow[id] || typeof st.readFlow[id] !== 'object' || Array.isArray(st.readFlow[id])) st.readFlow[id] = {};
+  const note = st.readFlow[id];
+  if (!note.steps || typeof note.steps !== 'object' || Array.isArray(note.steps)) note.steps = {};
+  ['signals', 'synonyms', 'map', 'summary'].forEach(k => { if (typeof note[k] !== 'string') note[k] = ''; });
+  return note;
+}
+const FLOW_STEPS = [[1, '计时做题', '3–5 分钟', 300], [2, '对答案，并标出错因', '3 分钟', 180], [3, '精读：圈信号词、生词和同义替换', '8–10 分钟', 600], [4, '画出结构', '3 分钟', 180], [5, '用英文写三句摘要', '2 分钟', 120], [6, '打卡：勾第一遍或第二遍', '', 0]];
+function flowClock(sec) {
+  const n = Math.max(0, sec || 0);
+  return String(Math.floor(n / 60)).padStart(2, '0') + ':' + String(n % 60).padStart(2, '0');
+}
+function flowStop() {
+  if (PTE_PLAY.flowTick) clearInterval(PTE_PLAY.flowTick);
+  PTE_PLAY.flowTick = null;
+}
+function paintFlow() {
+  const el = $('pteFlowClock');
+  if (!el) return;
+  const step = FLOW_STEPS.find(s => s[0] === PTE_PLAY.flowStep);
+  el.textContent = (step ? step[1] + ' ' : '') + flowClock(PTE_PLAY.flowLeft);
+}
+function flowStart(step) {
+  const row = FLOW_STEPS.find(s => s[0] === step);
+  if (!row || !row[3]) return;
+  flowStop();
+  PTE_PLAY.flowStep = step;
+  PTE_PLAY.flowLeft = row[3];
+  paintFlow();
+  PTE_PLAY.flowTick = setInterval(() => {
+    PTE_PLAY.flowLeft -= 1;
+    if (PTE_PLAY.flowLeft <= 0) { PTE_PLAY.flowLeft = 0; flowStop(); }
+    paintFlow();
+  }, 1000);
+}
+function flowHtml(id) {
+  const note = pteFlow(id);
+  const steps = FLOW_STEPS.map(s => {
+    const on = !!note.steps[s[0]];
+    const time = s[3] ? `<button type="button" class="btn alt" data-pte-act="flow-go" data-step="${s[0]}">计时 ${esc(s[2])}</button>` : '';
+    return `<div class="pte-lesson"><button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="flow-step" data-step="${s[0]}">${on ? '✓' : '○'} ${s[0]}. ${esc(s[1])}${s[2] ? '（' + esc(s[2]) + '）' : ''}</button>${time}</div>`;
+  }).join('');
+  const box = (key, label, ph) => `<label class="pte-lab">${label}</label><textarea class="pte-box" data-flow="${key}" placeholder="${ph}">${esc(note[key])}</textarea>`;
+  const open = PTE_PLAY.flowTick || Object.keys(note.steps).length || note.signals || note.synonyms || note.map || note.summary;
+  return `<details class="card" ${open ? 'open' : ''}><summary>精读步骤（可选，约 25–30 分钟）</summary><p class="pte-tip">词汇在上面。这里按你的做法：先计时做题，再标错因，然后记信号词、结构图和三句英文摘要。</p><p id="pteFlowClock" class="pte-clock">${esc(flowClock(PTE_PLAY.flowLeft))}</p><button type="button" class="btn alt" data-pte-act="flow-stop">停止计时</button>${steps}${box('signals', '信号词', '写下这篇里要记的信号词')}${box('synonyms', '同义替换', '例如 however = yet')}${box('map', '结构图', '用几行字写出结构')}${box('summary', '三句英文摘要', 'Write three English sentences.')}</details>`;
+}
 function passButtons(id) {
   const n = pteState().readPass[id] || 0;
   const one = n === 1 ? 'done' : 'alt';
@@ -348,7 +400,7 @@ function passButtons(id) {
 function errSelect(id) {
   const cur = pteState().readErr[id] || '';
   const opts = `<option value="">错误原因（可选）</option>` + PTELogic.READ_ERRORS.map(e => `<option value="${esc(e)}" ${e === cur ? 'selected' : ''}>${esc(e)}</option>`).join('');
-  return `<label class="pte-lab">错因</label><select id="pteErr" class="sel">${opts}</select>`;
+  return `<label class="pte-lab">错因</label><select class="sel" data-err="${esc(id)}">${opts}</select>`;
 }
 function vocabHtml(article) {
   const src = PTELogic.vocabSource(article);
@@ -401,7 +453,8 @@ function articleCard(article) {
   const type = typeById(article.type);
   const src = PTELogic.vocabSource(article) === 'text' ? '有原文' : '按题目预测';
   const n = pteState().readPass[article.id] || 0;
-  return `<article class="card"><button type="button" class="btn alt" data-pte-act="open" data-id="${esc(article.id)}">${esc(article.title || '未命名')}</button><div class="pte-kicker">题号 ${esc(article.no || article.sourceNumber || '')} · ${esc(type ? type.name : '')} · ${src}${n ? ' · 第 ' + n + ' 遍' : ''}</div>${passButtons(article.id)}</article>`;
+  const note = extraNote(article);
+  return `<article class="card"><button type="button" class="btn alt" data-pte-act="open" data-id="${esc(article.id)}">${esc(article.title || '未命名')}</button><div class="pte-kicker">题号 ${esc(article.no || article.sourceNumber || '')} · ${esc(type ? type.name : '')} · ${src}${n ? ' · 第 ' + n + ' 遍' : ''}${note ? ' · ' + esc(note) : ''}</div>${passButtons(article.id)}${errSelect(article.id)}</article>`;
 }
 function viewRead(st) {
   const types = st.readType === '全部' ? readTypes() : readTypes().filter(t => t.id === st.readType);
@@ -410,8 +463,7 @@ function viewRead(st) {
   const decks = vocabBank().length ? `<button type="button" class="btn" data-pte-act="deck" data-scope="all" data-kind="card">抽认全部词汇</button><button type="button" class="btn alt" data-pte-act="deck" data-scope="all" data-kind="quiz">小测全部词汇</button>` : '';
   const groups = types.map(type => {
     const items = articles.filter(a => a.type === type.id).map(articleCard).join('');
-    const lesson = articles.length ? `<p>${esc(type.blurb || '')}</p>` : lessonHtml(type);
-    return `<h3 class="pte-group">${esc(type.name)}</h3>${lesson}${items}`;
+    return `<h3 class="pte-group">${esc(type.name)}（${articles.filter(a => a.type === type.id).length}）</h3><p>${esc(type.blurb || '')}</p><details class="pte-ref"><summary>本类信号词和句型</summary>${lessonHtml(type)}</details>${items}`;
   }).join('');
   return `${pteModes(st)}<div class="card"><b>阅读词汇</b><p>${articles.length ? '共 ' + articles.length + ' 篇。' : ''}重点是考试里会再见到的词：英文、中文、例句和搭配。没有原文的词标成按题目预测。信号词和句型按题型讲解。每篇可以勾第一遍或第二遍。</p>${filter}${decks}</div>${groups}`;
 }
@@ -422,7 +474,8 @@ function viewArticle(st) {
   const bank = (article.vocab || []).length;
   const passage = article.text ? `<div class="card"><h3>原文</h3><p lang="en">${esc(article.text)}</p></div>` : '';
   const decks = bank ? `<button type="button" class="btn" data-pte-act="deck" data-scope="${esc(article.id)}" data-kind="card">抽认这篇的词</button><button type="button" class="btn alt" data-pte-act="deck" data-scope="${esc(article.id)}" data-kind="quiz">小测这篇的词</button>` : '';
-  return `${pteModes(st)}<button type="button" class="btn alt" data-pte-act="back">返回篇目</button><div class="card"><div class="pte-kicker">${esc(type ? type.name : '')} · 题号 ${esc(article.no || article.sourceNumber || '')}</div><h2>${esc(article.title || '')}</h2>${passButtons(article.id)}${errSelect(article.id)}</div>${passage}<div class="card"><h3>词汇</h3>${vocabHtml(article)}${decks}</div><div class="card"><h3>${esc(type ? type.name : '这一类')}的信号词和句型</h3>${lessonHtml(type)}</div>`;
+  const note = extraNote(article);
+  return `${pteModes(st)}<button type="button" class="btn alt" data-pte-act="back">返回篇目</button><div class="card"><div class="pte-kicker">${esc(type ? type.name : '')} · 题号 ${esc(article.no || article.sourceNumber || '')}${note ? ' · ' + esc(note) : ''}</div><h2>${esc(article.title || '')}</h2>${passButtons(article.id)}${errSelect(article.id)}</div>${passage}<div class="card"><h3>词汇</h3>${vocabHtml(article)}${decks}</div><div class="card"><h3>${esc(type ? type.name : '这一类')}的信号词和句型</h3>${lessonHtml(type)}</div>${flowHtml(article.id)}`;
 }
 function viewDeck(st) {
   const cards = PTE_PLAY.cards || [];
@@ -488,6 +541,7 @@ function onPteClick(e) {
   const act = b.dataset.pteAct;
   const st = pteState();
   if (act === 'mode') {
+    flowStop();
     const m = b.dataset.mode;
     st.mode = (m === 'rs' || m === 'read' || m === 'drive') ? m : 'wfd';
     if (m !== 'read') PTE_PLAY.deck = null;
@@ -519,7 +573,18 @@ function onPteClick(e) {
   if (act === 'rs-next') { advance('rs'); pteRefresh(true); return; }
   if (act === 'mask') { PTE_PLAY.mask[b.dataset.id] = !PTE_PLAY.mask[b.dataset.id]; pteRefresh(true); return; }
   if (act === 'open') { PTE_PLAY.readId = b.dataset.id; PTE_PLAY.deck = null; pteRefresh(false); return; }
-  if (act === 'back') { PTE_PLAY.readId = ''; PTE_PLAY.deck = null; pteRefresh(false); return; }
+  if (act === 'back') { flowStop(); PTE_PLAY.readId = ''; PTE_PLAY.deck = null; pteRefresh(false); return; }
+  if (act === 'flow-go') { flowStart(Number(b.dataset.step)); return; }
+  if (act === 'flow-stop') { flowStop(); PTE_PLAY.flowLeft = 0; paintFlow(); return; }
+  if (act === 'flow-step' && PTE_PLAY.readId) {
+    const note = pteFlow(PTE_PLAY.readId);
+    const step = String(b.dataset.step);
+    if (note.steps[step]) delete note.steps[step];
+    else note.steps[step] = 1;
+    save();
+    pteRefresh(true);
+    return;
+  }
   if (act === 'pass') {
     const n = Number(b.dataset.pass);
     const id = b.dataset.id;
@@ -585,12 +650,18 @@ function onPteChange(e) {
   else if (e.target.id === 'pteOrd') { st.wfdOrd = e.target.value === 'num' ? 'num' : 'rand'; PTE_PLAY.wfdKey = ''; save(); pteRefresh(false); }
   else if (e.target.id === 'pteSet') { st.set = e.target.value === 'rs' ? 'rs' : 'wfd'; save(); pteRefresh(false); }
   else if (e.target.id === 'pteReadType') { st.readType = e.target.value; save(); pteRefresh(false); }
-  else if (e.target.id === 'pteErr' && PTE_PLAY.readId) {
-    if (e.target.value) st.readErr[PTE_PLAY.readId] = e.target.value;
-    else delete st.readErr[PTE_PLAY.readId];
+  else if (e.target.dataset && e.target.dataset.err) {
+    const id = e.target.dataset.err;
+    if (e.target.value) st.readErr[id] = e.target.value;
+    else delete st.readErr[id];
     save();
   }
 }
+$('tab-pte').addEventListener('input', e => {
+  if (!e.target.dataset || !e.target.dataset.flow || !PTE_PLAY.readId) return;
+  pteFlow(PTE_PLAY.readId)[e.target.dataset.flow] = e.target.value;
+  save();
+});
 $('tab-pte').addEventListener('click', onPteClick);
 $('tab-pte').addEventListener('change', onPteChange);
 $('pteOvPause').addEventListener('click', () => { if (!PTE_PLAY.on) return; if (PTE_PLAY.paused) pteResume(); else ptePause(); });
