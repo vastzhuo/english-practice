@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v16 cache bump keeps the PTE files and the existing tabs', () => {
+test('v17 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v16</);
+  assert.match(index, />v17</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -216,13 +216,15 @@ test('v16 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=16'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=17'));
   }
-  assert.equal(index.includes('?v=15'), false);
-  assert.match(sw, /ep-v16/);
-  assert.equal(sw.includes('ep-v15'), false);
-  assert.match(sw, /synonyms\.js\?v=16/);
-  assert.match(sw, /study-plan\.js\?v=16/);
+  assert.equal(index.includes('?v=16'), false);
+  assert.match(sw, /ep-v17/);
+  assert.equal(sw.includes('ep-v16'), false);
+  assert.match(sw, /skipWaiting/);
+  assert.match(sw, /clients\.claim/);
+  assert.match(sw, /synonyms\.js\?v=17/);
+  assert.match(sw, /study-plan\.js\?v=17/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -511,6 +513,12 @@ test('synonym comparisons cover high-frequency words and leave the rest for late
   const glance = context.SYNONYMS.lookup('Glance');
   assert.ok(glance.items.some(item => item.w === 'stare'));
   assert.ok(glance.items.some(item => item.w === 'gaze'));
+  assert.equal(context.SYNONYMS.lookup('  job '), context.SYNONYMS.lookup('job'));
+  assert.equal(context.SYNONYMS.lookup('larger'), context.SYNONYMS.lookup('large'));
+  assert.equal(context.SYNONYMS.lookup('biggest'), context.SYNONYMS.lookup('big'));
+  assert.equal(context.SYNONYMS.lookup('jobs'), context.SYNONYMS.lookup('job'));
+  assert.equal(context.SYNONYMS.lookup('stroller'), null);
+  assert.equal(context.SYNONYMS.lookup('modest'), null);
   assert.equal(context.SYNONYMS.lookup('not-a-real-headword'), null);
   const covered = [...bank].filter(word => context.SYNONYMS.lookup(word)).length;
   assert.ok(covered >= 100);
