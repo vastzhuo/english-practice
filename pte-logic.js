@@ -197,8 +197,12 @@
     return 'short';
   }
   function sstAudioItems(items) {
-    const list = items || [];
-    return list.filter(item => item.group === 'exam').concat(list.filter(item => item.group === 'text'));
+    const rank = { public: 0, tts: 1, reference: 2 };
+    return (items || []).filter(item => item.group !== 'model').slice().sort((a, b) => {
+      const d = (rank[a.group] == null ? 9 : rank[a.group]) - (rank[b.group] == null ? 9 : rank[b.group]);
+      if (d) return d;
+      return String(a.no).localeCompare(String(b.no));
+    });
   }
   function sstDays(items) {
     const audio = sstAudioItems(items);

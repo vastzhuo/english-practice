@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v12 cache bump keeps the PTE files and the existing tabs', () => {
+test('v13 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v12</);
+  assert.match(index, />v13</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -215,12 +215,12 @@ test('v12 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="drive"/);
   assert.match(index, /data-t="progress"/);
   for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=12'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=13'));
   }
-  assert.equal(index.includes('?v=11'), false);
-  assert.match(sw, /ep-v12/);
-  assert.equal(sw.includes('ep-v11'), false);
-  assert.match(sw, /pte-sst\.js\?v=12/);
+  assert.equal(index.includes('?v=12'), false);
+  assert.match(sw, /ep-v13/);
+  assert.equal(sw.includes('ep-v12'), false);
+  assert.match(sw, /pte-sst\.js\?v=13/);
   assert.match(app, /t==='pte'/);
   assert.match(drive, /pteStop/);
 });
@@ -325,37 +325,42 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
   assert.match(copied, /请帮我记住这道 PTE Write Essay 的关键句和答题策略/);
 });
 
-test('SST plan puts the 30 audio items first and keeps five keywords', () => {
+test('SST real data keeps fifty items, warnings, and saved progress', () => {
   const context = {};
   vm.createContext(context);
-  vm.runInContext(fs.readFileSync(path.join(root, 'pte-sst.js'), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-sst.js'), 'utf8') + '\nglobalThis.PTE_SST = PTE_SST;\n', context);
   const items = context.PTE_SST.items;
-  assert.equal(items.filter(item => item.group === 'exam').length, 18);
-  assert.equal(items.filter(item => item.group === 'text').length, 12);
-  assert.equal(items.filter(item => item.group === 'recall').length, 18);
-  const days = PTELogic.sstDays(items);
-  assert.equal(days.length, 6);
-  assert.ok(days.every(day => day.length === 5));
-  assert.ok(days[0].every(item => item.group === 'exam'));
-  assert.ok(days[5].every(item => item.group === 'text'));
-  assert.equal(days.flat().some(item => item.group === 'recall'), false);
-  for (const item of items) {
-    assert.equal(item.keywords.length, 5);
-    item.keywords.slice(0, 4).forEach(word => assert.match(item.transcript, new RegExp(word.w)));
+  const byId = Object.fromEntries(items.map(item => [item.id, item]));
+  assert.equal(items.length, 50);
+  assert.equal(items.filter(item => item.group === 'public').length, 37);
+  assert.equal(items.filter(item => item.group === 'tts').length, 8);
+  assert.equal(items.filter(item => item.group === 'reference').length, 2);
+  assert.equal(items.filter(item => item.group === 'model').length, 3);
+  assert.equal(JSON.stringify(items.filter(item => item.group === 'reference').map(item => item.id).sort()), JSON.stringify(['100096', '100192']));
+  for (const id of ['100141', '100121', '100111']) {
+    assert.equal(byId[id].group, 'model');
+    assert.equal(byId[id].transcript, '');
+    assert.ok(byId[id].model_answer);
+    assert.match(byId[id].audio_kind, /范文答案/);
   }
-  assert.equal(PTELogic.SST_TEMPLATE, 'The lecture mainly discusses … It points out that … In addition, … Finally, it concludes that …');
-  assert.equal(PTELogic.sstFit(50), 'ok');
-  assert.equal(PTELogic.sstFit(70), 'ok');
-  assert.equal(PTELogic.sstFit(49), 'short');
-  assert.equal(PTELogic.sstFit(71), 'over');
+  assert.equal(byId['100198'].title_content_mismatch, true);
+  assert.match(byId['100198'].content_note, /蜜蜂/);
+  assert.equal(byId['100058'].is_recalled_version, true);
+  assert.equal(byId['100198'].is_recalled_version, true);
+  assert.equal(byId['100190'].transcript.includes(byId['100190'].model_answer), false);
+  const days = PTELogic.sstDays(items);
+  assert.equal(days.flat().length, 47);
+  assert.equal(days.flat().some(item => item.group === 'model'), false);
+  assert.ok(days[0].every(item => item.group === 'public'));
+  assert.equal(days.filter(day => day.length === 5).length, 9);
+  assert.equal(days[days.length - 1].length, 2);
+  assert.equal(PTELogic.sstFit(60), 'ok');
   assert.equal(PTELogic.sstParagraphs('One paragraph only.'), 1);
-  assert.equal(PTELogic.sstParagraphs('First block.\n\nSecond block.'), 2);
-  const S = { learned: ['resilient'], pte: { we: { notes: { '077055': { stance: 'keep' } } } } };
+  const S = { learned: ['resilient'], pte: { sst: { done: { '100200': 1 } }, we: { notes: { '077055': { stance: 'keep' } } } } };
   const st = PTELogic.ensureState(S, []);
-  st.sst.done['exam-01'] = 1;
-  assert.equal(S.learned[0], 'resilient');
+  assert.equal(st.sst.done['100200'], 1);
   assert.equal(st.we.notes['077055'].stance, 'keep');
-  assert.equal(PTELogic.ensureState(S, []).sst.done['exam-01'], 1);
+  assert.equal(S.learned[0], 'resilient');
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {
