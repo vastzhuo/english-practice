@@ -1,0 +1,17 @@
+{
+  "days": {"2026-10-02": 12, "2026-10-03": 9, "2026-10-05": 15},
+  "learned": ["resilient", "candid", "meticulous", "follow up", "thrive"],
+  "best": 6,
+  "goal": 75,
+  "qlen": 20,
+  "rnd": false,
+  "cat": "Core vocabulary",
+  "lt": {"2026-10-05": ["resilient", "candid"]},
+  "sh": {"i": {"Core vocabulary": 2}, "h": {"candid": [62, 70]}},
+  "dv": {"gap": 8, "rate": 0.8, "rep": 2, "order": "rand", "wr": false, "pos": 3},
+  "slow": true,
+  "recOn": false,
+  "plan": {"k": "old-synthetic", "items": ["resilient"]},
+  "customNote": "synthetic-not-joel",
+  "futureWidget": {"ok": true, "n": 1}
+}
