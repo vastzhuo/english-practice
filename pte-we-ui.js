@@ -97,8 +97,11 @@ function weEnglishBits(text) {
     return latin >= 8 && latin > zh;
   });
 }
-function weOllamaHelp() {
-  return '连不上本机的 Ollama。这个网页不能保存密钥，所以要连你自己电脑上的模型。请做这几步：\n1. 安装 Ollama（https://ollama.com/download），并让它保持运行。\n2. 在终端运行：ollama pull qwen2.5:7b\n3. 设置环境变量 OLLAMA_ORIGINS，允许 https://vastzhuo.github.io ，然后重新打开 Ollama。\n也可以点「复制题目」，把题目贴到别的对话里问。';
+function weApiHelp(kind) {
+  if (kind === 'need-key') return '还没有填写 API key。密钥只保存在这台手机的浏览器里，不会写进这个网站。\n1. OpenAI：打开 https://platform.openai.com/api-keys 新建密钥。地址填 https://api.openai.com/v1 ，模型例如 gpt-4o-mini。\n2. x.ai：打开 https://console.x.ai 申请密钥。地址填 https://api.x.ai/v1 ，模型名按账户里显示的填写。\n填好后点发送。手机请用上面的在线地址。';
+  if (kind === 'denied') return '密钥被拒绝了。请到平台重新复制一把密钥，粘贴到「API key」。也可以点「复制题目」。';
+  if (kind === 'local') return '连不上本机 Ollama。手机打不开 localhost，请改用在线地址。若在电脑上用，请安装 Ollama，运行 ollama pull qwen2.5:7b，并把 OLLAMA_ORIGINS 设为允许 https://vastzhuo.github.io 。也可以点「复制题目」。';
+  return '连不上这个地址。请检查网络、地址是否带 /v1、密钥是否正确。也可以点「复制题目」。';
 }
 function weChatPanel(q) {
   const bag = weBag();
@@ -111,31 +114,55 @@ function weChatPanel(q) {
   }).join('');
   const err = PTE_PLAY.weChatError ? `<div class="pte-chat-err">${esc(PTE_PLAY.weChatError)}</div>` : '';
   const busy = PTE_PLAY.weBusy ? ' disabled' : '';
-  return `<div class="card"><b>问老师</b><p class="pte-tip">可以用中文或英文随便问。老师会帮你记这道题的立场、论点和开头结尾，也会改句子、抽查你。</p><details><summary>模型设置</summary><label class="pte-lab">地址</label><input class="sel" data-ollama="base" value="${esc(bag.ollama.base)}"><label class="pte-lab">模型名</label><input class="sel" data-ollama="model" value="${esc(bag.ollama.model)}"></details><div class="pte-chat">${turns || '<p>还没有对话。例如：给我一句英文开头；改我的立场句；考我这道题。</p>'}</div>${err}<textarea id="weChatInput" class="pte-box" placeholder="输入中文或英文"></textarea><button type="button" class="btn" data-we-act="send" data-id="${esc(q.id)}"${busy}>${PTE_PLAY.weBusy ? '正在想…' : '发送'}</button><button type="button" class="btn alt" data-we-act="chat-close">收起</button><button type="button" class="btn alt" data-we-act="chat-clear" data-id="${esc(q.id)}">清空这道题的对话</button></div>`;
+  const micLang = PTE_PLAY.weMicLang === 'en-US' ? 'en-US' : 'zh-CN';
+  const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-we-act="mic">${PTE_PLAY.weRec ? '正在听…' : '🎤 说话'}</button><button type="button" class="btn alt" data-we-act="mic-lang">${micLang === 'en-US' ? '英文识别' : '中文识别'}</button>` : '<p class="pte-tip">这个浏览器不能语音输入，请打字。</p>';
+  const api = bag.api;
+  return `<div class="card"><b>问老师</b><p class="pte-tip">可以用中文或英文随便问。老师会帮你记这道题的立场、论点和开头结尾，也会改句子、抽查你。</p><details ${api.key ? '' : 'open'}><summary>模型设置</summary><p class="pte-tip">${esc(weApiHelp('need-key'))}</p><button type="button" class="btn alt" data-we-act="preset" data-preset="openai">使用 OpenAI</button><button type="button" class="btn alt" data-we-act="preset" data-preset="xai">使用 x.ai</button><button type="button" class="btn alt" data-we-act="preset" data-preset="ollama">改用本机 Ollama</button><label class="pte-lab">地址</label><input class="sel" data-api="base" value="${esc(api.base)}" autocomplete="off"><label class="pte-lab">模型名</label><input class="sel" data-api="model" value="${esc(api.model)}" autocomplete="off"><label class="pte-lab">API key</label><input class="sel" type="password" data-api="key" value="${esc(api.key)}" autocomplete="off" spellcheck="false"></details><div class="pte-chat">${turns || '<p>还没有对话。例如：给我一句英文开头；改我的立场句；考我这道题。</p>'}</div>${err}<textarea id="weChatInput" class="pte-box pte-chat-input" placeholder="输入中文或英文，或点说话"></textarea>${mic}<button type="button" class="btn" data-we-act="send" data-id="${esc(q.id)}"${busy}>${PTE_PLAY.weBusy ? '正在想…' : '发送'}</button><button type="button" class="btn alt" data-we-act="chat-close">收起</button><button type="button" class="btn alt" data-we-act="chat-clear" data-id="${esc(q.id)}">清空这道题的对话</button></div>`;
 }
-async function weCallOllama(id) {
+async function weCallTutor(id) {
   const q = weFind(id);
   const bag = weBag();
   const note = weNote(id);
   const type = weType(q.type);
   const cards = (PTE_WE.cards && PTE_WE.cards[q.type]) || [];
-  const base = String(bag.ollama.base || '').replace(/\/$/, '');
+  const local = PTELogic.apiIsLocal(bag.api.base);
+  if (!local && !String(bag.api.key || '').trim()) throw new Error(weApiHelp('need-key'));
   const messages = [{ role: 'system', content: PTELogic.weTutorPrompt(q, type, cards, note) }].concat(weChatList(id).map(msg => ({ role: msg.role, content: msg.content })));
-  const payload = JSON.stringify({ model: bag.ollama.model, messages: messages, stream: false });
+  const payload = JSON.stringify({ model: bag.api.model, messages: messages, stream: false });
   const headers = { 'Content-Type': 'application/json' };
+  if (String(bag.api.key || '').trim()) headers.Authorization = 'Bearer ' + String(bag.api.key).trim();
+  const fail = () => { throw new Error(local ? weApiHelp('local') : weApiHelp('net')); };
   let res;
-  try { res = await fetch(base + '/v1/chat/completions', { method: 'POST', headers: headers, body: payload }); }
-  catch (err) { throw new Error(weOllamaHelp()); }
-  if (res.status === 404) {
-    try { res = await fetch(base + '/api/chat', { method: 'POST', headers: headers, body: payload }); }
-    catch (err) { throw new Error(weOllamaHelp()); }
+  try { res = await fetch(PTELogic.chatEndpoint(bag.api.base), { method: 'POST', headers: headers, body: payload }); }
+  catch (err) { fail(); }
+  if (local && res.status === 404) {
+    const root = String(bag.api.base).replace(/\/v1\/?$/, '').replace(/\/$/, '');
+    try { res = await fetch(root + '/api/chat', { method: 'POST', headers: headers, body: payload }); }
+    catch (err) { fail(); }
   }
-  if (!res.ok) throw new Error(weOllamaHelp() + '\n（服务器返回 ' + res.status + '）');
+  if (res.status === 401 || res.status === 403) throw new Error(weApiHelp('denied'));
+  if (!res.ok) throw new Error((local ? weApiHelp('local') : weApiHelp('net')) + '\n（服务器返回 ' + res.status + '）');
   const data = await res.json();
   const text = data && data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content
     || data && data.message && data.message.content;
-  if (!text) throw new Error(weOllamaHelp());
+  if (!text) throw new Error(local ? weApiHelp('local') : weApiHelp('net'));
   return String(text).trim();
+}
+function weListen() {
+  if (typeof SR === 'undefined' || !SR || PTE_PLAY.weRec) return;
+  const r = new SR();
+  r.lang = PTE_PLAY.weMicLang === 'en-US' ? 'en-US' : 'zh-CN';
+  r.interimResults = true;
+  PTE_PLAY.weRec = r;
+  const box = $('weChatInput');
+  r.onresult = e => {
+    let t = '';
+    for (let i = 0; i < e.results.length; i++) t += e.results[i][0].transcript;
+    if (box) box.value = t;
+  };
+  r.onerror = () => { PTE_PLAY.weRec = null; };
+  r.onend = () => { PTE_PLAY.weRec = null; };
+  try { r.start(); } catch (err) { PTE_PLAY.weRec = null; }
 }
 function weQuestionCard(q, extra) {
   const type = weType(q.type);
@@ -249,6 +276,14 @@ function onWeClick(e) {
     return;
   }
   if (act === 'send') { weSend(b.dataset.id); return; }
+  if (act === 'mic') { weListen(); return; }
+  if (act === 'mic-lang') { PTE_PLAY.weMicLang = PTE_PLAY.weMicLang === 'en-US' ? 'zh-CN' : 'en-US'; pteRefresh(true); return; }
+  if (act === 'preset') {
+    const presets = { openai: ['https://api.openai.com/v1', 'gpt-4o-mini'], xai: ['https://api.x.ai/v1', 'grok-3'], ollama: ['http://localhost:11434/v1', 'qwen2.5:7b'] };
+    const pick = presets[b.dataset.preset];
+    if (pick) { bag.api.base = pick[0]; bag.api.model = pick[1]; save(); pteRefresh(true); }
+    return;
+  }
   if (act === 'copy') {
     const q = weFind(b.dataset.id);
     if (!q) return;
@@ -271,11 +306,11 @@ async function weSend(id) {
   save();
   pteRefresh(true);
   try {
-    const reply = await weCallOllama(id);
+    const reply = await weCallTutor(id);
     weChatList(id).push({ role: 'assistant', content: reply });
     PTE_PLAY.weChatError = '';
   } catch (err) {
-    PTE_PLAY.weChatError = err && err.message ? err.message : weOllamaHelp();
+    PTE_PLAY.weChatError = err && err.message ? err.message : weApiHelp('net');
   }
   PTE_PLAY.weBusy = false;
   save();
@@ -288,9 +323,9 @@ function onWeChange(e) {
   else if (e.target.id === 'weEssay') { bag.essayId = e.target.value; save(); pteRefresh(false); }
 }
 function onWeInput(e) {
-  if (e.target.dataset && e.target.dataset.ollama) {
+  if (e.target.dataset && e.target.dataset.api) {
     const bag = weBag();
-    bag.ollama[e.target.dataset.ollama] = e.target.value.trim();
+    bag.api[e.target.dataset.api] = e.target.dataset.api === 'key' ? e.target.value.trim() : e.target.value.trim();
     save();
     return;
   }

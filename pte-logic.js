@@ -198,11 +198,25 @@
     if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill') we.view = 'bank';
     if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
     if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
-    if (!we.ollama || typeof we.ollama !== 'object' || Array.isArray(we.ollama)) we.ollama = {};
-    if (typeof we.ollama.base !== 'string' || !we.ollama.base.trim()) we.ollama.base = 'http://localhost:11434';
-    if (typeof we.ollama.model !== 'string' || !we.ollama.model.trim()) we.ollama.model = 'qwen2.5:7b';
+    if (!we.api || typeof we.api !== 'object' || Array.isArray(we.api)) we.api = {};
+    if ((!we.api.base || !String(we.api.base).trim()) && we.ollama && we.ollama.base) we.api.base = we.ollama.base;
+    if ((!we.api.model || !String(we.api.model).trim()) && we.ollama && we.ollama.model) we.api.model = we.ollama.model;
+    if (typeof we.api.base !== 'string' || !we.api.base.trim()) we.api.base = 'https://api.openai.com/v1';
+    if (typeof we.api.model !== 'string' || !we.api.model.trim()) we.api.model = 'gpt-4o-mini';
+    if (typeof we.api.key !== 'string') we.api.key = '';
     if (typeof we.chatId !== 'string') we.chatId = '';
     return we;
+  }
+  function apiIsLocal(base) {
+    return /localhost|127\.0\.0\.1/i.test(String(base || ''));
+  }
+  function chatEndpoint(base) {
+    let b = String(base || '').trim().replace(/\/$/, '');
+    if (!b) b = 'https://api.openai.com/v1';
+    if (/\/chat\/completions$/.test(b)) return b;
+    if (apiIsLocal(b) && !/\/v1$/.test(b)) b += '/v1';
+    if (!/\/v1$/.test(b)) b += '/v1';
+    return b + '/chat/completions';
   }
   function weTutorPrompt(q, type, cards, note) {
     const saved = note || {};
@@ -285,6 +299,8 @@
     wordCount: wordCount,
     essayFit: essayFit,
     ensureWe: ensureWe,
-    weTutorPrompt: weTutorPrompt
+    weTutorPrompt: weTutorPrompt,
+    apiIsLocal: apiIsLocal,
+    chatEndpoint: chatEndpoint
   };
 })(this);
