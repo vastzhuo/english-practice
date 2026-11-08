@@ -419,9 +419,33 @@
     });
   });
 
+  function stemKeys(key) {
+    const keys = [key];
+    if (key.length > 3 && key.endsWith('s') && !key.endsWith('ss')) keys.push(key.slice(0, -1));
+    if (key.length > 4 && key.endsWith('es')) keys.push(key.slice(0, -2));
+    if (key.length > 4 && key.endsWith('r')) keys.push(key.slice(0, -1));
+    if (key.length > 5 && key.endsWith('st')) keys.push(key.slice(0, -2));
+    if (key.length > 5 && key.endsWith('est')) keys.push(key.slice(0, -3));
+    if (key.length > 6 && key.endsWith('est') && key.charAt(key.length - 4) === key.charAt(key.length - 5)) keys.push(key.slice(0, -4));
+    if (key.length > 5 && key.endsWith('er') && key.charAt(key.length - 3) === key.charAt(key.length - 4)) keys.push(key.slice(0, -3));
+    return keys;
+  }
   function lookup(word) {
     const key = String(word || '').trim().toLowerCase();
-    return key && byWord[key] ? byWord[key] : null;
+    if (!key) return null;
+    const keys = stemKeys(key);
+    for (let i = 0; i < keys.length; i++) {
+      const hit = byWord[keys[i]];
+      if (!hit) continue;
+      const stem = keys[i];
+      if (stem === key) return hit;
+      if (key === stem + 's' || key === stem + 'es') return hit;
+      if (stem.endsWith('e') && (key === stem + 'r' || key === stem + 'st')) return hit;
+      if (key === stem + 'est') return hit;
+      const tail = stem.charAt(stem.length - 1);
+      if (key === stem + tail + 'er' || key === stem + tail + 'est') return hit;
+    }
+    return null;
   }
 
   root.SYNONYMS = { groups: GROUPS, lookup: lookup };

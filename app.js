@@ -115,4 +115,4 @@ function go(t){if(window.studyClose)window.studyClose();document.querySelectorAl
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
 learn();badge();
 if('serviceWorker'in navigator){let rl=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!rl){rl=true;location.reload()}});
- navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}
+ navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{const go=w=>{if(w)w.postMessage({type:'SKIP_WAITING'})};go(r.waiting);r.addEventListener('updatefound',()=>{const w=r.installing;if(w)w.addEventListener('statechange',()=>{if(w.state==='installed')go(r.waiting)})});r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}
