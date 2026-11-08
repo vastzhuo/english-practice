@@ -19,7 +19,9 @@
   }
   function state() { return StudyPlan.ensure(S); }
   function list() {
-    const full = StudyPlan.tasks(TODAY, state(), sstItems(), { wfd: (typeof PTE !== 'undefined' ? PTE : []), rs: rsItems() });
+    const st = state();
+    if (TODAY) StudyPlan.lockDay(st, TODAY, sstItems());
+    const full = StudyPlan.tasks(TODAY, st, sstItems(), { wfd: (typeof PTE !== 'undefined' ? PTE : []), rs: rsItems() });
     return MODE === 'drive' ? StudyPlan.driveTasks(full) : full;
   }
   function indexOf(tasks) { return StudyPlan.resumeIndex(tasks, state().done); }
@@ -106,7 +108,7 @@
       for (let i = 0; i < plays; i++) {
         if (mine !== GEN) return;
         const heard = task.mp3 ? await playSrc(task.mp3, mine) : false;
-        if (!heard && mine === GEN) await speak(task.en || '', mine);
+        if (!heard && mine === GEN) await speak(task.title || '', mine);
         if (mine !== GEN) return;
         const gap = i < plays - 1 ? (task.gapMs || 2000) : (task.oralMs || 0);
         if (gap) await wait(gap, mine);
@@ -183,23 +185,21 @@
     const index = indexOf(tasks);
     const task = index >= tasks.length ? null : tasks[index];
     const total = tasks.length;
-    const head = StudyPlan.heading(TODAY);
+    const head = StudyPlan.heading();
     const bar = total ? Math.round(index / total * 100) : 0;
     const progress = total ? (task ? '第 ' + (index + 1) + '/' + total + ' 个' : '第 ' + total + '/' + total + ' 个') : '今天没有任务';
     top.innerHTML = '<p class="study-date">' + esc(head) + (MODE === 'drive' ? ' · 开车' : '') + '</p><p class="study-progress">' + esc(progress) + '</p><div class="bar"><i style="width:' + bar + '%"></i></div>' + (MODE === 'drive' ? '<p class="study-note">开车时不要看屏幕。只放音频，放完自动下一题。</p>' : '');
     if (!total) {
-      const early = TODAY < '2026-11-09';
-      body.innerHTML = '<p class="study-big">' + (early ? '计划从 11月9日开始。' : '这套计划到 11月22日为止。') + '</p>';
+      body.innerHTML = '<p class="study-big">今天没有可练的题。</p>';
       actions.innerHTML = '<button type="button" class="btn alt" id="studyExit">退出</button>';
       return;
     }
     if (!task) {
-      body.innerHTML = '<p class="study-big">今天的任务做完了</p><p>进度已经记在这台手机上。明天再打开今日学习，会从明天的题继续。</p>';
+      body.innerHTML = '<p class="study-big">今天的任务做完了</p><p>进度已经记在这台手机上。</p>';
       actions.innerHTML = '<button type="button" class="btn alt" id="studyExit">退出</button>';
       return;
     }
-    const title = task.en || task.text || task.kicker;
-    const zh = task.zh ? '<p class="study-zh">' + esc(task.zh) + '</p>' : '';
+    const title = task.title || task.text || task.kicker;
     const notes = (task.notes || []).map(note => '<p class="study-note">' + esc(note) + '</p>').join('');
     const audio = task.mp3 && MODE !== 'drive' ? '<audio id="studyAudio" controls preload="none" src="' + esc(task.mp3) + '" style="width:100%"></audio>' : (task.mp3 && MODE === 'drive' ? '<p class="study-live">正在播放</p>' : '');
     const play = !task.mp3 && task.text && MODE !== 'drive' ? '<button type="button" class="btn alt" id="studyPlay">播放</button>' : '';
@@ -213,19 +213,9 @@
     if (task.kind === 'di' && MODE !== 'drive') {
       extra = '<button type="button" class="btn alt" id="studyTimer" data-sec="40">开始 40 秒</button><p id="studyClock" class="study-clock"></p>';
     }
-    if (task.kind === 'weak' && MODE !== 'drive') {
-      extra = '<input id="studyWeakA" class="study-box" placeholder="最弱的第一项"><input id="studyWeakB" class="study-box" placeholder="最弱的第二项">';
-    }
-    body.innerHTML = '<p class="study-kicker">' + esc(task.kicker || '') + '</p><p class="study-big" style="font-size:' + bigPx(title) + 'px">' + esc(title) + '</p>' + zh + notes + '<p>' + esc(hintFor(task)) + '</p>' + audio + play + extra;
+    body.innerHTML = '<p class="study-kicker">' + esc(task.kicker || '') + '</p><p class="study-big" style="font-size:' + bigPx(title) + 'px">' + esc(title) + '</p>' + notes + '<p>' + esc(hintFor(task)) + '</p>' + audio + play + extra;
     const box = document.getElementById('studyBox');
-    if (box && task.kind !== 'weak') box.value = state().answers[task.id] || '';
-    if (task.kind === 'weak') {
-      const weak = state().weak[TODAY] || {};
-      const a = document.getElementById('studyWeakA');
-      const b = document.getElementById('studyWeakB');
-      if (a) a.value = weak.a || '';
-      if (b) b.value = weak.b || '';
-    }
+    if (box) box.value = state().answers[task.id] || '';
     const driveLabel = MODE === 'drive' ? '回到桌前' : '开车模式';
     actions.innerHTML = '<button type="button" class="btn study-next" id="studyNext">完成，下一个</button><button type="button" class="btn alt" id="studyDrive">' + driveLabel + '</button><button type="button" class="btn alt" id="studyExit">退出</button>';
     state().cursor = { date: TODAY, mode: MODE, index: index };
@@ -246,7 +236,7 @@
   function studyOpen(mode) {
     if (window.pteStop) window.pteStop();
     if (typeof dvPlay === 'function') dvPlay(false);
-    TODAY = StudyPlan.sydneyDate(new Date());
+    TODAY = StudyPlan.localDate(new Date());
     MODE = mode === 'drive' ? 'drive' : 'desk';
     const ov = document.getElementById('studyOverlay');
     if (ov) ov.hidden = false;
@@ -289,11 +279,6 @@
       save();
       const count = document.getElementById('studyCount');
       if (count) count.textContent = countLabel(words(e.target.value));
-    } else if (id === 'studyWeakA' || id === 'studyWeakB') {
-      const st = state();
-      if (!st.weak[TODAY] || typeof st.weak[TODAY] !== 'object') st.weak[TODAY] = {};
-      st.weak[TODAY][id === 'studyWeakA' ? 'a' : 'b'] = e.target.value;
-      save();
     }
   });
   window.studyOpen = studyOpen;
