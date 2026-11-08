@@ -187,6 +187,37 @@
     if (n > 300) return 'over';
     return 'short';
   }
+  const SST_TEMPLATE = 'The lecture mainly discusses … It points out that … In addition, … Finally, it concludes that …';
+  function sstParagraphs(text) {
+    return String(text || '').trim().split(/\n\s*\n/).map(s => s.trim()).filter(Boolean).length;
+  }
+  function sstFit(n) {
+    if (n >= 50 && n <= 70) return 'ok';
+    if (n > 70) return 'over';
+    return 'short';
+  }
+  function sstAudioItems(items) {
+    const list = items || [];
+    return list.filter(item => item.group === 'exam').concat(list.filter(item => item.group === 'text'));
+  }
+  function sstDays(items) {
+    const audio = sstAudioItems(items);
+    const days = [];
+    for (let i = 0; i < audio.length; i += 5) days.push(audio.slice(i, i + 5));
+    return days;
+  }
+  function ensureSst(st) {
+    if (!st.sst || typeof st.sst !== 'object' || Array.isArray(st.sst)) st.sst = {};
+    const s = st.sst;
+    if (!s.done || typeof s.done !== 'object' || Array.isArray(s.done)) s.done = {};
+    if (!s.answers || typeof s.answers !== 'object' || Array.isArray(s.answers)) s.answers = {};
+    if (!s.heard || typeof s.heard !== 'object' || Array.isArray(s.heard)) s.heard = {};
+    if (!s.newWords || typeof s.newWords !== 'object' || Array.isArray(s.newWords)) s.newWords = {};
+    if (!s.submitted || typeof s.submitted !== 'object' || Array.isArray(s.submitted)) s.submitted = {};
+    if (s.view !== 'item' && s.view !== 'bank') s.view = 'plan';
+    if (typeof s.openId !== 'string') s.openId = '';
+    return s;
+  }
   function ensureWe(st) {
     if (!st.we || typeof st.we !== 'object' || Array.isArray(st.we)) st.we = {};
     const we = st.we;
@@ -241,8 +272,9 @@
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
-    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we') st.mode = 'wfd';
+    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst') st.mode = 'wfd';
     ensureWe(st);
+    ensureSst(st);
     if (st.readType !== 'double' && st.readType !== 'single' && st.readType !== 'parallel' && st.readType !== 'none') st.readType = '全部';
     Object.keys(st.readPass).forEach(k => {
       const n = Number(st.readPass[k]);
@@ -278,6 +310,12 @@
     wordCount: wordCount,
     essayFit: essayFit,
     ensureWe: ensureWe,
-    weCopyPrompt: weCopyPrompt
+    weCopyPrompt: weCopyPrompt,
+    SST_TEMPLATE: SST_TEMPLATE,
+    sstParagraphs: sstParagraphs,
+    sstFit: sstFit,
+    sstAudioItems: sstAudioItems,
+    sstDays: sstDays,
+    ensureSst: ensureSst
   };
 })(this);

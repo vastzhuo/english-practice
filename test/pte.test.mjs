@@ -202,29 +202,27 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v11 cache bump keeps the PTE files and the existing tabs', () => {
+test('v12 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v11</);
+  assert.match(index, />v12</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
   assert.match(index, /data-t="shadow"/);
   assert.match(index, /data-t="drive"/);
   assert.match(index, /data-t="progress"/);
-  for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-app.js', 'pte-we-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=11'));
+  for (const file of ['style.css', 'words.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'app.js', 'drive.js']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=12'));
   }
-  assert.equal(index.includes('?v=10'), false);
-  assert.match(sw, /ep-v11/);
-  assert.equal(sw.includes('ep-v10'), false);
-  assert.match(sw, /pte-app\.js\?v=11/);
+  assert.equal(index.includes('?v=11'), false);
+  assert.match(sw, /ep-v12/);
+  assert.equal(sw.includes('ep-v11'), false);
+  assert.match(sw, /pte-sst\.js\?v=12/);
   assert.match(app, /t==='pte'/);
   assert.match(drive, /pteStop/);
-  assert.match(sw, /pte-read\.js\?v=11/);
-  assert.match(sw, /pte-rs\.js\?v=11/);
 });
 
 test('dictation diff marks missing and extra words without changing the answer sentence', () => {
@@ -325,6 +323,39 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
   assert.match(copied, /transit/);
   assert.match(copied, /public transport/);
   assert.match(copied, /请帮我记住这道 PTE Write Essay 的关键句和答题策略/);
+});
+
+test('SST plan puts the 30 audio items first and keeps five keywords', () => {
+  const context = {};
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-sst.js'), 'utf8'), context);
+  const items = context.PTE_SST.items;
+  assert.equal(items.filter(item => item.group === 'exam').length, 18);
+  assert.equal(items.filter(item => item.group === 'text').length, 12);
+  assert.equal(items.filter(item => item.group === 'recall').length, 18);
+  const days = PTELogic.sstDays(items);
+  assert.equal(days.length, 6);
+  assert.ok(days.every(day => day.length === 5));
+  assert.ok(days[0].every(item => item.group === 'exam'));
+  assert.ok(days[5].every(item => item.group === 'text'));
+  assert.equal(days.flat().some(item => item.group === 'recall'), false);
+  for (const item of items) {
+    assert.equal(item.keywords.length, 5);
+    item.keywords.slice(0, 4).forEach(word => assert.match(item.transcript, new RegExp(word.w)));
+  }
+  assert.equal(PTELogic.SST_TEMPLATE, 'The lecture mainly discusses … It points out that … In addition, … Finally, it concludes that …');
+  assert.equal(PTELogic.sstFit(50), 'ok');
+  assert.equal(PTELogic.sstFit(70), 'ok');
+  assert.equal(PTELogic.sstFit(49), 'short');
+  assert.equal(PTELogic.sstFit(71), 'over');
+  assert.equal(PTELogic.sstParagraphs('One paragraph only.'), 1);
+  assert.equal(PTELogic.sstParagraphs('First block.\n\nSecond block.'), 2);
+  const S = { learned: ['resilient'], pte: { we: { notes: { '077055': { stance: 'keep' } } } } };
+  const st = PTELogic.ensureState(S, []);
+  st.sst.done['exam-01'] = 1;
+  assert.equal(S.learned[0], 'resilient');
+  assert.equal(st.we.notes['077055'].stance, 'keep');
+  assert.equal(PTELogic.ensureState(S, []).sst.done['exam-01'], 1);
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {
