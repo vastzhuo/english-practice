@@ -76,3 +76,23 @@ details.pte-ref{margin:8px 0 14px}details.pte-ref summary,.card summary{cursor:p
 .sst-w{border:0;background:transparent;padding:0 1px;font:inherit;color:inherit}
 .sst-key{background:#fde68a;font-weight:800;border-radius:3px}
 .sst-new{outline:2px solid #4f46e5;border-radius:4px}
+.study-go{font-size:1.45rem;padding:22px;background:#1f7a3a}
+#studyOverlay{position:fixed;inset:0;z-index:90;background:#0b1020;color:#fff;display:flex;flex-direction:column;box-sizing:border-box;padding:calc(12px + env(safe-area-inset-top)) 14px calc(12px + env(safe-area-inset-bottom))}
+#studyOverlay[hidden]{display:none !important}
+#studyPlayer{display:none}
+#studyBody{flex:1;overflow:auto}
+#studyActions{flex:none;padding-top:8px}
+.study-date{margin:0;font-weight:700;color:#c7d2fe}
+.study-progress{margin:4px 0;font-size:1.35rem;font-weight:800}
+.study-kicker{margin:0;color:#ffe14a;font-weight:800;font-size:1.05rem}
+.study-big{font-weight:800;line-height:1.25;margin:8px 0}
+.study-zh{color:#9fd3ff;font-size:1.25rem;font-weight:700;margin:0 0 8px}
+.study-note{background:#5a1a1a;color:#ffd6d6;border-radius:12px;padding:10px;font-weight:700;margin:8px 0}
+.study-live{color:#ffe14a;font-weight:800}
+.study-skeleton{color:#c7d2fe;font-weight:700}
+.study-count{font-weight:800}
+.study-clock{font-size:2rem;font-weight:800;text-align:center;margin:8px 0}
+.study-box{display:block;width:100%;box-sizing:border-box;margin-top:8px;padding:12px;border-radius:12px;border:0;font-size:1.05rem;font-family:inherit;color:#111;background:#fff}
+textarea.study-box{min-height:140px}
+.study-next{font-size:1.45rem;padding:22px;background:#1f7a3a}
+#studyOverlay .btn.alt{background:#1e293b;color:#fff}
