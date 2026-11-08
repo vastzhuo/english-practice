@@ -201,8 +201,8 @@
     if (!we.api || typeof we.api !== 'object' || Array.isArray(we.api)) we.api = {};
     if ((!we.api.base || !String(we.api.base).trim()) && we.ollama && we.ollama.base) we.api.base = we.ollama.base;
     if ((!we.api.model || !String(we.api.model).trim()) && we.ollama && we.ollama.model) we.api.model = we.ollama.model;
-    if (typeof we.api.base !== 'string' || !we.api.base.trim()) we.api.base = 'https://api.openai.com/v1';
-    if (typeof we.api.model !== 'string' || !we.api.model.trim()) we.api.model = 'gpt-4o-mini';
+    if (typeof we.api.base !== 'string' || !we.api.base.trim()) we.api.base = 'https://api.deepseek.com';
+    if (typeof we.api.model !== 'string' || !we.api.model.trim()) we.api.model = 'deepseek-chat';
     if (typeof we.api.key !== 'string') we.api.key = '';
     if (typeof we.chatId !== 'string') we.chatId = '';
     return we;
@@ -212,7 +212,7 @@
   }
   function chatEndpoint(base) {
     let b = String(base || '').trim().replace(/\/$/, '');
-    if (!b) b = 'https://api.openai.com/v1';
+    if (!b) b = 'https://api.deepseek.com';
     if (/\/chat\/completions$/.test(b)) return b;
     if (apiIsLocal(b) && !/\/v1$/.test(b)) b += '/v1';
     if (!/\/v1$/.test(b)) b += '/v1';

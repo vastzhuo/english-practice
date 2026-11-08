@@ -98,7 +98,7 @@ function weEnglishBits(text) {
   });
 }
 function weApiHelp(kind) {
-  if (kind === 'need-key') return '还没有填写 API key。密钥只保存在这台手机的浏览器里，不会写进这个网站。\n1. OpenAI：打开 https://platform.openai.com/api-keys 新建密钥。地址填 https://api.openai.com/v1 ，模型例如 gpt-4o-mini。\n2. x.ai：打开 https://console.x.ai 申请密钥。地址填 https://api.x.ai/v1 ，模型名按账户里显示的填写。\n填好后点发送。手机请用上面的在线地址。';
+  if (kind === 'need-key') return '还没有填写 DeepSeek 密钥。它只保存在这台手机里，不会写进网站。\n1. 打开 https://platform.deepseek.com/api_keys ，登录后新建一把密钥并复制。\n2. 地址保持 https://api.deepseek.com ，模型保持 deepseek-chat。\n3. 把密钥粘贴到下面的 API key，然后点发送。';
   if (kind === 'denied') return '密钥被拒绝了。请到平台重新复制一把密钥，粘贴到「API key」。也可以点「复制题目」。';
   if (kind === 'local') return '连不上本机 Ollama。手机打不开 localhost，请改用在线地址。若在电脑上用，请安装 Ollama，运行 ollama pull qwen2.5:7b，并把 OLLAMA_ORIGINS 设为允许 https://vastzhuo.github.io 。也可以点「复制题目」。';
   return '连不上这个地址。请检查网络、地址是否带 /v1、密钥是否正确。也可以点「复制题目」。';
@@ -117,7 +117,7 @@ function weChatPanel(q) {
   const micLang = PTE_PLAY.weMicLang === 'en-US' ? 'en-US' : 'zh-CN';
   const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-we-act="mic">${PTE_PLAY.weRec ? '正在听…' : '🎤 说话'}</button><button type="button" class="btn alt" data-we-act="mic-lang">${micLang === 'en-US' ? '英文识别' : '中文识别'}</button>` : '<p class="pte-tip">这个浏览器不能语音输入，请打字。</p>';
   const api = bag.api;
-  return `<div class="card"><b>问老师</b><p class="pte-tip">可以用中文或英文随便问。老师会帮你记这道题的立场、论点和开头结尾，也会改句子、抽查你。</p><details ${api.key ? '' : 'open'}><summary>模型设置</summary><p class="pte-tip">${esc(weApiHelp('need-key'))}</p><button type="button" class="btn alt" data-we-act="preset" data-preset="openai">使用 OpenAI</button><button type="button" class="btn alt" data-we-act="preset" data-preset="xai">使用 x.ai</button><button type="button" class="btn alt" data-we-act="preset" data-preset="ollama">改用本机 Ollama</button><label class="pte-lab">地址</label><input class="sel" data-api="base" value="${esc(api.base)}" autocomplete="off"><label class="pte-lab">模型名</label><input class="sel" data-api="model" value="${esc(api.model)}" autocomplete="off"><label class="pte-lab">API key</label><input class="sel" type="password" data-api="key" value="${esc(api.key)}" autocomplete="off" spellcheck="false"></details><div class="pte-chat">${turns || '<p>还没有对话。例如：给我一句英文开头；改我的立场句；考我这道题。</p>'}</div>${err}<textarea id="weChatInput" class="pte-box pte-chat-input" placeholder="输入中文或英文，或点说话"></textarea>${mic}<button type="button" class="btn" data-we-act="send" data-id="${esc(q.id)}"${busy}>${PTE_PLAY.weBusy ? '正在想…' : '发送'}</button><button type="button" class="btn alt" data-we-act="chat-close">收起</button><button type="button" class="btn alt" data-we-act="chat-clear" data-id="${esc(q.id)}">清空这道题的对话</button></div>`;
+  return `<div class="card"><b>问老师</b><p class="pte-tip">可以用中文或英文随便问。老师会帮你记这道题的立场、论点和开头结尾，也会改句子、抽查你。</p><details ${api.key ? '' : 'open'}><summary>模型设置</summary><p class="pte-tip">${esc(weApiHelp('need-key'))}</p><button type="button" class="btn alt" data-we-act="preset" data-preset="deepseek">使用 DeepSeek</button><button type="button" class="btn alt" data-we-act="preset" data-preset="openai">使用 OpenAI</button><button type="button" class="btn alt" data-we-act="preset" data-preset="xai">使用 x.ai</button><button type="button" class="btn alt" data-we-act="preset" data-preset="ollama">改用本机 Ollama</button><label class="pte-lab">地址</label><input class="sel" data-api="base" value="${esc(api.base)}" autocomplete="off"><label class="pte-lab">模型名</label><input class="sel" data-api="model" value="${esc(api.model)}" autocomplete="off"><label class="pte-lab">API key</label><input class="sel" type="password" data-api="key" value="${esc(api.key)}" autocomplete="off" spellcheck="false"></details><div class="pte-chat">${turns || '<p>还没有对话。例如：给我一句英文开头；改我的立场句；考我这道题。</p>'}</div>${err}<textarea id="weChatInput" class="pte-box pte-chat-input" placeholder="输入中文或英文，或点说话"></textarea>${mic}<button type="button" class="btn" data-we-act="send" data-id="${esc(q.id)}"${busy}>${PTE_PLAY.weBusy ? '正在想…' : '发送'}</button><button type="button" class="btn alt" data-we-act="chat-close">收起</button><button type="button" class="btn alt" data-we-act="chat-clear" data-id="${esc(q.id)}">清空这道题的对话</button></div>`;
 }
 async function weCallTutor(id) {
   const q = weFind(id);
@@ -279,7 +279,7 @@ function onWeClick(e) {
   if (act === 'mic') { weListen(); return; }
   if (act === 'mic-lang') { PTE_PLAY.weMicLang = PTE_PLAY.weMicLang === 'en-US' ? 'zh-CN' : 'en-US'; pteRefresh(true); return; }
   if (act === 'preset') {
-    const presets = { openai: ['https://api.openai.com/v1', 'gpt-4o-mini'], xai: ['https://api.x.ai/v1', 'grok-3'], ollama: ['http://localhost:11434/v1', 'qwen2.5:7b'] };
+    const presets = { deepseek: ['https://api.deepseek.com', 'deepseek-chat'], openai: ['https://api.openai.com/v1', 'gpt-4o-mini'], xai: ['https://api.x.ai/v1', 'grok-3'], ollama: ['http://localhost:11434/v1', 'qwen2.5:7b'] };
     const pick = presets[b.dataset.preset];
     if (pick) { bag.api.base = pick[0]; bag.api.model = pick[1]; save(); pteRefresh(true); }
     return;
