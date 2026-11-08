@@ -198,7 +198,34 @@
     if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill') we.view = 'bank';
     if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
     if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
+    if (!we.ollama || typeof we.ollama !== 'object' || Array.isArray(we.ollama)) we.ollama = {};
+    if (typeof we.ollama.base !== 'string' || !we.ollama.base.trim()) we.ollama.base = 'http://localhost:11434';
+    if (typeof we.ollama.model !== 'string' || !we.ollama.model.trim()) we.ollama.model = 'qwen2.5:7b';
+    if (typeof we.chatId !== 'string') we.chatId = '';
     return we;
+  }
+  function weTutorPrompt(q, type, cards, note) {
+    const saved = note || {};
+    const frames = (cards || []).map((card, i) => 'Set ' + (i + 1) + ': ' + card.intro + ' / ' + card.conclusion).join('\n');
+    return [
+      'You are Joel\'s PTE Write Essay tutor. He speaks Mandarin and may write in Chinese or English.',
+      'Help him remember the key sentences and the strategy for this one prompt.',
+      'Suggest a stance, two arguments, one introduction sentence and one conclusion sentence.',
+      'If he writes an English sentence, correct it briefly and give one better sentence.',
+      'Quiz him sometimes: ask him to say the stance and two arguments from memory.',
+      'Keep each reply short enough for a phone. Put each English model sentence on its own line.',
+      'Type: ' + ((type && type.name) || '') + ' (' + ((type && type.id) || '') + ')',
+      'Type tip: ' + ((type && type.tip) || ''),
+      'Chinese prompt: ' + ((q && q.zh) || ''),
+      'English prompt: ' + ((q && q.en) || ''),
+      'Sentence frames:',
+      frames,
+      'Saved stance: ' + (saved.stance || '(none yet)'),
+      'Argument 1: ' + (saved.arg1 || '(none yet)'),
+      'Argument 2: ' + (saved.arg2 || '(none yet)'),
+      'Chunks: ' + [saved.c1, saved.c2, saved.c3].filter(Boolean).join(' | '),
+      'Opening sentence: ' + (saved.opening || '(none yet)')
+    ].join('\n');
   }
   function ensureState(S, cats) {
     if (!S.pte || typeof S.pte !== 'object' || Array.isArray(S.pte)) S.pte = {};
@@ -257,6 +284,7 @@
     quizChoices: quizChoices,
     wordCount: wordCount,
     essayFit: essayFit,
-    ensureWe: ensureWe
+    ensureWe: ensureWe,
+    weTutorPrompt: weTutorPrompt
   };
 })(this);

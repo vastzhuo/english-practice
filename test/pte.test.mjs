@@ -309,6 +309,22 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
   assert.equal(st.we.notes['077055'].stance, 'city');
   assert.equal(st.we.view, 'essay');
   assert.equal(st.mode, 'wfd');
+  assert.equal(st.we.ollama.base, 'http://localhost:11434');
+  assert.equal(st.we.ollama.model, 'qwen2.5:7b');
+  S.pte.we.ollama = { base: 'http://127.0.0.1:11434', model: 'my-model' };
+  S.pte.we.notes['077055'].chat = [{ role: 'user', content: '考我' }];
+  const again = PTELogic.ensureState(S, []);
+  assert.equal(again.we.ollama.model, 'my-model');
+  assert.equal(again.we.notes['077055'].chat[0].content, '考我');
+  const prompt = PTELogic.weTutorPrompt(
+    bank.questions[0],
+    bank.types.find(type => type.id === 'two'),
+    bank.cards.two,
+    { stance: 'I prefer the city while studying.' }
+  );
+  assert.match(prompt, /077055|Some people prefer to live in cities/);
+  assert.match(prompt, /I prefer the city while studying/);
+  assert.match(prompt, /This task raises two questions/);
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {
