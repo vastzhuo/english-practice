@@ -182,7 +182,7 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(st.wfdOrd, 'num');
   assert.equal(st.set, 'wfd');
   S.pte.set = 'both';
-  assert.equal(PTELogic.ensureState(S, PTELogic.categories(PTE)).set, 'wfd');
+  assert.equal(PTELogic.ensureState(S, PTELogic.categories(PTE)).set, 'both');
   S.pte.set = 'rs';
   assert.equal(PTELogic.ensureState(S, PTELogic.categories(PTE)).set, 'rs');
   const fresh = {};
@@ -245,12 +245,25 @@ test('driving plays one set and never mixes WFD with RS', () => {
   const rs = [{ id: 'r1', text: 'Say this aloud.' }];
   assert.deepEqual(PTELogic.drivePool('wfd', wfd, rs).map(item => item.id), ['w1']);
   assert.deepEqual(PTELogic.drivePool('rs', wfd, rs).map(item => item.id), ['r1']);
-  assert.deepEqual(PTELogic.drivePool('both', wfd, rs).map(item => item.id), ['w1']);
+  assert.deepEqual(PTELogic.drivePool('both', wfd, rs).map(item => item.id), ['w1', 'r1']);
+  assert.deepEqual(PTELogic.drivePool('both', wfd, rs).map(item => item.driveSet), ['wfd', 'rs']);
   const parsed = PTELogic.parseRsLines('1|4821|The library closes at noon.\n2｜4822｜Students must show an ID card.\n');
   assert.equal(parsed.length, 2);
   assert.equal(parsed[0].text, 'The library closes at noon.');
   assert.equal(parsed[1].id, 'rs-4822');
   assert.equal(PTELogic.asRs(parsed)[1].text, 'Students must show an ID card.');
+  assert.equal(PTELogic.parseRsLines('27|020767|Current statistical evidence indicates that further research is required')[0].text.endsWith('.'), false);
+  const rsContext = {};
+  vm.createContext(rsContext);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-rs.js'), 'utf8') + '\nglobalThis.PTE_RS = PTE_RS;\n', rsContext);
+  const rsItems = PTELogic.asRs(rsContext.PTE_RS);
+  assert.equal(rsItems.length, 50);
+  assert.equal(new Set(rsItems.map(item => item.id)).size, 50);
+  assert.equal(rsItems[0].sourceNumber, '020793');
+  assert.equal(rsItems[0].text, 'Unless properly maintained, the equipment could malfunction and compromise the entire experiment.');
+  assert.equal(rsItems.find(item => item.sourceNumber === '020767').text, 'Current statistical evidence indicates that further research is required');
+  assert.equal(rsItems.find(item => item.sourceNumber === '020743').text, 'Mobile phone charges very differently from one place to another');
+  assert.equal(rsItems.find(item => item.sourceNumber === '020751'), undefined);
 });
 
 test('reading vocab is topic-predicted only when the article has no source text', () => {

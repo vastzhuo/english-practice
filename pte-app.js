@@ -5,7 +5,11 @@ function pteState() { return PTELogic.ensureState(S, PTELogic.categories(PTE)); 
 function pteRead() { return (typeof PTE_READ !== 'undefined' && PTE_READ) ? PTE_READ : { types: [], articles: [] }; }
 function pteRsList() { return PTELogic.asRs((typeof PTE_RS !== 'undefined' && Array.isArray(PTE_RS)) ? PTE_RS : []); }
 function pteWfdPool() { return PTELogic.pool(PTE, pteState().wfdCat); }
-function pteDriveItems() { return PTELogic.drivePool(pteState().set, pteWfdPool(), pteRsList()); }
+function pteDriveItems() {
+  const st = pteState();
+  const wfd = st.set === 'both' ? PTE.slice() : pteWfdPool();
+  return PTELogic.drivePool(st.set, wfd, pteRsList());
+}
 function pteMemCount(list, bag) { return list.filter(item => bag && bag[item.id]).length; }
 function pteById(id) { return PTE.find(item => item.id === id) || pteRsList().find(item => item.id === id); }
 
@@ -170,7 +174,7 @@ function ptePaint() {
   const big = $('pteOvBig');
   big.textContent = item.text;
   big.style.fontSize = PTELogic.fontPx(item.text) + 'px';
-  const kind = pteState().set === 'rs' ? 'RS 复述' : 'WFD 听写';
+  const kind = item.driveSet === 'rs' ? '周二 50 句' : '152 高频句';
   const cat = item.category ? ' · ' + item.category : '';
   $('pteOvMeta').textContent = kind + ' · 题号 ' + item.sourceNumber + cat + ' · ' + PTE_PLAY.place + '/' + PTE_PLAY.total;
   const reps = Math.max(PTE_PLAY.rep || 1, PTELogic.clampRep(pteState().rep));
@@ -434,12 +438,12 @@ function viewWfd(st) {
 function viewRs(st) {
   const list = pteRsList();
   const mini = `<div class="pte-mini"><button type="button" data-pte-act="rs-view" data-view="practice" class="${st.rsView !== 'list' ? 'on' : ''}">跟读</button><button type="button" data-pte-act="rs-view" data-view="list" class="${st.rsView === 'list' ? 'on' : ''}">列表</button></div>`;
-  const head = `${pteModes(st)}<div class="card"><b>RS 复述</b><p>Repeat Sentence，${list.length} 句。先听，再大声复述，句子用大字显示。建议每天练这一套。</p><p>已练习 ${pteMemCount(list, st.rsMem)}/${list.length}</p>${mini}</div>`;
+  const head = `${pteModes(st)}<div class="card"><b>周二真题预测 50 句</b><p>Repeat Sentence，${list.length} 句。句子按原表照录。每天练这一套：先听，再大声复述，大字一直显示。</p><p>已练习 ${pteMemCount(list, st.rsMem)}/${list.length}</p>${mini}</div>`;
   if (!list.length) return head + '<div class="card"><p>这套复述句子还没有载入。</p></div>';
   if (st.rsView === 'list') {
     return head + PTELogic.byNumber(list).map(item => {
       const on = !!st.rsMem[item.id];
-      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}">🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '标记已练习'}</button></article>`;
+      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}">🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button></article>`;
     }).join('');
   }
   const order = slotOrder('rs', list, 'rand');
@@ -447,7 +451,7 @@ function viewRs(st) {
   if (!item) return head;
   const on = !!st.rsMem[item.id];
   const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-pte-act="mic" data-id="${esc(item.id)}">🎤 跟读评分</button>` : '';
-  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.rsIdx + 1}/${order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}">播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '标记已练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
+  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.rsIdx + 1}/${order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}">播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
 }
 function articleCard(article) {
   const type = typeById(article.type);
@@ -509,8 +513,8 @@ function viewDrive(st) {
   const rs = pteRsList();
   const items = pteDriveItems();
   const min = PTELogic.PTE_REP_MIN, max = PTELogic.PTE_REP_MAX;
-  const cat = st.set === 'rs' ? '' : `<label class="pte-lab">WFD 分类</label><select id="pteCat" class="sel">${pteCatOptions(st.wfdCat)}</select>`;
-  return `${pteModes(st)}<p class="pte-warn">开始后不用操作。正在读的英文会全屏大字显示。</p><label class="pte-lab">播放哪一套</label><select id="pteSet" class="sel"><option value="wfd" ${st.set !== 'rs' ? 'selected' : ''}>WFD 听写（${PTE.length}）</option><option value="rs" ${st.set === 'rs' ? 'selected' : ''}>RS 复述（${rs.length}）</option></select>${cat}<p class="pte-tip">两套分开播，不会混在一起。</p><div class="pte-reps"><span>每句遍数</span><button type="button" id="pteRepDown" data-pte-act="rep" data-dir="-1" ${st.rep <= min ? 'disabled' : ''} aria-label="减少遍数">−</button><b id="pteRepVal">${st.rep}</b><button type="button" id="pteRepUp" data-pte-act="rep" data-dir="1" ${st.rep >= max ? 'disabled' : ''} aria-label="增加遍数">+</button></div><button type="button" class="btn pte-start" data-pte-act="start" ${items.length ? '' : 'disabled'}>开始播放</button><p class="pte-tip">每句至少 ${min} 遍，可以加到 ${max} 遍。每遍之间停约 3 秒。随机顺序，这一轮完了会重新打乱。请保持屏幕亮着。锁屏或切到后台时，语音可能会停。</p>`;
+  const cat = st.set === 'wfd' ? `<label class="pte-lab">WFD 分类</label><select id="pteCat" class="sel">${pteCatOptions(st.wfdCat)}</select>` : '';
+  return `${pteModes(st)}<p class="pte-warn">开始后不用操作。正在读的英文会全屏大字显示。</p><label class="pte-lab">播放哪一套</label><select id="pteSet" class="sel"><option value="wfd" ${st.set === 'wfd' ? 'selected' : ''}>152 高频句（${PTE.length}）</option><option value="rs" ${st.set === 'rs' ? 'selected' : ''}>周二 50 句（${rs.length}）</option><option value="both" ${st.set === 'both' ? 'selected' : ''}>两套都播（${PTE.length + rs.length}）</option></select>${cat}<p class="pte-tip">默认只播一套。选「两套都播」才会放进同一轮，并且每轮重新打乱。</p><div class="pte-reps"><span>每句遍数</span><button type="button" id="pteRepDown" data-pte-act="rep" data-dir="-1" ${st.rep <= min ? 'disabled' : ''} aria-label="减少遍数">−</button><b id="pteRepVal">${st.rep}</b><button type="button" id="pteRepUp" data-pte-act="rep" data-dir="1" ${st.rep >= max ? 'disabled' : ''} aria-label="增加遍数">+</button></div><button type="button" class="btn pte-start" data-pte-act="start" ${items.length ? '' : 'disabled'}>开始播放</button><p class="pte-tip">每句至少 ${min} 遍，可以加到 ${max} 遍。每遍之间停约 3 秒。随机顺序，这一轮完了会重新打乱。请保持屏幕亮着。锁屏或切到后台时，语音可能会停。</p>`;
 }
 function pteView() {
   const st = pteState();
@@ -648,7 +652,7 @@ function onPteChange(e) {
   const st = pteState();
   if (e.target.id === 'pteCat') { st.wfdCat = e.target.value; PTE_PLAY.wfdKey = ''; save(); pteRefresh(false); }
   else if (e.target.id === 'pteOrd') { st.wfdOrd = e.target.value === 'num' ? 'num' : 'rand'; PTE_PLAY.wfdKey = ''; save(); pteRefresh(false); }
-  else if (e.target.id === 'pteSet') { st.set = e.target.value === 'rs' ? 'rs' : 'wfd'; save(); pteRefresh(false); }
+  else if (e.target.id === 'pteSet') { st.set = e.target.value === 'rs' || e.target.value === 'both' ? e.target.value : 'wfd'; save(); pteRefresh(false); }
   else if (e.target.id === 'pteReadType') { st.readType = e.target.value; save(); pteRefresh(false); }
   else if (e.target.dataset && e.target.dataset.err) {
     const id = e.target.dataset.err;

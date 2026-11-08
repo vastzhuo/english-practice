@@ -131,9 +131,13 @@
     return { tokens: out, score: n ? Math.round(100 * ok / n) : 0 };
   }
 
+  function tagSet(list, kind) {
+    return (list || []).map(item => Object.assign({}, item, { driveSet: kind }));
+  }
   function drivePool(set, wfd, rs) {
-    if (set === 'rs') return (rs || []).slice();
-    return (wfd || []).slice();
+    if (set === 'both') return tagSet(wfd, 'wfd').concat(tagSet(rs, 'rs'));
+    if (set === 'rs') return tagSet(rs, 'rs');
+    return tagSet(wfd, 'wfd');
   }
 
   function vocabSource(article) {
@@ -148,7 +152,7 @@
       const q = parts[1].trim();
       const sentence = parts.slice(2).join('|').trim();
       if (!sentence) return null;
-      return { id: 'rs-' + q, seq: Number(seq) || seq, sourceNumber: Number(q) || q, text: sentence };
+      return { id: 'rs-' + q, seq: Number(seq) || seq, sourceNumber: q, text: sentence };
     }).filter(Boolean);
   }
 
@@ -190,7 +194,7 @@
     if (typeof st.wfdCat !== 'string') st.wfdCat = typeof st.cat === 'string' ? st.cat : '全部';
     if (st.wfdCat !== '全部' && known.indexOf(st.wfdCat) === -1) st.wfdCat = '全部';
     if (st.wfdOrd !== 'num' && st.wfdOrd !== 'rand') st.wfdOrd = st.ord === 'num' ? 'num' : 'rand';
-    if (st.set !== 'rs') st.set = 'wfd';
+    if (st.set !== 'rs' && st.set !== 'both') st.set = 'wfd';
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
