@@ -515,7 +515,8 @@
     ]},
     { line: '把注意力聚到一个点上。', items: [
       { w: 'focus', zh: '焦点；集中', scene: '镜头对上一个点，其余变模糊。也可以是名词“焦点”。', tone: '中性', col: 'focus on, the focus of', en: 'Focus on the main idea.', cn: '把注意力放在主要意思上。' },
-      { w: 'concentrate', zh: '集中；专心', scene: '心里的杂音关掉，只盯着这一件事做。', tone: '中性', col: 'concentrate on, concentrate hard', en: 'I cannot concentrate in a noisy room.', cn: '房间太吵，我无法专心。' }
+      { w: 'concentrate', zh: '集中；专心', scene: '心里的杂音关掉，只盯着这一件事做。', tone: '中性', col: 'concentrate on, concentrate hard', en: 'I cannot concentrate in a noisy room.', cn: '房间太吵，我无法专心。' },
+      { w: 'attention', zh: '注意力', scene: '眼睛和心思停在一件事上，没有飘走。', tone: '中性', col: 'pay attention, attention to', en: 'Please pay attention to the last line.', cn: '请注意最后一行。' }
     ]},
     { line: '设法让某事一定发生，和正式担保。', items: [
       { w: 'ensure', zh: '确保', scene: '你把步骤排好，使结果不会漏掉，像确保门已锁上。', tone: '偏正式', col: 'ensure that, ensure safety', en: 'Please ensure that the door is locked.', cn: '请确保门已锁上。' },
@@ -650,7 +651,8 @@
     ]},
     { line: '两者之间连上了。', items: [
       { w: 'link', zh: '联系；链接', scene: '一条链或一个网页链接，把两头接上。', tone: '中性', col: 'a link between, link to', en: 'There is a link between diet and health.', cn: '饮食和健康之间有联系。' },
-      { w: 'connection', zh: '连接；关系', scene: '两个人或两件事之间有一条看不见的线。', tone: '中性', col: 'a connection between, in connection with', en: 'I see no connection between the two events.', cn: '我看不出这两件事有什么关系。' }
+      { w: 'connection', zh: '连接；关系', scene: '两个人或两件事之间有一条看不见的线。', tone: '中性', col: 'a connection between, in connection with', en: 'I see no connection between the two events.', cn: '我看不出这两件事有什么关系。' },
+      { w: 'associate', zh: '关联', scene: '你把两件一起出现的事在脑子里拴上，看到一个就想到另一个。', tone: '偏正式', col: 'associate with, associate A with B', en: 'People associate the town with its market.', cn: '人们把这个镇子和它的市场联系在一起。' }
     ]},
     { line: '整体中占的那一块比例。', items: [
       { w: 'proportion', zh: '比例', scene: '一块和整体比起来有多大，像饼图里的一角。', tone: '偏正式', col: 'a proportion of, in proportion to', en: 'A high proportion of students work part-time.', cn: '很大比例的学生在做兼职。' },
@@ -1006,7 +1008,8 @@
     ]},
     { line: '地图上的一片地方。district 常指城市里划出的区。', items: [
       { w: 'region', zh: '地区', scene: '地图上较大的一片，有自己的气候或经济。', tone: '中性', col: 'in the region, a coastal region', en: 'The region depends on farming.', cn: '这个地区依靠农业。' },
-      { w: 'district', zh: '区', scene: '城市或国家里划出来的一块行政或商业区域。', tone: '中性', col: 'a business district, the district of', en: 'The school is in the old district.', cn: '学校在老城区。' }
+      { w: 'district', zh: '区', scene: '城市或国家里划出来的一块行政或商业区域。', tone: '中性', col: 'a business district, the district of', en: 'The school is in the old district.', cn: '学校在老城区。' },
+      { w: 'areas', zh: '区域；领域', scene: '地图上的一片片地方，或一个个话题所在的领域。', tone: '中性', col: 'in these areas, areas of', en: 'These areas are known for fishing.', cn: '这些地方以渔业闻名。' }
     ]},
     { line: '属于你自己的，和单独的一个人。', items: [
       { w: 'personal', zh: '个人的', scene: '只和你自己有关，不是公事，像个人信件。', tone: '中性', col: 'personal information, a personal opinion', en: 'Please do not share personal information.', cn: '请不要分享个人信息。' },
@@ -1263,6 +1266,88 @@
       { w: 'policy', zh: '政策', scene: '机构说“我们在这件事上按这个方向做”，是总的规定。', tone: '正式', col: 'a policy on, public policy', en: 'The school has a policy on phones.', cn: '学校有一项关于手机的政策。' },
       { w: 'regulation', zh: '规则', scene: '写成条款的具体规定，违反了可以被指出。', tone: '正式', col: 'safety regulations, under regulations', en: 'The building meets fire regulations.', cn: '这栋楼符合消防规定。' }
     ]},
+{ line: '收下别人给的东西。accept 是你同意收下，receive 是东西到了你这里。', items: [
+      { w: 'accept', zh: '接受', scene: '别人把一份邀请或一个结果递过来，你点头收下。', tone: '中性', col: 'accept an offer, accept that', en: 'She accepted the job offer.', cn: '她接受了这份工作邀请。' },
+      { w: 'receive', zh: '收到', scene: '包裹或消息到达你手里，你还不一定决定要不要答应。', tone: '中性', col: 'receive a letter, receive from', en: 'I received the letter on Monday.', cn: '我星期一收到了这封信。' }
+    ]},
+    { line: '不在自己的国家。', items: [
+      { w: 'abroad', zh: '在国外', scene: '人离开自己的国家，到另一国去住或去看。', tone: '中性', col: 'go abroad, study abroad', en: 'He wants to study abroad.', cn: '他想去国外学习。' },
+      { w: 'overseas', zh: '海外的', scene: '隔着海的另一个国家，常用来形容海外的工作或亲戚。', tone: '中性', col: 'overseas students, travel overseas', en: 'She has relatives overseas.', cn: '她有亲戚在海外。' }
+    ]},
+    { line: '差一点就到，但还没完全到。', items: [
+      { w: 'almost', zh: '差不多', scene: '杯子快满了，还差一点点。', tone: '中性', col: 'almost all, almost finished', en: 'The train is almost full.', cn: '这趟火车差不多坐满了。' },
+      { w: 'nearly', zh: '差不多', scene: '和 almost 非常接近，都是“几乎”。nearly 常放在数字前面。', tone: '中性', col: 'nearly all, nearly 20', en: 'Nearly 20 people came.', cn: '差不多来了 20 个人。' }
+    ]},
+    { line: '数字不求精确，只说个大概。about 还有“关于”的意思。', items: [
+      { w: 'approximately', zh: '大约', scene: '书面里说一个不精确的数，像大约 200 人。', tone: '偏正式', col: 'approximately 10, approximately equal', en: 'The hall holds approximately 200 people.', cn: '这个大厅大约能坐 200 人。' },
+      { w: 'about', zh: '大约', scene: '口头上说大概的数量。这个词也可以表示“关于”。', tone: '中性，偏口语', col: 'about 10, at about', en: 'The meeting starts at about six.', cn: '会议大约六点开始。' }
+    ]},
+    { line: '到了某个地方或某个程度。', items: [
+      { w: 'arrive', zh: '到达', scene: '人走到目的地，脚停下来。', tone: '中性', col: 'arrive at, arrive in', en: 'We arrived at the station early.', cn: '我们早早到了车站。' },
+      { w: 'reach', zh: '达到', scene: '手伸到那个点，或一个数字终于到了那条线。', tone: '中性', col: 'reach a place, reach a level', en: 'The temperature reached 30 degrees.', cn: '气温达到了 30 度。' }
+    ]},
+    { line: '坏到让人难受，或可怕到让人吃惊。', items: [
+      { w: 'awful', zh: '极坏的；可怕的', scene: '饭很难吃，或一个消息差得让人皱眉。', tone: '偏口语', col: 'an awful day, awful weather', en: 'The weather was awful.', cn: '天气糟极了。' },
+      { w: 'appalling', zh: '可怕的', scene: '情况差到让人倒吸一口气，比 awful 更震惊。', tone: '语气强', col: 'appalling conditions, an appalling result', en: 'The conditions in the room were appalling.', cn: '房间里的状况可怕。' },
+      { w: 'terrible', zh: '可怕的', scene: '事情糟得或吓得让人不想再碰上。', tone: '中性，语气强', col: 'a terrible storm, terrible news', en: 'There was a terrible storm.', cn: '来了一场可怕的暴风雨。' }
+    ]},
+    { line: '意见冲到一起。argument 可以变成争吵，debate 是有规矩的辩论，dispute 是争执。', items: [
+      { w: 'argument', zh: '论证；争吵', scene: '两边各说各的理由。声音高了，就变成争吵。', tone: '中性', col: 'an argument about, an argument that', en: 'They had an argument about the bill.', cn: '他们为账单争吵起来。' },
+      { w: 'debate', zh: '辩论', scene: '两边按次序发言，把一个公共问题说清楚。', tone: '偏正式', col: 'a debate on, debate whether', en: 'The class held a debate on transport.', cn: '全班就交通问题进行了辩论。' },
+      { w: 'dispute', zh: '争执', scene: '双方都不让，事情停在“到底该听谁的”。', tone: '偏正式', col: 'a dispute over, in dispute', en: 'There is a dispute over the boundary.', cn: '边界有争议。' }
+    ]},
+    { line: '老师布置、要交回去的功课。', items: [
+      { w: 'assignment', zh: '作业；分配', scene: '老师交给你的一份任务，写完要交。它也可以表示把工作分给某人。', tone: '中性偏正式', col: 'a written assignment, assignment of', en: 'The assignment is due on Friday.', cn: '这份作业星期五交。' },
+      { w: 'homework', zh: '作业', scene: '带回家做的功课，是最普通的说法。', tone: '中性', col: 'do homework, homework on', en: 'I do my homework after dinner.', cn: '我晚饭后做作业。' }
+    ]},
+    { line: '心里知道这件事存在。', items: [
+      { w: 'aware', zh: '意识到的', scene: '你知道有这件事，它进了你的注意范围。', tone: '中性', col: 'aware of, aware that', en: 'She was aware of the risk.', cn: '她意识到了这个风险。' },
+      { w: 'conscious', zh: '意识到的', scene: '人和清醒、能感觉到周围有关。说“意识到”时和 aware 接近。', tone: '偏正式', col: 'conscious of, conscious that', en: 'He was conscious of the silence.', cn: '他察觉到了那阵安静。' }
+    ]},
+    { line: '让自己或别人习惯新的情况。adapt 还可以表示改编。', items: [
+      { w: 'adapt', zh: '适应；改编', scene: '换了一个环境，你调整自己的做法。它也可以表示把一本书改成别的形式。', tone: '中性', col: 'adapt to, adapt for', en: 'The family adapted to the new city.', cn: '这家人适应了新城市。' },
+      { w: 'accustom', zh: '使适应', scene: '一遍一遍之后，陌生的事变成习惯。', tone: '偏正式', col: 'accustom yourself to, accustomed to', en: 'She accustomed herself to the early train.', cn: '她让自己习惯了那班早车。' }
+    ]},
+    { line: '把一串数收成中间的那个代表。mean 还有别的意思，这里只比“平均”。', items: [
+      { w: 'average', zh: '平均', scene: '把总分摊开，每个所占的那一份。', tone: '中性', col: 'on average, the average of', en: 'The average age is 21.', cn: '平均年龄是 21 岁。' },
+      { w: 'mean', zh: '平均的', scene: '统计里的平均数。这个词也可以表示吝啬或意味着。', tone: '偏技术，说平均数时', col: 'the mean of, mean temperature', en: 'The mean temperature was 18 degrees.', cn: '平均气温是 18 度。' }
+    ]},
+    { line: '在那之后的时间。later 也可以表示“更迟”。', items: [
+      { w: 'afterwards', zh: '后来', scene: '一件事结束，时间接着往下走，后来发生了别的。', tone: '中性', col: 'soon afterwards, afterwards', en: 'We ate, and afterwards we walked.', cn: '我们吃了饭，后来去散步。' },
+      { w: 'later', zh: '后来；更迟', scene: '不是现在，是再过一会儿或在那之后。', tone: '中性', col: 'later on, two days later', en: 'I will call you later.', cn: '我过一会儿给你打电话。' }
+    ]},
+    { line: '承认另一面也成立。', items: [
+      { w: 'although', zh: '尽管', scene: '先说出一个事实，再用虽然把相反的那面接上。', tone: '中性', col: 'although it, although the', en: 'Although it rained, we went out.', cn: '尽管下雨，我们还是出门了。' },
+      { w: 'though', zh: '尽管', scene: '和 although 一样用来转折，也可以放在句尾，语气稍轻。', tone: '中性，稍口语', col: 'even though, though', en: 'We went out, though it rained.', cn: '我们出门了，尽管下雨。' }
+    ]},
+    { line: '告诉别人怎么做更好。', items: [
+      { w: 'advice', zh: '建议；忠告', scene: '有经验的人把一句该怎么做的话交给你。', tone: '中性', col: 'a piece of advice, advice on', en: 'She asked for advice on the course.', cn: '她就这门课征求建议。' },
+      { w: 'counsel', zh: '忠告；法律顾问', scene: '正式的劝告。它也可以指律师。', tone: '正式', col: 'counsel somebody to, legal counsel', en: 'The teacher counselled him to wait.', cn: '老师劝他等一等。' }
+    ]},
+    { line: '向人或地方动手。', items: [
+      { w: 'attack', zh: '攻击', scene: '一方冲向另一方。它也可以表示疾病发作。', tone: '中性', col: 'an attack on, attack somebody', en: 'The article attacked the plan.', cn: '这篇文章抨击了该计划。' },
+      { w: 'assault', zh: '袭击；殴打', scene: '攻击落到人身上，常带暴力，法律文本里常见。', tone: '正式，负面', col: 'assault on, physical assault', en: 'He was charged with assault.', cn: '他被指控袭击。' }
+    ]},
+    { line: '写东西的人。', items: [
+      { w: 'author', zh: '作者', scene: '一本书或一篇文章上署名的那个人。', tone: '中性', col: 'the author of, an author', en: 'The author signed the book.', cn: '作者在书上签了名。' },
+      { w: 'writer', zh: '作家', scene: '以写作为工作或身份的人，不限于某一本书。', tone: '中性', col: 'a writer of, the writer', en: 'She is a writer of short stories.', cn: '她是写短篇故事的作家。' }
+    ]},
+    { line: '出了没料到的事。accident 多半是意外伤害，incident 是被记下来的一件事。', items: [
+      { w: 'accident', zh: '事故；意外', scene: '没人想让它发生，却发生了，常常有人受伤或东西坏了。', tone: '中性', col: 'by accident, a road accident', en: 'He broke the cup by accident.', cn: '他不小心打碎了杯子。' },
+      { w: 'incident', zh: '事件', scene: '被记录下来的一件不寻常的事，不一定有人受伤。', tone: '偏正式', col: 'an incident at, a serious incident', en: 'The school reported the incident.', cn: '学校报告了这件事。' }
+    ]},
+    { line: '看起来是这样。appear 还可以表示“出现”。', items: [
+      { w: 'appear', zh: '显得；出现', scene: '从外面看像是这样。它也可以表示人走进大家的视线。', tone: '中性', col: 'appear to, appear on', en: 'She appeared to be tired.', cn: '她看上去累了。' },
+      { w: 'seem', zh: '似乎', scene: '你的印象是这样，但还没有被证实。', tone: '中性', col: 'seem to, it seems that', en: 'It seems that the bus is late.', cn: '公共汽车似乎晚点了。' }
+    ]},
+    { line: '去做，但不保证做成。', items: [
+      { w: 'attempt', zh: '试图', scene: '你开始做一件可能失败的事，书面里更常见。', tone: '偏正式', col: 'an attempt to, attempt to', en: 'They attempted to open the window.', cn: '他们试图打开窗户。' },
+      { w: 'try', zh: '尝试', scene: '最普通的说法：试一试。', tone: '中性', col: 'try to, try doing', en: 'Try to finish before six.', cn: '尽量在六点前完成。' }
+    ]},
+    { line: '提醒危险或问题。', items: [
+      { w: 'alarm', zh: '警告；警报', scene: '铃响了，或一句话让人警觉出事了。', tone: '中性', col: 'raise the alarm, an alarm', en: 'The alarm rang at midnight.', cn: '警报在午夜响了。' },
+      { w: 'warning', zh: '警告', scene: '事先告诉你：再这样就会有不好的结果。', tone: '中性', col: 'a warning about, without warning', en: 'The sign is a warning about ice.', cn: '这块牌子是在警告有冰。' }
+    ]},
   ];
 
   const SOLOS = [
@@ -1502,7 +1587,145 @@
     { w: 'in the future = in the years to come', zh: '将来', scene: '都是还没到的时间。in the years to come 把“将来”说成今后的那些年。', tone: '同义替换', col: 'in the future, in the years to come', en: 'The town will grow in the years to come.', cn: '今后几年这个镇子还会增长。' },
     { w: 'everywhere = ubiquitous', zh: '到处 = 无处不在', scene: '都是哪儿都能见到。ubiquitous 是很书面的一个形容词。', tone: '同义替换', col: 'everywhere, ubiquitous', en: 'Phones are ubiquitous in the city.', cn: '手机在这座城市里无处不在。' },
     { w: 'necessary = essential', zh: '必要 = 必不可少', scene: '都是不能少。essential 语气更强，靠近“缺了就运转不了”。', tone: '同义替换', col: 'necessary for, essential for', en: 'Water is essential for life.', cn: '水对生命是必不可少的。' },
-    { w: 'hard = challenging', zh: '难 = 有挑战', scene: '都是不容易。challenging 比 hard 更中性，常用来肯定一件难但值得做的事。', tone: '同义替换', col: 'a hard task, a challenging task', en: 'The course is challenging but useful.', cn: '这门课有挑战，但有用。' }
+    { w: 'hard = challenging', zh: '难 = 有挑战', scene: '都是不容易。challenging 比 hard 更中性，常用来肯定一件难但值得做的事。', tone: '同义替换', col: 'a hard task, a challenging task', en: 'The course is challenging but useful.', cn: '这门课有挑战，但有用。' },
+{ w: 'academic', zh: '学术的', scene: '和学校、研究、论文有关，不是日常闲聊。', tone: '中性', col: 'academic writing, an academic journal', en: 'The article uses academic language.', cn: '这篇文章用的是学术语言。' },
+    { w: 'abandon', zh: '遗弃', scene: '人把东西或计划放下，转身走了，不再回来管。', tone: '负面', col: 'abandon a plan, abandon somebody', en: 'They abandoned the old house.', cn: '他们抛弃了那座旧房子。' },
+    { w: 'abide', zh: '遵守', scene: '你按一条规矩待着，不跨出去。', tone: '偏正式', col: 'abide by, abide by the rules', en: 'Players must abide by the rules.', cn: '选手必须遵守规则。' },
+    { w: 'abilities', zh: '能力', scene: '一个人能做成的那些事，是 ability 的复数。', tone: '中性', col: 'abilities in, natural abilities', en: 'The test measures language abilities.', cn: '这个测试衡量语言能力。' },
+    { w: 'aboriginal', zh: '土著的', scene: '指一个地方最早长期居住的人群，或他们的文化。', tone: '中性', col: 'Aboriginal people, Aboriginal culture', en: 'The museum shows Aboriginal art.', cn: '博物馆展出土著艺术。' },
+    { w: 'above', zh: '在上面；高于', scene: '位置在另一件东西的头顶，或数字比另一条线更高。', tone: '中性', col: 'above the, above average', en: 'The lamp hangs above the table.', cn: '灯挂在桌子上方。' },
+    { w: 'abruptly', zh: '唐突地', scene: '话或动作突然停住，没有慢慢收尾。', tone: '中性', col: 'stop abruptly, end abruptly', en: 'The music stopped abruptly.', cn: '音乐突然停了。' },
+    { w: 'absent', zh: '缺席的', scene: '点名时这个座位是空的，人没到。', tone: '中性', col: 'absent from, absent today', en: 'Two students were absent.', cn: '两名学生缺席。' },
+    { w: 'absolutely', zh: '绝对地', scene: '没有留下“也许”，回答是完全的肯定或完全的程度。', tone: '语气强', col: 'absolutely sure, absolutely not', en: 'I am absolutely sure of the time.', cn: '我对时间绝对有把握。' },
+    { w: 'absorb', zh: '吸收；理解', scene: '海绵把水吸进去，或脑子把一段话吸收进去。', tone: '中性', col: 'absorb water, absorb information', en: 'The cloth absorbed the spill.', cn: '布把洒出来的水吸干了。' },
+    { w: 'abstract', zh: '摘要；抽象的', scene: '论文开头的短摘要，或脱离具体物件的理论。两个意思都常见。', tone: '偏正式', col: 'an abstract of, abstract art', en: 'Read the abstract before the article.', cn: '读正文前先看摘要。' },
+    { w: 'abuse', zh: '滥用；虐待', scene: '权力、药物或人对别人被用过了头，造成伤害。', tone: '负面', col: 'drug abuse, abuse of power', en: 'The report describes abuse of the system.', cn: '报告描述了对这套制度的滥用。' },
+    { w: 'accent', zh: '口音', scene: '说话时能听出一个人从哪个地方来的那种发音。', tone: '中性', col: 'a strong accent, an accent on', en: 'She speaks with a local accent.', cn: '她说话带当地口音。' },
+    { w: 'accompany', zh: '陪伴', scene: '你走在另一个人旁边，一起去。', tone: '中性', col: 'accompany somebody to, accompanied by', en: 'I accompanied her to the clinic.', cn: '我陪她去了诊所。' },
+    { w: 'account', zh: '账户；导致', scene: '银行里的账户，或 account for 表示“是……的原因”。', tone: '中性', col: 'a bank account, account for', en: 'Rain accounted for the delay.', cn: '下雨是这次耽搁的原因。' },
+    { w: 'acids', zh: '酸', scene: '化学里那一类酸，是 acid 的复数。', tone: '中性', col: 'acids in, weak acids', en: 'The lab stores acids in a locked cupboard.', cn: '实验室把酸锁在柜子里。' },
+    { w: 'acoustic', zh: '声学的', scene: '和声音如何传播、如何被听见有关，也常指不插电的木吉他。', tone: '偏技术', col: 'acoustic guitar, acoustic design', en: 'The hall has good acoustic design.', cn: '这个大厅的声学设计很好。' },
+    { w: 'across', zh: '穿过；遍及', scene: '从一边走到另一边，或遍布一整片地方。', tone: '中性', col: 'across the road, across the country', en: 'We walked across the bridge.', cn: '我们走过那座桥。' },
+    { w: 'actions', zh: '行动', scene: '真正做出来的那些事，不是只停在嘴上。', tone: '中性', col: 'take actions, actions against', en: 'The school took actions to reduce noise.', cn: '学校采取了行动来减少噪音。' },
+    { w: 'activates', zh: '激活', scene: '开关被按下，机器或一个过程开始运转。', tone: '中性', col: 'activates the, activates when', en: 'The sensor activates the light.', cn: '传感器会启动这盏灯。' },
+    { w: 'active', zh: '积极的', scene: '人在动、在参与，不是坐着旁观。', tone: '褒义', col: 'physically active, an active member', en: 'She is active in the club.', cn: '她在社团里很积极。' },
+    { w: 'activities', zh: '活动', scene: '课上或课后组织的一件件事情，是 activity 的复数。', tone: '中性', col: 'outdoor activities, social activities', en: 'The camp offers outdoor activities.', cn: '营地提供户外活动。' },
+    { w: 'actors', zh: '演员', scene: '在戏里或电影里扮演角色的人。', tone: '中性', col: 'film actors, the actors in', en: 'The actors rehearsed all morning.', cn: '演员们排练了一上午。' },
+    { w: 'actually', zh: '实际上', scene: '把表面的印象翻开，底下真实的情况是这样。', tone: '中性', col: 'actually the, actually happened', en: 'The shop is actually closed on Mondays.', cn: '这家店实际上星期一关门。' },
+    { w: 'add', zh: '增加', scene: '在已有的上面再放上一点，总数变大。', tone: '中性', col: 'add to, add something', en: 'Add the sugar to the milk.', cn: '把糖加进牛奶里。' },
+    { w: 'addictive', zh: '使人上瘾的', scene: '一碰就还想再来一次，停不下来。', tone: '负面', col: 'highly addictive, an addictive game', en: 'The game is addictive.', cn: '这个游戏容易让人上瘾。' },
+    { w: 'additives', zh: '添加剂', scene: '食品或材料里额外加进去的那些成分。', tone: '中性', col: 'food additives, without additives', en: 'The label lists the additives.', cn: '标签上列出了添加剂。' },
+    { w: 'address', zh: '地址', scene: '信封上那一行，告诉别人房子在哪条街。', tone: '中性', col: 'a home address, email address', en: 'Write your address on the form.', cn: '把你的地址写在表格上。' },
+    { w: 'adjust', zh: '调整', scene: '旋钮转一点，或计划改一点，让它更合适。', tone: '中性', col: 'adjust the, adjust to', en: 'Adjust the chair before you start.', cn: '开始之前先把椅子调好。' },
+    { w: 'admin', zh: '行政', scene: '办公室里处理表格和手续的那一类工作，是 administration 的简短说法。', tone: '偏口语', col: 'admin staff, admin work', en: 'The admin office closes at four.', cn: '行政办公室四点关门。' },
+    { w: 'administrative', zh: '行政的', scene: '和管理手续、表格、办公室运转有关的。', tone: '正式', col: 'administrative staff, administrative costs', en: 'Administrative costs have risen.', cn: '行政成本上升了。' },
+    { w: 'admire', zh: '钦佩', scene: '你看着一个人的做法，心里佩服。', tone: '褒义', col: 'admire somebody for, admire the', en: 'I admire her patience.', cn: '我钦佩她的耐心。' },
+    { w: 'adopt', zh: '采取', scene: '你选定一种做法，开始照着做。它也可以表示收养。', tone: '偏正式', col: 'adopt a policy, adopt a child', en: 'The school adopted a new rule.', cn: '学校采取了一项新规定。' },
+    { w: 'adults', zh: '成年人', scene: '已经成年的人，相对孩子而言。', tone: '中性', col: 'adults and children, for adults', en: 'The film is for adults.', cn: '这部电影是给成年人看的。' },
+    { w: 'advanced', zh: '高级的', scene: '程度已经走得比较远，不是入门那一档。', tone: '中性', col: 'an advanced class, advanced level', en: 'She joined an advanced class.', cn: '她参加了一个高级班。' },
+    { w: 'advantages', zh: '优势', scene: '和别的选择比，这一边更有利的那些点。', tone: '中性', col: 'the advantages of, advantages over', en: 'The advantages of the plan are clear.', cn: '这个计划的优势很清楚。' },
+    { w: 'adventure', zh: '冒险', scene: '一段不按日常路线走、带点未知的经历。', tone: '中性', col: 'an adventure in, a sense of adventure', en: 'The trip was a real adventure.', cn: '这次出行真是一场冒险。' },
+    { w: 'advertisement', zh: '广告', scene: '为了让人来买或来看，登出来的那则宣传。', tone: '中性', col: 'an advertisement for, television advertisement', en: 'I saw an advertisement for the course.', cn: '我看到了这门课的广告。' },
+    { w: 'aerobic', zh: '有氧的', scene: '运动时呼吸还能跟上，像慢跑和游泳这一类。', tone: '偏技术', col: 'aerobic exercise, aerobic class', en: 'Walking is aerobic exercise.', cn: '走路是有氧运动。' },
+    { w: 'aesthetic', zh: '美学的', scene: '和好看不好看、审美有关，不是只讲功能。', tone: '偏正式', col: 'aesthetic value, an aesthetic choice', en: 'The building has a simple aesthetic.', cn: '这栋建筑的美感很简洁。' },
+    { w: 'afford', zh: '买得起', scene: '钱或时间够，你能承担这件事。', tone: '中性', col: 'afford to, can afford', en: 'I cannot afford a new bike.', cn: '我买不起一辆新自行车。' },
+    { w: 'Africa', zh: '非洲', scene: '地图上的那一片大陆，不是一个可以替换的普通名词。', tone: '专名', col: 'in Africa, across Africa', en: 'She travelled in Africa.', cn: '她在非洲旅行过。' },
+    { w: 'afternoons', zh: '下午', scene: '中午过后到傍晚前的那段时间，这里用了复数，常指一个个下午。', tone: '中性', col: 'on afternoons, in the afternoons', en: 'The shop is quiet in the afternoons.', cn: '这家店下午比较清静。' },
+    { w: 'again', zh: '又；再一次', scene: '同一件事再来一遍。', tone: '中性', col: 'once again, try again', en: 'Please say that again.', cn: '请再说一遍。' },
+    { w: 'against', zh: '反对；抵御', scene: '你站在一件事的对面，或靠着它来挡住什么。', tone: '中性', col: 'against the, against a plan', en: 'She voted against the plan.', cn: '她投票反对这个计划。' },
+    { w: 'agency', zh: '代理；中介', scene: '替别人办事的一家机构，如旅行社或中介。', tone: '中性', col: 'a travel agency, an agency for', en: 'We booked the tour through an agency.', cn: '我们通过一家中介订了这次旅行。' },
+    { w: 'agents', zh: '代理人；中介', scene: '替别人去谈、去办的那些人。', tone: '中性', col: 'estate agents, travel agents', en: 'The agents showed us three flats.', cn: '中介带我们看了三套公寓。' },
+    { w: 'ages', zh: '年龄；年代', scene: '人的岁数，或历史上的一段年代。', tone: '中性', col: 'of all ages, for ages', en: 'People of all ages use the park.', cn: '各个年龄的人都使用这个公园。' },
+    { w: 'aggressive', zh: '好斗的；侵略性的', scene: '往前冲、不肯让，有时会伤到别人。', tone: '负面', col: 'aggressive behaviour, aggressive marketing', en: 'The dog became aggressive.', cn: '这只狗变得很凶。' },
+    { w: 'aims', zh: '目的在于', scene: '一件事把目标对准某处，想达到那个结果。', tone: '中性', col: 'aims to, aims at', en: 'The course aims to build confidence.', cn: '这门课旨在建立信心。' },
+    { w: 'air', zh: '空气', scene: '周围可以呼吸的那一层气体。', tone: '中性', col: 'fresh air, in the air', en: 'Open the window for some air.', cn: '打开窗户透透气。' },
+    { w: 'airlines', zh: '航空公司', scene: '用飞机运乘客的那些公司。', tone: '中性', col: 'international airlines, the airlines', en: 'Several airlines fly to the city.', cn: '有几家航空公司飞往那座城市。' },
+    { w: 'airport', zh: '机场', scene: '飞机起飞和降落、旅客办理手续的那一片地方。', tone: '中性', col: 'at the airport, airport bus', en: 'We met at the airport.', cn: '我们在机场见面。' },
+    { w: 'allergic', zh: '过敏的', scene: '一接触某种食物或花粉，身体就起反应。', tone: '中性', col: 'allergic to, an allergic reaction', en: 'He is allergic to nuts.', cn: '他对坚果过敏。' },
+    { w: 'allergies', zh: '过敏', scene: '身体对某些东西产生的那些过敏反应。', tone: '中性', col: 'food allergies, allergies to', en: 'The form asks about allergies.', cn: '表格上问到过敏情况。' },
+    { w: 'allowances', zh: '津贴', scene: '定期发给的一笔补贴，如生活津贴。', tone: '中性', col: 'travel allowances, weekly allowances', en: 'The job includes travel allowances.', cn: '这份工作包含交通津贴。' },
+    { w: 'alones', zh: '独自的', scene: '这张卡写的是独自，一个人，旁边没有别人。常见拼写是 alone。', tone: '中性', col: 'all alone, alone', en: 'She sat alone by the window.', cn: '她独自坐在窗边。' },
+    { w: 'already', zh: '已经', scene: '事情在你说话之前就已经发生了。', tone: '中性', col: 'already finished, already here', en: 'The train has already left.', cn: '火车已经开走了。' },
+    { w: 'also', zh: '也', scene: '在已经说到的之外，再补上一个。', tone: '中性', col: 'also the, and also', en: 'The shop also sells maps.', cn: '这家店也卖地图。' },
+    { w: 'altitude', zh: '海拔', scene: '一个地方高出海平面多少，像山上的高度。', tone: '偏技术', col: 'at an altitude, high altitude', en: 'The town sits at a high altitude.', cn: '这个镇子海拔很高。' },
+    { w: 'always', zh: '一直；总是', scene: '每一次都这样，中间没有例外。', tone: '中性', col: 'always the, almost always', en: 'She always takes the same bus.', cn: '她总是坐同一路公交。' },
+    { w: 'amateur', zh: '业余爱好者', scene: '不是靠这件事挣钱的专业人士，是因为喜欢才做。', tone: '中性', col: 'an amateur photographer, amateur sport', en: 'He is an amateur photographer.', cn: '他是业余摄影爱好者。' },
+    { w: 'amazing', zh: '令人吃惊的', scene: '好到或奇到让人睁大眼。', tone: '褒义，语气强', col: 'an amazing view, absolutely amazing', en: 'The view from the hill is amazing.', cn: '从山上看出去的景色非常惊人。' },
+    { w: 'ambitions', zh: '雄心', scene: '一个人对自己想达到的高度。这张卡对应 ambitious 的名词用法。', tone: '中性', col: 'ambitions for, career ambitions', en: 'Her ambitions include running a clinic.', cn: '她的志向包括开办一家诊所。' },
+    { w: 'amenity', zh: '生活便利设施', scene: '住处附近让生活方便的东西，如商店、公园或洗衣房。', tone: '偏正式', col: 'a local amenity, amenity space', en: 'A park is an important amenity.', cn: '公园是一项重要的生活设施。' },
+    { w: 'America', zh: '美国；美洲', scene: '可以指美国，也可以指美洲这片大陆，要看上下文。', tone: '专名', col: 'in America, North America', en: 'She studied in America.', cn: '她在美国读过书。' },
+    { w: 'American', zh: '美国的；美国人', scene: '和美国有关的，或一个美国人。', tone: '专名', col: 'an American city, American English', en: 'The film is American.', cn: '这部电影是美国的。' },
+    { w: 'amicably', zh: '友善地', scene: '双方分开或谈完时，没有摔门，气氛还是和气的。', tone: '偏正式', col: 'settle amicably, end amicably', en: 'They settled the bill amicably.', cn: '他们和气地解决了账单问题。' },
+    { w: 'amounts', zh: '数量', scene: '有多少，可以是一大笔或一小笔。', tone: '中性', col: 'large amounts, amounts of', en: 'The recipe uses small amounts of salt.', cn: '这个食谱只用少量的盐。' },
+    { w: 'amplify', zh: '放大', scene: '声音或影响被加大，传得更远。', tone: '偏正式', col: 'amplify the sound, amplify a signal', en: 'The microphone amplifies her voice.', cn: '麦克风把她的声音放大。' },
+    { w: 'amusements', zh: '娱乐', scene: '让人开心、打发时间的那些项目。', tone: '中性', col: 'amusements at, seaside amusements', en: 'The park has rides and other amusements.', cn: '公园里有游乐设施和其他娱乐项目。' },
+    { w: 'analysis', zh: '分析', scene: '把一件事拆开，看每一块为什么会这样。', tone: '偏正式', col: 'an analysis of, data analysis', en: 'The analysis of the results took a week.', cn: '分析结果花了一周。' },
+    { w: 'anatomy', zh: '解剖', scene: '研究身体结构的那门学问，或身体本身的构造。', tone: '偏技术', col: 'human anatomy, anatomy of', en: 'The course includes human anatomy.', cn: '这门课包括人体解剖。' },
+    { w: 'animals', zh: '动物', scene: '鸟、鱼、兽这些活的动物，是 animal 的复数。', tone: '中性', col: 'wild animals, farm animals', en: 'The reserve protects wild animals.', cn: '保护区保护野生动物。' },
+    { w: 'animation', zh: '动画片', scene: '用一张张画连成会动的影像。', tone: '中性', col: 'computer animation, an animation of', en: 'The children watched an animation.', cn: '孩子们看了一部动画片。' },
+    { w: 'ankle', zh: '踝关节', scene: '脚和腿相连的那个关节。', tone: '中性', col: 'a sprained ankle, around the ankle', en: 'She twisted her ankle on the path.', cn: '她在小路上扭伤了脚踝。' },
+    { w: 'anniversary', zh: '周年纪念日', scene: '某件事满一整年的那一天，如结婚纪念日。', tone: '中性', col: 'a wedding anniversary, the anniversary of', en: 'Today is their tenth anniversary.', cn: '今天是他们的十周年。' },
+    { w: 'annoying', zh: '讨厌的', scene: '一件小事反复来，让人烦。', tone: '负面', col: 'annoying noise, find something annoying', en: 'The dripping tap is annoying.', cn: '滴水的水龙头很讨厌。' },
+    { w: 'annual', zh: '年度的', scene: '一年一次，或按一整年计算。', tone: '中性偏正式', col: 'an annual meeting, annual fee', en: 'The annual meeting is in March.', cn: '年会在三月举行。' },
+    { w: 'anoint', zh: '用油擦', scene: '把油抹在身上或物体上，有时是一种仪式。', tone: '偏正式', col: 'anoint with, anoint somebody', en: 'The priest anointed the child.', cn: '神父为孩子傅了油。' },
+    { w: 'answers', zh: '回答', scene: '对问题给出的那些答复，可以是名词，也可以是动词的复数形式。', tone: '中性', col: 'the answers to, answers a question', en: 'The answers are at the back of the book.', cn: '答案在书的后面。' },
+    { w: 'Antarctic', zh: '南极洲', scene: '地球最南端那一片冰雪大陆。', tone: '专名', col: 'the Antarctic, Antarctic ice', en: 'Scientists work in the Antarctic.', cn: '科学家在南极洲工作。' },
+    { w: 'anthropology', zh: '人类学', scene: '研究人类文化、社会和起源的学科。', tone: '正式', col: 'social anthropology, a degree in anthropology', en: 'She studies anthropology.', cn: '她学人类学。' },
+    { w: 'antiques', zh: '古董', scene: '有年头、被人收藏的旧器物。', tone: '中性', col: 'antique shop, antiques fair', en: 'The street has an antiques shop.', cn: '这条街上有一家古董店。' },
+    { w: 'anxiety', zh: '焦虑', scene: '心里发紧，对还没发生的事放心不下。', tone: '中性，常偏负面', col: 'anxiety about, feelings of anxiety', en: 'Exams can cause anxiety.', cn: '考试可能引起焦虑。' },
+    { w: 'apart', zh: '分离的', scene: '两件本来可以在一起的东西，中间拉开了距离。', tone: '中性', col: 'apart from, fall apart', en: 'The two houses stand apart.', cn: '两座房子分开立着。' },
+    { w: 'apologise', zh: '道歉', scene: '你承认自己做错了，并向对方说对不起。英式拼法。', tone: '中性', col: 'apologise for, apologise to', en: 'I apologise for the delay.', cn: '这次耽搁，我向你道歉。' },
+    { w: 'apparently', zh: '显然地', scene: '从你能看见的情况判断，事情是这样，但你不是第一目击者。', tone: '中性', col: 'apparently the, apparently not', en: 'Apparently the bus is late.', cn: '看来公共汽车晚点了。' },
+    { w: 'appeal', zh: '呼吁；有吸引力', scene: '公开请求大家帮忙，或某件事让人想靠近。', tone: '中性', col: 'appeal for, appeal to', en: 'The charity appealed for blankets.', cn: '这家慈善机构呼吁人们捐赠毯子。' },
+    { w: 'appearance', zh: '外貌；出现', scene: '一个人看起来的样子，或他在公众面前露面。', tone: '中性', col: 'physical appearance, a public appearance', en: 'Do not judge by appearance.', cn: '不要凭外貌判断。' },
+    { w: 'appliances', zh: '器械', scene: '家里那些用电的器具，如冰箱和洗衣机。', tone: '中性', col: 'kitchen appliances, electrical appliances', en: 'The kitchen has new appliances.', cn: '厨房里有新的电器。' },
+    { w: 'applicants', zh: '申请人', scene: '递交申请、等结果的那些人。', tone: '中性', col: 'job applicants, successful applicants', en: 'The college interviewed 40 applicants.', cn: '学院面试了 40 名申请人。' },
+    { w: 'applications', zh: '申请；应用', scene: '交上去的申请表，或一种技术被用在某处。', tone: '中性', col: 'job applications, practical applications', en: 'Send your applications by Friday.', cn: '请在星期五前交申请。' },
+    { w: 'apply', zh: '申请', scene: '你填表，正式请求一个职位、课程或许可。它也可以表示应用。', tone: '中性', col: 'apply for, apply to', en: 'She applied for the scholarship.', cn: '她申请了那项奖学金。' },
+    { w: 'appointments', zh: '预约；任命', scene: '和医生或办公室约好的时间，或把某人正式派到一个职位。', tone: '中性', col: 'make appointments, medical appointments', en: 'Please book appointments online.', cn: '请在网上预约。' },
+    { w: 'appreciate', zh: '感激；欣赏', scene: '你把别人的帮助放在心上，或能看出一件事的好处。', tone: '褒义', col: 'appreciate your help, appreciate that', en: 'I appreciate your help.', cn: '感谢你的帮助。' },
+    { w: 'apprentice', zh: '学徒', scene: '跟着师傅一边干活一边学手艺的人。', tone: '中性', col: 'an apprentice to, apprentice chef', en: 'He works as an apprentice.', cn: '他当学徒。' },
+    { w: 'Apri', zh: '四月', scene: '这张卡的意思是四月。常见拼写是 April。', tone: '中性', col: 'in April, April rain', en: 'The course starts in April.', cn: '课程四月开始。' },
+    { w: 'apron', zh: '围裙', scene: '做饭或干活时系在身前、用来挡污渍的那块布。', tone: '中性', col: 'wear an apron, a kitchen apron', en: 'She tied on an apron.', cn: '她系上了围裙。' },
+    { w: 'aqueducts', zh: '沟渠', scene: '把水从一处引到另一处的水渠或高架水桥。', tone: '偏正式', col: 'Roman aqueducts, stone aqueducts', en: 'The old aqueducts still carry water.', cn: '这些古老的水渠仍在输水。' },
+    { w: 'archaeology', zh: '考古学', scene: '挖开地层，研究过去的人留下的器物。', tone: '正式', col: 'archaeology of, a degree in archaeology', en: 'The dig is part of an archaeology project.', cn: '这次发掘是一个考古项目的一部分。' },
+    { w: 'archers', zh: '弓箭手', scene: '用弓把箭射出去的人。', tone: '中性', col: 'skilled archers, the archers', en: 'The archers practised in the field.', cn: '弓箭手们在场地里练习。' },
+    { w: 'architecture', zh: '建筑学', scene: '设计建筑物的这门学问，或建筑物的样式。', tone: '中性', col: 'modern architecture, study architecture', en: 'She studies architecture.', cn: '她学建筑学。' },
+    { w: 'arid', zh: '干旱的', scene: '土地很干，雨很少，植物难长。', tone: '偏正式', col: 'an arid region, arid land', en: 'The region is arid.', cn: '这个地区很干旱。' },
+    { w: 'army', zh: '军队', scene: '一个国家用来作战的成建制的武装力量。', tone: '中性', col: 'the army, join the army', en: 'Her brother joined the army.', cn: '她哥哥参了军。' },
+    { w: 'around', zh: '在附近；围绕', scene: '在四周，或绕着一个点。它也可以表示大约。', tone: '中性', col: 'around the, around here', en: 'The park is around the corner.', cn: '公园就在拐角附近。' },
+    { w: 'arrows', zh: '箭；箭头', scene: '弓射出去的箭，或图上指示方向的箭头。', tone: '中性', col: 'follow the arrows, bow and arrows', en: 'Follow the arrows to the exit.', cn: '顺着箭头走到出口。' },
+    { w: 'artefacts', zh: '手工制品', scene: '人做出来、后来被保存下来的物件，博物馆里常见。英式拼法。', tone: '偏正式', col: 'historical artefacts, museum artefacts', en: 'The museum displays local artefacts.', cn: '博物馆展出当地的手工艺品。' },
+    { w: 'artists', zh: '艺术家', scene: '以画画、雕塑或其他艺术为业的人。', tone: '中性', col: 'local artists, the artists', en: 'Local artists show their work here.', cn: '当地艺术家在这里展出作品。' },
+    { w: 'arts', zh: '艺术；文科', scene: '绘画、音乐、戏剧这些，或大学里的文科。', tone: '中性', col: 'the arts, a Bachelor of Arts', en: 'She has a degree in the arts.', cn: '她有一个文科学位。' },
+    { w: 'ascent', zh: '上坡路', scene: '路往上走的那一段，人在爬升。', tone: '偏正式', col: 'a steep ascent, the ascent of', en: 'The ascent took two hours.', cn: '这段上坡走了两个小时。' },
+    { w: 'ashes', zh: '灰', scene: '火灭了之后剩下的灰色粉末。', tone: '中性', col: 'cigarette ashes, wood ashes', en: 'Only ashes remained in the fireplace.', cn: '壁炉里只剩下灰。' },
+    { w: 'Asian', zh: '亚洲的；亚洲人', scene: '和亚洲有关的，或一个亚洲人。', tone: '专名', col: 'Asian countries, Asian food', en: 'The market sells Asian food.', cn: '这个市场卖亚洲食品。' },
+    { w: 'assessment', zh: '评估', scene: '对学习、风险或一件工作作出的评定。', tone: '偏正式', col: 'an assessment of, continuous assessment', en: 'The assessment is next week.', cn: '评估在下周。' },
+    { w: 'assistant', zh: '助手', scene: '在旁边帮主事的人做事的那一位，如助教或店员。', tone: '中性', col: 'a shop assistant, teaching assistant', en: 'Ask the assistant at the desk.', cn: '问一下前台的助手。' },
+    { w: 'associations', zh: '协会', scene: '为同一目的组织起来的那些团体。', tone: '中性', col: 'professional associations, local associations', en: 'She belongs to two associations.', cn: '她属于两个协会。' },
+    { w: 'assortment', zh: '混合物', scene: '不同种类放在一起的一堆，不是单一的一种。', tone: '中性', col: 'an assortment of, a wide assortment', en: 'The box holds an assortment of teas.', cn: '盒子里装着各式茶叶。' },
+    { w: 'astronomy', zh: '天文学', scene: '研究星星、行星和宇宙的学科。', tone: '正式', col: 'radio astronomy, study astronomy', en: 'He reads about astronomy.', cn: '他阅读天文学方面的内容。' },
+    { w: 'athletes', zh: '运动员', scene: '参加体育比赛、受过训练的人。', tone: '中性', col: 'professional athletes, young athletes', en: 'The athletes warmed up on the track.', cn: '运动员们在跑道上热身。' },
+    { w: 'atlas', zh: '地图集', scene: '把很多地图订成的一本书。', tone: '中性', col: 'a world atlas, an atlas of', en: 'The atlas is on the shelf.', cn: '地图集在架子上。' },
+    { w: 'atmosphere', zh: '大气；气氛', scene: '包围地球的大气层，或一个房间里人们感觉到的气氛。', tone: '中性', col: 'the atmosphere, a friendly atmosphere', en: 'The cafe has a friendly atmosphere.', cn: '这家咖啡馆气氛友好。' },
+    { w: 'atrium', zh: '中庭', scene: '建筑中央那块通高、常有天光的空间。', tone: '偏正式', col: 'a glass atrium, the atrium of', en: 'We waited in the atrium.', cn: '我们在中庭等候。' },
+    { w: 'attendance', zh: '出席', scene: '人有没有到场，或到场的人数。', tone: '中性偏正式', col: 'attendance at, school attendance', en: 'Attendance at the lecture was high.', cn: '这次讲座出席的人很多。' },
+    { w: 'attribute', zh: '归属', scene: '你把一个结果算到某个原因或某个人头上。', tone: '正式', col: 'attribute to, attribute something to', en: 'She attributes her success to practice.', cn: '她把成功归于练习。' },
+    { w: 'audiences', zh: '观众', scene: '坐在那里看演出或听讲的那些人。', tone: '中性', col: 'large audiences, audiences of', en: 'The show drew large audiences.', cn: '这场演出吸引了很多观众。' },
+    { w: 'August', zh: '八月', scene: '一年里八月这一个月。', tone: '专名', col: 'in August, last August', en: 'The course ends in August.', cn: '课程八月结束。' },
+    { w: 'aunt', zh: '阿姨；姨', scene: '父母的姐妹，或与父母同辈的女性长辈。', tone: '中性', col: 'my aunt, an aunt', en: 'My aunt lives nearby.', cn: '我阿姨住在附近。' },
+    { w: 'Australia l', zh: '澳大利亚', scene: '这张卡指澳大利亚。常见拼写是 Australia，中间没有空格。', tone: '专名', col: 'in Australia, across Australia', en: 'She lives in Australia.', cn: '她住在澳大利亚。' },
+    { w: 'Australian', zh: '澳大利亚的；澳大利亚人', scene: '和澳大利亚有关的，或一个澳大利亚人。', tone: '专名', col: 'an Australian city, Australian English', en: 'The film is Australian.', cn: '这部电影是澳大利亚的。' },
+    { w: 'authorities', zh: '当局；官方', scene: '有权作决定的那些官方机构或人，是 authority 的复数。', tone: '正式', col: 'the local authorities, the authorities', en: 'The authorities closed the road.', cn: '官方封闭了这条路。' },
+    { w: 'autism', zh: '自闭症', scene: '一种影响社交和沟通方式的发育状况。', tone: '中性，医学', col: 'autism spectrum, children with autism', en: 'The school supports children with autism.', cn: '这所学校支持自闭症儿童。' },
+    { w: 'autobiography', zh: '自传', scene: '一个人写自己一生的那本书。', tone: '中性', col: 'an autobiography of, write an autobiography', en: 'She is writing her autobiography.', cn: '她在写自传。' },
+    { w: 'automatic', zh: '自动的', scene: '不用人每次动手，机器自己会完成下一步。', tone: '中性', col: 'automatic door, fully automatic', en: 'The door is automatic.', cn: '这扇门是自动的。' },
+    { w: 'automobiles', zh: '汽车', scene: '路上跑的汽车，是 automobile 的复数，美式英语里更常见。', tone: '中性偏正式', col: 'automobiles and, early automobiles', en: 'Early automobiles were slow.', cn: '早期的汽车很慢。' },
+    { w: 'autonomous', zh: '自治的', scene: '一个地区或系统自己作决定，不每一步都等上面。', tone: '正式', col: 'an autonomous region, autonomous system', en: 'The college is autonomous.', cn: '这所学院是自治的。' },
+    { w: 'avenue', zh: '大街', scene: '城里较宽、常有树的一条大街。', tone: '中性', col: 'a wide avenue, Fifth Avenue', en: 'The hotel is on a wide avenue.', cn: '酒店在一条宽阔的大街上。' },
+    { w: 'avoid', zh: '避免', scene: '你看见一件不想碰上的事，就绕开它。', tone: '中性', col: 'avoid doing, avoid the', en: 'Avoid the busy road at eight.', cn: '八点避开那条拥堵的路。' },
+    { w: 'ABMS', zh: '影响', scene: '这张卡的释义是“影响”。ABMS 不是常见英语单词，没有可靠的近义词。', tone: '词条本身', col: 'an effect on, an impact on', en: 'The delay had an effect on the plan.', cn: '这次耽搁对计划产生了影响。' }
   ];
 
   const byWord = Object.create(null);
