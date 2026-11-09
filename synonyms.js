@@ -355,7 +355,8 @@
     ]},
     { line: '事情严重，和程度剧烈。', items: [
       { w: 'serious', zh: '严重的；认真的', scene: '不是开玩笑，问题或伤势需要认真对待。', tone: '中性', col: 'a serious problem, serious about', en: 'The injury was not serious.', cn: '伤得不严重。' },
-      { w: 'severe', zh: '严重的；剧烈的', scene: '程度很重，像严重的暴风雨或严厉的惩罚。', tone: '偏正式，语气更强', col: 'severe weather, severe pain', en: 'The region faced severe weather.', cn: '该地区遭遇了恶劣天气。' }
+      { w: 'severe', zh: '严重的；剧烈的', scene: '程度很重，像严重的暴风雨或严厉的惩罚。', tone: '偏正式，语气更强', col: 'severe weather, severe pain', en: 'The region faced severe weather.', cn: '该地区遭遇了恶劣天气。' },
+      { w: 'harsh', zh: '严酷的；严厉的', scene: '条件很苦，或话说得很重，不留情面。', tone: '负面', col: 'harsh weather, a harsh remark', en: 'The winter was harsh.', cn: '那个冬天很严酷。' }
     ]},
     { line: '不忽高忽低，和放在那里不会倒。', items: [
       { w: 'steady', zh: '稳定的；平稳的', scene: '速度或手不抖，一直保持同样的节奏。', tone: '中性偏褒义', col: 'a steady job, steady growth', en: 'The patient made steady progress.', cn: '病人在稳步好转。' },
@@ -965,7 +966,8 @@
     { line: '人住的房子：一栋房子、一套公寓、楼里的一套单元。', items: [
       { w: 'house', zh: '房子', scene: '通常是独门的一栋住宅，有自己的门和院子。', tone: '中性', col: 'a house in, move house', en: 'They bought a house near the station.', cn: '他们在车站附近买了一栋房子。' },
       { w: 'flat', zh: '公寓', scene: '一栋楼里的一套住房，英式英语里最常这么说。', tone: '中性', col: 'a flat in, rent a flat', en: 'She rents a flat in the city.', cn: '她在城里租了一套公寓。' },
-      { w: 'apartment', zh: '公寓', scene: '和 flat 指同一类住处，美式英语里更常用 apartment。', tone: '中性', col: 'an apartment block, rent an apartment', en: 'The apartment has two bedrooms.', cn: '这套公寓有两间卧室。' }
+      { w: 'apartment', zh: '公寓', scene: '和 flat 指同一类住处，美式英语里更常用 apartment。', tone: '中性', col: 'an apartment block, rent an apartment', en: 'The apartment has two bedrooms.', cn: '这套公寓有两间卧室。' },
+      { w: 'homes', zh: '家', scene: '人们住下来的那些家，不一定单指房子本身。', tone: '中性', col: 'family homes, at home', en: 'The street has new homes.', cn: '这条街上有新的住家。' }
     ]},
     { line: '人聚居的地方：城市比镇大。', items: [
       { w: 'city', zh: '城市', scene: '楼高、人多、有市政府的大聚居地。', tone: '中性', col: 'a capital city, city centre', en: 'The city has a busy port.', cn: '这座城市有一个繁忙的港口。' },
@@ -977,7 +979,8 @@
     ]},
     { line: '法律，和立法机关制定法律这件事或这些法律。', items: [
       { w: 'law', zh: '法律', scene: '国家写下的规则，违反了会有后果。', tone: '中性', col: 'against the law, break the law', en: 'It is against the law to drive without a licence.', cn: '无证驾驶是违法的。' },
-      { w: 'legislation', zh: '立法；法律', scene: '议会正在制定或已经通过的那一批法律。', tone: '正式', col: 'pass legislation, under legislation', en: 'New legislation will limit the pollution.', cn: '新的法律将限制污染。' }
+      { w: 'legislation', zh: '立法；法律', scene: '议会正在制定或已经通过的那一批法律。', tone: '正式', col: 'pass legislation, under legislation', en: 'New legislation will limit the pollution.', cn: '新的法律将限制污染。' },
+      { w: 'legal', zh: '法律的', scene: '和法有关，或做法是合法的。', tone: '中性偏正式', col: 'legal advice, a legal right', en: 'She asked for legal advice.', cn: '她征求了法律意见。' }
     ]},
     { line: '能使事情发生的力量：权力、能量、作用力。', items: [
       { w: 'power', zh: '力量；权力；电力', scene: '能推动结果的能力，可以是政治权力，也可以是电。', tone: '中性', col: 'in power, power to, nuclear power', en: 'The committee has the power to decide.', cn: '委员会有权作出决定。' },
@@ -1004,7 +1007,8 @@
     ]},
     { line: '心里想要。wish 更像希望，不一定做得到。', items: [
       { w: 'want', zh: '想要', scene: '你缺那样东西，并打算去得到它。', tone: '偏口语', col: 'want to, want something', en: 'I want to finish this today.', cn: '我想今天把这个做完。' },
-      { w: 'wish', zh: '希望', scene: '你心里盼着一件事发生，常常自己控制不了结果。', tone: '中性', col: 'wish to, wish for', en: 'I wish to speak to the manager.', cn: '我想和经理谈谈。' }
+      { w: 'wish', zh: '希望', scene: '你心里盼着一件事发生，常常自己控制不了结果。', tone: '中性', col: 'wish to, wish for', en: 'I wish to speak to the manager.', cn: '我想和经理谈谈。' },
+      { w: 'hope', zh: '希望', scene: '你盼着一件好事发生，并且觉得它有可能。', tone: '中性', col: 'hope to, hope for', en: 'I hope to see you tomorrow.', cn: '我希望明天见到你。' }
     ]},
     { line: '可能受伤或受损：风险、危险、具体的危害。', items: [
       { w: 'risk', zh: '风险', scene: '你知道可能出事，仍要衡量要不要做。', tone: '中性', col: 'at risk, the risk of', en: 'There is a risk of flooding.', cn: '有洪水的风险。' },
@@ -1513,7 +1517,8 @@
 { line: '有水，但程度不同。moist 常是刚好的湿润，damp 有点潮，wet 是明显湿了。', items: [
       { w: 'damp', zh: '潮湿的', scene: '表面带着潮气，摸上去不干，但还没有滴水。', tone: '中性', col: 'a damp cloth, damp weather', en: 'The towel is still damp.', cn: '毛巾还是潮的。' },
       { w: 'wet', zh: '湿的', scene: '水已经沾上，能滴下来或浸透。', tone: '中性', col: 'wet clothes, soaking wet', en: 'The grass is wet.', cn: '草是湿的。' },
-      { w: 'moist', zh: '湿润的', scene: '有一点水分，常常是刚好、并不难受的那种湿。', tone: '中性', col: 'moist soil, moist air', en: 'Keep the soil moist.', cn: '让土壤保持湿润。' }
+      { w: 'moist', zh: '湿润的', scene: '有一点水分，常常是刚好、并不难受的那种湿。', tone: '中性', col: 'moist soil, moist air', en: 'Keep the soil moist.', cn: '让土壤保持湿润。' },
+      { w: 'humid', zh: '潮湿的', scene: '空气里水汽多，天闷、皮肤发黏。', tone: '中性', col: 'humid air, a humid day', en: 'The day was hot and humid.', cn: '这一天又热又潮。' }
     ]},
     { line: '生命结束。death 是那件事，die 是这个动作。', items: [
       { w: 'death', zh: '死亡', scene: '生命停止的那个事实。', tone: '中性', col: 'the death of, cause of death', en: 'The report gives the cause of death.', cn: '报告写出了死因。' },
@@ -1608,6 +1613,50 @@
 { line: '好运，和一大笔钱。fortune 两个意思都有，luck 只指运气。', items: [
       { w: 'fortune', zh: '财富；运气', scene: '一大笔钱，或难料的好运、坏运。', tone: '中性', col: 'a fortune, fortune and', en: 'The ring cost a fortune.', cn: '这枚戒指花了一大笔钱。' },
       { w: 'luck', zh: '运气', scene: '事情碰巧往好或往坏的方向走，不是靠计划。', tone: '中性', col: 'good luck, a stroke of luck', en: 'Good luck with the test.', cn: '祝你测试顺利。' }
+    ]},
+{ line: '温度高。hot 是热，heat 是那股热或加热这个动作。', items: [
+      { w: 'hot', zh: '热的', scene: '温度高，摸上去或天气让人出汗。', tone: '中性', col: 'a hot day, hot water', en: 'The soup is hot.', cn: '汤是热的。' },
+      { w: 'heat', zh: '高温；加热', scene: '那股热本身，或把东西加热。', tone: '中性', col: 'the heat of, heat the', en: 'Heat the milk gently.', cn: '把牛奶慢慢加热。' }
+    ]},
+    { line: '身体处于好的状态。health 是这件事，healthy 是这样的。', items: [
+      { w: 'health', zh: '健康', scene: '身体或心理好不好的整体状况。', tone: '中性', col: 'in good health, public health', en: 'Walking is good for your health.', cn: '走路对健康有好处。' },
+      { w: 'healthy', zh: '健康的', scene: '身体状态好，或食物对身体有益。', tone: '褒义', col: 'a healthy diet, feel healthy', en: 'She eats a healthy breakfast.', cn: '她吃一顿健康的早餐。' }
+    ]},
+    { line: '付钱住的地方。hotel 通常是旅馆，hostel 更便宜、常是多人合住。', items: [
+      { w: 'hotel', zh: '旅馆', scene: '出门时付钱住的楼，有自己的房间。', tone: '中性', col: 'a hotel room, stay at a hotel', en: 'We stayed at a small hotel.', cn: '我们住在一家小旅馆。' },
+      { w: 'hostel', zh: '旅社', scene: '价钱较低的住处，常有共用的厨房或宿舍。', tone: '中性', col: 'a youth hostel, stay in a hostel', en: 'The hostel is near the station.', cn: '这家旅社在车站附近。' }
+    ]},
+    { line: '不猛、不刺。', items: [
+      { w: 'gentle', zh: '温和的', scene: '动作或语气很轻，不伤人。', tone: '褒义', col: 'a gentle voice, gentle with', en: 'Be gentle with the puppy.', cn: '对小狗要轻一点。' },
+      { w: 'mild', zh: '温和的', scene: '天气、味道或病情不强烈。', tone: '中性', col: 'a mild winter, mild pain', en: 'The winter was mild.', cn: '那个冬天很温和。' }
+    ]},
+    { line: '去捕猎。hunting 是这件事，hunt 是去做。', items: [
+      { w: 'hunt', zh: '打猎', scene: '出去寻找并捕捉动物，或四处寻找某物。', tone: '中性', col: 'hunt for, hunt animals', en: 'They hunt for mushrooms in the wood.', cn: '他们在林子里找蘑菇。' },
+      { w: 'hunting', zh: '打猎', scene: '捕猎这件活动本身。', tone: '中性', col: 'go hunting, hunting season', en: 'Hunting is banned in the park.', cn: '公园里禁止打猎。' }
+    ]},
+    { line: '船停靠的地方。harbour 是港湾，port 也可以是港口，另有“持”的意思。', items: [
+      { w: 'harbour', zh: '海港', scene: '船可以停进来、被陆地挡住风浪的水域。美式拼写是 harbor。', tone: '中性', col: 'a natural harbour, in the harbour', en: 'The boats stay in the harbour.', cn: '船停在港口里。' },
+      { w: 'port', zh: '港口', scene: '船只装卸货物和上下人的港口。这个词也可以表示持、端。', tone: '中性', col: 'a fishing port, at the port', en: 'The ship reached the port at dawn.', cn: '船在黎明时到达港口。' }
+    ]},
+    { line: '转折：承认另一面。', items: [
+      { w: 'however', zh: '然而', scene: '先说了一面，再用然而把相反的那面接上。它也可以表示无论怎样。', tone: '中性偏书面', col: 'however the, however it', en: 'The room is small. However, it is bright.', cn: '房间很小。然而，它很亮。' },
+      { w: 'nevertheless', zh: '然而；不过', scene: '尽管前面有困难，事情还是这样。语气比 however 更书面。', tone: '正式', col: 'nevertheless the, but nevertheless', en: 'It rained. Nevertheless, we walked.', cn: '下雨了。不过我们还是走了。' }
+    ]},
+    { line: '给人带路，或走在前面。', items: [
+      { w: 'guide', zh: '向导；引导', scene: '带路的人，或把别人领到该去的地方。', tone: '中性', col: 'a tour guide, guide somebody', en: 'The guide led us through the market.', cn: '向导带我们穿过市场。' },
+      { w: 'lead', zh: '引导；领导', scene: '走在前面，或负责带着一群人。', tone: '中性', col: 'lead the, lead to', en: 'She led the group to the hall.', cn: '她把这群人领到大厅。' }
+    ]},
+    { line: '付钱使用别人的东西。hire 常是短期租用，rent 常是房子的租金或租住。', items: [
+      { w: 'hire', zh: '租用', scene: '短期租一辆车、一条船或一个人的服务。', tone: '中性', col: 'hire a car, for hire', en: 'We hired a car for the weekend.', cn: '我们周末租了一辆车。' },
+      { w: 'rent', zh: '房租；租', scene: '为住房按期付的钱，或租下一处房子。', tone: '中性', col: 'pay the rent, rent a flat', en: 'The rent is due on Monday.', cn: '房租星期一到期。' }
+    ]},
+    { line: '山。mountain 更高，hill 是小山。', items: [
+      { w: 'mountain', zh: '高山', scene: '高出周围很多、常常有陡坡的山。', tone: '中性', col: 'a high mountain, in the mountains', en: 'The mountain is covered in snow.', cn: '这座山被雪盖着。' },
+      { w: 'hill', zh: '小山', scene: '坡度较缓、没那么高的山丘。', tone: '中性', col: 'a green hill, over the hill', en: 'The house sits on a hill.', cn: '房子在一座小山上。' }
+    ]},
+    { line: '挡住伤害。', items: [
+      { w: 'protect', zh: '保护', scene: '把人或东西护住，不让它受伤。', tone: '中性', col: 'protect from, protect against', en: 'The coat protects you from the rain.', cn: '外套让你不被雨淋。' },
+      { w: 'guard', zh: '保卫', scene: '守在旁边，防止别人闯进来或把东西拿走。', tone: '中性', col: 'guard the, a security guard', en: 'Two people guard the entrance.', cn: '两个人守着入口。' }
     ]},
   ];
 
@@ -2631,7 +2680,119 @@
     { w: 'funny', zh: '有趣的', scene: '让人想笑，或有点奇怪。', tone: '中性', col: 'a funny story, funny to', en: 'The story is funny.', cn: '这个故事很好笑。' },
     { w: 'furniture', zh: '家具', scene: '桌椅床柜这些，通常不可数。', tone: '中性', col: 'a piece of furniture, office furniture', en: 'The room has little furniture.', cn: '房间里家具很少。' },
     { w: 'furs', zh: '毛皮', scene: '动物的毛皮，或用它做成的衣物。', tone: '中性', col: 'animal furs, a fur coat', en: 'The museum shows old furs.', cn: '博物馆展出旧的毛皮。' },
-    { w: 'future', zh: '未来', scene: '还没到来的时间。', tone: '中性', col: 'in the future, future plans', en: 'The meeting is in the future.', cn: '会议还在将来。' }
+    { w: 'future', zh: '未来', scene: '还没到来的时间。', tone: '中性', col: 'in the future, future plans', en: 'The meeting is in the future.', cn: '会议还在将来。' },
+{ w: 'gallery', zh: '画廊', scene: '挂着画、让人进去看的房间或建筑。', tone: '中性', col: 'an art gallery, in the gallery', en: 'The gallery opens at ten.', cn: '画廊十点开门。' },
+    { w: 'games', zh: '游戏', scene: '按规则玩的游戏或比赛。', tone: '中性', col: 'computer games, play games', en: 'The children played games.', cn: '孩子们玩游戏。' },
+    { w: 'garage', zh: '车库', scene: '停放汽车的房间或小屋。', tone: '中性', col: 'a garage for, in the garage', en: 'The car is in the garage.', cn: '车在车库里。' },
+    { w: 'gardens', zh: '花园', scene: '房子旁边种花种草的那些地。', tone: '中性', col: 'public gardens, in the gardens', en: 'We walked in the gardens.', cn: '我们在花园里走了走。' },
+    { w: 'gases', zh: '气体；汽油', scene: '空气那样的气体。在美式英语里 gas 也常指汽油。', tone: '中性', col: 'natural gases, greenhouse gases', en: 'The tank holds two gases.', cn: '这个罐子装着两种气体。' },
+    { w: 'gates', zh: '大门', scene: '围墙或场地上开关的门。', tone: '中性', col: 'school gates, the main gates', en: 'Meet me at the gates.', cn: '在大门口等我。' },
+    { w: 'gauge', zh: '计量器', scene: '用来量压力、油量或尺寸的仪表。', tone: '偏技术', col: 'a pressure gauge, fuel gauge', en: 'Check the gauge before you leave.', cn: '出发前看一下仪表。' },
+    { w: 'gender', zh: '性别', scene: '男性或女性这一社会与身份上的区分。', tone: '中性', col: 'gender of, gender equality', en: 'The form asks for gender.', cn: '表格上问性别。' },
+    { w: 'gene', zh: '基因', scene: '这张卡和基因有关。常见说法是 gene，副词是 genetically。', tone: '偏技术', col: 'a gene for, genetically related', en: 'The study looks at one gene.', cn: '这项研究看的是一个基因。' },
+    { w: 'general', zh: '普通的；总的', scene: '不是个别的，而是大体上、大家都适用的。', tone: '中性', col: 'in general, a general rule', en: 'In general, the buses are on time.', cn: '总的来说，公共汽车是准点的。' },
+    { w: 'generate', zh: '产生；形成', scene: '把电、热或一个结果做出来。', tone: '中性偏正式', col: 'generate electricity, generate interest', en: 'The panels generate electricity.', cn: '这些板产生电力。' },
+    { w: 'generator', zh: '发电机', scene: '用来发电的机器。', tone: '中性', col: 'a diesel generator, backup generator', en: 'The generator started at dusk.', cn: '发电机在黄昏时启动了。' },
+    { w: 'genre', zh: '流派', scene: '文学、音乐或电影的一个类型。', tone: '偏正式', col: 'a genre of, the genre of', en: 'Jazz is a musical genre.', cn: '爵士乐是一种音乐流派。' },
+    { w: 'geography', zh: '地理', scene: '研究地方、地形和人如何使用土地的学科。', tone: '中性', col: 'physical geography, a geography class', en: 'She studies geography.', cn: '她学地理。' },
+    { w: 'Germans', zh: '德语；德国人', scene: '这张卡的意思是德语或德国人。德语和德国人更常见的词是 German。', tone: '专名', col: 'speak German, German people', en: 'The class is taught in German.', cn: '这门课用德语教。' },
+    { w: 'Germany', zh: '德国', scene: '欧洲中部的那个国家。', tone: '专名', col: 'in Germany, across Germany', en: 'She studied in Germany.', cn: '她在德国读过书。' },
+    { w: 'germinate', zh: '发芽', scene: '种子裂开，冒出嫩芽。', tone: '偏技术', col: 'germinate in, seeds germinate', en: 'The seeds germinate in warm soil.', cn: '种子在温暖的土里发芽。' },
+    { w: 'germs', zh: '细菌', scene: '能让人生病的微小生物，口语里常这么说。', tone: '偏口语', col: 'spread germs, kill germs', en: 'Wash your hands to remove germs.', cn: '洗手以去掉细菌。' },
+    { w: 'gifts', zh: '礼品', scene: '送给别人的礼物。', tone: '中性', col: 'birthday gifts, a gift for', en: 'She brought small gifts.', cn: '她带了小礼物。' },
+    { w: 'girls', zh: '女孩', scene: '女性的孩子或年轻女性。', tone: '中性', col: 'two girls, girls and boys', en: 'The girls waited by the door.', cn: '女孩们在门口等。' },
+    { w: 'glaciers', zh: '冰川', scene: '山上慢慢移动的大冰块。', tone: '中性', col: 'melting glaciers, mountain glaciers', en: 'The glaciers are getting smaller.', cn: '这些冰川在变小。' },
+    { w: 'glasses', zh: '玻璃', scene: '这张卡的意思是玻璃。glasses 也常指眼镜。', tone: '中性', col: 'a pair of glasses, broken glass', en: 'The window is made of glass.', cn: '窗户是玻璃的。' },
+    { w: 'glide', zh: '滑行', scene: '平滑地移动，几乎没有颠簸。', tone: '中性', col: 'glide over, glide across', en: 'The boat glided across the lake.', cn: '船在湖上滑过。' },
+    { w: 'global', zh: '全球的', scene: '涉及整个世界，不只是一个国家。', tone: '中性偏正式', col: 'global warming, a global market', en: 'The problem is global.', cn: '这个问题是全球性的。' },
+    { w: 'gloves', zh: '手套', scene: '戴在手上保暖或保护的手套。', tone: '中性', col: 'a pair of gloves, wear gloves', en: 'Wear gloves in the lab.', cn: '在实验室里戴手套。' },
+    { w: 'glue', zh: '胶', scene: '用来把两样东西粘在一起的胶。', tone: '中性', col: 'a tube of glue, glue to', en: 'Glue the label to the box.', cn: '把标签粘到盒子上。' },
+    { w: 'glycerine', zh: '甘油', scene: '一种无色、有甜味的液体，用于化工和药品。', tone: '偏技术', col: 'liquid glycerine, glycerine soap', en: 'The soap contains glycerine.', cn: '这种肥皂含有甘油。' },
+    { w: 'goals', zh: '目标', scene: '想要达到的那些结果。', tone: '中性', col: 'set goals, career goals', en: 'The team set three goals.', cn: '团队定了三个目标。' },
+    { w: 'golde', zh: '黄金；金的', scene: '这张卡的意思是黄金或金色的。常见拼写是 gold。', tone: '中性', col: 'gold ring, solid gold', en: 'The ring is gold.', cn: '这枚戒指是金的。' },
+    { w: 'golf', zh: '高尔夫球', scene: '用球杆把小球打进洞里的运动。', tone: '中性', col: 'play golf, a golf course', en: 'They play golf on Sundays.', cn: '他们星期天打高尔夫。' },
+    { w: 'goods', zh: '商品', scene: '用来卖或运的货物。常用复数。', tone: '中性', col: 'consumer goods, goods and', en: 'The shop sells household goods.', cn: '这家店卖家用商品。' },
+    { w: 'government', zh: '政府', scene: '管理一个国家或一个地方的那套机构。', tone: '中性', col: 'the government of, local government', en: 'The government announced a new rule.', cn: '政府宣布了一项新规定。' },
+    { w: 'gown', zh: '长袍', scene: '长及地面的袍子，常见于毕业或正式场合。', tone: '中性', col: 'a graduation gown, evening gown', en: 'She wore a black gown.', cn: '她穿了一件黑长袍。' },
+    { w: 'grade', zh: '年级；成绩', scene: '学校里的年级，或一门课的分数。作动词是评级。', tone: '中性', col: 'a high grade, fifth grade', en: 'She got a high grade.', cn: '她得了高分。' },
+    { w: 'graduate', zh: '毕业', scene: '完成学业、离开学校。作名词是毕业生。', tone: '中性', col: 'graduate from, a graduate of', en: 'He will graduate in June.', cn: '他将在六月毕业。' },
+    { w: 'grain', zh: '粮食', scene: '小麦、稻米这类谷物的颗粒，或粮食的总称。', tone: '中性', col: 'a grain of, grain crops', en: 'The farm grows grain.', cn: '这家农场种粮食。' },
+    { w: 'grammar', zh: '语法', scene: '句子怎么组成的那套规则。', tone: '中性', col: 'English grammar, a grammar book', en: 'The class reviews grammar.', cn: '这节课复习语法。' },
+    { w: 'grandchildren', zh: '孙子孙女', scene: '子女的孩子。', tone: '中性', col: 'her grandchildren, two grandchildren', en: 'Her grandchildren visit on Sundays.', cn: '她的孙辈星期天来看她。' },
+    { w: 'grandparents', zh: '祖父母', scene: '父母的父母。', tone: '中性', col: 'my grandparents, live with grandparents', en: 'He lives with his grandparents.', cn: '他和祖父母住在一起。' },
+    { w: 'grant', zh: '拨款；补助金', scene: '机构拨给的一笔钱，用来读书或做项目。', tone: '中性偏正式', col: 'a grant for, apply for a grant', en: 'She received a grant for the course.', cn: '她得到了这门课的补助。' },
+    { w: 'graphics', zh: '图形', scene: '用电脑画出的图像或图表。', tone: '中性', col: 'computer graphics, graphics design', en: 'The report uses simple graphics.', cn: '报告用了简单的图形。' },
+    { w: 'grasses', zh: '草', scene: '地上长的那些草。', tone: '中性', col: 'tall grasses, sea grasses', en: 'Tall grasses grow by the path.', cn: '小路边长着高草。' },
+    { w: 'gravity', zh: '重力', scene: '把物体拉向地面的力。', tone: '偏技术', col: 'the force of gravity, gravity on', en: 'Gravity pulls the apple down.', cn: '重力把苹果拉下来。' },
+    { w: 'great', zh: '极好的', scene: '好到让人满意或赞叹。这张卡的意思是极好，不是“大”。', tone: '褒义', col: 'a great idea, great fun', en: 'The view is great.', cn: '景色好极了。' },
+    { w: 'green', zh: '绿色的', scene: '草和叶子的那种颜色。它也可以表示环保。', tone: '中性', col: 'green leaves, dark green', en: 'The door is green.', cn: '门是绿色的。' },
+    { w: 'greenhouse', zh: '温室', scene: '用玻璃罩住、让植物在暖和环境里生长的房子。', tone: '中性', col: 'a greenhouse for, in the greenhouse', en: 'Tomatoes grow in the greenhouse.', cn: '番茄在温室里生长。' },
+    { w: 'groceries', zh: '杂货', scene: '日常买回家的食品和日用品。它也可以指杂货店。', tone: '中性', col: 'buy groceries, a bag of groceries', en: 'I buy groceries on Saturday.', cn: '我星期六买杂货。' },
+    { w: 'grounds', zh: '地面；场地', scene: '一片建筑周围的场地，或地面。', tone: '中性', col: 'school grounds, on the grounds', en: 'The grounds are open to visitors.', cn: '场地对访客开放。' },
+    { w: 'guests', zh: '客人', scene: '被请来或住进旅馆的人。', tone: '中性', col: 'hotel guests, invite guests', en: 'The guests arrived at seven.', cn: '客人七点到了。' },
+    { w: 'guided', zh: '有向导的', scene: '有人带着走，不是自己乱逛。', tone: '中性', col: 'a guided tour, guided walk', en: 'We took a guided tour.', cn: '我们参加了有向导的游览。' },
+    { w: 'guitars', zh: '吉他', scene: '用手指拨弦的乐器。', tone: '中性', col: 'acoustic guitars, play guitars', en: 'Two guitars were on the stage.', cn: '舞台上有两把吉他。' },
+    { w: 'gulf', zh: '海湾', scene: '海岸凹进去的一大片海，通常比 bay 更大。', tone: '中性', col: 'the gulf of, across the gulf', en: 'The town faces the gulf.', cn: '这个镇子面向海湾。' },
+    { w: 'gum', zh: '树胶', scene: '从树上流出来的胶状物。它也可以指口香糖。', tone: '中性', col: 'chewing gum, gum tree', en: 'The children were not allowed chewing gum.', cn: '孩子们不许嚼口香糖。' },
+    { w: 'gym', zh: '健身房', scene: '用来锻炼身体的房间或馆。', tone: '中性', col: 'at the gym, a school gym', en: 'She goes to the gym after work.', cn: '她下班后去健身房。' },
+    { w: 'habitats', zh: '栖息地', scene: '一种动物或植物自然生活的那些地方。', tone: '偏正式', col: 'natural habitats, wildlife habitats', en: 'The park protects bird habitats.', cn: '公园保护鸟类栖息地。' },
+    { w: 'habits', zh: '习惯', scene: '反复做、几乎不用想的那些做法。', tone: '中性', col: 'daily habits, eating habits', en: 'Walking is one of her habits.', cn: '走路是她的习惯之一。' },
+    { w: 'hair', zh: '头发', scene: '头上长的头发。通常不可数。', tone: '中性', col: 'dark hair, cut your hair', en: 'She has short hair.', cn: '她留着短发。' },
+    { w: 'hairdresser', zh: '美发师', scene: '给人剪头发、做发型的人。', tone: '中性', col: 'at the hairdresser, a hairdresser', en: 'I have an appointment with the hairdresser.', cn: '我和美发师有一个预约。' },
+    { w: 'half', zh: '一半', scene: '把一个整体分成相等的两份，其中一份。', tone: '中性', col: 'half of, half an hour', en: 'Half of the class was late.', cn: '班上有一半人迟到了。' },
+    { w: 'halls', zh: '大厅；宿舍', scene: '大楼里的大厅，或学生宿舍。', tone: '中性', col: 'concert halls, halls of residence', en: 'The talk is in one of the halls.', cn: '讲座在其中一座大厅。' },
+    { w: 'haloes', zh: '光环', scene: '头或太阳、月亮周围的一圈光。halo 的一种复数。', tone: '中性', col: 'a halo around, solar haloes', en: 'A halo appeared around the moon.', cn: '月亮周围出现了一圈光晕。' },
+    { w: 'handouts', zh: '讲义', scene: '课堂上发给大家的文字资料。', tone: '中性', col: 'class handouts, printed handouts', en: 'The handouts are on the desk.', cn: '讲义在桌子上。' },
+    { w: 'hands', zh: '手', scene: '胳膊末端用来拿东西的那双手。作动词是传递。', tone: '中性', col: 'wash your hands, hands out', en: 'Wash your hands before lunch.', cn: '午饭前洗手。' },
+    { w: 'harness', zh: '利用', scene: '把风、水或一种力量用起来。', tone: '偏正式', col: 'harness the, harness energy', en: 'The dam harnesses the river.', cn: '水坝利用了这条河。' },
+    { w: 'harp', zh: '竖琴', scene: '有很多弦、竖着弹的乐器。', tone: '中性', col: 'play the harp, a harp solo', en: 'She plays the harp.', cn: '她弹竖琴。' },
+    { w: 'harvest', zh: '收割', scene: '把成熟的庄稼割下来、收进仓里。', tone: '中性', col: 'harvest the, the harvest of', en: 'They harvest the wheat in August.', cn: '他们八月收小麦。' },
+    { w: 'hates', zh: '厌恶', scene: '非常不喜欢，想躲开。', tone: '负面', col: 'hates doing, hates the', en: 'She hates waiting in queues.', cn: '她讨厌排队。' },
+    { w: 'hats', zh: '帽子', scene: '戴在头上的帽子。', tone: '中性', col: 'wear hats, sun hats', en: 'Hats are by the door.', cn: '帽子在门边。' },
+    { w: 'head', zh: '头', scene: '身体最上面的那一部分。它也可以表示每人，或出发。', tone: '中性', col: 'the head of, head for', en: 'He nodded his head.', cn: '他点了点头。' },
+    { w: 'headland', zh: '岬', scene: '陆地伸进海里的那一块。这张卡原文把岬写成了呷。', tone: '中性', col: 'a rocky headland, on the headland', en: 'The path ends at a headland.', cn: '小路尽头是一座岬角。' },
+    { w: 'headlines', zh: '大标题', scene: '新闻最上面、字最大的那一行标题。', tone: '中性', col: 'newspaper headlines, the headlines', en: 'The story made the headlines.', cn: '这件事上了头条。' },
+    { w: 'heart', zh: '心脏', scene: '胸口里把血送出去的那个器官。', tone: '中性', col: 'heart disease, the heart of', en: 'The heart pumps blood.', cn: '心脏把血泵出去。' },
+    { w: 'heavy', zh: '重的', scene: '分量大，拿起来费劲。', tone: '中性', col: 'a heavy bag, heavy rain', en: 'The box is heavy.', cn: '这个箱子很重。' },
+    { w: 'hedges', zh: '树篱', scene: '修剪过、用来隔开田地或院子的一排灌木。', tone: '中性', col: 'garden hedges, trim the hedges', en: 'Birds nest in the hedges.', cn: '鸟在树篱里筑巢。' },
+    { w: 'heels', zh: '高跟鞋', scene: '这张卡的意思是高跟鞋。heel 也可以指脚后跟。', tone: '中性', col: 'high heels, a pair of heels', en: 'She wore heels to the dinner.', cn: '她穿着高跟鞋去吃晚饭。' },
+    { w: 'height', zh: '高度', scene: '从底部到顶部有多高。', tone: '中性', col: 'the height of, in height', en: 'The wall is two metres in height.', cn: '这堵墙高两米。' },
+    { w: 'helicopter', zh: '直升机', scene: '靠顶上旋翼升起、可以停在空中的飞机。', tone: '中性', col: 'a rescue helicopter, by helicopter', en: 'A helicopter landed in the field.', cn: '一架直升机降落在田里。' },
+    { w: 'helmets', zh: '头盔', scene: '骑车或施工时戴在头上的硬帽。', tone: '中性', col: 'safety helmets, bicycle helmets', en: 'Cyclists must wear helmets.', cn: '骑自行车的人必须戴头盔。' },
+    { w: 'helpful', zh: '有帮助的', scene: '这件事或这个人让困难变小。', tone: '褒义', col: 'helpful advice, helpful to', en: 'The map was helpful.', cn: '这张地图很有帮助。' },
+    { w: 'helpless', zh: '无助的', scene: '自己做不了，需要别人来帮。', tone: '中性', col: 'feel helpless, helpless to', en: 'The chick looked helpless.', cn: '这只小鸡看上去很无助。' },
+    { w: 'heritage', zh: '遗产', scene: '一代代留下来的建筑、习俗或文物。', tone: '偏正式', col: 'cultural heritage, heritage site', en: 'The old mill is part of local heritage.', cn: '这座旧磨坊是当地遗产的一部分。' },
+    { w: 'hero', zh: '英雄；男主角', scene: '做出勇敢事迹的人，或故事里的男主人公。', tone: '褒义', col: 'a local hero, the hero of', en: 'The hero of the story is a teacher.', cn: '故事的主人公是一位老师。' },
+    { w: 'heroine', zh: '女主角', scene: '故事里的女主人公，或做出勇敢事迹的女性。', tone: '中性', col: 'the heroine of, a war heroine', en: 'The heroine solves the problem.', cn: '女主角解决了这个问题。' },
+    { w: 'hibernation', zh: '冬眠', scene: '动物在寒冷季节睡得很久、几乎不动。', tone: '偏技术', col: 'winter hibernation, enter hibernation', en: 'Bears spend the winter in hibernation.', cn: '熊在冬天冬眠。' },
+    { w: 'hidden', zh: '隐藏的', scene: '放在看不见的地方，或还没被发现。', tone: '中性', col: 'hidden from, a hidden door', en: 'The path was hidden by trees.', cn: '小路被树挡住了。' },
+    { w: 'hierarchy', zh: '等级制度', scene: '从高到低排好的层级，谁在谁上面。', tone: '正式', col: 'a hierarchy of, social hierarchy', en: 'The company has a clear hierarchy.', cn: '这家公司等级很清楚。' },
+    { w: 'highways', zh: '公路', scene: '供车辆快速通行的大路。', tone: '中性', col: 'major highways, on the highways', en: 'The highways were busy.', cn: '公路上很繁忙。' },
+    { w: 'hillsides', zh: '山坡', scene: '山的侧面那一片坡地。', tone: '中性', col: 'steep hillsides, on the hillsides', en: 'Sheep graze on the hillsides.', cn: '羊在山坡上吃草。' },
+    { w: 'history', zh: '历史', scene: '过去发生的事，或研究过去的学科。', tone: '中性', col: 'local history, a history of', en: 'The museum tells the history of the town.', cn: '博物馆讲述这个镇子的历史。' },
+    { w: 'hobby', zh: '业余爱好', scene: '工作之外因为喜欢才做的事。', tone: '中性', col: 'a hobby of, take up a hobby', en: 'Photography is her hobby.', cn: '摄影是她的爱好。' },
+    { w: 'hold', zh: '举行；保持', scene: '把活动办起来，或把东西拿住不放。', tone: '中性', col: 'hold a meeting, hold on', en: 'The school will hold a concert.', cn: '学校将举办一场音乐会。' },
+    { w: 'holes', zh: '孔；洞', scene: '表面上穿过去或凹进去的那些洞。', tone: '中性', col: 'holes in, dig holes', en: 'There are holes in the fence.', cn: '篱笆上有洞。' },
+    { w: 'homestay', zh: '寄宿家庭', scene: '学生住进当地人家里，边住边学。', tone: '中性', col: 'a homestay family, homestay accommodation', en: 'She found a homestay near the college.', cn: '她在学院附近找到了一家寄宿家庭。' },
+    { w: 'honey', zh: '蜂蜜', scene: '蜜蜂酿出的甜液。', tone: '中性', col: 'a jar of honey, honey and', en: 'She put honey in the tea.', cn: '她往茶里放了蜂蜜。' },
+    { w: 'hook', zh: '挂钩', scene: '墙上或杆上用来挂东西的弯钩。', tone: '中性', col: 'a coat hook, on the hook', en: 'Hang the bag on the hook.', cn: '把包挂在钩子上。' },
+    { w: 'hormones', zh: '激素', scene: '身体里调节生长和情绪的那些化学物质。', tone: '偏技术', col: 'growth hormones, hormone levels', en: 'The test measures hormones.', cn: '这项检查测量激素。' },
+    { w: 'horror', zh: '惊骇', scene: '强烈的害怕和震惊。它也可以是恐怖片这一类。', tone: '负面', col: 'in horror, a horror film', en: 'She stared in horror.', cn: '她惊恐地盯着。' },
+    { w: 'horses', zh: '马', scene: '可以骑或拉车的马。', tone: '中性', col: 'ride horses, wild horses', en: 'Horses graze in the field.', cn: '马在田里吃草。' },
+    { w: 'hospital', zh: '医院', scene: '医生给病人看病、病人可以住下的地方。', tone: '中性', col: 'in hospital, a hospital bed', en: 'He was taken to hospital.', cn: '他被送去了医院。' },
+    { w: 'hospitality', zh: '款待', scene: '对客人热情、让人觉得受欢迎。', tone: '褒义', col: 'hospitality of, warm hospitality', en: 'We thanked them for their hospitality.', cn: '我们感谢他们的款待。' },
+    { w: 'host', zh: '主持', scene: '负责接待客人，或主持一场节目、聚会。', tone: '中性', col: 'host a show, host the', en: 'She will host the meeting.', cn: '她将主持这次会议。' },
+    { w: 'hotspots', zh: '热点', scene: '特别繁忙、特别受关注或无线网络可用的那些地点。', tone: '中性', col: 'tourist hotspots, wifi hotspots', en: 'The square is a tourist hotspot.', cn: '广场是一个旅游热点。' },
+    { w: 'hours', zh: '小时', scene: '六十分钟为一个小时，或营业的那些时段。', tone: '中性', col: 'two hours, opening hours', en: 'The museum is open for six hours.', cn: '博物馆开放六个小时。' },
+    { w: 'household', zh: '一家人；家庭的', scene: '住在同一所房子里的那一家人，或家里用的。', tone: '中性', col: 'a household of, household goods', en: 'The household has four people.', cn: '这一家有四口人。' },
+    { w: 'housewife', zh: '家庭主妇', scene: '主要在家料理家务的女性。', tone: '中性', col: 'a housewife and, full-time housewife', en: 'She worked as a housewife for ten years.', cn: '她做了十年家庭主妇。' },
+    { w: 'hundreds', zh: '数百', scene: '数量到了几百，很多。', tone: '中性', col: 'hundreds of, several hundreds', en: 'Hundreds of people came.', cn: '来了好几百人。' },
+    { w: 'hunger', zh: '饥饿', scene: '肚子空、想吃东西的那种感觉，或大范围的缺粮。', tone: '中性', col: 'hunger and, die of hunger', en: 'Hunger made it hard to concentrate.', cn: '饥饿让人难以专心。' },
+    { w: 'hunters', zh: '猎人', scene: '出去打猎的人。', tone: '中性', col: 'local hunters, the hunters', en: 'The hunters returned at dusk.', cn: '猎人在黄昏时回来了。' },
+    { w: 'hurts', zh: '伤害；疼痛', scene: '让人受伤，或某个部位在痛。', tone: '中性', col: 'hurts somebody, it hurts', en: 'My knee hurts.', cn: '我的膝盖疼。' },
+    { w: 'husband', zh: '丈夫', scene: '婚姻里的男性一方。', tone: '中性', col: 'her husband, a husband and', en: 'Her husband works at the port.', cn: '她丈夫在港口工作。' },
+    { w: 'hydro', zh: '水力发电的', scene: '这张卡是 hydroelectric 的简称，和水能发电有关。', tone: '偏技术', col: 'hydro power, a hydro plant', en: 'The valley has a hydro plant.', cn: '山谷里有一座水电站。' },
+    { w: 'hygrometer', zh: '湿度计', scene: '测量空气里水汽多少的仪器。', tone: '偏技术', col: 'a digital hygrometer, read the hygrometer', en: 'The hygrometer is on the wall.', cn: '湿度计在墙上。' }
   ];
 
   const byWord = Object.create(null);
