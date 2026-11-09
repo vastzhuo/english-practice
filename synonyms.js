@@ -42,7 +42,8 @@
     { line: '不接受、退回不要、说那件事不是真的，拒绝的对象不一样。', items: [
       { w: 'refuse', zh: '拒绝', scene: '有人把东西或请求递过来，你摇头不接。', tone: '中性', col: 'refuse to do, refuse an offer', en: 'He refused to answer the question.', cn: '他拒绝回答这个问题。' },
       { w: 'reject', zh: '拒绝；驳回', scene: '一份申请或一个想法被正式退回来，上面像盖了“不通过”。', tone: '偏正式，语气更硬', col: 'reject an application, reject an idea', en: 'The committee rejected the proposal.', cn: '委员会驳回了这项提议。' },
-      { w: 'deny', zh: '否认', scene: '别人说你做了某事，你说“不是这样”，把这件事否定掉。', tone: '中性偏正式', col: 'deny that, deny doing, deny a request', en: 'She denied taking the money.', cn: '她否认拿了那笔钱。' }
+      { w: 'deny', zh: '否认', scene: '别人说你做了某事，你说“不是这样”，把这件事否定掉。', tone: '中性偏正式', col: 'deny that, deny doing, deny a request', en: 'She denied taking the money.', cn: '她否认拿了那笔钱。' },
+      { w: 'turn down', zh: '拒绝', scene: '一份邀请或工作递到你面前，你把它挡回去。', tone: '偏口语', col: 'turn down an offer, turn somebody down', en: 'He turned down the job offer.', cn: '他拒绝了那份工作邀请。' }
     ]},
     { line: '提出一个想法、根据了解推荐、正式提出方案，力度和场合不同。', items: [
       { w: 'suggest', zh: '建议；表明', scene: '你把一个主意轻轻放在桌上，供别人考虑，也可以是数据“暗示”某个结论。', tone: '中性', col: 'suggest that, suggest doing', en: 'I suggest that we start with the easiest task.', cn: '我建议我们先做最容易的任务。' },
@@ -258,7 +259,8 @@
     { line: '把时间往后推、改期、下手前停一下。', items: [
       { w: 'delay', zh: '推迟；延误', scene: '该发生的事没有按时发生，人或天气把它拖住了。', tone: '中性', col: 'delay a flight, without delay', en: 'The flight was delayed by two hours.', cn: '航班延误了两个小时。' },
       { w: 'postpone', zh: '延期', scene: '你主动把约定的日期改到以后，日历上的那一天被划掉。', tone: '偏正式', col: 'postpone until, postpone a meeting', en: 'They postponed the meeting until Friday.', cn: '他们把会议延期到星期五。' },
-      { w: 'hesitate', zh: '犹豫', scene: '手已经抬起来，又停住，还没决定要不要做。', tone: '中性', col: 'hesitate to, hesitate over', en: 'Do not hesitate to ask for help.', cn: '需要帮助就开口，不必犹豫。' }
+      { w: 'hesitate', zh: '犹豫', scene: '手已经抬起来，又停住，还没决定要不要做。', tone: '中性', col: 'hesitate to, hesitate over', en: 'Do not hesitate to ask for help.', cn: '需要帮助就开口，不必犹豫。' },
+      { w: 'put off', zh: '推迟', scene: '本该今天做的事被你挪到以后，日历上的那一格空出来。', tone: '偏口语', col: 'put off a decision, put something off', en: 'They put off the meeting until Monday.', cn: '他们把会议推迟到星期一。' }
     ]},
     { line: '进店的人、购买服务的委托人、使用并消耗商品的人。', items: [
       { w: 'customer', zh: '顾客', scene: '走进商店或餐馆、付钱买东西的人。', tone: '中性', col: 'customer service, a regular customer', en: 'The shop has many regular customers.', cn: '这家店有很多老顾客。' },
@@ -411,7 +413,8 @@
     ]},
     { line: '做得到、符合实际，不只是空想。', items: [
       { w: 'feasible', zh: '可行的', scene: '计划放在现实里能走通，时间、钱和人手都够得着。', tone: '偏正式', col: 'feasible to, a feasible plan', en: 'The proposal is feasible within the budget.', cn: '这项提议在预算内是可行的。' },
-      { w: 'practical', zh: '实用的；实际的', scene: '不空谈，拿来就能用，像一把趁手的工具。', tone: '中性', col: 'a practical solution, practical experience', en: 'We need a practical solution, not a slogan.', cn: '我们需要一个能用的办法，不是一句口号。' }
+      { w: 'practical', zh: '实用的；实际的', scene: '不空谈，拿来就能用，像一把趁手的工具。', tone: '中性', col: 'a practical solution, practical experience', en: 'We need a practical solution, not a slogan.', cn: '我们需要一个能用的办法，不是一句口号。' },
+      { w: 'pragmatic', zh: '务实的', scene: '人不拘泥于理想样子，拣眼前真正能做成的那条路走。', tone: '中性偏正式', col: 'a pragmatic approach, pragmatic about', en: 'She took a pragmatic approach to the budget.', cn: '她对预算采取了务实的做法。' }
     ]},
     { line: '长得茂盛，和事业、城市兴旺起来。', items: [
       { w: 'thrive', zh: '茁壮成长', scene: '植物在阳光下越长越旺，人或城市也在合适的条件里越来越好。', tone: '褒义', col: 'thrive on, thrive in', en: 'Small shops thrive in this neighbourhood.', cn: '小店在这个社区里生意兴旺。' },
@@ -507,7 +510,8 @@
     ]},
     { line: '一心去找，和在各处搜寻。', items: [
       { w: 'seek', zh: '寻求', scene: '你朝着帮助、工作或答案走去，语气较正式。', tone: '偏正式', col: 'seek help, seek to', en: 'They sought advice from a lawyer.', cn: '他们向律师寻求建议。' },
-      { w: 'search', zh: '搜索；搜查', scene: '在包里、网上或房间里一处一处翻找。', tone: '中性', col: 'search for, search the room', en: 'Police searched the building.', cn: '警方搜查了那栋楼。' }
+      { w: 'search', zh: '搜索；搜查', scene: '在包里、网上或房间里一处一处翻找。', tone: '中性', col: 'search for, search the room', en: 'Police searched the building.', cn: '警方搜查了那栋楼。' },
+      { w: 'look into', zh: '调查', scene: '你掀开盖子，往一件事里面看，想弄清到底发生了什么。', tone: '偏口语', col: 'look into a problem, look into whether', en: 'The school will look into the complaint.', cn: '学校会调查这起投诉。' }
     ]},
     { line: '把注意力聚到一个点上。', items: [
       { w: 'focus', zh: '焦点；集中', scene: '镜头对上一个点，其余变模糊。也可以是名词“焦点”。', tone: '中性', col: 'focus on, the focus of', en: 'Focus on the main idea.', cn: '把注意力放在主要意思上。' },
@@ -782,7 +786,8 @@
     ]},
     { line: '把手放上去把问题处理掉。', items: [
       { w: 'tackle', zh: '处理；应对', scene: '你迎上一个难题，准备把它解决，像扑上去拦住。', tone: '中性，新闻里常见', col: 'tackle a problem, tackle crime', en: 'The city must tackle air pollution.', cn: '这座城市必须应对空气污染。' },
-      { w: 'handle', zh: '处理；触碰', scene: '手里拿着，或把一件事务接过来处理。它也可以表示门把手。', tone: '中性', col: 'handle a situation, handle with care', en: 'She handled the complaint calmly.', cn: '她平静地处理了投诉。' }
+      { w: 'handle', zh: '处理；触碰', scene: '手里拿着，或把一件事务接过来处理。它也可以表示门把手。', tone: '中性', col: 'handle a situation, handle with care', en: 'She handled the complaint calmly.', cn: '她平静地处理了投诉。' },
+      { w: 'deal with', zh: '处理', scene: '问题来了，你走上前把它接住，而不是躲开。', tone: '中性，偏口语', col: 'deal with a problem, deal with somebody', en: 'She dealt with the delay calmly.', cn: '她平静地处理了这次耽搁。' }
     ]},
     { line: '自愿来帮忙的人，和帮手。', items: [
       { w: 'volunteer', zh: '志愿者；自愿做', scene: '没有人点名，自己举手来做事，通常不拿工资。', tone: '褒义', col: 'volunteer to, volunteer work', en: 'Students volunteer at the hospital.', cn: '学生在医院做志愿者。' },
@@ -1019,7 +1024,8 @@
     { line: '意见一致、正式同意、批准通过。', items: [
       { w: 'agree', zh: '同意', scene: '两点头，你们的看法落到同一个地方。', tone: '中性', col: 'agree with, agree to', en: 'I agree with the first point.', cn: '我同意第一点。' },
       { w: 'consent', zh: '同意；准许', scene: '正式点头允许，常用于法律或医学里的知情同意。', tone: '正式', col: 'give consent, consent to', en: 'The patient gave written consent.', cn: '病人给出了书面同意。' },
-      { w: 'approve', zh: '批准；赞成', scene: '有权的人在文件上放行，或你表示这件事是好的。', tone: '中性偏正式', col: 'approve a plan, approve of', en: 'The board approved the budget.', cn: '董事会批准了预算。' }
+      { w: 'approve', zh: '批准；赞成', scene: '有权的人在文件上放行，或你表示这件事是好的。', tone: '中性偏正式', col: 'approve a plan, approve of', en: 'The board approved the budget.', cn: '董事会批准了预算。' },
+      { w: 'see eye to eye', zh: '意见一致', scene: '两个人看着同一处，点头，没有各说各的。', tone: '偏口语', col: 'see eye to eye on, see eye to eye with', en: 'We see eye to eye on the budget.', cn: '我们在预算上看法一致。' }
     ]},
     { line: '资源从哪里来，和资源本身。', items: [
       { w: 'source', zh: '来源', scene: '河的源头，或一条消息是从哪里来的。', tone: '中性', col: 'a source of, the source of', en: 'The river has its source in the hills.', cn: '这条河的源头在山里。' },
@@ -1131,14 +1137,198 @@
       { w: 'speed', zh: '速度', scene: '单位时间里走多远，仪表上的那个数。', tone: '中性', col: 'at speed, speed of', en: 'The speed of the train increased.', cn: '火车的速度提高了。' },
       { w: 'rate', zh: '速率；比率', scene: '事情发生得有多快，或两个数之间的比率，如出生率。', tone: '中性偏正式', col: 'at a rate of, the rate of', en: 'The rate of growth has slowed.', cn: '增长速度放慢了。' }
     ]},
+    { line: '话直接、不绕弯。candid 更坦率，honest 强调不骗人，direct 强调不拐弯。', items: [
+      { w: 'candid', zh: '坦率的', scene: '心里怎么想，嘴上就怎么说，不先包一层好听的纸。', tone: '褒义', col: 'a candid opinion, candid about', en: 'She was candid about her mistake.', cn: '她坦率地说了自己的错误。' },
+      { w: 'honest', zh: '诚实的', scene: '事实是什么样，你就不改口，不把假的说成真的。', tone: '褒义', col: 'honest about, an honest answer', en: 'Please give me an honest answer.', cn: '请给我一个诚实的回答。' },
+      { w: 'direct', zh: '直接的', scene: '话走直线，不绕到别处再回来。它也可以表示管理或指向。', tone: '中性', col: 'a direct answer, direct with', en: 'He gave a direct answer.', cn: '他给了一个直接的回答。' }
+    ]},
+    { line: '合这个场合、配得上、按规矩是对的。', items: [
+      { w: 'appropriate', zh: '恰当的', scene: '衣服、话或做法刚好适合这个房间和这个时候。', tone: '中性偏正式', col: 'appropriate for, appropriate to', en: 'Jeans are not appropriate for the interview.', cn: '面试穿牛仔裤不合适。' },
+      { w: 'suitable', zh: '合适的', scene: '这个人和这个位子、这个工具和这个活，配得上。', tone: '中性', col: 'suitable for, suitable to', en: 'The room is suitable for a small meeting.', cn: '这个房间适合开小会。' },
+      { w: 'proper', zh: '适当的；像样的', scene: '按该有的规矩来，不是随便应付。', tone: '中性', col: 'proper training, a proper meal', en: 'Staff need proper training to use the machine.', cn: '员工需要恰当的培训才能使用这台机器。' }
+    ]},
+    { line: '合乎情理，和想得明白、不糊涂。', items: [
+      { w: 'reasonable', zh: '合理的', scene: '价钱或要求放在常理上站得住，别人听了会点头。', tone: '中性', col: 'a reasonable price, reasonable to', en: 'The fee is reasonable.', cn: '这个费用是合理的。' },
+      { w: 'sensible', zh: '明智的', scene: '人作出的选择清楚、不冲动，像下雨就带伞。', tone: '褒义', col: 'a sensible decision, sensible about', en: 'It was sensible to leave early.', cn: '早点离开是明智的。' }
+    ]},
+    { line: '少见、值得停下来看第二眼。', items: [
+      { w: 'remarkable', zh: '非凡的', scene: '一件事从平常的背景里凸出来，让人忍不住多看一眼。', tone: '褒义', col: 'a remarkable achievement, remarkable for', en: 'The result was remarkable.', cn: '这个结果很不寻常。' },
+      { w: 'extraordinary', zh: '非凡的；不一般的', scene: '超出普通日子的那一档，像一场少见的演出。', tone: '褒义，语气强', col: 'extraordinary talent, extraordinary circumstances', en: 'She showed extraordinary patience.', cn: '她表现出了非同寻常的耐心。' }
+    ]},
+    { line: '心里热、想马上去做。', items: [
+      { w: 'enthusiastic', zh: '热情的', scene: '眼睛发亮，说话变快，整个人朝那件事倾过去。', tone: '褒义', col: 'enthusiastic about, an enthusiastic response', en: 'The class was enthusiastic about the trip.', cn: '全班对这次出行很热情。' },
+      { w: 'eager', zh: '渴望的', scene: '人已经站在起跑线上，恨不得现在就开始。', tone: '褒义', col: 'eager to, eager for', en: 'He is eager to start the course.', cn: '他渴望开始这门课。' },
+      { w: 'keen', zh: '热心的；渴望的', scene: '兴趣很尖，像刀口对着那件事。它也可以表示锋利或敏锐。', tone: '中性偏褒义', col: 'keen on, keen to', en: 'She is keen on photography.', cn: '她对摄影很热心。' }
+    ]},
+    { line: '朝一个目标追过去。chase 还可以是追上一个在跑的人。', items: [
+      { w: 'pursue', zh: '追求', scene: '你沿着一条目标走很久，不轻易拐走，像追求一门专业。', tone: '偏正式', col: 'pursue a career, pursue a goal', en: 'She decided to pursue medicine.', cn: '她决定去学医。' },
+      { w: 'chase', zh: '追捕；追求', scene: '目标在前面移动，你在后面追。追一个人时画面更具体。', tone: '中性', col: 'chase after, chase a dream', en: 'The dog chased the ball across the park.', cn: '狗追着球跑过公园。' }
+    ]},
+    { line: '少浪费地做成，和确实产生了效果。', items: [
+      { w: 'efficient', zh: '高效的', scene: '同样的结果，用的时间和材料更少，机器不空转。', tone: '褒义', col: 'efficient use, energy efficient', en: 'The new bus route is more efficient.', cn: '新公交线路效率更高。' },
+      { w: 'effective', zh: '有效的', scene: '药或办法真的起了作用，问题变小了。', tone: '中性偏褒义', col: 'effective in, an effective method', en: 'The treatment was effective.', cn: '这个治疗是有效的。' }
+    ]},
+    { line: '把已经不好的情况再往下压一截。', items: [
+      { w: 'exacerbate', zh: '加剧', scene: '伤口还在，又撒了一把盐，问题变得更重。', tone: '正式，负面', col: 'exacerbate a problem, exacerbate tensions', en: 'The delay exacerbated the shortage.', cn: '耽搁加剧了短缺。' },
+      { w: 'aggravate', zh: '加重；加剧', scene: '和 exacerbate 接近，病情或矛盾被推得更严重。', tone: '正式，负面', col: 'aggravate the situation, aggravate an injury', en: 'Shouting only aggravated the argument.', cn: '大喊大叫只让争吵更严重。' }
+    ]},
+    { line: '缺了就不行，到了生死攸关的程度。', items: [
+      { w: 'vital', zh: '极其重要的', scene: '像身体里不能停的那一下心跳，没有它整件事会停。', tone: '语气强', col: 'vital to, vital for', en: 'Sleep is vital for memory.', cn: '睡眠对记忆极其重要。' },
+      { w: 'indispensable', zh: '不可或缺的', scene: '拿掉这个人这把工具，工作台就转不起来。', tone: '正式，语气强', col: 'indispensable to, indispensable for', en: 'She has become indispensable to the team.', cn: '她对团队已经不可或缺。' }
+    ]},
+    { line: '把一份资源分到各处。', items: [
+      { w: 'distribute', zh: '分发；分配', scene: '一箱东西被送到不同的人手上。', tone: '中性', col: 'distribute to, evenly distributed', en: 'Volunteers distributed water to the crowd.', cn: '志愿者把水发给人群。' },
+      { w: 'allocate', zh: '拨给；分配', scene: '预算表上，一笔钱被指定给某一个项目。', tone: '正式', col: 'allocate funds, allocate time', en: 'The school allocated more time to science.', cn: '学校给科学拨了更多时间。' }
+    ]},
+    { line: '用符号写出的数量关系。', items: [
+      { w: 'formula', zh: '公式；方案', scene: '一行符号，照着算就能得到结果。也可以是一套固定做法。', tone: '中性', col: 'a formula for, chemical formula', en: 'The students learned the formula.', cn: '学生们学会了这个公式。' },
+      { w: 'equation', zh: '等式', scene: '等号两边一样重，是公式里左右平衡的那一种。', tone: '偏技术', col: 'solve an equation, a simple equation', en: 'Solve the equation for x.', cn: '解这个关于 x 的等式。' }
+    ]},
+    { line: '把一个机构管起来。', items: [
+      { w: 'administration', zh: '管理；行政', scene: '办公室里的表格、规章和管事的那一层人。', tone: '正式', col: 'the administration, public administration', en: 'The administration announced a new rule.', cn: '行政部门宣布了一项新规定。' },
+      { w: 'management', zh: '管理', scene: '负责做决定、安排人和资源的那一群人或那套做法。', tone: '中性', col: 'senior management, under management', en: 'Management approved the new hours.', cn: '管理层批准了新的工作时间。' }
+    ]},
+    { line: '一群被选出来一起做决定的人。', items: [
+      { w: 'commission', zh: '委员会；委托', scene: '被正式委派去调查或完成一件事的一组人。它也可以表示委托。', tone: '正式', col: 'a commission on, set up a commission', en: 'A commission investigated the accident.', cn: '一个委员会调查了这次事故。' },
+      { w: 'committee', zh: '委员会', scene: '机构内部坐下来讨论并作决定的那一桌人。', tone: '中性偏正式', col: 'a committee of, the committee decided', en: 'The committee meets every month.', cn: '委员会每个月开会。' }
+    ]},
+    { line: '符合平常样子。', items: [
+      { w: 'normal', zh: '正常的', scene: '没有出故障，事情按平时的样子发生。', tone: '中性', col: 'back to normal, normal for', en: 'Her temperature is normal.', cn: '她的体温正常。' },
+      { w: 'usual', zh: '通常的', scene: '你习惯看见的那个样子，今天又出现了。', tone: '中性', col: 'as usual, the usual time', en: 'She took the usual train.', cn: '她坐了平时那班火车。' }
+    ]},
+    { line: '把一件事做出来。perform 还可以是演出。', items: [
+      { w: 'conduct', zh: '进行；实施', scene: '你带着一项调查或实验往前走，像指挥一场进行中的事。', tone: '正式', col: 'conduct a survey, conduct research', en: 'They conducted a survey of local shops.', cn: '他们对当地商店做了调查。' },
+      { w: 'perform', zh: '执行；表演', scene: '把该做的动作做完。在舞台上时，它的意思是演出。', tone: '中性', col: 'perform a task, perform an operation', en: 'The surgeon performed the operation.', cn: '外科医生做了这个手术。' }
+    ]},
+    { line: '一直保持不变，和中间不停顿。', items: [
+      { w: 'constant', zh: '持续不变的', scene: '数字或温度停在同一高度，不忽高忽低。', tone: '中性偏正式', col: 'remain constant, a constant temperature', en: 'The temperature remained constant.', cn: '温度一直保持不变。' },
+      { w: 'continuous', zh: '连续的', scene: '一条线中间没有断开，雨一直下，没有停的缝。', tone: '中性偏正式', col: 'continuous rain, continuous improvement', en: 'There was continuous rain for three days.', cn: '雨连续下了三天。' }
+    ]},
+    { line: '需要处理的问题。', items: [
+      { w: 'issue', zh: '问题', scene: '一件摆到桌面上、需要讨论或解决的事。', tone: '中性', col: 'an issue with, raise an issue', en: 'Cost is the main issue.', cn: '成本是主要问题。' },
+      { w: 'matter', zh: '问题；事情', scene: '一件需要在意的事。也常说 it matters，表示“这有关系”。', tone: '中性', col: 'a matter of, it does not matter', en: 'Safety is a serious matter.', cn: '安全是一件严肃的事。' }
+    ]},
+    { line: '把一个机构或传统从无到有立起来。found 也可以是 find 的过去式。', items: [
+      { w: 'establish', zh: '建立', scene: '一面牌子挂上去，一家学校或一项制度开始存在。', tone: '正式', col: 'establish a company, establish that', en: 'They established a scholarship in 1990.', cn: '他们在 1990 年设立了一项奖学金。' },
+      { w: 'found', zh: '创立', scene: '一个人在最初把组织建起来。这个词也可以是 find 的过去式。', tone: '正式', col: 'found a university, founded in', en: 'The charity was founded by two teachers.', cn: '这家慈善机构由两位老师创立。' }
+    ]},
+    { line: '按次序排好的一串，和一套相关的连续作品。', items: [
+      { w: 'sequence', zh: '顺序', scene: '步骤 1、2、3 排成一条，打乱了就不对。', tone: '偏正式', col: 'in sequence, a sequence of', en: 'Follow the steps in sequence.', cn: '按顺序做这些步骤。' },
+      { w: 'series', zh: '一系列；连续剧', scene: '一组相关的事件、书或剧集，一个接一个出现。', tone: '中性', col: 'a series of, a television series', en: 'There has been a series of delays.', cn: '出现了一连串耽搁。' }
+    ]},
+  ];
+
+  const SOLOS = [
+{ w: 'break the ice', zh: '打破僵局', scene: '房间里没人说话，你讲一句轻松的话，冰面裂开，谈话开始了。', tone: '偏口语', col: 'break the ice with, an ice-breaker', en: 'He told a joke to break the ice.', cn: '他讲了个笑话来打破僵局。' },
+    { w: 'resilient', zh: '有韧性的', scene: '树枝被压弯，手松开后又弹回原来的样子。', tone: '褒义', col: 'resilient to, a resilient community', en: 'The town was resilient after the flood.', cn: '洪水之后，这个镇子恢复得很快。' },
+    { w: 'follow up', zh: '跟进', scene: '第一次联系之后，你再写一封信或再打一个电话，把事情接上。', tone: '中性', col: 'follow up on, a follow-up', en: 'I will follow up by email tomorrow.', cn: '我明天会用邮件跟进。' },
+    { w: 'meticulous', zh: '一丝不苟的', scene: '人把每个小数点和每个角落都检查过，桌上没有潦草的痕迹。', tone: '褒义', col: 'meticulous about, meticulous attention', en: 'She is meticulous about the figures.', cn: '她对数字一丝不苟。' },
+    { w: 'on the same page', zh: '达成共识', scene: '大家看着同一页纸，对下一步没有各想各的。', tone: '偏口语', col: 'get on the same page, be on the same page', en: 'Let us get on the same page before we start.', cn: '开始之前我们先把想法对齐。' },
+    { w: 'figure out', zh: '弄明白', scene: '一团乱线在手里慢慢被解开，答案出现了。', tone: '偏口语', col: 'figure out how, figure something out', en: 'I cannot figure out this instruction.', cn: '我弄不明白这条说明。' },
+    { w: 'ambiguous', zh: '模棱两可的', scene: '一句话有两扇门，听的人不知道该进哪一扇。', tone: '中性偏正式', col: 'ambiguous wording, deliberately ambiguous', en: 'The instruction is ambiguous.', cn: '这条说明有歧义。' },
+    { w: 'get the hang of', zh: '掌握窍门', scene: '一开始手是生的，练过几次之后动作突然顺了。', tone: '偏口语', col: 'get the hang of something', en: 'She soon got the hang of the software.', cn: '她很快就摸熟了这个软件。' },
+    { w: 'a piece of cake', zh: '小菜一碟', scene: '任务轻得像拿起一块蛋糕，人不需要费力。', tone: '偏口语', col: 'be a piece of cake', en: 'The first question was a piece of cake.', cn: '第一题非常容易。' },
+    { w: 'run out of', zh: '用完', scene: '瓶子倒过来，最后一滴也没有了。', tone: '偏口语', col: 'run out of time, run out of money', en: 'We ran out of paper.', cn: '我们的纸用完了。' },
+    { w: 'keep in mind', zh: '记住；放在心上', scene: '你把一件事放在眼前的架子上，做决定时还能看见它。', tone: '中性', col: 'keep something in mind', en: 'Keep the deadline in mind.', cn: '把截止日期放在心上。' },
+    { w: 'call it a day', zh: '今天到此为止', scene: '工具放下，灯关掉，今天的工作就停在这里。', tone: '偏口语', col: 'call it a day', en: 'We were tired, so we called it a day.', cn: '我们累了，于是今天就到这里。' },
+    { w: 'reluctant', zh: '不情愿的', scene: '脚已经在门口，人还是不想迈出去。', tone: '中性', col: 'reluctant to, a reluctant smile', en: 'He was reluctant to sign the form.', cn: '他不太愿意在表格上签名。' },
+    { w: 'look forward to', zh: '期待', scene: '你看着前方的日子，心里是高兴的，不是担心。', tone: '中性', col: 'look forward to doing', en: 'I look forward to meeting you.', cn: '我期待和你见面。' },
+    { w: 'versatile', zh: '多用途的；多才多艺的', scene: '一把工具能做好几样事，或一个人换几个角色都顺。', tone: '褒义', col: 'a versatile player, versatile enough', en: 'The tool is versatile and light.', cn: '这个工具用途多，而且轻。' },
+    { w: 'under the weather', zh: '身体不适', scene: '人没有大病，但脸色不好，想躺一下。', tone: '偏口语', col: 'feel under the weather', en: 'She stayed home because she felt under the weather.', cn: '她觉得不舒服，所以待在家里。' },
+    { w: 'inevitable', zh: '不可避免的', scene: '石头已经从坡上松开，掉下去只是时间问题。', tone: '偏正式', col: 'inevitable result, almost inevitable', en: 'Change was inevitable.', cn: '变化是不可避免的。' },
+    { w: 'bring up', zh: '提出（话题）', scene: '你把一个话题从桌下拿到桌面上，让大家看见。', tone: '偏口语', col: 'bring up a subject, bring something up', en: 'She brought up the question of cost.', cn: '她提出了费用的问题。' },
+    { w: 'prioritize', zh: '优先处理', scene: '一叠任务里，你把最要紧的那张放到最上面。', tone: '中性', col: 'prioritize tasks, prioritize over', en: 'We should prioritize safety.', cn: '我们应该把安全放在优先位置。' },
+    { w: 'hit the road', zh: '上路；出发', scene: '包已经拉上，人走出门，行程开始。', tone: '偏口语', col: 'hit the road', en: 'We hit the road before sunrise.', cn: '我们日出前就上路了。' },
+    { w: 'the ball is in your court', zh: '该你做决定了', scene: '球已经滚到你这边，下一拍要由你来打。', tone: '偏口语', col: 'the ball is in your court', en: 'I have sent the form, so the ball is in your court.', cn: '表格我已经寄出，接下来该你决定了。' },
+    { w: 'genuine', zh: '真正的；真诚的', scene: '东西不是仿的，笑容也不是装出来的。', tone: '褒义', col: 'genuine leather, a genuine interest', en: 'She showed a genuine interest in the work.', cn: '她对这项工作表现出真正的兴趣。' },
+    { w: 'come up with', zh: '想出', scene: '脑子里一亮，一个新主意被你拿到桌上。', tone: '偏口语', col: 'come up with an idea, come up with a plan', en: 'They came up with a simpler plan.', cn: '他们想出了一个更简单的计划。' },
+    { w: 'overwhelmed', zh: '不知所措的', scene: '事情像潮水漫过头顶，人一时不知道先抓哪一件。', tone: '中性，常偏负面', col: 'overwhelmed by, feel overwhelmed', en: 'She felt overwhelmed by the workload.', cn: '工作量让她不知所措。' },
+    { w: 'cut corners', zh: '偷工减料', scene: '本该走完整的路，人斜着抄近路，质量就少了一块。', tone: '贬义，偏口语', col: 'cut corners on', en: 'Do not cut corners on safety.', cn: '安全上不要偷工减料。' },
+    { w: 'once in a blue moon', zh: '极少', scene: '蓝月亮很少出现，这件事也难得发生一次。', tone: '偏口语', col: 'once in a blue moon', en: 'He visits only once in a blue moon.', cn: '他极少过来。' },
+    { w: 'catch up', zh: '赶上；叙旧', scene: '你跑到前面那个人旁边，或者久别后把近况补上。', tone: '偏口语', col: 'catch up with, catch up on', en: 'I need to catch up on the news.', cn: '我需要补上这些消息。' },
+    { w: 'get along with', zh: '相处融洽', scene: '两个人坐在一起不别扭，日子过得顺。', tone: '偏口语', col: 'get along with somebody', en: 'She gets along with her colleagues.', cn: '她和同事相处得很好。' },
+    { w: 'ambitious', zh: '有抱负的', scene: '眼睛看着比现在更高的那一层，并且打算爬上去。', tone: '中性偏褒义', col: 'ambitious plans, ambitious for', en: 'The project is ambitious but possible.', cn: '这个项目目标很高，但做得到。' },
+    { w: 'in a nutshell', zh: '简而言之', scene: '一大段话被收进一个小壳里，只剩核心那一句。', tone: '偏口语', col: 'in a nutshell', en: 'In a nutshell, the plan saves time.', cn: '简而言之，这个计划能省时间。' },
+    { w: 'point out', zh: '指出', scene: '你用手指或一句话，让别人看见一处原来没注意的地方。', tone: '中性', col: 'point out that, point something out', en: 'She pointed out a mistake in the chart.', cn: '她指出了图表里的一处错误。' },
+    { w: 'carry on', zh: '继续', scene: '脚步没有停，事情沿着原来的方向再往前走。', tone: '偏口语', col: 'carry on with, carry on doing', en: 'Please carry on with your work.', cn: '请继续你的工作。' },
+    { w: 'vivid', zh: '生动的', scene: '画面颜色很浓，闭上眼还能看见。', tone: '褒义', col: 'a vivid description, vivid memories', en: 'She gave a vivid description of the storm.', cn: '她把暴风雨描述得很生动。' },
+    { w: 'cost an arm and a leg', zh: '贵得要命', scene: '价签高到像要你再付出一条胳膊。', tone: '偏口语', col: 'cost an arm and a leg', en: 'The repairs cost an arm and a leg.', cn: '修理费贵得惊人。' },
+    { w: 'grateful', zh: '感激的', scene: '别人帮了你，你心里暖，想把谢谢说出来。', tone: '褒义', col: 'grateful for, grateful to', en: 'I am grateful for your help.', cn: '感谢你的帮助。' },
+    { w: 'make up one\'s mind', zh: '下定决心', scene: '几个选项在眼前转，最后你选定一个，不再晃。', tone: '中性', col: 'make up your mind', en: 'She made up her mind to stay.', cn: '她下定决心留下来。' },
+    { w: 'sustainable', zh: '可持续的', scene: '这棵树今年结果，明年还能结果，不会把地力耗尽。', tone: '中性偏正式', col: 'sustainable development, sustainable energy', en: 'The city wants sustainable transport.', cn: '这座城市想要可持续的交通。' },
+    { w: 'back up', zh: '支持；备份', scene: '你站到别人身后托一把，或把文件再存一份以防丢失。', tone: '偏口语', col: 'back somebody up, back up a file', en: 'Can you back up the files tonight?', cn: '你今晚能把文件备份一下吗？' },
+    { w: 'cautious', zh: '谨慎的', scene: '脚下先试一块石头，确认稳了再把重量放上去。', tone: '中性', col: 'cautious about, a cautious approach', en: 'Be cautious about the icy path.', cn: '结冰的路要小心。' },
+    { w: 'learn the ropes', zh: '学会门道', scene: '新水手先看绳结怎么系，慢慢知道这艘船怎么运转。', tone: '偏口语', col: 'learn the ropes', en: 'It takes a month to learn the ropes.', cn: '熟悉这份工作的门道要一个月。' },
+    { w: 'spontaneous', zh: '自发的', scene: '没有人事先写在日程上，笑声或决定自己冒出来。', tone: '中性', col: 'a spontaneous decision, spontaneous applause', en: 'The applause was spontaneous.', cn: '掌声是自发的。' },
+    { w: 'beat around the bush', zh: '拐弯抹角', scene: '话在灌木丛外面绕，迟迟不走进正题。', tone: '偏口语，常偏负面', col: 'beat around the bush', en: 'Do not beat around the bush.', cn: '别拐弯抹角。' },
+    { w: 'acknowledge', zh: '承认', scene: '你点头，表示这件事是真的，或这份帮助你收到了。', tone: '偏正式', col: 'acknowledge that, acknowledge receipt', en: 'He acknowledged that he was late.', cn: '他承认自己迟到了。' },
+    { w: 'set up', zh: '建立；安装', scene: '桌子支起来，或一家小组织被搭起来，可以开始用了。', tone: '偏口语', col: 'set up a meeting, set something up', en: 'They set up a scholarship for students.', cn: '他们为学生设立了一项奖学金。' },
+    { w: 'get cold feet', zh: '临阵退缩', scene: '都走到门口了，脚突然发凉，人不想进去了。', tone: '偏口语', col: 'get cold feet', en: 'He got cold feet before the speech.', cn: '演讲之前他临阵退缩了。' },
+    { w: 'give up', zh: '放弃', scene: '手里的绳子松开，你不再往上爬。', tone: '偏口语', col: 'give up on, give something up', en: 'Do not give up on the first day.', cn: '不要在第一天就放弃。' },
+    { w: 'better late than never', zh: '迟到总比不到好', scene: '人晚到了，但还是到了，比一直不出现好。', tone: '偏口语', col: 'better late than never', en: 'The report arrived late, but better late than never.', cn: '报告来晚了，但迟到总比不到好。' },
+    { w: 'curious', zh: '好奇的', scene: '门缝里有光，你想知道里面是什么。', tone: '中性偏褒义', col: 'curious about, curious to', en: 'The child was curious about the machine.', cn: '孩子对这台机器很好奇。' },
+    { w: 'speak up', zh: '大声说；说出看法', scene: '声音太小，或意见还藏着，你把它放到大家听得见的地方。', tone: '偏口语', col: 'speak up for, speak up about', en: 'Please speak up so everyone can hear.', cn: '请说大声一点，让大家都能听见。' },
+    { w: 'out of the blue', zh: '突然；出乎意料', scene: '晴天里一道消息掉下来，事先没有云。', tone: '偏口语', col: 'out of the blue', en: 'The offer came out of the blue.', cn: '这个机会来得非常突然。' },
+    { w: 'work out', zh: '解决；锻炼', scene: '一道题被算通，或人在健身房把身体练一遍。两个意思都常见。', tone: '偏口语', col: 'work out a solution, work out at', en: 'We worked out a solution.', cn: '我们想出了一个解决办法。' },
+    { w: 'hang in there', zh: '坚持住', scene: '人还挂在绳上，虽然累，但没有松手。', tone: '偏口语，鼓励', col: 'hang in there', en: 'The week is hard, but hang in there.', cn: '这一周很难，但坚持住。' },
+    { w: 'take for granted', zh: '视为理所当然', scene: '好东西天天在，你不再回头看它，好像它永远不会离开。', tone: '中性，常带可惜', col: 'take something for granted', en: 'Do not take clean water for granted.', cn: '不要把干净的水当成理所当然。' },
+    { w: 'modest', zh: '谦虚的', scene: '成绩放在桌上，人却不把自己举得很高。', tone: '褒义', col: 'a modest person, modest about', en: 'He was modest about the prize.', cn: '他对这个奖很谦虚。' },
+    { w: 'fill in', zh: '填写；临时顶替', scene: '表格上的空格被写上字，或一个人临时站到空出的岗位上。', tone: '偏口语', col: 'fill in a form, fill in for', en: 'Please fill in the form.', cn: '请把表格填好。' },
+    { w: 'keep an eye on', zh: '留意', scene: '你不盯死，但眼睛时不时回到那个人或那口锅上。', tone: '偏口语', col: 'keep an eye on somebody', en: 'Keep an eye on the oven.', cn: '留意一下烤箱。' },
+    { w: 'confident', zh: '自信的', scene: '人站直，相信自己下一步走得过去。', tone: '褒义', col: 'confident about, confident that', en: 'She felt confident about the test.', cn: '她对这次测试有信心。' },
+    { w: 'turn out', zh: '结果是', scene: '盒子打开，里面的结果和你事先猜的不一定一样。', tone: '偏口语', col: 'turn out to be, turn out that', en: 'The trip turned out well.', cn: '这次出行结果很好。' },
+    { w: 'on the fence', zh: '犹豫不决', scene: '人坐在篱笆上，两边都还没跳下去。', tone: '偏口语', col: 'sit on the fence', en: 'I am still on the fence about the offer.', cn: '我对这个机会还拿不定主意。' },
+    { w: 'show up', zh: '出现；到场', scene: '门开了，你期待的那个人真的走进来。', tone: '偏口语', col: 'show up at, show up late', en: 'Only half the class showed up.', cn: '只有一半的学生到了。' },
+    { w: 'generous', zh: '慷慨的', scene: '手里的东西给出去时，给得比别人预期的多。', tone: '褒义', col: 'generous with, a generous offer', en: 'They were generous with their time.', cn: '他们很慷慨地付出时间。' },
+    { w: 'sleep on it', zh: '考虑一晚再说', scene: '决定先不落笔，睡一觉，明天再看。', tone: '偏口语', col: 'sleep on it', en: 'Do not sign tonight. Sleep on it.', cn: '今晚先别签。考虑一晚再说。' },
+    { w: 'run into', zh: '偶遇', scene: '你没有约，却在街角碰上了一个熟人。它也可以表示遇到困难。', tone: '偏口语', col: 'run into somebody, run into trouble', en: 'I ran into an old classmate.', cn: '我偶然遇见了一位老同学。' },
+    { w: 'patient', zh: '耐心的', scene: '队还很长，你不跺脚，愿意等。这个词也可以表示病人。', tone: '褒义，说性格时', col: 'patient with, be patient', en: 'Please be patient with the new staff.', cn: '请对新员工耐心一点。' },
+    { w: 'get the ball rolling', zh: '开始行动', scene: '球还停着，你推第一下，事情就动起来了。', tone: '偏口语', col: 'get the ball rolling', en: 'Let us get the ball rolling with introductions.', cn: '我们先从自我介绍开始吧。' },
+    { w: 'figure of speech', zh: '比喻说法', scene: '这句话不是照字面发生的，它是一幅用来比较的画。', tone: '中性', col: 'a figure of speech', en: 'Break the ice is a figure of speech.', cn: '“打破僵局”是一种比喻说法。' },
+    { w: 'by the way', zh: '顺便说一下', scene: '主路还在走，你从旁边插进一个新话题。', tone: '偏口语', col: 'by the way', en: 'By the way, the meeting is at four.', cn: '顺便说一下，会议在四点。' },
+    { w: 'take off', zh: '起飞；突然成功', scene: '飞机离开地面。一件产品或事业也可以突然飞起来。', tone: '偏口语', col: 'take off from, the idea took off', en: 'The plane took off on time.', cn: '飞机准点起飞了。' },
+    { w: 'frustrated', zh: '沮丧的', scene: '你想把门打开，钥匙却总是不对，手里的劲没处使。', tone: '中性，偏负面', col: 'frustrated with, frustrated by', en: 'He was frustrated by the delay.', cn: '耽搁让他很沮丧。' },
+    { w: 'no wonder', zh: '难怪', scene: '原因已经看见了，结果也就不奇怪了。', tone: '偏口语', col: 'no wonder', en: 'She practised daily. No wonder she improved.', cn: '她每天都练习。难怪她进步了。' },
+    { w: 'pick up', zh: '捡起；学会', scene: '东西从地上被拿起来。也可以是无意中把一门技能捡进手里。', tone: '偏口语', col: 'pick up a language, pick something up', en: 'She picked up some Spanish on holiday.', cn: '她在假期里学到了一些西班牙语。' },
+    { w: 'it\'s up to you', zh: '由你决定', scene: '选择权放在你手里，别人不再替你按下去。', tone: '偏口语', col: 'it is up to you', en: 'It is up to you whether we leave now.', cn: '我们现在走不走，由你决定。' },
+    { w: 'end up', zh: '最终处于', scene: '路拐了几道，你最后站在一个事先没计划的地方。', tone: '偏口语', col: 'end up doing, end up in', en: 'We ended up taking the later train.', cn: '我们最后坐了更晚的那班火车。' },
+    { w: 'courage', zh: '勇气', scene: '害怕还在，但你还是把脚迈了出去。', tone: '褒义', col: 'the courage to, take courage', en: 'It took courage to admit the mistake.', cn: '承认错误需要勇气。' },
+    { w: 'practice makes perfect', zh: '熟能生巧', scene: '同一只曲子练很多遍，手指终于不再磕绊。', tone: '中性', col: 'practice makes perfect', en: 'Practice makes perfect, so try the sentence again.', cn: '熟能生巧，所以把这个句子再练一遍。' },
+    { w: 'step by step', zh: '一步一步', scene: '楼梯一阶一阶走，不试图一步跳到顶。', tone: '中性', col: 'step by step', en: 'We solved the problem step by step.', cn: '我们一步一步解决了这个问题。' },
+    { w: 'determined', zh: '坚定的', scene: '风在吹，人还是看着同一个方向，不改道。', tone: '褒义', col: 'determined to, a determined effort', en: 'She is determined to finish the course.', cn: '她决心读完这门课。' },
+    { w: 'get through', zh: '度过；完成', scene: '一段难走的路，你还是从这一头走到了那一头。', tone: '偏口语', col: 'get through a day, get through to', en: 'We got through the busy week.', cn: '我们熬过了忙碌的一周。' },
+    { w: 'keep it up', zh: '继续保持', scene: '你已经做得好，旁边的人希望你不要把这个势头放下。', tone: '偏口语，鼓励', col: 'keep it up', en: 'Your scores are better. Keep it up.', cn: '你的分数更好了。继续保持。' },
+    { w: 'concept', zh: '概念', scene: '脑子里先有一个还没变成具体东西的想法，像“公平”这个概念。', tone: '偏正式', col: 'the concept of, a basic concept', en: 'The concept of gravity is introduced early.', cn: '重力这个概念很早就被介绍。' },
+    { w: 'economy', zh: '经济', scene: '一个地方生产、买卖和就业连成的整片活动。', tone: '中性', col: 'the economy, a strong economy', en: 'The local economy depends on tourism.', cn: '当地经济依赖旅游业。' },
+    { w: 'technology', zh: '科技', scene: '工具和知识合在一起，让人能做成以前做不到的事。', tone: '中性', col: 'modern technology, information technology', en: 'New technology changed the factory.', cn: '新技术改变了这家工厂。' },
+    { w: 'available', zh: '可获得的；有空的', scene: '东西在架上，伸手就能拿到；人有空，可以来。', tone: '中性', col: 'available for, available to', en: 'The book is available in the library.', cn: '这本书在图书馆可以借到。' },
+    { w: 'factor', zh: '因素', scene: '结果不是一个原因单独造成的，这是其中一块。', tone: '中性偏正式', col: 'a factor in, a key factor', en: 'Cost was a key factor in the decision.', cn: '成本是这个决定的一个关键因素。' },
+    { w: 'participate', zh: '参与', scene: '你不是只在旁边看，而是走进活动里成为其中一员。', tone: '偏正式', col: 'participate in, participate actively', en: 'All students can participate in the survey.', cn: '所有学生都可以参与这项调查。' },
+    { w: 'relevant', zh: '相关的', scene: '这张纸和正在讨论的问题连得上，不是随手塞进来的。', tone: '偏正式', col: 'relevant to, relevant information', en: 'Please keep the examples relevant to the topic.', cn: '请让例子和题目相关。' },
+    { w: 'valid', zh: '有效的', scene: '票还在有效期内，或一个论证站得住，没有被驳倒。', tone: '中性偏正式', col: 'a valid ticket, a valid argument', en: 'The ticket is valid for one month.', cn: '这张票一个月内有效。' },
+    { w: 'strategy', zh: '策略', scene: '你不只看下一步，而是先想好整盘怎么走。', tone: '中性偏正式', col: 'a strategy for, marketing strategy', en: 'The company needs a strategy for growth.', cn: '公司需要一个增长策略。' },
+    { w: 'culture', zh: '文化', scene: '一群人长期共享的做法、故事和看法，像节日和待客的方式。', tone: '中性', col: 'local culture, popular culture', en: 'Food is part of local culture.', cn: '食物是当地文化的一部分。' },
+    { w: 'design', zh: '设计', scene: '东西还没做出来，纸上已经画出它的样子和用途。', tone: '中性', col: 'design a building, graphic design', en: 'She designed the new library.', cn: '她设计了这座新图书馆。' },
+    { w: 'invest', zh: '投资', scene: '钱或时间先放进去，指望以后长出更大的回报。', tone: '中性', col: 'invest in, invest time', en: 'They invested in new equipment.', cn: '他们投资了新设备。' },
+    { w: 'philosophy', zh: '哲学；宗旨', scene: '人对世界或对做事方式的一套根本看法。', tone: '偏正式', col: 'a philosophy of, moral philosophy', en: 'The school has a clear philosophy of learning.', cn: '这所学校有一套清楚的学习理念。' },
+    { w: 'percent', zh: '百分之……', scene: '把整体切成一百份之后，你指着其中的几份。', tone: '中性', col: 'ten percent, percent of', en: 'Prices rose by five percent.', cn: '价格上涨了百分之五。' },
+    { w: 'journal', zh: '期刊；日志', scene: '定期出版的学术杂志，或一个人每天写下的记录。', tone: '中性', col: 'an academic journal, keep a journal', en: 'The article appeared in a medical journal.', cn: '这篇文章发表在一份医学期刊上。' },
+    { w: 'potential', zh: '潜力', scene: '种子还没长高，但土里已经有能长成大树的可能。', tone: '中性', col: 'potential for, potential to', en: 'The student has potential in science.', cn: '这个学生在科学方面有潜力。' }
   ];
 
   const byWord = Object.create(null);
+  const bySolo = Object.create(null);
   GROUPS.forEach(group => {
     group.items.forEach(item => {
-      const key = String(item.w).toLowerCase();
-      if (!byWord[key]) byWord[key] = group;
+      const key = String(item.w).trim().toLowerCase();
+      if (byWord[key]) throw new Error('duplicate synonym: ' + item.w);
+      byWord[key] = group;
     });
+  });
+  SOLOS.forEach(item => {
+    const key = item.w.trim().toLowerCase();
+    if (byWord[key] || bySolo[key]) throw new Error('duplicate synonym: ' + item.w);
+    bySolo[key] = item;
   });
 
   function stemKeys(key) {
@@ -1155,7 +1345,7 @@
   function lookup(word) {
     const key = String(word || '').trim().toLowerCase();
     if (!key) return null;
-    const keys = stemKeys(key);
+    const keys = key.includes(' ') ? [key] : stemKeys(key);
     for (let i = 0; i < keys.length; i++) {
       const hit = byWord[keys[i]];
       if (!hit) continue;
@@ -1167,8 +1357,9 @@
       const tail = stem.charAt(stem.length - 1);
       if (key === stem + tail + 'er' || key === stem + tail + 'est') return hit;
     }
+    if (bySolo[key]) return { solo: true, item: bySolo[key] };
     return null;
   }
 
-  root.SYNONYMS = { groups: GROUPS, lookup: lookup };
+  root.SYNONYMS = { groups: GROUPS, solos: SOLOS, lookup: lookup };
 })(this);

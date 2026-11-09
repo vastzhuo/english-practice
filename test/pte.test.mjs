@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v18 cache bump keeps the PTE files and the existing tabs', () => {
+test('v19 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v18</);
+  assert.match(index, />v19</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -216,15 +216,15 @@ test('v18 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=18'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=19'));
   }
-  assert.equal(index.includes('?v=17'), false);
-  assert.match(sw, /ep-v18/);
-  assert.equal(sw.includes('ep-v17'), false);
+  assert.equal(index.includes('?v=18'), false);
+  assert.match(sw, /ep-v19/);
+  assert.equal(sw.includes('ep-v18'), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=18/);
-  assert.match(sw, /study-plan\.js\?v=18/);
+  assert.match(sw, /synonyms\.js\?v=19/);
+  assert.match(sw, /study-plan\.js\?v=19/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -518,12 +518,27 @@ test('synonym comparisons cover high-frequency words and leave the rest for late
   assert.equal(context.SYNONYMS.lookup('biggest'), context.SYNONYMS.lookup('big'));
   assert.equal(context.SYNONYMS.lookup('jobs'), context.SYNONYMS.lookup('job'));
   assert.equal(context.SYNONYMS.lookup('stroller'), null);
-  assert.equal(context.SYNONYMS.lookup('modest'), null);
   assert.equal(context.SYNONYMS.lookup('not-a-real-headword'), null);
-  const covered = [...bank].filter(word => context.SYNONYMS.lookup(word)).length;
-  assert.ok(covered >= 100);
+  const ice = context.SYNONYMS.lookup('break the ice');
+  assert.equal(ice.solo, true);
+  assert.equal(ice.item.w, 'break the ice');
+  const modest = context.SYNONYMS.lookup('modest');
+  assert.equal(modest.solo, true);
+  for (const item of context.SYNONYMS.solos) {
+    const key = item.w.toLowerCase();
+    assert.equal(seen.has(key), false, key);
+    seen.add(key);
+    assert.equal(bank.has(key), true, key);
+    assert.ok(item.zh && item.scene && item.tone && item.col && item.en && item.cn);
+    assert.equal(/[\u3400-\u9fff]/.test(item.en), false);
+    assert.ok(/[\u3400-\u9fff]/.test(item.cn));
+    assert.ok(/[\u3400-\u9fff]/.test(item.scene));
+  }
+  const covered = context.WORDS.filter(word => context.SYNONYMS.lookup(word.w)).length;
+  assert.ok(covered >= 1000);
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   assert.match(app, /同义词对比/);
   assert.match(app, /即将推出/);
+  assert.match(app, /无常见同义词/);
   assert.match(app, /一句话区分/);
 });
