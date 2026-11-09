@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v37 cache bump keeps the PTE files and the existing tabs', () => {
+test('v38 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v37</);
+  assert.match(index, />v38</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -218,16 +218,16 @@ test('v37 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=37'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=38'));
   }
-  assert.equal(index.includes('?v=36'), false);
-  assert.match(sw, /ep-v37/);
-  assert.equal(sw.includes('ep-v36'), false);
+  assert.equal(index.includes('?v=37'), false);
+  assert.match(sw, /ep-v38/);
+  assert.equal(sw.includes('ep-v37'), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=37/);
-  assert.match(sw, /grammar\.js\?v=37/);
-  assert.match(sw, /study-plan\.js\?v=37/);
+  assert.match(sw, /synonyms\.js\?v=38/);
+  assert.match(sw, /grammar\.js\?v=38/);
+  assert.match(sw, /study-plan\.js\?v=38/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
