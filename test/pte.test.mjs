@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v24 cache bump keeps the PTE files and the existing tabs', () => {
+test('v25 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v24</);
+  assert.match(index, />v25</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -216,15 +216,15 @@ test('v24 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=24'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=25'));
   }
-  assert.equal(index.includes('?v=23'), false);
-  assert.match(sw, /ep-v24/);
-  assert.equal(sw.includes('ep-v23'), false);
+  assert.equal(index.includes('?v=24'), false);
+  assert.match(sw, /ep-v25/);
+  assert.equal(sw.includes('ep-v24'), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=24/);
-  assert.match(sw, /study-plan\.js\?v=24/);
+  assert.match(sw, /synonyms\.js\?v=25/);
+  assert.match(sw, /study-plan\.js\?v=25/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
