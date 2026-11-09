@@ -20,7 +20,8 @@
     { line: '说话是把话说出来，谈话是你来我往，讨论是围着一个题目把道理说清楚。', items: [
       { w: 'speak', zh: '说话；发言', scene: '一个人把语言说出来，可以是开口说某种语言，也可以是对着一群人发言。', tone: '中性，比 talk 稍正式', col: 'speak English, speak to, speak at a meeting', en: 'She spoke to the class for ten minutes.', cn: '她对全班讲了十分钟。' },
       { w: 'talk', zh: '交谈', scene: '两个人面对面你一句我一句，像茶歇时聊天。', tone: '偏口语', col: 'talk to, talk about, have a talk', en: 'We talked about the weekend for a while.', cn: '我们聊了一会儿周末的事。' },
-      { w: 'discuss', zh: '讨论', scene: '大家围着一个具体问题交换看法，目的是把它想明白。', tone: '中性，学习工作里很常见', col: 'discuss a problem, discuss whether', en: 'The group discussed whether the plan was realistic.', cn: '小组讨论了这个计划是否现实。' }
+      { w: 'discuss', zh: '讨论', scene: '大家围着一个具体问题交换看法，目的是把它想明白。', tone: '中性，学习工作里很常见', col: 'discuss a problem, discuss whether', en: 'The group discussed whether the plan was realistic.', cn: '小组讨论了这个计划是否现实。' },
+      { w: 'discussion', zh: '讨论', scene: '大家已经围着一个题目把看法交换过的那场谈话。', tone: '中性', col: 'a discussion about, under discussion', en: 'The plan is under discussion.', cn: '这个计划正在讨论。' }
     ]},
     { line: '大、很大、大到夸张、大到望不到边，程度和画面不一样。', items: [
       { w: 'big', zh: '大的', scene: '普通的大，一个比平常体积更大的箱子放在门口。', tone: '偏口语', col: 'a big house, a big problem', en: 'They live in a big house near the park.', cn: '他们住在公园附近的一所大房子里。' },
@@ -334,7 +335,8 @@
     { line: '缩成要点、把样子说出来、先画出轮廓。', items: [
       { w: 'summarize', zh: '总结', scene: '一篇长文被收成几句要点，主干还在，细节放下。', tone: '中性偏正式', col: 'summarize the main points', en: 'Please summarize the main points.', cn: '请总结要点。' },
       { w: 'describe', zh: '描述', scene: '用话把看见的样子和经过画出来，让没在场的人也能想象。', tone: '中性', col: 'describe something as, describe how', en: 'Can you describe what the building looks like?', cn: '你能描述一下那栋楼什么样吗？' },
-      { w: 'outline', zh: '概述', scene: '先画出轮廓，只给主要线条，细节以后再填。', tone: '偏正式', col: 'outline a plan, an outline of', en: 'She outlined the plan in five minutes.', cn: '她用五分钟概述了这个计划。' }
+      { w: 'outline', zh: '概述', scene: '先画出轮廓，只给主要线条，细节以后再填。', tone: '偏正式', col: 'outline a plan, an outline of', en: 'She outlined the plan in five minutes.', cn: '她用五分钟概述了这个计划。' },
+      { w: 'description', zh: '描述', scene: '把样子和经过写成或说成的那段话。', tone: '中性', col: 'a description of, brief description', en: 'The guide gave a description of the route.', cn: '向导描述了这条路线。' }
     ]},
     { line: '放假的日子，和一段离开工作的假期。', items: [
       { w: 'holiday', zh: '假日；假期', scene: '不用上班上学的日子，也可以是外出度假。英式英语里很常见。', tone: '中性', col: 'public holiday, on holiday', en: 'Monday is a public holiday.', cn: '星期一是公共假日。' },
@@ -840,7 +842,8 @@
     ]},
     { line: '下定的决心，和作出的决定。', items: [
       { w: 'resolution', zh: '决心；决议', scene: '新年下的决心，或会议上通过的一项决议。', tone: '中性偏正式', col: 'a New Year resolution, pass a resolution', en: 'She made a resolution to walk every day.', cn: '她下决心每天走路。' },
-      { w: 'decision', zh: '决定', scene: '几个选项里选定一个，事情就此定下来。', tone: '中性', col: 'make a decision, a decision to', en: 'The decision was announced yesterday.', cn: '这个决定昨天宣布了。' }
+      { w: 'decision', zh: '决定', scene: '几个选项里选定一个，事情就此定下来。', tone: '中性', col: 'make a decision, a decision to', en: 'The decision was announced yesterday.', cn: '这个决定昨天宣布了。' },
+      { w: 'decide', zh: '决定', scene: '你在几个做法里选定一个，不再晃。', tone: '中性', col: 'decide to, decide on', en: 'They decided to take the earlier train.', cn: '他们决定坐更早的那班火车。' }
     ]},
     { line: '为学位写的长论文。', items: [
       { w: 'dissertation', zh: '学位论文', scene: '学生为学位写出的长篇研究，尤其在英式英语里常指本科或硕士论文。', tone: '正式', col: 'write a dissertation, dissertation on', en: 'She is writing a dissertation on cities.', cn: '她正在写一篇关于城市的学位论文。' },
@@ -1185,7 +1188,8 @@
     ]},
     { line: '把一份资源分到各处。', items: [
       { w: 'distribute', zh: '分发；分配', scene: '一箱东西被送到不同的人手上。', tone: '中性', col: 'distribute to, evenly distributed', en: 'Volunteers distributed water to the crowd.', cn: '志愿者把水发给人群。' },
-      { w: 'allocate', zh: '拨给；分配', scene: '预算表上，一笔钱被指定给某一个项目。', tone: '正式', col: 'allocate funds, allocate time', en: 'The school allocated more time to science.', cn: '学校给科学拨了更多时间。' }
+      { w: 'allocate', zh: '拨给；分配', scene: '预算表上，一笔钱被指定给某一个项目。', tone: '正式', col: 'allocate funds, allocate time', en: 'The school allocated more time to science.', cn: '学校给科学拨了更多时间。' },
+      { w: 'distribution', zh: '分布；分发', scene: '东西已经被分到各处之后的那个格局，或分发这件事。', tone: '偏正式', col: 'the distribution of, distribution network', en: 'The map shows the distribution of shops.', cn: '这张地图显示商店的分布。' }
     ]},
     { line: '用符号写出的数量关系。', items: [
       { w: 'formula', zh: '公式；方案', scene: '一行符号，照着算就能得到结果。也可以是一套固定做法。', tone: '中性', col: 'a formula for, chemical formula', en: 'The students learned the formula.', cn: '学生们学会了这个公式。' },
@@ -1499,6 +1503,43 @@
     { line: '活的东西。animal 是动物，creature 更宽，也可以带一点感情。', items: [
       { w: 'animal', zh: '动物', scene: '鸟、兽、鱼、虫这些动物，通常相对人而言。', tone: '中性', col: 'a wild animal, animal life', en: 'The park protects wild animals.', cn: '公园保护野生动物。' },
       { w: 'creature', zh: '生物', scene: '任何活的东西，有时带“小东西”的口气。', tone: '中性', col: 'a living creature, sea creatures', en: 'The rock pool is full of small creatures.', cn: '岩石池里满是小生物。' }
+    ]},
+{ line: '有水，但程度不同。moist 常是刚好的湿润，damp 有点潮，wet 是明显湿了。', items: [
+      { w: 'damp', zh: '潮湿的', scene: '表面带着潮气，摸上去不干，但还没有滴水。', tone: '中性', col: 'a damp cloth, damp weather', en: 'The towel is still damp.', cn: '毛巾还是潮的。' },
+      { w: 'wet', zh: '湿的', scene: '水已经沾上，能滴下来或浸透。', tone: '中性', col: 'wet clothes, soaking wet', en: 'The grass is wet.', cn: '草是湿的。' },
+      { w: 'moist', zh: '湿润的', scene: '有一点水分，常常是刚好、并不难受的那种湿。', tone: '中性', col: 'moist soil, moist air', en: 'Keep the soil moist.', cn: '让土壤保持湿润。' }
+    ]},
+    { line: '生命结束。death 是那件事，die 是这个动作。', items: [
+      { w: 'death', zh: '死亡', scene: '生命停止的那个事实。', tone: '中性', col: 'the death of, cause of death', en: 'The report gives the cause of death.', cn: '报告写出了死因。' },
+      { w: 'die', zh: '死亡', scene: '活着的状态结束。', tone: '中性', col: 'die of, die from', en: 'The plant died from lack of water.', cn: '这株植物因缺水死了。' }
+    ]},
+    { line: '从上到下的距离大。deep 是形容词，depth 是那个深度。', items: [
+      { w: 'deep', zh: '深的', scene: '从表面到下面的距离大，如深水和深夜。', tone: '中性', col: 'deep water, a deep voice', en: 'The lake is deep.', cn: '这个湖很深。' },
+      { w: 'depth', zh: '深度', scene: '深多少，用一个数或一个程度说出来。', tone: '中性', col: 'the depth of, at a depth of', en: 'The pool has a depth of two metres.', cn: '这个池深两米。' }
+    ]},
+    { line: '把东西毁掉。destroy 是做这件事，destruction 是毁掉之后的结果。', items: [
+      { w: 'destroy', zh: '破坏', scene: '把完好的东西弄到不能再用。', tone: '负面', col: 'destroy the, completely destroy', en: 'The fire destroyed the roof.', cn: '火把屋顶毁掉了。' },
+      { w: 'destruction', zh: '破坏', scene: '被毁掉之后的那种状态。', tone: '负面，偏正式', col: 'the destruction of, widespread destruction', en: 'The storm caused widespread destruction.', cn: '暴风雨造成了大范围破坏。' }
+    ]},
+    { line: '不干净。dirt 是污垢本身，dirty 是沾上了污垢。', items: [
+      { w: 'dirt', zh: '污垢', scene: '尘土、泥点这些弄脏表面的东西。', tone: '中性', col: 'dirt on, covered in dirt', en: 'There is dirt on the shoes.', cn: '鞋上有泥。' },
+      { w: 'dirty', zh: '脏的', scene: '表面已经沾上污垢，需要洗。', tone: '中性', col: 'dirty clothes, a dirty window', en: 'The windows are dirty.', cn: '窗户是脏的。' }
+    ]},
+    { line: '缺少水分。dry 是干，drought 是长时间不下雨造成的干旱。', items: [
+      { w: 'dry', zh: '干的', scene: '没有水，摸上去不潮。', tone: '中性', col: 'dry clothes, a dry climate', en: 'Hang the clothes until they are dry.', cn: '把衣服挂到干。' },
+      { w: 'drought', zh: '干旱', scene: '很久不下雨，地和河都缺水。', tone: '中性', col: 'a severe drought, during the drought', en: 'The drought lasted all summer.', cn: '干旱持续了整个夏天。' }
+    ]},
+    { line: '喝的东西。drink 最普通，beverage 更书面。', items: [
+      { w: 'drink', zh: '饮料；喝', scene: '一杯可以喝的东西，或喝这个动作。', tone: '中性', col: 'a cold drink, food and drink', en: 'Would you like a drink?', cn: '你想喝点什么吗？' },
+      { w: 'beverage', zh: '饮料', scene: '书面里对喝的东西的说法，菜单上常见。', tone: '偏正式', col: 'hot beverages, a beverage list', en: 'Hot beverages are served in the hall.', cn: '大厅里供应热饮。' }
+    ]},
+    { line: '把东西送到该去的地方。', items: [
+      { w: 'deliver', zh: '递送', scene: '把包裹、信或货交到收件人手里。', tone: '中性', col: 'deliver to, deliver a parcel', en: 'The shop delivers on Fridays.', cn: '这家店星期五送货。' },
+      { w: 'delivery', zh: '递送', scene: '送货这件事，或被送来的那一批。', tone: '中性', col: 'home delivery, a delivery of', en: 'The delivery arrived at noon.', cn: '这批货中午到了。' }
+    ]},
+    { line: '住在某个地方的人。', items: [
+      { w: 'dweller', zh: '居民', scene: '住在某一类地方的人，如城市居民。书面里常见。', tone: '偏正式', col: 'city dweller, cave dweller', en: 'City dwellers use the metro.', cn: '城市居民乘地铁。' },
+      { w: 'resident', zh: '居民', scene: '正式住在一个地方的人，不是短期游客。', tone: '中性偏正式', col: 'local residents, a resident of', en: 'Residents were told about the road closure.', cn: '居民被告知这条路封闭。' }
     ]},
   ];
 
@@ -2224,7 +2265,117 @@
     { w: 'cutlery', zh: '餐具', scene: '吃饭用的刀、叉、勺。', tone: '中性', col: 'a set of cutlery, plastic cutlery', en: 'The cutlery is in the drawer.', cn: '餐具在抽屉里。' },
     { w: 'CVi', zh: '简历', scene: '这张卡是简历的缩写。常见写法是 CV，即 curriculum vitae。', tone: '中性', col: 'a CV for, send a CV', en: 'Send your CV with the form.', cn: '把简历和表格一起交上。' },
     { w: 'cyeling', zh: '骑车', scene: '这张卡的意思是骑自行车。常见拼写是 cycling。', tone: '中性', col: 'go cycling, cycling to work', en: 'Cycling to work takes twenty minutes.', cn: '骑自行车上班要二十分钟。' },
-    { w: 'cylinders', zh: '圆柱', scene: '上下一样圆、像罐子的立体形状，或汽缸。', tone: '中性偏技术', col: 'metal cylinders, gas cylinders', en: 'The gas is stored in cylinders.', cn: '气体储存在钢瓶里。' }
+    { w: 'cylinders', zh: '圆柱', scene: '上下一样圆、像罐子的立体形状，或汽缸。', tone: '中性偏技术', col: 'metal cylinders, gas cylinders', en: 'The gas is stored in cylinders.', cn: '气体储存在钢瓶里。' },
+{ w: 'daily', zh: '日常的', scene: '每一天都会发生的，不是偶尔一次。', tone: '中性', col: 'daily life, a daily routine', en: 'Walking is part of her daily routine.', cn: '走路是她日常生活的一部分。' },
+    { w: 'dam', zh: '水坝', scene: '横在河上、把水拦住的建筑物。', tone: '中性', col: 'a dam on, build a dam', en: 'The dam holds back the river.', cn: '水坝把河水拦住。' },
+    { w: 'dancer', zh: '舞蹈演员', scene: '以跳舞为表演或职业的人。', tone: '中性', col: 'a ballet dancer, professional dancer', en: 'The dancer practised for an hour.', cn: '这位舞蹈演员练了一个小时。' },
+    { w: 'dances', zh: '舞蹈', scene: '按节奏做出的舞，或跳舞这个动作。', tone: '中性', col: 'folk dances, dance class', en: 'The festival includes folk dances.', cn: '节日里有民间舞蹈。' },
+    { w: 'dangerous', zh: '危险的', scene: '可能让人受伤，需要躲开。', tone: '中性', col: 'a dangerous road, dangerous to', en: 'The wet road is dangerous.', cn: '湿路很危险。' },
+    { w: 'dark', zh: '黑暗的；深色的', scene: '光线很少，或颜色很深。', tone: '中性', col: 'a dark room, dark blue', en: 'The room was dark.', cn: '房间很暗。' },
+    { w: 'database', zh: '数据库', scene: '把大量记录存在电脑里、可以查找的那一套。', tone: '中性', col: 'a database of, search the database', en: 'The library has a database of articles.', cn: '图书馆有一个文章数据库。' },
+    { w: 'dates', zh: '日期', scene: '日历上的某一天。作动词时也可以表示始于。', tone: '中性', col: 'important dates, dates from', en: 'Write the dates on the form.', cn: '把日期写在表格上。' },
+    { w: 'daughter', zh: '女儿', scene: '某人的女性子女。', tone: '中性', col: 'a daughter of, her daughter', en: 'Her daughter is at school.', cn: '她女儿在上学。' },
+    { w: 'days', zh: '天', scene: '一个个白天或一整天。', tone: '中性', col: 'three days, in those days', en: 'The course lasts five days.', cn: '这门课为期五天。' },
+    { w: 'daytime', zh: '白天', scene: '太阳还在、还没到夜里的那段时间。', tone: '中性', col: 'during the daytime, daytime hours', en: 'The museum is open in the daytime.', cn: '博物馆白天开放。' },
+    { w: 'deadlines', zh: '最终期限', scene: '必须交上或做完的那个时间点。', tone: '中性', col: 'meet deadlines, tight deadlines', en: 'The deadlines are on the notice.', cn: '截止日期写在通知上。' },
+    { w: 'debtor', zh: '债务人', scene: '欠着钱、需要还的那一方。', tone: '正式', col: 'a debtor to, the debtor', en: 'The debtor agreed to pay in June.', cn: '债务人同意六月还款。' },
+    { w: 'December', zh: '十二月', scene: '一年的第十二个月。', tone: '专名', col: 'in December, last December', en: 'The term ends in December.', cn: '学期十二月结束。' },
+    { w: 'deck', zh: '甲板；层', scene: '船上走人或放货的那一层，或建筑的一层。', tone: '中性', col: 'on deck, the top deck', en: 'Passengers waited on deck.', cn: '乘客在甲板上等。' },
+    { w: 'decorations', zh: '装饰', scene: '为了好看挂上或摆上的那些东西。', tone: '中性', col: 'party decorations, wall decorations', en: 'The hall has paper decorations.', cn: '大厅里有纸做的装饰。' },
+    { w: 'deduction', zh: '扣除', scene: '从总数里减去的那一笔。', tone: '偏正式', col: 'a deduction of, tax deduction', en: 'The deduction is shown on the payslip.', cn: '这笔扣除写在工资单上。' },
+    { w: 'defence', zh: '防御', scene: '挡住攻击或指责的那一层保护。英式拼写。', tone: '中性', col: 'in defence of, a defence against', en: 'The wall was built for defence.', cn: '这堵墙是为了防御而建的。' },
+    { w: 'definitely', zh: '当然；清楚地', scene: '没有犹豫，答案是确定的。', tone: '语气强', col: 'definitely the, definitely not', en: 'I will definitely come.', cn: '我一定会来。' },
+    { w: 'definition', zh: '定义', scene: '用一句话把一个词的意思框住。', tone: '中性', col: 'a definition of, by definition', en: 'Look up the definition.', cn: '查一下这个定义。' },
+    { w: 'degree', zh: '程度', scene: '事情有多深、多强。它也可以表示学位或温度的度。', tone: '中性', col: 'to a degree, a high degree', en: 'The risk is small to a degree.', cn: '风险在一定程度上很小。' },
+    { w: 'deliberately', zh: '故意地', scene: '不是失手，是有意这么做。', tone: '中性', col: 'deliberately ignore, deliberately slow', en: 'She deliberately left the door open.', cn: '她故意把门留着。' },
+    { w: 'delight', zh: '高兴', scene: '心里一下子亮起来的那种高兴。', tone: '褒义', col: 'a delight to, take delight in', en: 'The news was a delight.', cn: '这个消息让人高兴。' },
+    { w: 'deliveries', zh: '递送', scene: '一次次把货送到的那些运送，是 delivery 的复数。', tone: '中性', col: 'morning deliveries, home deliveries', en: 'Deliveries arrive before noon.', cn: '送货在中午以前到。' },
+    { w: 'dementia', zh: '痴呆', scene: '记忆和思考能力逐渐减退的一种病况。', tone: '中性，医学', col: 'dementia care, people with dementia', en: 'The clinic supports people with dementia.', cn: '这家诊所帮助痴呆症患者。' },
+    { w: 'democratics', zh: '民主的', scene: '这张卡的意思是民主的。常见拼写是 democratic。', tone: '正式', col: 'a democratic vote, democratic system', en: 'The club uses a democratic vote.', cn: '这个社团用民主投票。' },
+    { w: 'demonstrations', zh: '示范', scene: '把做法做给别人看的那些演示。它也可以是游行。', tone: '中性', col: 'cooking demonstrations, a demonstration of', en: 'The class includes demonstrations.', cn: '这节课包括示范。' },
+    { w: 'density', zh: '密度', scene: '一定空间里有多挤、有多少。', tone: '偏技术', col: 'population density, high density', en: 'The city has a high population density.', cn: '这座城市人口密度高。' },
+    { w: 'dentist', zh: '牙科医生', scene: '给人看牙的医生。', tone: '中性', col: 'see a dentist, the dentist', en: 'I have an appointment with the dentist.', cn: '我和牙医有一个预约。' },
+    { w: 'departments', zh: '部门', scene: '机构里分成的那些科室。', tone: '中性', col: 'academic departments, store departments', en: 'The university has ten departments.', cn: '这所大学有十个系。' },
+    { w: 'deploy', zh: '部署', scene: '把人员或设备安排到要用的位置上。', tone: '正式', col: 'deploy staff, deploy a system', en: 'The hospital will deploy extra nurses.', cn: '医院将增派护士。' },
+    { w: 'deposits', zh: '押金；沉淀物', scene: '先交出的一笔押金，或沉在瓶底、河底的物质。', tone: '中性', col: 'security deposits, mineral deposits', en: 'The flat needs a deposit.', cn: '这套公寓需要押金。' },
+    { w: 'deserts', zh: '沙漠；遗弃', scene: '很少下雨的那片沙地。作动词时是把人或计划扔下不管。', tone: '中性', col: 'hot deserts, desert the', en: 'Camels live in deserts.', cn: '骆驼生活在沙漠里。' },
+    { w: 'designers', zh: '设计师', scene: '画出衣服、建筑或产品样子的人。', tone: '中性', col: 'fashion designers, graphic designers', en: 'The designers met the client.', cn: '设计师见了客户。' },
+    { w: 'designs', zh: '设计', scene: '还没做出来之前画好的样子，或设计这个动作。', tone: '中性', col: 'new designs, design a', en: 'The book shows three designs.', cn: '这本书展示了三种设计。' },
+    { w: 'desk', zh: '办公桌', scene: '用来写字、放电脑的桌子。', tone: '中性', col: 'at the desk, a front desk', en: 'Leave the form at the desk.', cn: '把表格放在前台。' },
+    { w: 'destinations', zh: '目的地', scene: '旅程要到达的那些地方。', tone: '中性', col: 'holiday destinations, popular destinations', en: 'The brochure lists destinations.', cn: '小册子列出了目的地。' },
+    { w: 'details', zh: '细节', scene: '大意之外的那些具体小点。', tone: '中性', col: 'the details of, in detail', en: 'The details are on the second page.', cn: '细节在第二页。' },
+    { w: 'determination', zh: '决心', scene: '认定一个目标就不改道的那股劲。', tone: '褒义', col: 'determination to, show determination', en: 'She finished with determination.', cn: '她靠决心做完了。' },
+    { w: 'develop', zh: '发展', scene: '从较小、较简单变成更大或更完整。', tone: '中性', col: 'develop a skill, develop into', en: 'The town developed around the port.', cn: '这个镇子围绕港口发展起来。' },
+    { w: 'devices', zh: '装置', scene: '为某个用途做成的那些小设备。', tone: '中性', col: 'electronic devices, safety devices', en: 'Switch off electronic devices.', cn: '请关闭电子设备。' },
+    { w: 'devote', zh: '致力于', scene: '把时间或心力专门放在一件事上。', tone: '偏正式', col: 'devote time to, devote yourself to', en: 'She devotes an hour to reading.', cn: '她每天用一小时读书。' },
+    { w: 'diagrams', zh: '图解', scene: '用线条把结构或步骤画出来的图。', tone: '中性', col: 'labelled diagrams, a diagram of', en: 'The page has two diagrams.', cn: '这一页有两幅图解。' },
+    { w: 'diamond', zh: '钻石；菱形', scene: '很硬的宝石，或一个菱形。', tone: '中性', col: 'a diamond ring, diamond shape', en: 'The sign is a diamond.', cn: '这个标志是菱形的。' },
+    { w: 'dictionaries', zh: '词典', scene: '按词条解释词义的那些书，是 dictionary 的复数。', tone: '中性', col: 'online dictionaries, bilingual dictionaries', en: 'Students may use dictionaries.', cn: '学生可以使用词典。' },
+    { w: 'differences', zh: '差异', scene: '两样东西不一样的那些地方。', tone: '中性', col: 'differences between, small differences', en: 'There are differences between the two maps.', cn: '这两张地图有差异。' },
+    { w: 'difficulties', zh: '困难', scene: '让事情变难的那些障碍，是 difficulty 的复数。', tone: '中性', col: 'financial difficulties, learning difficulties', en: 'The project met some difficulties.', cn: '这个项目遇到了一些困难。' },
+    { w: 'dig', zh: '挖', scene: '用工具把土翻开。', tone: '中性', col: 'dig a hole, dig up', en: 'They dug a hole for the tree.', cn: '他们为这棵树挖了一个坑。' },
+    { w: 'digestion', zh: '消化', scene: '身体把食物变成能用的养分的过程。', tone: '中性', col: 'digestion of, aid digestion', en: 'Walking can help digestion.', cn: '走路有助于消化。' },
+    { w: 'digital', zh: '数字的', scene: '用数字信号而不是胶片或纸记录的。', tone: '中性', col: 'a digital camera, digital map', en: 'The map is digital.', cn: '这张地图是数字的。' },
+    { w: 'dignitary', zh: '要人', scene: '职位高、在正式场合出现的人物。', tone: '正式', col: 'a visiting dignitary, local dignitary', en: 'A dignitary opened the building.', cn: '一位要人为这栋楼揭幕。' },
+    { w: 'dimensions', zh: '尺寸；维', scene: '长宽高这些尺寸，或一个问题的不同方面。', tone: '偏正式', col: 'the dimensions of, in three dimensions', en: 'Measure the dimensions of the room.', cn: '量一下房间的尺寸。' },
+    { w: 'dining', zh: '进餐', scene: '坐下来吃饭这件事，或吃饭的地方。', tone: '中性', col: 'a dining room, dining out', en: 'The dining room seats forty.', cn: '餐厅能坐四十人。' },
+    { w: 'dinners', zh: '晚餐', scene: '一天里较晚的那一餐。', tone: '中性', col: 'family dinners, three-course dinners', en: 'Sunday dinners are at six.', cn: '星期日的晚餐在六点。' },
+    { w: 'dip', zh: '浸；短泳', scene: '把东西短时间放进液体，或下去游一会儿。', tone: '中性', col: 'dip into, a quick dip', en: 'Dip the brush into the paint.', cn: '把刷子在颜料里蘸一下。' },
+    { w: 'directions', zh: '方向；用法说明', scene: '东南西北，或告诉你怎么做的说明。', tone: '中性', col: 'ask for directions, follow the directions', en: 'Follow the directions on the packet.', cn: '按照包装上的说明做。' },
+    { w: 'director', zh: '主任；导演', scene: '一个部门的负责人，或指导一部影片的人。', tone: '中性', col: 'the director of, film director', en: 'The director approved the budget.', cn: '主任批准了预算。' },
+    { w: 'disabled', zh: '残疾的', scene: '身体或感官有长期障碍的。', tone: '中性', col: 'disabled access, disabled people', en: 'The entrance has disabled access.', cn: '入口有无障碍通道。' },
+    { w: 'disappointed', zh: '失望的', scene: '结果比期望的差，心里沉下来。', tone: '中性', col: 'disappointed with, disappointed that', en: 'She was disappointed with the delay.', cn: '这次耽搁让她失望。' },
+    { w: 'disasters', zh: '灾难', scene: '造成很大损失的那些灾祸。', tone: '负面', col: 'natural disasters, avoid disasters', en: 'The region prepares for disasters.', cn: '这个地区为灾难做准备。' },
+    { w: 'discharge', zh: '释放', scene: '把人、水或电放出去。医院里常指出院。', tone: '偏正式', col: 'discharge from, discharge water', en: 'The patient was discharged on Monday.', cn: '病人星期一出院了。' },
+    { w: 'discipline', zh: '学科；纪律', scene: '一门学问，或要求人遵守的规矩。', tone: '中性', col: 'academic discipline, school discipline', en: 'History is a school discipline.', cn: '历史是学校里的一门学科。' },
+    { w: 'disc', zh: '迪斯科舞厅', scene: '这张卡的释义是迪斯科舞厅。那个地方更常见的词是 disco。disc 通常指圆盘或唱片。', tone: '词条本身', col: 'a disco club, a compact disc', en: 'The disco closed at midnight.', cn: '迪斯科舞厅午夜关门。' },
+    { w: 'discount', zh: '折扣', scene: '价钱被减掉的那一块。', tone: '中性', col: 'a discount on, student discount', en: 'Students get a discount.', cn: '学生可以打折。' },
+    { w: 'discourage', zh: '劝阻；使气馁', scene: '让人打消念头，或不想再继续。这张卡的释义写成了“阻止”。', tone: '中性', col: 'discourage somebody from, feel discouraged', en: 'The rain discouraged us from walking.', cn: '下雨让我们打消了走路的念头。' },
+    { w: 'diseases', zh: '疾病', scene: '身体出了问题的那些病。', tone: '中性', col: 'heart diseases, infectious diseases', en: 'The clinic treats skin diseases.', cn: '这家诊所治疗皮肤病。' },
+    { w: 'dishes', zh: '盘子；菜肴', scene: '吃饭用的盘子，或一道道菜。', tone: '中性', col: 'wash the dishes, local dishes', en: 'Please wash the dishes.', cn: '请把盘子洗了。' },
+    { w: 'dishwasher', zh: '洗碗机', scene: '用来洗餐具的机器。', tone: '中性', col: 'load the dishwasher, a dishwasher', en: 'Put the plates in the dishwasher.', cn: '把盘子放进洗碗机。' },
+    { w: 'disinfectant', zh: '消毒剂', scene: '用来杀死病菌的液体或喷雾。', tone: '中性', col: 'disinfectant spray, use disinfectant', en: 'Wipe the table with disinfectant.', cn: '用消毒剂擦桌子。' },
+    { w: 'dismiss', zh: '解散；解雇', scene: '让一群人散去，或解除某人的工作。', tone: '偏正式', col: 'dismiss a class, dismiss somebody', en: 'The teacher dismissed the class.', cn: '老师宣布下课。' },
+    { w: 'dismissive', zh: '轻蔑的', scene: '一句话就把别人的想法拨到一边，不当回事。', tone: '负面', col: 'dismissive of, a dismissive remark', en: 'He was dismissive of the idea.', cn: '他对这个想法不屑一顾。' },
+    { w: 'displays', zh: '展示', scene: '把东西摆出来给人看，或屏幕上的显示。', tone: '中性', col: 'window displays, a display of', en: 'The museum displays old tools.', cn: '博物馆展示旧工具。' },
+    { w: 'dispose', zh: '处理', scene: '把不要的东西按规矩扔掉或安排掉。常说 dispose of。', tone: '偏正式', col: 'dispose of, dispose of waste', en: 'Dispose of the batteries safely.', cn: '把电池安全处理掉。' },
+    { w: 'distances', zh: '距离', scene: '两地之间有多远。', tone: '中性', col: 'long distances, walking distances', en: 'The map shows distances.', cn: '地图标出了距离。' },
+    { w: 'distortion', zh: '变形；失真', scene: '原来的形状或声音被扭歪了。', tone: '偏正式', col: 'sound distortion, distortion of', en: 'The photo shows some distortion.', cn: '这张照片有些变形。' },
+    { w: 'distract', zh: '分散注意力', scene: '一件突然的事把人的注意从正在做的事情上拉开。', tone: '中性', col: 'distract somebody, easily distracted', en: 'Noise can distract students.', cn: '噪音会分散学生的注意力。' },
+    { w: 'divers', zh: '潜水者', scene: '潜入水下的人。', tone: '中性', col: 'scuba divers, deep-sea divers', en: 'Divers inspected the hull.', cn: '潜水员检查了船底。' },
+    { w: 'diversity', zh: '多样性', scene: '一个地方里种类很多、并不单一。', tone: '中性偏正式', col: 'cultural diversity, a diversity of', en: 'The city has cultural diversity.', cn: '这座城市有文化多样性。' },
+    { w: 'divide', zh: '分开', scene: '把一个整体切成或分成几份。', tone: '中性', col: 'divide into, divide by', en: 'Divide the class into groups.', cn: '把全班分成小组。' },
+    { w: 'DNA', zh: '遗传物质', scene: '细胞里携带遗传信息的那种物质。', tone: '偏技术', col: 'DNA test, a strand of DNA', en: 'The lab compared the DNA.', cn: '实验室比对了遗传物质。' },
+    { w: 'doctors', zh: '医生；博士', scene: '给人看病的医生。在大学里也可以指博士。', tone: '中性', col: 'see doctors, family doctors', en: 'Two doctors work at the clinic.', cn: '诊所里有两位医生。' },
+    { w: 'documentary', zh: '纪录片', scene: '根据真实事件拍摄的影片或节目。', tone: '中性', col: 'a documentary about, watch a documentary', en: 'The documentary is about the river.', cn: '这部纪录片讲这条河。' },
+    { w: 'dogs', zh: '狗', scene: '作为宠物或工作动物的狗。', tone: '中性', col: 'guide dogs, pet dogs', en: 'Dogs are not allowed in the shop.', cn: '这家店不许带狗。' },
+    { w: 'dollars', zh: '美元', scene: '一种货币单位，符号常写作 $。', tone: '中性', col: 'ten dollars, US dollars', en: 'The ticket costs ten dollars.', cn: '这张票十美元。' },
+    { w: 'dolls', zh: '洋娃娃', scene: '做成小人样子的玩具。', tone: '中性', col: 'cloth dolls, a collection of dolls', en: 'The shelf holds several dolls.', cn: '架子上放着几个娃娃。' },
+    { w: 'dolphin', zh: '海豚', scene: '生活在海里、会跳出水面的哺乳动物。', tone: '中性', col: 'a dolphin pod, swim with dolphins', en: 'A dolphin followed the boat.', cn: '一只海豚跟着船。' },
+    { w: 'domestic', zh: '国内的；家养的', scene: '本国以内的，或养在家里的。两个意思都常见。', tone: '中性', col: 'domestic flights, domestic animals', en: 'The airline added a domestic flight.', cn: '这家航空公司增加了一班国内航班。' },
+    { w: 'dominated', zh: '占主导地位的', scene: '某一方在场面里压过其他方。', tone: '中性', col: 'dominated by, male-dominated', en: 'The market is dominated by two firms.', cn: '市场由两家公司主导。' },
+    { w: 'door', zh: '门', scene: '进出房间时打开的那一块板。', tone: '中性', col: 'the front door, open the door', en: 'Please close the door.', cn: '请把门关上。' },
+    { w: 'doubles', zh: '两倍的', scene: '数量变成原来的两倍。', tone: '中性', col: 'doubles the, more than doubles', en: 'The fare doubles after midnight.', cn: '午夜后票价变成两倍。' },
+    { w: 'doubt', zh: '怀疑', scene: '心里不能确定这件事是真的。', tone: '中性', col: 'in doubt, no doubt', en: 'There is some doubt about the date.', cn: '这个日期还有些疑问。' },
+    { w: 'down', zh: '在下面；向下', scene: '位置更低，或从高处往低处。它也可以表示停止运转。', tone: '中性', col: 'sit down, walk down', en: 'Walk down the hill.', cn: '往山下走。' },
+    { w: 'downhil', zh: '下坡', scene: '这张卡的意思是下坡。常见拼写是 downhill。', tone: '中性', col: 'downhill from, a downhill path', en: 'The path is downhill from here.', cn: '从这里开始小路是下坡。' },
+    { w: 'downstairs', zh: '楼下', scene: '同一栋楼里更低的那一层。', tone: '中性', col: 'go downstairs, the downstairs room', en: 'The kitchen is downstairs.', cn: '厨房在楼下。' },
+    { w: 'downstream', zh: '顺流而下', scene: '河水流动的方向，往下游。', tone: '中性', col: 'downstream from, further downstream', en: 'The village is downstream from the dam.', cn: '村子在水坝的下游。' },
+    { w: 'downtown', zh: '市中心', scene: '一座城市里商店和办公楼集中的那一片。', tone: '中性', col: 'downtown area, go downtown', en: 'The museum is downtown.', cn: '博物馆在市中心。' },
+    { w: 'doze', zh: '打瞌睡', scene: '坐着或靠着，短暂地睡着一下。', tone: '中性', col: 'doze off, a short doze', en: 'He dozed off on the train.', cn: '他在火车上打了个盹。' },
+    { w: 'draft', zh: '草稿', scene: '还没定稿、可以再改的那一版。', tone: '中性', col: 'a first draft, draft of', en: 'Send me a draft of the letter.', cn: '把信的草稿发给我。' },
+    { w: 'dragon', zh: '龙', scene: '故事里有鳞、会飞的那种巨兽。', tone: '中性', col: 'a dragon story, dragon boat', en: 'The children drew a dragon.', cn: '孩子们画了一条龙。' },
+    { w: 'drainage', zh: '排水', scene: '把多余的水引走的系统。', tone: '中性偏技术', col: 'drainage system, poor drainage', en: 'The field has poor drainage.', cn: '这块地排水不好。' },
+    { w: 'drama', zh: '戏剧', scene: '在舞台上演出的戏，或戏剧这门艺术。', tone: '中性', col: 'a drama class, television drama', en: 'She studies drama.', cn: '她学戏剧。' },
+    { w: 'draw', zh: '画；吸引', scene: '用笔画出线条。它也可以表示把人吸引过来。', tone: '中性', col: 'draw a picture, draw a crowd', en: 'Draw a map of the room.', cn: '画一张房间的图。' },
+    { w: 'dream', zh: '睡梦', scene: '睡觉时脑子里出现的画面。它也可以表示梦想。', tone: '中性', col: 'a bad dream, dream of', en: 'I had a strange dream.', cn: '我做了一个奇怪的梦。' },
+    { w: 'drive', zh: '开车', scene: '坐在驾驶座上让车往前走。', tone: '中性', col: 'drive to, drive a car', en: 'She drives to work.', cn: '她开车上班。' },
+    { w: 'drummer', zh: '鼓手', scene: '在乐队里打鼓的人。', tone: '中性', col: 'the drummer in, a jazz drummer', en: 'The drummer kept the beat.', cn: '鼓手打着拍子。' },
+    { w: 'ducks', zh: '鸭子', scene: '会游水、扁嘴的那种鸟。', tone: '中性', col: 'wild ducks, feed the ducks', en: 'Ducks swim on the pond.', cn: '鸭子在池塘里游。' },
+    { w: 'dues', zh: '预期的', scene: '这张卡的释义是预期的。常见的词是 due，如 due on Friday。', tone: '中性', col: 'due on, due to', en: 'The form is due on Friday.', cn: '表格星期五到期。' },
+    { w: 'dump', zh: '丢下', scene: '把不要的东西随手扔下，或把垃圾倒掉。', tone: '偏口语，常偏负面', col: 'dump the, dump waste', en: 'Do not dump waste in the river.', cn: '不要把废弃物倒进河里。' },
+    { w: 'during', zh: '在……期间', scene: '在一段时间内，事情正在进行。', tone: '中性', col: 'during the, during the day', en: 'The shop is closed during lunch.', cn: '这家店午饭期间关门。' },
+    { w: 'dyes', zh: '染料', scene: '用来把布或头发染上颜色的物质。作动词是染。', tone: '中性', col: 'natural dyes, hair dyes', en: 'The workshop uses plant dyes.', cn: '这个工坊使用植物染料。' }
   ];
 
   const byWord = Object.create(null);
