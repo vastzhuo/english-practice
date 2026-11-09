@@ -202,12 +202,12 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v36 cache bump keeps the PTE files and the existing tabs', () => {
+test('v37 cache bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v36</);
+  assert.match(index, />v37</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -218,16 +218,16 @@ test('v36 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=36'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=37'));
   }
-  assert.equal(index.includes('?v=35'), false);
-  assert.match(sw, /ep-v36/);
-  assert.equal(sw.includes('ep-v35'), false);
+  assert.equal(index.includes('?v=36'), false);
+  assert.match(sw, /ep-v37/);
+  assert.equal(sw.includes('ep-v36'), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=36/);
-  assert.match(sw, /grammar\.js\?v=36/);
-  assert.match(sw, /study-plan\.js\?v=36/);
+  assert.match(sw, /synonyms\.js\?v=37/);
+  assert.match(sw, /grammar\.js\?v=37/);
+  assert.match(sw, /study-plan\.js\?v=37/);
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -546,41 +546,35 @@ test('synonym comparisons cover high-frequency words and leave the rest for late
   assert.match(app, /一句话区分/);
 });
 
-test('grammar path is one sequential step per knowledge point', () => {
+test('grammar path follows the DK guide in bank order', () => {
   const context = { console };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(root, 'words.js'), 'utf8') + '\nglobalThis.WORDS = WORDS;\n', context);
   vm.runInContext(fs.readFileSync(path.join(root, 'grammar.js'), 'utf8') + '\nglobalThis.GRAMMAR = GRAMMAR;\n', context);
-  const topics = new Set();
-  for (const word of context.WORDS) {
-    if (!String(word.c).startsWith('DK 英语语法指南')) continue;
-    const mark = String(word.m).match(/【([^】]+)】/);
-    if (mark) topics.add(mark[1]);
+  const book = context.WORDS.filter(word => String(word.c).startsWith('DK 英语语法指南 Grammar:'));
+  assert.equal(context.GRAMMAR.length, book.length);
+  assert.equal(context.GRAMMAR.length, 360);
+  const chapters = [];
+  for (let i = 0; i < book.length; i++) {
+    const point = context.GRAMMAR[i];
+    const chapter = String(book[i].c).split(': ').slice(1).join(': ');
+    const mark = String(book[i].m).match(/^【([^】]+)】(.*)$/);
+    assert.ok(mark, book[i].m);
+    assert.equal(point.chapter, chapter);
+    assert.equal(point.en, book[i].w);
+    assert.equal(point.title, mark[1]);
+    assert.equal(point.sub, mark[2].trim());
+    if (chapters[chapters.length - 1] !== chapter) chapters.push(chapter);
   }
-  const titles = context.GRAMMAR.map(point => point.title);
-  assert.equal(context.GRAMMAR.length, topics.size);
-  assert.equal(context.GRAMMAR.length, 114);
-  for (const topic of topics) assert.ok(titles.includes(topic), topic);
-  const ids = new Set();
-  const stages = [];
-  for (const point of context.GRAMMAR) {
-    assert.equal(ids.has(point.id), false);
-    ids.add(point.id);
-    assert.ok(point.stage && point.title && point.zh && /[\u3400-\u9fff]/.test(point.zh));
-    assert.equal(point.ex.length >= 2, true);
-    for (const example of point.ex) {
-      assert.equal(/[\u3400-\u9fff]/.test(example.en), false);
-      assert.ok(/[\u3400-\u9fff]/.test(example.cn));
-    }
-    if (stages[stages.length - 1] !== point.stage) stages.push(point.stage);
-  }
-  assert.deepEqual(stages, ['基础', '进阶', '中级', '高级']);
-  assert.equal(context.GRAMMAR[0].title, '单复数名词');
-  assert.equal(context.GRAMMAR[context.GRAMMAR.length - 1].title, '日常交谈');
+  assert.equal(context.GRAMMAR[0].title, '一般现在时');
+  assert.equal(chapters[0], '时态');
+  assert.equal(chapters[chapters.length - 1], '介词与连词');
+  assert.equal(chapters.length, 12);
   const ui = fs.readFileSync(path.join(root, 'grammar-ui.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   assert.match(ui, /下一知识点/);
   assert.match(ui, /S\.grammar/);
   assert.match(ui, /save\(\)/);
+  assert.equal(ui.includes('例句'), false);
   assert.match(app, /grammarOpen/);
 });
