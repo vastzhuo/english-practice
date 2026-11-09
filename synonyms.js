@@ -692,7 +692,8 @@
     ]},
     { line: '收束出一个结论，和从前提推出来。', items: [
       { w: 'conclude', zh: '得出结论；结束', scene: '讨论走到最后，你说出结论。它也可以表示结束。', tone: '偏正式', col: 'conclude that, conclude with', en: 'The study concludes that the policy works.', cn: '研究得出的结论是这项政策有效。' },
-      { w: 'deduce', zh: '推断', scene: '从已有事实一步步推出没有直接看见的结论，像侦探。', tone: '正式', col: 'deduce from, deduce that', en: 'We can deduce the cause from the marks.', cn: '我们可以从痕迹推断原因。' }
+      { w: 'deduce', zh: '推断', scene: '从已有事实一步步推出没有直接看见的结论，像侦探。', tone: '正式', col: 'deduce from, deduce that', en: 'We can deduce the cause from the marks.', cn: '我们可以从痕迹推断原因。' },
+      { w: 'conclusion', zh: '结论', scene: '讨论或文章走到最后收住的那一句。', tone: '中性偏正式', col: 'in conclusion, come to a conclusion', en: 'The conclusion is on the last page.', cn: '结论在最后一页。' }
     ]},
     { line: '在旁边搭把手，和在下面托住。', items: [
       { w: 'assist', zh: '协助', scene: '主事的人在前面，你在旁边帮忙完成。', tone: '偏正式', col: 'assist with, assist somebody', en: 'Two nurses assisted the doctor.', cn: '两名护士协助医生。' },
@@ -727,7 +728,8 @@
     ]},
     { line: '另一条可选的路。', items: [
       { w: 'alternative', zh: '替代的；可供选择的', scene: '原计划走不通时，旁边还有一条路。', tone: '中性偏正式', col: 'an alternative to, alternative energy', en: 'Is there an alternative to flying?', cn: '除了坐飞机还有别的办法吗？' },
-      { w: 'option', zh: '选择；选项', scene: '菜单上的一项，你可以选也可以不选。', tone: '中性', col: 'an option to, have no option', en: 'You have the option to pay later.', cn: '你可以选择稍后付款。' }
+      { w: 'option', zh: '选择；选项', scene: '菜单上的一项，你可以选也可以不选。', tone: '中性', col: 'an option to, have no option', en: 'You have the option to pay later.', cn: '你可以选择稍后付款。' },
+      { w: 'choice', zh: '选择', scene: '你在几样东西里挑定的那一个，或挑选这件事本身。', tone: '中性', col: 'a choice of, make a choice', en: 'The menu offers a choice of soups.', cn: '菜单上有几种汤可以选。' }
     ]},
     { line: '用来衡量的标准。', items: [
       { w: 'criteria', zh: '标准', scene: '录取或评分时列出的几条尺子。这个词本身常作复数用。', tone: '正式', col: 'meet the criteria, selection criteria', en: 'Applicants must meet the criteria.', cn: '申请者必须符合这些标准。' },
@@ -920,7 +922,8 @@
     ]},
     { line: '彼此作用，和把信息传给对方。', items: [
       { w: 'interact', zh: '互动', scene: '两个人或两种物质碰到一起，互相影响。', tone: '偏正式', col: 'interact with, social interaction', en: 'Children learn when they interact with others.', cn: '孩子在与别人互动时学习。' },
-      { w: 'communicate', zh: '交流；传达', scene: '把消息从一边送到另一边，用话说、用字写或用信号。', tone: '中性', col: 'communicate with, communicate an idea', en: 'The team communicates by email.', cn: '团队通过电子邮件交流。' }
+      { w: 'communicate', zh: '交流；传达', scene: '把消息从一边送到另一边，用话说、用字写或用信号。', tone: '中性', col: 'communicate with, communicate an idea', en: 'The team communicates by email.', cn: '团队通过电子邮件交流。' },
+      { w: 'communication', zh: '交流；通信', scene: '消息已经在两边之间传开，或传消息的这件事。', tone: '中性', col: 'communication between, communication skills', en: 'Clear communication saves time.', cn: '清楚的交流能节省时间。' }
     ]},
     { line: '规定好的办事步骤，和事情自然展开的过程。', items: [
       { w: 'procedure', zh: '程序', scene: '墙上贴着步骤：先填表，再排队，再签字。', tone: '正式', col: 'follow a procedure, safety procedure', en: 'Follow the safety procedure.', cn: '遵守安全程序。' },
@@ -1194,7 +1197,8 @@
     ]},
     { line: '一群被选出来一起做决定的人。', items: [
       { w: 'commission', zh: '委员会；委托', scene: '被正式委派去调查或完成一件事的一组人。它也可以表示委托。', tone: '正式', col: 'a commission on, set up a commission', en: 'A commission investigated the accident.', cn: '一个委员会调查了这次事故。' },
-      { w: 'committee', zh: '委员会', scene: '机构内部坐下来讨论并作决定的那一桌人。', tone: '中性偏正式', col: 'a committee of, the committee decided', en: 'The committee meets every month.', cn: '委员会每个月开会。' }
+      { w: 'committee', zh: '委员会', scene: '机构内部坐下来讨论并作决定的那一桌人。', tone: '中性偏正式', col: 'a committee of, the committee decided', en: 'The committee meets every month.', cn: '委员会每个月开会。' },
+      { w: 'council', zh: '理事会；委员会', scene: '一个地方或机构里负责议事的那一组人，如市议会。', tone: '正式', col: 'the city council, a council meeting', en: 'The council meets on Tuesday.', cn: '理事会星期二开会。' }
     ]},
     { line: '符合平常样子。', items: [
       { w: 'normal', zh: '正常的', scene: '没有出故障，事情按平时的样子发生。', tone: '中性', col: 'back to normal, normal for', en: 'Her temperature is normal.', cn: '她的体温正常。' },
@@ -1226,7 +1230,8 @@
     ]},
     { line: '算进范围里，和被卷进一件事。', items: [
       { w: 'include', zh: '包括', scene: '一份名单或一个整体里，这一项也被算进去。', tone: '中性', col: 'include in, including', en: 'The price includes lunch.', cn: '这个价格包括午餐。' },
-      { w: 'involve', zh: '涉及', scene: '你被拉进这件事里，不只是名字出现在名单上。', tone: '中性', col: 'involve in, involve doing', en: 'The job involves talking to customers.', cn: '这份工作需要和顾客交谈。' }
+      { w: 'involve', zh: '涉及', scene: '你被拉进这件事里，不只是名字出现在名单上。', tone: '中性', col: 'involve in, involve doing', en: 'The job involves talking to customers.', cn: '这份工作需要和顾客交谈。' },
+      { w: 'contain', zh: '包含；容纳', scene: '东西已经在容器或范围里面。它也可以表示忍住。', tone: '中性', col: 'contain something, contained in', en: 'The box contains old maps.', cn: '盒子里装着旧地图。' }
     ]},
     { line: '从某处来，源头在别处。', items: [
       { w: 'derive', zh: '源自', scene: '一条线从源头拉到现在这个词或这个结果上。', tone: '正式', col: 'derive from, derived from', en: 'The word derives from Latin.', cn: '这个词源自拉丁语。' },
@@ -1234,7 +1239,8 @@
     ]},
     { line: '若干部分合在一起，形成整体。', items: [
       { w: 'constitute', zh: '构成', scene: '几块拼上去，整体就成立了。', tone: '正式', col: 'constitute a majority, constitute a threat', en: 'Women constitute half of the staff.', cn: '女性占员工的一半。' },
-      { w: 'compose', zh: '组成；创作', scene: '部分组成整体。它也可以表示写一首曲子或一篇文字。', tone: '正式', col: 'be composed of, compose a letter', en: 'The team is composed of six people.', cn: '这个团队由六个人组成。' }
+      { w: 'compose', zh: '组成；创作', scene: '部分组成整体。它也可以表示写一首曲子或一篇文字。', tone: '正式', col: 'be composed of, compose a letter', en: 'The team is composed of six people.', cn: '这个团队由六个人组成。' },
+      { w: 'consist', zh: '由……组成', scene: '整体被拆开看时，里面是这些部分。常说 consist of。', tone: '正式', col: 'consist of, consist in', en: 'The course consists of eight classes.', cn: '这门课由八节课组成。' }
     ]},
     { line: '把某一处说得更重，让人看见。', items: [
       { w: 'emphasis', zh: '强调', scene: '说话时把重量放在某一个词或某一个点上。', tone: '偏正式', col: 'place emphasis on, with emphasis', en: 'The report places emphasis on safety.', cn: '报告把重点放在安全上。' },
@@ -1296,7 +1302,8 @@
     { line: '意见冲到一起。argument 可以变成争吵，debate 是有规矩的辩论，dispute 是争执。', items: [
       { w: 'argument', zh: '论证；争吵', scene: '两边各说各的理由。声音高了，就变成争吵。', tone: '中性', col: 'an argument about, an argument that', en: 'They had an argument about the bill.', cn: '他们为账单争吵起来。' },
       { w: 'debate', zh: '辩论', scene: '两边按次序发言，把一个公共问题说清楚。', tone: '偏正式', col: 'a debate on, debate whether', en: 'The class held a debate on transport.', cn: '全班就交通问题进行了辩论。' },
-      { w: 'dispute', zh: '争执', scene: '双方都不让，事情停在“到底该听谁的”。', tone: '偏正式', col: 'a dispute over, in dispute', en: 'There is a dispute over the boundary.', cn: '边界有争议。' }
+      { w: 'dispute', zh: '争执', scene: '双方都不让，事情停在“到底该听谁的”。', tone: '偏正式', col: 'a dispute over, in dispute', en: 'There is a dispute over the boundary.', cn: '边界有争议。' },
+      { w: 'controversy', zh: '争论', scene: '一件事被公开争了很久，两边都有人。', tone: '偏正式', col: 'a controversy over, cause controversy', en: 'The plan caused controversy.', cn: '这个计划引起了争论。' }
     ]},
     { line: '老师布置、要交回去的功课。', items: [
       { w: 'assignment', zh: '作业；分配', scene: '老师交给你的一份任务，写完要交。它也可以表示把工作分给某人。', tone: '中性偏正式', col: 'a written assignment, assignment of', en: 'The assignment is due on Friday.', cn: '这份作业星期五交。' },
@@ -1373,7 +1380,8 @@
     ]},
     { line: '两个轮子的自行车。', items: [
       { w: 'bike', zh: '自行车', scene: '日常说法，两个轮子、用脚踩的车。', tone: '偏口语', col: 'ride a bike, by bike', en: 'I ride a bike to class.', cn: '我骑自行车去上课。' },
-      { w: 'bicycle', zh: '自行车', scene: '和 bike 是同一件东西，bicycle 更完整、稍正式。', tone: '中性', col: 'a bicycle lane, ride a bicycle', en: 'The path is for bicycles.', cn: '这条路是给自行车的。' }
+      { w: 'bicycle', zh: '自行车', scene: '和 bike 是同一件东西，bicycle 更完整、稍正式。', tone: '中性', col: 'a bicycle lane, ride a bicycle', en: 'The path is for bicycles.', cn: '这条路是给自行车的。' },
+      { w: 'cycle', zh: '自行车；骑自行车', scene: '和 bike 同指自行车，也可以是动词“骑车”。它还可以表示循环。', tone: '中性', col: 'cycle to, a cycle lane', en: 'She cycles to the station.', cn: '她骑自行车去车站。' }
     ]},
     { line: '载客的大车。bus 是市内公交，coach 常指长途。', items: [
       { w: 'bus', zh: '公共汽车', scene: '城里按站点停靠、大家一起坐的车。', tone: '中性', col: 'by bus, the bus stop', en: 'We took the bus to the museum.', cn: '我们坐公共汽车去博物馆。' },
@@ -1410,6 +1418,87 @@
     { line: '不乱、不吵。calm 更说心情或水面，quiet 更说没有声音。', items: [
       { w: 'calm', zh: '平静的', scene: '水面不起浪，或人心里不慌。', tone: '中性', col: 'stay calm, a calm sea', en: 'Please stay calm.', cn: '请保持平静。' },
       { w: 'quiet', zh: '安静的', scene: '周围没有吵闹的声音。', tone: '中性', col: 'a quiet room, keep quiet', en: 'The library is quiet.', cn: '图书馆很安静。' }
+    ]},
+{ line: '街上招手就能坐的出租汽车。', items: [
+      { w: 'cab', zh: '出租汽车', scene: '路边招手或打电话叫来的那种车，是 taxi 的另一种说法。', tone: '中性', col: 'call a cab, by cab', en: 'We took a cab to the station.', cn: '我们坐出租车去车站。' },
+      { w: 'taxi', zh: '出租车', scene: '最普通的说法：按里程收费、把你送到门口的车。', tone: '中性', col: 'a taxi rank, by taxi', en: 'The taxi is waiting outside.', cn: '出租车在外面等着。' }
+    ]},
+    { line: '很小的房子。cabin 还可以是船或飞机上的客舱。', items: [
+      { w: 'cabin', zh: '小屋；客舱', scene: '林子里的小木屋，或船上睡觉的那一小间。', tone: '中性', col: 'a log cabin, a cabin on', en: 'They stayed in a cabin by the lake.', cn: '他们住在湖边的一间小屋里。' },
+      { w: 'hut', zh: '小屋', scene: '更简陋的小房子，常常只有一间。', tone: '中性', col: 'a wooden hut, a beach hut', en: 'The tools are in the hut.', cn: '工具在小屋里。' }
+    ]},
+    { line: '做礼拜的建筑。cathedral 是城里最大的那一座主教座堂。', items: [
+      { w: 'church', zh: '教堂', scene: '人们去做礼拜的建筑，镇上通常不止一座。', tone: '中性', col: 'go to church, a village church', en: 'The church is on the square.', cn: '教堂在广场上。' },
+      { w: 'cathedral', zh: '大教堂', scene: '一座城市里由主教主持的那座大教堂，通常更高、更老。', tone: '中性', col: 'a cathedral city, the cathedral', en: 'The cathedral took two centuries to build.', cn: '这座大教堂建了两个世纪。' }
+    ]},
+    { line: '位置在中部。centre 也可以是一个机构所在的地方。', items: [
+      { w: 'centre', zh: '中心', scene: '一片地方或一件事的正中间，或人们聚集办事的那个点。美式拼写是 center。', tone: '中性', col: 'the city centre, a centre for', en: 'The museum is in the centre.', cn: '博物馆在市中心。' },
+      { w: 'middle', zh: '中间的', scene: '两边之间的那一段，如路中间、年中。', tone: '中性', col: 'in the middle, the middle of', en: 'The table is in the middle of the room.', cn: '桌子在房间中间。' }
+    ]},
+    { line: '证明你学过或有资格的文件。', items: [
+      { w: 'certificate', zh: '证书', scene: '一张写明你完成了课程或具备资格的纸。', tone: '中性', col: 'a certificate in, birth certificate', en: 'She received a certificate in first aid.', cn: '她拿到了急救证书。' },
+      { w: 'diploma', zh: '文凭', scene: '学校发给的毕业或结业文凭，比一张短期证书更正式。', tone: '中性', col: 'a diploma in, high-school diploma', en: 'He has a diploma in design.', cn: '他有设计专业的文凭。' }
+    ]},
+    { line: '穿在身上的衣物。dress 还可以是一条连衣裙，或动词“穿衣”。', items: [
+      { w: 'clothes', zh: '衣服', scene: '身上穿的上衣、裤子这些，总是用复数。', tone: '中性', col: 'warm clothes, clothes for', en: 'Pack warm clothes.', cn: '带上保暖的衣服。' },
+      { w: 'clothing', zh: '服装', scene: '衣服的总称，更常出现在书面语里，如防护服装。', tone: '偏正式', col: 'warm clothing, an item of clothing', en: 'The shop sells outdoor clothing.', cn: '这家店卖户外服装。' },
+      { w: 'dress', zh: '连衣裙；穿衣', scene: '一条连衣裙，或给某人穿衣服这个动作。', tone: '中性', col: 'a summer dress, dress for', en: 'She wore a blue dress.', cn: '她穿了一条蓝裙子。' }
+    ]},
+    { line: '温度低。cold 更冷，cool 是凉快、还不至于受不了。', items: [
+      { w: 'cold', zh: '寒冷的', scene: '温度低到要加衣服，水也可能结冰。', tone: '中性', col: 'a cold day, cold water', en: 'The water is cold.', cn: '水是冷的。' },
+      { w: 'cool', zh: '凉爽的', scene: '不热，吹着舒服，但还不到寒冷。', tone: '中性', col: 'a cool evening, keep cool', en: 'The evening is cool.', cn: '傍晚很凉爽。' }
+    ]},
+    { line: '几方一起做同一件事。', items: [
+      { w: 'collaboration', zh: '合作', scene: '两个人或两个机构把工作合在一起做。', tone: '偏正式', col: 'in collaboration with, a collaboration between', en: 'The show is a collaboration with the museum.', cn: '这场演出是和博物馆合作的。' },
+      { w: 'cooperation', zh: '合作；配合', scene: '你按对方需要的方式一起把事做成，强调配合。', tone: '中性偏正式', col: 'cooperation between, in cooperation with', en: 'The project needs cooperation between the two schools.', cn: '这个项目需要两所学校配合。' }
+    ]},
+    { line: '中学之后的学校。university 发学位，college 在不同国家指学院或高等专科学校。', items: [
+      { w: 'college', zh: '学院', scene: '中学之后的学校。在美国常泛指大学，在英国常指学院或专科学校。', tone: '中性', col: 'go to college, a college of', en: 'She is at college.', cn: '她在上大学。' },
+      { w: 'university', zh: '大学', scene: '可以授学位的综合性大学。', tone: '中性', col: 'at university, a university degree', en: 'He studies at the university.', cn: '他在这所大学学习。' }
+    ]},
+    { line: '把原来分开的东西放到一起。mix 更像搅在一起，combine 更像合成一个整体。', items: [
+      { w: 'mix', zh: '混合', scene: '几种东西被搅在同一个碗或同一段话里。', tone: '中性', col: 'mix with, a mix of', en: 'Mix the flour with the water.', cn: '把面粉和水混在一起。' },
+      { w: 'combine', zh: '联合；结合', scene: '几部分接到一起，变成一个更大的东西或计划。', tone: '中性偏正式', col: 'combine with, combine A and B', en: 'The course combines theory and practice.', cn: '这门课把理论和实践结合在一起。' }
+    ]},
+    { line: '对一件事发表看法。', items: [
+      { w: 'comment', zh: '评论', scene: '你就一件事说上一句看法，可长可短。', tone: '中性', col: 'comment on, a comment about', en: 'She commented on the design.', cn: '她评论了这个设计。' },
+      { w: 'remark', zh: '评论；谈论', scene: '随口说出的一句议论，也可以是注意到了什么。', tone: '中性', col: 'remark on, a remark about', en: 'He made a remark about the weather.', cn: '他就天气说了一句。' }
+    ]},
+    { line: '路上车走不动，挤在一起。jam 还可以表示果酱。', items: [
+      { w: 'congestion', zh: '拥堵', scene: '车或人挤在一段路上，移动得很慢。书面和交通报告里常见。', tone: '偏正式', col: 'traffic congestion, congestion in', en: 'Traffic congestion is worse at eight.', cn: '八点的交通拥堵更严重。' },
+      { w: 'jam', zh: '堵塞', scene: '路被堵住，车排成一条不动。这个词也可以表示果酱。', tone: '偏口语，说交通时', col: 'a traffic jam, stuck in a jam', en: 'We were stuck in a jam.', cn: '我们堵在路上了。' }
+    ]},
+    { line: '放在心里掂量。consider 是这个动作，consideration 是这件事。', items: [
+      { w: 'consider', zh: '考虑', scene: '你把几种做法在心里过一遍，再决定。', tone: '中性', col: 'consider doing, consider whether', en: 'Consider the cost before you sign.', cn: '签字前先考虑费用。' },
+      { w: 'consideration', zh: '考虑', scene: '正在被掂量的那一件事，或你把它当回事的态度。', tone: '偏正式', col: 'under consideration, take into consideration', en: 'The plan is under consideration.', cn: '这个计划正在考虑中。' }
+    ]},
+    { line: '说出不满。complain 是说出来，complaint 是那一条不满。', items: [
+      { w: 'complain', zh: '抱怨', scene: '你觉得不公平或不舒服，就说出来。', tone: '中性', col: 'complain about, complain to', en: 'Guests complained about the noise.', cn: '客人抱怨噪音。' },
+      { w: 'complaint', zh: '投诉', scene: '写成一条或正式提出的不满。', tone: '中性', col: 'make a complaint, a complaint about', en: 'She made a complaint to the manager.', cn: '她向经理投诉了。' }
+    ]},
+    { line: '城外、乡下的地方。country 在词库里还有“郊区”等别的意思，这里不把它算进来。', items: [
+      { w: 'countryside', zh: '乡下', scene: '城市外面的田野、村子和空地。', tone: '中性', col: 'in the countryside, open countryside', en: 'They live in the countryside.', cn: '他们住在乡下。' },
+      { w: 'rural', zh: '农村的', scene: '和乡村有关的，常见于报告，如农村地区。', tone: '偏正式', col: 'rural areas, a rural school', en: 'The bus serves rural areas.', cn: '这路公交服务农村地区。' }
+    ]},
+    { line: '两个在一起。couple 还可以表示夫妇，或“几个”。', items: [
+      { w: 'couple', zh: '一对；几个', scene: '两个人或两件东西。口语里 a couple of 也常表示几个。', tone: '中性', col: 'a couple of, a married couple', en: 'A couple of students were late.', cn: '有几个学生迟到了。' },
+      { w: 'pair', zh: '一对', scene: '正好两个、配成一双，如一双鞋。', tone: '中性', col: 'a pair of, in pairs', en: 'I need a pair of gloves.', cn: '我需要一副手套。' }
+    ]},
+    { line: '窄的流水。stream 也可以表示一股人流或趋势。', items: [
+      { w: 'creek', zh: '小溪', scene: '比河更窄的一道流水。', tone: '中性', col: 'a creek near, across the creek', en: 'The path follows the creek.', cn: '小路沿着小溪走。' },
+      { w: 'stream', zh: '小河；水流', scene: '持续流着的水。它也可以是一股人流。', tone: '中性', col: 'a mountain stream, a stream of', en: 'A stream runs through the wood.', cn: '一条小河穿过树林。' }
+    ]},
+    { line: '用来喝水的杯子。mug 有柄，杯身更直。', items: [
+      { w: 'cup', zh: '杯子', scene: '喝茶或咖啡的杯子，通常带一个小柄或没有柄。', tone: '中性', col: 'a cup of, paper cup', en: 'Would you like a cup of tea?', cn: '你想喝杯茶吗？' },
+      { w: 'mug', zh: '大杯', scene: '筒状、有一个大柄的杯子，常用来装热饮。', tone: '中性', col: 'a coffee mug, a mug of', en: 'He drinks from a large mug.', cn: '他用一只大杯子喝。' }
+    ]},
+    { line: '把两样放在一起看。compare 看相同和不同，contrast 专看差别。', items: [
+      { w: 'compare', zh: '比较', scene: '把两样并排，看哪里像、哪里不像。', tone: '中性', col: 'compare with, compare A and B', en: 'Compare the two routes.', cn: '比较这两条路线。' },
+      { w: 'contrast', zh: '对比', scene: '把差别亮出来，一边亮一边暗那种对照。', tone: '中性偏正式', col: 'in contrast, contrast with', en: 'The red door contrasts with the white wall.', cn: '红门和白墙形成对比。' }
+    ]},
+    { line: '活的东西。animal 是动物，creature 更宽，也可以带一点感情。', items: [
+      { w: 'animal', zh: '动物', scene: '鸟、兽、鱼、虫这些动物，通常相对人而言。', tone: '中性', col: 'a wild animal, animal life', en: 'The park protects wild animals.', cn: '公园保护野生动物。' },
+      { w: 'creature', zh: '生物', scene: '任何活的东西，有时带“小东西”的口气。', tone: '中性', col: 'a living creature, sea creatures', en: 'The rock pool is full of small creatures.', cn: '岩石池里满是小生物。' }
     ]},
   ];
 
@@ -1907,7 +1996,235 @@
     { w: 'bustling', zh: '熙熙攘攘的', scene: '人很多，脚步和说话声不停。', tone: '中性', col: 'a bustling market, bustling with', en: 'The market is bustling.', cn: '市场里熙熙攘攘。' },
     { w: 'busy', zh: '忙碌的', scene: '事情堆着，人没有空。', tone: '中性', col: 'busy with, a busy day', en: 'Monday is a busy day.', cn: '星期一是忙碌的一天。' },
     { w: 'butters', zh: '黄油', scene: '这张卡的意思是黄油。常见的不可数名词是 butter。', tone: '中性', col: 'bread and butter, melt the butter', en: 'Spread butter on the bread.', cn: '在面包上涂黄油。' },
-    { w: 'butterfies', zh: '蝴蝶', scene: '这张卡的意思是蝴蝶。常见拼写是 butterflies。', tone: '中性', col: 'colourful butterflies, butterflies in', en: 'Butterflies visit the garden.', cn: '蝴蝶飞到花园里。' }
+    { w: 'butterfies', zh: '蝴蝶', scene: '这张卡的意思是蝴蝶。常见拼写是 butterflies。', tone: '中性', col: 'colourful butterflies, butterflies in', en: 'Butterflies visit the garden.', cn: '蝴蝶飞到花园里。' },
+{ w: 'cafe', zh: '咖啡馆', scene: '可以坐下来喝咖啡的小店。', tone: '中性', col: 'a cafe on, at the cafe', en: 'We met at a cafe.', cn: '我们在一家咖啡馆见面。' },
+    { w: 'cafeteria', zh: '自助餐厅', scene: '学校或公司里自己取餐的餐厅。', tone: '中性', col: 'the school cafeteria, in the cafeteria', en: 'Lunch is served in the cafeteria.', cn: '午餐在自助餐厅供应。' },
+    { w: 'cakes', zh: '蛋糕', scene: '用面粉和糖烤出来的蛋糕。', tone: '中性', col: 'birthday cakes, a piece of cake', en: 'The shop sells cakes.', cn: '这家店卖蛋糕。' },
+    { w: 'calculation', zh: '计算', scene: '把数字算出来的那一次运算。', tone: '中性', col: 'a calculation of, do a calculation', en: 'Check the calculation again.', cn: '再核对一遍计算。' },
+    { w: 'calendar', zh: '日历', scene: '把一年的日子印出来的那一页或那一本。', tone: '中性', col: 'a wall calendar, on the calendar', en: 'The date is on the calendar.', cn: '日期写在日历上。' },
+    { w: 'calf', zh: '小牛', scene: '还没长大的牛。它也可以指小腿。', tone: '中性', col: 'a young calf, calf muscle', en: 'The calf stayed near its mother.', cn: '小牛待在母牛旁边。' },
+    { w: 'cal', zh: '呼叫；称呼', scene: '这张卡的意思是呼叫或称呼。常见拼写是 call。', tone: '中性', col: 'call somebody, call a taxi', en: 'Call me when you arrive.', cn: '你到了就给我打电话。' },
+    { w: 'calories', zh: '卡路里', scene: '食物里能量的计量单位。', tone: '中性', col: 'calories in, low in calories', en: 'The label shows the calories.', cn: '标签上写着卡路里。' },
+    { w: 'camel', zh: '骆驼', scene: '沙漠里能长时间不喝水的那种动物。', tone: '中性', col: 'a camel train, ride a camel', en: 'A camel crossed the sand.', cn: '一只骆驼走过沙地。' },
+    { w: 'cameras', zh: '摄像机；相机', scene: '用来拍照或录像的那些机器。', tone: '中性', col: 'digital cameras, security cameras', en: 'Security cameras watch the door.', cn: '监控摄像机看着门口。' },
+    { w: 'campaign', zh: '运动；竞选', scene: '为了一个目标持续推动的一系列行动，如竞选或宣传。', tone: '中性', col: 'an election campaign, a campaign for', en: 'The campaign asked people to recycle.', cn: '这场运动号召人们回收。' },
+    { w: 'Canada', zh: '加拿大', scene: '北美洲北部的那个国家。', tone: '专名', col: 'in Canada, across Canada', en: 'She studies in Canada.', cn: '她在加拿大学习。' },
+    { w: 'Canadian', zh: '加拿大人', scene: '加拿大的人，或与加拿大有关的。', tone: '专名', col: 'a Canadian city, Canadian English', en: 'The writer is Canadian.', cn: '这位作者是加拿大人。' },
+    { w: 'canal', zh: '运河', scene: '人挖出来、让船通过的水道。', tone: '中性', col: 'a canal boat, along the canal', en: 'The path follows the canal.', cn: '小路沿着运河走。' },
+    { w: 'candidates', zh: '候选人', scene: '被提名、等着被选上的那些人。', tone: '中性', col: 'job candidates, election candidates', en: 'Three candidates attended the interview.', cn: '三位候选人参加了面试。' },
+    { w: 'canteen', zh: '食堂', scene: '工厂或学校里供大家吃饭的餐厅。', tone: '中性', col: 'the staff canteen, in the canteen', en: 'We eat in the canteen.', cn: '我们在食堂吃饭。' },
+    { w: 'cap', zh: '盖；帽子', scene: '瓶子上的盖子，或一顶软帽。', tone: '中性', col: 'a bottle cap, a baseball cap', en: 'Put the cap back on.', cn: '把盖子盖回去。' },
+    { w: 'capital', zh: '首都；资金；大写', scene: '一个国家的首都，或开办事业的钱，或大写字母。三个意思都常见。', tone: '中性', col: 'the capital city, capital letters', en: 'Paris is the capital of France.', cn: '巴黎是法国的首都。' },
+    { w: 'captain', zh: '队长', scene: '一支队伍或一艘船负责带队的人。', tone: '中性', col: 'the team captain, the captain of', en: 'She is the team captain.', cn: '她是队长。' },
+    { w: 'caravan', zh: '大篷车', scene: '可以拖着走、里面能住的车厢，或一队一起走的人。', tone: '中性', col: 'a caravan park, a caravan site', en: 'They hired a caravan for the week.', cn: '他们租了一辆大篷车住一周。' },
+    { w: 'carbon', zh: '碳', scene: '一种化学元素，煤炭和很多燃料里都有它。', tone: '偏技术', col: 'carbon dioxide, carbon emissions', en: 'The plan cuts carbon emissions.', cn: '这个计划减少碳排放。' },
+    { w: 'cards', zh: '卡片', scene: '一张张硬纸片，可以是贺卡、名片或扑克。', tone: '中性', col: 'birthday cards, a pack of cards', en: 'She sent two cards.', cn: '她寄了两张卡片。' },
+    { w: 'care l', zh: '关怀', scene: '这张卡的意思是关怀、照顾。常见拼写是 care，中间没有空格。', tone: '中性', col: 'take care of, health care', en: 'Take care of the plants.', cn: '照看好这些植物。' },
+    { w: 'carefu', zh: '仔细的', scene: '这张卡的意思是仔细的。常见拼写是 careful。', tone: '中性', col: 'be careful, a careful check', en: 'Be careful on the wet floor.', cn: '湿地板要小心。' },
+    { w: 'cargoes', zh: '货物', scene: '船或飞机运的一批批货物。', tone: '中性', col: 'cargoes of, heavy cargoes', en: 'The ship carries cargoes of grain.', cn: '这艘船运粮食。' },
+    { w: 'carnival', zh: '嘉年华', scene: '街上有游行、音乐和摊位的节日。', tone: '中性', col: 'a street carnival, carnival parade', en: 'The carnival fills the square.', cn: '嘉年华挤满了广场。' },
+    { w: 'carpentry', zh: '木工手艺', scene: '用木头做家具或修房子的手艺。', tone: '中性', col: 'carpentry skills, a carpentry course', en: 'He is learning carpentry.', cn: '他在学木工。' },
+    { w: 'carpets', zh: '地毯', scene: '铺在地板上的厚织物。作动词时是厚厚地铺上。', tone: '中性', col: 'wall-to-wall carpets, wool carpets', en: 'The room has new carpets.', cn: '房间里铺了新地毯。' },
+    { w: 'cars', zh: '汽车', scene: '路上开的小汽车。', tone: '中性', col: 'electric cars, parked cars', en: 'Cars filled the street.', cn: '街上停满了汽车。' },
+    { w: 'cartoon', zh: '动画片', scene: '用画出来的形象做成的影片或一幅夸张的画。', tone: '中性', col: 'a cartoon film, a cartoon of', en: 'The children watched a cartoon.', cn: '孩子们看了一部动画片。' },
+    { w: 'carts', zh: '手推车', scene: '用来推货物或超市购物的小车。', tone: '中性', col: 'shopping carts, luggage carts', en: 'Please return the carts.', cn: '请把购物车还回去。' },
+    { w: 'cases', zh: '情况；案例', scene: '一种具体情况，或拿来分析的一个例子。它也可以是箱子或病例。', tone: '中性', col: 'in some cases, case studies', en: 'In some cases the bus is late.', cn: '有些情况下公交会晚点。' },
+    { w: 'cast', zh: '演员阵容', scene: '一部戏里全体演员。它也可以表示石膏或投掷。', tone: '中性', col: 'the cast of, a cast member', en: 'The cast rehearsed all day.', cn: '演员们排练了一整天。' },
+    { w: 'castles', zh: '城堡', scene: '旧时用石头建成、用来防守的大建筑。', tone: '中性', col: 'old castles, castle walls', en: 'The tour visits two castles.', cn: '这次游览去两座城堡。' },
+    { w: 'casual', zh: '随便的；非正式的', scene: '不拘礼、不正式，如休闲的衣服或随口的话。', tone: '中性', col: 'casual clothes, a casual remark', en: 'Wear casual clothes to the picnic.', cn: '野餐穿休闲的衣服。' },
+    { w: 'catalogues', zh: '目录', scene: '把商品或藏品一条条列出来的册子。美式拼写是 catalog。', tone: '中性', col: 'library catalogues, product catalogues', en: 'The catalogues are by the door.', cn: '目录放在门边。' },
+    { w: 'catastrophes', zh: '大灾难', scene: '造成很大破坏的灾难。', tone: '负面，语气强', col: 'natural catastrophes, avoid a catastrophe', en: 'The region recovered from two catastrophes.', cn: '这个地区从两次大灾难中恢复过来。' },
+    { w: 'catch', zh: '抓住', scene: '用手接住，或把正在跑的人或动物抓住。', tone: '中性', col: 'catch a ball, catch the bus', en: 'Catch the ball with both hands.', cn: '用两只手接球。' },
+    { w: 'categories', zh: '类别', scene: '把东西分成的那些类，是 category 的复数。', tone: '中性', col: 'in categories, three categories', en: 'Sort the books into categories.', cn: '把书分成几类。' },
+    { w: 'catering', zh: '餐饮服务', scene: '为会议或聚会准备并供应食物的服务。', tone: '中性', col: 'catering for, a catering company', en: 'The college uses outside catering.', cn: '学院使用外部餐饮服务。' },
+    { w: 'cattle', zh: '牲畜', scene: '成群饲养的牛。这个词本身是复数。', tone: '中性', col: 'cattle farming, a herd of cattle', en: 'Cattle graze in the field.', cn: '牛在田里吃草。' },
+    { w: 'caves', zh: '山洞', scene: '山或崖里天然的空洞。', tone: '中性', col: 'limestone caves, explore caves', en: 'The caves are closed in winter.', cn: '这些山洞冬天关闭。' },
+    { w: 'celebration', zh: '庆典', scene: '为了一件喜事聚在一起的庆祝。', tone: '中性', col: 'a celebration of, birthday celebration', en: 'The celebration lasted all evening.', cn: '庆典持续了整个晚上。' },
+    { w: 'celebrity', zh: '名人', scene: '很多人都认识的公众人物。', tone: '中性', col: 'a celebrity chef, local celebrity', en: 'A celebrity opened the shop.', cn: '一位名人给这家店剪了彩。' },
+    { w: 'celestial', zh: '天空的', scene: '和天空、星星有关的。', tone: '正式', col: 'celestial bodies, a celestial map', en: 'The chart shows celestial bodies.', cn: '这张图画出了天体。' },
+    { w: 'cell', zh: '细胞；电池；巢室', scene: '生物的细胞，或一节小电池，或蜂巢里的一小室。', tone: '中性', col: 'a blood cell, a cell phone', en: 'The diagram shows one cell.', cn: '图上画出了一个细胞。' },
+    { w: 'cement', zh: '水泥', scene: '和水之后会变硬、用来粘砖的灰色粉末。', tone: '中性', col: 'a bag of cement, cement floor', en: 'The workers mixed cement.', cn: '工人们搅拌了水泥。' },
+    { w: 'census', zh: '人口普查', scene: '官方把一个地方的人口逐一登记下来。', tone: '正式', col: 'a national census, census data', en: 'The census is taken every ten years.', cn: '人口普查每十年做一次。' },
+    { w: 'centimetres', zh: '厘米', scene: '长度单位，一百厘米是一米。', tone: '中性', col: 'ten centimetres, in centimetres', en: 'The shelf is 80 centimetres wide.', cn: '这个架子宽 80 厘米。' },
+    { w: 'centra', zh: '中心的', scene: '这张卡的意思是中心的。常见拼写是 central。', tone: '中性', col: 'a central location, central heating', en: 'The station is in a central location.', cn: '车站位于中心位置。' },
+    { w: 'centuries', zh: '世纪', scene: '一百年为一世纪。', tone: '中性', col: 'for centuries, two centuries', en: 'The bridge is two centuries old.', cn: '这座桥有两个世纪的历史。' },
+    { w: 'ceramics', zh: '陶瓷工艺', scene: '用陶土烧制器皿的工艺，或那些器皿。', tone: '中性', col: 'ceramics class, studio ceramics', en: 'She studies ceramics.', cn: '她学陶瓷。' },
+    { w: 'cereal', zh: '谷物', scene: '小麦、燕麦这类粮食，或早餐时吃的麦片。', tone: '中性', col: 'breakfast cereal, cereal crops', en: 'The field grows cereal.', cn: '这块地种谷物。' },
+    { w: 'ceremonies', zh: '仪式；典礼', scene: '按固定步骤举行的典礼，是 ceremony 的复数。', tone: '中性', col: 'wedding ceremonies, opening ceremonies', en: 'The ceremonies start at noon.', cn: '典礼中午开始。' },
+    { w: 'certain', zh: '某一；某些', scene: '没有点名、但确有所指的某一个或某一些。这里不是“确定”。', tone: '中性', col: 'a certain person, certain times', en: 'At certain times the gate is locked.', cn: '在某些时候大门是锁着的。' },
+    { w: 'chains', zh: '链', scene: '一环扣一环的链子。', tone: '中性', col: 'gold chains, bicycle chains', en: 'The gate is held by chains.', cn: '大门用链子拴着。' },
+    { w: 'chairman', zh: '主席', scene: '会议或委员会里主持的那个人。', tone: '正式', col: 'the chairman of, chairman of the board', en: 'The chairman opened the meeting.', cn: '主席宣布开会。' },
+    { w: 'chairs', zh: '椅子', scene: '用来坐的椅子。这个词有时也用来指主席。', tone: '中性', col: 'wooden chairs, a row of chairs', en: 'Put the chairs back.', cn: '把椅子放回去。' },
+    { w: 'challenge', zh: '挑战', scene: '一件难做、需要努力才能完成的事。', tone: '中性', col: 'a challenge for, face a challenge', en: 'The climb is a challenge.', cn: '这次攀爬是个挑战。' },
+    { w: 'chances', zh: '机会', scene: '可以试一试的那些时机，或事情发生的可能性。', tone: '中性', col: 'a chance to, chances of', en: 'You will have two chances.', cn: '你有两次机会。' },
+    { w: 'changes', zh: '变化', scene: '和原来不一样了的那些地方。', tone: '中性', col: 'changes in, make changes', en: 'There are changes to the timetable.', cn: '时间表有变化。' },
+    { w: 'channels', zh: '通道', scene: '水、信息或电视可以走过去的那些通道。', tone: '中性', col: 'television channels, shipping channels', en: 'The news is on several channels.', cn: '这条新闻在几个频道播出。' },
+    { w: 'characters', zh: '人物；特性', scene: '故事里的人物，或一个人的性格特点。', tone: '中性', col: 'main characters, Chinese characters', en: 'The film has three main characters.', cn: '这部电影有三个主要人物。' },
+    { w: 'charcoal', zh: '木炭', scene: '木头烧成的黑色燃料，也可以用来画画。', tone: '中性', col: 'charcoal drawing, burn charcoal', en: 'They cooked over charcoal.', cn: '他们用木炭做饭。' },
+    { w: 'charge', zh: '费用；控告；掌管', scene: '要收的钱，或指控某人，或负责掌管一件事。', tone: '中性', col: 'free of charge, in charge of', en: 'There is no charge for the map.', cn: '这张地图不收费。' },
+    { w: 'charities', zh: '慈善机构', scene: '为帮助他人而设立的那些组织，是 charity 的复数。', tone: '中性', col: 'local charities, donate to charities', en: 'The shop supports local charities.', cn: '这家店支持当地慈善机构。' },
+    { w: 'chat', zh: '聊天', scene: '轻松地说话，没有正式议程。', tone: '偏口语', col: 'a chat with, chat about', en: 'We had a chat after class.', cn: '课后我们聊了聊。' },
+    { w: 'checklist', zh: '清单', scene: '要逐项打钩的一张单子。', tone: '中性', col: 'a checklist for, on the checklist', en: 'Use the checklist before you leave.', cn: '离开前对照这张清单。' },
+    { w: 'cheese', zh: '奶酪', scene: '用奶做成的固体食物。', tone: '中性', col: 'a piece of cheese, cheese sandwich', en: 'The sandwich has cheese.', cn: '这个三明治里有奶酪。' },
+    { w: 'chemicals', zh: '化学药品；化学的', scene: '实验室或工厂里的化学物质，也可以作形容词。', tone: '中性', col: 'household chemicals, chemical reactions', en: 'Store the chemicals safely.', cn: '把化学药品安全存放。' },
+    { w: 'chemistry', zh: '化学', scene: '研究物质如何变化的学科。', tone: '中性', col: 'a chemistry lab, organic chemistry', en: 'Chemistry is taught in room 4.', cn: '化学课在 4 号教室。' },
+    { w: 'chess', zh: '国际象棋', scene: '两个人用黑白棋子在格子棋盘上对下的游戏。', tone: '中性', col: 'play chess, a chess set', en: 'They play chess at lunch.', cn: '他们午饭时下国际象棋。' },
+    { w: 'chicken', zh: '鸡肉', scene: '鸡的肉，用来做菜。它也可以指鸡这种动物。', tone: '中性', col: 'roast chicken, chicken soup', en: 'Dinner is roast chicken.', cn: '晚饭是烤鸡。' },
+    { w: 'chicks', zh: '小鸡', scene: '刚孵出来的小鸡。', tone: '中性', col: 'day-old chicks, feed the chicks', en: 'The chicks stayed under the lamp.', cn: '小鸡待在灯下。' },
+    { w: 'chief', zh: '主要的', scene: '在若干个里面排最前、最重要的那一个。', tone: '中性', col: 'the chief reason, chief executive', en: 'Cost is the chief reason.', cn: '费用是主要原因。' },
+    { w: 'childcare', zh: '儿童照管', scene: '父母工作时，由别人照看孩子的服务。', tone: '中性', col: 'childcare costs, childcare centre', en: 'The college offers childcare.', cn: '学院提供儿童照管。' },
+    { w: 'childhood', zh: '童年', scene: '一个人还是孩子的那段时期。', tone: '中性', col: 'early childhood, in childhood', en: 'She spent her childhood by the sea.', cn: '她的童年在海边度过。' },
+    { w: 'childish', zh: '幼稚的', scene: '像小孩子那样、在成人场合里显得不合适。', tone: '常偏负面', col: 'childish behaviour, a childish game', en: 'The remark was childish.', cn: '那句话很幼稚。' },
+    { w: 'children', zh: '儿童', scene: '还没成年的孩子，是 child 的不规则复数。', tone: '中性', col: 'young children, children under', en: 'Children under five travel free.', cn: '五岁以下的儿童免费乘车。' },
+    { w: 'Chinas', zh: '中国', scene: '这张卡指中国。常见拼写是 China。', tone: '专名', col: 'in China, across China', en: 'The tea comes from China.', cn: '这茶来自中国。' },
+    { w: 'Chineses', zh: '中国的；中国人', scene: '这张卡的意思是中国的或中国人。常见拼写是 Chinese。', tone: '专名', col: 'Chinese food, Chinese students', en: 'The menu has Chinese food.', cn: '菜单上有中国菜。' },
+    { w: 'chisel', zh: '凿子', scene: '用来凿木头或石头的工具。', tone: '中性', col: 'a wood chisel, chisel and hammer', en: 'He shaped the wood with a chisel.', cn: '他用凿子修木头。' },
+    { w: 'chocolates', zh: '巧克力糖', scene: '一颗颗巧克力糖。', tone: '中性', col: 'a box of chocolates, dark chocolates', en: 'She brought a box of chocolates.', cn: '她带了一盒巧克力。' },
+    { w: 'chop', zh: '切碎', scene: '用刀把食物切成小块。', tone: '中性', col: 'chop the, finely chopped', en: 'Chop the onions.', cn: '把洋葱切碎。' },
+    { w: 'Christmas', zh: '圣诞节', scene: '十二月二十五日前后的基督教节日。', tone: '专名', col: 'at Christmas, Christmas Day', en: 'The shop closes on Christmas Day.', cn: '这家店圣诞节关门。' },
+    { w: 'chronological', zh: '按时间顺序的', scene: '事件按发生的先后排好。', tone: '正式', col: 'chronological order, a chronological list', en: 'Put the dates in chronological order.', cn: '把日期按时间顺序排列。' },
+    { w: 'cigar', zh: '雪茄', scene: '用烟叶卷成的粗烟。', tone: '中性', col: 'a cigar box, smoke a cigar', en: 'He does not smoke cigars.', cn: '他不抽雪茄。' },
+    { w: 'cinema', zh: '电影院', scene: '放电影、大家买票进去坐的地方。', tone: '中性', col: 'go to the cinema, at the cinema', en: 'The cinema is on the high street.', cn: '电影院在大街上。' },
+    { w: 'circular', zh: '圆形的；循环的', scene: '形状是圆的，或沿着一个圈反复转。', tone: '中性', col: 'a circular table, circular route', en: 'They sat at a circular table.', cn: '他们坐在一张圆桌旁。' },
+    { w: 'circulation', zh: '流通', scene: '血液在体内转，或报纸、空气在各处流动。', tone: '中性偏正式', col: 'blood circulation, in circulation', en: 'Walking helps circulation.', cn: '走路有助于血液循环。' },
+    { w: 'circumstances', zh: '情况；环境', scene: '事情发生时周围的那些条件，是 circumstance 的复数。', tone: '正式', col: 'under the circumstances, in these circumstances', en: 'Under the circumstances, we waited.', cn: '在这种情况下，我们等了等。' },
+    { w: 'cities', zh: '城市', scene: '人口多、建筑密的那些城市。这张卡的意思是城市。', tone: '中性', col: 'big cities, capital cities', en: 'Big cities need more buses.', cn: '大城市需要更多公共汽车。' },
+    { w: 'civilisations', zh: '文明', scene: '一个社会长期形成的制度、技术和文化。美式拼写是 civilization。', tone: '正式', col: 'ancient civilisations, early civilisations', en: 'The museum covers ancient civilisations.', cn: '博物馆介绍古代文明。' },
+    { w: 'claims', zh: '宣称', scene: '说出一个还没被证实的说法，或提出一项要求。', tone: '中性', col: 'claims that, insurance claims', en: 'The report claims that sales rose.', cn: '报告称销售额上升了。' },
+    { w: 'clamour', zh: '吵闹；大声要求', scene: '很多人一起叫，或大声提出要求。', tone: '偏正式', col: 'clamour for, a clamour of', en: 'People clamoured for tickets.', cn: '人们大声要求买票。' },
+    { w: 'clarinet', zh: '单簧管', scene: '一种木管乐器，用哨片发声。', tone: '中性', col: 'play the clarinet, a clarinet solo', en: 'She plays the clarinet.', cn: '她吹单簧管。' },
+    { w: 'classes', zh: '班级；课程', scene: '学校里的一个班，或一节节课。它也可以表示社会阶层。', tone: '中性', col: 'evening classes, in class', en: 'Evening classes start at seven.', cn: '夜校课程七点开始。' },
+    { w: 'classical', zh: '古典的', scene: '属于古代传统或古典音乐那一类的。', tone: '中性', col: 'classical music, classical architecture', en: 'The hall plays classical music.', cn: '这个大厅播放古典音乐。' },
+    { w: 'classroom', zh: '教室', scene: '上课的那间房间。', tone: '中性', col: 'in the classroom, a classroom of', en: 'The classroom has twenty desks.', cn: '教室里有二十张课桌。' },
+    { w: 'claws', zh: '爪', scene: '鸟或兽脚上尖的那部分。', tone: '中性', col: 'sharp claws, claws of', en: 'The bird has sharp claws.', cn: '这只鸟的爪子很尖。' },
+    { w: 'clay', zh: '黏土', scene: '湿的时候可以塑形、烧了会变硬的土。', tone: '中性', col: 'a clay pot, modelling clay', en: 'The pot is made of clay.', cn: '这个罐子是黏土做的。' },
+    { w: 'clean', zh: '打扫', scene: '把灰尘和污渍除掉。这里是动词。', tone: '中性', col: 'clean the, clean up', en: 'Please clean the table.', cn: '请把桌子打扫干净。' },
+    { w: 'cleaners', zh: '清洁工', scene: '负责打扫的那些人。', tone: '中性', col: 'office cleaners, the cleaners', en: 'The cleaners arrive at six.', cn: '清洁工六点到。' },
+    { w: 'clear', zh: '清楚的；晴朗的', scene: '能看明白，或天空没有云。', tone: '中性', col: 'a clear day, clear instructions', en: 'The instructions are clear.', cn: '说明很清楚。' },
+    { w: 'clerical', zh: '办事员的', scene: '和办公室文书、表格有关的工作。', tone: '正式', col: 'clerical work, clerical staff', en: 'The job is mostly clerical.', cn: '这份工作主要是文书。' },
+    { w: 'clif', zh: '悬崖', scene: '这张卡的意思是悬崖。常见拼写是 cliff。', tone: '中性', col: 'a steep cliff, cliff edge', en: 'The path stays back from the cliff.', cn: '小路离悬崖边有一段距离。' },
+    { w: 'climbs', zh: '爬山；山道', scene: '往上爬的那段路，或爬山这个动作。', tone: '中性', col: 'steep climbs, rock climbs', en: 'The route has two steep climbs.', cn: '这条路线有两段陡坡。' },
+    { w: 'clinic', zh: '诊所', scene: '看小病、不必住进大医院的地方。', tone: '中性', col: 'a dental clinic, at the clinic', en: 'The clinic opens at eight.', cn: '诊所八点开门。' },
+    { w: 'clips', zh: '回形针；夹子', scene: '用来夹纸的小夹子，或一段短影像。', tone: '中性', col: 'paper clips, video clips', en: 'The papers are held by clips.', cn: '这些纸用夹子夹着。' },
+    { w: 'clocks', zh: '时钟', scene: '挂在墙上或放在桌上、显示时间的钟。', tone: '中性', col: 'wall clocks, alarm clocks', en: 'The clocks show the same time.', cn: '这些钟显示的时间一样。' },
+    { w: 'close', zh: '关闭；靠近', scene: '把门关上，或位置离得很近。两个意思都常见。', tone: '中性', col: 'close the door, close to', en: 'Please close the window.', cn: '请把窗户关上。' },
+{ w: 'closer', zh: '更靠近的', scene: '比原来更近，是 close 表示“靠近”时的比较级。', tone: '中性', col: 'closer to, move closer', en: 'Move the chair closer to the desk.', cn: '把椅子挪得离桌子更近一点。' },
+    { w: 'clouds', zh: '云', scene: '天上白色或灰色的云。', tone: '中性', col: 'dark clouds, rain clouds', en: 'Dark clouds covered the hill.', cn: '乌云盖住了山。' },
+    { w: 'clubhouse', zh: '俱乐部会所', scene: '俱乐部成员聚会的那栋房子。', tone: '中性', col: 'the clubhouse at, a golf clubhouse', en: 'The meeting is in the clubhouse.', cn: '会议在会所里。' },
+    { w: 'clubs', zh: '俱乐部', scene: '有共同兴趣的人组成的社团。', tone: '中性', col: 'sports clubs, join clubs', en: 'The college has several clubs.', cn: '学院有几个社团。' },
+    { w: 'coal', zh: '煤', scene: '从地下挖出、可以烧的黑色矿物。', tone: '中性', col: 'coal mine, burn coal', en: 'The old stove used coal.', cn: '旧炉子烧煤。' },
+    { w: 'coats', zh: '外套', scene: '穿在最外面的衣服。', tone: '中性', col: 'winter coats, hang the coats', en: 'Hang your coats by the door.', cn: '把外套挂在门边。' },
+    { w: 'code', zh: '代码；密码', scene: '一套符号或进入系统的密码，也可以是行为准则。', tone: '中性', col: 'a code for, access code', en: 'Enter the code on the door.', cn: '在门上输入密码。' },
+    { w: 'coffee', zh: '咖啡', scene: '用咖啡豆做成的热饮。', tone: '中性', col: 'a cup of coffee, black coffee', en: 'She drinks coffee in the morning.', cn: '她早上喝咖啡。' },
+    { w: 'collate', zh: '核对', scene: '把几份材料逐项对到一起，看是否一致。', tone: '正式', col: 'collate the, collate data', en: 'Collate the answers before the meeting.', cn: '开会前把答案核对好。' },
+    { w: 'collection', zh: '采集；收藏', scene: '把东西收集到一起，或已经收成的那一套。', tone: '中性', col: 'a collection of, data collection', en: 'The museum has a collection of maps.', cn: '博物馆收藏了一批地图。' },
+    { w: 'colonies', zh: '殖民地；种群', scene: '被另一国统治的地方，或聚在一起生活的一群生物。', tone: '中性偏正式', col: 'former colonies, ant colonies', en: 'Ant colonies live under the path.', cn: '蚁群住在小路下面。' },
+    { w: 'colours', zh: '颜色', scene: '红、蓝、绿这些颜色。作动词时是涂上颜色。英式拼写。', tone: '中性', col: 'bright colours, in colour', en: 'The painting uses bright colours.', cn: '这幅画用了鲜艳的颜色。' },
+    { w: 'columns', zh: '列；圆柱', scene: '表格里竖着的一列，或撑住建筑的圆柱。', tone: '中性', col: 'newspaper columns, stone columns', en: 'Add the numbers in the columns.', cn: '把各列的数字加起来。' },
+    { w: 'comedy', zh: '喜剧', scene: '让人笑的戏或电影。', tone: '中性', col: 'a comedy film, romantic comedy', en: 'The cinema is showing a comedy.', cn: '电影院在放一部喜剧。' },
+    { w: 'comets', zh: '彗星', scene: '拖着一条亮尾、在天空中移动的天体。', tone: '中性', col: 'bright comets, a comet tail', en: 'The book explains comets.', cn: '这本书讲解彗星。' },
+    { w: 'comfortable', zh: '舒适的', scene: '坐着或穿着不别扭，身体觉得放松。', tone: '褒义', col: 'a comfortable chair, feel comfortable', en: 'The chair is comfortable.', cn: '这把椅子坐着舒服。' },
+    { w: 'comics', zh: '漫画', scene: '用格子画讲故事的书，或喜剧演员。', tone: '中性', col: 'comic books, read comics', en: 'He reads comics on the train.', cn: '他在火车上看漫画。' },
+    { w: 'commercial', zh: '商业的；广告', scene: '和买卖有关的。作名词时是一条商业广告。', tone: '中性', col: 'a commercial area, a television commercial', en: 'The street is a commercial area.', cn: '这条街是商业区。' },
+    { w: 'commitments', zh: '承诺', scene: '你答应一定要做的那些事。', tone: '中性偏正式', col: 'work commitments, family commitments', en: 'She has work commitments on Friday.', cn: '她星期五有工作上的安排。' },
+    { w: 'communities', zh: '社区', scene: '住在一起、有共同联系的那些人群，是 community 的复数。', tone: '中性', col: 'local communities, rural communities', en: 'The plan helps local communities.', cn: '这个计划帮助当地社区。' },
+    { w: 'commutes', zh: '通勤', scene: '每天在家和工作地点之间往返。', tone: '中性', col: 'commutes to, a long commute', en: 'He commutes by train.', cn: '他坐火车通勤。' },
+    { w: 'commuter', zh: '通勤者', scene: '每天往返于家和单位的人。', tone: '中性', col: 'a commuter train, daily commuter', en: 'The early train is full of commuters.', cn: '早班火车上满是通勤的人。' },
+    { w: 'compatible', zh: '兼容的', scene: '两件东西或两个人能放在一起、不互相冲突。', tone: '中性偏正式', col: 'compatible with, compatible systems', en: 'The charger is compatible with this phone.', cn: '这个充电器适用于这部手机。' },
+    { w: 'companies', zh: '公司', scene: '做生意的那些公司。这张卡还标了“陪伴”，那个意思更常用 accompany。', tone: '中性', col: 'small companies, insurance companies', en: 'Two companies share the building.', cn: '两家公司共用这栋楼。' },
+    { w: 'companionship', zh: '陪伴；友谊', scene: '有人陪在身边的那种相处。', tone: '中性', col: 'companionship of, for companionship', en: 'The dog provides companionship.', cn: '这只狗陪伴着他。' },
+    { w: 'compartment', zh: '隔间', scene: '火车或盒子里被隔开的一小间。', tone: '中性', col: 'a train compartment, luggage compartment', en: 'They sat in an empty compartment.', cn: '他们坐在一间空的隔间里。' },
+    { w: 'compasses', zh: '指南针', scene: '用来看方向的指南针。', tone: '中性', col: 'a pair of compasses, magnetic compasses', en: 'Hikers carry compasses.', cn: '徒步的人带着指南针。' },
+    { w: 'compensation', zh: '补偿', scene: '为损失付出的钱或其他弥补。', tone: '正式', col: 'compensation for, claim compensation', en: 'She received compensation for the delay.', cn: '她因这次耽搁得到了补偿。' },
+    { w: 'competitions', zh: '比赛', scene: '比谁更好的那些赛事。', tone: '中性', col: 'sports competitions, enter competitions', en: 'The school holds two competitions.', cn: '学校举办两项比赛。' },
+    { w: 'complementary', zh: '互补的', scene: '两样放在一起，正好补上对方缺的那一块。不是免费的那个 complimentary。', tone: '正式', col: 'complementary to, complementary skills', en: 'The two courses are complementary.', cn: '这两门课是互补的。' },
+    { w: 'complete', zh: '完整的；完成', scene: '一样都不缺，或把一件事做完。', tone: '中性', col: 'a complete set, complete the form', en: 'Please complete the form.', cn: '请把表格填完。' },
+    { w: 'complimentary', zh: '赠送的', scene: '不用付钱，作为赠送。不要和 complementary“互补”搞混。', tone: '中性', col: 'complimentary ticket, complimentary breakfast', en: 'Breakfast is complimentary.', cn: '早餐是赠送的。' },
+    { w: 'compost', zh: '堆肥', scene: '厨余和落叶堆熟之后变成的肥料。', tone: '中性', col: 'garden compost, a compost bin', en: 'Put the leaves in the compost.', cn: '把落叶放进堆肥里。' },
+    { w: 'composition', zh: '构成；作曲', scene: '某物由什么组成，或写成的一首曲子、一篇作文。', tone: '中性', col: 'chemical composition, a musical composition', en: 'The composition of the soil was tested.', cn: '土壤的成分被检测了。' },
+    { w: 'computers', zh: '计算机', scene: '用来处理信息的电脑。', tone: '中性', col: 'personal computers, computer room', en: 'The library has ten computers.', cn: '图书馆有十台电脑。' },
+    { w: 'concern', zh: '担心', scene: '心里放不下的事。它也可以表示与某事有关，或一家企业。', tone: '中性', col: 'a concern about, cause concern', en: 'Safety is a concern.', cn: '安全是一件令人担心的事。' },
+    { w: 'concerts', zh: '音乐会', scene: '乐手在观众面前演奏的场次。', tone: '中性', col: 'live concerts, concert hall', en: 'The concerts are on Friday.', cn: '音乐会在星期五。' },
+    { w: 'concrete', zh: '混凝土', scene: '水泥、沙和石子混成的建筑材料。作形容词时表示具体的。', tone: '中性', col: 'concrete floor, a concrete plan', en: 'The path is made of concrete.', cn: '这条路是混凝土的。' },
+    { w: 'conditions', zh: '条件；状况', scene: '周围的状况，或合同里的那些条件。', tone: '中性', col: 'working conditions, weather conditions', en: 'Working conditions have improved.', cn: '工作条件改善了。' },
+    { w: 'conference', zh: '会议', scene: '很多人聚在一起讨论的正式会议。', tone: '中性偏正式', col: 'a conference on, conference room', en: 'The conference is in March.', cn: '会议在三月举行。' },
+    { w: 'confidential', zh: '机密的', scene: '不能随便告诉外人的信息。', tone: '正式', col: 'confidential information, keep confidential', en: 'The report is confidential.', cn: '这份报告是机密的。' },
+    { w: 'confirm', zh: '确认', scene: '再核对一次，确定事情属实或已经定下。', tone: '中性', col: 'confirm that, confirm a booking', en: 'Please confirm the time.', cn: '请确认时间。' },
+    { w: 'confi', zh: '矛盾', scene: '这张卡的意思是矛盾。常见的词是 conflict。', tone: '中性', col: 'a conflict between, in conflict', en: 'There is a conflict between the two dates.', cn: '这两个日期互相冲突。' },
+    { w: 'confusion', zh: '混乱；困惑', scene: '事情缠在一起，人不知道该怎么理解。', tone: '中性', col: 'confusion about, cause confusion', en: 'The sign caused confusion.', cn: '这块牌子让人困惑。' },
+    { w: 'congratulations', zh: '祝贺', scene: '对别人的好消息说的祝贺。常用复数。', tone: '褒义', col: 'congratulations on, offer congratulations', en: 'Congratulations on the result.', cn: '祝贺这个结果。' },
+    { w: 'conquer', zh: '战胜', scene: '把困难或一个地方攻下来。', tone: '语气强', col: 'conquer a fear, conquer the', en: 'She conquered her fear of water.', cn: '她克服了对水的恐惧。' },
+    { w: 'conservation', zh: '保护', scene: '把自然、建筑或资源保住，不让它消失。', tone: '正式', col: 'wildlife conservation, energy conservation', en: 'The park is for wildlife conservation.', cn: '这个公园用于野生动物保护。' },
+    { w: 'consolidation', zh: '巩固', scene: '把已经有的东西收紧、变牢。', tone: '正式', col: 'consolidation of, debt consolidation', en: 'The course includes consolidation of last term.', cn: '这门课包括巩固上学期的内容。' },
+    { w: 'consult', zh: '查阅；请教', scene: '去查一本书或问一个懂的人。', tone: '偏正式', col: 'consult a doctor, consult the', en: 'Consult the map before you turn.', cn: '转弯前先看地图。' },
+    { w: 'consumption', zh: '消费；消耗', scene: '用掉的数量，如用电或买东西。', tone: '正式', col: 'energy consumption, fuel consumption', en: 'Energy consumption fell last year.', cn: '去年能源消耗下降了。' },
+    { w: 'contacts', zh: '联系；联系人', scene: '和别人保持联系，或通讯录里的那些人。', tone: '中性', col: 'contact details, business contacts', en: 'Keep the contacts up to date.', cn: '把联系人保持为最新。' },
+    { w: 'containers', zh: '容器；集装箱', scene: '用来装东西的盒子，或货运的大集装箱。', tone: '中性', col: 'plastic containers, shipping containers', en: 'Store the food in containers.', cn: '把食物放进容器里。' },
+    { w: 'content', zh: '内容', scene: '书、课或盒子里面有什么。这里不是“满意的”。', tone: '中性', col: 'the content of, content page', en: 'Check the content of the bag.', cn: '看一下袋子里的东西。' },
+    { w: 'continent', zh: '大陆', scene: '地球上很大的一块陆地，如亚洲。', tone: '中性', col: 'the African continent, on the continent', en: 'The desert crosses the continent.', cn: '这片沙漠横贯大陆。' },
+    { w: 'continue', zh: '继续', scene: '停了一下或没停，事情接着往下做。', tone: '中性', col: 'continue to, continue with', en: 'Please continue with the next question.', cn: '请继续做下一题。' },
+    { w: 'contradict', zh: '反驳', scene: '说出和对方相反的话，或两个事实对不上。', tone: '偏正式', col: 'contradict somebody, contradict a claim', en: 'The new figures contradict the old report.', cn: '新的数字和旧报告相反。' },
+    { w: 'contribution', zh: '贡献', scene: '你放进共同事情里的那一份。', tone: '中性', col: 'a contribution to, make a contribution', en: 'Her contribution to the project was clear.', cn: '她对这个项目的贡献很清楚。' },
+    { w: 'contro', zh: '控制', scene: '这张卡的意思是控制。常见拼写是 control。', tone: '中性', col: 'control of, under control', en: 'The pilot kept the plane under control.', cn: '飞行员控制住了飞机。' },
+    { w: 'convenient', zh: '方便的', scene: '时间或地点刚好合适，不给人添麻烦。', tone: '中性', col: 'convenient for, a convenient time', en: 'Is Saturday convenient for you?', cn: '星期六你方便吗？' },
+    { w: 'conversations', zh: '交谈', scene: '人与人说的那些话。', tone: '中性', col: 'phone conversations, conversations about', en: 'Their conversations were about the trip.', cn: '他们谈的是这次出行。' },
+    { w: 'conversion', zh: '转换', scene: '从一种形式或单位变成另一种。', tone: '偏正式', col: 'conversion of, energy conversion', en: 'The conversion of the barn took a year.', cn: '谷仓的改造花了一年。' },
+    { w: 'convey', zh: '传达', scene: '把意思、感情或货物从一边送到另一边。', tone: '偏正式', col: 'convey a message, convey that', en: 'The letter conveys her thanks.', cn: '这封信传达了她的谢意。' },
+    { w: 'cook', zh: '烹调', scene: '用火或热把食物做熟。', tone: '中性', col: 'cook a meal, cook for', en: 'I cook dinner at seven.', cn: '我七点做晚饭。' },
+    { w: 'cooker', zh: '炊具', scene: '用来做饭的炉具，不是做饭的人。', tone: '中性', col: 'a gas cooker, on the cooker', en: 'The soup is on the cooker.', cn: '汤在炉子上。' },
+    { w: 'coo', zh: '凉爽的', scene: '这张卡的意思是凉爽的。常见拼写是 cool。', tone: '中性', col: 'a cool breeze, keep cool', en: 'A cool breeze came off the sea.', cn: '一阵凉风从海上吹来。' },
+    { w: 'cope I', zh: '处理', scene: '这张卡的意思是应付、处理。常见写法是 cope，后面常接 with。', tone: '中性', col: 'cope with, cope well', en: 'She coped with the delay calmly.', cn: '她平静地应对了这次耽搁。' },
+    { w: 'copies', zh: '副本', scene: '和原件一样再制出来的那些份。', tone: '中性', col: 'copies of, make copies', en: 'Make two copies of the form.', cn: '把表格复印两份。' },
+    { w: 'copyright', zh: '版权', scene: '作者对自己作品享有的权利，别人不能随便复制。', tone: '正式', col: 'copyright of, under copyright', en: 'The book is under copyright.', cn: '这本书受版权保护。' },
+    { w: 'corns', zh: '玉米', scene: '这张卡的意思是玉米。更常见的词是 corn。', tone: '中性', col: 'sweet corn, an ear of corn', en: 'The farm grows corn.', cn: '这家农场种玉米。' },
+    { w: 'corners', zh: '角落', scene: '两条边相交的那些角。', tone: '中性', col: 'street corners, in the corner', en: 'The cafe is on the corner.', cn: '咖啡馆在拐角处。' },
+    { w: 'cornet', zh: '短号', scene: '一种铜管乐器，样子像小号。', tone: '中性', col: 'play the cornet, a cornet solo', en: 'He plays the cornet in the band.', cn: '他在乐队里吹短号。' },
+    { w: 'correct', zh: '正确的', scene: '没有错、符合事实。这张卡的原文释义写成了相反的 incorrect。', tone: '中性', col: 'the correct answer, correct information', en: 'Choose the correct answer.', cn: '选出正确的答案。' },
+    { w: 'corridors', zh: '走廊', scene: '楼里连接各个房间的过道。', tone: '中性', col: 'long corridors, hospital corridors', en: 'The offices are along the corridor.', cn: '办公室在走廊两侧。' },
+    { w: 'cosmetics', zh: '化妆品', scene: '用来化妆的那些产品。', tone: '中性', col: 'cosmetics counter, natural cosmetics', en: 'The shop sells cosmetics.', cn: '这家店卖化妆品。' },
+    { w: 'costumes', zh: '戏服', scene: '演戏或节日时穿的服装。', tone: '中性', col: 'stage costumes, traditional costumes', en: 'The actors changed costumes.', cn: '演员们换了戏服。' },
+    { w: 'cottages', zh: '村舍', scene: '乡下小房子。', tone: '中性', col: 'stone cottages, holiday cottages', en: 'The lane has three cottages.', cn: '这条小路上有三间村舍。' },
+    { w: 'cotton', zh: '棉花', scene: '从棉株上采下、用来做布的白色纤维。', tone: '中性', col: 'cotton shirt, raw cotton', en: 'The shirt is made of cotton.', cn: '这件衬衫是棉的。' },
+    { w: 'counci', zh: '委员会', scene: '这张卡的意思是委员会或理事会。常见拼写是 council。', tone: '正式', col: 'the city council, council meeting', en: 'The council approved the plan.', cn: '理事会批准了这个计划。' },
+    { w: 'count', zh: '数数', scene: '一个一个地数。这里不是“依靠”。', tone: '中性', col: 'count the, count to', en: 'Count the chairs before the talk.', cn: '讲座前数一下椅子。' },
+    { w: 'counterpart', zh: '对应的人；对应物', scene: '在另一个机构里和你职位相当的那个人，或相对应的东西。', tone: '正式', col: 'a counterpart in, the counterpart of', en: 'She met her counterpart from the other school.', cn: '她见了另一所学校里和她职务相当的人。' },
+    { w: 'countries', zh: '国家', scene: '一个个国家。这张卡的意思是国家。', tone: '中性', col: 'European countries, neighbouring countries', en: 'The two countries share a border.', cn: '这两个国家接壤。' },
+    { w: 'course', zh: '课程；一道菜', scene: '学校里的一门课。在餐桌上，它是一道菜。', tone: '中性', col: 'a course in, the main course', en: 'The course lasts ten weeks.', cn: '这门课为期十周。' },
+    { w: 'courts', zh: '球场；法院', scene: '打球的场地，或审理案件的法院。', tone: '中性', col: 'tennis courts, law courts', en: 'The tennis courts are behind the hall.', cn: '网球场在大厅后面。' },
+    { w: 'courtyard', zh: '庭院', scene: '建筑围起来的那块露天院子。', tone: '中性', col: 'an inner courtyard, courtyard garden', en: 'We waited in the courtyard.', cn: '我们在庭院里等。' },
+    { w: 'cousins', zh: '堂兄弟姐妹', scene: '父母的兄弟姐妹的孩子。', tone: '中性', col: 'my cousins, two cousins', en: 'My cousins live in the next town.', cn: '我的堂兄弟姐妹住在邻镇。' },
+    { w: 'cover', zh: '包括', scene: '范围把这一项算进去。这个词也可以表示盖上。', tone: '中性', col: 'cover the cost, cover a topic', en: 'The fee covers lunch.', cn: '这个费用包括午餐。' },
+    { w: 'coverage', zh: '覆盖', scene: '新闻报道的范围，或保险、信号盖到的范围。', tone: '中性', col: 'news coverage, insurance coverage', en: 'The event received wide coverage.', cn: '这件事得到了广泛报道。' },
+    { w: 'cracks', zh: '裂缝', scene: '表面上裂开的缝。', tone: '中性', col: 'cracks in, hairline cracks', en: 'There are cracks in the wall.', cn: '墙上有裂缝。' },
+    { w: 'craft', zh: '工艺；手艺', scene: '用手做成的技艺，如陶艺或木工。', tone: '中性', col: 'a craft fair, the craft of', en: 'The market sells local craft.', cn: '市场卖当地的手工艺品。' },
+    { w: 'craftsmen', zh: '手艺人', scene: '以手艺为业的人，是 craftsman 的复数。', tone: '中性', col: 'skilled craftsmen, local craftsmen', en: 'Local craftsmen made the chairs.', cn: '当地手艺人做了这些椅子。' },
+    { w: 'cream', zh: '奶油', scene: '牛奶上层那层可以打成泡沫的脂肪。', tone: '中性', col: 'whipped cream, ice cream', en: 'The dessert has cream.', cn: '这份甜点有奶油。' },
+    { w: 'crime', zh: '犯罪', scene: '法律不许做、做了会受罚的事。', tone: '中性', col: 'a crime against, commit a crime', en: 'Theft is a crime.', cn: '偷窃是犯罪。' },
+    { w: 'crisis', zh: '危机', scene: '事情突然变得很危险、必须马上处理的时刻。', tone: '负面', col: 'a crisis in, financial crisis', en: 'The hospital faced a staffing crisis.', cn: '医院面临人员危机。' },
+    { w: 'crisps', zh: '薯片', scene: '薄薄的油炸土豆片，英式英语的说法。', tone: '中性', col: 'a packet of crisps, cheese crisps', en: 'He bought a packet of crisps.', cn: '他买了一包薯片。' },
+    { w: 'criteria l', zh: '标准', scene: '这张卡的意思是标准、条件，是 criterion 的复数。常见拼写是 criteria。', tone: '正式', col: 'selection criteria, meet the criteria', en: 'The plan meets the criteria.', cn: '这个计划符合标准。' },
+    { w: 'critical', zh: '批评的；危急的', scene: '指出缺点，或情况已经到了紧要关头。这里不是“至关重要”那个意思的唯一用法，但“紧要”也说得通。', tone: '中性', col: 'critical of, a critical moment', en: 'She was critical of the delay.', cn: '她批评了这次耽搁。' },
+    { w: 'crocodiles', zh: '鳄鱼', scene: '生活在水边、嘴巴很长的爬行动物。', tone: '中性', col: 'saltwater crocodiles, crocodile skin', en: 'Crocodiles live in the river.', cn: '鳄鱼住在这条河里。' },
+    { w: 'croft', zh: '小农场', scene: '苏格兰等地很小的一块耕地和住房。', tone: '中性', col: 'a family croft, croft house', en: 'The croft is by the shore.', cn: '这座小农场在岸边。' },
+    { w: 'cross', zh: '横过', scene: '从一边走到另一边。', tone: '中性', col: 'cross the road, cross a bridge', en: 'Cross the road at the lights.', cn: '在红绿灯处过马路。' },
+    { w: 'crow', zh: '乌鸦', scene: '一身黑羽、叫声粗的鸟。', tone: '中性', col: 'a black crow, crow on', en: 'A crow sat on the fence.', cn: '一只乌鸦停在篱笆上。' },
+    { w: 'crowds', zh: '挤满', scene: '很多人挤在一个地方，或把地方挤满。', tone: '中性', col: 'crowds of, crowded with', en: 'Crowds filled the square.', cn: '人群挤满了广场。' },
+    { w: 'crudes', zh: '粗糙的；天然的', scene: '这张卡的意思是粗糙的或未经加工的。常见词是 crude。', tone: '中性', col: 'crude oil, a crude drawing', en: 'The sketch is crude but clear.', cn: '这张草图很粗糙，但很清楚。' },
+    { w: 'cruel', zh: '残酷的', scene: '故意让别的生命痛苦。', tone: '负面', col: 'cruel to, a cruel remark', en: 'The remark was cruel.', cn: '那句话很残酷。' },
+    { w: 'cruises', zh: '乘船游览', scene: '坐船慢慢游览，常是假期。', tone: '中性', col: 'river cruises, a cruise ship', en: 'They booked a river cruise.', cn: '他们订了一次河上乘船游览。' },
+    { w: 'crush', zh: '压碎', scene: '用很大的力把东西压破。它也可以表示短暂的迷恋。', tone: '中性', col: 'crush the, crushed ice', en: 'Crush the garlic with a knife.', cn: '用刀把蒜压碎。' },
+    { w: 'crying', zh: '哭泣', scene: '因为难过或疼痛而流泪出声。', tone: '中性', col: 'stop crying, a crying baby', en: 'The baby was crying.', cn: '婴儿在哭。' },
+    { w: 'crystals', zh: '水晶', scene: '有规则形状的透明矿物，或晶体。', tone: '中性', col: 'ice crystals, salt crystals', en: 'Ice crystals formed on the window.', cn: '窗上结了冰晶。' },
+    { w: 'cultivate', zh: '培养', scene: '把土地种起来，或把一种习惯、关系慢慢养成。', tone: '偏正式', col: 'cultivate land, cultivate a skill', en: 'The course helps students cultivate patience.', cn: '这门课帮助学生培养耐心。' },
+    { w: 'cultures', zh: '文明；文化', scene: '不同人群长期形成的生活方式。这张卡写的是文明。', tone: '中性', col: 'local cultures, world cultures', en: 'The museum presents local cultures.', cn: '博物馆展示当地文化。' },
+    { w: 'curry', zh: '咖喱', scene: '用香料做成的一种炖菜。', tone: '中性', col: 'chicken curry, a mild curry', en: 'We ordered a vegetable curry.', cn: '我们点了一份蔬菜咖喱。' },
+    { w: 'curtains', zh: '窗帘', scene: '挂在窗上、可以拉开的布。', tone: '中性', col: 'draw the curtains, heavy curtains', en: 'Close the curtains at night.', cn: '晚上把窗帘拉上。' },
+    { w: 'curved', zh: '弯曲的', scene: '线条或边缘不是直的，弯过去。', tone: '中性', col: 'a curved line, curved roof', en: 'The roof is curved.', cn: '屋顶是弯曲的。' },
+    { w: 'cut', zh: '切下', scene: '用刀把一块从整体上分开。', tone: '中性', col: 'cut the, cut into', en: 'Cut the bread into slices.', cn: '把面包切成片。' },
+    { w: 'cutlery', zh: '餐具', scene: '吃饭用的刀、叉、勺。', tone: '中性', col: 'a set of cutlery, plastic cutlery', en: 'The cutlery is in the drawer.', cn: '餐具在抽屉里。' },
+    { w: 'CVi', zh: '简历', scene: '这张卡是简历的缩写。常见写法是 CV，即 curriculum vitae。', tone: '中性', col: 'a CV for, send a CV', en: 'Send your CV with the form.', cn: '把简历和表格一起交上。' },
+    { w: 'cyeling', zh: '骑车', scene: '这张卡的意思是骑自行车。常见拼写是 cycling。', tone: '中性', col: 'go cycling, cycling to work', en: 'Cycling to work takes twenty minutes.', cn: '骑自行车上班要二十分钟。' },
+    { w: 'cylinders', zh: '圆柱', scene: '上下一样圆、像罐子的立体形状，或汽缸。', tone: '中性偏技术', col: 'metal cylinders, gas cylinders', en: 'The gas is stored in cylinders.', cn: '气体储存在钢瓶里。' }
   ];
 
   const byWord = Object.create(null);
