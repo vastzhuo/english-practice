@@ -418,7 +418,8 @@
     ]},
     { line: '长得茂盛，和事业、城市兴旺起来。', items: [
       { w: 'thrive', zh: '茁壮成长', scene: '植物在阳光下越长越旺，人或城市也在合适的条件里越来越好。', tone: '褒义', col: 'thrive on, thrive in', en: 'Small shops thrive in this neighbourhood.', cn: '小店在这个社区里生意兴旺。' },
-      { w: 'flourish', zh: '兴旺；茂盛', scene: '一片田或一段经济突然繁茂，旗帜一样展开。', tone: '褒义，稍书面', col: 'flourish in, business flourished', en: 'The arts flourished in that period.', cn: '艺术在那个时期兴盛起来。' }
+      { w: 'flourish', zh: '兴旺；茂盛', scene: '一片田或一段经济突然繁茂，旗帜一样展开。', tone: '褒义，稍书面', col: 'flourish in, business flourished', en: 'The arts flourished in that period.', cn: '艺术在那个时期兴盛起来。' },
+      { w: 'boom', zh: '兴旺；激增', scene: '生意或数量在短时间里猛地涨上去。', tone: '中性', col: 'a boom in, boom year', en: 'There was a boom in tourism.', cn: '旅游业出现了一阵兴旺。' }
     ]},
     { line: '干活认真不肯偷懒，和长期肯下苦功。', items: [
       { w: 'diligent', zh: '勤奋的', scene: '灯还亮着，人一页一页把作业做完，不敷衍。', tone: '褒义，偏正式', col: 'a diligent student, diligent in', en: 'She is diligent in checking every source.', cn: '她查每一处资料都很勤奋。' },
@@ -1289,7 +1290,8 @@
     { line: '坏到让人难受，或可怕到让人吃惊。', items: [
       { w: 'awful', zh: '极坏的；可怕的', scene: '饭很难吃，或一个消息差得让人皱眉。', tone: '偏口语', col: 'an awful day, awful weather', en: 'The weather was awful.', cn: '天气糟极了。' },
       { w: 'appalling', zh: '可怕的', scene: '情况差到让人倒吸一口气，比 awful 更震惊。', tone: '语气强', col: 'appalling conditions, an appalling result', en: 'The conditions in the room were appalling.', cn: '房间里的状况可怕。' },
-      { w: 'terrible', zh: '可怕的', scene: '事情糟得或吓得让人不想再碰上。', tone: '中性，语气强', col: 'a terrible storm, terrible news', en: 'There was a terrible storm.', cn: '来了一场可怕的暴风雨。' }
+      { w: 'terrible', zh: '可怕的', scene: '事情糟得或吓得让人不想再碰上。', tone: '中性，语气强', col: 'a terrible storm, terrible news', en: 'There was a terrible storm.', cn: '来了一场可怕的暴风雨。' },
+      { w: 'bad', zh: '坏的', scene: '最普通的说法：东西不好，或情况很差。', tone: '中性', col: 'a bad idea, bad weather', en: 'That was a bad idea.', cn: '那是个坏主意。' }
     ]},
     { line: '意见冲到一起。argument 可以变成争吵，debate 是有规矩的辩论，dispute 是争执。', items: [
       { w: 'argument', zh: '论证；争吵', scene: '两边各说各的理由。声音高了，就变成争吵。', tone: '中性', col: 'an argument about, an argument that', en: 'They had an argument about the bill.', cn: '他们为账单争吵起来。' },
@@ -1347,6 +1349,67 @@
     { line: '提醒危险或问题。', items: [
       { w: 'alarm', zh: '警告；警报', scene: '铃响了，或一句话让人警觉出事了。', tone: '中性', col: 'raise the alarm, an alarm', en: 'The alarm rang at midnight.', cn: '警报在午夜响了。' },
       { w: 'warning', zh: '警告', scene: '事先告诉你：再这样就会有不好的结果。', tone: '中性', col: 'a warning about, without warning', en: 'The sign is a warning about ice.', cn: '这块牌子是在警告有冰。' }
+    ]},
+{ line: '位置在另一件东西的下方。', items: [
+      { w: 'below', zh: '在下面', scene: '位置比另一条线更低，或在某物的下方。', tone: '中性', col: 'below the, below zero', en: 'The temperature fell below zero.', cn: '气温降到了零度以下。' },
+      { w: 'under', zh: '在下面', scene: '一件东西盖在上面，另一件在它底下。它也可以表示“不足”。', tone: '中性', col: 'under the, under 18', en: 'The bag is under the table.', cn: '包在桌子下面。' }
+    ]},
+    { line: '靠海的那一带。beach 是能走上去的沙滩，shore 是水边，coast 是较长的海岸。', items: [
+      { w: 'beach', zh: '海滩', scene: '沙子或石子铺到水边、人可以走上去的那一片。', tone: '中性', col: 'on the beach, a sandy beach', en: 'We walked on the beach.', cn: '我们在海滩上走了走。' },
+      { w: 'shore', zh: '海滨', scene: '水和陆地相接的那一条边。', tone: '中性', col: 'on the shore, the shore of', en: 'The boat reached the shore.', cn: '船靠了岸。' },
+      { w: 'coast', zh: '海岸', scene: '沿着海伸出去的一整段陆地，比一片沙滩更长。', tone: '中性', col: 'on the coast, the coast of', en: 'The town is on the coast.', cn: '这个镇子在海岸上。' }
+    ]},
+    { line: '水上的船。boat 通常更小，ship 通常更大。', items: [
+      { w: 'boat', zh: '小船', scene: '能在水上走的船，常常是较小的那一种。', tone: '中性', col: 'a fishing boat, by boat', en: 'We crossed the river by boat.', cn: '我们坐小船过了河。' },
+      { w: 'ship', zh: '船', scene: '较大的船，可以载很多人远行。', tone: '中性', col: 'a cargo ship, by ship', en: 'The ship left the harbour at dawn.', cn: '船在黎明时离开了港口。' }
+    ]},
+    { line: '打断别人正在做的事。', items: [
+      { w: 'bother', zh: '打扰', scene: '一件小事反复来找你，让你不得安宁。', tone: '中性', col: 'bother somebody, do not bother', en: 'Sorry to bother you.', cn: '抱歉打扰你。' },
+      { w: 'disturb', zh: '打扰；打乱', scene: '把安静或已经排好的秩序弄乱。', tone: '中性偏正式', col: 'disturb somebody, disturb the', en: 'Please do not disturb the meeting.', cn: '请不要打扰会议。' }
+    ]},
+    { line: '里面没有东西。blank 更常指纸上还没写字。', items: [
+      { w: 'empty', zh: '空的', scene: '盒子、房间或杯子里什么都没有。', tone: '中性', col: 'an empty room, empty of', en: 'The room was empty.', cn: '房间是空的。' },
+      { w: 'blank', zh: '空白的', scene: '纸上还没有字，或脸上没有表情。', tone: '中性', col: 'a blank page, go blank', en: 'Leave the last line blank.', cn: '最后一行留空。' }
+    ]},
+    { line: '两个轮子的自行车。', items: [
+      { w: 'bike', zh: '自行车', scene: '日常说法，两个轮子、用脚踩的车。', tone: '偏口语', col: 'ride a bike, by bike', en: 'I ride a bike to class.', cn: '我骑自行车去上课。' },
+      { w: 'bicycle', zh: '自行车', scene: '和 bike 是同一件东西，bicycle 更完整、稍正式。', tone: '中性', col: 'a bicycle lane, ride a bicycle', en: 'The path is for bicycles.', cn: '这条路是给自行车的。' }
+    ]},
+    { line: '载客的大车。bus 是市内公交，coach 常指长途。', items: [
+      { w: 'bus', zh: '公共汽车', scene: '城里按站点停靠、大家一起坐的车。', tone: '中性', col: 'by bus, the bus stop', en: 'We took the bus to the museum.', cn: '我们坐公共汽车去博物馆。' },
+      { w: 'coach', zh: '长途汽车', scene: '城与城之间的大客车。它也可以表示教练。', tone: '中性', col: 'a coach to, by coach', en: 'The coach to the city leaves at nine.', cn: '去城里的长途汽车九点开。' }
+    ]},
+    { line: '来到这个世界上。birth 是那件事，born 是“出生”这个状态。', items: [
+      { w: 'birth', zh: '出生', scene: '一个生命开始的那个时刻或事实。', tone: '中性', col: 'at birth, the birth of', en: 'The birth was recorded in June.', cn: '出生记录在六月。' },
+      { w: 'born', zh: '出生', scene: '人已经来到世上，常用来回答“在哪里出生”。', tone: '中性', col: 'was born, born in', en: 'She was born in 1998.', cn: '她出生于 1998 年。' }
+    ]},
+    { line: '光很足，或好到发光。brilliant 还可以表示“精彩”。', items: [
+      { w: 'bright', zh: '明亮的', scene: '灯或太阳把地方照得很清楚。', tone: '中性', col: 'bright light, a bright room', en: 'The room is bright in the morning.', cn: '这个房间早上很亮。' },
+      { w: 'brilliant', zh: '精彩的；灿烂的', scene: '光强到耀眼，或一个主意好到让人叫好。', tone: '褒义，语气强', col: 'a brilliant idea, brilliant sunshine', en: 'That was a brilliant idea.', cn: '那是个极好的主意。' }
+    ]},
+    { line: '空气进进出出。breath 是一口气，breathe 是呼吸这个动作。', items: [
+      { w: 'breath', zh: '呼吸；一口气', scene: '吸进或呼出的那一口气。', tone: '中性', col: 'a deep breath, out of breath', en: 'Take a deep breath.', cn: '深吸一口气。' },
+      { w: 'breathe', zh: '呼吸', scene: '胸腔一起一伏，空气进出。', tone: '中性', col: 'breathe in, breathe out', en: 'Breathe in slowly.', cn: '慢慢吸气。' }
+    ]},
+    { line: '血，和血从身体里出来。', items: [
+      { w: 'blood', zh: '血', scene: '身体里红色的那一种液体。', tone: '中性', col: 'blood test, lose blood', en: 'The nurse took a blood test.', cn: '护士做了血液检查。' },
+      { w: 'bleed', zh: '流血', scene: '血从伤口流出来。', tone: '中性', col: 'bleed from, stop the bleeding', en: 'The cut began to bleed.', cn: '伤口开始流血。' }
+    ]},
+    { line: '用来装东西的容器。bottle 口较窄，jar 口较宽。', items: [
+      { w: 'bottle', zh: '瓶子', scene: '口比较窄、常用来装水或饮料的容器。', tone: '中性', col: 'a bottle of, plastic bottle', en: 'Bring a bottle of water.', cn: '带一瓶水。' },
+      { w: 'jar', zh: '广口瓶', scene: '口比较宽的瓶子，常用来装果酱或蜂蜜。', tone: '中性', col: 'a jar of, glass jar', en: 'The honey is in a jar.', cn: '蜂蜜装在广口瓶里。' }
+    ]},
+    { line: '把东西从一个地方挪到另一个地方。bring 是带到说话人这里，carry 是搬着走。', items: [
+      { w: 'bring', zh: '带来', scene: '你拿着东西朝这边来。', tone: '中性', col: 'bring something, bring to', en: 'Please bring a pen.', cn: '请带一支笔来。' },
+      { w: 'carry', zh: '搬运；携带', scene: '东西在你手里或身上，你把它运到别处。', tone: '中性', col: 'carry a bag, carry to', en: 'He carried the box upstairs.', cn: '他把箱子搬上了楼。' }
+    ]},
+    { line: '用手按下去，让机器换一种状态。', items: [
+      { w: 'button', zh: '按钮', scene: '一个可以按的小圆点，按下去机器就有反应。它也可以是衣服上的扣子。', tone: '中性', col: 'press the button, a button on', en: 'Press the button for the lift.', cn: '按这个按钮叫电梯。' },
+      { w: 'switch', zh: '开关', scene: '扳一下或按一下，灯或机器就开或关。它也可以表示转换。', tone: '中性', col: 'a light switch, switch on', en: 'The switch is by the door.', cn: '开关在门边。' }
+    ]},
+    { line: '不乱、不吵。calm 更说心情或水面，quiet 更说没有声音。', items: [
+      { w: 'calm', zh: '平静的', scene: '水面不起浪，或人心里不慌。', tone: '中性', col: 'stay calm, a calm sea', en: 'Please stay calm.', cn: '请保持平静。' },
+      { w: 'quiet', zh: '安静的', scene: '周围没有吵闹的声音。', tone: '中性', col: 'a quiet room, keep quiet', en: 'The library is quiet.', cn: '图书馆很安静。' }
     ]},
   ];
 
@@ -1725,7 +1788,126 @@
     { w: 'autonomous', zh: '自治的', scene: '一个地区或系统自己作决定，不每一步都等上面。', tone: '正式', col: 'an autonomous region, autonomous system', en: 'The college is autonomous.', cn: '这所学院是自治的。' },
     { w: 'avenue', zh: '大街', scene: '城里较宽、常有树的一条大街。', tone: '中性', col: 'a wide avenue, Fifth Avenue', en: 'The hotel is on a wide avenue.', cn: '酒店在一条宽阔的大街上。' },
     { w: 'avoid', zh: '避免', scene: '你看见一件不想碰上的事，就绕开它。', tone: '中性', col: 'avoid doing, avoid the', en: 'Avoid the busy road at eight.', cn: '八点避开那条拥堵的路。' },
-    { w: 'ABMS', zh: '影响', scene: '这张卡的释义是“影响”。ABMS 不是常见英语单词，没有可靠的近义词。', tone: '词条本身', col: 'an effect on, an impact on', en: 'The delay had an effect on the plan.', cn: '这次耽搁对计划产生了影响。' }
+    { w: 'ABMS', zh: '影响', scene: '这张卡的释义是“影响”。ABMS 不是常见英语单词，没有可靠的近义词。', tone: '词条本身', col: 'an effect on, an impact on', en: 'The delay had an effect on the plan.', cn: '这次耽搁对计划产生了影响。' },
+{ w: 'babies', zh: '婴儿', scene: '还很小、需要人抱和喂的孩子，是 baby 的复数。', tone: '中性', col: 'new babies, babies and', en: 'The clinic sees new babies on Tuesdays.', cn: '诊所星期二看新生儿。' },
+    { w: 'babysitting', zh: '临时照看孩子', scene: '父母出门时，你留在家里照看孩子。', tone: '中性', col: 'babysitting for, a babysitting job', en: 'She does babysitting on Fridays.', cn: '她星期五帮人照看孩子。' },
+    { w: 'bachelor', zh: '学士', scene: '大学本科毕业拿到的那一级学位。', tone: '中性', col: 'a bachelor degree, a Bachelor of', en: 'He has a bachelor degree in science.', cn: '他有一个理学学士学位。' },
+    { w: 'back', zh: '背部；后面', scene: '身体的后背，或位置在后面、回到原处。', tone: '中性', col: 'at the back, come back', en: 'Sit at the back of the room.', cn: '坐在房间后面。' },
+    { w: 'backfire', zh: '事与愿违', scene: '你本想让事情变好，结果反而更糟。', tone: '负面', col: 'backfire on, the plan backfired', en: 'The shortcut backfired.', cn: '这条捷径产生了相反的结果。' },
+    { w: 'backpack', zh: '背包', scene: '用两根带子背在肩上的包。', tone: '中性', col: 'a backpack for, carry a backpack', en: 'He packed a backpack for the walk.', cn: '他为这次走路装了一个背包。' },
+    { w: 'bacteria', zh: '细菌', scene: '小到看不见、有的有益有的致病的微生物。这个词本身常用作复数。', tone: '偏技术', col: 'harmful bacteria, bacteria in', en: 'Soap removes bacteria from the hands.', cn: '肥皂能去掉手上的细菌。' },
+    { w: 'bags', zh: '包；袋', scene: '用来装东西的包或袋子。', tone: '中性', col: 'paper bags, bags of', en: 'Please reuse the bags.', cn: '请把这些袋子再利用。' },
+    { w: 'bake', zh: '烤', scene: '放进烤箱，用干热把面团变成面包或蛋糕。', tone: '中性', col: 'bake a cake, bake in', en: 'We bake bread on Sundays.', cn: '我们星期天烤面包。' },
+    { w: 'balance', zh: '平衡', scene: '两边一样重，人或账都不往一边倒。', tone: '中性', col: 'keep a balance, balance between', en: 'She kept her balance on the ice.', cn: '她在冰上保持了平衡。' },
+    { w: 'balcony', zh: '阳台', scene: '楼房外面探出来、可以站人的那一块平台。', tone: '中性', col: 'on the balcony, a small balcony', en: 'The flat has a balcony.', cn: '这套公寓有阳台。' },
+    { w: 'ball', zh: '球；舞会', scene: '圆的、可以踢或扔的球。它也可以表示正式舞会。', tone: '中性', col: 'a tennis ball, a ball game', en: 'The children kicked a ball.', cn: '孩子们踢了一个球。' },
+    { w: 'ballet', zh: '芭蕾舞', scene: '用脚尖和规定动作演出的一种舞蹈。', tone: '中性', col: 'a ballet class, classical ballet', en: 'She goes to a ballet class.', cn: '她去上芭蕾课。' },
+    { w: 'balloons', zh: '气球', scene: '吹满气、轻轻飘着的那些球。', tone: '中性', col: 'party balloons, a bunch of balloons', en: 'The room was full of balloons.', cn: '房间里满是气球。' },
+    { w: 'ballroom', zh: '舞厅', scene: '用来举办正式舞会的大房间。', tone: '中性', col: 'a hotel ballroom, in the ballroom', en: 'The dinner is in the ballroom.', cn: '晚宴在舞厅举行。' },
+    { w: 'bananas', zh: '香蕉', scene: '弯弯的、黄色的那种水果。', tone: '中性', col: 'a bunch of bananas, ripe bananas', en: 'The shop sells bananas.', cn: '这家店卖香蕉。' },
+    { w: 'band', zh: '乐队', scene: '一起演奏的一小组乐手。它也可以表示带子。', tone: '中性', col: 'a rock band, in a band', en: 'The band played until ten.', cn: '乐队演奏到十点。' },
+    { w: 'bank', zh: '银行；岸', scene: '存钱的银行，或河岸。两个意思都常见。', tone: '中性', col: 'a bank account, the river bank', en: 'The bank opens at nine.', cn: '银行九点开门。' },
+    { w: 'bar', zh: '酒吧；条', scene: '卖酒的柜台，或一条长长的东西。', tone: '中性', col: 'at the bar, a bar of', en: 'We met at the bar.', cn: '我们在酒吧见面。' },
+    { w: 'barometer', zh: '气压计', scene: '测量空气压力的仪器，也用来比喻形势的指标。', tone: '偏技术', col: 'a barometer of, the barometer fell', en: 'The barometer is falling.', cn: '气压计的读数在下降。' },
+    { w: 'base', zh: '基础；基地', scene: '一件事立在上面的那一层，或一个营地。', tone: '中性', col: 'a base for, based on', en: 'The camp has a base by the lake.', cn: '营地在湖边有一个基地。' },
+    { w: 'basically', zh: '主要地', scene: '把细节拿掉之后，最主要的情况是这样。', tone: '偏口语', col: 'basically the, basically the same', en: 'The plan is basically the same.', cn: '这个计划大体上一样。' },
+    { w: 'bath', zh: '沐浴；浴室', scene: '在浴缸里洗澡，或洗澡这个地方。', tone: '中性', col: 'have a bath, a hot bath', en: 'I had a bath after the walk.', cn: '散步之后我洗了个澡。' },
+    { w: 'bathroom', zh: '浴室', scene: '家里有浴缸、洗手池的那间房。', tone: '中性', col: 'in the bathroom, a shared bathroom', en: 'The bathroom is at the end of the hall.', cn: '浴室在走廊尽头。' },
+    { w: 'bats', zh: '蝙蝠', scene: '夜里飞的、倒挂着休息的那些动物。它也可以是球棒。', tone: '中性', col: 'fruit bats, bats in', en: 'Bats live in the old roof.', cn: '蝙蝠住在旧屋顶里。' },
+    { w: 'battery', zh: '电池', scene: '给手机、车或灯供电的那一块。', tone: '中性', col: 'a battery in, low battery', en: 'The battery is low.', cn: '电池电量低了。' },
+    { w: 'bay', zh: '海湾', scene: '海岸凹进去、水比较静的那一块。', tone: '中性', col: 'a small bay, in the bay', en: 'The boats stay in the bay.', cn: '船停在海湾里。' },
+    { w: 'beacon', zh: '灯塔；信号', scene: '在高处发光、给船或人指路的灯。', tone: '中性', col: 'a beacon on, a warning beacon', en: 'The beacon guided the boats.', cn: '灯塔为船只指路。' },
+    { w: 'beam', zh: '发送；光束', scene: '一道光射出去，或把信号发送出去。', tone: '中性', col: 'a beam of, beam to', en: 'A beam of light crossed the room.', cn: '一道光束穿过房间。' },
+    { w: 'bears', zh: '忍受；熊', scene: '忍住压力或痛苦。它也可以是熊这种动物。', tone: '中性', col: 'bears the, polar bears', en: 'She bears the cost herself.', cn: '费用由她自己承担。' },
+    { w: 'beautifu', zh: '美丽的', scene: '这张卡的意思是美丽的。常见拼写是 beautiful。', tone: '褒义', col: 'a beautiful view, beautiful music', en: 'The lake is beautiful in the evening.', cn: '傍晚的湖很美。' },
+    { w: 'beauty', zh: '美人；美', scene: '好看这件事本身，或一个很美的人。', tone: '褒义', col: 'natural beauty, a beauty', en: 'The beauty of the valley surprised us.', cn: '山谷的美让我们吃惊。' },
+    { w: 'become', zh: '成为', scene: '从原来的状态变成另一个状态。', tone: '中性', col: 'become a, become more', en: 'The town became quieter.', cn: '这个镇子变得更安静了。' },
+    { w: 'bed', zh: '床', scene: '晚上睡觉躺上去的那一张。', tone: '中性', col: 'go to bed, in bed', en: 'I go to bed at eleven.', cn: '我十一点上床。' },
+    { w: 'bedroom', zh: '卧室', scene: '放床、用来睡觉的那间房。', tone: '中性', col: 'a small bedroom, in the bedroom', en: 'The bedroom faces the garden.', cn: '卧室朝着花园。' },
+    { w: 'bedsit', zh: '卧室兼起居室', scene: '一间既睡觉又起居的小房间，英式英语里常见。', tone: '中性', col: 'a bedsit in, rent a bedsit', en: 'He rents a bedsit near the college.', cn: '他在学院附近租了一间单间公寓。' },
+    { w: 'beer', zh: '啤酒', scene: '用粮食发酵做成的一种酒。', tone: '中性', col: 'a glass of beer, local beer', en: 'The pub serves local beer.', cn: '这家酒吧卖本地啤酒。' },
+    { w: 'bees', zh: '蜜蜂', scene: '会采蜜、成群住在一起的那些昆虫。', tone: '中性', col: 'honey bees, bees in', en: 'Bees visit the flowers.', cn: '蜜蜂飞到花上。' },
+    { w: 'beetles', zh: '甲虫', scene: '有硬壳的一类昆虫。', tone: '中性', col: 'small beetles, beetles on', en: 'Beetles live under the bark.', cn: '甲虫住在树皮下面。' },
+    { w: 'beetroot', zh: '甜菜根', scene: '深红的、可以煮着吃的那种根。', tone: '中性', col: 'beetroot salad, cooked beetroot', en: 'The salad has beetroot.', cn: '这份沙拉里有甜菜根。' },
+    { w: 'before', zh: '在……以前', scene: '时间或位置在另一件事的前面。', tone: '中性', col: 'before the, the day before', en: 'Finish this before Friday.', cn: '星期五之前把这个做完。' },
+    { w: 'beginners', zh: '新手', scene: '刚刚开始学的人。', tone: '中性', col: 'for beginners, a beginners class', en: 'The class is for beginners.', cn: '这个班是给新手的。' },
+    { w: 'behaviour', zh: '行为', scene: '一个人怎么做事、怎么对人。英式拼法。', tone: '中性', col: 'good behaviour, behaviour towards', en: 'The school expects polite behaviour.', cn: '学校期望有礼貌的行为。' },
+    { w: 'behind', zh: '在后面', scene: '位置在另一件东西的背后，或进度落在后面。', tone: '中性', col: 'behind the, fall behind', en: 'The garden is behind the house.', cn: '花园在房子后面。' },
+    { w: 'bell', zh: '铃；钟', scene: '一摇或一按就会响的铃。', tone: '中性', col: 'ring the bell, a door bell', en: 'Ring the bell at the desk.', cn: '在前台按铃。' },
+    { w: 'belong', zh: '属于', scene: '这件东西是某个人的，或一个人是某个群体的一员。', tone: '中性', col: 'belong to, belong in', en: 'The keys belong to the office.', cn: '这些钥匙属于办公室。' },
+    { w: 'belt', zh: '腰带', scene: '系在腰上的那一条带子。', tone: '中性', col: 'a leather belt, seat belt', en: 'Fasten your seat belt.', cn: '系好安全带。' },
+    { w: 'bend', zh: '转弯', scene: '路或一条东西不再笔直，拐了一个弯。', tone: '中性', col: 'a sharp bend, bend in', en: 'Slow down at the bend.', cn: '转弯处要减速。' },
+    { w: 'berry', zh: '浆果', scene: '小而多汁的果子，如草莓这一类。', tone: '中性', col: 'a berry bush, wild berry', en: 'The bird ate a berry.', cn: '鸟吃了一颗浆果。' },
+    { w: 'best', zh: '最好的', scene: '在所有选择里排在第一的那一个。', tone: '褒义', col: 'the best of, best for', en: 'This is the best route.', cn: '这是最好的路线。' },
+    { w: 'bet', zh: '打赌', scene: '你押一个结果，赌它会发生。', tone: '中性', col: 'bet on, I bet', en: 'He bet on the race.', cn: '他赌了这场比赛。' },
+    { w: 'between', zh: '在……之间', scene: '位置或关系夹在两边的中间。', tone: '中性', col: 'between the, between A and B', en: 'The cafe is between the bank and the park.', cn: '咖啡馆在银行和公园之间。' },
+    { w: 'beyond', zh: '超过；在更远处', scene: '已经过了那一条线，或在那一点的更远处。', tone: '中性偏正式', col: 'beyond the, go beyond', en: 'The hills are beyond the river.', cn: '山在河的那一边。' },
+    { w: 'bils', zh: '账单', scene: '这张卡的意思是账单。常见拼写是 bills。', tone: '中性', col: 'pay the bills, a phone bill', en: 'The bills arrive at the end of the month.', cn: '账单在月底到。' },
+    { w: 'bin', zh: '垃圾箱', scene: '用来扔垃圾的箱子。', tone: '中性', col: 'a rubbish bin, in the bin', en: 'Put the paper in the bin.', cn: '把纸放进垃圾箱。' },
+    { w: 'biodiversity', zh: '生物多样性', scene: '一个地方有多少种不同的生物。', tone: '正式', col: 'biodiversity of, protect biodiversity', en: 'The forest has rich biodiversity.', cn: '这片森林生物多样性丰富。' },
+    { w: 'biography', zh: '传记', scene: '写另一个人一生的书。', tone: '中性', col: 'a biography of, short biography', en: 'She read a biography of the painter.', cn: '她读了那位画家的传记。' },
+    { w: 'biology', zh: '生物学', scene: '研究生命和生物的学科。', tone: '中性', col: 'marine biology, a biology class', en: 'Biology is her favourite subject.', cn: '生物是她最喜欢的科目。' },
+    { w: 'birds', zh: '鸟', scene: '有羽毛、大多能飞的那些动物。', tone: '中性', col: 'wild birds, birds in', en: 'Birds nest in the trees.', cn: '鸟在树上筑巢。' },
+    { w: 'biscuits', zh: '饼干', scene: '烤得又干又脆的小点心，英式英语里的说法。', tone: '中性', col: 'a packet of biscuits, tea and biscuits', en: 'She offered biscuits with the tea.', cn: '她用茶配饼干招待。' },
+    { w: 'bit', zh: '有点儿；很小的', scene: '一点点，程度不大。', tone: '偏口语', col: 'a bit of, a bit tired', en: 'I am a bit tired.', cn: '我有点儿累。' },
+    { w: 'bitterness', zh: '苦味', scene: '舌头上的苦，或心里放不下的怨。', tone: '中性', col: 'a bitterness in, without bitterness', en: 'The coffee has a bitterness.', cn: '这杯咖啡有苦味。' },
+    { w: 'bizarre', zh: '奇异的', scene: '怪得不像日常会见到的样子。', tone: '中性', col: 'a bizarre story, bizarre behaviour', en: 'The story was bizarre.', cn: '这个故事很离奇。' },
+    { w: 'black', zh: '黑色的', scene: '最深的那种颜色，吸进光线。', tone: '中性', col: 'black coffee, in black', en: 'She wore a black coat.', cn: '她穿了一件黑外套。' },
+    { w: 'blackbirds', zh: '黑鸟', scene: '这张卡指一种黑羽的鸟。常见的英语名是 blackbird。', tone: '中性', col: 'garden blackbirds, blackbirds in', en: 'Blackbirds sing in the garden.', cn: '黑鸟在花园里叫。' },
+    { w: 'bleak', zh: '阴冷的；黯淡的', scene: '天气又冷又没有生气，或前景看着不亮。', tone: '负面', col: 'a bleak winter, a bleak outlook', en: 'The hillside looked bleak.', cn: '山坡看上去阴冷。' },
+    { w: 'blind', zh: '瞎的', scene: '眼睛看不见。', tone: '中性', col: 'blind in, visually blind', en: 'The dog is a guide for a blind man.', cn: '这只狗为一位盲人带路。' },
+    { w: 'blocks', zh: '街区；块；阻止', scene: '城市里的一块街区，或把路挡住。', tone: '中性', col: 'city blocks, blocks the', en: 'The tree blocks the path.', cn: '这棵树挡住了路。' },
+    { w: 'blog', zh: '博客', scene: '一个人在网上按时间写下的那些文章。', tone: '中性', col: 'a travel blog, write a blog', en: 'She keeps a travel blog.', cn: '她写一个旅行博客。' },
+    { w: 'blonde', zh: '金发的', scene: '头发是浅黄色。blond 是另一种拼法。', tone: '中性', col: 'blonde hair, a blonde', en: 'She has blonde hair.', cn: '她有一头金发。' },
+    { w: 'blood i', zh: '血', scene: '这张卡的意思是血。常见拼写是 blood，中间没有空格。', tone: '中性', col: 'blood test, a drop of blood', en: 'The form asks about blood type.', cn: '表格上问血型。' },
+    { w: 'blow', zh: '吹', scene: '风或嘴把空气推过去。', tone: '中性', col: 'blow away, the wind blows', en: 'The wind blew the hat off.', cn: '风把帽子吹掉了。' },
+    { w: 'blue', zh: '蓝色的', scene: '晴天天空的那种颜色。', tone: '中性', col: 'blue sky, in blue', en: 'The sky is blue.', cn: '天空是蓝色的。' },
+    { w: 'board', zh: '木板；上船', scene: '一块木板，或走上飞机、车、船。它也可以表示董事会。', tone: '中性', col: 'on board, board a train', en: 'We boarded the train at six.', cn: '我们六点上了火车。' },
+    { w: 'bodies', zh: '身体', scene: '人的身体，是 body 的复数。', tone: '中性', col: 'human bodies, their bodies', en: 'Exercise helps their bodies.', cn: '锻炼对他们的身体有帮助。' },
+    { w: 'boil', zh: '煮沸', scene: '水热到冒泡、翻滚。', tone: '中性', col: 'boil the, bring to the boil', en: 'Boil the water first.', cn: '先把水烧开。' },
+    { w: 'bones', zh: '骨骼', scene: '身体里硬的那一根根骨头。', tone: '中性', col: 'broken bones, bones of', en: 'The X-ray shows the bones.', cn: 'X 光片显示出骨骼。' },
+    { w: 'booklets', zh: '小册子', scene: '薄薄的、订起来的小本子，用来介绍信息。', tone: '中性', col: 'information booklets, free booklets', en: 'The desk has free booklets.', cn: '前台有免费小册子。' },
+    { w: 'books', zh: '书籍；预订', scene: '印出来的书。作动词时，books 也可以表示预订。', tone: '中性', col: 'library books, books a room', en: 'The library lends books.', cn: '图书馆出借书籍。' },
+    { w: 'bookshop', zh: '书店', scene: '卖书的店。美式英语常说 bookstore。', tone: '中性', col: 'a local bookshop, in the bookshop', en: 'I bought the map at a bookshop.', cn: '我在一家书店买了地图。' },
+    { w: 'booth', zh: '货摊；小隔间', scene: '市场上的一个摊位，或一个小隔间。', tone: '中性', col: 'a ticket booth, a phone booth', en: 'Buy tickets at the booth.', cn: '在售票亭买票。' },
+    { w: 'boots', zh: '靴子', scene: '盖过脚踝的鞋。', tone: '中性', col: 'walking boots, a pair of boots', en: 'Wear boots on the wet path.', cn: '湿路上穿靴子。' },
+    { w: 'border', zh: '边境；接壤', scene: '两个国家或地区相接的那一条线。', tone: '中性', col: 'across the border, border on', en: 'The town is near the border.', cn: '这个镇子靠近边境。' },
+    { w: 'botanics', zh: '植物的', scene: '这张卡的意思和植物有关。更常见的形容词是 botanical。', tone: '偏正式', col: 'botanical garden, botanical study', en: 'The botanical garden opens at nine.', cn: '植物园九点开门。' },
+    { w: 'bottom', zh: '底部', scene: '一件东西最下面的那一层。', tone: '中性', col: 'at the bottom, the bottom of', en: 'The keys are at the bottom of the bag.', cn: '钥匙在包的底部。' },
+    { w: 'bound', zh: '界限；一定会', scene: '一条界限，或 be bound to 表示几乎一定会发生。', tone: '中性偏正式', col: 'bound to, bound for', en: 'The train is bound for the city.', cn: '这趟火车开往城里。' },
+    { w: 'bow', zh: '弓；鞠躬', scene: '射箭用的弓，或身体向前弯一下表示敬意。', tone: '中性', col: 'bow and arrow, take a bow', en: 'The actors took a bow.', cn: '演员们鞠了一躬。' },
+    { w: 'boxes', zh: '盒子', scene: '用来装东西的一个个方盒子。', tone: '中性', col: 'cardboard boxes, boxes of', en: 'The books are in boxes.', cn: '书在盒子里。' },
+    { w: 'boys', zh: '男孩', scene: '男性的孩子。', tone: '中性', col: 'boys and girls, the boys', en: 'The boys waited by the gate.', cn: '男孩们在门口等。' },
+    { w: 'bracket', zh: '支架；范围', scene: '托住东西的支架，或一个数值所在的范围。', tone: '中性', col: 'age bracket, a wall bracket', en: 'The fee depends on the age bracket.', cn: '费用取决于年龄段。' },
+    { w: 'brains', zh: '大脑；智力', scene: '头里的大脑，或一个人的智力。', tone: '中性', col: 'the brains of, use your brains', en: 'The puzzle needs brains.', cn: '这个谜题需要动脑筋。' },
+    { w: 'brakes', zh: '刹车', scene: '让车慢下来或停住的那个装置。', tone: '中性', col: 'the brakes, apply the brakes', en: 'Test the brakes before the hill.', cn: '下坡前先试试刹车。' },
+    { w: 'branch', zh: '树枝；分支', scene: '树上的一枝，或一家机构在别处的分部。', tone: '中性', col: 'a branch of, local branch', en: 'The bank has a branch nearby.', cn: '这家银行附近有一家分行。' },
+    { w: 'brands', zh: '品牌', scene: '商品上那个让人认出厂家的名字。', tone: '中性', col: 'famous brands, a range of brands', en: 'The shop sells several brands.', cn: '这家店卖几个品牌。' },
+    { w: 'bracelets', zh: '手镯', scene: '戴在手腕上的环状饰品。', tone: '中性', col: 'silver bracelets, a pair of bracelets', en: 'She wore two bracelets.', cn: '她戴了两只手镯。' },
+    { w: 'break', zh: '打破；弄坏', scene: '东西裂开或不能再用。它也可以表示休息。', tone: '中性', col: 'break a, break down', en: 'Do not break the glass.', cn: '别把玻璃打破。' },
+    { w: 'breakfasts', zh: '早餐', scene: '一天里的第一餐，这里用了复数。', tone: '中性', col: 'hotel breakfasts, cooked breakfasts', en: 'The hotel serves breakfasts from seven.', cn: '酒店从七点开始供应早餐。' },
+    { w: 'breakwater', zh: '防浪堤', scene: '伸进海里、用来挡住浪的一道堤。', tone: '偏技术', col: 'a stone breakwater, behind the breakwater', en: 'The boats sit behind the breakwater.', cn: '船停在防浪堤后面。' },
+    { w: 'breed', zh: '繁殖；饲养', scene: '让动物生下下一代，或饲养它们。', tone: '中性', col: 'breed animals, breed in', en: 'The farm breeds sheep.', cn: '这家农场养羊。' },
+    { w: 'brick', zh: '砖', scene: '盖房子用的一块块红色方块。', tone: '中性', col: 'a brick wall, made of brick', en: 'The house is built of brick.', cn: '这房子是砖砌的。' },
+    { w: 'bridge', zh: '桥', scene: '架在河或路上方、让人走过去的建筑物。', tone: '中性', col: 'across the bridge, a stone bridge', en: 'We crossed the bridge.', cn: '我们过了桥。' },
+    { w: 'briefly', zh: '简略地', scene: '只用几句话，不展开。', tone: '中性', col: 'briefly describe, speak briefly', en: 'She briefly described the plan.', cn: '她简略地描述了计划。' },
+    { w: 'British', zh: '英国的；英国人', scene: '和英国有关的，或一个英国人。', tone: '专名', col: 'British English, a British city', en: 'The film is British.', cn: '这部电影是英国的。' },
+    { w: 'brothers', zh: '兄弟', scene: '同一对父母的男性子女。', tone: '中性', col: 'two brothers, older brothers', en: 'He has two brothers.', cn: '他有两个兄弟。' },
+    { w: 'brown', zh: '棕色的', scene: '像木头或泥土的那种颜色。', tone: '中性', col: 'brown hair, in brown', en: 'The door is brown.', cn: '门是棕色的。' },
+    { w: 'brush', zh: '刷子；刷', scene: '带毛的刷子，或用它来刷。', tone: '中性', col: 'a brush for, brush the', en: 'Brush the mud off your boots.', cn: '把靴子上的泥刷掉。' },
+    { w: 'budget', zh: '预算', scene: '事先算好能花多少钱的那一张计划。', tone: '中性', col: 'a budget for, within the budget', en: 'The trip is within the budget.', cn: '这次出行在预算之内。' },
+    { w: 'buffet', zh: '自助餐', scene: '食物摆在台上，人自己去取。', tone: '中性', col: 'a buffet lunch, buffet style', en: 'Lunch is a buffet.', cn: '午餐是自助餐。' },
+    { w: 'buildings', zh: '建筑', scene: '房子、楼房这些盖起来的建筑物。', tone: '中性', col: 'old buildings, public buildings', en: 'The street has old buildings.', cn: '这条街上有老建筑。' },
+    { w: 'bullying', zh: '霸凌', scene: '反复用强势去伤害或羞辱一个更弱的人。', tone: '负面', col: 'bullying at, stop bullying', en: 'The school has rules against bullying.', cn: '学校有反对霸凌的规定。' },
+    { w: 'bunch', zh: '一串；一群', scene: '同一类东西被拢成一把，或随便说的一群人。', tone: '中性，说人群时偏口语', col: 'a bunch of, a bunch of keys', en: 'She bought a bunch of flowers.', cn: '她买了一束花。' },
+    { w: 'burn', zh: '燃烧', scene: '火把东西点着，或皮肤被烫到。', tone: '中性', col: 'burn down, burn the', en: 'The wood will burn slowly.', cn: '这块木头会慢慢燃烧。' },
+    { w: 'bury', zh: '埋葬', scene: '把人或东西放进土里盖上。', tone: '中性', col: 'bury in, bury the', en: 'They buried the box in the garden.', cn: '他们把盒子埋在花园里。' },
+    { w: 'bushes', zh: '灌木', scene: '比树矮、枝叶挤在一起的那些植物。', tone: '中性', col: 'in the bushes, low bushes', en: 'The ball rolled into the bushes.', cn: '球滚进了灌木丛。' },
+    { w: 'bushfires', zh: '丛林大火', scene: '在灌木和树林里烧起来的野火，澳大利亚英语里常见。', tone: '中性', col: 'summer bushfires, bushfires in', en: 'Bushfires closed the road.', cn: '丛林大火封闭了这条路。' },
+    { w: 'bustling', zh: '熙熙攘攘的', scene: '人很多，脚步和说话声不停。', tone: '中性', col: 'a bustling market, bustling with', en: 'The market is bustling.', cn: '市场里熙熙攘攘。' },
+    { w: 'busy', zh: '忙碌的', scene: '事情堆着，人没有空。', tone: '中性', col: 'busy with, a busy day', en: 'Monday is a busy day.', cn: '星期一是忙碌的一天。' },
+    { w: 'butters', zh: '黄油', scene: '这张卡的意思是黄油。常见的不可数名词是 butter。', tone: '中性', col: 'bread and butter, melt the butter', en: 'Spread butter on the bread.', cn: '在面包上涂黄油。' },
+    { w: 'butterfies', zh: '蝴蝶', scene: '这张卡的意思是蝴蝶。常见拼写是 butterflies。', tone: '中性', col: 'colourful butterflies, butterflies in', en: 'Butterflies visit the garden.', cn: '蝴蝶飞到花园里。' }
   ];
 
   const byWord = Object.create(null);
