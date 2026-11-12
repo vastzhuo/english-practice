@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
+import { pathToFileURL } from 'node:url';
 import vm from 'node:vm';
 
 const root = path.resolve(import.meta.dirname, '..');
@@ -202,12 +204,16 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v38 cache bump keeps the PTE files and the existing tabs', () => {
+test('version bump keeps the PTE files and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v38</);
+  // Read the version from index.html so a bump never needs a test edit.
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  assert.ok(version, 'index.html must carry a v## version label');
+  const previous = String(Number(version) - 1);
+  assert.match(index, new RegExp('>v' + version + '<'));
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -218,16 +224,16 @@ test('v38 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
   for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=38'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
-  assert.equal(index.includes('?v=37'), false);
-  assert.match(sw, /ep-v38/);
-  assert.equal(sw.includes('ep-v37'), false);
+  assert.equal(index.includes('?v=' + previous), false);
+  assert.match(sw, new RegExp('ep-v' + version));
+  assert.equal(sw.includes('ep-v' + previous), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=38/);
-  assert.match(sw, /grammar\.js\?v=38/);
-  assert.match(sw, /study-plan\.js\?v=38/);
+  assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
+  assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
+  assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
@@ -577,4 +583,140 @@ test('grammar path follows the DK guide in bank order', () => {
   assert.match(ui, /save\(\)/);
   assert.equal(ui.includes('例句'), false);
   assert.match(app, /grammarOpen/);
+});
+
+// --- tools/bump.mjs and the CI workflow ------------------------------------
+
+const { plan: planBump, bump: bumpVersion, run: runBump } = await import(
+  pathToFileURL(path.join(root, 'tools', 'bump.mjs')).href
+);
+
+const quietBump = { out() {}, err() {} };
+
+function tempSite(files = ['index.html', 'sw.js']) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-bump-'));
+  for (const file of files) fs.copyFileSync(path.join(root, file), path.join(dir, file));
+  return dir;
+}
+
+function dropTemp(dir) {
+  fs.rmSync(dir, { recursive: true, force: true });
+}
+
+// Everything except the version digits must survive a bump untouched.
+function canonical(text) {
+  return text
+    .replace(/\?v=\d+/g, '?v=V')
+    .replace(/(<small\s+id="ver"[^>]*>)v\d+/g, '$1vV')
+    .replace(/(const\s+C\s*=\s*'ep-v)\d+/g, '$1V');
+}
+
+const repoIndex = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const repoSw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+
+test('bump tool parses every version tag without writing', () => {
+  const dir = tempSite();
+  try {
+    const parsed = planBump(dir);
+    assert.ok(Number.isInteger(parsed.current) && parsed.current > 0);
+    assert.deepEqual(parsed.versions, [parsed.current]);
+    assert.ok(parsed.index.queries.length >= 10);
+    assert.equal(parsed.index.label.version, parsed.current);
+    assert.equal(parsed.sw.cache.version, parsed.current);
+    assert.ok(parsed.sw.precache.length >= 10);
+    const before = fs.readFileSync(path.join(dir, 'index.html'), 'utf8');
+    const result = bumpVersion({ root: dir, to: parsed.current + 2, dryRun: true });
+    assert.equal(result.changed, true);
+    assert.equal(result.dryRun, true);
+    assert.equal(result.from, parsed.current);
+    assert.equal(result.to, parsed.current + 2);
+    assert.equal(fs.readFileSync(path.join(dir, 'index.html'), 'utf8'), before);
+  } finally {
+    dropTemp(dir);
+  }
+});
+
+test('bump tool rewrites every tag and leaves the rest of the file alone', () => {
+  const dir = tempSite();
+  try {
+    const from = planBump(dir).current;
+    const target = from + 2;
+    const result = bumpVersion({ root: dir, to: target });
+    assert.equal(result.changed, true);
+    const index = fs.readFileSync(path.join(dir, 'index.html'), 'utf8');
+    const sw = fs.readFileSync(path.join(dir, 'sw.js'), 'utf8');
+    for (const match of index.matchAll(/\?v=(\d+)/g)) assert.equal(Number(match[1]), target);
+    assert.match(index, new RegExp('<small id="ver"[^>]*>v' + target + '<'));
+    assert.match(sw, new RegExp("const C='ep-v" + target + "'"));
+    for (const match of sw.matchAll(/\?v=(\d+)/g)) assert.equal(Number(match[1]), target);
+    assert.equal(index.includes('?v=' + from), false);
+    assert.equal(sw.includes('ep-v' + from), false);
+    assert.equal(canonical(index), canonical(repoIndex));
+    assert.equal(canonical(sw), canonical(repoSw));
+    // the working copy itself is never touched
+    assert.equal(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), repoIndex);
+    assert.equal(fs.readFileSync(path.join(root, 'sw.js'), 'utf8'), repoSw);
+  } finally {
+    dropTemp(dir);
+  }
+});
+
+test('bump tool is idempotent and reports nothing to do at the target', () => {
+  const dir = tempSite();
+  try {
+    const target = planBump(dir).current + 1;
+    assert.equal(bumpVersion({ root: dir, to: target }).changed, true);
+    const indexAfter = fs.readFileSync(path.join(dir, 'index.html'), 'utf8');
+    const swAfter = fs.readFileSync(path.join(dir, 'sw.js'), 'utf8');
+    const again = bumpVersion({ root: dir, to: target });
+    assert.equal(again.changed, false);
+    assert.equal(fs.readFileSync(path.join(dir, 'index.html'), 'utf8'), indexAfter);
+    assert.equal(fs.readFileSync(path.join(dir, 'sw.js'), 'utf8'), swAfter);
+  } finally {
+    dropTemp(dir);
+  }
+});
+
+test('bump tool fails loudly on bad input, missing tags and missing target', () => {
+  const dir = tempSite();
+  const broken = fs.mkdtempSync(path.join(os.tmpdir(), 'ep-bump-broken-'));
+  try {
+    const current = planBump(dir).current;
+    assert.equal(runBump(['abc', '--root', dir], quietBump), 1);
+    assert.equal(runBump(['0', '--root', dir], quietBump), 1);
+    assert.equal(runBump([], quietBump), 1);
+    assert.equal(runBump([String(current), '--root', dir], quietBump), 0);
+    assert.equal(runBump([String(current + 1), '--root', dir, '--dry-run'], quietBump), 0);
+    assert.equal(runBump([String(current - 1), '--root', dir], quietBump), 2);
+    assert.throws(() => bumpVersion({ root: dir, to: '40a' }), /whole number/);
+    // a tree without the expected tags must be reported, never treated as a success
+    fs.writeFileSync(path.join(broken, 'index.html'), '<!doctype html><link rel="stylesheet" href="style.css?v=1">\n');
+    fs.writeFileSync(path.join(broken, 'sw.js'), "const C='ep-v1',F=['app.js?v=1'];\n");
+    assert.equal(runBump([String(current + 3), '--root', broken], quietBump), 1);
+    assert.throws(() => planBump(broken), /version label/);
+  } finally {
+    dropTemp(dir);
+    dropTemp(broken);
+  }
+});
+
+test('CI runs the node test file on every push and pull request', () => {
+  const yml = fs.readFileSync(path.join(root, '.github', 'workflows', 'ci.yml'), 'utf8');
+  const lines = yml.split(/\r?\n/);
+  assert.equal(lines.some(line => line.includes('\t')), false, 'YAML must not contain tabs');
+  assert.match(yml, /^name:\s*CI$/m);
+  assert.match(yml, /^on:\s*$/m);
+  assert.match(yml, /^\s+push:\s*$/m);
+  assert.match(yml, /^\s+pull_request:\s*$/m);
+  assert.match(yml, /^jobs:\s*$/m);
+  assert.match(yml, /^\s{2}test:\s*$/m);
+  assert.match(yml, /^\s{4}steps:\s*$/m);
+  assert.match(yml, /uses:\s*actions\/checkout@v4/);
+  assert.match(yml, /uses:\s*actions\/setup-node@v4/);
+  assert.match(yml, /node-version:\s*['"]?20['"]?\s*$/m);
+  assert.match(yml, /run:\s*node test\/pte\.test\.mjs\s*$/m);
+  assert.equal(lines.filter(line => /^\s+- name:/.test(line)).length, 3);
+  const body = lines.filter(line => !/^\s*#/.test(line)).join('\n');
+  assert.equal(/npm (install|ci)/.test(body), false);
+  assert.equal(body.includes('package.json'), false);
 });

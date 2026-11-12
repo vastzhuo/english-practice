@@ -1,0 +1,24 @@
+# Zero-dependency static PWA: the whole check is the node test file, run
+# directly. There is no package.json and no npm install step on purpose.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Node test suite (test/pte.test.mjs)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run the node test file
+        run: node test/pte.test.mjs
