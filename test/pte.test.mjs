@@ -25,6 +25,31 @@ function mulberry32(seed) {
   };
 }
 
+// Compare source text across typographic quotes and punctuation.
+function tight(s) {
+  return String(s || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+const UNIT_GLOBALS = {
+  'pte-logic.js': 'PTELogic',
+  'pte.js': 'PTE',
+  'pte-ra.js': 'PTE_RA',
+  'pte-di.js': 'PTE_DI',
+  'pte-swt.js': 'PTE_SWT',
+  'pte-sst.js': 'PTE_SST',
+  'pte-read.js': 'PTE_READ'
+};
+
+function unit(files) {
+  const context = { console };
+  vm.createContext(context);
+  for (const file of files) {
+    const tail = UNIT_GLOBALS[file] ? '\nglobalThis.' + UNIT_GLOBALS[file] + ' = ' + UNIT_GLOBALS[file] + ';\n' : '';
+    vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8') + tail, context);
+  }
+  return context;
+}
+
 const { PTELogic, PTE } = load();
 
 test('sentence bank has the five category counts and speakable English', () => {
@@ -202,12 +227,14 @@ test('PTE progress is stored beside existing ep data', () => {
   assert.equal(back.readErr['063020'], '词不认识');
 });
 
-test('v38 cache bump keeps the PTE files and the existing tabs', () => {
+test('v39 cache bump keeps the PTE files, the new practice modules and the existing tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
   const drive = fs.readFileSync(path.join(root, 'drive.js'), 'utf8');
-  assert.match(index, />v38</);
+  const pteApp = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const speakUi = fs.readFileSync(path.join(root, 'pte-speak-ui.js'), 'utf8');
+  assert.match(index, />v39</);
   assert.match(index, /id="tab-pte"/);
   assert.match(index, /data-t="learn"/);
   assert.match(index, /data-t="quiz"/);
@@ -217,21 +244,41 @@ test('v38 cache bump keeps the PTE files and the existing tabs', () => {
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=38'));
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=39'));
   }
-  assert.equal(index.includes('?v=37'), false);
-  assert.match(sw, /ep-v38/);
-  assert.equal(sw.includes('ep-v37'), false);
+  assert.equal(index.includes('?v=38'), false);
+  assert.match(sw, /ep-v39/);
+  assert.equal(sw.includes('ep-v38'), false);
   assert.match(sw, /skipWaiting/);
   assert.match(sw, /clients\.claim/);
-  assert.match(sw, /synonyms\.js\?v=38/);
-  assert.match(sw, /grammar\.js\?v=38/);
-  assert.match(sw, /study-plan\.js\?v=38/);
+  assert.match(sw, /synonyms\.js\?v=39/);
+  assert.match(sw, /grammar\.js\?v=39/);
+  assert.match(sw, /study-plan\.js\?v=39/);
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js']) {
+    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=39'));
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=39'));
+  }
   assert.match(app, /t==='pte'/);
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
   assert.match(drive, /studyStop/);
+  // the PTE tab now has nine sub-modules, including RA, DI and SWT
+  assert.match(pteApp, /btn\('ra', 'RA'\)/);
+  assert.match(pteApp, /btn\('di', 'DI'\)/);
+  assert.match(pteApp, /btn\('swt', 'SWT'\)/);
+  assert.match(pteApp, /window\.pteRaView/);
+  assert.match(pteApp, /window\.pteDiView/);
+  assert.match(pteApp, /window\.pteSwtView/);
+  assert.match(pteApp, /pteSpeakStop/);
+  assert.match(speakUi, /pteSwtCount/);
+  assert.match(speakUi, /pteSwtWarn/);
+  assert.match(speakUi, /save\(\)/);
+  assert.match(speakUi, /pteRefresh/);
+  assert.match(speakUi, /swtFit/);
+  assert.match(speakUi, /svgChart/);
+  assert.match(speakUi, /pteSpClock/);
+  assert.equal(speakUi.includes('new Image'), false);
 });
 
 test('dictation diff marks missing and extra words without changing the answer sentence', () => {
@@ -577,4 +624,174 @@ test('grammar path follows the DK guide in bank order', () => {
   assert.match(ui, /save\(\)/);
   assert.equal(ui.includes('例句'), false);
   assert.match(app, /grammarOpen/);
+});
+
+test('read aloud passages are real source text of about sixty words', () => {
+  const context = unit(['pte-logic.js', 'pte-sst.js', 'pte-ra.js']);
+  const ra = context.PTE_RA;
+  const byId = Object.fromEntries(context.PTE_SST.items.map(item => [item.id, item]));
+  assert.equal(ra.passages.length, 12);
+  const ids = new Set();
+  for (const passage of ra.passages) {
+    assert.equal(ids.has(passage.id), false, passage.id);
+    ids.add(passage.id);
+    assert.ok(byId[passage.sourceId], passage.sourceId);
+    assert.match(passage.note, /取自/);
+    assert.ok(passage.words >= ra.minWords && passage.words <= ra.maxWords, passage.id + ' ' + passage.words);
+    assert.equal(context.PTELogic.wordCount(passage.text), passage.words);
+    assert.equal(/[\u3400-\u9fff]/.test(passage.text), false);
+    assert.equal(tight(byId[passage.sourceId].transcript).includes(tight(passage.text)), true, passage.id);
+  }
+  // nothing is invented when a reading article has no body
+  assert.equal(ra.fromRead([{ id: 'a', title: 'Empty', text: null }]).length, 0);
+  assert.equal(ra.fromRead([]).length, 0);
+  // a reading article with a real body becomes the first choice
+  const fromRead = ra.fromRead([{
+    id: '063020',
+    title: 'Cities and roads',
+    text: 'Cities added more roads to reduce congestion. The change did not cut traffic. Drivers simply made longer trips, and bus journeys slowed down. The evidence suggests that new lanes invite new cars rather than shortening the queue.'
+  }]);
+  assert.equal(fromRead.length, 1);
+  assert.equal(fromRead[0].id, 'ra-read-063020');
+  assert.equal(fromRead[0].note, '取自阅读原文');
+  assert.equal(fromRead[0].sourceKind, '阅读原文');
+  assert.ok(fromRead[0].words >= 20);
+  assert.ok(fromRead[0].text.startsWith('Cities added more roads'));
+  assert.equal(context.PTELogic.readSpan('', 60).words, 0);
+  const span = context.PTELogic.readSpan('One two three. Four five six. Seven eight nine.', 4);
+  assert.equal(span.text, 'One two three. Four five six.');
+});
+
+test('read aloud, describe image and written summary use the exam time limits', () => {
+  assert.ok(PTELogic.RA_PREP_SEC >= 30 && PTELogic.RA_PREP_SEC <= 40);
+  assert.equal(PTELogic.RA_READ_SEC, 40);
+  assert.equal(PTELogic.DI_PREP_SEC, 25);
+  assert.equal(PTELogic.DI_SPEAK_SEC, 40);
+  assert.equal(PTELogic.SWT_SEC, 600);
+  assert.equal(PTELogic.SWT_MIN, 5);
+  assert.equal(PTELogic.SWT_MAX, 75);
+  assert.equal(PTELogic.SP_SELF_MIN, 1);
+  assert.equal(PTELogic.SP_SELF_MAX, 3);
+  assert.equal(PTELogic.raNext('idle'), 'prep');
+  assert.equal(PTELogic.raNext('prep'), 'read');
+  assert.equal(PTELogic.raNext('read'), 'listen');
+  assert.equal(PTELogic.raNext('listen'), 'assess');
+  assert.equal(PTELogic.raNext('assess'), 'idle');
+  assert.equal(PTELogic.raNext('nonsense'), 'idle');
+  assert.equal(PTELogic.diNext('idle'), 'prep');
+  assert.equal(PTELogic.diNext('prep'), 'speak');
+  assert.equal(PTELogic.diNext('speak'), 'review');
+  assert.equal(PTELogic.diNext('review'), 'idle');
+  assert.equal(PTELogic.swtFit(0), 'short');
+  assert.equal(PTELogic.swtFit(4), 'short');
+  assert.equal(PTELogic.swtFit(5), 'ok');
+  assert.equal(PTELogic.swtFit(75), 'ok');
+  assert.equal(PTELogic.swtFit(76), 'over');
+});
+
+test('describe image charts are drawn offline as inline SVG in five forms', () => {
+  const context = unit(['pte-logic.js', 'pte-di.js']);
+  const charts = context.PTE_DI.charts;
+  const types = new Set(charts.map(chart => chart.type));
+  assert.ok(types.size >= 3);
+  for (const type of ['bar', 'line', 'pie', 'table', 'flow']) assert.equal(types.has(type), true, type);
+  assert.equal(context.PTE_DI.types.length, 5);
+  for (const chart of charts) {
+    assert.ok(chart.id && chart.title);
+    assert.match(chart.note, /自制/);
+    assert.ok(chart.structure && chart.structure.overview && chart.structure.conclusion);
+    assert.ok(Array.isArray(chart.structure.features) && chart.structure.features.length >= 2);
+    assert.ok(chart.model);
+    const svg = context.PTELogic.svgChart(chart);
+    assert.match(svg, /^<svg /);
+    assert.match(svg, /role="img"/);
+    assert.match(svg, /viewBox="0 0 340 210"/);
+    assert.equal((svg.match(/<script/gi) || []).length, 0);
+    assert.equal((svg.match(/<img/gi) || []).length, 0);
+    if (chart.type === 'bar') assert.equal((svg.match(/<rect /g) || []).length, chart.values.length);
+    if (chart.type === 'line') {
+      assert.equal((svg.match(/<circle /g) || []).length, chart.values.length);
+      assert.match(svg, /<polyline /);
+    }
+    if (chart.type === 'pie') assert.equal((svg.match(/<path /g) || []).length, chart.values.length);
+    if (chart.type === 'table') assert.match(svg, /<text /);
+    if (chart.type === 'flow') assert.equal((svg.match(/<rect /g) || []).length, chart.nodes.length);
+  }
+  const pie = charts.find(chart => chart.type === 'pie');
+  assert.equal(pie.values.reduce((a, b) => a + b, 0), 100);
+  assert.equal(context.PTELogic.svgChart({ type: 'unknown' }), '');
+  const escaped = context.PTELogic.svgChart({ type: 'bar', title: 'a "b"', labels: ['<x>'], values: [1] });
+  assert.match(escaped, /&lt;x&gt;/);
+  assert.equal(escaped.includes('<x>'), false);
+});
+
+test('written summary bank reuses SST source text and marks self-made references', () => {
+  const context = unit(['pte-logic.js', 'pte-sst.js', 'pte-swt.js']);
+  const items = context.PTE_SWT.items;
+  const byId = Object.fromEntries(context.PTE_SST.items.map(item => [item.id, item]));
+  assert.equal(items.length, 10);
+  const ids = new Set();
+  for (const item of items) {
+    assert.equal(ids.has(item.id), false, item.id);
+    ids.add(item.id);
+    const source = byId[item.sourceId];
+    assert.ok(source && source.transcript, item.sourceId);
+    assert.equal(item.ref_kind, 'self-made');
+    assert.match(item.note, /自制/);
+    assert.match(item.note, /不是官方答案/);
+    assert.equal(/[\u3400-\u9fff]/.test(item.ref), false);
+    const words = context.PTELogic.wordCount(item.ref);
+    assert.ok(words >= context.PTE_SWT.minWords && words <= context.PTE_SWT.maxWords, item.id + ' ' + words);
+    assert.equal(/[.!?].*[.!?]/.test(item.ref), false, item.id + ' must be one sentence');
+    assert.equal(item.ref.trim(), item.ref);
+  }
+  assert.equal(context.PTE_SWT.minWords, context.PTELogic.SWT_MIN);
+  assert.equal(context.PTE_SWT.maxWords, context.PTELogic.SWT_MAX);
+  assert.equal(context.PTE_SWT.limitSec, context.PTELogic.SWT_SEC);
+});
+
+test('RA, DI and SWT progress is stored beside the existing PTE data', () => {
+  const S = {
+    learned: ['resilient'],
+    days: { '2024-04-02': 1 },
+    best: 4,
+    pte: {
+      wfdMem: { '123061': 1 },
+      rep: 6,
+      wfdCat: '学术场景',
+      mode: 'read',
+      ra: { self: { 'ra-100200': { f: 2, p: 3 } }, done: { 'ra-100200': 1 }, ord: 'num', extra: 'keep' },
+      di: { self: { 'di-bar-faculty': { c: 9 } } },
+      swt: { answers: { 'swt-100200': 'One sentence.', 'swt-100196': 5 }, submitted: { 'swt-100200': 1 } }
+    }
+  };
+  const st = PTELogic.ensureState(S, PTELogic.categories(PTE));
+  assert.equal(S.learned[0], 'resilient');
+  assert.equal(S.days['2024-04-02'], 1);
+  assert.equal(st.wfdMem['123061'], 1);
+  assert.equal(st.rep, 6);
+  assert.equal(st.wfdCat, '学术场景');
+  assert.equal(st.mode, 'read');
+  assert.equal(st.ra.self['ra-100200'].f, 2);
+  assert.equal(st.ra.self['ra-100200'].p, 3);
+  assert.equal(st.ra.done['ra-100200'], 1);
+  assert.equal(st.ra.ord, 'num');
+  assert.equal(st.ra.extra, 'keep');
+  assert.equal(st.di.self['di-bar-faculty'].c, undefined);
+  assert.equal(st.swt.answers['swt-100200'], 'One sentence.');
+  assert.equal(st.swt.answers['swt-100196'], undefined);
+  assert.equal(st.swt.submitted['swt-100200'], 1);
+  const fresh = { pte: {} };
+  const made = PTELogic.ensureState(fresh, []);
+  assert.equal(made.mode, 'wfd');
+  assert.equal(JSON.stringify(made.ra.done), '{}');
+  assert.equal(JSON.stringify(made.ra.self), '{}');
+  assert.equal(JSON.stringify(made.di.self), '{}');
+  assert.equal(JSON.stringify(made.swt.answers), '{}');
+  assert.equal(JSON.stringify(made.swt.submitted), '{}');
+  assert.equal(made.ra.ord, 'rand');
+  for (const mode of ['ra', 'di', 'swt']) {
+    assert.equal(PTELogic.ensureState({ pte: { mode } }, []).mode, mode);
+  }
+  assert.equal(PTELogic.ensureState({ pte: { mode: 'swt', swt: { answers: { a: 'kept' } }, we: { notes: {} } } }, []).swt.answers.a, 'kept');
 });

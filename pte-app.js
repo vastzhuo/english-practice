@@ -1,5 +1,5 @@
 // PTE tab: browse, hands-free playback, and recall. Progress lives on the existing `ep` object.
-const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card' };
+const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null };
 
 function pteState() { return PTELogic.ensureState(S, PTELogic.categories(PTE)); }
 function pteRead() { return (typeof PTE_READ !== 'undefined' && PTE_READ) ? PTE_READ : { types: [], articles: [] }; }
@@ -283,7 +283,7 @@ function pteCatOptions(current) {
 }
 function pteModes(st) {
   const btn = (id, label) => `<button type="button" data-pte-act="mode" data-mode="${id}" class="${st.mode === id ? 'on' : ''}">${label}</button>`;
-  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('drive', '开车')}</div>`;
+  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('ra', 'RA')}${btn('di', 'DI')}${btn('swt', 'SWT')}${btn('drive', '开车')}</div>`;
 }
 function slotOrder(slot, items, ord) {
   const key = slot + '|' + ord + '|' + items.map(item => item.id).join('.');
@@ -528,6 +528,9 @@ function pteView() {
   }
   if (st.mode === 'we' && window.pteWeView) return window.pteWeView(st);
   if (st.mode === 'sst' && window.pteSstView) return window.pteSstView(st);
+  if (st.mode === 'ra' && window.pteRaView) return window.pteRaView(st);
+  if (st.mode === 'di' && window.pteDiView) return window.pteDiView(st);
+  if (st.mode === 'swt' && window.pteSwtView) return window.pteSwtView(st);
   return viewWfd(st);
 }
 function pteOpen() {
@@ -550,7 +553,8 @@ function onPteClick(e) {
   if (act === 'mode') {
     flowStop();
     const m = b.dataset.mode;
-    st.mode = (m === 'rs' || m === 'read' || m === 'drive' || m === 'we' || m === 'sst') ? m : 'wfd';
+    st.mode = (m === 'rs' || m === 'read' || m === 'drive' || m === 'we' || m === 'sst' || m === 'ra' || m === 'di' || m === 'swt') ? m : 'wfd';
+    if (window.pteSpeakStop) window.pteSpeakStop();
     if (m !== 'we' && window.pteWeStop) window.pteWeStop();
     if (m !== 'sst' && window.pteSstStop) window.pteSstStop();
     if (m !== 'read') PTE_PLAY.deck = null;
