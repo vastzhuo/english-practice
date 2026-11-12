@@ -1959,6 +1959,153 @@
       { w: 'crossing', zh: '路口', scene: '道路交叉或人横穿的地方。', tone: '中性', col: 'a crossing, at the crossing', en: 'Turn right at the crossing.', cn: '在路口右转。' },
       { w: 'intersection', zh: '十字路口', scene: '两条路交叉的地方，常是十字路口。', tone: '中性', col: 'an intersection, at the intersection', en: 'The bank is at the intersection.', cn: '银行在十字路口。' }
     ]},
+    { line: '都在说“变少”：diminish 是慢慢变小变弱，deplete 是把储备用空，abate 是风雨疼痛自己减退，curtail 是有人主动削减一截。', items: [
+      { w: 'diminish', zh: '减少；使变小', scene: '数量或力量一点一点往下降，看不出哪一刻突然变，像音量被慢慢旋小。', tone: '中性，偏书面', col: 'diminish in, diminish the risk', en: 'Her patience diminished as the queue grew longer.', cn: '队伍越长，她的耐心就消磨得越多。' },
+      { w: 'deplete', zh: '耗尽；大量用掉', scene: '油、钱、体力这些储备被用掉大半，罐子已经见了底。', tone: '中性偏正式', col: 'deplete resources, deplete the reserves', en: 'Years of drought had depleted the soil.', cn: '连年干旱把土壤的养分耗光了。' },
+      { w: 'abate', zh: '减弱；减退', scene: '风雨、疼痛、火气这种强度自己降下去，不用人来关。', tone: '偏正式', col: 'the storm abated, abate somewhat', en: 'The noise from the street abated after midnight.', cn: '过了午夜，街上的噪音弱了下来。' },
+      { w: 'curtail', zh: '削减；缩短', scene: '有人主动把时间、开支或自由砍短一截。', tone: '偏正式', col: 'curtail spending, curtail freedom', en: 'The company curtailed travel to save money.', cn: '公司削减了差旅以节省开支。' }
+    ]},
+    { line: 'halt 是当场停住，suspend 是先挂起来、以后可能恢复，terminate 是彻底结束，stifle 是压住不让它长大。', items: [
+      { w: 'halt', zh: '停止', scene: '一直在动的东西被叫停，脚步、车流、生产都停在原地。', tone: '中性偏正式', col: 'halt production, come to a halt', en: 'The project halted when the funding ran out.', cn: '资金用完之后项目就停了。' },
+      { w: 'suspend', zh: '暂停；中止', scene: '一件事被高高挂起，现在不办，但没说以后也不办。', tone: '中性偏正式', col: 'suspend a service, suspend the talks', en: 'The airline suspended flights during the storm.', cn: '暴风雨期间这家航空公司暂停了航班。' },
+      { w: 'terminate', zh: '终止；结束', scene: '合同、任期、关系走到尽头，正式划上句号。', tone: '正式', col: 'terminate a contract, terminate the agreement', en: 'They terminated the contract after two years.', cn: '两年之后他们终止了合同。' },
+      { w: 'stifle', zh: '压制；扼杀', scene: '手按在火苗上不让它烧起来，多用来形容不让想法或声音发展。', tone: '偏正式，常含贬义', col: 'stifle creativity, stifle a yawn', en: 'Too many rules can stifle new ideas.', cn: '规矩太多会扼杀新的想法。' }
+    ]},
+    { line: 'evoke 是让记忆和感情浮上来，elicit 是把别人的回答或反应引出来，rouse 是叫人从冷淡或睡意里起来，stir 是把平静的东西搅动起来。', items: [
+      { w: 'evoke', zh: '唤起（记忆、感情）', scene: '一首歌、一个味道让旧画面自动回到眼前。', tone: '偏书面', col: 'evoke memories, evoke a response', en: 'The smell of bread evoked memories of her childhood.', cn: '面包的味道唤起了她的童年记忆。' },
+      { w: 'elicit', zh: '引出；探出', scene: '问一句话、做一个动作，让对方开口给出答案或反应。', tone: '偏正式', col: 'elicit a reply, elicit information', en: 'The teacher elicited several answers from the class.', cn: '老师从班里引出了好几个答案。' },
+      { w: 'rouse', zh: '唤醒；激起', scene: '睡着的人被叫醒，或者一群懒下来的人被鼓动起来。', tone: '中性偏正式', col: 'rouse somebody from sleep, rouse interest', en: 'The speech roused the crowd to action.', cn: '这场演讲把人群鼓动了起来。' },
+      { w: 'stir', zh: '搅动；激起', scene: '原本平着的东西被搅动，可以是汤，也可以是心里的情绪。', tone: '中性', col: 'stir the soup, stir up trouble', en: 'His story stirs strong feelings among the students.', cn: '他的故事在学生中激起了强烈的情绪。' }
+    ]},
+    { line: 'perplex 是让人一时想不通，baffle 是彻底难住、一点头绪都没有，muddle 是把人脑子搅成一团，mislead 是给了错的信息让人走偏。', items: [
+      { w: 'perplex', zh: '使困惑', scene: '事情有几处对不上，人皱着眉头反复想。', tone: '偏书面', col: 'perplex the reader, a perplexing question', en: 'The sudden change of plan perplexed everyone.', cn: '计划的突然改变让所有人都摸不着头脑。' },
+      { w: 'baffle', zh: '把……难住', scene: '盯着题目看了半天，连从哪儿下手都不知道。', tone: '中性', col: 'baffle the experts, completely baffled', en: 'The strange results baffled the researchers.', cn: '奇怪的结果把研究人员难住了。' },
+      { w: 'muddle', zh: '使糊涂；弄乱', scene: '把不同的东西混在一堆，或者把人说得越听越乱。', tone: '偏口语', col: 'muddle through, muddle the issue', en: 'Too many details muddled the argument.', cn: '细节太多，把这个论点说乱了。' },
+      { w: 'mislead', zh: '误导', scene: '给出的信息不对，人照着走就偏了方向。', tone: '中性，常含贬义', col: 'mislead somebody about, a misleading advertisement', en: 'The label misleads shoppers about the sugar content.', cn: '这个标签在含糖量上误导了顾客。' }
+    ]},
+    { line: 'assumption 是没验证就先当成真的，fallacy 是听着有道理其实站不住的论断，misconception 是很多人都有的错误理解，fantasy 是自己编出来、跟现实对不上的想象。', items: [
+      { w: 'assumption', zh: '假定；想当然', scene: '你没问就先认定对方会答应，这个前提就是它。', tone: '中性偏正式', col: 'a basic assumption, on the assumption that', en: 'The plan rests on the assumption that prices stay low.', cn: '这个计划建立在价格保持低位这个假设上。' },
+      { w: 'fallacy', zh: '谬论；错误推论', scene: '一句话听上去很有道理，仔细一推就站不住。', tone: '正式', col: 'a common fallacy, the fallacy of', en: 'The belief that longer hours mean better results is a fallacy.', cn: '认为时间越长效果越好，这是一种谬论。' },
+      { w: 'misconception', zh: '误解；错误看法', scene: '很多人一起相信了一件不对的事，一传十就变成了常识。', tone: '中性偏正式', col: 'a common misconception, clear up a misconception', en: 'It is a common misconception that cold weather causes colds.', cn: '认为天冷就会感冒，是一个常见的误解。' },
+      { w: 'fantasy', zh: '幻想；想象', scene: '脑子里编出来的场景，舒服但和现实对不上。', tone: '中性', col: 'live in a fantasy, a childhood fantasy', en: 'The idea of a perfect job is often a fantasy.', cn: '“完美的工作”往往只是一种幻想。' }
+    ]},
+    { line: 'contemplate 是把一件事放在心里反复看，deliberate 是权衡利弊后再作决定，envision 是在脑子里先看到将来的样子，meditate 是安静下来想得很深。', items: [
+      { w: 'contemplate', zh: '思量；考虑', scene: '手头的事停下来，眼睛望着远处，把一件事想很久。', tone: '偏正式', col: 'contemplate doing, contemplate a change', en: 'She contemplated moving to another city.', cn: '她一直在考虑搬到另一个城市。' },
+      { w: 'deliberate', zh: '仔细斟酌；商议', scene: '几方坐在一起，把每个选项摆开来比较，再作决定。', tone: '正式', col: 'deliberate on, deliberate over a decision', en: 'The committee deliberated for two hours before voting.', cn: '委员会斟酌了两个小时才投票。' },
+      { w: 'envision', zh: '设想；展望', scene: '还没开始做，先在心里把将来的画面放一遍。', tone: '偏书面', col: 'envision a future, envision how', en: 'The architect envisioned a park instead of a car park.', cn: '这位建筑师设想的是一片公园，而不是停车场。' },
+      { w: 'meditate', zh: '冥想；沉思', scene: '闭上眼，呼吸放慢，让脑子里那些事慢慢沉下来。', tone: '中性偏书面', col: 'meditate on, meditate for ten minutes', en: 'He meditates for twenty minutes every morning.', cn: '他每天早上冥想二十分钟。' }
+    ]},
+    { line: 'contentment 是有这些就够了的那种安心，serenity 是外头再吵心里也静，fulfilment 是把该做的做出来之后的充实，gratification 是想要的东西马上到手那一下的痛快。', items: [
+      { w: 'contentment', zh: '满足；知足', scene: '没有更多要求了，坐在自家的椅子上就觉得很够。', tone: '中性偏书面', col: 'a sense of contentment, quiet contentment', en: 'A simple meal brought him quiet contentment.', cn: '一顿简单的饭就给了他安静的满足。' },
+      { w: 'serenity', zh: '宁静；安详', scene: '外面一地鸡毛，这人脸上还是平的，说话也慢。', tone: '偏书面', col: 'inner serenity, a look of serenity', en: 'The garden has an air of serenity in the early morning.', cn: '清晨的这座花园有一种宁静的气息。' },
+      { w: 'fulfilment', zh: '充实；成就感', scene: '长期做一件事，做完了回头看，觉得这些日子没白过。', tone: '中性偏褒义', col: 'a sense of fulfilment, personal fulfilment', en: 'Teaching gives her a deep sense of fulfilment.', cn: '教书给她带来很深的充实感。' },
+      { w: 'gratification', zh: '（一时的）满足；快感', scene: '想要的东西立刻到手，那一下的痛快，往往不长久。', tone: '偏正式', col: 'instant gratification, delay gratification', en: 'Online shopping feeds a taste for instant gratification.', cn: '网购迎合了人们追求即时满足的口味。' }
+    ]},
+    { line: 'equitable 是说分配和规则公平，disinterested 是说人不带私心、跟自己的利益无关，neutral 是不站任何一边。', items: [
+      { w: 'equitable', zh: '公平的；公正的', scene: '分蛋糕时，每个人按贡献拿到该拿的那一块。', tone: '正式', col: 'an equitable share, equitable treatment', en: 'The new rules aim for a more equitable share of funding.', cn: '新规则想让资金分配更公平。' },
+      { w: 'disinterested', zh: '无私心的；超然的', scene: '这个人跟结果没有利益关系，所以说得出公道话。注意它不是“不感兴趣”。', tone: '正式', col: 'disinterested advice, a disinterested observer', en: 'We need disinterested advice, not advice from a seller.', cn: '我们需要不带私心的建议，而不是卖家的建议。' },
+      { w: 'neutral', zh: '中立的', scene: '两边争起来，这个人站中间，谁也不帮。', tone: '中性', col: 'remain neutral, a neutral position', en: 'The referee must stay neutral throughout the match.', cn: '裁判在整场比赛中必须保持中立。' }
+    ]},
+    { line: 'advocate 是公开主张应该这样做，endorse 是正式认可、替它背书，foster 是慢慢培养让它长大，propel 是加一把力把它送向前。', items: [
+      { w: 'advocate', zh: '提倡；主张', scene: '在文章或会议上说“我们应该这么干”，希望别人跟着做。', tone: '偏正式', col: 'advocate for, advocate change', en: 'Many doctors advocate a shorter working week.', cn: '很多医生主张缩短每周工作时间。' },
+      { w: 'endorse', zh: '赞同；为……背书', scene: '有名气的人或正式机构公开说“这个我认可”。', tone: '偏正式', col: 'endorse a plan, endorse a product', en: 'Two former ministers endorsed the proposal.', cn: '两位前部长为这项提议背书。' },
+      { w: 'foster', zh: '培养；促进', scene: '给条件、给时间，让它一点点长起来，常是能力、关系或氛围。', tone: '中性偏正式', col: 'foster creativity, foster a sense of', en: 'Small classes foster closer contact between students and teachers.', cn: '小班让师生之间有更密切的接触。' },
+      { w: 'propel', zh: '推动；推进', scene: '后面有一股力，把它往前送，可以是船，也可以是事业或名声。', tone: '偏正式', col: 'propel forward, propel somebody to', en: 'A single hit song can propel an unknown singer to fame.', cn: '一首走红的歌能把一个无名歌手推向成名。' }
+    ]},
+    { line: 'integrate 是把分散的部分合成一个整体，dismantle 是把装好的东西拆开，diversify 是把种类铺开、不押在一样上，stabilise 是把晃动的局面按住。', items: [
+      { w: 'integrate', zh: '整合；使融入', scene: '几块各自为政的东西被接成一条线，或者新人被接进一个群体。', tone: '中性偏正式', col: 'integrate into, integrate with', en: 'The school integrated art lessons into the science course.', cn: '学校把艺术课整合进了科学课。' },
+      { w: 'dismantle', zh: '拆卸；逐步废除', scene: '把装好的机器一件件拆下来，也可以指把一个制度慢慢拆掉。', tone: '中性', col: 'dismantle a machine, dismantle the system', en: 'Workers dismantled the stage after the concert.', cn: '演唱会结束后工人把舞台拆了。' },
+      { w: 'diversify', zh: '使多样化', scene: '原来只做一样，后来多开几条路，风险也就分开了。', tone: '偏正式', col: 'diversify into, diversify the economy', en: 'The farm plans to diversify into cheese and yoghurt.', cn: '这个农场打算扩展到做奶酪和酸奶。' },
+      { w: 'stabilise', zh: '使稳定', scene: '上下跳的数字或局面被按住，不再忽高忽低。', tone: '中性偏正式', col: 'stabilise prices, stabilise the situation', en: 'The medicine helped stabilise his blood pressure.', cn: '这种药帮助他的血压稳定下来。' }
+    ]},
+    { line: 'derelict 是破到没法用的，deserted 是空着没人、静得发慌，refurbished 是刚翻修过的，fortified 是加厚加固、防人攻进来的。', items: [
+      { w: 'derelict', zh: '废弃失修的', scene: '窗户破了、屋顶漏了，里面长草，已经没人用。', tone: '中性偏负面', col: 'a derelict building, derelict land', en: 'The derelict warehouse was finally pulled down.', cn: '那间废弃的仓库最后被拆掉了。' },
+      { w: 'deserted', zh: '空无一人的', scene: '本来该有人的地方忽然没人，街上只剩风。', tone: '中性', col: 'a deserted street, deserted at night', en: 'At dawn the beach was completely deserted.', cn: '天亮时海滩上一个人都没有。' },
+      { w: 'refurbished', zh: '翻新过的', scene: '老房子刷过墙、换过窗，旧骨架上套了一层新皮。', tone: '中性偏褒义', col: 'a refurbished flat, newly refurbished', en: 'They moved into a refurbished flat near the station.', cn: '他们搬进了车站附近一套翻新过的公寓。' },
+      { w: 'fortified', zh: '加固的；设防的', scene: '墙加厚、门加铁，为的是挡住外面的人。', tone: '中性', col: 'a fortified town, fortified with', en: 'The old town is ringed by a fortified wall.', cn: '这座老城被一圈加固的城墙围着。' }
+    ]},
+    { line: 'distinctive 是一看就认出是它，stylish 是有品味、收拾得讲究，glamorous 是带着光环、让人羡慕，conspicuous 是太显眼、想藏都藏不住。', items: [
+      { w: 'distinctive', zh: '独特的；有辨识度的', scene: '一样东西有自己的标记，混在一堆里也能被认出来。', tone: '中性偏褒义', col: 'a distinctive style, distinctive feature', en: 'The bird has a distinctive red beak.', cn: '这种鸟有一个很有辨识度的红色喙。' },
+      { w: 'stylish', zh: '时髦的；有品味的', scene: '衣服、家具、设计收拾得干净利落，看着舒服。', tone: '褒义', col: 'a stylish jacket, stylish design', en: 'She wore a stylish grey coat to the interview.', cn: '面试时她穿了一件有品味的灰色大衣。' },
+      { w: 'glamorous', zh: '充满魅力的；光鲜的', scene: '灯光、礼服、闪光灯，那种让人想站近一点的生活。', tone: '褒义', col: 'a glamorous life, a glamorous event', en: 'The awards night was far more glamorous than our usual office dinner.', cn: '颁奖夜比我们平时的办公室晚宴光鲜多了。' },
+      { w: 'conspicuous', zh: '显眼的；惹眼的', scene: '在一群素色里穿了一件大红，想不注意都难。', tone: '中性，可含贬义', col: 'conspicuous consumption, conspicuous by absence', en: 'His bright orange bag was conspicuous on the platform.', cn: '他那只亮橙色的包在站台上很惹眼。' }
+    ]},
+    { line: 'taciturn 是能不说就不说，easy-going 是什么都好商量，effusive 是热情一下子扑过来，awkward 是拘谨别扭、不知怎么应对。', items: [
+      { w: 'taciturn', zh: '沉默寡言的', scene: '一桌人聊天，他只点头，很少开口。', tone: '偏书面', col: 'a taciturn man, remain taciturn', en: 'Her father was a taciturn man who rarely explained himself.', cn: '她父亲沉默寡言，很少解释自己。' },
+      { w: 'easy-going', zh: '随和的', scene: '改时间、换地点都不生气，跟着走就行。', tone: '中性偏褒义', col: 'an easy-going manner, easy-going about', en: 'Our neighbour is easy-going about noise and visitors.', cn: '我们邻居对噪音和客人都不计较。' },
+      { w: 'effusive', zh: '热情洋溢的', scene: '一见面就是一串赞美和拥抱，热度扑到脸上。', tone: '中性，有时暗含过头', col: 'effusive praise, an effusive welcome', en: 'She was effusive in her thanks after the dinner.', cn: '晚饭之后她不吝赞美地一再道谢。' },
+      { w: 'awkward', zh: '别扭的；不自在的', scene: '该说什么不知道，手不知道往哪儿放，场面有点卡。', tone: '中性，可含贬义', col: 'an awkward silence, feel awkward', en: 'There was an awkward pause before anyone answered.', cn: '在有人开口之前，是一阵尴尬的沉默。' }
+    ]},
+    { line: 'archaic 是词语或做法太老、现在已经不这样说了，antique 是东西有年头、被当古董，immemorial 是老到没人记得从什么时候开始。', items: [
+      { w: 'archaic', zh: '古旧的；过时的', scene: '一句话写在几百年前的书里，现在没人这么讲。', tone: '偏正式', col: 'an archaic word, archaic practice', en: 'The contract uses an archaic phrase for “payment”.', cn: '这份合同用了一个古老的词来指“付款”。' },
+      { w: 'antique', zh: '古董的；古老的', scene: '柜子、钟表、瓷器有年份，被摆在店里卖高价。', tone: '中性', col: 'an antique shop, antique furniture', en: 'The antique clock still keeps perfect time.', cn: '这座古董钟走得依然很准。' },
+      { w: 'immemorial', zh: '远古的；无法追溯的', scene: '从很久很久以前就是这样，谁也说不清是哪一年起的。', tone: '正式，多用于固定搭配', col: 'from time immemorial, immemorial custom', en: 'People have fished in this river from time immemorial.', cn: '自古以来人们就在这条河里打鱼。' }
+    ]},
+    { line: 'slight 是轻微得几乎看不出来，trivial 是小事、不值得计较，absolute 是一点余地都没有、百分之百，extreme 是走过了头、到了极端。', items: [
+      { w: 'slight', zh: '轻微的', scene: '只有一点点，仔细看才发现，像温度差了半度。', tone: '中性', col: 'a slight change, slight difference', en: 'There is a slight difference between the two colours.', cn: '这两种颜色有一点细微的差别。' },
+      { w: 'trivial', zh: '琐碎的；不值一提的', scene: '不值得花力气争，签个字就过去了。', tone: '中性，常含贬义', col: 'a trivial matter, trivial details', en: 'The manager refused to argue about trivial details.', cn: '经理不愿为琐碎的细节争论。' },
+      { w: 'absolute', zh: '绝对的；完全的', scene: '没有例外，不加条件，一竿子到底。', tone: '中性偏正式', col: 'absolute power, absolute certainty', en: 'She has absolute confidence in her team.', cn: '她对团队有绝对的信心。' },
+      { w: 'extreme', zh: '极端的；过度的', scene: '下雪天穿短袖，或者任何走到最尖那一端的东西。', tone: '中性，常含负面', col: 'extreme weather, go to extremes', en: 'The desert can reach extreme temperatures in summer.', cn: '沙漠夏天的气温能到极端的高度。' }
+    ]},
+    { line: 'prime 是排在最前面、最主要的那个，imperative 是紧迫到必须马上做，integral 是整体少了它就不完整，superior 是比同类的更好。', items: [
+      { w: 'prime', zh: '首要的；主要的', scene: '好几个原因摆在一起，这个排第一。', tone: '偏正式', col: 'the prime reason, a prime location', en: 'Cost was the prime concern for most buyers.', cn: '对多数买家来说，价格是首要的考虑。' },
+      { w: 'imperative', zh: '必要而紧迫的', scene: '不做就会出事，不能拖到下个月。', tone: '正式', col: 'it is imperative that, an imperative need', en: 'It is imperative that the repairs finish before winter.', cn: '维修必须在冬天之前完成，这一点非常紧迫。' },
+      { w: 'integral', zh: '不可缺少的；构成整体的', scene: '像机器里的一颗齿轮，拆掉整台就不转。', tone: '偏正式', col: 'an integral part of, integral to', en: 'Play is an integral part of early learning.', cn: '玩耍是早期学习中不可缺少的一部分。' },
+      { w: 'superior', zh: '更好的；优越的', scene: '两样东西一比较，这个明显更胜一筹。', tone: '中性偏褒义', col: 'superior to, superior quality', en: 'This fabric is superior to the cheaper one.', cn: '这种面料比便宜的那种更好。' }
+    ]},
+    { line: 'dilemma 是两个选择都有代价，deadlock 是双方都卡住、谁也动不了，adversity 是接连来的难处，conundrum 是绕来绕去解不开的题。', items: [
+      { w: 'dilemma', zh: '两难；左右为难', scene: '两条路都要失去点什么，站在路口迟迟不选。', tone: '中性', col: 'face a dilemma, a moral dilemma', en: 'She faced the dilemma of work or family.', cn: '她面对着工作还是家庭的两难。' },
+      { w: 'deadlock', zh: '僵局', scene: '两边都只说自己的话，谁也不让，事情原地不动。', tone: '中性偏正式', col: 'break the deadlock, reach deadlock', en: 'The talks ended in deadlock for the third time.', cn: '谈判第三次陷入僵局。' },
+      { w: 'adversity', zh: '逆境；厄运', scene: '接连几件不顺的事压在头上，日子过得吃力。', tone: '偏正式', col: 'in adversity, overcome adversity', en: 'The team stayed calm in the face of adversity.', cn: '面对逆境，这个队保持冷静。' },
+      { w: 'conundrum', zh: '难题；谜题', scene: '条件互相牵着，怎么解都留一个疙瘩。', tone: '偏正式，稍带文学味', col: 'a puzzling conundrum, solve the conundrum', en: 'How to keep the park open and cut costs is a conundrum.', cn: '既让公园开着又要省钱，是个难题。' }
+    ]},
+    { line: 'calamity 是范围很大的不幸事件，disaster 是突然造成严重损失的事故，doom 是注定要来的毁灭结局，fatality 是事故里的一条人命。', items: [
+      { w: 'calamity', zh: '灾祸；大不幸', scene: '一场大水或者一场大火，很多人的生活一起被毁。', tone: '偏正式', col: 'a natural calamity, a national calamity', en: 'The flood was the worst calamity in the region for decades.', cn: '这场洪水是该地区几十年来最严重的灾难。' },
+      { w: 'disaster', zh: '灾难；惨败', scene: '突然出事，损失很大；也可以说一件事办得很糟。', tone: '中性', col: 'a natural disaster, end in disaster', en: 'The fire was a disaster for the whole village.', cn: '这场火对整个村子来说是一场灾难。' },
+      { w: 'doom', zh: '厄运；注定毁灭', scene: '结局已经写好，怎么努力都走向那一步。', tone: '偏文学，负面', col: 'doom and gloom, seal the doom', en: 'The falling sales spelled doom for the small shop.', cn: '销售下滑注定这家小店要关门。' },
+      { w: 'fatality', zh: '死亡事故；死亡人数', scene: '新闻里说这次事故死了几个人，用的就是这个词。', tone: '偏正式，用于报道', col: 'a road fatality, reduce fatalities', en: 'There has not been a single fatality on this road this year.', cn: '今年这条路上还没发生过一起死亡事故。' }
+    ]},
+    { line: 'fatal 是直接致命的，adverse 是不利、往坏处走的，hostile 是带敌意或环境很不友好的，alarming 是让人心里一紧的。', items: [
+      { w: 'fatal', zh: '致命的', scene: '一次失误就够了，结果是人没救回来，或者事情彻底完了。', tone: '中性，语气强', col: 'a fatal accident, a fatal mistake', en: 'One careless mistake proved fatal in the lab.', cn: '在实验室里，一次疏忽就成了致命错误。' },
+      { w: 'adverse', zh: '不利的', scene: '条件朝着对人没好处的方向走，效果被打折。', tone: '偏正式', col: 'adverse weather, adverse effect', en: 'The drug can have adverse effects on the liver.', cn: '这种药可能对肝脏产生不良影响。' },
+      { w: 'hostile', zh: '敌意的；条件恶劣的', scene: '眼神冷、话里带刺；也可以说环境对人很不友好。', tone: '中性偏负面', col: 'a hostile crowd, hostile conditions', en: 'The plan met a hostile reaction from local residents.', cn: '这个计划遭到本地居民的敌意反应。' },
+      { w: 'alarming', zh: '令人担忧的', scene: '数字或消息让人一下坐直了，觉得不能再往下走。', tone: '中性偏负面', col: 'an alarming rate, alarming news', en: 'The ice is melting at an alarming rate.', cn: '冰层正以令人担忧的速度融化。' }
+    ]},
+    { line: 'lag 是走在后面、跟不上，linger 是迟迟不走、留在原地，procrastinate 是明明该做却一直往后推。', items: [
+      { w: 'lag', zh: '落后；滞后', scene: '别人已经走到前面，这一边还没跟上。', tone: '中性', col: 'lag behind, a time lag', en: 'Wages lag behind the rising cost of living.', cn: '工资跟不上生活成本的上涨。' },
+      { w: 'linger', zh: '逗留；迟迟不散', scene: '该走了还站在门口，或者一种味道、一种感觉迟迟不消失。', tone: '中性偏书面', col: 'linger over, linger in the memory', en: 'A few guests lingered in the garden after midnight.', cn: '过了午夜还有几位客人在花园里没走。' },
+      { w: 'procrastinate', zh: '拖延', scene: '明明今天能做，却先去看手机、先去擦桌子。', tone: '中性偏贬义', col: 'procrastinate over, stop procrastinating', en: 'He procrastinates whenever the report is due.', cn: '一到交报告的时候他就拖延。' }
+    ]},
+    { line: 'cramming 是考前一晚硬往里塞，procrastination 是该做的事一直往后推，multitasking 是同时开好几件事，tutoring 是有人一对一地教。', items: [
+      { w: 'cramming', zh: '临时抱佛脚；硬记', scene: '考试前一晚把整本书塞进脑子里，睡三小时就去考。', tone: '中性，常含负面', col: 'last-minute cramming, cramming for an exam', en: 'A night of cramming got her through the test.', cn: '熬了一晚硬记，她勉强通过了考试。' },
+      { w: 'procrastination', zh: '拖延', scene: '任务摆在那儿，人却一直在做别的小事。', tone: '中性偏贬义', col: 'chronic procrastination, overcome procrastination', en: 'Procrastination cost him two weeks of study time.', cn: '拖延让他损失了两周的学习时间。' },
+      { w: 'multitasking', zh: '多任务处理', scene: '一边写作业一边回消息一边听歌，注意力被切成几块。', tone: '中性', col: 'heavy multitasking, multitasking skills', en: 'Constant multitasking made it hard to finish one task well.', cn: '不断切换任务让他很难把一件事做好。' },
+      { w: 'tutoring', zh: '辅导；补习', scene: '一个老师带一两个学生，针对不会的地方补。', tone: '中性', col: 'private tutoring, after-school tutoring', en: 'He paid for tutoring in maths twice a week.', cn: '他每周花钱上两次数学辅导。' }
+    ]},
+    { line: 'culprit 是造成这件坏事的那个责任方（也可能是东西），misdeed 是一件具体的坏事，delinquency 多指青少年反复的违法行为，embezzlement 是把公款挪进自己口袋。', items: [
+      { w: 'culprit', zh: '罪魁祸首；肇事者', scene: '出了事总得找出是谁干的，这个词就是那个人。', tone: '中性，常带口语感', col: 'the main culprit, find the culprit', en: 'The police finally caught the culprit behind the thefts.', cn: '警方终于抓到了连环盗窃的罪魁祸首。' },
+      { w: 'misdeed', zh: '恶行；过失', scene: '一件做过的不光彩的事，被记下来追究。', tone: '偏正式', col: 'a past misdeed, admit a misdeed', en: 'The report listed several misdeeds by the officials.', cn: '报告列出了官员的几件不当行为。' },
+      { w: 'delinquency', zh: '违法（多指青少年）；失职', scene: '未成年人反复做违法的事，常和“青少年”这个词连用。', tone: '正式', col: 'juvenile delinquency, tax delinquency', en: 'The centre runs a programme to prevent juvenile delinquency.', cn: '这个中心办了一个预防青少年违法的项目。' },
+      { w: 'embezzlement', zh: '挪用公款；贪污', scene: '管钱的人把公家的钱转进自己的账户。', tone: '正式，法律用语', col: 'embezzlement of funds, charge with embezzlement', en: 'The clerk was arrested for embezzlement of company funds.', cn: '这名职员因挪用公司资金被捕。' }
+    ]},
+    { line: 'irrefutable 是反驳不了的，unequivocal 是说得毫不含糊，speculative 是只有推测、还没有证据，sceptical 是听到说法先不信。', items: [
+      { w: 'irrefutable', zh: '无可辩驳的', scene: '证据摆在那里，对方只能承认。', tone: '正式', col: 'irrefutable evidence, an irrefutable argument', en: 'The photographs gave irrefutable proof of the damage.', cn: '这些照片提供了无可辩驳的损坏证据。' },
+      { w: 'unequivocal', zh: '明确无疑的', scene: '话说得很干净，不留第二种解释。', tone: '正式', col: 'an unequivocal answer, unequivocal support', en: 'The board gave its unequivocal support to the plan.', cn: '董事会对这个计划给予了明确无疑的支持。' },
+      { w: 'speculative', zh: '推测的；投机性的', scene: '现在只有一些猜测，还没有数据撑着。', tone: '偏正式', col: 'speculative investment, purely speculative', en: 'Any estimate of the final cost is still speculative.', cn: '对最终成本的任何估计目前都只是推测。' },
+      { w: 'sceptical', zh: '怀疑的；将信将疑的', scene: '听到一个说法，眉头先皱一下，等证据再说。', tone: '中性', col: 'sceptical about, remain sceptical', en: 'Scientists remain sceptical about the claim.', cn: '科学家对这项说法仍然持怀疑态度。' }
+    ]},
+    { line: 'criticize 是指出哪里做得不好，reproach 是带着失望责备某个人，condemn 是公开强烈谴责，accuse 是指控某人做了某件具体的事。', items: [
+      { w: 'criticize', zh: '批评', scene: '把一件作品或一个做法拿出来，说它哪里不够。', tone: '中性', col: 'criticize somebody for, criticize the plan', en: 'The report criticizes the council for the delay.', cn: '报告批评市政委员会拖延。' },
+      { w: 'reproach', zh: '责备；责怪', scene: '语气里有失望，多半对着自己在意的人。', tone: '偏正式，带情绪', col: 'reproach somebody for, a look of reproach', en: 'She reproached him for forgetting their anniversary.', cn: '她责怪他忘了他们的纪念日。' },
+      { w: 'condemn', zh: '谴责；判罪', scene: '在公开场合说这件事完全不能接受，语气很重。', tone: '正式，语气强', col: 'condemn the attack, condemn somebody to', en: 'World leaders condemned the attack on the hospital.', cn: '各国领导人谴责了这次袭击医院的行为。' },
+      { w: 'accuse', zh: '指控；指责', scene: '指出某人做了某件具体的事，常常“被”字一加就严重了。', tone: '中性偏正式', col: 'accuse somebody of, be accused of', en: 'They accused the driver of ignoring the red light.', cn: '他们指控那名司机闯了红灯。' }
+    ]},
+    { line: 'paycheck 是每月到手的那笔工资，current account 是平时收付用的活期账户，direct debit 是授权银行到期自动扣款，overdraft 是账户钱不够时还能先扣的额度。', items: [
+      { w: 'paycheck', zh: '工资支票；薪水', scene: '月底拿到的那笔钱，扣完税之后的那张单子。', tone: '偏口语（美式）', col: 'a monthly paycheck, live from paycheck to paycheck', en: 'Half of his paycheck goes on rent.', cn: '他一半的工资都交了房租。' },
+      { w: 'current account', zh: '活期账户', scene: '工资进这个户头，房租水电也从这个户头出。', tone: '中性（英式）', col: 'open a current account, a joint current account', en: 'He opened a current account when he started his first job.', cn: '他开始第一份工作时开了一个活期账户。' },
+      { w: 'direct debit', zh: '自动扣款', scene: '签一张授权书，之后每个月的账单自动从账户里扣。', tone: '中性（英式）', col: 'set up a direct debit, by direct debit', en: 'I pay the electricity bill by direct debit.', cn: '电费我是用自动扣款交的。' },
+      { w: 'overdraft', zh: '透支（额）', scene: '账户里只剩一点钱，付出去之后就欠银行了。', tone: '中性', col: 'an overdraft facility, go into overdraft', en: 'The bank charged him for going into overdraft.', cn: '银行因为他透支收了费。' }
+    ]},
   ];
 
   const SOLOS = [
