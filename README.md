@@ -27,7 +27,7 @@ from `main`).
 | WFD (Write From Dictation) | 152 high-frequency sentences in five categories (`学术场景`, `科学技术`, `社会经济`, `职业与发展`, `环境与规划`). Each sentence is read five times with a 3-second pause, shuffled so a new loop does not start with the last sentence. Your typed answer is diffed word by word against the source (missing / extra words marked). |
 | RS (Repeat Sentence) | 50 sentences from the speaking list, played sentence by sentence for shadowing. |
 | 阅读 (Reading) | 70 articles grouped by how many turns the argument takes (双转折 / 单转折 / 并列 / 无转折). Trains the connectives and patterns that give paragraph order away. When the source has no article body, vocabulary is marked as **topic-predicted** instead of inventing a passage. |
-| WE (Write Essay) | 35 high-frequency prompts across 7 topics and 6 question types, with sentence cards, a 20-minute / 200–300-word target and a copy-prompt helper. |
+| WE (Write Essay) | 56 prompts: 35 high-frequency prompts plus a 21-day plan (one prompt per day, 200–300 words / 20 minutes). Days unlock in order; the plan shows done/not-done, streak and completion, and keeps sentence cards and a copy-prompt helper. |
 | SST (Summarize Spoken Text) | 50 lecture items with real, downloadable audio under `audio/sst/` and transcripts taken from the source list; reference/model answers and known content mismatches are flagged. |
 | RA (Read Aloud) | 12 passages taken from existing source text (reading articles, or SST transcripts when an article has no body), with the exam's 30–40s prep and 40s reading limits. Self-assessed. |
 | DI (Describe Image) | 5 chart types (bar, line, pie, table, flow) drawn offline as inline SVG from clearly marked self-made data; 25s prep, 40s speaking. Self-assessed. |
@@ -42,7 +42,7 @@ from `main`).
   - `words.js` — the vocabulary bank (also the source of the DK grammar cards)
   - `synonyms.js` — synonym comparison groups (`SYNONYMS.lookup()`, `即将推出` fallback)
   - `pte.js` — 152 WFD sentences; `pte-rs.js` — 50 RS sentences
-  - `pte-read.js` — 70 reading articles; `pte-we.js` — 35 essay prompts
+  - `pte-read.js` — 70 reading articles; `pte-we.js` — 56 essay prompts (35 bank + the 21-day plan); `pte-logic.js` — the 21-day unlock/streak state (`pte.we.plan`)
   - `pte-sst.js` — 50 SST items (audio paths, transcripts, notes)
   - `grammar.js` — derives the 360 grammar points from `words.js`; `study-plan.js` — the daily queue
 - **UI** is split by tab/module: `app.js`, `drive.js`, `study-ui.js`,

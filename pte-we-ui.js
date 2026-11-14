@@ -11,6 +11,7 @@ function weNote(id) {
   return note;
 }
 function weFind(id) { return (PTE_WE.questions || []).find(q => q.id === id); }
+function weBankQuestions() { return (PTE_WE.questions || []).filter(q => !q.day); }
 function weType(id) { return (PTE_WE.types || []).find(t => t.id === id); }
 function weTopic(id) { return (PTE_WE.topics || []).find(t => t.id === id); }
 function weToday() { return (typeof TK === 'string' && TK) ? TK : ''; }
@@ -71,23 +72,26 @@ function weExperience(q) {
 }
 function weHead(st) {
   const btn = (id, label) => `<button type="button" data-we-act="view" data-view="${id}" class="${st.we.view === id ? 'on' : ''}">${label}</button>`;
-  return `${pteModes(st)}<div class="pte-mini">${btn('bank', '题目')}${btn('outline', '提纲')}${btn('essay', '成文')}${btn('cards', '句子卡')}${btn('drill', '考前')}${btn('skel', '模版骨架')}</div>`;
+  return `${pteModes(st)}<div class="pte-mini">${btn('bank', '题目')}${btn('plan', '21 天')}${btn('outline', '提纲')}${btn('essay', '成文')}${btn('cards', '句子卡')}${btn('drill', '考前')}${btn('skel', '模版骨架')}</div>`;
 }
 function weQuestionCard(q, extra) {
   const type = weType(q.type);
   const topic = weTopic(q.topic);
-  return `<article class="card"><div class="pte-kicker">题号 ${esc(q.id)} · ${esc(topic ? topic.name : '')} · ${esc(type ? type.name : '')}${q.personal ? ' · 要写个人经历' : ''}</div><p>${esc(q.zh)}</p><p lang="en">${esc(q.en)} <button type="button" class="spk" data-say="${esc(q.en)}">🔊</button></p><p class="pte-tip">${esc(type ? type.tip : '')}</p><p class="pte-tip">用英文说开头：先改写题目，再亮出立场。</p>${wePlan(q)}${weExperience(q)}${extra || ''}<button type="button" class="btn" data-we-act="copy" data-id="${esc(q.id)}">复制题目</button><p class="pte-tip">复制后贴到别的 AI 里，让它帮你背关键句和策略。</p></article>`;
+  const label = q.day ? '第 ' + q.day + ' 天' : '题号 ' + q.id;
+  const facts = q.day ? `<p class="pte-tip">字数 ${esc(q.words || '200–300')} · 时间 ${q.minutes || 20} 分钟</p>` : '';
+  return `<article class="card"><div class="pte-kicker">${esc(label)} · ${esc(topic ? topic.name : '')} · ${esc(type ? type.name : '')}${q.personal ? ' · 要写个人经历' : ''}</div><p>${esc(q.zh)}</p><p lang="en">${esc(q.en)} <button type="button" class="spk" data-say="${esc(q.en)}">🔊</button></p>${facts}<p class="pte-tip">${esc(type ? type.tip : '')}</p><p class="pte-tip">用英文说开头：先改写题目，再亮出立场。</p>${wePlan(q)}${weExperience(q)}${extra || ''}<button type="button" class="btn" data-we-act="copy" data-id="${esc(q.id)}">复制题目</button><p class="pte-tip">复制后贴到别的 AI 里，让它帮你背关键句和策略。</p></article>`;
 }
 
 function weBank(st) {
   const bag = st.we;
   const topics = PTE_WE.topics;
   const types = PTE_WE.types;
-  let list = PTE_WE.questions.slice();
+  const bankQs = weBankQuestions();
+  let list = bankQs.slice();
   if (bag.topicFilter !== 'all') list = list.filter(q => q.topic === bag.topicFilter);
   if (bag.typeFilter !== 'all') list = list.filter(q => q.type === bag.typeFilter);
-  const topicSel = `<select id="weTopic" class="sel"><option value="all">全部话题</option>${topics.map(t => `<option value="${t.id}" ${bag.topicFilter === t.id ? 'selected' : ''}>${esc(t.name)} (${PTE_WE.questions.filter(q => q.topic === t.id).length})</option>`).join('')}</select>`;
-  const typeSel = `<select id="weType" class="sel"><option value="all">全部题型</option>${types.map(t => `<option value="${t.id}" ${bag.typeFilter === t.id ? 'selected' : ''}>${esc(t.name)} (${PTE_WE.questions.filter(q => q.type === t.id).length})</option>`).join('')}</select>`;
+  const topicSel = `<select id="weTopic" class="sel"><option value="all">全部话题</option>${topics.map(t => `<option value="${t.id}" ${bag.topicFilter === t.id ? 'selected' : ''}>${esc(t.name)} (${bankQs.filter(q => q.topic === t.id).length})</option>`).join('')}</select>`;
+  const typeSel = `<select id="weType" class="sel"><option value="all">全部题型</option>${types.map(t => `<option value="${t.id}" ${bag.typeFilter === t.id ? 'selected' : ''}>${esc(t.name)} (${bankQs.filter(q => q.type === t.id).length})</option>`).join('')}</select>`;
   const groups = topics.filter(t => bag.topicFilter === 'all' || bag.topicFilter === t.id).map(topic => {
     const items = list.filter(q => q.topic === topic.id).map(q => {
       const saved = bag.notes[q.id] || {};
@@ -96,15 +100,24 @@ function weBank(st) {
     }).join('');
     return items ? `<h3 class="pte-group">${esc(topic.name)}</h3>${items}` : '';
   }).join('');
+  const planStats = PTELogic.wePlan(bag.plan, wePlanTotal(), weToday());
+  const planQs = PTE_WE.questions.filter(q => q.day).slice().sort((a, b) => a.day - b.day);
+  const planGroup = (bag.topicFilter === 'all' && bag.typeFilter === 'all')
+    ? `<h3 class="pte-group">21 天计划（按天）</h3>${planQs.map(q => {
+      const row = planStats.days[q.day - 1];
+      const cls = row.done ? 'done' : 'alt';
+      return `<button type="button" class="btn ${cls}" data-we-act="open" data-id="${esc(q.id)}"${row.locked ? ' disabled' : ''}>第 ${q.day} 天 · ${esc(q.zh)}</button>`;
+    }).join('')}`
+    : '';
   const open = bag.openId ? weFind(bag.openId) : null;
-  return `${weHead(st)}<div class="card"><b>WE 作文 · 35 题</b><p>不要背整篇。每题只记 1 个立场、2 个论点、3 个词块，并练一句英文开头。</p>${topicSel}${typeSel}<p>当前 ${list.length} 题</p></div>${open ? weQuestionCard(open, '<button type="button" class="btn alt" data-we-act="close">收起</button>') : groups}`;
+  return `${weHead(st)}<div class="card"><b>WE 作文 · ${PTE_WE.questions.length} 题</b><p>35 道高频题 + 21 天计划 21 题。不要背整篇。每题只记 1 个立场、2 个论点、3 个词块，并练一句英文开头。</p>${topicSel}${typeSel}<p>当前 ${list.length} 道高频题</p><p class="pte-tip">21 天计划：已练 ${planStats.doneCount}/21 · 连续 ${planStats.streak} 天 · 完成度 ${planStats.percent}%。</p><button type="button" class="btn alt" data-we-act="view" data-view="plan">进入 21 天计划</button></div>${open ? weQuestionCard(open, '<button type="button" class="btn alt" data-we-act="close">收起</button>') : groups + planGroup}`;
 }
 function weOutline(st) {
   const bag = st.we;
   const day = weToday();
   if (bag.outlineDay !== day || bag.outlineIds.length !== 2) {
     bag.outlineDay = day;
-    bag.outlineIds = PTELogic.shuffle(PTE_WE.questions.map(q => q.id), Math.random).slice(0, 2);
+    bag.outlineIds = PTELogic.shuffle(weBankQuestions().map(q => q.id), Math.random).slice(0, 2);
     save();
   }
   const cards = bag.outlineIds.map(id => weFind(id)).filter(Boolean).map(q => weQuestionCard(q, `<button type="button" class="btn" data-we-act="timer" data-sec="300">这题计时 5 分钟</button>`)).join('');
@@ -118,7 +131,7 @@ function weEssay(st) {
   const fit = PTELogic.essayFit(PTELogic.wordCount(note.essay));
   const checks = [['stance', '立场句清楚'], ['connectives', '连接词有没有重复'], ['sv', '主谓一致'], ['plural', '单复数'], ['tense', '时态']];
   const boxes = checks.map(pair => `<button type="button" class="btn ${note.checks[pair[0]] ? 'done' : 'alt'}" data-we-act="check" data-id="${esc(q.id)}" data-check="${pair[0]}">${note.checks[pair[0]] ? '✓ ' : ''}${pair[1]}</button>`).join('');
-  const opts = PTE_WE.questions.map(item => `<option value="${item.id}" ${item.id === q.id ? 'selected' : ''}>${item.id} ${esc(item.zh)}</option>`).join('');
+  const opts = PTE_WE.questions.map(item => `<option value="${item.id}" ${item.id === q.id ? 'selected' : ''}>${item.day ? '第 ' + item.day + ' 天' : item.id} ${esc(item.zh)}</option>`).join('');
   return `${weHead(st)}<div class="card"><b>限时成文 20 分钟</b><p>目标 200–300 词。四段：开头 2–3 句，两个主体段，结尾 1–2 句，结尾不加新论点。</p><select id="weEssay" class="sel">${opts}</select><p id="pteWeClock" class="pte-clock">${esc(weClock(PTE_PLAY.weLeft))}</p><button type="button" class="btn" data-we-act="timer" data-sec="1200">开始 20 分钟</button><button type="button" class="btn alt" data-we-act="timer-stop">停止计时</button></div>${weQuestionCard(q, '')}<div class="card"><p id="pteWeCount" class="pte-count ${fit}">${esc(weCountLabel(note.essay))}</p>${weBox(q.id, 'essay', '全文', 'Write 200 to 300 words.', true)}<h3>写完只查这几项</h3>${boxes}</div>`;
 }
 function weCards(st) {
@@ -132,7 +145,7 @@ function weCards(st) {
 function weDrill(st) {
   const bag = st.we;
   if (!bag.drillId || !weFind(bag.drillId)) {
-    bag.drillId = PTELogic.shuffle(PTE_WE.questions.map(q => q.id), Math.random)[0];
+    bag.drillId = PTELogic.shuffle(weBankQuestions().map(q => q.id), Math.random)[0];
     save();
   }
   const q = weFind(bag.drillId);
@@ -157,8 +170,37 @@ function weSkeleton(st) {
   return `${weHead(st)}<div class="card"><b>WE 模版骨架 · 写作公式</b><p>${total} 条句式骨架：开头 ${intro.length} 条、主体 ${body.length} 条、结尾 ${conclusion.length} 条。方括号换成这道题的词，不背整篇范文。</p><p class="pte-tip">${esc(note)}</p></div><details class="card" open><summary>Intro 开头骨架 · ${intro.length} 条</summary>${weSkelRows(intro)}</details><details class="card" open><summary>Body 主体骨架 · ${body.length} 条</summary>${weSkelRows(body)}</details><details class="card" open><summary>Conclusion 结尾骨架 · ${conclusion.length} 条</summary>${weSkelRows(conclusion)}</details><details class="card"><summary>交卷前自查清单 · ${checklist.length} 条</summary><ul class="skel-check">${checks}</ul></details>`;
 }
 
+function wePlanQ(day) { return (PTE_WE.questions || []).find(q => q.day === Number(day)) || null; }
+function wePlanTotal() { return Math.round(Number(PTE_WE.planTotal)) || 21; }
+function wePlanView(st) {
+  const bag = st.we;
+  if (!bag.plan || typeof bag.plan !== 'object' || Array.isArray(bag.plan)) bag.plan = {};
+  if (!bag.plan.done || typeof bag.plan.done !== 'object' || Array.isArray(bag.plan.done)) bag.plan.done = {};
+  const stats = PTELogic.wePlan(bag.plan, wePlanTotal(), weToday());
+  const picked = stats.days.find(row => row.day === Number(bag.planOpen) && row.open);
+  const day = picked ? picked.day : stats.current;
+  const row = stats.days.find(item => item.day === day) || null;
+  const q = row ? wePlanQ(row.day) : null;
+  const cells = stats.days.map(item => {
+    const mark = item.done ? '✓' : (item.locked ? '🔒' : '▶');
+    const label = item.done ? '已练 ' + item.date : (item.locked ? '未解锁' : '可练');
+    const cls = item.done ? 'done' : (item.locked ? 'lock' : 'open');
+    return `<button type="button" class="we-day ${cls}" data-we-act="plan-open" data-day="${item.day}"${item.locked ? ' disabled' : ''}><b>第 ${item.day} 天</b><span>${mark} ${esc(label)}</span></button>`;
+  }).join('');
+  const extra = (row && q)
+    ? `<div class="we-plan-actions">${row.done
+      ? `<button type="button" class="btn alt" data-we-act="plan-undo" data-day="${row.day}">撤销「第 ${row.day} 天」</button>`
+      : `<button type="button" class="btn" data-we-act="plan-done" data-day="${row.day}">标记「第 ${row.day} 天」练完</button>`}<button type="button" class="btn alt" data-we-act="plan-essay" data-day="${row.day}">去限时成文</button></div>`
+    : '';
+  const card = q
+    ? weQuestionCard(q, extra)
+    : `<div class="card"><b>${stats.allDone ? '21 天全部完成' : '下一题还没解锁'}</b><p>${stats.allDone ? '可以按天回看，也可以从「题目」继续练别的题。' : '完成当前这天，下一天就会解锁。'}</p></div>`;
+  return `${weHead(st)}<div class="card"><b>WE 21 天计划</b><p>第 N 天解锁第 N 题：完成第 N 天，第 N+1 天解锁。每天一题，20 分钟，200–300 词。</p><p class="we-plan-stat">已练 <b>${stats.doneCount}/${stats.total}</b> · 连续 <b>${stats.streak}</b> 天 · 完成度 <b>${stats.percent}%</b> · 未练 <b>${stats.total - stats.doneCount}</b> 天</p><div class="we-plan-bar"><i style="width:${stats.percent}%"></i></div><p class="pte-tip">${esc(PTE_WE.planNote || '')}</p></div><div class="we-plan-grid">${cells}</div>${card}`;
+}
+
 function pteWeView(st) {
   weBag();
+  if (st.we.view === 'plan') return wePlanView(st);
   if (st.we.view === 'outline') return weOutline(st);
   if (st.we.view === 'essay') return weEssay(st);
   if (st.we.view === 'cards') return weCards(st);
@@ -174,12 +216,41 @@ function onWeClick(e) {
   const act = b.dataset.weAct;
   const bag = weBag();
   if (act === 'view') { weStop(); bag.view = b.dataset.view; save(); pteRefresh(false); return; }
+  if (act === 'plan-open') { bag.view = 'plan'; bag.planOpen = Number(b.dataset.day) || 0; save(); pteRefresh(true); return; }
+  if (act === 'plan-done') {
+    const day = Number(b.dataset.day);
+    const row = PTELogic.wePlan(bag.plan, wePlanTotal(), weToday()).days.find(item => item.day === day);
+    const today = weToday();
+    if (!row || !row.open || !today) return;
+    bag.plan.done[String(day)] = today;
+    bag.planOpen = day;
+    save();
+    pteRefresh(true);
+    return;
+  }
+  if (act === 'plan-undo') {
+    const day = Number(b.dataset.day);
+    if (bag.plan && bag.plan.done) delete bag.plan.done[String(day)];
+    bag.planOpen = day || 0;
+    save();
+    pteRefresh(true);
+    return;
+  }
+  if (act === 'plan-essay') {
+    const q = wePlanQ(Number(b.dataset.day));
+    if (!q) return;
+    bag.essayId = q.id;
+    bag.view = 'essay';
+    save();
+    pteRefresh(true);
+    return;
+  }
   if (act === 'open') { bag.openId = b.dataset.id; bag.view = 'bank'; save(); pteRefresh(true); return; }
   if (act === 'close') { bag.openId = ''; save(); pteRefresh(true); return; }
   if (act === 'timer') { weStart(Number(b.dataset.sec) || 0); return; }
   if (act === 'timer-stop') { weStop(); PTE_PLAY.weLeft = 0; wePaint(); return; }
-  if (act === 'new-outline') { bag.outlineDay = weToday(); bag.outlineIds = PTELogic.shuffle(PTE_WE.questions.map(q => q.id), Math.random).slice(0, 2); save(); pteRefresh(false); return; }
-  if (act === 'new-drill') { bag.drillId = PTELogic.shuffle(PTE_WE.questions.map(q => q.id), Math.random)[0]; save(); pteRefresh(false); return; }
+  if (act === 'new-outline') { bag.outlineDay = weToday(); bag.outlineIds = PTELogic.shuffle(weBankQuestions().map(q => q.id), Math.random).slice(0, 2); save(); pteRefresh(false); return; }
+  if (act === 'new-drill') { bag.drillId = PTELogic.shuffle(weBankQuestions().map(q => q.id), Math.random)[0]; save(); pteRefresh(false); return; }
   if (act === 'say-open') {
     const text = weNote(b.dataset.id).opening;
     if (text && typeof say === 'function') say(text);
