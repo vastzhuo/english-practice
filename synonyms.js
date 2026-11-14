@@ -2106,6 +2106,152 @@
       { w: 'direct debit', zh: '自动扣款', scene: '签一张授权书，之后每个月的账单自动从账户里扣。', tone: '中性（英式）', col: 'set up a direct debit, by direct debit', en: 'I pay the electricity bill by direct debit.', cn: '电费我是用自动扣款交的。' },
       { w: 'overdraft', zh: '透支（额）', scene: '账户里只剩一点钱，付出去之后就欠银行了。', tone: '中性', col: 'an overdraft facility, go into overdraft', en: 'The bank charged him for going into overdraft.', cn: '银行因为他透支收了费。' }
     ]},
+    { line: 'statute 是国家立出来的成文法本身，decree 是当权者直接下达的法令，clause 是合同或法条里单独编号的一条，provision 是法律或协议里为某种情况准备的具体规定。', items: [
+      { w: 'statute', zh: '法规；法令', scene: '国家层面立出来的成文法，厚厚一本法条书里的那一条，不是谁的口头命令。', tone: '中性偏正式', col: 'by statute, a statute book', en: 'The right to a fair trial is protected by statute.', cn: '获得公正审判的权利受成文法保护。' },
+      { w: 'decree', zh: '法令；判决', scene: '政府或法院直接颁布的一纸决定，签完就生效，像一道命令。', tone: '正式', col: 'issue a decree, by royal decree', en: 'The government issued a decree banning the sale of ivory.', cn: '政府颁布法令，禁止象牙买卖。' },
+      { w: 'clause', zh: '（合同、法条的）条款', scene: '一份合同里单独的一条，常带编号，签字之前要逐条看清楚。', tone: '中性偏正式', col: 'a contract clause, under clause 5', en: 'Read the clause about early repayment before you sign.', cn: '签字之前先读清楚关于提前还款的那一条。' },
+      { w: 'provision', zh: '（法律、协议的）规定；条款', scene: '法律或协议里为某种情况准备的一条安排，语气比 clause 宽，强调"留了保障"。', tone: '正式', col: 'a provision for, under the provisions of the law', en: 'The new provision protects part-time workers.', cn: '这项新规定保护兼职员工。' }
+    ]},
+    { line: '法庭一条线：tribunal 是专门审某类纠纷的特别法庭，solicitor 是替你办文件、出庭前给建议的事务律师，prosecution 是代表国家提起公诉的一方，verdict 是最后宣布的裁定。', items: [
+      { w: 'tribunal', zh: '特别法庭', scene: '处理劳资、税务、移民这类专门纠纷的裁定机构，气氛比普通法院轻一些。', tone: '正式', col: 'an employment tribunal, a tribunal hearing', en: 'She took her unfair dismissal claim to a tribunal.', cn: '她把不公正解雇的申诉提交给了特别法庭。' },
+      { w: 'solicitor', zh: '事务律师；诉状律师', scene: '在英国，你先找的人是他：看合同、写遗嘱、准备上庭材料；出庭辩护再另找大律师。', tone: '中性偏正式（英式）', col: 'consult a solicitor, a firm of solicitors', en: 'Our solicitor reviewed the contract before we signed.', cn: '我们的事务律师在签字前审了合同。' },
+      { w: 'prosecution', zh: '起诉；公诉方', scene: '代表国家把案子告上法庭的那一方，坐在律师席的另一头。', tone: '正式', col: 'the prosecution, bring a prosecution against', en: 'The prosecution called two more witnesses.', cn: '公诉方又传了两名证人。' },
+      { w: 'verdict', zh: '裁定；判决', scene: '庭审结束之后宣布的那句结论：有罪或无罪，赔或不赔。', tone: '中性偏正式', col: 'reach a verdict, a guilty verdict', en: 'The jury reached a verdict after three hours.', cn: '陪审团三小时后作出了裁定。' }
+    ]},
+    { line: '都跟"王"有关：sovereign 是君主本人，也指一个国家的最高主权；royal 是"王室的"，形容人和场合；imperial 是"帝国的、皇帝的"，比 royal 大一圈，还有向外统治的意味。', items: [
+      { w: 'sovereign', zh: '君主；拥有主权的', scene: '戴王冠的那个人本身，或者一个国家不受别国管的那种最高权力。', tone: '正式', col: 'a sovereign state, sovereign power', en: 'Each sovereign state sets its own immigration rules.', cn: '每个主权国家自己定移民规则。' },
+      { w: 'royal', zh: '王室的；国王的', scene: '跟王室有关的人和场合：婚礼、加冕、王室的护卫队。', tone: '中性偏正式', col: 'the royal family, a royal visit', en: 'The royal family attended the ceremony.', cn: '王室成员出席了典礼。' },
+      { w: 'imperial', zh: '帝国的；皇帝的', scene: '帝国向外扩张时期的制度、建筑和军队，比"王室"多了统治别国的意味。', tone: '正式', col: 'imperial rule, imperial China', en: 'The city still has many imperial palaces.', cn: '这座城市还留有许多帝王宫殿。' }
+    ]},
+    { line: 'criterion 是拿来打分判断的"标准、尺度"，norm 是大家都默认遵守的常规，precedent 是以后照着办的先例，prototype 是做出来试用的第一版样品。', items: [
+      { w: 'criterion', zh: '标准；尺度', scene: '评估时拿来一条条对照的那把尺，单数是 criterion，复数是 criteria。', tone: '中性偏正式', col: 'the main criterion, meet the criteria', en: 'Cost was not the only criterion for the decision.', cn: '成本不是这个决定的唯一标准。' },
+      { w: 'norm', zh: '常规；规范', scene: '一个圈子里大家都这么做的默认做法，偏离了会被人多看两眼。', tone: '中性偏正式', col: 'social norms, the norm', en: 'Remote meetings have become the norm in this company.', cn: '远程会议在这家公司已经成了常规。' },
+      { w: 'precedent', zh: '先例；判例', scene: '以前发生过、以后可以拿来当依据的一件事，法庭上尤指旧判决。', tone: '正式', col: 'set a precedent, follow a precedent', en: 'The ruling set a precedent for similar cases.', cn: '这一裁决为类似案件立下了先例。' },
+      { w: 'prototype', zh: '原型；样机', scene: '第一版做出来试效果的样品，还粗糙，但能看能不能跑通。', tone: '中性偏正式', col: 'build a prototype, a working prototype', en: 'The team built a prototype before the final design.', cn: '团队在做最终设计之前先做了个原型。' }
+    ]},
+    { line: '读书写字四个动作：annotate 是在页边写批注，underline 是用笔划出重点，summarise 是读完压缩成几句话，transcribe 是把听到或手写的内容一字一句转成文字。', items: [
+      { w: 'annotate', zh: '给…作注解；批注', scene: '书页空白处写自己的理解、画箭头、标问号，而不是另写一篇。', tone: '中性偏正式', col: 'annotate a text, an annotated edition', en: 'Students annotate the article before the seminar.', cn: '学生在讨论课之前给文章作批注。' },
+      { w: 'underline', zh: '在…下画线；强调', scene: '用笔在关键词下面划一道线，复习时一眼看到。', tone: '中性', col: 'underline a word, underline the importance of', en: 'Underline the sentence you think is the main claim.', cn: '在你认为是主旨的那句话下面画线。' },
+      { w: 'summarise', zh: '总结；概括', scene: '读完一整段，用自己的话压成两三句，只留主干。', tone: '中性', col: 'summarise the main points, briefly summarise', en: 'Summarise the lecture in one paragraph.', cn: '用一段话概括这场讲座。' },
+      { w: 'transcribe', zh: '抄录；转写', scene: '把录音整理成逐字稿，或把手写笔记照原样录入电脑，不能改内容。', tone: '正式', col: 'transcribe an interview, a transcript', en: 'She transcribed the interview word for word.', cn: '她把采访逐字转写了下来。' }
+    ]},
+    { line: '学术诚信四件事：plagiarism 是"抄袭"这个行为本身，plagiarise 是动词"抄别人的东西"，cite 是按规矩注明出处，originality 是自己想出来的那份原创。', items: [
+      { w: 'plagiarism', zh: '抄袭；剽窃', scene: '把别人的句子搬进自己的论文还不标出处，查重系统一响就完了。', tone: '贬义', col: 'plagiarism check, accuse somebody of plagiarism', en: 'The essay was failed for plagiarism.', cn: '这篇论文因抄袭被判不及格。' },
+      { w: 'plagiarise', zh: '抄袭；剽窃', scene: '动词用法：抄了谁的一句话、一段数据，当成自己的。', tone: '贬义', col: 'plagiarise a source, plagiarise an idea', en: 'Never plagiarise another student\'s work.', cn: '绝不要抄袭别的学生的作业。' },
+      { w: 'cite', zh: '引用；引证', scene: '写论文时把作者、年份、页码写清楚，让读者能顺着找到原文。', tone: '中性偏正式', col: 'cite a source, cite an example', en: 'You must cite every source you use.', cn: '用到的每一份资料都必须注明出处。' },
+      { w: 'originality', zh: '原创性', scene: '评分时看的那一项：观点和写法有多少是你自己的。', tone: '褒义', col: 'a mark for originality, show originality', en: 'The judges praised the originality of her design.', cn: '评委称赞她设计的原创性。' }
+    ]},
+    { line: '都是拿钱，来路不同：scholarship 看成绩给的奖学金，bursary 看家庭经济情况给的助学金，stipend 是发给研究生或实习生的固定生活津贴，allowance 是按岗位定期发的一笔补贴。', items: [
+      { w: 'scholarship', zh: '奖学金', scene: '成绩好或申请材料强，学校或基金会发的钱，常常还带荣誉。', tone: '中性', col: 'win a scholarship, a full scholarship', en: 'She won a scholarship to study abroad.', cn: '她拿到了出国留学的奖学金。' },
+      { w: 'bursary', zh: '（尤指大学的）助学金', scene: '不看成绩看家庭收入，学校按需要给的补助，能抵学费或生活费。', tone: '中性', col: 'apply for a bursary, a means-tested bursary', en: 'He received a bursary to cover his rent.', cn: '他拿到一笔助学金来付房租。' },
+      { w: 'stipend', zh: '（研究生、实习生的）生活津贴', scene: '读博或做实习时每月发的那笔固定生活费，不是工资也不太像奖。', tone: '中性偏正式', col: 'a monthly stipend, a research stipend', en: 'The PhD programme offers a monthly stipend.', cn: '这个博士项目每月发一笔生活津贴。' },
+      { w: 'allowance', zh: '津贴；补贴；零用钱', scene: '按岗位或按人头定期给的一笔钱，出差、住房、孩子上学都可能有一份。', tone: '中性', col: 'a travel allowance, a housing allowance', en: 'The job includes a housing allowance.', cn: '这份工作包含住房补贴。' }
+    ]},
+    { line: '都指"住处"，大小和用法不同：abode 文雅或戏谑地说"住所"，dwelling 是登记表和法律里的"住宅"统称，mansion 是带花园车道的豪宅，residential 是形容词"住宅区的、居住用的"。', items: [
+      { w: 'abode', zh: '住所；居所', scene: '书面或开玩笑时说的"府上""小窝"，日常口语不用它。', tone: '书面，可带戏谑', col: 'a humble abode, of no fixed abode', en: 'Welcome to our humble abode.', cn: '欢迎光临寒舍。' },
+      { w: 'dwelling', zh: '住宅；寓所', scene: '表格、保险、法规里对"人住的房子"的中性统称，不谈好不好。', tone: '正式', col: 'a dwelling house, a single dwelling', en: 'The insurance covers each dwelling on the site.', cn: '保险覆盖这块地上的每一栋住宅。' },
+      { w: 'mansion', zh: '豪宅；府邸', scene: '好几层、带车道和花园的大房子，进门先看到旋转楼梯那种。', tone: '中性', col: 'a luxury mansion, a country mansion', en: 'They live in a mansion by the lake.', cn: '他们住在湖边的一栋豪宅里。' },
+      { w: 'residential', zh: '住宅的；居住用的', scene: '形容一片区域或一栋楼的用途：住人，不是办公也不是商铺。', tone: '中性偏正式', col: 'a residential area, a residential building', en: 'The street is in a quiet residential area.', cn: '这条街在安静的住宅区里。' }
+    ]},
+    { line: '讲位置和距离：proximity 是"离得近"这种关系，radius 是以某点为圆心画出去的那一圈距离，outskirt 常用复数 outskirts，指城市最外一圈的郊区，threshold 是跨进去的那道门槛和界限。', items: [
+      { w: 'proximity', zh: '接近；邻近', scene: '说某地离学校、地铁、医院"很近"，常被当成卖点。', tone: '正式', col: 'in close proximity to, the proximity of', en: 'The hotel is in close proximity to the station.', cn: '这家酒店离车站很近。' },
+      { w: 'radius', zh: '半径；周围范围', scene: '以自己为圆心，走十分钟能到的那一圈，地图上可以用尺子画。', tone: '中性', col: 'within a 5-kilometre radius, the radius of', en: 'There are three schools within a two-mile radius.', cn: '两英里半径内有三所学校。' },
+      { w: 'outskirt', zh: '郊区；市郊', scene: '城市边缘往外那一片，房子矮一点、绿地多一点，常用复数 outskirts。', tone: '中性', col: 'on the outskirts of, the city\'s outskirts', en: 'They bought a house on the outskirts of town.', cn: '他们在城郊买了一栋房子。' },
+      { w: 'threshold', zh: '门槛；界限；开端', scene: '跨过去就进入另一个状态的那道线，录取分数线、能忍痛的临界点都算。', tone: '中性偏正式', col: 'cross the threshold, a pain threshold', en: 'You must cross the threshold to enter the old hall.', cn: '要跨过这道门槛才能走进旧礼堂。' }
+    ]},
+    { line: '污染链条上的四个名词：emission 是工厂汽车排出的废气（常用复数 emissions），smog 是这些废气在城市上空积成的雾霾，sewage 是下水道里的污水污物，landfill 是堆埋垃圾的那片场地。', items: [
+      { w: 'emission', zh: '排放；排放物', scene: '烟囱和排气管放出来的气体与颗粒，常跟 carbon、exhaust 一起出现。', tone: '中性偏正式', col: 'carbon emissions, cut emissions', en: 'The factory must reduce its emissions.', cn: '这家工厂必须减少排放。' },
+      { w: 'smog', zh: '雾霾；烟雾', scene: '城市上空那层灰黄色的混合雾，天变暗、嗓子发干、看不清远处的楼。', tone: '贬义', col: 'thick smog, smog levels', en: 'Smog covered the city for three days.', cn: '雾霾笼罩了这座城市三天。' },
+      { w: 'sewage', zh: '污水；下水道污物', scene: '冲走的脏水顺着管道流到处理厂，处理不好就会污染河流。', tone: '中性', col: 'a sewage treatment plant, raw sewage', en: 'The sewage is treated before it reaches the river.', cn: '污水在流入河流之前会先处理。' },
+      { w: 'landfill', zh: '垃圾填埋场', scene: '城郊那片堆垃圾、压实再盖土的大坑，闻得到也看得到。', tone: '中性', col: 'a landfill site, send waste to landfill', en: 'Most of the rubbish ends up in landfill.', cn: '大部分垃圾最后进了填埋场。' }
+    ]},
+    { line: '生态词四个：habitat 是某种动植物住的那一小块地方，ecosystem 是整片地方连同里面所有生物和环境的系统，flora 是一个地区全部的植物种类（跟 fauna 相对），vegetation 是覆盖在地面上的植被本身。', items: [
+      { w: 'habitat', zh: '栖息地', scene: '某种鸟、鱼、兽固定生活的那片林子、湿地或礁石。', tone: '中性偏正式', col: 'natural habitat, habitat loss', en: 'The wetland is a habitat for rare birds.', cn: '这片湿地是稀有鸟类的栖息地。' },
+      { w: 'ecosystem', zh: '生态系统', scene: '把生物和非生物环境当成一个整体来看，强调彼此依赖。', tone: '中性偏正式', col: 'a fragile ecosystem, marine ecosystem', en: 'Pollution threatens the whole ecosystem.', cn: '污染威胁着整个生态系统。' },
+      { w: 'flora', zh: '（某地区的）植物群', scene: '做调查时列出的植物名录，常和 fauna（动物群）成对出现。', tone: '正式', col: 'local flora, flora and fauna', en: 'The island has a rich flora and no large mammals.', cn: '这座岛植物种类丰富，却没有大型哺乳动物。' },
+      { w: 'vegetation', zh: '植被', scene: '从空中看到的地面绿色覆盖，密林、灌丛、草原都算，不细分种类。', tone: '中性偏正式', col: 'dense vegetation, natural vegetation', en: 'Dense vegetation covers the lower slopes.', cn: '茂密的植被覆盖着较低的山坡。' }
+    ]},
+    { line: '天气预报词汇：breeze 是吹着舒服的微风，gale 是能把人吹得站不稳的大风，drizzle 是细得几乎看不见的毛毛雨，frost 是夜里地面结的那层霜。', items: [
+      { w: 'breeze', zh: '微风', scene: '夏天坐在海边感到的那股轻风，旗帜轻轻飘但不会乱。', tone: '中性', col: 'a light breeze, a sea breeze', en: 'A cool breeze came off the water.', cn: '水面上吹来一阵凉爽的微风。' },
+      { w: 'gale', zh: '大风；狂风', scene: '海边或山上风大得走路要侧身，气象预警里会提到的那一级风。', tone: '中性', col: 'gale-force winds, blow a gale', en: 'Gales forced the ferry to stay in port.', cn: '大风迫使渡轮留在港口。' },
+      { w: 'drizzle', zh: '毛毛雨；下毛毛雨', scene: '雨丝细密，打伞嫌麻烦，不打又慢慢把衣服打湿。', tone: '中性', col: 'light drizzle, drizzle all day', en: 'A light drizzle fell all morning.', cn: '一上午都下着毛毛雨。' },
+      { w: 'frost', zh: '霜；霜冻', scene: '冷晴的夜里地面和草叶上结的白晶，早上踩上去嘎吱响。', tone: '中性', col: 'a hard frost, frost damage', en: 'A hard frost killed the flowers overnight.', cn: '一夜严霜把花都冻死了。' }
+    ]},
+    { line: '植物走一遍：bud 是还没打开的花蕾和芽，bloom 是花开着的状态（也可作动词"开花"），blossom 多指果树成片的花和"开花这件事"，ripen 是果子由青转熟。', items: [
+      { w: 'bud', zh: '芽；花蕾', scene: '枝头刚鼓起的小包，还没绽开，春天最先能看见。', tone: '中性', col: 'in bud, a flower bud', en: 'The rose bushes are in bud again.', cn: '玫瑰丛又冒出花蕾了。' },
+      { w: 'bloom', zh: '花；开花', scene: '花完全打开的样子，也可以说植物"进入了花期"。', tone: '中性偏文学', col: 'in full bloom, come into bloom', en: 'The garden is in full bloom in June.', cn: '六月的花园百花盛开。' },
+      { w: 'blossom', zh: '（果树）花；开花', scene: '樱花、桃花、苹果花那类成片的花，也指一棵树"开花了"。', tone: '中性偏文学', col: 'cherry blossom, in blossom', en: 'The apple trees blossom in late spring.', cn: '苹果树在晚春开花。' },
+      { w: 'ripen', zh: '成熟', scene: '果子颜色变深、捏起来变软、可以摘下来吃的那一刻。', tone: '中性', col: 'ripen slowly, leave fruit to ripen', en: 'The tomatoes ripen on the windowsill.', cn: '西红柿在窗台上慢慢成熟。' }
+    ]},
+    { line: '城市走路这件小事：commute 是每天往返上班通勤，pedestrian 是走路的人（行人），overpass 是让行人跨过马路的天桥，jaywalk 是不走斑马线乱穿马路。', items: [
+      { w: 'commute', zh: '通勤', scene: '早上挤地铁、开车一小时到公司，下班再原路回来的那一段。', tone: '中性', col: 'commute to work, a long commute', en: 'She commutes to work by train every day.', cn: '她每天坐火车通勤上班。' },
+      { w: 'pedestrian', zh: '行人', scene: '在人行道上走的人；交通标志和事故通报里都这么称呼。', tone: '中性偏正式', col: 'a pedestrian crossing, pedestrian traffic', en: 'Pedestrians should use the crossing.', cn: '行人应该走人行横道。' },
+      { w: 'overpass', zh: '天桥；立交桥', scene: '架在马路上面、让人或车直接跨过去的那座桥，不用等红灯。', tone: '中性', col: 'a pedestrian overpass, cross the overpass', en: 'Take the overpass to reach the station.', cn: '走天桥就能到车站。' },
+      { w: 'jaywalk', zh: '乱穿马路', scene: '不走斑马线、不看灯，从车流中间穿过去，很多城市会罚款。', tone: '中性偏贬', col: 'jaywalk across the road, a jaywalking fine', en: 'He was fined for jaywalking near the school.', cn: '他在学校附近乱穿马路被罚款。' }
+    ]},
+    { line: '运输方式三件套：cruise 是坐邮轮慢慢巡游（也可指邮轮旅行本身），aviation 是整个航空业、航空运输，shipment 是走海运的那一批货（也可泛指发货）。', items: [
+      { w: 'cruise', zh: '乘船巡游；邮轮旅行', scene: '从港口出发、沿途停几个岛、晚上回船上睡的那种旅行。', tone: '中性', col: 'go on a cruise, a cruise ship', en: 'They took a cruise around the islands.', cn: '他们坐邮轮环游了这些岛屿。' },
+      { w: 'aviation', zh: '航空；航空业', scene: '机场、航线、飞机维修这些合在一起的那个行业，新闻里常说。', tone: '正式', col: 'the aviation industry, civil aviation', en: 'The aviation industry is hiring again.', cn: '航空业又开始招人了。' },
+      { w: 'shipment', zh: '（一批）货物；装运', scene: '从工厂装柜、上船、到港的一批货，物流单上会写 shipment number。', tone: '中性偏正式', col: 'a shipment of goods, arrive in the next shipment', en: 'The shipment arrived two weeks late.', cn: '那批货晚到了两周。' }
+    ]},
+    { line: '评价名声：renowned 是有名的，偏褒，靠某方面的成就出名；celebrated 是备受称颂的，语气更热闹；reputable 是声誉好、靠得住的；notorious 是臭名远扬，坏名声出了圈。', items: [
+      { w: 'renowned', zh: '有名的；声望高的', scene: '某个领域里一提名字大家都知道，靠作品或研究出名。', tone: '褒义，偏正式', col: 'renowned for, a renowned expert', en: 'She is renowned for her work on climate data.', cn: '她因气候数据方面的研究而闻名。' },
+      { w: 'celebrated', zh: '著名的；备受称颂的', scene: '被媒体和大众反复称赞的那种有名，带一点庆典味。', tone: '褒义', col: 'a celebrated writer, celebrated for', en: 'The city is celebrated for its street food.', cn: '这座城市因街头小吃而远近闻名。' },
+      { w: 'notorious', zh: '臭名昭著的', scene: '坏名声传得很广：这条路老堵、这家公司老欠薪。', tone: '贬义', col: 'notorious for, a notorious case', en: 'The junction is notorious for accidents.', cn: '这个路口以事故频发而出名。' },
+      { w: 'reputable', zh: '声誉好的；靠得住的', scene: '说一家公司、学校、卖家讲规矩、不出事，可以放心来往。', tone: '褒义', col: 'a reputable firm, a reputable source', en: 'Only buy from a reputable dealer.', cn: '只从信誉好的商家那里买。' }
+    ]},
+    { line: '形容一个人用功：studious 是爱读书、肯坐下来学的；laborious 是活儿本身费劲、要下大力气的；painstaking 是细到每一笔都不马虎，慢而认真。', items: [
+      { w: 'studious', zh: '好学的；用功的', scene: '图书馆常驻、笔记做得整整齐齐的那种学生气质。', tone: '褒义', col: 'a studious child, studious habits', en: 'He was a quiet, studious boy.', cn: '他是个安静又好学的男孩。' },
+      { w: 'laborious', zh: '费力的；艰苦的', scene: '形容过程：搬砖、手工抄一百页，费时又费力。', tone: '中性', col: 'a laborious process, laborious work', en: 'Copying the records by hand was laborious.', cn: '手抄这些记录很费力。' },
+      { w: 'painstaking', zh: '艰苦细致的；一丝不苟的', scene: '形容做事的方式：检查每一颗螺丝、核对每一个数字。', tone: '褒义', col: 'painstaking research, painstaking attention to detail', en: 'The repair took painstaking attention to detail.', cn: '这次修复需要一丝不苟地抠细节。' }
+    ]},
+    { line: '都是"抓住人"的动词：fascinate 是让人着迷到挪不开眼，intrigue 是勾起好奇心、想弄明白，capture 是抓住注意力或镜头里的一刻，entertain 是让人开心、打发时间。', items: [
+      { w: 'fascinate', zh: '使着迷；强烈吸引', scene: '看纪录片看到忘了吃饭，一个话题让你一直想下去。', tone: '中性偏褒', col: 'be fascinated by, fascinate children', en: 'The night sky has always fascinated her.', cn: '夜空一直让她着迷。' },
+      { w: 'intrigue', zh: '激起…的好奇心', scene: '听到一半觉得"这里面有事"，想继续打听。', tone: '中性', col: 'be intrigued by, intrigue the reader', en: 'His odd answer intrigued the interviewer.', cn: '他奇怪的回答引起了面试官的好奇。' },
+      { w: 'capture', zh: '吸引（注意）；捕捉', scene: '画面或故事第一时间抓住你的注意力，也指把镜头里的一刻留下来。', tone: '中性', col: 'capture attention, capture the moment', en: 'The photo captures the mood of the whole trip.', cn: '这张照片抓住了整趟旅行的那种气氛。' },
+      { w: 'entertain', zh: '使娱乐；招待', scene: '让人不无聊：放音乐、讲笑话、请客吃饭。', tone: '中性', col: 'entertain guests, entertain the crowd', en: 'The band entertained the crowd for two hours.', cn: '乐队让观众开心了两个小时。' }
+    ]},
+    { line: '剩下的东西：residue 是过滤或反应后残留的一层渣，remainder 是减掉一部分之后剩下的那部分，debris 是打碎、倒塌后散落的碎片，remnants 是旧东西留下来的一点点残迹（常用复数）。', items: [
+      { w: 'residue', zh: '残余物；余渣', scene: '杯子干了之后杯底那圈白印，或过滤后留在滤纸上的东西。', tone: '中性偏正式', col: 'leave a residue, chemical residue', en: 'Wash the pan to remove the oily residue.', cn: '把锅洗一洗，去掉那层油渣。' },
+      { w: 'remainder', zh: '剩余部分', scene: '算完一部分之后手上还剩的那些：钱、时间、人。', tone: '中性', col: 'the remainder of, for the remainder of the day', en: 'She spent the remainder of the day packing.', cn: '她把当天剩下的时间用来打包。' },
+      { w: 'debris', zh: '碎片；残骸', scene: '地震、风暴或撞车之后满地的碎块和断枝。', tone: '中性', col: 'clear the debris, falling debris', en: 'Workers cleared the debris from the road.', cn: '工人们清理了路上的碎片。' },
+      { w: 'remnants', zh: '残余；遗迹', scene: '一栋老房子拆了之后剩下的半堵墙，或一个习惯留下的痕迹。', tone: '中性偏正式', col: 'remnants of, the last remnants', en: 'Only a few remnants of the wall remain.', cn: '那堵墙只剩下几处残迹。' }
+    ]},
+    { line: '看病流程里的一串词：epidemic 是某种传染病在大范围流行，infection 是病原体进了身体造成的感染，quarantine 是把可能带病的人隔离观察，prescription 是医生开的那张处方。', items: [
+      { w: 'epidemic', zh: '流行病；流行', scene: '一个地区某种病突然大量出现，新闻里说"进入流行期"。', tone: '中性偏正式', col: 'an epidemic outbreak, a flu epidemic', en: 'The city fought a serious flu epidemic.', cn: '这座城市应对了一场严重的流感流行。' },
+      { w: 'infection', zh: '感染；传染病', scene: '细菌或病毒进了伤口、肺或喉咙之后的那团炎症。', tone: '中性', col: 'a chest infection, risk of infection', en: 'The wound developed an infection within a day.', cn: '伤口一天之内就感染了。' },
+      { w: 'quarantine', zh: '隔离；检疫', scene: '从疫区回来先在酒店待十四天，不能见人。', tone: '中性偏正式', col: 'go into quarantine, a quarantine period', en: 'Travellers had to quarantine for two weeks.', cn: '旅客必须隔离两周。' },
+      { w: 'prescription', zh: '处方；药方', scene: '医生写下、你拿去药房取药的那张纸，抗生素尤其不能自己买。', tone: '中性', col: 'on prescription, write a prescription', en: 'This medicine is only available on prescription.', cn: '这种药只能凭处方购买。' }
+    ]},
+    { line: '呼吸三步说法：inhale 是把气吸进来，exhale 是把气呼出去，respiratory 是形容词"呼吸的"，用来形容跟呼吸有关的器官和疾病。', items: [
+      { w: 'inhale', zh: '吸入；吸气', scene: '鼻子把空气吸进肺里，也指吸进烟、粉尘这类不该吸的东西。', tone: '中性偏正式', col: 'inhale deeply, inhale smoke', en: 'Inhale deeply and hold your breath.', cn: '深吸一口气，然后屏住。' },
+      { w: 'exhale', zh: '呼出；呼气', scene: '把肺里的气慢慢放出来，放松练习里数着拍子做。', tone: '中性偏正式', col: 'exhale slowly, exhale through the mouth', en: 'Exhale slowly through your mouth.', cn: '用嘴慢慢把气呼出来。' },
+      { w: 'respiratory', zh: '呼吸的', scene: '医学形容词：呼吸系统、呼吸道感染、呼吸疾病。', tone: '正式', col: 'the respiratory system, a respiratory infection', en: 'Smoking damages the respiratory system.', cn: '吸烟会损害呼吸系统。' }
+    ]},
+    { line: '钱进来还是出去：revenue 是公司或政府收到的收入，turnover 是一段时间做成的营业额（流水），outlay 是启动或购买时先投出去的支出，expenditure 是开销的正式说法，政府预算里最常见。', items: [
+      { w: 'revenue', zh: '收入；税收', scene: '账本上"进来"的那一边，公司赚的、政府收的。', tone: '正式', col: 'annual revenue, tax revenue', en: 'The company\'s revenue doubled last year.', cn: '这家公司去年的收入翻了一番。' },
+      { w: 'turnover', zh: '营业额；周转额', scene: '一段时间里一共卖出多少钱，不一定等于利润。', tone: '正式', col: 'annual turnover, a high turnover', en: 'The shop has a turnover of two million a year.', cn: '这家店一年的营业额是两百万。' },
+      { w: 'outlay', zh: '支出；花费', scene: '为了启动或买某样东西先投出去的一笔钱。', tone: '正式', col: 'an initial outlay, capital outlay', en: 'The initial outlay on equipment was high.', cn: '设备的初期投入很高。' },
+      { w: 'expenditure', zh: '开支；支出', scene: '预算文件里"用了多少"的那一项，家庭和政府都能用。', tone: '正式', col: 'public expenditure, cut expenditure', en: 'The council reduced its total expenditure this year.', cn: '市政会今年减少了总开支。' }
+    ]},
+    { line: '跟钱有关的四种状态：refund 是买错了退回来的钱，debt 是欠着还没还的钱，mortgage 是拿房子作抵押买房的那笔贷款，pension 是退休后按月领的养老金。', items: [
+      { w: 'refund', zh: '退款；退还', scene: '东西退了、课取消了，商家把钱打回你的卡里。', tone: '中性', col: 'a full refund, ask for a refund', en: 'The shop gave me a full refund.', cn: '店家给我全额退了款。' },
+      { w: 'debt', zh: '债务；欠款', scene: '信用卡、学费、房贷没还完的部分，欠着就有压力。', tone: '中性', col: 'in debt, pay off a debt', en: 'He is still paying off his student debt.', cn: '他还在还学生贷款。' },
+      { w: 'mortgage', zh: '按揭；抵押贷款', scene: '买房时银行先替你付大部分，房子作抵押，之后每月还。', tone: '中性', col: 'take out a mortgage, monthly mortgage payments', en: 'They took out a mortgage to buy the flat.', cn: '他们办了按揭来买这套公寓。' },
+      { w: 'pension', zh: '养老金；退休金', scene: '工作几十年后，退休开始按月领的那笔钱。', tone: '中性', col: 'a state pension, pension contributions', en: 'She lives on a small pension.', cn: '她靠一笔不多的养老金生活。' }
+    ]},
+    { line: '形容"简单、不到位"：basic 是最基本、够用但不高级；rough 是粗糙、粗略，细节还没打磨；shallow 是浅，物理上浅，也指理解浮在表面；primitive 是原始、简陋，像很久以前的工具或条件。', items: [
+      { w: 'basic', zh: '基本的；基础的', scene: '配置最低、只满足最基本需要：一张床、一张桌子。', tone: '中性', col: 'basic needs, a basic model', en: 'The room is basic but clean.', cn: '房间简陋但干净。' },
+      { w: 'rough', zh: '粗糙的；粗略的', scene: '表面不平，或数字只是估的、还没核准。', tone: '中性', col: 'a rough estimate, rough hands', en: 'This is only a rough estimate.', cn: '这只是个粗略的估计。' },
+      { w: 'shallow', zh: '浅的；肤浅的', scene: '水只到膝盖，或论证只碰表面、没有深度。', tone: '中性（指人时偏贬）', col: 'shallow water, a shallow argument', en: 'The river is shallow enough to walk across.', cn: '这条河浅得可以蹚过去。' },
+      { w: 'primitive', zh: '原始的；简陋的', scene: '没有电、没有机器的年代，或工具做法很原始。', tone: '中性', col: 'primitive tools, primitive conditions', en: 'The tools they found were very primitive.', cn: '他们发现的工具非常原始。' }
+    ]},
+    { line: '拦住你的东西：restriction 是明文规定的限制（不许做某事），barrier 是挡在路上、要跨过去的障碍，requirement 是必须满足的要求，prerequisite 是"先决条件"——先有它才能开始。', items: [
+      { w: 'restriction', zh: '限制；约束', scene: '规定你能带多少、能进哪些区域、几点前必须离开。', tone: '中性偏正式', col: 'travel restrictions, impose a restriction', en: 'There are restrictions on liquids in hand luggage.', cn: '随身行李里的液体是有限制的。' },
+      { w: 'barrier', zh: '障碍；屏障', scene: '挡在中间让你过不去的东西，可以是实体的墙，也可以是语言、费用。', tone: '中性', col: 'a language barrier, break down barriers', en: 'Cost is still the biggest barrier to study.', cn: '费用仍然是求学最大的障碍。' },
+      { w: 'requirement', zh: '要求；必要条件', scene: '入学、签证、工作必须满足的那几条，缺一条就卡住。', tone: '中性偏正式', col: 'meet the requirements, entry requirements', en: 'Check the entry requirements before you apply.', cn: '申请前先核对入学要求。' },
+      { w: 'prerequisite', zh: '先决条件；前提', scene: '开始下一步之前必须先完成的那件事，课程表上写作 prerequisite。', tone: '正式', col: 'a prerequisite for, a prerequisite course', en: 'Statistics is a prerequisite for this course.', cn: '统计学是这门课的先修条件。' }
+    ]},
   ];
 
   const SOLOS = [
