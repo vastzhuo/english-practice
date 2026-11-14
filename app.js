@@ -2,7 +2,8 @@ const EPOCH=new Date(2026,0,1);
 const key=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 const today=new Date(), TK=key(today);
 let S=JSON.parse(localStorage.getItem('ep')||'{"days":{},"learned":[],"best":0}');
-S.days=S.days||{};S.learned=S.learned||[];S.best=S.best||0;S.cat=S.cat||'All';if(S.cat!=='All'&&!S.cat.startsWith('G:')&&!WORDS.some(w=>w.c===S.cat))S.cat='All';S.goal=S.goal||50;S.qlen=S.qlen||20;S.lt=S.lt||{};S.sh=S.sh||{i:{},h:{}};
+S.days=S.days||{};S.learned=S.learned||[];S.best=S.best||0;S.cat=S.cat||'All';if(S.cat!=='All'&&!S.cat.startsWith('G:')&&!WORDS.some(w=>w.c===S.cat))S.cat='All';S.goal=S.goal||50;S.qlen=S.qlen||20;S.lt=S.lt||{};S.sh=S.sh||{i:{},h:{}};S.miss=S.miss||{};
+if(typeof StudyPlan!=='undefined'&&StudyPlan.missEnsure)StudyPlan.missEnsure(S);
 const save=()=>localStorage.setItem('ep',JSON.stringify(S));
 const $=id=>document.getElementById(id), esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const CATS=['All',...new Set(WORDS.map(w=>w.c))];
@@ -83,14 +84,50 @@ function makeQ(w,k){const L=list().length>=8?list():WORDS;const others=shuf(L.fi
  if(t===2&&'speechSynthesis'in window)return {q:'🎧 Listen and choose what you hear:',listen:w.w,opts:opts.map(x=>x.w),a:w.w};
  if(t===3)return {q:`What does <b>“${esc(w.w)}”</b> mean?`,opts:opts.map(x=>x.m),a:w.m};
  return {q:`Which one means: <b>${esc(w.m)}</b>?`,opts:opts.map(x=>x.w),a:w.w}}
-let Q=[],qi=0,score=0;
-function quizStart(){Q=shuf(pool()).map(makeQ);qi=0;score=0;quiz()}
-function quiz(){const el=$('tab-quiz');if(!Q.length){el.innerHTML=`<select id="qlen2" class="sel">${[10,20,50].map(x=>`<option value="${x}" ${x==S.qlen?'selected':''}>Quiz length: ${x} questions</option>`).join('')}</select>`+picker()+`<div class="card"><h2>Daily quiz</h2><p>${S.qlen} questions: meaning, fill-in-the-blank and listening.</p>${S.days[TK]?'<p>✅ Already done today — practise again anytime!</p>':''}<button class="btn" onclick="quizStart()">Start quiz</button></div>`;$('cat').onchange=e=>{S.cat=e.target.value;save();quiz()};$('qlen2').onchange=e=>{S.qlen=+e.target.value;save();quiz()};return}
- if(qi>=Q.length){finish();el.innerHTML=`<div class="card"><h2>🎉 ${score}/${Q.length}</h2><p>${score>=.8*Q.length?'Excellent!':score>=.6*Q.length?'Good job!':'Keep practising!'} Streak: 🔥 ${streak()}</p><button class="btn" onclick="quizStart()">Try again</button><button class="btn" onclick="go('progress')">See progress</button></div>`;return}
+let Q=[],qi=0,score=0,QDUE=null;
+function buildQ(L){return L.map((w,i)=>{const q=makeQ(w,i);q.w=w.w;return q})}
+function quizStart(){QDUE=null;Q=buildQ(shuf(pool()));qi=0;score=0;quiz()}
+// 错题本：Quiz 错题重练。dueOnly=true 只练今天到期的词，false 练全部 Quiz 错题。
+function quizMissWords(dueOnly){const bank={};WORDS.forEach(w=>{bank[w.w]=w});if(typeof StudyPlan==='undefined')return [];const rows=dueOnly?StudyPlan.missingToday(S,TK):StudyPlan.missRows(S);return rows.filter(row=>row.source==='quiz').map(row=>bank[row.id]).filter(Boolean)}
+function quizDue(){QDUE=TK;Q=buildQ(shuf(quizMissWords(true)));qi=0;score=0;quiz()}
+function quizMissAll(){QDUE=TK;Q=buildQ(shuf(quizMissWords(false)));qi=0;score=0;quiz()}
+function quizMissOne(id){const w=WORDS.find(x=>x.w===id);if(!w)return;QDUE=TK;Q=buildQ([w]);qi=0;score=0;go('quiz')}
+// 错题本 → PTE：交给 pte-app.js 的 pteFocus() 定位那一题。
+function missGo(raw){const s=String(raw||''),at=s.indexOf(':');if(at<1)return;const source=s.slice(0,at),id=s.slice(at+1);if(source==='quiz'){quizMissOne(id);return}if(typeof window.pteFocus!=='function')return;window.pteFocus(source,id);go('pte')}
+function missGoDue(){if(typeof StudyPlan==='undefined')return;if(quizMissWords(true).length){quizDue();go('quiz');return}const first=StudyPlan.missOverview(S,TK).dueRows[0];if(first)missGo(first.key)}
+function missBankText(source,id){
+  if(source==='wfd'){const item=PTE.find(x=>x.id===id);return item?item.text:''}
+  if(source==='rs'){const list=(typeof PTE_RS!=='undefined'&&Array.isArray(PTE_RS))?PTE_RS:[];const item=list.find(x=>x.id===id);return item?item.text:''}
+  if(source==='ra'){const fixed=(typeof PTE_RA!=='undefined'&&PTE_RA&&Array.isArray(PTE_RA.passages))?PTE_RA.passages:[];const more=(typeof PTE_RA!=='undefined'&&PTE_RA&&typeof PTE_RA.fromRead==='function'&&typeof readArticles==='function')?PTE_RA.fromRead(readArticles()):[];const item=fixed.concat(more).find(x=>x.id===id);return item?(item.title||item.text):''}
+  if(source==='swt'){const items=(typeof PTE_SWT!=='undefined'&&PTE_SWT&&Array.isArray(PTE_SWT.items))?PTE_SWT.items:[];const item=items.find(x=>x.id===id);return item?(item.title||item.sourceId||''):''}
+  return ''
+}
+function missRowText(row){
+  if(row.source==='quiz'){const w=WORDS.find(x=>x.w===row.id);return w?w.w+' · '+w.m:row.id}
+  const text=missBankText(row.source,row.id);
+  return text?(text.length>70?text.slice(0,70)+'…':text):row.id
+}
+function missBook(){
+  if(typeof StudyPlan==='undefined'||!StudyPlan.missOverview)return '';
+  const ov=StudyPlan.missOverview(S,TK);
+  const head='<div class="card miss-card"><h3>错题本</h3>';
+  if(!ov.total)return head+'<p class="miss-empty">还没有错题。Quiz 答错、WFD 听写有漏词或多词、RS 跟读评分过低、RA 或 SWT 自评选了最差档，都会自动记到这里。</p></div>';
+  const chips=StudyPlan.MISS_SOURCES.map(s=>`<span class="miss-chip${ov.groups[s]?' on':''}">${esc(StudyPlan.MISS_LABEL[s]||s)} ${ov.groups[s]}</span>`).join('');
+  const allQuiz=quizMissWords(false).length;
+  const rows=ov.rows.slice(0,12).map(row=>{
+    const dueLabel=row.due<=TK?'今天到期':row.due+' 到期';
+    return `<div class="miss-row"><div class="miss-main"><span class="miss-tag">${esc(StudyPlan.MISS_LABEL[row.source]||row.source)}</span>${esc(missRowText(row))}</div><small>错 ${row.n} 次 · ${dueLabel}${row.ok?' · 已答对 '+row.ok+' 次':''}</small><button class="btn alt half" data-miss-go="${esc(row.key)}">去练</button></div>`
+  }).join('');
+  const more=ov.rows.length>12?'<small>只列最早到期的 12 题，其余还在错题本里。</small>':'';
+  return head+`<p>共 <b>${ov.total}</b> 题，今天到期 <b>${ov.due}</b> 题。</p><div class="miss-chips">${chips}</div><p class="miss-note">答错后第 1 次隔 1 天、第 2 次隔 3 天、第 3 次起隔 7 天复习；同一题连续答对 2 次移出。有 Quiz 错题时「只刷今日到期」进入只考这些词的选择题；只有 PTE 错题时跳到对应模块并把这题置顶。</p><button class="btn" id="missDue" ${ov.due?'':'disabled'}>只刷今日到期（${ov.due}）</button>${allQuiz?`<button class="btn alt" id="missQuizAll">Quiz 错题全部重练（${allQuiz}）</button>`:''}<div class="miss-list">${rows}</div>${more}</div>`
+}
+document.addEventListener('click',e=>{if(e.target.id==='missDue')missGoDue();else if(e.target.id==='missQuizAll'){quizMissAll();go('quiz')}const mg=e.target.closest('[data-miss-go]');if(mg)missGo(mg.dataset.missGo)});
+function quiz(){const el=$('tab-quiz');if(!Q.length){el.innerHTML=`<select id="qlen2" class="sel">${[10,20,50].map(x=>`<option value="${x}" ${x==S.qlen?'selected':''}>Quiz length: ${x} questions</option>`).join('')}</select>`+picker()+`<div class="card"><h2>Daily quiz</h2><p>${S.qlen} questions: meaning, fill-in-the-blank and listening.</p>${S.days[TK]?'<p>✅ Already done today — practise again anytime!</p>':''}<button class="btn" onclick="quizStart()">Start quiz</button>${quizMissWords(true).length?`<button class="btn alt" onclick="quizDue()">错题重练 · 今日到期 ${quizMissWords(true).length} 个</button>`:''}</div>`;$('cat').onchange=e=>{S.cat=e.target.value;save();quiz()};$('qlen2').onchange=e=>{S.qlen=+e.target.value;save();quiz()};return}
+ if(qi>=Q.length){finish();el.innerHTML=`<div class="card"><h2>🎉 ${score}/${Q.length}</h2>${QDUE?'<p>错题重练完成。</p>':''}<p>${score>=.8*Q.length?'Excellent!':score>=.6*Q.length?'Good job!':'Keep practising!'} Streak: 🔥 ${streak()}</p><button class="btn" onclick="${QDUE?'quizDue()':'quizStart()'}">Try again</button><button class="btn" onclick="go('progress')">See progress</button>${QDUE?'<p>连续答对 2 次的词已经自动移出错题本。</p>':''}</div>`;return}
  const q=Q[qi];el.innerHTML=`<div class="card"><small>Question ${qi+1} of ${Q.length}</small><p>${q.q}</p>${q.listen?`<button class="btn" data-say="${esc(q.listen)}">🔊 Play again</button>`:''}${q.opts.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o)}</button>`).join('')}<div class="fb" id="fb"></div></div>`;
  if(q.listen)setTimeout(()=>say(q.listen),200);
  el.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{el.querySelectorAll('.opt').forEach(x=>{x.disabled=true;if(x.textContent===q.a)x.classList.add('ok')});
-  const ok=b.textContent===q.a;if(ok)score++;else b.classList.add('bad');
+  const ok=b.textContent===q.a;if(ok)score++;else b.classList.add('bad');if(q.w&&typeof StudyPlan!=='undefined'){const mk=StudyPlan.missKey('quiz',q.w);if(ok)StudyPlan.missOk(S,mk);else StudyPlan.missRecord(S,mk,TK);save()}
   $('fb').innerHTML=(ok?'✅ Correct!':'❌ Answer: '+esc(q.a))+'<button class="btn" id="next">Next →</button>';$('next').onclick=()=>{qi++;quiz()}})}
 function finish(){S.days[TK]=Math.max(S.days[TK]||0,score||1);S.best=Math.max(S.best,streak());save();badge()}
 function progress(){const y=today.getFullYear(),m=today.getMonth(),first=new Date(y,m,1).getDay(),n=new Date(y,m+1,0).getDate();
@@ -99,7 +136,7 @@ function progress(){const y=today.getFullYear(),m=today.getMonth(),first=new Dat
  const per=CATS.slice(1).map(c=>{const L=WORDS.filter(w=>w.c===c);return `<div>${esc(c)}: ${L.filter(w=>S.learned.includes(w.w)).length}/${L.length}</div>`}).join('');
  $('tab-progress').innerHTML=`<div class="stats"><div class="stat"><b>🔥 ${streak()}</b>Current streak</div><div class="stat"><b>🏆 ${Math.max(S.best,streak())}</b>Best streak</div>
  <div class="stat"><b>${Object.keys(S.days).length}</b>Days practised</div><div class="stat"><b>${S.learned.length}</b>Words learned</div></div>
- <div class="card" style="margin-top:14px"><h3>${today.toLocaleString('en',{month:'long',year:'numeric'})}</h3><div class="cal">${cal}</div></div><div class="card"><h3>By category</h3>${per}</div>`}
+ <div class="card" style="margin-top:14px"><h3>${today.toLocaleString('en',{month:'long',year:'numeric'})}</h3><div class="cal">${cal}</div></div><div class="card"><h3>By category</h3>${per}</div>${missBook()}`}
 function toggleOrd(){S.rnd=!RND();save();const t=document.querySelector('nav button.on');go(t?t.dataset.t:'learn')}
 function shadow(){const L=RND()?sshuf(list(),TK+'|'+S.cat):list(),i=Math.min(S.sh.i[S.cat]||0,L.length-1),w=L[i];const hist=t=>{const h=S.sh.h[t]||[];return h.length?`<small>History: ${h.join(', ')} · best ${Math.max(...h)}</small>`:'<small>No attempts yet</small>'};
  const tg=(t,lab)=>`<div class="card"><small>${lab}</small><div class="word">${esc(t)}</div>${hist(t)}<div><button class="btn alt half" data-say="${esc(t)}">🔊 听原音</button><button class="btn half shrec" data-t="${esc(t)}">🎤 跟读</button></div></div>`;

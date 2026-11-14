@@ -549,6 +549,118 @@ test('today study queue follows completion dates', () => {
   assert.equal(bag.days['2024-04-02'], 1);
 });
 
+// The mistake book lives in study-plan.js so the scheduling rules stay pure and
+// testable: no DOM, no timers, only the `ep` state object.
+function planContext() {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8'), context);
+  return context.StudyPlan;
+}
+
+test('old saves without a mistake book initialise and keep the rest of the progress', () => {
+  const Plan = planContext();
+  const S = { days: { '2024-01-02': 1 }, learned: ['resilient'], best: 3 };
+  assert.equal(Plan.missEnsure(S) && typeof Plan.missEnsure(S), 'object');
+  assert.equal(JSON.stringify(Plan.missEnsure(S)), '{}');
+  assert.equal(S.best, 3);
+  assert.equal(JSON.stringify(S.learned), JSON.stringify(['resilient']));
+  assert.equal(JSON.stringify(S.days), JSON.stringify({ '2024-01-02': 1 }));
+  const overview = Plan.missOverview(S, '2024-06-10');
+  assert.equal(overview.total, 0);
+  assert.equal(overview.due, 0);
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0 }));
+  assert.equal(Plan.missingToday(S, '2024-06-10').length, 0);
+  // A non-object field is replaced; a broken row is dropped; valid rows survive.
+  S.miss = 'oops';
+  assert.equal(JSON.stringify(Plan.missEnsure(S)), '{}');
+  S.miss = { 'quiz:apple': 'oops', 'quiz:pear': { n: 1, last: '2024-06-10', due: '2024-06-11', ok: 0 } };
+  assert.equal(JSON.stringify(Object.keys(Plan.missEnsure(S))), JSON.stringify(['quiz:pear']));
+  assert.ok(Plan.ensure(S));
+  assert.equal(S.best, 3);
+});
+
+test('mistake book schedules 1/3/7 days, retires after two correct answers and filters due items', () => {
+  const Plan = planContext();
+  const S = { days: {}, learned: [] };
+  const day = '2024-06-10';
+  const key = Plan.missKey('quiz', 'apple');
+  assert.equal(key, 'quiz:apple');
+  assert.equal(Plan.missKey('', 'apple'), '');
+  assert.equal(Plan.missKey('quiz', '   '), '');
+  assert.equal(Plan.missGap(1), 1);
+  assert.equal(Plan.missGap(2), 3);
+  assert.equal(Plan.missGap(3), 7);
+  assert.equal(Plan.missGap(9), 7);
+  assert.equal(Plan.missGap(0), 1);
+  // Local dates, including month and year rollover.
+  assert.equal(Plan.addDays('2024-06-30', 1), '2024-07-01');
+  assert.equal(Plan.addDays('2024-12-29', 7), '2025-01-05');
+  assert.equal(Plan.missDue(1, day), '2024-06-11');
+  assert.equal(Plan.missDue(2, day), '2024-06-13');
+  assert.equal(Plan.missDue(3, day), '2024-06-17');
+
+  const first = Plan.missRecord(S, key, day);
+  assert.equal(first.n, 1);
+  assert.equal(first.last, day);
+  assert.equal(first.due, '2024-06-11');
+  assert.equal(first.ok, 0);
+  assert.equal(S.miss[key].n, 1);
+  assert.equal(Plan.missingToday(S, day).length, 0, 'a fresh mistake is not due today');
+  assert.equal(Plan.missingToday(S, '2024-06-11').length, 1);
+  assert.equal(JSON.stringify(Plan.missingToday(S, '2024-06-11').map(row => row.key)), JSON.stringify([key]));
+  assert.equal(Plan.missingToday(S, '2024-06-12').length, 1, 'still due after the due date has passed');
+
+  // A second wrong answer moves the due date three days out and resets the streak.
+  S.miss[key].ok = 1;
+  const second = Plan.missRecord(S, key, '2024-06-15');
+  assert.equal(second.n, 2);
+  assert.equal(second.due, '2024-06-18');
+  assert.equal(second.ok, 0);
+  const third = Plan.missRecord(S, key, '2024-06-20');
+  assert.equal(third.n, 3);
+  assert.equal(third.due, '2024-06-27');
+  const fourth = Plan.missRecord(S, key, '2024-06-28');
+  assert.equal(fourth.n, 4);
+  assert.equal(fourth.due, '2024-07-05');
+
+  // Two good answers in a row retire the item; one wrong answer resets the count.
+  const other = Plan.missKey('wfd', '123061');
+  Plan.missRecord(S, other, day);
+  assert.equal(Plan.missOk(S, other), 'kept');
+  assert.equal(S.miss[other].ok, 1);
+  Plan.missRecord(S, other, '2024-06-11');
+  assert.equal(S.miss[other].ok, 0);
+  assert.equal(Plan.missOk(S, other), 'kept');
+  assert.equal(Plan.missOk(S, other), 'resolved');
+  assert.equal(S.miss[other], undefined);
+  assert.equal(Plan.missOk(S, other), '');
+  assert.equal(Plan.missResolve(S, other), false);
+  assert.equal(Plan.missResolve(S, key), true);
+  assert.equal(S.miss[key], undefined);
+});
+
+test('mistake book overview counts every source and only lists what is due', () => {
+  const Plan = planContext();
+  const S = { days: {}, learned: [] };
+  const day = '2024-06-01';
+  Plan.missRecord(S, Plan.missKey('quiz', 'apple'), day);
+  Plan.missRecord(S, Plan.missKey('quiz', 'pear'), day);
+  Plan.missRecord(S, Plan.missKey('wfd', '123061'), day);
+  Plan.missRecord(S, Plan.missKey('rs', 'rs-020743'), day);
+  Plan.missRecord(S, Plan.missKey('ra', 'p1'), day);
+  Plan.missRecord(S, Plan.missKey('swt', 's1'), day);
+  Plan.missRecord(S, Plan.missKey('wfd', 'future'), '2024-06-10');
+  const overview = Plan.missOverview(S, '2024-06-10');
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1 }));
+  assert.equal(overview.total, 7);
+  assert.equal(overview.due, 6);
+  assert.equal(overview.dueRows.some(row => row.id === 'future'), false);
+  assert.equal(overview.rows[0].key, 'quiz:apple', 'oldest due date first');
+  Plan.missResolve(S, 'quiz:pear');
+  assert.equal(Plan.missOverview(S, '2024-06-10').groups.quiz, 1);
+});
+
 test('synonym comparisons cover high-frequency words and leave the rest for later', () => {
   const context = { console };
   vm.createContext(context);

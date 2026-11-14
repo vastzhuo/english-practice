@@ -1,5 +1,5 @@
 // PTE tab: browse, hands-free playback, and recall. Progress lives on the existing `ep` object.
-const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null, voiceError: '' };
+const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null, voiceError: '', focus: null };
 
 function pteState() { return PTELogic.ensureState(S, PTELogic.categories(PTE)); }
 function pteRead() { return (typeof PTE_READ !== 'undefined' && PTE_READ) ? PTE_READ : { types: [], articles: [] }; }
@@ -12,6 +12,44 @@ function pteDriveItems() {
 }
 function pteMemCount(list, bag) { return list.filter(item => bag && bag[item.id]).length; }
 function pteById(id) { return PTE.find(item => item.id === id) || pteRsList().find(item => item.id === id); }
+
+// --- Mistake book wiring ----------------------------------------------------
+// The scheduling itself lives in study-plan.js (pure, tested there); this file
+// only reports "this attempt was wrong" or "this attempt was good".
+const PTE_RS_GOOD_SCORE = 60;
+
+function pteMark(source, id, wrong) {
+  if (typeof StudyPlan === 'undefined' || !StudyPlan.missKey || typeof S === 'undefined') return;
+  const key = StudyPlan.missKey(source, id);
+  if (!key) return;
+  if (wrong) StudyPlan.missRecord(S, key, StudyPlan.localDate(new Date()));
+  else StudyPlan.missOk(S, key);
+}
+// A row in the mistake book pins one item at the top of its module.
+function pteFocusPin(source, list) {
+  const f = PTE_PLAY.focus;
+  if (!f || f.source !== source) return null;
+  return (list || []).find(item => item.id === f.id) || null;
+}
+function pteFocusNote(source) {
+  const f = PTE_PLAY.focus;
+  if (!f || f.source !== source) return '';
+  return '<p class="pte-focus-note">来自错题本：这一题已经置顶。点「下一题 / 下一句 / 下一段」后回到正常顺序。</p>';
+}
+window.pteFocus = function (source, id) {
+  if (!source || !id) return;
+  if (['wfd', 'rs', 'ra', 'swt'].indexOf(source) < 0) return;
+  const st = pteState();
+  st.mode = source;
+  PTE_PLAY.focus = { source: source, id: String(id) };
+  if (source === 'wfd') { st.wfdView = 'list'; st.wfdCat = '全部'; PTE_PLAY.wfdKey = ''; PTE_PLAY.revealed = false; PTE_PLAY.heard = ''; }
+  if (source === 'rs') { st.rsView = 'list'; PTE_PLAY.rsKey = ''; }
+  save();
+};
+function pteWfdCurrent(st) {
+  const order = slotOrder('wfd', pteWfdPool(), st.wfdOrd);
+  return pteFocusPin('wfd', order) || order[PTE_PLAY.wfdIdx];
+}
 
 function pteLater(ms) {
   return new Promise(resolve => {
@@ -451,18 +489,21 @@ function viewWfd(st) {
   const mini = `<div class="pte-mini"><button type="button" data-pte-act="wfd-view" data-view="dict" class="${st.wfdView !== 'list' ? 'on' : ''}">听写</button><button type="button" data-pte-act="wfd-view" data-view="list" class="${st.wfdView === 'list' ? 'on' : ''}">列表</button></div>`;
   const head = `${pteModes(st)}<div class="card"><b>WFD 听写</b><p>Write From Dictation，${PTE.length} 句。和 RS 复述分开练。先听再写，对答案后才出现大字。</p><p>已掌握 ${pteMemCount(pteWfdPool(), st.wfdMem)}/${pteWfdPool().length}</p><label class="pte-lab">分类</label><select id="pteCat" class="sel">${pteCatOptions(st.wfdCat)}</select><label class="pte-lab">顺序</label><select id="pteOrd" class="sel"><option value="rand" ${st.wfdOrd !== 'num' ? 'selected' : ''}>随机顺序</option><option value="num" ${st.wfdOrd === 'num' ? 'selected' : ''}>按题号</option></select>${st.wfdOrd === 'num' ? '' : '<button type="button" class="btn alt" data-pte-act="reshuffle">重新打乱</button>'}${mini}</div>`;
   if (st.wfdView === 'list') {
-    return head + order.map(item => {
+    const pin = pteFocusPin('wfd', order);
+    const listOrder = pin ? [pin].concat(order.filter(row => row !== pin)) : order;
+    return head + (pin ? pteFocusNote('wfd') : '') + listOrder.map(item => {
       const on = !!st.wfdMem[item.id];
       const hidden = !!PTE_PLAY.mask[item.id];
       const body = hidden ? '<div class="pte-hidden">句子已隐藏</div>' : `<p class="pte-sent" lang="en">${esc(item.text)}</p>`;
-      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${item.sourceNumber} · ${esc(item.category)}</div>${body}<button type="button" class="btn alt half" data-pte-act="mask" data-id="${esc(item.id)}">${hidden ? '显示' : '隐藏'}</button><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button></article>`;
+      return `<article class="card ${on ? 'is-mem' : ''}${pin === item ? ' is-focus' : ''}"><div class="pte-kicker">题号 ${item.sourceNumber} · ${esc(item.category)}</div>${body}<button type="button" class="btn alt half" data-pte-act="mask" data-id="${esc(item.id)}">${hidden ? '显示' : '隐藏'}</button><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button></article>`;
     }).join('');
   }
-  const item = order[PTE_PLAY.wfdIdx];
+  const pin = pteFocusPin('wfd', order);
+  const item = pin || order[PTE_PLAY.wfdIdx];
   if (!item) return head + '<div class="card"><p>这个分类里没有句子。</p></div>';
   const on = !!st.wfdMem[item.id];
   const answer = PTE_PLAY.revealed ? `${bigLine(item.text)}${diffBlock(item.text, PTE_PLAY.heard)}<button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button><button type="button" class="btn" data-pte-act="wfd-next">下一句</button>` : `<textarea id="pteHeard" class="pte-box" placeholder="在这里写下听到的句子"></textarea><button type="button" class="btn" data-pte-act="check">对答案</button>`;
-  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.wfdIdx + 1}/${order.length} · 题号 ${item.sourceNumber} · ${esc(item.category)}</div><button type="button" class="btn" data-pte-act="play-wfd"${pteSayAttr()}>播放</button>${answer}</div>`;
+  return head + (pin ? pteFocusNote('wfd') : '') + `<div class="card"><div class="pte-kicker">${pin ? '错题本定位' : '第 ' + (PTE_PLAY.wfdIdx + 1) + '/' + order.length} · 题号 ${item.sourceNumber} · ${esc(item.category)}</div><button type="button" class="btn" data-pte-act="play-wfd"${pteSayAttr()}>播放</button>${answer}</div>`;
 }
 function viewRs(st) {
   const list = pteRsList();
@@ -470,17 +511,21 @@ function viewRs(st) {
   const head = `${pteModes(st)}<div class="card"><b>周二真题预测 50 句</b><p>Repeat Sentence，${list.length} 句。句子按原表照录。每天练这一套：先听，再大声复述，大字一直显示。</p><p>已练习 ${pteMemCount(list, st.rsMem)}/${list.length}</p>${mini}</div>`;
   if (!list.length) return head + '<div class="card"><p>这套复述句子还没有载入。</p></div>';
   if (st.rsView === 'list') {
-    return head + PTELogic.byNumber(list).map(item => {
+    const pin = pteFocusPin('rs', list);
+    const numbered = PTELogic.byNumber(list);
+    const listOrder = pin ? [pin].concat(numbered.filter(row => row !== pin)) : numbered;
+    return head + (pin ? pteFocusNote('rs') : '') + listOrder.map(item => {
       const on = !!st.rsMem[item.id];
-      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button></article>`;
+      return `<article class="card ${on ? 'is-mem' : ''}${pin === item ? ' is-focus' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button></article>`;
     }).join('');
   }
   const order = slotOrder('rs', list, 'rand');
-  const item = order[PTE_PLAY.rsIdx];
+  const rpin = pteFocusPin('rs', order);
+  const item = rpin || order[PTE_PLAY.rsIdx];
   if (!item) return head;
   const on = !!st.rsMem[item.id];
   const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-pte-act="mic" data-id="${esc(item.id)}">🎤 跟读评分</button>` : '';
-  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.rsIdx + 1}/${order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
+  return head + (rpin ? pteFocusNote('rs') : '') + `<div class="card"><div class="pte-kicker">${rpin ? '错题本定位' : '第 ' + (PTE_PLAY.rsIdx + 1) + '/' + order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
 }
 function articleCard(article) {
   const type = typeById(article.type);
@@ -593,6 +638,7 @@ function onPteClick(e) {
     if (m !== 'we' && window.pteWeStop) window.pteWeStop();
     if (m !== 'sst' && window.pteSstStop) window.pteSstStop();
     if (m !== 'read') PTE_PLAY.deck = null;
+    if (PTE_PLAY.focus && PTE_PLAY.focus.source !== st.mode) PTE_PLAY.focus = null;
     save();
     pteRefresh(false);
     return;
@@ -608,24 +654,29 @@ function onPteClick(e) {
   if (act === 'rep') { pteBumpRep(Number(b.dataset.dir) || 0); return; }
   if (act === 'wfd-view') { st.wfdView = b.dataset.view === 'list' ? 'list' : 'dict'; save(); pteRefresh(false); return; }
   if (act === 'rs-view') { st.rsView = b.dataset.view === 'list' ? 'list' : 'practice'; save(); pteRefresh(false); return; }
-  if (act === 'reshuffle') { PTE_PLAY.wfdKey = ''; PTE_PLAY.rsKey = ''; PTE_PLAY.revealed = false; PTE_PLAY.heard = ''; pteRefresh(false); return; }
+  if (act === 'reshuffle') { PTE_PLAY.focus = null; PTE_PLAY.wfdKey = ''; PTE_PLAY.rsKey = ''; PTE_PLAY.revealed = false; PTE_PLAY.heard = ''; pteRefresh(false); return; }
   if (act === 'play-wfd') {
-    const order = slotOrder('wfd', pteWfdPool(), st.wfdOrd);
-    const item = order[PTE_PLAY.wfdIdx];
+    const item = pteWfdCurrent(st);
     if (item && typeof say === 'function') say(item.text);
     return;
   }
   if (act === 'check') {
     PTE_PLAY.heard = ($('pteHeard') && $('pteHeard').value) || '';
     PTE_PLAY.revealed = true;
-    const order = slotOrder('wfd', pteWfdPool(), st.wfdOrd);
-    const item = order[PTE_PLAY.wfdIdx];
-    if (item) { st.wfdTry[item.id] = PTELogic.diffWords(item.text, PTE_PLAY.heard).score; save(); }
+    const item = pteWfdCurrent(st);
+    if (item) {
+      const diff = PTELogic.diffWords(item.text, PTE_PLAY.heard);
+      st.wfdTry[item.id] = diff.score;
+      // Any missing / extra / wrong word is a miss; only a clean diff is a good answer.
+      const clean = diff.tokens.every(token => token.t === 'ok');
+      pteMark('wfd', item.id, !clean);
+      save();
+    }
     pteRefresh(true);
     return;
   }
-  if (act === 'wfd-next') { advance('wfd'); pteRefresh(true); return; }
-  if (act === 'rs-next') { advance('rs'); pteRefresh(true); return; }
+  if (act === 'wfd-next') { PTE_PLAY.focus = null; advance('wfd'); pteRefresh(true); return; }
+  if (act === 'rs-next') { PTE_PLAY.focus = null; advance('rs'); pteRefresh(true); return; }
   if (act === 'mask') { PTE_PLAY.mask[b.dataset.id] = !PTE_PLAY.mask[b.dataset.id]; pteRefresh(true); return; }
   if (act === 'open') { PTE_PLAY.readId = b.dataset.id; PTE_PLAY.deck = null; pteRefresh(false); return; }
   if (act === 'back') { flowStop(); PTE_PLAY.readId = ''; PTE_PLAY.deck = null; pteRefresh(false); return; }
@@ -690,7 +741,13 @@ function onPteClick(e) {
     if (typeof say === 'function') say(item.text);
     return;
   }
-  if (act === 'mic') { if (typeof rec === 'function') rec(item.text, b.parentElement); return; }
+  if (act === 'mic') {
+    if (typeof rec === 'function') rec(item.text, b.parentElement, score => {
+      // RS has no self-rating rows: a low recognition score is the failure.
+      if (typeof score === 'number') { pteMark('rs', item.id, score < PTE_RS_GOOD_SCORE); save(); }
+    });
+    return;
+  }
   if (act === 'mem') {
     const bag = b.dataset.bag === 'rs' ? st.rsMem : st.wfdMem;
     if (bag[item.id]) delete bag[item.id];
