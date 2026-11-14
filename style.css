@@ -148,3 +148,11 @@ textarea.study-box{min-height:140px}
 .spell-rule b{color:#3730a3}
 .spell-pair{font-weight:700;margin:6px 0}
 .spell-pairs{line-height:1.8;overflow-wrap:anywhere;margin:6px 0}
+
+/* Sentence skeletons (pte-templates.js) and the SGD drill (pte-sgd.js). */
+.skel-frame{margin:6px 0 2px;font-weight:600;line-height:1.55;background:#eef2ff;border-radius:10px;padding:8px 10px;overflow-wrap:anywhere}
+.skel-check{margin:6px 0 0;padding-left:20px;line-height:1.6}
+.sgd-brief{margin:6px 0 2px;padding-left:20px;line-height:1.55}
+.sgd-line{line-height:2.2;margin:10px 0 12px}
+.sgd-input{width:9em;max-width:100%;padding:4px 6px;border:2px dashed #a5b4fc;border-radius:8px;font:inherit;font-size:.95rem;background:#f8fafc}
+.sgd-input:focus{outline:none;border-color:#4f46e5;background:#fff}
