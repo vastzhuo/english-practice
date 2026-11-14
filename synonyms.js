@@ -2252,6 +2252,156 @@
       { w: 'requirement', zh: '要求；必要条件', scene: '入学、签证、工作必须满足的那几条，缺一条就卡住。', tone: '中性偏正式', col: 'meet the requirements, entry requirements', en: 'Check the entry requirements before you apply.', cn: '申请前先核对入学要求。' },
       { w: 'prerequisite', zh: '先决条件；前提', scene: '开始下一步之前必须先完成的那件事，课程表上写作 prerequisite。', tone: '正式', col: 'a prerequisite for, a prerequisite course', en: 'Statistics is a prerequisite for this course.', cn: '统计学是这门课的先修条件。' }
     ]},
+    { line: '食物链上的四种角色：predator 是自己动手捕猎的猎手，prey 是被追被吃的那一方，scavenger 不杀生、专吃尸体和残渣，omnivore 是荤素都吃的杂食动物。', items: [
+      { w: 'predator', zh: '捕食者；食肉动物', scene: '自己动手猎杀别的动物来吃：狮子追羚羊，狼成群追鹿。', tone: '中性', col: 'a natural predator, predator and prey', en: 'The wolf is a predator that hunts in packs.', cn: '狼是成群捕猎的食肉动物。' },
+      { w: 'prey', zh: '猎物；被捕食的动物', scene: '被追、被吃的那一方，跑得慢、数量多，处在食物链下层。', tone: '中性', col: 'fall prey to, birds of prey', en: 'Owls hunt mice and other small prey at night.', cn: '猫头鹰在夜里捕食老鼠等小猎物。' },
+      { w: 'scavenger', zh: '食腐动物；清道夫', scene: '不自己去杀，专门找现成的尸体和垃圾吃：秃鹫、鬣狗。', tone: '中性', col: 'a scavenger, scavengers and predators', en: 'Vultures are scavengers that clean up dead animals.', cn: '秃鹫是清理动物尸体的食腐动物。' },
+      { w: 'omnivore', zh: '杂食动物', scene: '肉也吃、植物也吃，像人和猪，菜单两边都点得出来。', tone: '中性', col: 'an omnivore, omnivores and herbivores', en: 'A bear is an omnivore: it eats fish and berries.', cn: '熊是杂食动物：吃鱼也吃浆果。' }
+    ]},
+    { line: '一颗卵长成成体的几个阶段：embryo 还在蛋壳或母体里没成形，larva 是昆虫的幼虫形态，hatchling 是刚破壳的小家伙，juvenile 是还没性成熟的少年个体。', items: [
+      { w: 'embryo', zh: '胚胎', scene: '受精卵刚开始分裂、还没长出手脚的小生命，在蛋壳或子宫里。', tone: '中性偏正式', col: 'a human embryo, embryo development', en: 'The embryo develops inside the egg for three weeks.', cn: '胚胎在蛋里发育三周。' },
+      { w: 'larva', zh: '幼虫', scene: '蝴蝶、甲虫从卵出来后的毛毛虫阶段，样子和成虫完全不同。', tone: '中性', col: 'a larva, larvae and adults', en: 'The larva eats leaves before it becomes a butterfly.', cn: '幼虫在变成蝴蝶之前吃叶子。' },
+      { w: 'hatchling', zh: '刚孵化的小动物', scene: '刚从蛋壳里钻出来的小鸟、小龟，身上还湿着。', tone: '中性', col: 'a turtle hatchling, newly hatched', en: 'The hatchling crawled straight towards the sea.', cn: '刚孵出的小海龟径直朝海里爬。' },
+      { w: 'juvenile', zh: '幼体；少年的', scene: '还没长成成体、不能繁殖的年轻个体，鸟类图鉴上常标 juvenile。', tone: '中性偏正式', col: 'a juvenile bird, juvenile stage', en: 'The juvenile has duller colours than the adult.', cn: '幼鸟的颜色比成鸟暗淡。' }
+    ]},
+    { line: '动物头上的几样东西：snout 是向前突出的口鼻部，fang 是又长又尖的獠牙，antlers 是鹿每年换一次的分叉角，mane 是狮子和马脖子上的鬃毛。', items: [
+      { w: 'snout', zh: '（动物的）口鼻部', scene: '狗、猪、鳄鱼向前伸出的那一截鼻子和嘴，拱土靠它。', tone: '中性', col: 'a long snout, the snout of', en: 'A pig uses its snout to dig for roots.', cn: '猪用它的口鼻部拱土找根茎。' },
+      { w: 'fang', zh: '獠牙；毒牙', scene: '蛇和狼嘴里又长又尖的那几颗牙，用来咬住猎物、注入毒液。', tone: '中性', col: 'sharp fangs, a snake\'s fangs', en: 'The snake sank its fangs into the mouse.', cn: '蛇把毒牙咬进老鼠身上。' },
+      { w: 'antlers', zh: '鹿角', scene: '公鹿头上分叉的大角，每年脱落再长，和牛角不一样。', tone: '中性', col: 'a pair of antlers, shed antlers', en: 'The stag rubbed its antlers against the tree.', cn: '公鹿在树上蹭它的鹿角。' },
+      { w: 'mane', zh: '鬃毛', scene: '狮子脖子上、马脖子上那一圈长毛，跑起来会飘。', tone: '中性', col: 'a thick mane, the lion\'s mane', en: 'The lion shook its heavy mane.', cn: '狮子甩了甩浓密的鬃毛。' }
+    ]},
+    { line: '支撑和行走的部件：exoskeleton 长在身体外面（昆虫、螃蟹），endoskeleton 长在身体里面（鱼、人），hooves 是马牛踩地的硬蹄，talons 是猛禽抓东西的利爪。', items: [
+      { w: 'exoskeleton', zh: '外骨骼', scene: '像穿在身上的一层硬壳，昆虫和螃蟹靠它支撑身体、保护自己。', tone: '中性偏正式', col: 'a hard exoskeleton, an insect exoskeleton', en: 'A beetle has a hard exoskeleton that protects it.', cn: '甲虫有坚硬的保护性外骨骼。' },
+      { w: 'endoskeleton', zh: '内骨骼', scene: '骨头长在肉里面，人、鱼、青蛙都是这样，外面只看得见皮。', tone: '中性偏正式', col: 'an internal endoskeleton, bone endoskeleton', en: 'Fish have an endoskeleton made of bone.', cn: '鱼有由骨头构成的内骨骼。' },
+      { w: 'hooves', zh: '蹄', scene: '马、牛、羊脚上那层硬壳，走石子路也不觉得疼。', tone: '中性', col: 'sharp hooves, horses\' hooves', en: 'The ponies\' hooves clattered on the road.', cn: '小马的蹄子在路上敲出响声。' },
+      { w: 'talons', zh: '（猛禽的）利爪', scene: '鹰、猫头鹰脚上的尖爪，用来抓住猎物和树枝。', tone: '中性', col: 'sharp talons, talons gripping', en: 'The eagle closed its talons around the fish.', cn: '鹰用利爪抓住那条鱼。' }
+    ]},
+    { line: '认树的四个词：conifers 结球果、叶子像针，deciduous 秋天整树落叶，evergreen 四季常绿，sapling 是还没长成大树的小树苗。', items: [
+      { w: 'conifers', zh: '针叶树；球果植物', scene: '松、杉、柏那一类，叶子是针形，结的是球果不是花。', tone: '中性', col: 'conifers and broadleaved trees, a conifer forest', en: 'Conifers keep their needles through the winter.', cn: '针叶树整个冬天都留着针叶。' },
+      { w: 'deciduous', zh: '落叶的', scene: '秋天叶子变黄、整片掉光，第二年春天再长：枫树、橡树。', tone: '中性偏正式', col: 'deciduous trees, deciduous woodland', en: 'Deciduous trees lose their leaves in autumn.', cn: '落叶树在秋天掉光叶子。' },
+      { w: 'evergreen', zh: '常绿的；常绿植物', scene: '一年四季都绿着，不把叶子掉光：冬青、松树、很多热带树。', tone: '中性', col: 'evergreen shrubs, an evergreen tree', en: 'Evergreen shrubs give the garden colour in winter.', cn: '常绿灌木让花园在冬天也有颜色。' },
+      { w: 'sapling', zh: '树苗；幼树', scene: '刚长几年、还细细的一根，风大一点就晃。', tone: '中性', col: 'a young sapling, plant a sapling', en: 'The sapling needs a stick to hold it straight.', cn: '这棵小树苗需要一根木棍扶直。' }
+    ]},
+    { line: '林子地面上长的东西：lichen 是贴在石头树皮上的一层灰绿地衣，ferns 是一片片羽状叶的蕨类，ivy 是顺着墙爬的常春藤，toadstool 是有毒的那种伞菌。', items: [
+      { w: 'lichen', zh: '地衣', scene: '石头上、树皮上那层灰绿或灰白的斑，其实是藻和真菌住在一起。', tone: '中性偏正式', col: 'lichen on rocks, reindeer lichen', en: 'Slow-growing lichen covers the old stones.', cn: '生长缓慢的地衣覆盖着这些旧石头。' },
+      { w: 'ferns', zh: '蕨类植物', scene: '阴湿林下那一片片细碎的羽状叶，不开花，靠孢子繁殖。', tone: '中性', col: 'tree ferns, ferns and moss', en: 'Ferns grow in the damp shade beside the stream.', cn: '蕨类长在小溪边阴湿的地方。' },
+      { w: 'ivy', zh: '常春藤', scene: '顺着墙、树干一路往上爬的藤，叶子是深绿的三裂形。', tone: '中性', col: 'ivy climbing, a wall covered in ivy', en: 'Ivy had covered the whole cottage wall.', cn: '常春藤爬满了整面小屋的墙。' },
+      { w: 'toadstool', zh: '毒菌；伞菌', scene: '林子里冒出来的伞状蘑菇，红的、带白点的常有剧毒，不能吃。', tone: '中性，多指有毒的', col: 'a red toadstool, poisonous toadstools', en: 'The red toadstool looks pretty but is poisonous.', cn: '那朵红伞菌好看却有毒。' }
+    ]},
+    { line: '一条河的现场：riverbank 是水边的岸，reeds 是水边长成一片的芦苇，weir 是横在河里的拦水堰，floodplain 是发大水时被淹的那片平地。', items: [
+      { w: 'riverbank', zh: '河岸', scene: '水边那一条泥或草的斜坡，可以坐、可以钓鱼。', tone: '中性', col: 'on the riverbank, a steep riverbank', en: 'We sat on the riverbank and watched the boats.', cn: '我们坐在河岸上看船。' },
+      { w: 'reeds', zh: '芦苇', scene: '浅水边成片、又高又细、风一吹沙沙响的草。', tone: '中性', col: 'beds of reeds, cut the reeds', en: 'Reeds grow in the shallow water at the edge.', cn: '芦苇长在水边的浅水处。' },
+      { w: 'weir', zh: '拦河堰', scene: '横在河上的一道低坝，让上游水面变平静，鱼还能越过。', tone: '中性偏专业', col: 'a low weir, the weir across the river', en: 'A low weir keeps the water level steady.', cn: '一道低矮的拦河堰让水位保持平稳。' },
+      { w: 'floodplain', zh: '洪泛平原；泛滥地', scene: '河两边低平的地，水一大就被淹，土却最肥。', tone: '中性偏专业', col: 'on the floodplain, a floodplain meadow', en: 'The river spread across the floodplain after the rain.', cn: '雨后的河水漫上了洪泛平原。' }
+    ]},
+    { line: '冷天的几种现象：hail 是一颗颗砸下来的冰雹，snowflakes 是慢慢飘的雪花，icicles 是屋檐下挂着的冰柱，puddles 是雨后地上的水坑。', items: [
+      { w: 'hail', zh: '冰雹', scene: '小冰粒噼里啪啦从云里砸下来，落地会弹，可能砸坏车。', tone: '中性', col: 'heavy hail, hail storms', en: 'Hail bounced off the car roof.', cn: '冰雹砸在车顶上弹开。' },
+      { w: 'snowflakes', zh: '雪花', scene: '一片一片慢慢落，落在袖子上能看清六个角。', tone: '中性', col: 'large snowflakes, snowflakes falling', en: 'Snowflakes settled on the garden bench.', cn: '雪花落在花园长椅上。' },
+      { w: 'icicles', zh: '冰柱', scene: '屋檐、树枝下面挂着的一串冰锥，太阳一晒就滴水。', tone: '中性', col: 'icicles hanging, long icicles', en: 'Icicles hung from the edge of the roof.', cn: '屋檐边挂着一排冰柱。' },
+      { w: 'puddles', zh: '水坑', scene: '下过雨的人行道上一摊摊水，走过去要跳着躲。', tone: '中性', col: 'splash through puddles, muddy puddles', en: 'Puddles covered the playground after the storm.', cn: '暴雨过后操场上到处是水坑。' }
+    ]},
+    { line: '重复出现的四种说法：frequent 是发生得密、隔不了太久，occasionally 是偶尔才来一次，consecutive 是一个紧接一个、中间不断，alternate 是两者轮流、一跳一换。', items: [
+      { w: 'frequent', zh: '频繁的；经常的', scene: '次数多但不必连着来：公交车五分钟一班。', tone: '中性', col: 'frequent buses, a frequent visitor', en: 'Frequent buses run every ten minutes.', cn: '公交车很频繁，每十分钟一班。' },
+      { w: 'occasionally', zh: '偶尔；有时候', scene: '大多数时候不发生，隔一阵才来一次，频率比 usually 低很多。', tone: '中性', col: 'only occasionally, occasionally visit', en: 'I occasionally walk to work in summer.', cn: '夏天我偶尔走路上班。' },
+      { w: 'consecutive', zh: '连续的；接连的', scene: '一个紧接一个排下来，中间没有断：连下三天雨。', tone: '中性偏正式', col: 'three consecutive days, consecutive numbers', en: 'It rained for three consecutive days.', cn: '雨一连下了三天。' },
+      { w: 'alternate', zh: '交替的；轮流', scene: '红、蓝、红、蓝这样一替一换，ABAB 的节奏。', tone: '中性', col: 'alternate between, on alternate days', en: 'The two classes alternate between lab work and lectures.', cn: '两个班在实验课和讲授课之间轮换。' }
+    ]},
+    { line: '环境被破坏时的说法：deforestation 是把成片森林砍掉，overfishing 是捕得比鱼繁殖得还快，contaminate 是把有害物混进水土食物里，unsustainable 是照这个用法迟早撑不下去。', items: [
+      { w: 'deforestation', zh: '森林砍伐；毁林', scene: '大片树林被砍掉或烧掉，露出光秃的土地，动物没地方住。', tone: '中性偏正式', col: 'large-scale deforestation, stop deforestation', en: 'Deforestation leaves the hillside bare and dry.', cn: '森林砍伐让山坡光秃干燥。' },
+      { w: 'overfishing', zh: '过度捕捞', scene: '一个渔场捕得太狠，鱼来不及长大繁殖，越捕越少。', tone: '中性偏正式', col: 'overfishing of cod, a result of overfishing', en: 'Overfishing has emptied many fishing grounds.', cn: '过度捕捞让许多渔场空了。' },
+      { w: 'contaminate', zh: '污染；使不洁', scene: '有害的东西混进水里、食物里，哪怕看不见也危险。', tone: '中性偏正式', col: 'contaminate the water, contaminated soil', en: 'Chemicals can contaminate the ground water.', cn: '化学品会污染地下水。' },
+      { w: 'unsustainable', zh: '不可持续的', scene: '现在还能用，但照这样下去迟早撑不住：抽水太快、砍树太多。', tone: '中性偏正式', col: 'an unsustainable rate, unsustainable farming', en: 'Farming that way is unsustainable in the long run.', cn: '那样种地从长远看是不可持续的。' }
+    ]},
+    { line: '植物科学的一组词：photosynthesis 是叶子用光造出养分的过程，wavelength 是光波的长短，pigment 是决定颜色的色素，quantify 是把"多少"量成具体数字。', items: [
+      { w: 'photosynthesis', zh: '光合作用', scene: '叶子吸收阳光、水和二氧化碳，自己制造糖，同时放出氧气。', tone: '中性偏正式', col: 'photosynthesis in leaves, the rate of photosynthesis', en: 'Photosynthesis turns sunlight and water into food.', cn: '光合作用把阳光和水变成养分。' },
+      { w: 'wavelength', zh: '波长', scene: '光或声一个波峰到下一个波峰的距离，红光长、蓝光短。', tone: '中性偏正式', col: 'a short wavelength, at a wavelength of', en: 'Blue light has a shorter wavelength than red light.', cn: '蓝光的波长比红光短。' },
+      { w: 'pigment', zh: '色素；颜料', scene: '让东西有颜色的物质：叶绿素是绿的，胡萝卜素偏橙。', tone: '中性偏正式', col: 'a natural pigment, leaf pigments', en: 'Leaves use the green pigment chlorophyll to catch light.', cn: '叶子用绿色色素叶绿素来捕捉光。' },
+      { w: 'quantify', zh: '量化；测定数量', scene: '把"多少、多大"变成具体数字，而不是只说挺多。', tone: '中性偏正式', col: 'quantify the effect, hard to quantify', en: 'It is hard to quantify the damage to the reef.', cn: '珊瑚礁受损的程度很难量化。' }
+    ]},
+    { line: '生物课上的四个词：nocturnal 说的是生活习性（夜里活动），mammal 是胎生哺乳的动物，reptile 是带鳞片的冷血爬行动物，fungus 既不是植物也不是动物。', items: [
+      { w: 'nocturnal', zh: '夜行的', scene: '白天躲着睡，天一黑才出来活动：猫头鹰、蝙蝠、刺猬。', tone: '中性偏正式', col: 'nocturnal animals, a nocturnal habit', en: 'Owls are nocturnal hunters.', cn: '猫头鹰是夜间捕猎的动物。' },
+      { w: 'mammal', zh: '哺乳动物', scene: '有毛、胎生、下崽后喂奶的一类：人、鲸、蝙蝠。', tone: '中性', col: 'a marine mammal, mammals and birds', en: 'A whale is a mammal, not a fish.', cn: '鲸是哺乳动物，不是鱼。' },
+      { w: 'reptile', zh: '爬行动物', scene: '身上有鳞、贴着地面爬、体温随环境变的一类：蛇、蜥蜴、龟。', tone: '中性', col: 'a small reptile, reptiles and amphibians', en: 'A lizard is a reptile that likes warm rocks.', cn: '蜥蜴是喜欢暖石头的爬行动物。' },
+      { w: 'fungus', zh: '真菌', scene: '蘑菇、霉那一类，靠分解别的东西活，既不像植物也不像动物。', tone: '中性', col: 'a fungus, fungi and bacteria', en: 'A fungus grows best in damp, dark places.', cn: '真菌最适合长在潮湿阴暗的地方。' }
+    ]},
+    { line: '看地貌会遇到的四个词：terrain 是一大片地表的起伏，eruption 是火山喷发，subsoil 是表土下面的那层土，iceberg 是漂在海上、只露一角的冰山。', items: [
+      { w: 'terrain', zh: '地形；地势', scene: '一片地方是平、是坡、是石头还是沼泽，走起来感受最明显。', tone: '中性偏正式', col: 'rough terrain, the terrain of the area', en: 'The terrain is rocky and steep here.', cn: '这里的地形多石又陡峭。' },
+      { w: 'eruption', zh: '喷发；爆发', scene: '火山把岩浆和灰一下子喷出来，天空被灰盖住。', tone: '中性偏正式', col: 'a volcanic eruption, the eruption of', en: 'The eruption sent ash high into the sky.', cn: '喷发把火山灰送到高空。' },
+      { w: 'subsoil', zh: '底土；下层土', scene: '铲掉最上面那层黑土之后，下面颜色更浅、更硬的那层。', tone: '中性偏专业', col: 'a layer of subsoil, sandy subsoil', en: 'The subsoil here is sandy and dry.', cn: '这里的下层土是沙质、干燥的。' },
+      { w: 'iceberg', zh: '冰山', scene: '从冰川断下来漂在海上，水面之上只露一小角。', tone: '中性', col: 'an iceberg, the tip of the iceberg', en: 'Most of an iceberg is hidden under the water.', cn: '冰山的大部分藏在水面之下。' }
+    ]},
+    { line: '液体被处理时的几个动作：dilute 是加水把浓度冲淡，dissolve 是固体化进液体里看不见了，volatile 是容易挥发成气体跑掉，congeal 是冷却后变稠凝住。', items: [
+      { w: 'dilute', zh: '稀释；冲淡', scene: '往浓缩的果汁或药水里加水，味道和浓度都变淡。', tone: '中性偏正式', col: 'dilute with water, a dilute solution', en: 'Dilute the juice with cold water before serving.', cn: '上桌前用冷水把果汁稀释一下。' },
+      { w: 'dissolve', zh: '溶解；使溶解', scene: '糖或盐放进水里搅一搅就不见了，水还是清的。', tone: '中性', col: 'dissolve in water, dissolve the powder', en: 'Sugar dissolves faster in hot water.', cn: '糖在热水里溶解得更快。' },
+      { w: 'volatile', zh: '易挥发的；易变的', scene: '一打开盖子就呼呼变成气体跑掉，汽油、酒精都这样。', tone: '中性偏专业', col: 'a volatile liquid, volatile chemicals', en: 'Petrol is a volatile liquid that gives off fumes.', cn: '汽油是会散发气体的易挥发液体。' },
+      { w: 'congeal', zh: '凝结；凝固', scene: '油或汤冷下来以后变成半固态的一坨，比如盘底的肉汁。', tone: '中性偏正式', col: 'congeal into, the fat congealed', en: 'The fat congealed as the pan cooled.', cn: '锅一凉，油就凝住了。' }
+    ]},
+    { line: '化学课上的四个词：combustion 是烧起来的反应，synthesis 是由简单的东西造出新物质，alloy 是两种金属熔在一起的合金，corrosive 是会咬金属、烧皮肤的性质。', items: [
+      { w: 'combustion', zh: '燃烧', scene: '燃料遇到氧气放热发光的反应，发动机里一直在发生。', tone: '中性偏专业', col: 'complete combustion, the combustion of fuel', en: 'Combustion needs fuel, heat and oxygen.', cn: '燃烧需要燃料、热量和氧气。' },
+      { w: 'synthesis', zh: '合成', scene: '把简单的小块拼成更大的新物质，实验室里一步步做出来。', tone: '中性偏专业', col: 'protein synthesis, chemical synthesis', en: 'Protein synthesis takes place inside cells.', cn: '蛋白质合成在细胞内部进行。' },
+      { w: 'alloy', zh: '合金', scene: '两种以上金属熔在一起得到的材料，比单一金属更硬或更耐锈。', tone: '中性偏专业', col: 'an alloy of copper and zinc, a light alloy', en: 'Brass is an alloy of copper and zinc.', cn: '黄铜是铜和锌的合金。' },
+      { w: 'corrosive', zh: '腐蚀性的', scene: '碰到金属会咬出坑、碰到皮肤会烧，强酸强碱常这样。', tone: '中性偏专业', col: 'a corrosive chemical, highly corrosive', en: 'Corrosive chemicals can burn your skin.', cn: '腐蚀性化学品会烧伤皮肤。' }
+    ]},
+    { line: '光和热的一组词：flash 是一下子亮又灭，glimmer 是远远一点微弱的光，radiation 是热或能量向外辐射，thermal 是形容词"热的、保温的"。', items: [
+      { w: 'flash', zh: '闪光；一闪', scene: '相机、闪电、信号灯一下亮起来又黑掉，时间很短。', tone: '中性', col: 'a flash of light, flash briefly', en: 'A flash of lightning lit the whole room.', cn: '一道闪电照亮了整个房间。' },
+      { w: 'glimmer', zh: '微弱的光；一丝', scene: '很远的地方有一点忽明忽暗的光，像夜里远处的窗。', tone: '中性偏文学', col: 'a faint glimmer, a glimmer of hope', en: 'A faint glimmer showed at the far window.', cn: '远处窗前有一点微弱的光。' },
+      { w: 'radiation', zh: '辐射', scene: '热、光或能量从中心往外散，太阳的热就是这样到地球的。', tone: '中性偏正式', col: 'solar radiation, radiation levels', en: 'The sun\'s radiation warms the earth.', cn: '太阳辐射让地球变暖。' },
+      { w: 'thermal', zh: '热的；保温的', scene: '形容词：thermal underwear 保暖内衣，thermal energy 热能。', tone: '中性偏专业', col: 'thermal energy, thermal clothing', en: 'Thermal gloves keep your hands warm in winter.', cn: '保暖手套让你冬天手不冷。' }
+    ]},
+    { line: '抬头看天时的词：constellation 是天上连成固定图案的一群星，interstellar 是恒星和恒星之间的，universe 是整个宇宙，astronaut 是坐飞船上去工作的人。', items: [
+      { w: 'constellation', zh: '星座', scene: '天上被连成固定图案的一组星，像猎户座、北斗七星。', tone: '中性', col: 'a constellation, the stars in a constellation', en: 'A constellation is a group of stars with a name.', cn: '星座是一组有名字的星星。' },
+      { w: 'interstellar', zh: '星际的', scene: '恒星与恒星之间那片几乎空无一物的空间，飞船要飞很多年。', tone: '中性偏专业', col: 'interstellar space, interstellar dust', en: 'Interstellar dust fills the space between stars.', cn: '星际尘埃填满恒星之间的空间。' },
+      { w: 'universe', zh: '宇宙', scene: '所有星系、星球和空间加在一起的全部，还在不断膨胀。', tone: '中性', col: 'the universe, the origin of the universe', en: 'The universe is still expanding.', cn: '宇宙仍在膨胀。' },
+      { w: 'astronaut', zh: '宇航员', scene: '受过训练、坐火箭上太空工作的人，中国也叫航天员。', tone: '中性', col: 'a trained astronaut, become an astronaut', en: 'The astronaut floated slowly inside the station.', cn: '宇航员在空间站里慢慢飘着。' }
+    ]},
+    { line: '几何里的量：circumference 专指圆的周长，perimeter 是任何图形一圈边界的总长，decimal 是带小数点的数，geometry 是研究点线面的学科。', items: [
+      { w: 'circumference', zh: '圆周；周长', scene: '拿绳子绕圆一圈量出来的长度，只用于圆和椭圆。', tone: '中性偏正式', col: 'the circumference of a circle, measure the circumference', en: 'The circumference of the circle is ten metres.', cn: '这个圆的周长是十米。' },
+      { w: 'perimeter', zh: '周长；周边', scene: '长方形、球场、院子四周一圈围起来的长度，也可指外围警戒线。', tone: '中性', col: 'the perimeter of the field, a security perimeter', en: 'Fence the whole perimeter of the field.', cn: '把这块地的四周都围上栅栏。' },
+      { w: 'decimal', zh: '小数；十进位的', scene: '3.5、0.25 这类带小数点的数，也可以说 decimal system 十进制。', tone: '中性', col: 'a decimal point, to two decimal places', en: 'Write the answer as a decimal, not a fraction.', cn: '把答案写成小数，不要写成分数。' },
+      { w: 'geometry', zh: '几何；几何学', scene: '研究形状、大小、角度和位置关系的数学分支。', tone: '中性', col: 'plane geometry, a geometry problem', en: 'Geometry studies points, lines and shapes.', cn: '几何研究点、线和形状。' }
+    ]},
+    { line: '讲城市问题时的四个词：infrastructure 是水电路网这些基础设施，sanitation 是排污和清洁卫生系统，dysfunctional 是坏了、不能正常运转，straining 是勉强撑着、快吃不消。', items: [
+      { w: 'infrastructure', zh: '基础设施', scene: '道路、供水、电网、网络这些城市底下看不见的骨架。', tone: '中性偏正式', col: 'public infrastructure, invest in infrastructure', en: 'The city spent millions on new infrastructure.', cn: '这座城市花了几百万新建基础设施。' },
+      { w: 'sanitation', zh: '卫生设施；环境卫生', scene: '下水道、垃圾清运、公厕这些让人不生病的系统。', tone: '中性偏正式', col: 'poor sanitation, sanitation services', en: 'Good sanitation keeps a whole town healthy.', cn: '良好的卫生设施让整个镇子不生病。' },
+      { w: 'dysfunctional', zh: '功能失调的；运转不正常的', scene: '暖气、刹车坏了却还在用，勉强转着却处处出问题。', tone: '贬义，偏正式', col: 'a dysfunctional system, a dysfunctional family', en: 'The dysfunctional heating system wastes a lot of energy.', cn: '这套失灵的供暖系统浪费很多能源。' },
+      { w: 'straining', zh: '吃力的；绷紧的', scene: '桥、预算、关系被压得吱吱响，再撑下去就要断。', tone: '中性偏书面', col: 'straining under, a straining system', en: 'The old bridge is straining under heavy traffic.', cn: '这座旧桥在繁忙交通下不堪重负。' }
+    ]},
+    { line: '人生不同阶段的说法：adolescence 是青春期这个阶段（名词），adolescent 是处在青春期的少年（名词或形容词），infancy 是婴儿期，fatherhood 是当父亲这个身份。', items: [
+      { w: 'adolescence', zh: '青春期；青少年时期', scene: '十几岁那几年，身体和情绪都在变，介于小孩和成人之间。', tone: '中性偏正式', col: 'during adolescence, early adolescence', en: 'Friends matter most during adolescence.', cn: '青春期时朋友最重要。' },
+      { w: 'adolescent', zh: '青春期的；青少年', scene: '处在十几岁那个阶段的人，或那段时间的事，作形容词也常见。', tone: '中性偏正式', col: 'an adolescent boy, adolescent behaviour', en: 'Adolescent sleep patterns change a lot.', cn: '青少年的睡眠规律变化很大。' },
+      { w: 'infancy', zh: '婴儿期；初期', scene: '出生到会走路那一两年，也用来比喻一个项目刚起步。', tone: '中性偏正式', col: 'in infancy, from infancy', en: 'The industry is still in its infancy.', cn: '这个行业还处在起步阶段。' },
+      { w: 'fatherhood', zh: '父亲身份；为父之道', scene: '当了爸爸这件事，以及随之而来的责任和感受。', tone: '中性', col: 'prepare for fatherhood, the joys of fatherhood', en: 'He wrote about the first year of fatherhood.', cn: '他写了当父亲第一年的经历。' }
+    ]},
+    { line: '形容社会与人的一组词：egalitarian 主张人人平等，individualistic 强调个人优先，altruistic 是利他、先想到别人，unethical 是不合道德的做法。', items: [
+      { w: 'egalitarian', zh: '平等主义的', scene: '觉得大家在权利和机会上都该一样，没有谁天生高一等。', tone: '中性偏正式', col: 'an egalitarian society, egalitarian values', en: 'They run the school on egalitarian principles.', cn: '他们按平等原则办这所学校。' },
+      { w: 'individualistic', zh: '个人主义的', scene: '强调自己作决定、为自己负责，把集体的事往后放。', tone: '中性，可褒可贬', col: 'an individualistic culture, an individualistic approach', en: 'The culture is highly individualistic.', cn: '这种文化高度个人主义。' },
+      { w: 'altruistic', zh: '利他的；无私的', scene: '帮别人不是图回报，哪怕自己吃点亏也做。', tone: '褒义，偏正式', col: 'altruistic behaviour, an altruistic motive', en: 'Saving the stranger was a purely altruistic act.', cn: '救那个陌生人是纯粹利他的行为。' },
+      { w: 'unethical', zh: '不道德的；违背职业道德的', scene: '法律未必管得到，但同行和良心都不允许：作弊、泄露客户资料。', tone: '贬义，偏正式', col: 'unethical behaviour, highly unethical', en: 'Copying a colleague\'s data is unethical.', cn: '抄同事的数据是不道德的。' }
+    ]},
+    { line: '买电子产品时看到的四个形容词：immersive 是让人身临其境，rechargeable 是能反复充电，programmable 是能自己设定程序，controllable 是可以控制、不会失控。', items: [
+      { w: 'immersive', zh: '沉浸式的', scene: '戴上头显画面把你包住，忘了自己还坐在房间里。', tone: '中性，多作褒义', col: 'an immersive experience, immersive technology', en: 'The game gives a truly immersive experience.', cn: '这个游戏带来真正沉浸式的体验。' },
+      { w: 'rechargeable', zh: '可充电的', scene: '电池或设备用完插上电就能再用，不必买一次性电池。', tone: '中性', col: 'rechargeable batteries, a rechargeable lamp', en: 'I bought rechargeable batteries for the lamp.', cn: '我给这盏灯买了可充电电池。' },
+      { w: 'programmable', zh: '可编程的', scene: '可以自己设定时间、温度、动作顺序：可编程恒温器、可编程玩具。', tone: '中性偏专业', col: 'a programmable thermostat, programmable logic', en: 'The thermostat is programmable for each day of the week.', cn: '这个恒温器可以按每天设定程序。' },
+      { w: 'controllable', zh: '可控的；可控制的', scene: '能被管住、能调大小，不会突然失控：可控的风险、可控的无人机。', tone: '中性', col: 'easily controllable, controllable risk', en: 'The drone is small and controllable in strong wind.', cn: '这架无人机很小，刮风时也能控制。' }
+    ]},
+    { line: '四种写下来的文字：anecdote 是短小有趣的真人小事，treatise 是系统论述一个题目的长篇专著，synopsis 是一本书或一部电影的内容梗概，quotation 是原样引来的那段话。', items: [
+      { w: 'anecdote', zh: '轶事；小故事', scene: '聊天或演讲开头讲的一件短而有趣的真人小事，用来引出观点。', tone: '中性', col: 'tell an anecdote, a personal anecdote', en: 'He opened the talk with a funny anecdote about his first job.', cn: '他用自己第一份工作的趣事开场。' },
+      { w: 'treatise', zh: '专题论文；专著', scene: '一本正式地、系统地论述某个题目的长文或书。', tone: '正式', col: 'a treatise on, a learned treatise', en: 'She wrote a treatise on soil and farming.', cn: '她写了一部关于土壤与农耕的专著。' },
+      { w: 'synopsis', zh: '内容梗概；摘要', scene: '一页纸讲清整本书或整部电影讲了什么，投稿和剧本常要。', tone: '中性偏正式', col: 'a one-page synopsis, write a synopsis', en: 'Send a one-page synopsis of your story.', cn: '寄一份一页纸的故事梗概来。' },
+      { w: 'quotation', zh: '引文；引用', scene: '从别人的话或书里原样抄下来的那一段，要标出处。', tone: '中性偏正式', col: 'a quotation from, quote a quotation', en: 'She checked every quotation before sending the article.', cn: '发稿前她核对过每一处引文。' }
+    ]},
+    { line: '评论写作的四个词：literally 本意是"字面上、真的"，常被当强调词乱用；rhetoric 是修辞，也指漂亮而空的言辞；irony 是反讽，字面与真意相反；epitomise 是成为某类事物的典型。', items: [
+      { w: 'literally', zh: '字面上地；确实地', scene: '强调事情真的发生了，不是比喻；口语里常被拿来当"超级"用，正式写作要小心。', tone: '中性，口语常被滥用', col: 'literally true, quite literally', en: 'The room was literally shaking during the concert.', cn: '音乐会时房间真的在震。' },
+      { w: 'rhetoric', zh: '修辞；华丽的空话', scene: '说服人的技巧，也常带贬义：说得漂亮但没有行动。', tone: '中性偏贬', col: 'political rhetoric, empty rhetoric', en: 'The speech was full of rhetoric but few facts.', cn: '那篇演讲满是修辞却少有事实。' },
+      { w: 'irony', zh: '反讽；讽刺意味', scene: '说出来的和真正想说的正好相反，或者事情的结果跟预期拧着来。', tone: '中性', col: 'a touch of irony, the irony of', en: 'The irony is that the fastest route was the most tiring.', cn: '讽刺的是，最快的路线反而最累人。' },
+      { w: 'epitomise', zh: '是…的典型；集中体现', scene: '一个人或一件东西把整类特征都表现出来了，像活招牌。', tone: '中性偏正式', col: 'epitomise the spirit of, perfectly epitomise', en: 'The village epitomises rural life in England.', cn: '这个村子是英格兰乡村生活的典型。' }
+    ]},
+    { line: '语言学课的四个词：corpus 是收集起来供分析的大量语料，phonetic 是跟语音有关的，lexical 是跟词汇有关的，verbal 是口头的、用语言表达的。', items: [
+      { w: 'corpus', zh: '语料库', scene: '把几百万条真实句子收集在一起，用来统计词到底怎么用。', tone: '中性偏专业', col: 'a text corpus, corpus data', en: 'The corpus includes two million words of speech.', cn: '这个语料库收录了两百万词的口语。' },
+      { w: 'phonetic', zh: '语音的；音标的', scene: '管声音怎么发、怎么写符号：phonetic symbols、phonetic alphabet。', tone: '中性偏专业', col: 'phonetic symbols, phonetic spelling', en: 'Phonetic symbols show exactly how a word sounds.', cn: '音标精确地显示一个词怎么发音。' },
+      { w: 'lexical', zh: '词汇的', scene: '跟词本身和词义有关：lexical meaning、lexical choice。', tone: '中性偏专业', col: 'lexical meaning, lexical choice', en: 'Lexical choice shapes the tone of a whole text.', cn: '词汇选择决定了整篇文章的语气。' },
+      { w: 'verbal', zh: '口头的；言语的', scene: '用嘴说出来的，不是写下来的；verbal agreement 是口头约定。', tone: '中性偏正式', col: 'a verbal agreement, verbal skills', en: 'A verbal agreement is hard to prove in court.', cn: '口头约定在法庭上很难证明。' }
+    ]},
   ];
 
   const SOLOS = [
