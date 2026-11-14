@@ -48,15 +48,24 @@ from `main`).
 - **UI** is split by tab/module: `app.js`, `drive.js`, `study-ui.js`,
   `grammar-ui.js`, `pte-app.js`, `pte-we-ui.js`, `pte-sst-ui.js`, plus
   `style.css`. `pte-logic.js` holds the shared PTE logic used by both the UI and
-  the tests.
+  the tests. `voice-check.js` holds the one speech-synthesis detection (and the
+  「🔊 声音自检」 button / failure notices) shared by the PTE tab, Shadow and
+  Drive: when no English voice is installed, playback buttons are disabled with
+  a reason instead of silently doing nothing.
 - **State** is a single `localStorage` key, `ep`, holding JSON: word progress
   (`days`, `learned`, `best`), the `pte` sub-object (`wfdMem`, `rsMem`,
   `readFlow`, `readPass`, `readErr`, `we`, `sst`, `ra`, `di`, `swt`, `mode`),
   the `study` queue and `dv` drive settings. Nothing is sent to a server.
 - **Offline** comes from `sw.js`: a cache named `ep-vNN` plus a precache list of
   every script, stylesheet and icon. `manifest.json` makes it installable.
+  Audio and byte-range requests are **network-only**: an `<audio>` element asks
+  for ranges, the server answers `206 Partial Content`, and the Cache API cannot
+  store a partial response. The service worker therefore never caches or matches
+  media (offline media gets an explicit `504`) and only stores complete `200`
+  responses; a cache failure never eats the network response.
 - **SST audio** ships as mp3 files under `audio/sst/`; they are referenced by
-  `pte-sst.js` but do not change between releases.
+  `pte-sst.js` but do not change between releases. If a recording does not play,
+  the page prints 「音频加载失败」 instead of showing a dead player.
 
 ## Development
 
@@ -122,6 +131,14 @@ functional change. The CI job above is the gate.
   that is a rough local check, not an exam scorer.
 - Speech synthesis voices, recognition support and the wake lock all depend on
   the browser/OS; Chrome or Edge on Android/desktop gives the best results.
+  Without an installed **English** voice, WFD / RS / RA and the Shadow and Drive
+  tabs cannot speak: the PTE row then shows 「🔊 声音自检」 with the three states
+  (voice OK / synthesiser but no English voice / no synthesiser) and the fix for
+  each, and the TTS buttons are disabled with a tooltip. **The SST mp3 recordings
+  do not use speech synthesis and keep playing** (they are network-only).
+  An installed PWA only picks up a new service worker after the page is reloaded
+  (the worker calls `skipWaiting()` + `clients.claim()`); if audio still misbehaves
+  after an update, reload once.
 - Installability and offline caching require HTTPS (or localhost) and a
   service-worker-capable browser.
 - No accounts and no sync: clearing site data clears all progress.

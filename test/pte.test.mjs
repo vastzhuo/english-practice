@@ -250,7 +250,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
   assert.equal(index.includes('?v=' + previous), false);
@@ -261,7 +261,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
   assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
   assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
-  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js']) {
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js', 'voice-check.js']) {
     assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
@@ -285,6 +285,12 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(speakUi, /svgChart/);
   assert.match(speakUi, /pteSpClock/);
   assert.equal(speakUi.includes('new Image'), false);
+  // Every PTE sub-tab shares one voice detection and disables playback without it.
+  assert.match(pteApp, /data-pte-act="voice-check"/);
+  assert.match(pteApp, /pteSayAttr/);
+  assert.match(pteApp, /resolve\('fatal'\)/);
+  assert.match(speakUi, /pteSayAttr/);
+  assert.match(index, /voice-check\.js\?v=/);
 });
 
 test('dictation diff marks missing and extra words without changing the answer sentence', () => {
@@ -800,6 +806,213 @@ test('RA, DI and SWT progress is stored beside the existing PTE data', () => {
     assert.equal(PTELogic.ensureState({ pte: { mode } }, []).mode, mode);
   }
   assert.equal(PTELogic.ensureState({ pte: { mode: 'swt', swt: { answers: { a: 'kept' } }, we: { notes: {} } } }, []).swt.answers.a, 'kept');
+});
+
+// --- voice availability and the service worker fetch path -------------------
+
+function loadVoice() {
+  // The browser module uses timers, so give the sandbox the same helpers.
+  const context = { console, setTimeout, clearTimeout };
+  vm.createContext(context);
+  vm.runInContext(
+    fs.readFileSync(path.join(root, 'voice-check.js'), 'utf8') + '\nglobalThis.VoiceCheck = VoiceCheck;\n',
+    context
+  );
+  return context.VoiceCheck;
+}
+
+function fakeSynth(voices) {
+  const listeners = new Set();
+  const list = voices.slice();
+  return {
+    getVoices() { return list.slice(); },
+    addEventListener(type, fn) { if (type === 'voiceschanged') listeners.add(fn); },
+    removeEventListener(type, fn) { if (type === 'voiceschanged') listeners.delete(fn); },
+    push(voice) { list.push(voice); },
+    emit() { listeners.forEach(fn => fn()); },
+    listeners
+  };
+}
+
+const Voice = loadVoice();
+
+test('voice pick prefers en-AU, then en-GB, then en-US, then any English', () => {
+  const au = { name: 'Catherine', lang: 'en-AU' };
+  const gb = { name: 'Daniel', lang: 'en-GB' };
+  const us = { name: 'David', lang: 'en-US' };
+  const india = { name: 'Ravi', lang: 'en-IN' };
+  const zh = { name: 'Huihui', lang: 'zh-CN' };
+  assert.equal(Voice.pickEnglishVoice([zh, us, gb, au]).name, 'Catherine');
+  assert.equal(Voice.pickEnglishVoice([us, gb]).name, 'Daniel');
+  assert.equal(Voice.pickEnglishVoice([us, india]).name, 'David');
+  assert.equal(Voice.pickEnglishVoice([zh, india]).name, 'Ravi');
+  assert.equal(Voice.pickEnglishVoice([zh]), null);
+  assert.equal(Voice.pickEnglishVoice([]), null);
+  assert.equal(Voice.pickEnglishVoice(undefined), null);
+  assert.equal(Voice.pickEnglishVoice([null, { lang: '' }, us]).name, 'David');
+});
+
+test('voice status separates ok, no English voice and an empty voice list', () => {
+  const us = { name: 'David', lang: 'en-US' };
+  const ok = Voice.voiceStatus([{ name: 'Huihui', lang: 'zh-CN' }, us]);
+  assert.equal(ok.ok, true);
+  assert.equal(ok.lang, 'en-US');
+  assert.equal(ok.name, 'David');
+  assert.equal(ok.voice, us);
+  const noEnglish = Voice.voiceStatus([{ name: 'Huihui', lang: 'zh-CN' }]);
+  assert.equal(noEnglish.ok, false);
+  assert.equal(noEnglish.reason, 'no-english');
+  const empty = Voice.voiceStatus([]);
+  assert.equal(empty.ok, false);
+  assert.equal(empty.reason, 'no-voices');
+  assert.equal(Voice.voiceStatus(undefined).reason, 'no-voices');
+  assert.equal(Voice.voiceStatus(null).reason, 'no-voices');
+  // The failure text has to name the modules that break and the audio that still works.
+  assert.match(Voice.statusMessage(noEnglish), /WFD\/RS\/RA/);
+  assert.match(Voice.statusMessage(noEnglish), /SST 的录音仍可播放/);
+  assert.match(Voice.statusMessage(empty), /SST 的录音仍可播放/);
+  assert.match(Voice.statusMessage({ ok: false, reason: 'no-synth' }), /Chrome/);
+});
+
+test('voice detection waits for voiceschanged when the first list is empty', async () => {
+  const synth = fakeSynth([]);
+  const pending = Voice.detect(synth, { timeoutMs: 1000 });
+  synth.push({ name: 'David', lang: 'en-US' });
+  synth.emit();
+  const status = await pending;
+  assert.equal(status.ok, true);
+  assert.equal(status.lang, 'en-US');
+  assert.equal(synth.listeners.size, 0, 'the listener must be removed after it resolves');
+});
+
+test('voice detection gives up after the timeout and reports why', async () => {
+  const none = await Voice.detect(fakeSynth([]), { timeoutMs: 10 });
+  assert.equal(none.ok, false);
+  assert.equal(none.reason, 'no-voices');
+  const chinese = await Voice.detect(fakeSynth([{ name: 'Huihui', lang: 'zh-CN' }]), { timeoutMs: 10 });
+  assert.equal(chinese.ok, false);
+  assert.equal(chinese.reason, 'no-english');
+  assert.equal((await Voice.detect(null, {})).reason, 'no-synth');
+  // an already usable list resolves without waiting
+  const ready = await Voice.detect(fakeSynth([{ name: 'Daniel', lang: 'en-GB' }]), { timeoutMs: 0 });
+  assert.equal(ready.ok, true);
+  assert.equal(ready.name, 'Daniel');
+});
+
+test('voice self-check text covers the three states and the fix', () => {
+  const ok = Voice.checkMessage({ status: { ok: true, name: 'Daniel', lang: 'en-GB' }, spoke: 'end' });
+  assert.match(ok, /正常/);
+  assert.match(ok, /Daniel/);
+  assert.match(ok, /en-GB/);
+  const noEnglish = Voice.checkMessage({ status: { ok: false, reason: 'no-english' }, spoke: 'none' });
+  assert.match(noEnglish, /没有英文语音/);
+  assert.match(noEnglish, /添加语音|安装英语数据/);
+  const noVoices = Voice.checkMessage({ status: { ok: false, reason: 'no-voices' }, spoke: 'none' });
+  assert.match(noVoices, /语音列表为空/);
+  const noSynth = Voice.checkMessage({ status: { ok: false, reason: 'no-synth' }, spoke: 'none' });
+  assert.match(noSynth, /完全没有语音合成器/);
+  assert.match(noSynth, /Chrome/);
+  // a selected voice that still fails to speak is reported, not hidden
+  const failed = Voice.checkMessage({ status: { ok: true, name: 'David', lang: 'en-US' }, spoke: 'error' });
+  assert.match(failed, /朗读失败/);
+});
+
+function loadServiceWorker(options = {}) {
+  const handlers = {};
+  const puts = [];
+  const matches = [];
+  const cache = {
+    put(request, response) {
+      if (options.putFails) return Promise.reject(new Error('cache.put failed'));
+      puts.push({ request, response });
+      return Promise.resolve();
+    },
+    addAll() { return Promise.resolve(); }
+  };
+  const caches = {
+    open() { return Promise.resolve(cache); },
+    match(request) { matches.push(request); return Promise.resolve(options.cached); },
+    keys() { return Promise.resolve([]); },
+    delete() { return Promise.resolve(true); }
+  };
+  const pending = [];
+  const self = {
+    addEventListener(type, handler) { handlers[type] = handler; },
+    skipWaiting() { return Promise.resolve(); },
+    clients: { claim() { return Promise.resolve(); } }
+  };
+  const context = {
+    self, caches, Request, Response, URL,
+    fetch: options.fetch || (() => Promise.reject(new Error('offline')))
+  };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'sw.js'), 'utf8'), context);
+  return {
+    puts,
+    matches,
+    async dispatch(request) {
+      let responded = null;
+      const event = {
+        request,
+        respondWith(promise) { responded = promise; },
+        waitUntil(promise) { pending.push(Promise.resolve(promise)); }
+      };
+      handlers.fetch(event);
+      const response = await Promise.resolve(responded);
+      await Promise.all(pending);
+      return response;
+    }
+  };
+}
+
+test('service worker never caches byte-range or partial audio responses', async () => {
+  const ranged = loadServiceWorker({ fetch: () => Promise.resolve(new Response('partial', { status: 206 })) });
+  const request = new Request('https://example.test/audio/sst/sst-1.mp3', { headers: { Range: 'bytes=0-1023' } });
+  const response = await ranged.dispatch(request);
+  assert.equal(response.status, 206);
+  assert.equal(ranged.puts.length, 0);
+  assert.equal(ranged.matches.length, 0, 'a ranged audio request must never read the cache');
+  // a media URL without a Range header is still network-only
+  const media = loadServiceWorker({ fetch: () => Promise.resolve(new Response('whole', { status: 200 })) });
+  const whole = await media.dispatch(new Request('https://example.test/audio/sst/sst-2.mp3'));
+  assert.equal(whole.status, 200);
+  assert.equal(media.puts.length, 0);
+});
+
+test('service worker caches only a complete 200 and survives a failing cache.put', async () => {
+  const partial = loadServiceWorker({ fetch: () => Promise.resolve(new Response('partial', { status: 206 })) });
+  const notStored = await partial.dispatch(new Request('https://example.test/data/list.json'));
+  assert.equal(notStored.status, 206);
+  assert.equal(partial.puts.length, 0);
+
+  const complete = loadServiceWorker({ fetch: () => Promise.resolve(new Response('{"a":1}', { status: 200 })) });
+  const stored = await complete.dispatch(new Request('https://example.test/data/list.json'));
+  assert.equal(stored.status, 200);
+  assert.equal(complete.puts.length, 1);
+  assert.equal(complete.puts[0].response.status, 200);
+
+  const failing = loadServiceWorker({
+    fetch: () => Promise.resolve(new Response('{"a":2}', { status: 200 })),
+    putFails: true
+  });
+  const stillOk = await failing.dispatch(new Request('https://example.test/data/other.json'));
+  assert.equal(stillOk.status, 200, 'a cache failure must not eat the network response');
+});
+
+test('service worker answers offline media with 504 and keeps the page cache fallback', async () => {
+  const offline = loadServiceWorker({ fetch: () => Promise.reject(new Error('offline')) });
+  const media = await offline.dispatch(new Request('https://example.test/audio/sst/sst-3.mp3'));
+  assert.equal(media.status, 504);
+  assert.equal(offline.matches.length, 0, 'offline audio must not fall back to a possibly partial cache entry');
+
+  const cached = new Response('cached page', { status: 200 });
+  const fallback = loadServiceWorker({ fetch: () => Promise.reject(new Error('offline')), cached });
+  const page = await fallback.dispatch(new Request('https://example.test/index.html'));
+  assert.equal(page.status, 200);
+  assert.equal(fallback.matches.length, 1);
+
+  const cold = await offline.dispatch(new Request('https://example.test/index.html'));
+  assert.equal(cold.status, 504, 'no cache entry means an explicit 504, not a broken response');
 });
 
 // --- tools/bump.mjs and the CI workflow ------------------------------------

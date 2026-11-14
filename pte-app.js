@@ -1,5 +1,5 @@
 // PTE tab: browse, hands-free playback, and recall. Progress lives on the existing `ep` object.
-const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null };
+const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null, voiceError: '' };
 
 function pteState() { return PTELogic.ensureState(S, PTELogic.categories(PTE)); }
 function pteRead() { return (typeof PTE_READ !== 'undefined' && PTE_READ) ? PTE_READ : { types: [], articles: [] }; }
@@ -85,25 +85,34 @@ function pteSpeakOnce(text, tok, immediate) {
   return new Promise(resolve => {
     if (tok !== PTE_PLAY.tok || !PTE_PLAY.on || PTE_PLAY.paused) { resolve(PTE_PLAY.paused ? 'paused' : 'stopped'); return; }
     const spoken = String(text || '').trim();
-    if (!spoken || !window.speechSynthesis || typeof SpeechSynthesisUtterance !== 'function') {
-      const words = spoken ? spoken.split(/\s+/).length : 1;
-      pteLater(Math.min(8000, 700 + words * 280)).then(why => resolve(why === 'time' ? 'unsupported' : 'stopped'));
+    const status = (typeof VoiceCheck !== 'undefined')
+      ? VoiceCheck.status()
+      : (('speechSynthesis' in window) ? { ok: true, lang: 'en-AU' } : { ok: false, reason: 'no-synth' });
+    // No voice at all is a hard failure: say so once and stop the loop instead of
+    // pretending the sentence was read and moving on.
+    if (!spoken || !status.ok || !window.speechSynthesis || typeof SpeechSynthesisUtterance !== 'function') {
+      PTE_PLAY.voiceError = spoken ? (status.reason || 'no-synth') : 'empty';
+      if (typeof VoiceCheck !== 'undefined') VoiceCheck.notice(VoiceCheck.statusMessage(status));
+      resolve('fatal');
       return;
     }
     const gen = ++PTE_PLAY.gen;
     let settled = false;
     const finish = why => { if (settled || gen !== PTE_PLAY.gen) return; settled = true; resolve(why); };
     const u = new SpeechSynthesisUtterance(spoken);
-    const v = (typeof voice !== 'undefined') ? voice : null;
-    u.lang = v && v.lang ? v.lang : 'en-AU';
-    if (v) u.voice = v;
+    u.lang = status.lang || 'en-AU';
+    if (status.voice) u.voice = status.voice;
     u.rate = 0.92;
     PTE_PLAY.utt = u;
     u.onend = () => finish('end');
-    u.onerror = () => {
-      if (tok !== PTE_PLAY.tok || !PTE_PLAY.on) finish('stopped');
-      else if (PTE_PLAY.paused) finish('paused');
-      else finish('error');
+    u.onerror = event => {
+      if (tok !== PTE_PLAY.tok || !PTE_PLAY.on) { finish('stopped'); return; }
+      if (PTE_PLAY.paused) { finish('paused'); return; }
+      const error = (event && event.error) || 'error';
+      if (error === 'canceled' || error === 'interrupted') { finish('stopped'); return; }
+      PTE_PLAY.voiceError = error;
+      if (typeof VoiceCheck !== 'undefined') VoiceCheck.notice('⚠️ 朗读失败（' + error + '）。' + VoiceCheck.advice(status));
+      finish('fatal');
     };
     const words = spoken.split(/\s+/).length;
     pteLater(Math.min(25000, 2200 + words * 450)).then(why => {
@@ -115,7 +124,7 @@ function pteSpeakOnce(text, tok, immediate) {
       if (settled || tok !== PTE_PLAY.tok || !PTE_PLAY.on) return finish('stopped');
       if (PTE_PLAY.paused) return finish('paused');
       try { if (speechSynthesis.paused) speechSynthesis.resume(); speechSynthesis.speak(u); }
-      catch (err) { finish('error'); }
+      catch (err) { finish('fatal'); }
     };
     if (immediate) go();
     else {
@@ -134,6 +143,7 @@ async function pteSpeak(text, tok, immediate) {
     const why = await pteSpeakOnce(text, tok, imm);
     imm = false;
     if (why === 'paused') continue;
+    if (why === 'fatal') { PTE_PLAY.on = false; return 'stopped'; }
     return why;
   }
   return 'stopped';
@@ -224,11 +234,18 @@ async function pteLoop(tok) {
     },
     wait(ms) { return pteWait(ms, tok).then(ok => ok ? 'ok' : 'stopped'); }
   });
-  if (tok === PTE_PLAY.tok && PTE_PLAY.on) pteStop();
+  if (tok === PTE_PLAY.tok) pteStop();
 }
 
 function pteStart() {
   if (PTE_PLAY.on || !pteDriveItems().length) return;
+  if (typeof VoiceCheck !== 'undefined' && !VoiceCheck.englishOk()) {
+    const status = VoiceCheck.status();
+    PTE_PLAY.voiceError = status.reason || 'no-english';
+    VoiceCheck.notice(VoiceCheck.statusMessage(status));
+    pteRefresh(false);
+    return;
+  }
   if (typeof DV !== 'undefined' && DV.on && typeof dvPlay === 'function') dvPlay(false);
   if (window.studyStop) window.studyStop();
   if (typeof pickVoice === 'function') pickVoice();
@@ -281,9 +298,20 @@ function pteCatOptions(current) {
   const opt = (v, n) => `<option value="${esc(v)}" ${v === current ? 'selected' : ''}>${esc(v)} (${n})</option>`;
   return opt('全部', PTE.length) + cats.map(c => opt(c, PTE.filter(item => item.category === c).length)).join('');
 }
+const PTE_NO_VOICE_TIP = '本机没有可用的英文语音，无法朗读。点「🔊 声音自检」查看原因和安装办法。';
+function pteVoiceOff() { return typeof VoiceCheck !== 'undefined' && !VoiceCheck.englishOk(); }
+function pteSayAttr() { return pteVoiceOff() ? ` disabled title="${PTE_NO_VOICE_TIP}"` : ''; }
+function pteVoiceLine() {
+  if (typeof VoiceCheck === 'undefined') return '';
+  const status = VoiceCheck.status();
+  const cls = status.ok ? 'pte-voice' : 'pte-voice bad';
+  const failed = PTE_PLAY.voiceError ? ' 上次朗读失败：' + PTE_PLAY.voiceError + '。' : '';
+  const hint = status.ok ? '' : ' 点「🔊 声音自检」查看原因和安装办法。';
+  return `<p class="${cls}" id="pteVoiceStatus">${status.ok ? '🔊 ' : '⚠️ '}${esc(VoiceCheck.shortMessage(status) + failed + hint)}</p>`;
+}
 function pteModes(st) {
   const btn = (id, label) => `<button type="button" data-pte-act="mode" data-mode="${id}" class="${st.mode === id ? 'on' : ''}">${label}</button>`;
-  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('ra', 'RA')}${btn('di', 'DI')}${btn('swt', 'SWT')}${btn('drive', '开车')}</div>`;
+  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('ra', 'RA')}${btn('di', 'DI')}${btn('swt', 'SWT')}${btn('drive', '开车')}<button type="button" class="pte-voice-btn" data-pte-act="voice-check">🔊 声音自检</button></div>${pteVoiceLine()}`;
 }
 function slotOrder(slot, items, ord) {
   const key = slot + '|' + ord + '|' + items.map(item => item.id).join('.');
@@ -427,14 +455,14 @@ function viewWfd(st) {
       const on = !!st.wfdMem[item.id];
       const hidden = !!PTE_PLAY.mask[item.id];
       const body = hidden ? '<div class="pte-hidden">句子已隐藏</div>' : `<p class="pte-sent" lang="en">${esc(item.text)}</p>`;
-      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${item.sourceNumber} · ${esc(item.category)}</div>${body}<button type="button" class="btn alt half" data-pte-act="mask" data-id="${esc(item.id)}">${hidden ? '显示' : '隐藏'}</button><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}">🔊 听</button><button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button></article>`;
+      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${item.sourceNumber} · ${esc(item.category)}</div>${body}<button type="button" class="btn alt half" data-pte-act="mask" data-id="${esc(item.id)}">${hidden ? '显示' : '隐藏'}</button><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button></article>`;
     }).join('');
   }
   const item = order[PTE_PLAY.wfdIdx];
   if (!item) return head + '<div class="card"><p>这个分类里没有句子。</p></div>';
   const on = !!st.wfdMem[item.id];
   const answer = PTE_PLAY.revealed ? `${bigLine(item.text)}${diffBlock(item.text, PTE_PLAY.heard)}<button type="button" class="btn ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="wfd" data-id="${esc(item.id)}">${on ? '✓ 已掌握' : '标记已掌握'}</button><button type="button" class="btn" data-pte-act="wfd-next">下一句</button>` : `<textarea id="pteHeard" class="pte-box" placeholder="在这里写下听到的句子"></textarea><button type="button" class="btn" data-pte-act="check">对答案</button>`;
-  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.wfdIdx + 1}/${order.length} · 题号 ${item.sourceNumber} · ${esc(item.category)}</div><button type="button" class="btn" data-pte-act="play-wfd">播放</button>${answer}</div>`;
+  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.wfdIdx + 1}/${order.length} · 题号 ${item.sourceNumber} · ${esc(item.category)}</div><button type="button" class="btn" data-pte-act="play-wfd"${pteSayAttr()}>播放</button>${answer}</div>`;
 }
 function viewRs(st) {
   const list = pteRsList();
@@ -444,7 +472,7 @@ function viewRs(st) {
   if (st.rsView === 'list') {
     return head + PTELogic.byNumber(list).map(item => {
       const on = !!st.rsMem[item.id];
-      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}">🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button></article>`;
+      return `<article class="card ${on ? 'is-mem' : ''}"><div class="pte-kicker">题号 ${esc(item.sourceNumber)}</div><p class="pte-sent" lang="en">${esc(item.text)}</p><button type="button" class="btn alt half" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>🔊 听</button><button type="button" class="btn half ${on ? 'done' : 'alt'}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button></article>`;
     }).join('');
   }
   const order = slotOrder('rs', list, 'rand');
@@ -452,7 +480,7 @@ function viewRs(st) {
   if (!item) return head;
   const on = !!st.rsMem[item.id];
   const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-pte-act="mic" data-id="${esc(item.id)}">🎤 跟读评分</button>` : '';
-  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.rsIdx + 1}/${order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}">播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
+  return head + `<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.rsIdx + 1}/${order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
 }
 function articleCard(article) {
   const type = typeById(article.type);
@@ -515,7 +543,8 @@ function viewDrive(st) {
   const items = pteDriveItems();
   const min = PTELogic.PTE_REP_MIN, max = PTELogic.PTE_REP_MAX;
   const cat = st.set === 'wfd' ? `<label class="pte-lab">WFD 分类</label><select id="pteCat" class="sel">${pteCatOptions(st.wfdCat)}</select>` : '';
-  return `${pteModes(st)}<p class="pte-warn">开始后不用操作。正在读的英文会全屏大字显示。</p><label class="pte-lab">播放哪一套</label><select id="pteSet" class="sel"><option value="wfd" ${st.set === 'wfd' ? 'selected' : ''}>152 高频句（${PTE.length}）</option><option value="rs" ${st.set === 'rs' ? 'selected' : ''}>周二 50 句（${rs.length}）</option><option value="both" ${st.set === 'both' ? 'selected' : ''}>两套都播（${PTE.length + rs.length}）</option></select>${cat}<p class="pte-tip">默认只播一套。选「两套都播」才会放进同一轮，并且每轮重新打乱。</p><div class="pte-reps"><span>每句遍数</span><button type="button" id="pteRepDown" data-pte-act="rep" data-dir="-1" ${st.rep <= min ? 'disabled' : ''} aria-label="减少遍数">−</button><b id="pteRepVal">${st.rep}</b><button type="button" id="pteRepUp" data-pte-act="rep" data-dir="1" ${st.rep >= max ? 'disabled' : ''} aria-label="增加遍数">+</button></div><button type="button" class="btn pte-start" data-pte-act="start" ${items.length ? '' : 'disabled'}>开始播放</button><p class="pte-tip">每句至少 ${min} 遍，可以加到 ${max} 遍。每遍之间停约 3 秒。随机顺序，这一轮完了会重新打乱。请保持屏幕亮着。锁屏或切到后台时，语音可能会停。</p>`;
+  const canStart = items.length && !pteVoiceOff();
+  return `${pteModes(st)}<p class="pte-warn">开始后不用操作。正在读的英文会全屏大字显示。</p><label class="pte-lab">播放哪一套</label><select id="pteSet" class="sel"><option value="wfd" ${st.set === 'wfd' ? 'selected' : ''}>152 高频句（${PTE.length}）</option><option value="rs" ${st.set === 'rs' ? 'selected' : ''}>周二 50 句（${rs.length}）</option><option value="both" ${st.set === 'both' ? 'selected' : ''}>两套都播（${PTE.length + rs.length}）</option></select>${cat}<p class="pte-tip">默认只播一套。选「两套都播」才会放进同一轮，并且每轮重新打乱。</p><div class="pte-reps"><span>每句遍数</span><button type="button" id="pteRepDown" data-pte-act="rep" data-dir="-1" ${st.rep <= min ? 'disabled' : ''} aria-label="减少遍数">−</button><b id="pteRepVal">${st.rep}</b><button type="button" id="pteRepUp" data-pte-act="rep" data-dir="1" ${st.rep >= max ? 'disabled' : ''} aria-label="增加遍数">+</button></div><button type="button" class="btn pte-start" data-pte-act="start" ${canStart ? '' : 'disabled'}${pteVoiceOff() ? ` title="${PTE_NO_VOICE_TIP}"` : ''}>开始播放</button><p class="pte-tip">每句至少 ${min} 遍，可以加到 ${max} 遍。每遍之间停约 3 秒。随机顺序，这一轮完了会重新打乱。请保持屏幕亮着。锁屏或切到后台时，语音可能会停。</p>`;
 }
 function pteView() {
   const st = pteState();
@@ -538,8 +567,14 @@ function pteOpen() {
   if (!root) return;
   const st = pteState();
   root.innerHTML = `<div id="pteRoot" class="${st.mode === 'drive' ? 'pte-dark' : ''}">${pteView()}</div>`;
+  if (typeof VoiceCheck !== 'undefined') VoiceCheck.rescan(root);
 }
 window.pteOpen = pteOpen;
+if (typeof VoiceCheck !== 'undefined') {
+  VoiceCheck.onChange(() => {
+    if (!PTE_PLAY.on && $('tab-pte') && !$('tab-pte').hidden) pteRefresh(true);
+  });
+}
 function pteRefresh(keep) {
   const y = keep ? window.scrollY : 0;
   pteOpen();
@@ -563,6 +598,13 @@ function onPteClick(e) {
     return;
   }
   if (act === 'start') { pteStart(); return; }
+  if (act === 'voice-check') {
+    if (typeof VoiceCheck === 'undefined') return;
+    b.disabled = true;
+    PTE_PLAY.voiceError = '';
+    VoiceCheck.check().then(() => { if ($('tab-pte') && !$('tab-pte').hidden) pteRefresh(true); });
+    return;
+  }
   if (act === 'rep') { pteBumpRep(Number(b.dataset.dir) || 0); return; }
   if (act === 'wfd-view') { st.wfdView = b.dataset.view === 'list' ? 'list' : 'dict'; save(); pteRefresh(false); return; }
   if (act === 'rs-view') { st.rsView = b.dataset.view === 'list' ? 'list' : 'practice'; save(); pteRefresh(false); return; }
