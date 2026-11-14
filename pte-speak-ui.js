@@ -143,14 +143,33 @@ window.pteSpeakStop = function () {
   PTE_PLAY.swtLeft = null;
 };
 
+// Mistake-book rows for RA / SWT pin the item; the normal queue is untouched.
+function spFocusItem(source, pool) {
+  const f = PTE_PLAY.focus;
+  if (!f || f.source !== source) return null;
+  return (pool || []).find(item => item.id === f.id) || null;
+}
 function raCurrent(st) {
-  return slotOrder('ra', raPool(), speakBag(st, 'ra').ord)[PTE_PLAY.raIdx] || null;
+  return spFocusItem('ra', raPool()) || slotOrder('ra', raPool(), speakBag(st, 'ra').ord)[PTE_PLAY.raIdx] || null;
 }
 function diCurrent(st) {
   return slotOrder('di', diPool(), speakBag(st, 'di').ord)[PTE_PLAY.diIdx] || null;
 }
 function swtCurrent(st) {
-  return slotOrder('swt', swtPool(), speakBag(st, 'swt').ord)[PTE_PLAY.swtIdx] || null;
+  return spFocusItem('swt', swtPool()) || slotOrder('swt', swtPool(), speakBag(st, 'swt').ord)[PTE_PLAY.swtIdx] || null;
+}
+// The three self-assessment rows with 1 = the worst tier.
+function selfRowsFor(mode) {
+  if (mode === 'ra') return RA_SELF;
+  if (mode === 'swt') return SWT_SELF;
+  return null;
+}
+// A worst tier is a mistake; a fully filled assessment with no worst tier is a
+// good answer. "Not yet assessed" never counts.
+function selfMark(mode, id, rows, cur, value) {
+  if (typeof pteMark !== 'function' || !rows) return;
+  if (value === 1) { pteMark(mode, id, true); return; }
+  if (rows.every(row => (cur[row.k] || 0) >= 2)) pteMark(mode, id, false);
 }
 function selfRows(mode, id, rows) {
   const cur = speakBag(pteState(), mode).self[id] || {};
@@ -197,7 +216,7 @@ function raView(st) {
     body = `<button type="button" class="btn" data-sp-act="ra-go" data-phase="prep">开始（${PTELogic.RA_PREP_SEC} 秒准备）</button><p class="pte-tip">步骤：准备倒计时 → 朗读计时 → 听 TTS 范读 → 自评 → 下一段。</p>`;
   }
   const done = bag.done[item.id];
-  return `${head}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.raIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.sourceKind || '')} · 约 ${item.words} 词</div><h2>${esc(item.title)}</h2><p class="pte-badge">${esc(item.note)}</p><p class="pte-sent" lang="en" style="font-size:1.12rem;line-height:1.7">${esc(item.text)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="ra" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div><div class="card">${body}</div>`;
+  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('ra') : ''}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.raIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.sourceKind || '')} · 约 ${item.words} 词</div><h2>${esc(item.title)}</h2><p class="pte-badge">${esc(item.note)}</p><p class="pte-sent" lang="en" style="font-size:1.12rem;line-height:1.7">${esc(item.text)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="ra" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div><div class="card">${body}</div>`;
 }
 
 // --- Describe Image ---------------------------------------------------------
@@ -280,7 +299,7 @@ function swtView(st) {
   const timer = `<p id="pteSpClock" class="pte-clock">${esc(spClock(left))}</p><button type="button" class="btn" data-sp-act="swt-start">${running || left < PTELogic.SWT_SEC ? '重新计时 10 分钟' : '开始 10 分钟'}</button>${running ? '<button type="button" class="btn alt" data-sp-act="swt-pause">暂停</button>' : `<button type="button" class="btn alt" data-sp-act="swt-resume" ${left <= 0 ? 'disabled' : ''}>继续</button>`}<button type="button" class="btn alt" data-sp-act="swt-reset">归零</button>`;
   const done = bag.done[item.id];
   const compare = submitted ? `<div class="card"><b>对照参考答案</b><p class="pte-tip">近似对照：只比词形重合，不做语义评分，重合率低不代表内容错。</p><p lang="en">${esc(item.ref || '')}</p><p class="pte-badge">${esc(item.note)}</p>${typeof diffBlock === 'function' ? diffBlock(item.ref || '', answer) : ''}</div><div class="card"><p class="pte-tip">自评只看这三件事。</p>${selfRows('swt', item.id, SWT_SELF)}${nextButton('swt', '下一篇')}</div>` : '';
-  return `${head}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
+  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('swt') : ''}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
 }
 
 window.pteRaView = raView;
@@ -320,6 +339,9 @@ function onSpeakClick(e) {
     if (bag.self[id][key] === value) delete bag.self[id][key];
     else bag.self[id][key] = value;
     if (!Object.keys(bag.self[id]).length) delete bag.self[id];
+    const rows = selfRowsFor(mode);
+    const current = bag.self[id] || {};
+    if (rows) selfMark(mode, id, rows, current, value);
     save();
     pteRefresh(true);
     return;
@@ -337,6 +359,7 @@ function onSpeakClick(e) {
   }
   if (act === 'next') {
     const mode = b.dataset.mode === 'di' ? 'di' : (b.dataset.mode === 'swt' ? 'swt' : 'ra');
+    if (mode === 'ra' || mode === 'swt') PTE_PLAY.focus = null;
     spStop();
     advance(mode);
     if (mode === 'ra') PTE_PLAY.raPhase = 'idle';

@@ -211,8 +211,139 @@
     return st;
   }
 
+  // --- Mistake book ---------------------------------------------------------
+  // One flat top-level field on the `ep` state: S.miss = { 'source:id': row }.
+  // A row is { n: wrong count, last: last wrong date, due: review date,
+  // ok: consecutive good answers since the last wrong one }. A missing S.miss
+  // on an old save is normal and never touches the rest of the progress.
+  const MISS_SOURCES = ['quiz', 'wfd', 'rs', 'ra', 'swt'];
+  const MISS_LABEL = { quiz: 'Quiz', wfd: 'WFD', rs: 'RS', ra: 'RA', swt: 'SWT' };
+  const MISS_GAPS = [1, 3, 7];
+
+  function addDays(iso, days) {
+    if (!isDate(iso)) return iso;
+    const p = parts(iso);
+    // Local calendar arithmetic: never Date.UTC, so no timezone day shift.
+    return localDate(new Date(p[0], p[1] - 1, p[2] + (Math.round(Number(days)) || 0)));
+  }
+  function missKey(source, id) {
+    const s = String(source == null ? '' : source).trim().toLowerCase();
+    const v = String(id == null ? '' : id).trim();
+    if (!s || !v) return '';
+    return s + ':' + v;
+  }
+  function missSourceOf(key) {
+    const at = String(key == null ? '' : key).indexOf(':');
+    return at > 0 ? String(key).slice(0, at) : '';
+  }
+  function missIdOf(key) {
+    const at = String(key == null ? '' : key).indexOf(':');
+    return at > 0 ? String(key).slice(at + 1) : String(key == null ? '' : key);
+  }
+  // 1st wrong -> tomorrow, 2nd -> in 3 days, 3rd and later -> in 7 days.
+  function missGap(n) {
+    const k = Math.round(Number(n) || 0);
+    if (k <= 1) return MISS_GAPS[0];
+    if (k === 2) return MISS_GAPS[1];
+    return MISS_GAPS[2];
+  }
+  function missDue(n, from) {
+    const day = isDate(from) ? from : localDate(new Date());
+    return addDays(day, missGap(n));
+  }
+  function missEnsure(S) {
+    if (!S || typeof S !== 'object' || Array.isArray(S)) return {};
+    if (!S.miss || typeof S.miss !== 'object' || Array.isArray(S.miss)) S.miss = {};
+    const bag = S.miss;
+    Object.keys(bag).forEach(key => {
+      const row = bag[key];
+      if (!row || typeof row !== 'object' || Array.isArray(row)) { delete bag[key]; return; }
+      const n = Math.round(Number(row.n));
+      if (!(n > 0) || !isDate(row.last) || !isDate(row.due)) { delete bag[key]; return; }
+      const ok = Math.round(Number(row.ok));
+      bag[key] = { n: n, last: row.last, due: row.due, ok: ok > 0 ? ok : 0 };
+    });
+    return bag;
+  }
+  function missRecord(S, key, date) {
+    const k = String(key == null ? '' : key);
+    if (!k) return null;
+    const bag = missEnsure(S);
+    const old = bag[k];
+    const day = isDate(date) ? date : localDate(new Date());
+    const n = old && old.n > 0 ? old.n + 1 : 1;
+    const row = { n: n, last: day, due: missDue(n, day), ok: 0 };
+    bag[k] = row;
+    return { key: k, n: row.n, last: row.last, due: row.due, ok: 0 };
+  }
+  // A good answer on an item that is in the book. Two in a row removes it.
+  function missOk(S, key) {
+    const k = String(key == null ? '' : key);
+    const bag = missEnsure(S);
+    const row = bag[k];
+    if (!row) return '';
+    row.ok = (row.ok || 0) + 1;
+    if (row.ok >= 2) {
+      delete bag[k];
+      return 'resolved';
+    }
+    return 'kept';
+  }
+  function missResolve(S, key) {
+    const k = String(key == null ? '' : key);
+    const bag = missEnsure(S);
+    if (!bag[k]) return false;
+    delete bag[k];
+    return true;
+  }
+  function missRows(S) {
+    const bag = missEnsure(S);
+    return Object.keys(bag).map(key => {
+      const row = bag[key];
+      return {
+        key: key,
+        source: missSourceOf(key),
+        id: missIdOf(key),
+        n: row.n,
+        last: row.last,
+        due: row.due,
+        ok: row.ok || 0
+      };
+    });
+  }
+  function missOrder(a, b) {
+    if (a.due !== b.due) return a.due < b.due ? -1 : 1;
+    return String(a.key).localeCompare(String(b.key));
+  }
+  // Due today or earlier, oldest due first.
+  function missingToday(S, date) {
+    const day = isDate(date) ? date : localDate(new Date());
+    return missRows(S).filter(row => row.due <= day).sort(missOrder);
+  }
+  function missOverview(S, date) {
+    const rows = missRows(S).sort(missOrder);
+    const dueRows = missingToday(S, date);
+    const groups = {};
+    MISS_SOURCES.forEach(source => { groups[source] = 0; });
+    rows.forEach(row => { if (groups[row.source] != null) groups[row.source] += 1; });
+    return { total: rows.length, due: dueRows.length, groups: groups, rows: rows, dueRows: dueRows };
+  }
+
   root.StudyPlan = {
     NEW_PER_DAY: NEW_PER_DAY,
+    MISS_SOURCES: MISS_SOURCES,
+    MISS_LABEL: MISS_LABEL,
+    addDays: addDays,
+    missKey: missKey,
+    missGap: missGap,
+    missDue: missDue,
+    missEnsure: missEnsure,
+    missRecord: missRecord,
+    missOk: missOk,
+    missResolve: missResolve,
+    missRows: missRows,
+    missingToday: missingToday,
+    missOverview: missOverview,
     localDate: localDate,
     heading: heading,
     dayDiff: dayDiff,
