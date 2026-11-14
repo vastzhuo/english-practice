@@ -107,3 +107,13 @@ details.syn .ex,details.syn p{overflow-wrap:anywhere}
 textarea.study-box{min-height:140px}
 .study-next{font-size:1.45rem;padding:22px;background:#1f7a3a}
 #studyOverlay .btn.alt{background:#1e293b;color:#fff}
+/* Shared voice check + media failure notice (voice-check.js). */
+.voice-notice{position:fixed;left:12px;right:12px;bottom:calc(74px + env(safe-area-inset-bottom));z-index:120;background:#5a1a1a;color:#ffd6d6;padding:12px 14px;border-radius:12px;font-weight:700;font-size:.9rem;line-height:1.35;box-shadow:0 6px 24px #0004}
+.voice-notice[hidden]{display:none !important}
+.pte-sub{flex-wrap:wrap}
+.pte-sub .pte-voice-btn{flex:0 0 100%;background:#fff3cd;color:#7a4d00}
+.pte-voice{margin:-4px 0 10px;color:#666;font-size:.88rem;line-height:1.35}
+.pte-voice.bad{background:#5a1a1a;color:#ffd6d6;padding:8px 10px;border-radius:10px;font-weight:700}
+#tab-pte .pte-dark .pte-voice{color:#eee}
+#tab-pte .pte-dark .pte-voice.bad{color:#ffd6d6}
+.audio-fail{margin-top:8px;text-align:left}

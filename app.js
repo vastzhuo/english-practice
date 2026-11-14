@@ -19,9 +19,9 @@ function markLearned(t){S.lt[TK]=S.lt[TK]||[];if(!S.lt[TK].includes(t))S.lt[TK].
 let page=0;const PG=10;
 const shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 function streak(){let n=0,d=new Date(today);if(!S.days[key(d)])d.setDate(d.getDate()-1);while(S.days[key(d)]){n++;d.setDate(d.getDate()-1)}return n}
-let voice=null;function pickVoice(){const v=speechSynthesis.getVoices();voice=v.find(x=>/en[-_]AU/i.test(x.lang))||v.find(x=>/en[-_]GB/i.test(x.lang))||v.find(x=>/en[-_]US/i.test(x.lang))||v.find(x=>/^en/i.test(x.lang))||null}
-if('speechSynthesis'in window){pickVoice();speechSynthesis.onvoiceschanged=pickVoice}
-function say(t){if(!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=voice?voice.lang:'en-AU';if(voice)u.voice=voice;u.rate=S.slow?.65:.95;speechSynthesis.speak(u)}
+let voice=null;function pickVoice(){if(typeof VoiceCheck!=='undefined'&&'speechSynthesis'in window){voice=VoiceCheck.pickEnglishVoice(speechSynthesis.getVoices());return voice}const v=speechSynthesis.getVoices();voice=v.find(x=>/en[-_]AU/i.test(x.lang))||v.find(x=>/en[-_]GB/i.test(x.lang))||v.find(x=>/en[-_]US/i.test(x.lang))||v.find(x=>/^en/i.test(x.lang))||null}
+if('speechSynthesis'in window){pickVoice();speechSynthesis.onvoiceschanged=pickVoice;if(typeof VoiceCheck!=='undefined')VoiceCheck.onChange(pickVoice)}
+function say(t){if('speechSynthesis'in window&&typeof VoiceCheck!=='undefined'){VoiceCheck.say(t,{rate:S.slow?.65:.95});return}if(!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=voice?voice.lang:'en-AU';if(voice)u.voice=voice;u.rate=S.slow?.65:.95;speechSynthesis.speak(u)}
 const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
 const spk=t=>`<button class="spk" data-say="${esc(t)}">🔊</button>`+(SR?`<button class="spk" data-rec="${esc(t)}">🎤</button>`:'');
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9' ]+/g,' ').split(/\s+/).filter(Boolean);
@@ -116,4 +116,4 @@ function go(t){if(window.studyClose)window.studyClose();document.querySelectorAl
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
 learn();badge();
 if('serviceWorker'in navigator){let rl=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!rl){rl=true;location.reload()}});
- navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{const go=w=>{if(w)w.postMessage({type:'SKIP_WAITING'})};go(r.waiting);r.addEventListener('updatefound',()=>{const w=r.installing;if(w)w.addEventListener('statechange',()=>{if(w.state==='installed')go(r.waiting)})});r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}
+ navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{const go=w=>{if(w&&w.postMessage)w.postMessage({type:'SKIP_WAITING'})};go(r.waiting);r.addEventListener('updatefound',()=>{const w=r.installing;if(w)w.addEventListener('statechange',()=>{if(w.state==='installed')go(r.waiting||w)})});r.update();document.addEventListener('visibilitychange',()=>{if(!document.hidden)r.update()})})}

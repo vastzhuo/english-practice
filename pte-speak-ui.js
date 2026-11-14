@@ -190,7 +190,7 @@ function raView(st) {
   } else if (phase === 'read') {
     body = `${clockLine()}<p class="pte-tip">朗读中。到 00:00 自动结束，然后可以听范读。</p><button type="button" class="btn alt" data-sp-act="ra-go" data-phase="listen">提前结束朗读</button>`;
   } else if (phase === 'listen') {
-    body = `<button type="button" class="btn" data-sp-act="say" data-text="${esc(item.text)}">🔊 播放 TTS 范读</button><p class="pte-tip">先自己读，再听范读，对比停连和重音。</p><button type="button" class="btn alt" data-sp-act="ra-go" data-phase="assess">听完，进入自评</button>`;
+    body = `<button type="button" class="btn" data-sp-act="say" data-text="${esc(item.text)}"${typeof pteSayAttr === 'function' ? pteSayAttr() : ''}>🔊 播放 TTS 范读</button><p class="pte-tip">先自己读，再听范读，对比停连和重音。</p><button type="button" class="btn alt" data-sp-act="ra-go" data-phase="assess">听完，进入自评</button>`;
   } else if (phase === 'assess') {
     body = `<p class="pte-tip">自评只看这三件事，按自己的实际表现点。</p>${selfRows('ra', item.id, RA_SELF)}${Object.keys(self).length ? '<p class="pte-badge">已记录自评</p>' : ''}${nextButton('ra', '下一段')}`;
   } else {
@@ -304,7 +304,11 @@ function onSpeakClick(e) {
   }
   if (act === 'ra-go') { raGo(b.dataset.phase); return; }
   if (act === 'di-go') { diGo(b.dataset.phase); return; }
-  if (act === 'say') { if (typeof say === 'function') say(b.dataset.text || ''); return; }
+  if (act === 'say') {
+    if (typeof VoiceCheck !== 'undefined' && !VoiceCheck.englishOk()) { VoiceCheck.notice(VoiceCheck.statusMessage(VoiceCheck.status())); return; }
+    if (typeof say === 'function') say(b.dataset.text || '');
+    return;
+  }
   if (act === 'self') {
     const mode = b.dataset.mode;
     const bag = speakBag(st, mode);
