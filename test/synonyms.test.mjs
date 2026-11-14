@@ -12,6 +12,7 @@ const root = path.resolve(import.meta.dirname, '..');
 //   content/synonym-batch-2 — 25 semantic groups holding 96 headwords
 //   content/synonym-batch-3 — 25 semantic groups holding 100 headwords
 //   content/synonym-batch-4 — 25 semantic groups holding 100 headwords
+//   content/synonym-batch-5 — 25 semantic groups holding 100 headwords
 // GROUPS_BEFORE is the count of groups that existed before batch 1.
 const GROUPS_BEFORE = 439;
 const BATCH1 = [
@@ -122,12 +123,41 @@ const BATCH4 = [
   ['intern', 'internship', 'probation', 'vocational'],
   ['choir', 'orchestra', 'concert', 'flute']
 ];
-const BATCHES = [BATCH1, BATCH2, BATCH3, BATCH4];
+const BATCH5 = [
+  ['fry', 'broil', 'simmer', 'poach'],
+  ['grate', 'mince', 'mash', 'peel'],
+  ['mustard', 'ketchup', 'mayonnaise', 'vinegar'],
+  ['basil', 'mint', 'coriander', 'chives'],
+  ['cod', 'mackerel', 'salmon', 'trout'],
+  ['cheek', 'chin', 'waist', 'thigh'],
+  ['grin', 'wink', 'nod', 'shrug'],
+  ['sneeze', 'snore', 'sigh', 'yawn'],
+  ['measles', 'mumps', 'chickenpox', 'eczema'],
+  ['ambulance', 'inhaler', 'plaster', 'tweezers'],
+  ['eagle', 'hawk', 'owl', 'vulture'],
+  ['ant', 'bee', 'wasp', 'moth'],
+  ['buzz', 'hoot', 'croak', 'bleat'],
+  ['donkey', 'goose', 'turkey', 'pig'],
+  ['cliff', 'glacier', 'geyser', 'oasis'],
+  ['bracelet', 'necklace', 'earrings', 'cufflinks'],
+  ['wallet', 'purse', 'handbag', 'briefcase'],
+  ['lipstick', 'mascara', 'eyeliner', 'eyeshadow'],
+  ['jumper', 'blouse', 'tights', 'leggings'],
+  ['zip', 'buckle', 'cuff', 'pocket'],
+  ['sofa', 'couch', 'chair', 'armchair'],
+  ['broom', 'duster', 'dustpan', 'cloth'],
+  ['overtake', 'seatbelt', 'headlight', 'wipers'],
+  ['stapler', 'scanner', 'projector', 'photocopier'],
+  ['clipboard', 'notepad', 'highlighter', 'eraser']
+];
+
+const BATCHES = [BATCH1, BATCH2, BATCH3, BATCH4, BATCH5];
 const BATCH1_WORDS = BATCH1.flat();
 const BATCH2_WORDS = BATCH2.flat();
 const BATCH3_WORDS = BATCH3.flat();
 const BATCH4_WORDS = BATCH4.flat();
-const BATCH_WORDS = [BATCH1_WORDS, BATCH2_WORDS, BATCH3_WORDS, BATCH4_WORDS];
+const BATCH5_WORDS = BATCH5.flat();
+const BATCH_WORDS = [BATCH1_WORDS, BATCH2_WORDS, BATCH3_WORDS, BATCH4_WORDS, BATCH5_WORDS];
 const BATCH_SETS = BATCH_WORDS.map(words => new Set(words));
 
 function load() {
@@ -145,7 +175,7 @@ const bank = new Set(WORDS.map(word => String(word.w).trim().toLowerCase()));
 
 // A group belongs to a batch when all of its items are that batch's headwords.
 const batchGroups = BATCH_SETS.map(set => SYNONYMS.groups.filter(group => group.items.every(item => set.has(String(item.w).toLowerCase()))));
-const [batch1Groups, batch2Groups, batch3Groups, batch4Groups] = batchGroups;
+const [batch1Groups, batch2Groups, batch3Groups, batch4Groups, batch5Groups] = batchGroups;
 const allBatchGroups = batchGroups.flat();
 
 // A sentence counts as using its headword when the headword appears as a whole
@@ -162,20 +192,22 @@ function checkComposition(groups, expected, label) {
   assert.deepEqual(actual, expected, label + ' group composition/order does not match the definition');
 }
 
-test('the four batches add exactly 100 groups and 393 headwords on top of the earlier ones', () => {
-  assert.equal(SYNONYMS.groups.length, GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length + BATCH4.length);
+test('the five batches add exactly 125 groups and 493 headwords on top of the earlier ones', () => {
+  assert.equal(SYNONYMS.groups.length, GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length + BATCH4.length + BATCH5.length);
   assert.equal(batch1Groups.length, BATCH1.length);
   assert.equal(batch2Groups.length, BATCH2.length);
   assert.equal(batch3Groups.length, BATCH3.length);
   assert.equal(batch4Groups.length, BATCH4.length);
+  assert.equal(batch5Groups.length, BATCH5.length);
   assert.equal(BATCH1_WORDS.length, 97);
   assert.equal(BATCH2_WORDS.length, 96);
   assert.equal(BATCH3_WORDS.length, 100);
   assert.equal(BATCH4_WORDS.length, 100);
+  assert.equal(BATCH5_WORDS.length, 100);
   BATCH_WORDS.forEach((words, i) => {
     assert.equal(new Set(words).size, words.length, 'batch ' + (i + 1) + ' repeats a headword');
   });
-  // the four batches share no headword
+  // the five batches share no headword
   const seen = new Set();
   for (const words of BATCH_WORDS) {
     for (const word of words) {
@@ -183,13 +215,14 @@ test('the four batches add exactly 100 groups and 393 headwords on top of the ea
       seen.add(word);
     }
   }
-  assert.equal(seen.size, 393);
+  assert.equal(seen.size, 493);
   const itemCount = SYNONYMS.groups.reduce((sum, group) => sum + group.items.length, 0);
-  assert.equal(itemCount, 1080 + 97 + 96 + 100 + 100);
+  assert.equal(itemCount, 1080 + 97 + 96 + 100 + 100 + 100);
   assert.equal(batch1Groups.reduce((sum, group) => sum + group.items.length, 0), 97);
   assert.equal(batch2Groups.reduce((sum, group) => sum + group.items.length, 0), 96);
   assert.equal(batch3Groups.reduce((sum, group) => sum + group.items.length, 0), 100);
   assert.equal(batch4Groups.reduce((sum, group) => sum + group.items.length, 0), 100);
+  assert.equal(batch5Groups.reduce((sum, group) => sum + group.items.length, 0), 100);
   // the array only grows at the end; earlier groups are untouched
   assert.equal(SYNONYMS.groups[0].items[0].w, 'glance');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE - 1].items[0].w, 'crossing');
@@ -199,7 +232,8 @@ test('the four batches add exactly 100 groups and 393 headwords on top of the ea
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length].items[0].w, 'predator');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length - 1].items[0].w, 'corpus');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length].items[0].w, 'colander');
-  assert.equal(SYNONYMS.groups[SYNONYMS.groups.length - 1].items[0].w, 'choir');
+  assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length + BATCH4.length].items[0].w, 'fry');
+  assert.equal(SYNONYMS.groups[SYNONYMS.groups.length - 1].items[0].w, 'clipboard');
 });
 
 test('every batch group is a real comparison with its own one-line rule', () => {
@@ -209,11 +243,14 @@ test('every batch group is a real comparison with its own one-line rule', () => 
     assert.ok(typeof group.line === 'string' && group.line.trim().length >= 10, group.line);
     assert.ok(/[\u3400-\u9fff]/.test(group.line), group.line);
   }
-  // batches 1 and 3 keep their tighter 3-4 word shape; batch 4 is four words each
+  // batches 1 and 3 keep their tighter 3-4 word shape; batches 4 and 5 are four words each
   for (const group of [...batch1Groups, ...batch3Groups]) {
     assert.ok(group.items.length >= 3 && group.items.length <= 4, group.items.map(item => item.w).join(','));
   }
   for (const group of batch4Groups) {
+    assert.equal(group.items.length, 4, group.items.map(item => item.w).join(','));
+  }
+  for (const group of batch5Groups) {
     assert.equal(group.items.length, 4, group.items.map(item => item.w).join(','));
   }
   // group composition must match the batch definition, order included
@@ -221,6 +258,7 @@ test('every batch group is a real comparison with its own one-line rule', () => 
   checkComposition(batch2Groups, BATCH2, 'batch 2');
   checkComposition(batch3Groups, BATCH3, 'batch 3');
   checkComposition(batch4Groups, BATCH4, 'batch 4');
+  checkComposition(batch5Groups, BATCH5, 'batch 5');
 });
 
 test('every batch item carries all seven fields, non-empty and in the right script', () => {
@@ -270,7 +308,7 @@ test('no headword is duplicated anywhere in groups or solos', () => {
     assert.equal(seen.has(key), false, 'duplicate headword: ' + key);
     seen.add(key);
   }
-  assert.equal(seen.size, 1080 + 97 + 96 + 100 + 100 + SYNONYMS.solos.length);
+  assert.equal(seen.size, 1080 + 97 + 96 + 100 + 100 + 100 + SYNONYMS.solos.length);
 });
 
 test('every example sentence actually uses its headword', () => {
@@ -303,5 +341,9 @@ test('every example sentence actually uses its headword', () => {
   assert.equal(containsHeadword('The orchestra tuned up.', 'orchestra'), true);
   assert.equal(containsHeadword('A redwood can grow very tall.', 'redwood'), true);
   assert.equal(containsHeadword('The dogs bark all night.', 'bark'), true);
+  // batch-5 shapes: plural accessories and a compound-free negative case
+  assert.equal(containsHeadword('She wore small gold earrings.', 'earrings'), true);
+  assert.equal(containsHeadword('The wipers cleared the screen.', 'wipers'), true);
+  assert.equal(containsHeadword('One headlight was broken.', 'headlights'), false);
   assert.equal(containsHeadword('She graduated from university.', 'vet'), false);
 });
