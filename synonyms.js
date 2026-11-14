@@ -2402,6 +2402,156 @@
       { w: 'lexical', zh: '词汇的', scene: '跟词本身和词义有关：lexical meaning、lexical choice。', tone: '中性偏专业', col: 'lexical meaning, lexical choice', en: 'Lexical choice shapes the tone of a whole text.', cn: '词汇选择决定了整篇文章的语气。' },
       { w: 'verbal', zh: '口头的；言语的', scene: '用嘴说出来的，不是写下来的；verbal agreement 是口头约定。', tone: '中性偏正式', col: 'a verbal agreement, verbal skills', en: 'A verbal agreement is hard to prove in court.', cn: '口头约定在法庭上很难证明。' }
     ]},
+    { line: '厨房里的四件小工具：colander 只用来沥水，ladle 是有长柄的深勺，peeler 削薄皮，sieve 筛细粉；都在"把东西分开或弄细"，但各管一件事。', items: [
+      { w: 'colander', zh: '滤水漏盆', scene: '洗完菜、煮完面要把水倒掉时用，盆底全是小孔，水走菜留。', tone: '中性，厨房和食谱用语', col: 'drain in a colander, rinse in a colander', en: 'Drain the pasta in a colander.', cn: '用漏盆把意面的水沥掉。' },
+      { w: 'ladle', zh: '长柄汤勺', scene: '从深锅里把汤、粥、酱舀出来，勺头深、柄长，不会烫手。', tone: '中性', col: 'a soup ladle, ladle out the soup', en: 'Ladle the soup into warm bowls.', cn: '用汤勺把汤舀进热过的碗里。' },
+      { w: 'peeler', zh: '削皮器', scene: '削土豆、苹果、黄瓜的薄皮，比刀快，也不会削掉太多果肉。', tone: '中性', col: 'a potato peeler, use a peeler', en: 'The peeler takes the skin off apples.', cn: '削皮器能把苹果皮削下来。' },
+      { w: 'sieve', zh: '细筛', scene: '筛面粉、糖粉，把结块打散，让粉更细更均匀；比 colander 孔细得多。', tone: '中性', col: 'a fine sieve, sieve the flour', en: 'Sieve the flour into a large bowl.', cn: '把面粉筛进大碗里。' }
+    ]},
+    { line: '修东西的四件基本工具：hammer 敲钉子，screwdriver 旋螺丝，pliers 夹住和弯折金属丝，drill 打孔；动作分别是敲、旋、夹、钻。', items: [
+      { w: 'hammer', zh: '锤子', scene: '把钉子敲进木头，或把旧零件敲松；用力方向是直直往下。', tone: '中性', col: 'hammer a nail, a claw hammer', en: 'Hammer the nail into the wood.', cn: '把钉子敲进木头里。' },
+      { w: 'screwdriver', zh: '螺丝刀', scene: '旋进或旋出带槽的螺丝，靠转动而不是敲打；分一字和十字。', tone: '中性', col: 'a Phillips screwdriver, tighten with a screwdriver', en: 'Use a screwdriver to open the panel.', cn: '用螺丝刀把面板打开。' },
+      { w: 'pliers', zh: '钳子', scene: '夹紧、弯折、拔出细金属件；两只手一起用，一只固定一只使劲。', tone: '中性', col: 'a pair of pliers, grip it with pliers', en: 'Pliers are useful for bending wire.', cn: '钳子弯铁丝很好用。' },
+      { w: 'drill', zh: '钻；电钻', scene: '在木头、墙上打孔；另有"操练、演习"的意思，看上下文。', tone: '中性', col: 'a power drill, drill a hole', en: 'Drill a hole in the shelf first.', cn: '先在架子上打个孔。' }
+    ]},
+    { line: '四种热带水果：guava 番石榴香气冲、籽硬，lychees 荔枝壳糙肉甜，papaya 木瓜肉软、中间一窝黑籽，starfruit 杨桃横切是五角星。', items: [
+      { w: 'guava', zh: '番石榴', scene: '皮薄、香味很冲，里层全是小硬籽，通常连皮吃。', tone: '中性', col: 'a ripe guava, guava juice', en: 'Guava is full of small hard seeds.', cn: '番石榴里全是小硬籽。' },
+      { w: 'lychees', zh: '荔枝', scene: '红色糙壳，剥开是半透明果肉，中间一颗深色核，夏天最多。', tone: '中性', col: 'a bunch of lychees, sweet lychees', en: 'Lychees grow in the warm south.', cn: '荔枝长在温暖的南方。' },
+      { w: 'papaya', zh: '木瓜', scene: '皮薄肉软，切开中间一窝黑籽，挖掉籽就能吃。', tone: '中性', col: 'a ripe papaya, papaya salad', en: 'Papaya is sweet and soft inside.', cn: '木瓜里面又甜又软。' },
+      { w: 'starfruit', zh: '杨桃', scene: '横切面正好是个五角星，皮和肉都能吃，味道偏酸。', tone: '中性', col: 'a slice of starfruit, starfruit juice', en: 'Starfruit slices look like little stars.', cn: '杨桃片看起来像一颗颗小星星。' }
+    ]},
+    { line: '坚果与干果四个词：hazelnut 榛子是硬壳小坚果，walnut 核桃仁分两半像小脑袋，peanut 花生其实长在地下，raisin 葡萄干是晒干的葡萄。', items: [
+      { w: 'hazelnut', zh: '榛子', scene: '小而圆的硬壳坚果，常磨碎做巧克力酱或撒在蛋糕上。', tone: '中性', col: 'shelled hazelnuts, hazelnut spread', en: 'A hazelnut is a hard-shelled nut.', cn: '榛子是一种硬壳坚果。' },
+      { w: 'walnut', zh: '核桃', scene: '壳厚，敲开是两半像小脑袋的仁，常入沙拉和面包。', tone: '中性', col: 'shelled walnuts, walnut oil', en: 'The walnut shell is very hard.', cn: '核桃壳非常硬。' },
+      { w: 'peanut', zh: '花生', scene: '豆科植物，果实长在土里；常炒熟吃或做成花生酱。', tone: '中性', col: 'roasted peanuts, peanut butter', en: 'Peanut butter is a cheap source of protein.', cn: '花生酱是便宜的蛋白质来源。' },
+      { w: 'raisin', zh: '葡萄干', scene: '葡萄晒干或烘干，甜度变高、口感变韧，常用于蛋糕和麦片。', tone: '中性', col: 'a handful of raisins, raisin bread', en: 'A raisin is simply a dried grape.', cn: '葡萄干其实就是晒干的葡萄。' }
+    ]},
+    { line: '四种动物叫声各用各的动词：bark 狗吠，meow 猫喵，quack 鸭嘎，purr 猫舒服时的呼噜声；同一个"叫"，英文绝不混用。', items: [
+      { w: 'bark', zh: '犬吠', scene: '狗一阵一阵地叫；也说人厉声喊话。注意 bark 还有"树皮"的意思。', tone: '中性', col: 'bark at strangers, a sharp bark', en: 'The dog barks at every passer-by.', cn: '那狗对着每个路过的人吠。' },
+      { w: 'meow', zh: '喵喵叫', scene: '猫的叫声，既能作动词也能作名词。', tone: '口语常用', col: 'the cat meows, a loud meow', en: 'The kitten meows when it is hungry.', cn: '小猫饿了就喵喵叫。' },
+      { w: 'quack', zh: '嘎嘎叫', scene: '鸭子的叫声；quack 还指冒充内行的"江湖医生"，是贬义。', tone: '中性', col: 'the duck quacks, a loud quack', en: 'The duck quacks loudly by the pond.', cn: '鸭子在池塘边嘎嘎叫。' },
+      { w: 'purr', zh: '发出呼噜声', scene: '猫舒服时喉咙里的低沉振动声；也说机器平稳地响。', tone: '中性', col: 'the cat purrs, a low purr', en: 'The cat purrs on my lap.', cn: '猫在我腿上打呼噜。' }
+    ]},
+    { line: '四种常见蔬菜：asparagus 芦笋吃嫩茎，broccoli 西兰花吃绿色花球，cauliflower 菜花是同款白花球，lettuce 生菜吃叶子、基本生吃。', items: [
+      { w: 'asparagus', zh: '芦笋', scene: '一根根绿嫩茎，头部紧实，下半段老皮要削掉。', tone: '中性', col: 'fresh asparagus, grilled asparagus', en: 'Asparagus takes three years to grow properly.', cn: '芦笋要长三年才长得好。' },
+      { w: 'broccoli', zh: '西兰花', scene: '一棵绿色花球，切成小朵焯水或快炒，久煮会发黄。', tone: '中性', col: 'a head of broccoli, steamed broccoli', en: 'Steam the broccoli for four minutes.', cn: '把西兰花蒸四分钟。' },
+      { w: 'cauliflower', zh: '菜花；花椰菜', scene: '结构和西兰花一样，但花球是乳白色，也能整颗进烤箱。', tone: '中性', col: 'a cauliflower head, roasted cauliflower', en: 'Cauliflower can be roasted whole.', cn: '菜花可以整颗烤。' },
+      { w: 'lettuce', zh: '生菜', scene: '叶子薄而脆，几乎不加热，做沙拉或夹在汉堡里。', tone: '中性', col: 'crisp lettuce, a lettuce leaf', en: 'Wash the lettuce before serving.', cn: '上桌前把生菜洗干净。' }
+    ]},
+    { line: '四种香草调味料：fennel 茴香带八角似的香，garlic 蒜辛辣、要爆香，parsley 欧芹清新、常最后撒，thyme 百里香适合烤肉和慢炖。', items: [
+      { w: 'fennel', zh: '茴香', scene: '球茎可切片生吃，籽和叶子有八角味，常配鱼和猪肉。', tone: '中性', col: 'fennel seeds, sliced fennel', en: 'Slice the fennel and add it to the salad.', cn: '把茴香切片加进沙拉。' },
+      { w: 'garlic', zh: '蒜', scene: '一瓣一瓣剥开，压碎或切末，油热后先下锅爆香。', tone: '中性', col: 'a clove of garlic, crushed garlic', en: 'Add garlic at the start of cooking.', cn: '做菜一开始就放蒜。' },
+      { w: 'parsley', zh: '欧芹', scene: '平叶绿香草，味道清新，一般出锅前或上桌时撒。', tone: '中性', col: 'fresh parsley, chopped parsley', en: 'Chop the parsley and sprinkle it over the fish.', cn: '把欧芹切碎撒在鱼上。' },
+      { w: 'thyme', zh: '百里香', scene: '细小叶片长在细枝上，耐煮，适合烤鸡、炖汤和烤肉。', tone: '中性', col: 'a sprig of thyme, dried thyme', en: 'Thyme grows well in dry sunny soil.', cn: '百里香在干燥向阳的土里长得好。' }
+    ]},
+    { line: '四种医生和医技人员：physician 内科医生，surgeon 外科医生，dietitian 营养师，vet 兽医；名字相近，管的事完全不同。', items: [
+      { w: 'physician', zh: '内科医生', scene: '看内科病、开药、不做手术的医生，美式英语里更常用。', tone: '中性偏正式', col: 'a family physician, consult a physician', en: 'The physician checked my blood pressure.', cn: '内科医生给我量了血压。' },
+      { w: 'surgeon', zh: '外科医生', scene: '进手术室动刀的医生，专长是手术。', tone: '中性', col: 'a heart surgeon, a surgeon performs the operation', en: 'The surgeon operated on her knee.', cn: '外科医生给她的膝盖做了手术。' },
+      { w: 'dietitian', zh: '营养师', scene: '给病人或食堂设计饮食方案的专业人员，注册后有正式资格。', tone: '中性偏专业', col: 'a registered dietitian, consult a dietitian', en: 'A dietitian planned the hospital menu.', cn: '营养师为医院设计了菜单。' },
+      { w: 'vet', zh: '兽医', scene: '给动物看病的医生；口语里也是 veteran（老兵）的缩写。', tone: '口语常用', col: 'take the dog to the vet, a vet clinic', en: 'The vet gave the puppy a jab.', cn: '兽医给小狗打了一针。' }
+    ]},
+    { line: '药的四种形态：pill 泛指吞下去的药丸药片，capsule 是硬或软的胶囊，syrup 是甜而稠的药水，ointment 是抹在皮肤上的药膏；吃法完全不同。', items: [
+      { w: 'pill', zh: '药丸；药片', scene: '泛指要吞下去的小药片；口语里 the pill 也指避孕药。', tone: '口语常用', col: 'take a pill, a sleeping pill', en: 'Take one pill after breakfast.', cn: '早饭后吃一片药。' },
+      { w: 'capsule', zh: '胶囊', scene: '外面一层可溶的壳，里面是粉或油，一般整颗吞下。', tone: '中性', col: 'swallow a capsule, a gel capsule', en: 'Swallow the capsule with water.', cn: '用水把胶囊吞下去。' },
+      { w: 'syrup', zh: '糖浆；药水', scene: '甜而稠的药水，多用来止咳；也是做甜品的糖浆。', tone: '中性', col: 'cough syrup, a spoonful of syrup', en: 'The cough syrup tastes awful.', cn: '止咳糖浆味道很糟。' },
+      { w: 'ointment', zh: '药膏', scene: '抹在皮肤上的油性软膏，不是吃的，用量一般很少。', tone: '中性偏专业', col: 'apply ointment, a tube of ointment', en: 'Apply the ointment twice a day.', cn: '每天涂两次药膏。' }
+    ]},
+    { line: '图书馆找资料的四种东西：catalogue 是整本馆藏或商品目录，index 是书后按字母排的索引，periodical 是定期出版的期刊，encyclopedia 是解释各种知识的百科。', items: [
+      { w: 'catalogue', zh: '目录；馆藏目录', scene: '把馆藏或商品按顺序列成的一整本清单，查"有没有这本书"用。', tone: '中性', col: 'the library catalogue, look it up in the catalogue', en: 'Look up the title in the library catalogue.', cn: '在图书馆目录里查这个书名。' },
+      { w: 'index', zh: '索引', scene: '书后或数据库里按字母排列的关键词表，告诉你翻到哪一页。', tone: '中性', col: 'look it up in the index, an alphabetical index', en: 'Check the index at the back of the book.', cn: '翻到书后的索引查一下。' },
+      { w: 'periodical', zh: '期刊', scene: '定期出版的杂志或学术刊物，按年、卷、期编号。', tone: '中性偏正式', col: 'the periodical section, a monthly periodical', en: 'The library keeps every periodical for a year.', cn: '图书馆把每种期刊都保留一年。' },
+      { w: 'encyclopedia', zh: '百科全书', scene: '按条目解释各种知识的大部头，适合查事实和背景。', tone: '中性', col: 'an online encyclopedia, an encyclopedia entry', en: 'The encyclopedia has an entry on volcanoes.', cn: '百科全书里有关于火山的条目。' }
+    ]},
+    { line: '美国大学的年级称呼：freshman 大一，sophomore 大二，junior 大三，upperclassman 泛指三四年级、也常指能带新生的学长学姐。', items: [
+      { w: 'freshman', zh: '大一新生', scene: '刚入学的第一年学生；也可泛指刚入门的新人。', tone: '中性，美式校园', col: 'freshman year, freshman orientation', en: 'Every freshman attends the orientation week.', cn: '每个大一新生都要参加迎新周。' },
+      { w: 'sophomore', zh: '大二学生', scene: '第二年的学生；形容词常指"第二部作品、第二年"。', tone: '中性，美式校园', col: 'a sophomore course, a sophomore slump', en: 'She is a sophomore majoring in chemistry.', cn: '她是大二学生，主修化学。' },
+      { w: 'junior', zh: '大三学生', scene: '第三年的学生；也可指职位较低的，如 junior staff。', tone: '中性，美式校园', col: 'her junior year, a junior lecturer', en: 'As a junior she chose economics as her major.', cn: '大三时她选了经济学作专业。' },
+      { w: 'upperclassman', zh: '三、四年级学生', scene: '高年级统称，常指能带新生的学长学姐。', tone: '美式校园用语', col: 'upperclassman status, an upperclassman mentor', en: 'An upperclassman showed me round the labs.', cn: '一位高年级学生带我参观了实验室。' }
+    ]},
+    { line: '选课看材料时的四个词：curriculum 是整个专业的课程体系，syllabus 是一门课的教学大纲，module 是可以单独考核的模块课，tutorial 是几个人一组的小班辅导。', items: [
+      { w: 'curriculum', zh: '课程体系', scene: '一个专业或一所学校全部课程的整体安排，比单门课大得多。', tone: '中性偏正式', col: 'the national curriculum, curriculum design', en: 'The school revised its curriculum last year.', cn: '学校去年修改了课程体系。' },
+      { w: 'syllabus', zh: '教学大纲', scene: '一门课发的那份文件：每周讲什么、怎么考、读哪些书。', tone: '中性偏正式', col: 'a course syllabus, on the syllabus', en: 'The syllabus lists all the reading for the term.', cn: '大纲列出了这学期要读的全部材料。' },
+      { w: 'module', zh: '模块课程', scene: '大课程里能单独考核的一个单元，英国大学特别常用。', tone: '中性偏正式', col: 'a core module, take a module', en: 'This module covers academic writing.', cn: '这门模块课讲学术写作。' },
+      { w: 'tutorial', zh: '小班辅导课', scene: '几个人一组跟老师讨论作业和问题，不是几百人的大讲座。', tone: '中性偏正式', col: 'a tutorial group, a weekly tutorial', en: 'We discussed the essay in a small tutorial.', cn: '我们在一节小班辅导课上讨论了那篇文章。' }
+    ]},
+    { line: '身体的四种组织：kidney 肾负责过滤血液，nerve 神经传递信号，skeleton 骨骼撑起全身，muscle 肌肉收缩发力；都是名词，功能却完全分开。', items: [
+      { w: 'kidney', zh: '肾；肾脏', scene: '一对豆形器官，过滤血液、生成尿；也用作食材名。', tone: '中性偏专业', col: 'kidney disease, a kidney transplant', en: 'The kidney filters waste from the blood.', cn: '肾把废物从血液里滤掉。' },
+      { w: 'nerve', zh: '神经', scene: '把信号从大脑传到身体各处的细长纤维；口语里也指"胆量"。', tone: '中性', col: 'a nerve cell, nerve damage', en: 'The nerve sends signals to the brain.', cn: '神经把信号传给大脑。' },
+      { w: 'skeleton', zh: '骨骼；骨架', scene: '全身骨头的整体支架；也指文章或计划的"骨架、提纲"。', tone: '中性', col: 'the human skeleton, a skeleton outline', en: 'The skeleton supports the whole body.', cn: '骨骼支撑着整个身体。' },
+      { w: 'muscle', zh: '肌肉；实力', scene: '能收缩、带动关节的组织；也比喻"影响力、实力"。', tone: '中性', col: 'muscle pain, build muscle', en: 'The muscle aches after exercise.', cn: '运动后这块肌肉会酸痛。' }
+    ]},
+    { line: '看病时的四个关键词：symptom 是病人自己感觉到的症状，diagnose 是医生判断是什么病，prescribe 是开处方，curative 是形容词"有治疗作用的"。', items: [
+      { w: 'symptom', zh: '症状', scene: '病人自己描述的头疼、发烧、乏力等表现，是诊断的线索。', tone: '中性偏专业', col: 'flu symptoms, a symptom of', en: 'A sore throat is the first symptom.', cn: '嗓子疼是第一个症状。' },
+      { w: 'diagnose', zh: '诊断', scene: '医生根据症状和检查确定是什么病；名词是 diagnosis。', tone: '中性偏专业', col: 'diagnose an illness, be diagnosed with', en: 'Doctors diagnose the illness from a blood test.', cn: '医生靠血检来诊断这种病。' },
+      { w: 'prescribe', zh: '开处方；开药', scene: '医生写下用什么药、多少量；名词是 prescription。', tone: '中性偏专业', col: 'prescribe medicine, prescribe a course of treatment', en: 'Doctors prescribe antibiotics only when needed.', cn: '医生只在必要时才开抗生素。' },
+      { w: 'curative', zh: '有疗效的，治疗性的', scene: '形容词，强调真能治病，比 useful 具体，常配 powers 或 effect。', tone: '正式', col: 'curative powers, a curative effect', en: 'The roots have a curative effect.', cn: '这些根有治疗作用。' }
+    ]},
+    { line: '四种政治组织：republic 共和国，元首不世袭；federation 联邦，各州保留自己的权力；senate 参议院，两院制的上院；bureaucracy 官僚体系，常带效率低的贬义。', items: [
+      { w: 'republic', zh: '共和国', scene: '国家元首由选举产生、不世袭的政体，与 monarchy 相对。', tone: '中性偏正式', col: 'a democratic republic, declare a republic', en: 'France became a republic in 1870.', cn: '法国在 1870 年成为共和国。' },
+      { w: 'federation', zh: '联邦；联合会', scene: '几个州或邦把部分权力交给中央，其余自己管。', tone: '中性偏正式', col: 'a federal system, join the federation', en: 'The states formed a federation in 1901.', cn: '各州在 1901 年组成联邦。' },
+      { w: 'senate', zh: '参议院，上院', scene: '两院制里的上院，审议法案、确认重要任命。', tone: '中性偏正式', col: 'the senate vote, a seat in the senate', en: 'The senate voted against the bill.', cn: '参议院投票否决了该法案。' },
+      { w: 'bureaucracy', zh: '官僚体系；官僚作风', scene: '层层审批的行政机构，常暗指效率低、手续繁琐。', tone: '中性偏贬', col: 'government bureaucracy, cut bureaucracy', en: 'The paperwork shows how slow the bureaucracy is.', cn: '这些文件说明官僚体系有多慢。' }
+    ]},
+    { line: '法律程序里的四个词：judicial 是形容词"司法的"，arbitral 是"仲裁的"，enact 是议会制定或通过法律，implementation 是法律计划落地执行。', items: [
+      { w: 'judicial', zh: '司法的；法庭的', scene: '跟法院、法官、审判有关，如 judicial review、judicial system。', tone: '正式', col: 'judicial review, the judicial system', en: 'The case is under judicial review.', cn: '这个案子正在司法审查中。' },
+      { w: 'arbitral', zh: '仲裁的', scene: '不上法庭，由双方选出的仲裁人裁决，如 arbitral tribunal。', tone: '正式，偏法律', col: 'an arbitral tribunal, the arbitral award', en: 'Both sides accepted the arbitral award.', cn: '双方都接受了仲裁裁决。' },
+      { w: 'enact', zh: '制定（法律）；通过', scene: '议会把法案变成法律的动作；也可指"实施、上演"。', tone: '正式', col: 'enact a law, enact legislation', en: 'Parliament will enact the bill next week.', cn: '议会下周将通过这项法案。' },
+      { w: 'implementation', zh: '执行；落实', scene: '法律、计划从纸面变成现实的过程，是名词。', tone: '正式', col: 'policy implementation, the implementation of', en: 'The implementation of the new law starts in May.', cn: '新法从五月开始执行。' }
+    ]},
+    { line: '商业财务四个词：asset 是资产或有价值的条件，audit 是核账审计，auction 是拍卖，logistics 是物流后勤；都谈钱和货，但各指其中一环。', items: [
+      { w: 'asset', zh: '资产；有利条件', scene: '公司或个人拥有的有价值的东西；也指"优点、本钱"。', tone: '中性偏正式', col: 'fixed assets, a valuable asset', en: 'Her main asset is patience.', cn: '她最大的本钱是耐心。' },
+      { w: 'audit', zh: '审计；查账', scene: '会计或外部机构核对账目是否合规；也可指"旁听课程"。', tone: '中性偏正式', col: 'a tax audit, audit the accounts', en: 'The company faces a tax audit.', cn: '这家公司面临税务审计。' },
+      { w: 'auction', zh: '拍卖', scene: '出价最高者得，常见于房产、艺术品和二手车。', tone: '中性', col: 'sell at auction, an online auction', en: 'They sold the painting at auction.', cn: '他们把那幅画拍卖掉了。' },
+      { w: 'logistics', zh: '物流；后勤', scene: '把货、人、时间安排到位的整条链；办活动也说 logistics。', tone: '中性偏正式', col: 'supply logistics, the logistics of the event', en: 'Logistics decide whether the goods arrive on time.', cn: '物流决定货物能否按时到达。' }
+    ]},
+    { line: '传媒领域四个词：advertise 是花钱做广告宣传，censor 是删改审查，mainstream 指主流，newsreel 是上世纪的新闻短片。', items: [
+      { w: 'advertise', zh: '做广告；宣传', scene: '花钱让更多人知道产品或职位；也指"公开征求"。', tone: '中性', col: 'advertise a job, advertise online', en: 'They advertise the job online.', cn: '他们在网上登招聘广告。' },
+      { w: 'censor', zh: '审查；删改', scene: '官方或平台把敏感内容删掉、禁掉；也可作名词指审查员。', tone: '中性偏正式', col: 'censor the press, censored content', en: 'The board tried to censor the report.', cn: '委员会试图审查这份报告。' },
+      { w: 'mainstream', zh: '主流', scene: '大多数人接受、商业化程度高的那一支，与 alternative 相对。', tone: '中性', col: 'mainstream media, enter the mainstream', en: 'Solar power has entered the mainstream.', cn: '太阳能已经进入主流。' },
+      { w: 'newsreel', zh: '新闻短片', scene: '上世纪的电影院在正片前放的几分钟新闻影像，现在多作历史材料。', tone: '中性偏旧', col: 'a wartime newsreel, newsreel footage', en: 'The old newsreel shows the parade.', cn: '那段老新闻短片拍的是游行。' }
+    ]},
+    { line: '四种手工与艺术形式：engrave 是在金属木头石头上刻字画，handicraft 是手工艺品，sketch 是几笔勾出的速写草图，photography 是摄影这门技艺。', items: [
+      { w: 'engrave', zh: '雕刻；铭刻', scene: '用刀或激光在硬材料上刻字画；也比喻"铭记在心"。', tone: '中性偏正式', col: 'engrave a name on the cup, engraved glass', en: 'They engrave the name of the winner on the cup.', cn: '他们把获胜者的名字刻在奖杯上。' },
+      { w: 'handicraft', zh: '手工艺；手工艺品', scene: '手工做的物件，如编织、陶器、木雕，强调手艺而非工厂。', tone: '中性', col: 'local handicraft, a handicraft market', en: 'The village is known for its handicraft.', cn: '这个村子以手工艺闻名。' },
+      { w: 'sketch', zh: '速写；草图', scene: '几笔勾出形体的画，或设计初稿；也指喜剧小品。', tone: '中性', col: 'a quick sketch, sketch out a plan', en: 'She made a quick sketch of the harbour.', cn: '她快速画了一张港口速写。' },
+      { w: 'photography', zh: '摄影（术）', scene: '拍照这门技艺和行业，指单张照片时用 photo。', tone: '中性', col: 'digital photography, wildlife photography', en: 'He teaches photography at the college.', cn: '他在学院教摄影。' }
+    ]},
+    { line: '形容人的四种好品质：audacious 敢冒险、有时近乎鲁莽，enterprising 有闯劲、会找机会，intrepid 面对危险不退缩，shrewd 精明、看人看势很准。', items: [
+      { w: 'audacious', zh: '大胆的；近乎鲁莽的', scene: '敢做别人不敢做的事，褒贬看语境，常暗示"胆子太大"。', tone: '中性偏褒或偏贬', col: 'an audacious plan, an audacious move', en: 'It was an audacious plan that worked.', cn: '那是个大胆的计划，而且奏效了。' },
+      { w: 'enterprising', zh: '有事业心的；敢闯的', scene: '主动找机会、想办法把事做成，常用于称赞年轻人或小公司。', tone: '褒义', col: 'an enterprising student, the enterprising spirit', en: 'An enterprising student set up the club.', cn: '一个有闯劲的学生创办了这个社团。' },
+      { w: 'intrepid', zh: '无畏的，勇敢的', scene: '面对危险和艰苦不退缩，多形容探险家、战地记者。', tone: '褒义，偏书面', col: 'an intrepid explorer, an intrepid reporter', en: 'The intrepid climber reached the summit.', cn: '那位无畏的登山者登上了顶峰。' },
+      { w: 'shrewd', zh: '精明的；眼光准的', scene: '看人看事很准、办事不吃亏；有时也带"会算计"的味道。', tone: '中性偏褒', col: 'a shrewd judge of character, a shrewd move', en: 'She is a shrewd judge of character.', cn: '她看人很准。' }
+    ]},
+    { line: '四种动物幼崽的专用词：puppy 小狗，foal 马驹，cub 狮虎熊等猛兽的幼崽，duckling 小鸭；英文里不能一律说 baby。', items: [
+      { w: 'puppy', zh: '小狗，幼犬', scene: '狗一岁以下的幼崽；口语里也用作亲昵的称呼。', tone: '中性', col: 'a litter of puppies, puppy food', en: 'The puppy chewed my slipper.', cn: '小狗把我的拖鞋咬了。' },
+      { w: 'foal', zh: '马驹', scene: '马或驴一岁以下的幼崽，出生不久就能站起来走。', tone: '中性偏专业', col: 'a newborn foal, a mare with her foal', en: 'The foal stood up within an hour.', cn: '小马驹一小时内就站起来了。' },
+      { w: 'cub', zh: '幼兽', scene: '狮、虎、熊、狼等的幼崽；也指童子军的小队员。', tone: '中性', col: 'a lion cub, a bear cub', en: 'The lion cub stays near its mother.', cn: '小狮子待在母亲附近。' },
+      { w: 'duckling', zh: '小鸭', scene: '刚孵出的小鸭子，一群跟着母鸭走。', tone: '中性', col: 'a fluffy duckling, feed the ducklings', en: 'One duckling followed the wrong mother.', cn: '有一只小鸭跟错了妈妈。' }
+    ]},
+    { line: '四种常见树：oak 橡树，木头硬、结橡子；maple 枫树，叶子秋天变红、产枫糖浆；fir 冷杉，针叶常绿；redwood 红杉，能长到上百米的巨树。', items: [
+      { w: 'oak', zh: '橡树；橡木', scene: '木质坚硬的落叶大树，果实叫 acorn；oak 也直接指橡木。', tone: '中性', col: 'an oak tree, solid oak', en: 'The old oak in the field is over four hundred years old.', cn: '田野里那棵老橡树有四百多年了。' },
+      { w: 'maple', zh: '枫树；枫木', scene: '叶子掌状，秋天变红；加拿大国旗上就是它，也产枫糖浆。', tone: '中性', col: 'maple syrup, a maple leaf', en: 'Maple leaves turn red in autumn.', cn: '枫叶秋天会变红。' },
+      { w: 'fir', zh: '冷杉；杉木', scene: '针叶常绿的树，常当圣诞树，木材轻软。', tone: '中性', col: 'a fir tree, fir needles', en: 'The fir keeps its needles all winter.', cn: '冷杉整个冬天都留着针叶。' },
+      { w: 'redwood', zh: '红杉', scene: '北美太平洋沿岸的巨型树，红色树皮，能长到上百米高。', tone: '中性', col: 'a redwood forest, giant redwoods', en: 'A redwood can grow over a hundred metres.', cn: '一棵红杉能长到一百多米高。' }
+    ]},
+    { line: '四种农田谷物：wheat 小麦磨面粉做面包，barley 大麦做麦芽和饲料，oats 燕麦做麦片，millet 粟耐旱、是干旱地区的主粮。', items: [
+      { w: 'wheat', zh: '小麦', scene: '做面粉和面包的主粮，麦穗沉，夏末收割。', tone: '中性', col: 'a wheat field, whole wheat', en: 'Wheat is harvested in late summer.', cn: '小麦在夏末收割。' },
+      { w: 'barley', zh: '大麦', scene: '做啤酒麦芽和牲口饲料，比小麦更耐寒。', tone: '中性', col: 'barley fields, malted barley', en: 'Barley grows well in cool dry climates.', cn: '大麦在凉爽干燥的气候里长得好。' },
+      { w: 'oats', zh: '燕麦', scene: '做麦片粥、饼干和燕麦奶，喜欢凉湿的气候。', tone: '中性', col: 'rolled oats, oat milk', en: 'Oats need plenty of rain.', cn: '燕麦需要充足的雨水。' },
+      { w: 'millet', zh: '粟；小米', scene: '耐旱耐贫瘠的小粒谷物，亚洲和非洲常见的主食。', tone: '中性', col: 'millet porridge, finger millet', en: 'Millet is a staple crop in dry regions.', cn: '在干旱地区粟是主粮作物。' }
+    ]},
+    { line: '求职与试用期四个词：intern 指实习生这个人，internship 指实习岗位和那段经历，probation 是试用期或缓刑，vocational 是形容词"职业培训的"。', items: [
+      { w: 'intern', zh: '实习生', scene: '在校生或毕业生到公司短期工作学习，可能带薪也可能不带。', tone: '中性', col: 'a summer intern, work as an intern', en: 'She works as an intern at a law firm.', cn: '她在一家律所当实习生。' },
+      { w: 'internship', zh: '实习；实习期', scene: '指那个岗位和那段经历本身，写简历最常用的词。', tone: '中性', col: 'a paid internship, apply for an internship', en: 'He finished a summer internship in finance.', cn: '他完成了一段金融暑期实习。' },
+      { w: 'probation', zh: '试用期；缓刑', scene: '新员工的考察期；法律语境里指缓刑，要看上下文判断。', tone: '中性偏正式', col: 'on probation, a six-month probation', en: 'New staff are on probation for three months.', cn: '新员工有三个月试用期。' },
+      { w: 'vocational', zh: '职业的；职业培训的', scene: '偏动手技能的教育，如护理、汽修，与 academic 相对。', tone: '中性偏正式', col: 'vocational training, a vocational course', en: 'He took a vocational course in plumbing.', cn: '他上了一个管道工的职业课程。' }
+    ]},
+    { line: '音乐场合四个词：choir 合唱团只唱不奏，orchestra 管弦乐团只奏不唱，concert 是音乐会这场演出，flute 是长笛这件乐器。', items: [
+      { w: 'choir', zh: '合唱团', scene: '一群人分声部唱歌，常在教堂或学校；也可指教堂里唱诗的位置。', tone: '中性', col: 'a church choir, sing in the choir', en: 'She sings in the church choir.', cn: '她在教堂合唱团唱歌。' },
+      { w: 'orchestra', zh: '管弦乐团', scene: '几十人按弦管鼓分组演奏，前面站着指挥；也指乐池。', tone: '中性', col: 'a symphony orchestra, the orchestra pit', en: 'The orchestra tuned up before the concert.', cn: '乐团在音乐会前调音。' },
+      { w: 'concert', zh: '音乐会', scene: '公开演出的场合或事件本身，指团体时要用别的词。', tone: '中性', col: 'go to a concert, a live concert', en: 'We went to a concert on Friday.', cn: '我们周五去听了音乐会。' },
+      { w: 'flute', zh: '长笛', scene: '横着吹的木管乐器，声音清亮，常在学校乐队里出现。', tone: '中性', col: 'play the flute, a flute solo', en: 'He plays the flute in the school band.', cn: '他在校乐队吹长笛。' }
+    ]},
   ];
 
   const SOLOS = [
