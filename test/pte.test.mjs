@@ -332,14 +332,30 @@ test('driving plays one set and never mixes WFD with RS', () => {
   assert.equal(rsItems.find(item => item.sourceNumber === '020751'), undefined);
 });
 
-test('write essay bank has 35 prompts, six types, and sentence cards', () => {
+test('write essay bank has 56 prompts: 35 bank + 21-day plan, six types, and sentence cards', () => {
   const context = {};
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte-we.js'), 'utf8') + '\nglobalThis.PTE_WE = PTE_WE;\n', context);
   const bank = context.PTE_WE;
-  assert.equal(bank.questions.length, 35);
+  assert.equal(bank.questions.length, 56);
+  assert.equal(bank.planTotal, 21);
+  assert.ok(bank.planNote && bank.planNote.includes('2026'));
   assert.equal(bank.topics.length, 7);
   assert.equal(bank.types.length, 6);
+  const bankQs = bank.questions.filter(q => !q.day);
+  const planQs = bank.questions.filter(q => q.day).slice().sort((a, b) => a.day - b.day);
+  assert.equal(bankQs.length, 35);
+  assert.equal(planQs.length, 21);
+  assert.deepEqual([...planQs.map(q => q.day)], Array.from({ length: 21 }, (_, i) => i + 1));
+  assert.equal(planQs[0].id, 'd01');
+  assert.equal(planQs[0].zh, '课程设置中应该包括让学生学习几个世纪前的戏剧吗？');
+  for (const q of planQs) {
+    assert.match(q.words, /^200–300$/, 'word target on ' + q.id);
+    assert.equal(q.minutes, 20, 'time target on ' + q.id);
+    assert.ok(q.hint && q.hint.length <= 80, 'short self-written hint: ' + q.id);
+    const sentences = q.hint.split(/[.!?。！？]+/).map(text => text.trim()).filter(Boolean);
+    assert.ok(sentences.length <= 2, 'hint stays under three sentences: ' + q.id);
+  }
   const types = {};
   const topics = {};
   const ids = new Set();
@@ -351,9 +367,9 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
     assert.ok(q.zh && q.en);
     assert.equal(/[\u3400-\u9fff]/.test(q.en), false);
   }
-  assert.deepEqual(types, { agree: 13, two: 7, pros: 6, open: 4, choose: 4, example: 1 });
-  assert.deepEqual(topics, { society: 8, work: 6, media: 3, business: 4, environment: 3, tech: 3, education: 8 });
-  assert.equal(bank.questions.filter(q => q.personal).map(q => q.id).join(','), '077055,076014');
+  assert.deepEqual(types, { agree: 21, two: 11, pros: 11, open: 5, choose: 6, example: 2 });
+  assert.deepEqual(topics, { society: 13, work: 9, media: 4, business: 7, environment: 4, tech: 5, education: 14 });
+  assert.equal(bank.questions.filter(q => q.personal).map(q => q.id).join(','), '077055,076014,d12,d17');
   for (const type of bank.types) {
     assert.equal(bank.cards[type.id].length, 3);
     for (const card of bank.cards[type.id]) {
@@ -363,6 +379,9 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
     }
   }
   assert.equal(bank.experiences.length, 2);
+  const source = fs.readFileSync(path.join(root, 'pte-we.js'), 'utf8');
+  for (const bad of ['大西瓜', 'melon', '培生', '折扣码']) assert.equal(source.includes(bad), false, 'no course branding: ' + bad);
+  assert.equal(/[\u4e00-\u9fff]{60,}/.test(source), false, 'no copied Chinese paragraphs');
   assert.equal(PTELogic.wordCount('one  two\nthree'), 3);
   assert.equal(PTELogic.wordCount(''), 0);
   assert.equal(PTELogic.essayFit(200), 'ok');
@@ -391,6 +410,50 @@ test('write essay bank has 35 prompts, six types, and sentence cards', () => {
   assert.match(copied, /transit/);
   assert.match(copied, /public transport/);
   assert.match(copied, /请帮我记住这道 PTE Write Essay 的关键句和答题策略/);
+});
+
+test('the 21-day plan unlocks one day at a time and tracks streak and completion', () => {
+  const plan = (done, today) => PTELogic.wePlan({ done: done }, 21, today);
+  let r = plan({}, '2024-06-01');
+  assert.equal(r.total, 21);
+  assert.equal(r.current, 1);
+  assert.equal(r.doneCount, 0);
+  assert.equal(r.percent, 0);
+  assert.equal(r.streak, 0);
+  assert.equal(r.days.length, 21);
+  assert.equal(r.days[0].open, true);
+  assert.equal(r.days[1].locked, true);
+  r = plan({ 1: '2024-06-01' }, '2024-06-01');
+  assert.equal(r.current, 2);
+  assert.equal(r.days[0].done, true);
+  assert.equal(r.days[1].open, true);
+  assert.equal(r.days[2].locked, true);
+  assert.equal(r.streak, 1);
+  assert.equal(r.percent, 5);
+  r = plan({ 1: '2024-06-01', 2: '2024-06-02' }, '2024-06-03');
+  assert.equal(r.streak, 2, 'yesterday still counts before today ends');
+  r = plan({ 1: '2024-06-01', 2: '2024-06-03' }, '2024-06-03');
+  assert.equal(r.streak, 1, 'a gap restarts the streak');
+  const all = {};
+  for (let day = 1; day <= 21; day++) all[day] = '2024-06-' + String(day).padStart(2, '0');
+  r = plan(all, '2024-06-21');
+  assert.equal(r.allDone, true);
+  assert.equal(r.current, 22);
+  assert.equal(r.percent, 100);
+  assert.equal(r.streak, 21);
+  assert.equal(r.days.every(row => row.open && !row.locked), true);
+  // Old saves load clean, and junk plan rows are thrown away.
+  const S = { pte: { we: { view: 'plan', plan: { done: { 1: '2024-06-01', 22: '2024-06-02', 0: '2024-06-02', 3: 'nope', '02': '2024-06-02' } }, planOpen: 3 } } };
+  const st = PTELogic.ensureState(S, []);
+  assert.equal(st.we.view, 'plan');
+  assert.deepEqual(Object.keys(st.we.plan.done), ['1']);
+  assert.equal(st.we.planOpen, 3);
+  assert.equal(PTELogic.wePlan(st.we.plan, 21, '2024-06-01').doneCount, 1);
+  const old = { pte: { we: { notes: { '077055': { stance: 'city' } } } } };
+  const fixed = PTELogic.ensureState(old, []);
+  assert.deepEqual(Object.keys(fixed.we.plan.done), []);
+  assert.equal(fixed.we.planOpen, 0);
+  assert.equal(fixed.we.notes['077055'].stance, 'city');
 });
 
 test('SST real data keeps fifty items, warnings, and saved progress', () => {
@@ -849,14 +912,39 @@ function viewContext() {
   context.pteFocusNote = () => '';
   context.pteRefresh = () => {};
   context.save = () => {};
-  context.PTELogic = { ensureWe: st => st.we, ensureSpeak: st => st };
   context.pteState = () => ({ we: {}, sgd: {} });
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-logic.js'), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-we.js'), 'utf8') + '\nglobalThis.PTE_WE = PTE_WE;\n', context);
   vm.runInContext(fs.readFileSync(path.join(root, 'pte-templates.js'), 'utf8'), context);
   for (const file of ['pte-we-ui.js', 'pte-speak-ui.js', 'pte-sgd.js']) {
     vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
   }
   return context;
 }
+
+test('the 21-day plan view renders the unlock grid, the stats and the day question', () => {
+  const rendered = viewContext();
+  rendered.TK = '2024-06-01';
+  const html = rendered.pteWeView({ we: { view: 'plan', plan: { done: {} }, planOpen: 0 } });
+  assert.match(html, /WE 21 天计划/);
+  assert.match(html, /已练 <b>0\/21<\/b>/);
+  assert.match(html, /连续 <b>0<\/b> 天/);
+  assert.match(html, /完成度 <b>0%<\/b>/);
+  assert.match(html, /未练 <b>21<\/b> 天/);
+  assert.equal((html.match(/data-we-act="plan-open"/g) || []).length, 21);
+  assert.match(html, /class="we-day open" data-we-act="plan-open" data-day="1"/);
+  assert.match(html, /class="we-day lock" data-we-act="plan-open" data-day="2" disabled/);
+  assert.match(html, /课程设置中应该包括让学生学习几个世纪前的戏剧吗？/);
+  assert.match(html, /第 1 天 · 教育/);
+  assert.match(html, /字数 200–300 · 时间 20 分钟/);
+  assert.match(html, /标记「第 1 天」练完/);
+  assert.match(html, /20 分钟，200–300 词/);
+  const done = rendered.pteWeView({ we: { view: 'plan', plan: { done: { 1: '2024-06-01' } }, planOpen: 2 } });
+  assert.match(done, /已练 <b>1\/21<\/b>/);
+  assert.match(done, /连续 <b>1<\/b> 天/);
+  assert.match(done, /标记「第 2 天」练完/);
+  assert.match(done, /class="we-day done" data-we-act="plan-open" data-day="1"/);
+});
 
 test('the three skeleton panels render their frames without any model essay', () => {
   const rendered = viewContext();
@@ -974,6 +1062,40 @@ test('v46 wires the skeleton panels and the SGD drill into the PTE tab without t
   assert.match(app, /btn\('spell', '拼写'\)/);
   assert.match(app, /window\.pteSpellView/);
   assert.match(plan, /spell: '拼写'/);
+});
+
+test('v47 wires the 21-day plan into WE without disturbing spelling, skeletons or SGD', () => {
+  const weUi = fs.readFileSync(path.join(root, 'pte-we-ui.js'), 'utf8');
+  const weData = fs.readFileSync(path.join(root, 'pte-we.js'), 'utf8');
+  const logic = fs.readFileSync(path.join(root, 'pte-logic.js'), 'utf8');
+  const app = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  assert.equal(Number(version), 47);
+  assert.match(weUi, /btn\('plan', '21 天'\)/);
+  assert.match(weUi, /function wePlanView/);
+  assert.match(weUi, /function wePlanQ/);
+  assert.match(weUi, /data-we-act="plan-open"/);
+  assert.match(weUi, /data-we-act="plan-done"/);
+  assert.match(weUi, /data-we-act="plan-essay"/);
+  assert.match(weData, /planTotal: 21/);
+  assert.match(weData, /planNote:/);
+  assert.match(logic, /function wePlan\(/);
+  assert.match(logic, /wePlan: wePlan/);
+  assert.match(logic, /we\.view !== 'plan'/);
+  assert.match(logic, /we\.plan\.done/);
+  for (const file of ['pte-we.js', 'pte-we-ui.js', 'pte-logic.js', 'style.css']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=47'), file + ' in index.html');
+    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=47'), file + ' in sw.js');
+  }
+  assert.match(sw, /const C='ep-v47'/);
+  // v45 spelling and v46 skeletons / SGD stay wired in the same tab.
+  assert.match(app, /btn\('spell', '拼写'\)/);
+  assert.match(app, /btn\('sgd', 'SGD'\)/);
+  assert.match(weUi, /btn\('skel', '模版骨架'\)/);
+  assert.match(logic, /we\.view !== 'skel'/);
+  assert.match(logic, /st\.mode !== 'sgd'/);
 });
 
 test('synonym comparisons cover high-frequency words and leave the rest for later', () => {

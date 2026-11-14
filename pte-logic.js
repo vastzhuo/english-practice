@@ -466,14 +466,72 @@
     if (!Array.isArray(we.outlineIds)) we.outlineIds = [];
     if (typeof we.essayId !== 'string') we.essayId = '';
     if (typeof we.drillId !== 'string') we.drillId = '';
-    if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill' && we.view !== 'skel') we.view = 'bank';
+    if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill' && we.view !== 'skel' && we.view !== 'plan') we.view = 'bank';
     if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
     if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
+    // 21-day plan: only whole days 1-21 with a real ISO date count.
+    if (!we.plan || typeof we.plan !== 'object' || Array.isArray(we.plan)) we.plan = {};
+    if (!we.plan.done || typeof we.plan.done !== 'object' || Array.isArray(we.plan.done)) we.plan.done = {};
+    Object.keys(we.plan.done).forEach(key => {
+      const day = Math.round(Number(key));
+      const date = we.plan.done[key];
+      if (!(day >= 1 && day <= 21) || String(day) !== String(key).trim() || !/^\d{4}-\d{2}-\d{2}$/.test(String(date))) delete we.plan.done[key];
+    });
+    if (typeof we.planOpen !== 'number' || we.planOpen < 0 || we.planOpen > 21) we.planOpen = 0;
     delete we.api;
     delete we.ollama;
     delete we.chatId;
     Object.keys(we.notes).forEach(id => { if (we.notes[id] && we.notes[id].chat) delete we.notes[id].chat; });
     return we;
+  }
+  // 21-day Write Essay plan. Day N opens once day N-1 is marked done; the streak
+  // counts consecutive calendar days that have at least one completion.
+  const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
+  function isoAdd(iso, days) {
+    const p = String(iso || '').split('-').map(Number);
+    if (p.length !== 3 || p.some(n => !n && n !== 0)) return '';
+    const d = new Date(Date.UTC(p[0], p[1] - 1, p[2] + (Math.round(Number(days)) || 0)));
+    return d.getUTCFullYear() + '-' + String(d.getUTCMonth() + 1).padStart(2, '0') + '-' + String(d.getUTCDate()).padStart(2, '0');
+  }
+  function wePlan(bag, total, today) {
+    const days = Math.max(1, Math.round(Number(total)) || 21);
+    const source = bag && bag.done && typeof bag.done === 'object' && !Array.isArray(bag.done) ? bag.done : {};
+    const doneByDay = {};
+    Object.keys(source).forEach(key => {
+      const day = Math.round(Number(key));
+      if (day >= 1 && day <= days && String(day) === String(key).trim() && ISO_DATE.test(String(source[key]))) doneByDay[day] = String(source[key]);
+    });
+    const done = Object.keys(doneByDay).map(Number).sort((a, b) => a - b).map(day => ({ day: day, date: doneByDay[day] }));
+    const doneCount = done.length;
+    let current = days + 1;
+    for (let day = 1; day <= days; day++) if (!doneByDay[day]) { current = day; break; }
+    const rows = [];
+    for (let day = 1; day <= days; day++) {
+      const date = doneByDay[day] || '';
+      rows.push({ day: day, done: !!date, date: date, open: !!date || day <= current, locked: !date && day > current });
+    }
+    const dates = Array.from(new Set(done.map(row => row.date))).sort();
+    let streak = 0;
+    const day = ISO_DATE.test(String(today || '')) ? String(today) : '';
+    if (day && dates.length) {
+      const set = new Set(dates);
+      let anchor = day;
+      if (!set.has(anchor)) {
+        const before = isoAdd(day, -1);
+        if (set.has(before)) anchor = before;
+      }
+      while (set.has(anchor)) { streak += 1; anchor = isoAdd(anchor, -1); }
+    }
+    return {
+      total: days,
+      done: done,
+      doneCount: doneCount,
+      percent: Math.round(100 * doneCount / days),
+      current: current,
+      allDone: doneCount >= days,
+      streak: streak,
+      days: rows
+    };
   }
   function weCopyPrompt(q, typeName, topicName, note) {
     const saved = note || {};
@@ -551,6 +609,7 @@
     wordCount: wordCount,
     essayFit: essayFit,
     ensureWe: ensureWe,
+    wePlan: wePlan,
     weCopyPrompt: weCopyPrompt,
     SST_TEMPLATE: SST_TEMPLATE,
     sstParagraphs: sstParagraphs,
