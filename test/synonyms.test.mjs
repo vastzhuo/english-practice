@@ -6,10 +6,11 @@ import vm from 'node:vm';
 
 const root = path.resolve(import.meta.dirname, '..');
 
-// The synonym bank grew in two appended content batches, neither of which
+// The synonym bank grew in three appended content batches, none of which
 // touches the groups that were already there:
 //   content/synonym-batch-1 — 25 semantic groups holding 97 headwords
 //   content/synonym-batch-2 — 25 semantic groups holding 96 headwords
+//   content/synonym-batch-3 — 25 semantic groups holding 100 headwords
 // GROUPS_BEFORE is the count of groups that existed before batch 1.
 const GROUPS_BEFORE = 439;
 const BATCH1 = [
@@ -66,10 +67,39 @@ const BATCH2 = [
   ['basic', 'rough', 'shallow', 'primitive'],
   ['restriction', 'barrier', 'requirement', 'prerequisite']
 ];
+const BATCH3 = [
+  ['predator', 'prey', 'scavenger', 'omnivore'],
+  ['embryo', 'larva', 'hatchling', 'juvenile'],
+  ['snout', 'fang', 'antlers', 'mane'],
+  ['exoskeleton', 'endoskeleton', 'hooves', 'talons'],
+  ['conifers', 'deciduous', 'evergreen', 'sapling'],
+  ['lichen', 'ferns', 'ivy', 'toadstool'],
+  ['riverbank', 'reeds', 'weir', 'floodplain'],
+  ['hail', 'snowflakes', 'icicles', 'puddles'],
+  ['frequent', 'occasionally', 'consecutive', 'alternate'],
+  ['deforestation', 'overfishing', 'contaminate', 'unsustainable'],
+  ['photosynthesis', 'wavelength', 'pigment', 'quantify'],
+  ['nocturnal', 'mammal', 'reptile', 'fungus'],
+  ['terrain', 'eruption', 'subsoil', 'iceberg'],
+  ['dilute', 'dissolve', 'volatile', 'congeal'],
+  ['combustion', 'synthesis', 'alloy', 'corrosive'],
+  ['flash', 'glimmer', 'radiation', 'thermal'],
+  ['constellation', 'interstellar', 'universe', 'astronaut'],
+  ['circumference', 'perimeter', 'decimal', 'geometry'],
+  ['infrastructure', 'sanitation', 'dysfunctional', 'straining'],
+  ['adolescence', 'adolescent', 'infancy', 'fatherhood'],
+  ['egalitarian', 'individualistic', 'altruistic', 'unethical'],
+  ['immersive', 'rechargeable', 'programmable', 'controllable'],
+  ['anecdote', 'treatise', 'synopsis', 'quotation'],
+  ['literally', 'rhetoric', 'irony', 'epitomise'],
+  ['corpus', 'phonetic', 'lexical', 'verbal']
+];
+const BATCHES = [BATCH1, BATCH2, BATCH3];
 const BATCH1_WORDS = BATCH1.flat();
 const BATCH2_WORDS = BATCH2.flat();
-const BATCH1_SET = new Set(BATCH1_WORDS);
-const BATCH2_SET = new Set(BATCH2_WORDS);
+const BATCH3_WORDS = BATCH3.flat();
+const BATCH_WORDS = [BATCH1_WORDS, BATCH2_WORDS, BATCH3_WORDS];
+const BATCH_SETS = BATCH_WORDS.map(words => new Set(words));
 
 function load() {
   const context = { console };
@@ -85,8 +115,9 @@ const { WORDS, SYNONYMS } = load();
 const bank = new Set(WORDS.map(word => String(word.w).trim().toLowerCase()));
 
 // A group belongs to a batch when all of its items are that batch's headwords.
-const batch1Groups = SYNONYMS.groups.filter(group => group.items.every(item => BATCH1_SET.has(String(item.w).toLowerCase())));
-const batch2Groups = SYNONYMS.groups.filter(group => group.items.every(item => BATCH2_SET.has(String(item.w).toLowerCase())));
+const batchGroups = BATCH_SETS.map(set => SYNONYMS.groups.filter(group => group.items.every(item => set.has(String(item.w).toLowerCase()))));
+const [batch1Groups, batch2Groups, batch3Groups] = batchGroups;
+const allBatchGroups = batchGroups.flat();
 
 // A sentence counts as using its headword when the headword appears as a whole
 // word, optionally with one regular inflection: -s, -es, -ed, -d or -ing.
@@ -102,46 +133,60 @@ function checkComposition(groups, expected, label) {
   assert.deepEqual(actual, expected, label + ' group composition/order does not match the definition');
 }
 
-test('the two batches add exactly 50 groups and 193 headwords on top of the earlier ones', () => {
-  assert.equal(SYNONYMS.groups.length, GROUPS_BEFORE + BATCH1.length + BATCH2.length);
+test('the three batches add exactly 75 groups and 293 headwords on top of the earlier ones', () => {
+  assert.equal(SYNONYMS.groups.length, GROUPS_BEFORE + BATCH1.length + BATCH2.length + BATCH3.length);
   assert.equal(batch1Groups.length, BATCH1.length);
   assert.equal(batch2Groups.length, BATCH2.length);
+  assert.equal(batch3Groups.length, BATCH3.length);
   assert.equal(BATCH1_WORDS.length, 97);
   assert.equal(BATCH2_WORDS.length, 96);
-  assert.equal(new Set(BATCH1_WORDS).size, BATCH1_WORDS.length);
-  assert.equal(new Set(BATCH2_WORDS).size, BATCH2_WORDS.length);
-  // the two batches share no headword
-  for (const word of BATCH2_WORDS) assert.equal(BATCH1_SET.has(word), false, word + ' appears in both batches');
+  assert.equal(BATCH3_WORDS.length, 100);
+  BATCH_WORDS.forEach((words, i) => {
+    assert.equal(new Set(words).size, words.length, 'batch ' + (i + 1) + ' repeats a headword');
+  });
+  // the three batches share no headword
+  const seen = new Set();
+  for (const words of BATCH_WORDS) {
+    for (const word of words) {
+      assert.equal(seen.has(word), false, word + ' appears in two batches');
+      seen.add(word);
+    }
+  }
+  assert.equal(seen.size, 293);
   const itemCount = SYNONYMS.groups.reduce((sum, group) => sum + group.items.length, 0);
-  assert.equal(itemCount, 1080 + 97 + 96);
+  assert.equal(itemCount, 1080 + 97 + 96 + 100);
   assert.equal(batch1Groups.reduce((sum, group) => sum + group.items.length, 0), 97);
   assert.equal(batch2Groups.reduce((sum, group) => sum + group.items.length, 0), 96);
+  assert.equal(batch3Groups.reduce((sum, group) => sum + group.items.length, 0), 100);
   // the array only grows at the end; earlier groups are untouched
   assert.equal(SYNONYMS.groups[0].items[0].w, 'glance');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE - 1].items[0].w, 'crossing');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length - 1].items[0].w, 'paycheck');
   assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length].items[0].w, 'statute');
-  assert.equal(SYNONYMS.groups[SYNONYMS.groups.length - 1].items[0].w, 'restriction');
+  assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length - 1].items[0].w, 'restriction');
+  assert.equal(SYNONYMS.groups[GROUPS_BEFORE + BATCH1.length + BATCH2.length].items[0].w, 'predator');
+  assert.equal(SYNONYMS.groups[SYNONYMS.groups.length - 1].items[0].w, 'corpus');
 });
 
 test('every batch group is a real comparison with its own one-line rule', () => {
-  for (const group of [...batch1Groups, ...batch2Groups]) {
+  for (const group of allBatchGroups) {
     assert.ok(group.items.length >= 3, group.items.map(item => item.w).join(','));
     assert.ok(group.items.length <= 6, group.items.map(item => item.w).join(','));
     assert.ok(typeof group.line === 'string' && group.line.trim().length >= 10, group.line);
     assert.ok(/[\u3400-\u9fff]/.test(group.line), group.line);
   }
-  // batch 1 keeps its tighter 3-4 word shape
-  for (const group of batch1Groups) {
+  // batches 1 and 3 keep their tighter 3-4 word shape
+  for (const group of [...batch1Groups, ...batch3Groups]) {
     assert.ok(group.items.length >= 3 && group.items.length <= 4, group.items.map(item => item.w).join(','));
   }
   // group composition must match the batch definition, order included
   checkComposition(batch1Groups, BATCH1, 'batch 1');
   checkComposition(batch2Groups, BATCH2, 'batch 2');
+  checkComposition(batch3Groups, BATCH3, 'batch 3');
 });
 
 test('every batch item carries all seven fields, non-empty and in the right script', () => {
-  for (const group of [...batch1Groups, ...batch2Groups]) {
+  for (const group of allBatchGroups) {
     for (const item of group.items) {
       for (const field of ['w', 'zh', 'scene', 'tone', 'col', 'en', 'cn']) {
         assert.equal(typeof item[field], 'string', field + ' on ' + item.w);
@@ -159,7 +204,8 @@ test('every batch item carries all seven fields, non-empty and in the right scri
 });
 
 test('every batch headword exists in words.js and resolves through lookup()', () => {
-  for (const [words, set] of [[BATCH1_WORDS, BATCH1_SET], [BATCH2_WORDS, BATCH2_SET]]) {
+  for (let i = 0; i < BATCH_WORDS.length; i++) {
+    const [words, set] = [BATCH_WORDS[i], BATCH_SETS[i]];
     for (const word of words) {
       assert.equal(bank.has(word), true, word + ' is missing from words.js');
       const hit = SYNONYMS.lookup(word);
@@ -186,11 +232,11 @@ test('no headword is duplicated anywhere in groups or solos', () => {
     assert.equal(seen.has(key), false, 'duplicate headword: ' + key);
     seen.add(key);
   }
-  assert.equal(seen.size, 1080 + 97 + 96 + SYNONYMS.solos.length);
+  assert.equal(seen.size, 1080 + 97 + 96 + 100 + SYNONYMS.solos.length);
 });
 
 test('every example sentence actually uses its headword', () => {
-  for (const group of [...batch1Groups, ...batch2Groups]) {
+  for (const group of allBatchGroups) {
     for (const item of group.items) {
       assert.ok(containsHeadword(item.en, item.w), item.w + ': ' + item.en);
     }
@@ -205,4 +251,11 @@ test('every example sentence actually uses its headword', () => {
   assert.equal(containsHeadword('She transcribed the interview.', 'transcribe'), true);
   assert.equal(containsHeadword('They live on the outskirts.', 'outskirt'), true);
   assert.equal(containsHeadword('The cut became infected.', 'infection'), false);
+  // and batch-3 shapes: plural headwords, -ise verb, stem plus one inflection
+  assert.equal(containsHeadword('The ponies\' hooves clattered on the road.', 'hooves'), true);
+  assert.equal(containsHeadword('Ferns grow in the damp shade.', 'ferns'), true);
+  assert.equal(containsHeadword('The village epitomises rural life.', 'epitomise'), true);
+  assert.equal(containsHeadword('Sugar dissolves faster in hot water.', 'dissolve'), true);
+  assert.equal(containsHeadword('The fat congealed as the pan cooled.', 'congeal'), true);
+  assert.equal(containsHeadword('He walked occasionally in summer.', 'occasionally'), true);
 });
