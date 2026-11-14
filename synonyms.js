@@ -2552,6 +2552,156 @@
       { w: 'concert', zh: '音乐会', scene: '公开演出的场合或事件本身，指团体时要用别的词。', tone: '中性', col: 'go to a concert, a live concert', en: 'We went to a concert on Friday.', cn: '我们周五去听了音乐会。' },
       { w: 'flute', zh: '长笛', scene: '横着吹的木管乐器，声音清亮，常在学校乐队里出现。', tone: '中性', col: 'play the flute, a flute solo', en: 'He plays the flute in the school band.', cn: '他在校乐队吹长笛。' }
     ]},
+    { line: '同样是加热做熟：fry 是平底少油贴着锅煎，broil 是上方大火直烤，simmer 是小火微沸慢慢咕嘟，poach 是水将开不开时把蛋或鱼浸熟。', items: [
+      { w: 'fry', zh: '煎；油炸', scene: '平底锅里放少量油，贴着锅底把食物煎到两面金黄，像煎蛋、煎鱼。', tone: '中性，最常用', col: 'fry an egg, stir-fry, deep-fry', en: 'Fry the onions until golden.', cn: '把洋葱煎到金黄。' },
+      { w: 'broil', zh: '（上方）烤', scene: '把食物放在加热管下方，用上面的高温直接烤，常用来烤鱼排、牛排表面。', tone: '中性，美式用法', col: 'broil the fish, broiled chicken', en: 'Broil the fish for ten minutes.', cn: '把鱼烤十分钟。' },
+      { w: 'simmer', zh: '小火慢炖；微沸', scene: '锅里汤汁冒着很小的泡，将开不开地咕嘟，像炖汤、煮酱。', tone: '中性，烹饪术语', col: 'simmer gently, leave it to simmer', en: 'Let the sauce simmer for ten minutes.', cn: '让酱汁小火炖十分钟。' },
+      { w: 'poach', zh: '水煮（蛋、鱼）', scene: '水面几乎不翻花，把蛋或鱼轻轻滑进去浸熟，样子完整、口感嫩。', tone: '中性偏专业', col: 'poach an egg, poached salmon', en: 'Poach the egg in gently boiling water.', cn: '在微沸的水里把蛋煮嫩。' }
+    ]},
+    { line: '备菜的四个动作：grate 是把食材磨成细丝，mince 是剁成碎末，mash 是压成泥，peel 是把外皮削掉。', items: [
+      { w: 'grate', zh: '擦丝；磨碎', scene: '用带小孔的擦板把奶酪、胡萝卜擦成细丝。', tone: '中性', col: 'grate cheese, grated carrot', en: 'Grate the cheese into a bowl.', cn: '把奶酪擦丝放进碗里。' },
+      { w: 'mince', zh: '绞碎；剁碎', scene: '用刀或绞肉机把肉、蒜剁成细末，像包饺子前的肉馅。', tone: '中性', col: 'mince the meat, minced garlic', en: 'Mince the garlic before you add it.', cn: '加蒜之前先把它剁碎。' },
+      { w: 'mash', zh: '捣成泥', scene: '用叉子或捣泥器把煮软的东西压成糊，像土豆泥。', tone: '中性，偏口语', col: 'mash potatoes, mashed banana', en: 'Mash the potatoes with butter.', cn: '加黄油把土豆捣成泥。' },
+      { w: 'peel', zh: '削皮；剥皮', scene: '把水果、蔬菜的外皮去掉，像削苹果、剥土豆。', tone: '中性', col: 'peel a carrot, peel the skin off', en: 'Peel the carrots before chopping.', cn: '切之前先把胡萝卜削皮。' }
+    ]},
+    { line: '餐桌上四瓶调味：mustard 芥末冲鼻，ketchup 番茄酱偏甜，mayonnaise 蛋黄酱油滑，vinegar 醋酸得直接。', items: [
+      { w: 'mustard', zh: '芥末；芥末酱', scene: '黄色酱料，抹在三明治里或配香肠，味道冲鼻子。', tone: '中性', col: 'yellow mustard, a jar of mustard', en: 'He spread mustard on his sandwich.', cn: '他在三明治上抹了芥末酱。' },
+      { w: 'ketchup', zh: '番茄酱', scene: '红红的甜酱，挤在薯条和汉堡上，孩子最爱。', tone: '中性，口语常用', col: 'tomato ketchup, a bottle of ketchup', en: 'She put ketchup on her chips.', cn: '她在薯条上挤了番茄酱。' },
+      { w: 'mayonnaise', zh: '蛋黄酱', scene: '用油和蛋黄打成的白色酱，拌沙拉、抹面包，口感油滑。', tone: '中性', col: 'a spoon of mayonnaise, egg mayonnaise', en: 'Mix the tuna with mayonnaise.', cn: '把金枪鱼和蛋黄酱拌在一起。' },
+      { w: 'vinegar', zh: '醋', scene: '酸味的液体调料，拌沙拉、腌菜，也能去腥。', tone: '中性', col: 'white vinegar, oil and vinegar', en: 'Add a little vinegar to the dressing.', cn: '在调料汁里加一点醋。' }
+    ]},
+    { line: '四种香草：basil 罗勒甜香、常配番茄，mint 薄荷清凉、做饮料和甜点，coriander 芫荽味道两极，chives 细香葱带葱香。', items: [
+      { w: 'basil', zh: '罗勒', scene: '叶子甜香的香草，常配番茄和意面，最后撒上，不宜久煮。', tone: '中性', col: 'fresh basil, basil leaves', en: 'Add fresh basil at the end.', cn: '最后撒上新鲜罗勒。' },
+      { w: 'mint', zh: '薄荷', scene: '叶子清凉，泡茶、做甜点、配羊肉，也能做冷饮。', tone: '中性', col: 'fresh mint, mint tea', en: 'Garnish with a sprig of mint.', cn: '用一小枝薄荷点缀。' },
+      { w: 'coriander', zh: '芫荽；香菜', scene: '叶子味道强烈，有人爱有人恨，切碎撒在汤、咖喱和沙拉上。', tone: '中性', col: 'fresh coriander, ground coriander', en: 'Stir in chopped coriander before serving.', cn: '上桌之前拌入切碎的香菜。' },
+      { w: 'chives', zh: '细香葱', scene: '细长的绿色香草，切碎了撒在炒蛋、汤和沙拉上，带葱香。', tone: '中性', col: 'chopped chives, a bunch of chives', en: 'Chop the chives finely.', cn: '把细香葱切得很碎。' }
+    ]},
+    { line: '四种鱼：cod 鳕鱼白肉最淡，mackerel 鲭鱼油多味重，salmon 三文鱼橙肉肥嫩，trout 鳟鱼是淡水鱼、肉更清甜。', items: [
+      { w: 'cod', zh: '鳕鱼', scene: '白色鱼肉、味道淡，肉厚刺少，常用来煎、烤、做鱼条。', tone: '中性', col: 'baked cod, cod fillet', en: 'We had baked cod for dinner.', cn: '我们晚饭吃了烤鳕鱼。' },
+      { w: 'mackerel', zh: '鲭鱼', scene: '身上有花纹的油性鱼，味道重、便宜，常熏制或烤。', tone: '中性', col: 'smoked mackerel, a mackerel fillet', en: 'Smoked mackerel is cheap and full of flavour.', cn: '熏鲭鱼便宜又够味。' },
+      { w: 'salmon', zh: '三文鱼；鲑鱼', scene: '橙粉色鱼肉、肥嫩，做刺身、煎或熏都常见。', tone: '中性', col: 'smoked salmon, salmon fillet', en: 'The salmon was grilled with lemon.', cn: '三文鱼配柠檬烤好了。' },
+      { w: 'trout', zh: '鳟鱼', scene: '生活在清冷淡水里的鱼，肉嫩味清，常整条煎。', tone: '中性', col: 'rainbow trout, grilled trout', en: 'Grilled trout tastes best with a little butter.', cn: '烤鳟鱼加点黄油最好吃。' }
+    ]},
+    { line: '身体四个位置：cheek 是脸的两侧，chin 是脸最下面突出的那块，waist 是躯干最细的腰，thigh 是腰以下、膝盖以上的大腿。', items: [
+      { w: 'cheek', zh: '脸颊', scene: '眼睛下面到下巴之间的两侧，脸红、亲脸颊都指这里。', tone: '中性', col: 'rosy cheeks, cheek to cheek', en: 'Her cheeks were red from the cold.', cn: '她两颊冻得发红。' },
+      { w: 'chin', zh: '下巴', scene: '脸最下面、嘴下方的部位，抬头时最明显。', tone: '中性', col: 'a pointed chin, keep your chin up', en: 'He rested his chin on his hand.', cn: '他用手托着下巴。' },
+      { w: 'waist', zh: '腰', scene: '身体中间最细的一圈，量衣服、系腰带都看这里。', tone: '中性', col: 'a narrow waist, waist size', en: 'The dress is tight around the waist.', cn: '这条裙子腰部有点紧。' },
+      { w: 'thigh', zh: '大腿', scene: '从胯到膝盖这一段，跑跳、深蹲用到的肌肉都在这里。', tone: '中性', col: 'the thigh bone, thigh muscles', en: 'He pulled a muscle in his thigh.', cn: '他拉伤了大腿肌肉。' }
+    ]},
+    { line: '四个不说话的动作：grin 咧嘴笑，wink 眨一只眼，nod 点头，shrug 耸肩，情绪和态度各不相同。', items: [
+      { w: 'grin', zh: '咧嘴笑', scene: '嘴角大大往上拉，露出牙齿，可能是高兴，也可能是忍着笑。', tone: '中性偏口语', col: 'a wide grin, grin at somebody', en: 'A wide grin spread across her face.', cn: '她脸上绽开一个大大的笑容。' },
+      { w: 'wink', zh: '眨眼（单眼）；使眼色', scene: '闭一下一只眼，像在说“我懂”或跟人开玩笑。', tone: '中性', col: 'give a wink, wink at somebody', en: 'He gave me a quick wink.', cn: '他朝我飞快地眨了下眼。' },
+      { w: 'nod', zh: '点头', scene: '头轻轻往下一压，表示同意或打招呼，不用出声。', tone: '中性', col: 'a quick nod, nod in agreement', en: 'She answered with a nod.', cn: '她点头作了回答。' },
+      { w: 'shrug', zh: '耸肩', scene: '肩膀往上一提，表示“不知道”或“无所谓”，常配摊手。', tone: '中性', col: 'a shrug of the shoulders, with a shrug', en: 'His answer was a shrug.', cn: '他的回答就是耸了耸肩。' }
+    ]},
+    { line: '身体自己发出的四种声音：sneeze 喷嚏、snore 鼾声、sigh 叹气、yawn 哈欠，都不受控制。', items: [
+      { w: 'sneeze', zh: '打喷嚏', scene: '鼻子里一痒，突然喷出一口气，配一声“啊嚏”。', tone: '中性', col: 'a loud sneeze, sneeze into a tissue', en: 'A sneeze caught her by surprise.', cn: '她冷不丁打了个喷嚏。' },
+      { w: 'snore', zh: '打鼾；打呼噜', scene: '睡着以后喉咙震动，发出粗重的呼吸声，吵得同屋睡不着。', tone: '中性', col: 'a loud snore, snore all night', en: 'His snore kept me awake.', cn: '他的鼾声让我睡不着。' },
+      { w: 'sigh', zh: '叹气；叹息', scene: '长长地吐一口气，心里松了或烦了才会这样。', tone: '中性', col: 'a deep sigh, sigh with relief', en: 'She let out a long sigh.', cn: '她长长地叹了口气。' },
+      { w: 'yawn', zh: '打哈欠', scene: '困了或者无聊时张大嘴深吸一口气，眼角有时会湿。', tone: '中性', col: 'a wide yawn, stifle a yawn', en: 'He tried to hide a yawn.', cn: '他试着把哈欠藏起来。' }
+    ]},
+    { line: '孩子身上常见的四种病：measles 麻疹全身红疹，mumps 腮腺炎让脸颊肿，chickenpox 水痘是发痒的水泡，eczema 湿疹反复发红发痒。', items: [
+      { w: 'measles', zh: '麻疹', scene: '孩子发烧、全身起红疹，出疹前后传染性很强。', tone: '中性，医学术语', col: 'catch measles, measles vaccine', en: 'The doctor confirmed it was measles.', cn: '医生确认这是麻疹。' },
+      { w: 'mumps', zh: '流行性腮腺炎', scene: '腮帮子肿得鼓鼓的，张嘴吃东西就疼，多见于孩子。', tone: '中性，医学术语', col: 'catch mumps, mumps vaccine', en: 'Mumps kept him home for a week.', cn: '腮腺炎让他在家待了一周。' },
+      { w: 'chickenpox', zh: '水痘', scene: '身上冒出很多发痒的小水泡，结痂前会传染。', tone: '中性，医学术语', col: 'catch chickenpox, chickenpox rash', en: 'Chickenpox left small marks on his back.', cn: '水痘在他背上留了几个小疤。' },
+      { w: 'eczema', zh: '湿疹', scene: '皮肤一块块发红、干痒，换季或压力大时容易犯。', tone: '中性，医学术语', col: 'atopic eczema, eczema cream', en: 'Her eczema flares up in winter.', cn: '她的湿疹一到冬天就发作。' }
+    ]},
+    { line: '急救场景四样东西：ambulance 救护车把人送走，inhaler 吸入器帮哮喘病人，plaster 创可贴盖小伤口，tweezers 镊子夹出刺。', items: [
+      { w: 'ambulance', zh: '救护车', scene: '闪灯鸣笛的白色车，把病人或伤者飞快送去医院。', tone: '中性', col: 'call an ambulance, an ambulance crew', en: 'An ambulance took him to hospital.', cn: '一辆救护车把他送去了医院。' },
+      { w: 'inhaler', zh: '吸入器', scene: '哮喘病人随身的小瓶子，一按就把药雾吸进肺里。', tone: '中性', col: 'use an inhaler, asthma inhaler', en: 'He keeps his inhaler in his pocket.', cn: '他把吸入器放在口袋里。' },
+      { w: 'plaster', zh: '创可贴；膏药', scene: '贴在手指小伤口上的小胶布；英式英语常指创可贴。', tone: '中性，英式', col: 'put on a plaster, a box of plasters', en: 'She put a plaster on the cut.', cn: '她在伤口上贴了创可贴。' },
+      { w: 'tweezers', zh: '镊子', scene: '两片小夹子，用来夹出刺、拔眉毛或夹小零件。', tone: '中性', col: 'a pair of tweezers, use tweezers', en: 'Use tweezers to remove the splinter.', cn: '用镊子把刺夹出来。' }
+    ]},
+    { line: '四种猛禽：eagle 鹰体形最大，hawk 隼更小更快，owl 猫头鹰夜里活动，vulture 秃鹫专吃腐肉。', items: [
+      { w: 'eagle', zh: '鹰；雕', scene: '体形大、翅膀宽，飞得高、眼睛尖，常做国家的标志。', tone: '中性', col: 'a golden eagle, eagle eyes', en: 'An eagle circled above the valley.', cn: '一只鹰在山谷上空盘旋。' },
+      { w: 'hawk', zh: '隼；鹰', scene: '比雕小一些，飞得快，常在开阔地抓小鸟和老鼠。', tone: '中性', col: 'a sparrow hawk, watch like a hawk', en: 'A hawk dived towards the field.', cn: '一只隼朝田野俯冲下去。' },
+      { w: 'owl', zh: '猫头鹰', scene: '眼睛大、脸盘圆，夜里出来抓老鼠，叫声低沉。', tone: '中性', col: 'a barn owl, owl feathers', en: 'An owl flew out of the barn.', cn: '一只猫头鹰从谷仓里飞出来。' },
+      { w: 'vulture', zh: '秃鹫', scene: '头秃、专吃死动物的大鸟，常在天空慢慢盘旋等猎物倒下。', tone: '中性', col: 'a griffon vulture, vultures circling', en: 'Vultures circled above the dead deer.', cn: '秃鹫在死鹿上空盘旋。' }
+    ]},
+    { line: '四种小虫：ant 蚂蚁成群爬，bee 蜜蜂采蜜，wasp 黄蜂更瘦、蜇人更疼，moth 蛾子夜里扑灯。', items: [
+      { w: 'ant', zh: '蚂蚁', scene: '小小的黑虫，排成一条线搬食物，碰一碰就乱了阵。', tone: '中性', col: 'a column of ants, ant nest', en: 'An ant crawled across the table.', cn: '一只蚂蚁爬过桌面。' },
+      { w: 'bee', zh: '蜜蜂', scene: '黄黑条纹，采花蜜、传花粉，也会酿蜜，蜇人一次就死。', tone: '中性', col: 'a honey bee, bee sting', en: 'A bee landed on the flowers.', cn: '一只蜜蜂落在花上。' },
+      { w: 'wasp', zh: '黄蜂；胡蜂', scene: '比蜜蜂瘦长，黄黑分明，能反复蜇人，夏天爱往甜的东西上扑。', tone: '中性', col: 'a wasp sting, a wasp nest', en: 'A wasp buzzed around the jam.', cn: '一只黄蜂在果酱旁嗡嗡飞。' },
+      { w: 'moth', zh: '蛾', scene: '夜里出来，翅膀粉粉的，爱扑灯光，和蝴蝶是近亲。', tone: '中性', col: 'a clothes moth, a moth flying', en: 'A moth flew into the lamp.', cn: '一只蛾扑进了灯里。' }
+    ]},
+    { line: '四种动物叫声：buzz 是蜜蜂嗡嗡，hoot 是猫头鹰呜呜，croak 是青蛙呱呱，bleat 是羊咩咩。', items: [
+      { w: 'buzz', zh: '嗡嗡叫；嗡嗡声', scene: '蜜蜂、苍蝇翅膀高速振动的声音，低而连续。', tone: '中性', col: 'the buzz of bees, buzz around', en: 'Bees buzz around the flowers.', cn: '蜜蜂在花间嗡嗡叫。' },
+      { w: 'hoot', zh: '（猫头鹰）呜呜叫', scene: '夜里从树上传来低沉的两三声“呜—呜”，是猫头鹰在叫。', tone: '中性', col: 'the hoot of an owl, hoot at night', en: 'Owls hoot at night.', cn: '猫头鹰在夜里呜呜叫。' },
+      { w: 'croak', zh: '（青蛙）呱呱叫；嘶哑地说', scene: '青蛙在池塘边鼓起喉咙，发出粗哑的一声。', tone: '中性', col: 'the croak of a frog, croak loudly', en: 'Frogs croak by the pond.', cn: '青蛙在池塘边呱呱叫。' },
+      { w: 'bleat', zh: '（羊）咩咩叫', scene: '小羊找不到母羊时发出的细软颤音。', tone: '中性', col: 'the bleat of a lamb, bleat for food', en: 'The lambs bleat for their mothers.', cn: '小羊咩咩叫着找妈妈。' }
+    ]},
+    { line: '农场四种动物：donkey 驮东西的驴，goose 会追人的鹅，turkey 过节上桌的火鸡，pig 在泥里拱的猪。', items: [
+      { w: 'donkey', zh: '驴', scene: '比马矮、耳朵长，能驮重物走山路，脾气常被说成固执。', tone: '中性', col: 'a stubborn donkey, ride a donkey', en: 'A donkey carried the load up the hill.', cn: '一头驴驮着货上山。' },
+      { w: 'goose', zh: '鹅', scene: '比鸭大、脖子长，会看家、会追人，从你手里抢面包。', tone: '中性', col: 'a wild goose, goose feathers', en: 'A goose hissed at us.', cn: '一只鹅朝我们嘶叫。' },
+      { w: 'turkey', zh: '火鸡', scene: '体形大的家禽，感恩节和圣诞节整只烤着吃。', tone: '中性', col: 'roast turkey, a turkey farm', en: 'We roast a turkey at Christmas.', cn: '我们圣诞节烤火鸡。' },
+      { w: 'pig', zh: '猪', scene: '粉色的家畜，爱在泥里拱，养来吃肉。', tone: '中性', col: 'a pig farm, pig feed', en: 'The pig rolled in the mud.', cn: '那头猪在泥里打滚。' }
+    ]},
+    { line: '四种地貌：cliff 是陡直的悬崖，glacier 是压实的冰慢慢流动，geyser 定时喷热水的间歇泉，oasis 是沙漠里有水有树的绿洲。', items: [
+      { w: 'cliff', zh: '悬崖', scene: '海边或山边陡直落下去的岩壁，站边上往下看会腿软。', tone: '中性', col: 'a steep cliff, cliff edge', en: 'The path ends at the cliff edge.', cn: '小路到悬崖边就断了。' },
+      { w: 'glacier', zh: '冰川', scene: '积雪压成厚冰，顺着山谷慢慢往下流，走得很慢但能磨出山谷。', tone: '中性', col: 'a melting glacier, glacier ice', en: 'The glacier is melting faster each year.', cn: '冰川每年融化得更快。' },
+      { w: 'geyser', zh: '间歇泉', scene: '地下的热水每隔一段时间喷上天空，像定时的喷泉。', tone: '中性', col: 'a hot geyser, the geyser erupts', en: 'The geyser erupts every few minutes.', cn: '这眼间歇泉几分钟喷一次。' },
+      { w: 'oasis', zh: '绿洲', scene: '沙漠中间有水和树的一小片地方，也比喻忙乱中安静的一角。', tone: '中性', col: 'a desert oasis, an oasis of calm', en: 'The travellers reached an oasis by dusk.', cn: '旅行者天黑前到了一处绿洲。' }
+    ]},
+    { line: '四件首饰戴的位置不同：bracelet 在手腕，necklace 在脖子，earrings 在耳垂，cufflinks 在衬衫袖口。', items: [
+      { w: 'bracelet', zh: '手镯；手链', scene: '戴在手腕上的一圈首饰，金银、串珠都有。', tone: '中性', col: 'a silver bracelet, wear a bracelet', en: 'She wore a silver bracelet.', cn: '她戴了一只银手镯。' },
+      { w: 'necklace', zh: '项链', scene: '挂在脖子上的首饰，可能带吊坠，也可能是一串珠子。', tone: '中性', col: 'a gold necklace, a pearl necklace', en: 'The necklace belonged to her grandmother.', cn: '这条项链是她祖母的。' },
+      { w: 'earrings', zh: '耳环；耳饰', scene: '戴在耳垂上的小饰物，有耳钉也有垂坠的。', tone: '中性', col: 'gold earrings, wear earrings', en: 'She wore small gold earrings.', cn: '她戴着小金耳环。' },
+      { w: 'cufflinks', zh: '袖扣', scene: '穿正式衬衫时扣在袖口的小扣子，常成对出现。', tone: '中性偏正式', col: 'silver cufflinks, a pair of cufflinks', en: 'He fastened his cufflinks in the mirror.', cn: '他对着镜子扣好袖扣。' }
+    ]},
+    { line: '四种装东西的包：wallet 钱包放卡和钞票，purse 是女士随手拿的小钱包，handbag 手提包装日常杂物，briefcase 公文包装文件和电脑。', items: [
+      { w: 'wallet', zh: '钱包', scene: '折起来的小包，放卡和钞票，男士常放在裤兜里。', tone: '中性', col: 'a leather wallet, lose your wallet', en: 'He lost his wallet on the bus.', cn: '他把钱包丢在公交车上了。' },
+      { w: 'purse', zh: '小钱包；女用手包', scene: '女士随手拿的小包，装零钱、口红和钥匙。', tone: '中性', col: 'a small purse, purse strings', en: 'She took a coin from her purse.', cn: '她从钱包里拿了一枚硬币。' },
+      { w: 'handbag', zh: '手提包', scene: '女士拎在手上的包，装手机、钱包、纸巾等日常杂物。', tone: '中性', col: 'a leather handbag, in her handbag', en: 'Her handbag was on the chair.', cn: '她的手提包放在椅子上。' },
+      { w: 'briefcase', zh: '公文包', scene: '方方正正的硬包，装文件和笔记本电脑，上班族标配。', tone: '中性', col: 'a black briefcase, open a briefcase', en: 'He opened his briefcase and took out the file.', cn: '他打开公文包拿出文件。' }
+    ]},
+    { line: '化妆四样：lipstick 涂嘴唇，mascara 刷睫毛，eyeliner 画眼边，eyeshadow 铺眼窝。', items: [
+      { w: 'lipstick', zh: '口红', scene: '拧出来涂在嘴唇上的膏体，改颜色也提气色。', tone: '中性', col: 'red lipstick, put on lipstick', en: 'She put on red lipstick.', cn: '她涂上了红口红。' },
+      { w: 'mascara', zh: '睫毛膏', scene: '用小刷子刷在睫毛上，让它变黑变长，下雨会花。', tone: '中性', col: 'waterproof mascara, apply mascara', en: 'Her mascara ran in the rain.', cn: '她的睫毛膏被雨弄花了。' },
+      { w: 'eyeliner', zh: '眼线笔；眼线', scene: '沿着睫毛根部画一条线，让眼睛看起来更大更利。', tone: '中性', col: 'a black eyeliner, draw eyeliner', en: 'She drew a thin line of eyeliner.', cn: '她画了一条细细的眼线。' },
+      { w: 'eyeshadow', zh: '眼影', scene: '涂在眼皮上的颜色，深浅不同能改眼形和气质。', tone: '中性', col: 'brown eyeshadow, apply eyeshadow', en: 'She chose a soft brown eyeshadow.', cn: '她选了柔和的棕色眼影。' }
+    ]},
+    { line: '四件衣物：jumper 是英式套头毛衣，blouse 是女式衬衫，tights 是连脚的连裤袜，leggings 是打底裤、不连脚。', items: [
+      { w: 'jumper', zh: '套头毛衣（英式）', scene: '套头穿的长袖针织衫，英式说法；美式多叫 sweater。', tone: '中性，英式', col: 'a wool jumper, put on a jumper', en: 'She pulled on a wool jumper.', cn: '她套上一件羊毛衫。' },
+      { w: 'blouse', zh: '女式衬衫', scene: '有领子和扣子、版型偏柔的女上衣，比 shirt 更正式。', tone: '中性', col: 'a silk blouse, a white blouse', en: 'She wore a white blouse to the interview.', cn: '她穿白衬衫去面试。' },
+      { w: 'tights', zh: '连裤袜；紧身裤', scene: '连脚、贴着腿穿的薄裤袜，冬天配裙子。', tone: '中性', col: 'black tights, a pair of tights', en: 'She pulled on thick black tights.', cn: '她穿上厚黑连裤袜。' },
+      { w: 'leggings', zh: '打底裤；紧身裤', scene: '紧贴腿、不连脚的弹性裤子，运动或配长上衣穿。', tone: '中性偏口语', col: 'black leggings, wear leggings', en: 'She wears leggings to the gym.', cn: '她穿打底裤去健身房。' }
+    ]},
+    { line: '衣服上的四个细节：zip 拉链负责拉合，buckle 皮带扣负责扣紧，cuff 是手腕处的袖口，pocket 是装东西的口袋。', items: [
+      { w: 'zip', zh: '拉链', scene: '两排齿加一个拉头，一拉就合上，外套和背包上都有。', tone: '中性，英式', col: 'a zip fastener, do up the zip', en: 'The zip on my jacket is stuck.', cn: '我外套的拉链卡住了。' },
+      { w: 'buckle', zh: '皮带扣；扣上', scene: '皮带或鞋上的金属扣，也指把扣子扣好这个动作。', tone: '中性', col: 'a belt buckle, buckle up', en: 'The buckle on his belt was loose.', cn: '他皮带上的扣子松了。' },
+      { w: 'cuff', zh: '袖口', scene: '袖子最靠近手腕的那一段，常带扣子或翻边。', tone: '中性', col: 'a shirt cuff, cuff links', en: 'She straightened her cuff.', cn: '她把袖口拉正。' },
+      { w: 'pocket', zh: '口袋', scene: '衣服上缝出来能装东西的袋子，手冷时也会插进去。', tone: '中性', col: 'a coat pocket, in your pocket', en: 'He put the key in his pocket.', cn: '他把钥匙放进口袋。' }
+    ]},
+    { line: '坐的地方：sofa 多人坐的沙发，couch 是能躺的长沙发，chair 是普通椅子，armchair 是带扶手的单人椅。', items: [
+      { w: 'sofa', zh: '沙发', scene: '客厅里多人坐的长软椅，有靠背和扶手，常配靠垫。', tone: '中性', col: 'a leather sofa, on the sofa', en: 'The cat sleeps on the sofa.', cn: '猫睡在沙发上。' },
+      { w: 'couch', zh: '长沙发', scene: '和 sofa 很像，但更强调能躺，口语里更常见。', tone: '偏口语', col: 'on the couch, a sofa couch', en: 'He fell asleep on the couch.', cn: '他在长沙发上睡着了。' },
+      { w: 'chair', zh: '椅子', scene: '有靠背、通常四条腿的坐具，一个人坐，可能带扶手也可能没有。', tone: '中性', col: 'a wooden chair, pull up a chair', en: 'She pulled up a chair.', cn: '她拉过一把椅子。' },
+      { w: 'armchair', zh: '扶手椅', scene: '单人坐、两侧有扶手的软椅，读书打盹最舒服。', tone: '中性', col: 'a comfortable armchair, in the armchair', en: 'Grandad dozed in his armchair.', cn: '爷爷在扶手椅上打瞌睡。' }
+    ]},
+    { line: '打扫四件套：broom 扫帚扫地面，duster 掸子掸浮灰，dustpan 畚箕接尘土，cloth 抹布擦表面。', items: [
+      { w: 'broom', zh: '扫帚', scene: '长柄加硬毛，扫地上大片的灰和落叶。', tone: '中性', col: 'a garden broom, sweep with a broom', en: 'She swept the yard with a broom.', cn: '她用扫帚扫院子。' },
+      { w: 'duster', zh: '掸子；抹布', scene: '软的毛刷或布，用来掸书架、桌面上的浮灰。', tone: '中性', col: 'a feather duster, dust with a duster', en: 'He wiped the shelves with a duster.', cn: '他用掸子擦书架。' },
+      { w: 'dustpan', zh: '畚箕', scene: '带手柄的浅盘，接扫出来的尘土再倒进垃圾桶。', tone: '中性', col: 'a dustpan and brush, sweep into the dustpan', en: 'Sweep the crumbs into the dustpan.', cn: '把碎屑扫进畚箕。' },
+      { w: 'cloth', zh: '抹布；布', scene: '一块软布，沾水擦桌子、擦碗，用完要洗。', tone: '中性', col: 'a damp cloth, a cleaning cloth', en: 'Wipe the table with a damp cloth.', cn: '用湿抹布擦桌子。' }
+    ]},
+    { line: '开车路上遇到的四样：overtake 是超车这个动作，seatbelt 是安全带，headlight 是前灯，wipers 是雨刷。', items: [
+      { w: 'overtake', zh: '超车；超过', scene: '从旁边车道越过前面的车；也比喻在比赛或发展上超过别人。', tone: '中性偏正式', col: 'overtake a lorry, no overtaking', en: 'It is dangerous to overtake on this bend.', cn: '在这个弯道超车很危险。' },
+      { w: 'seatbelt', zh: '安全带', scene: '斜挎过肩、横过腰的带子，上车第一件事就是扣上。', tone: '中性', col: 'fasten your seatbelt, wear a seatbelt', en: 'Fasten your seatbelt before we start.', cn: '出发前系好安全带。' },
+      { w: 'headlight', zh: '前灯；车头灯', scene: '车头两盏灯，天黑或下雨时打开照路。', tone: '中性', col: 'turn on the headlights, a broken headlight', en: 'One headlight was broken.', cn: '一个前灯坏了。' },
+      { w: 'wipers', zh: '雨刷', scene: '挡风玻璃下两条橡皮条，下雨时来回刮水。', tone: '中性', col: 'windscreen wipers, the wipers stopped', en: 'The wipers could not clear the heavy rain.', cn: '雨刷刮不净这么大的雨。' }
+    ]},
+    { line: '办公室四台机器：stapler 订书机钉纸，scanner 扫描仪把纸变成电子档，projector 投影仪放画面，photocopier 复印机复制纸。', items: [
+      { w: 'stapler', zh: '订书机', scene: '把纸按进嘴里一压，用订书钉把几页钉在一起。', tone: '中性', col: 'a stapler and staples, load the stapler', en: 'The stapler is on the top shelf.', cn: '订书机在最上层架子上。' },
+      { w: 'scanner', zh: '扫描仪', scene: '把纸上的文字和图片变成电脑里的文件。', tone: '中性', col: 'a document scanner, scan a page', en: 'The scanner turns paper into a file.', cn: '扫描仪把纸变成文件。' },
+      { w: 'projector', zh: '投影仪', scene: '把电脑画面打到墙上或幕布上，上课开会用。', tone: '中性', col: 'a digital projector, set up the projector', en: 'The projector would not connect to the laptop.', cn: '投影仪连不上笔记本电脑。' },
+      { w: 'photocopier', zh: '复印机', scene: '把一张纸原样复制出很多张，办公室常放在走道边。', tone: '中性', col: 'the office photocopier, make a photocopy', en: 'The photocopier is out of paper.', cn: '复印机没纸了。' }
+    ]},
+    { line: '桌上四样文具：clipboard 带夹子的写字板，notepad 便签本随手记，highlighter 荧光笔划重点，eraser 橡皮擦铅笔。', items: [
+      { w: 'clipboard', zh: '写字板；剪贴板', scene: '带弹簧夹的硬板，夹着纸站着也能写字；电脑里也指剪贴板。', tone: '中性', col: 'a clipboard and pen, on a clipboard', en: 'She wrote the list on a clipboard.', cn: '她把清单写在夹板上。' },
+      { w: 'notepad', zh: '便签本', scene: '一小叠纸，随手记电话、待办，放进口袋也不占地方。', tone: '中性', col: 'a small notepad, jot down on a notepad', en: 'He jotted the number on a notepad.', cn: '他把号码记在便签本上。' },
+      { w: 'highlighter', zh: '荧光笔', scene: '颜色鲜艳的半透明笔，在书和笔记上划过重点就亮起来。', tone: '中性', col: 'a yellow highlighter, highlight the text', en: 'Use a highlighter for the key points.', cn: '用荧光笔标出重点。' },
+      { w: 'eraser', zh: '橡皮', scene: '擦掉铅笔字的小块，用久了会变黑、掉渣。', tone: '中性', col: 'a pencil eraser, rub out with an eraser', en: 'He rubbed the mistake out with an eraser.', cn: '他用橡皮把写错的地方擦掉。' }
+    ]},
   ];
 
   const SOLOS = [
