@@ -250,7 +250,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
   assert.equal(index.includes('?v=' + previous), false);
@@ -261,7 +261,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
   assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
   assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
-  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js', 'voice-check.js']) {
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js']) {
     assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
@@ -569,7 +569,7 @@ test('old saves without a mistake book initialise and keep the rest of the progr
   const overview = Plan.missOverview(S, '2024-06-10');
   assert.equal(overview.total, 0);
   assert.equal(overview.due, 0);
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0, spell: 0 }));
   assert.equal(Plan.missingToday(S, '2024-06-10').length, 0);
   // A non-object field is replaced; a broken row is dropped; valid rows survive.
   S.miss = 'oops';
@@ -652,13 +652,124 @@ test('mistake book overview counts every source and only lists what is due', () 
   Plan.missRecord(S, Plan.missKey('swt', 's1'), day);
   Plan.missRecord(S, Plan.missKey('wfd', 'future'), '2024-06-10');
   const overview = Plan.missOverview(S, '2024-06-10');
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1, spell: 0 }));
   assert.equal(overview.total, 7);
   assert.equal(overview.due, 6);
   assert.equal(overview.dueRows.some(row => row.id === 'future'), false);
   assert.equal(overview.rows[0].key, 'quiz:apple', 'oldest due date first');
   Plan.missResolve(S, 'quiz:pear');
   assert.equal(Plan.missOverview(S, '2024-06-10').groups.quiz, 1);
+});
+
+// --- UK/US spelling drills (pte-spelling.js) -------------------------------
+function spellingContext(extra = []) {
+  const context = { console };
+  vm.createContext(context);
+  for (const file of extra) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
+  vm.runInContext(
+    fs.readFileSync(path.join(root, 'pte-spelling.js'), 'utf8') +
+    '\nglobalThis.PTE_SPELLING = PTE_SPELLING;\nglobalThis.PTESpell = PTESpell;\n',
+    context
+  );
+  return context;
+}
+
+const spellCtx = spellingContext();
+const SPELLING = spellCtx.PTE_SPELLING;
+const Spell = spellCtx.PTESpell;
+
+test('spelling bank holds at least 150 unique, lowercase UK/US pairs and no lesson text', () => {
+  const seenRules = new Set();
+  const seenUk = new Set();
+  for (const rule of SPELLING.rules) {
+    assert.ok(rule.id && rule.title && rule.hint, 'every rule needs id/title/hint');
+    assert.equal(seenRules.has(rule.id), false, 'rule id repeated: ' + rule.id);
+    seenRules.add(rule.id);
+    assert.ok(rule.hint.length <= 120, 'hint stays one short line: ' + rule.id);
+    assert.ok(rule.pairs.length > 0);
+    for (const pair of rule.pairs) {
+      assert.match(pair.uk, /^[a-z]+$/, 'lowercase UK spelling: ' + pair.uk);
+      assert.match(pair.us, /^[a-z]+$/, 'lowercase US spelling: ' + pair.us);
+      assert.notEqual(pair.uk, pair.us);
+      assert.equal(seenUk.has(pair.uk), false, 'duplicate UK word: ' + pair.uk);
+      seenUk.add(pair.uk);
+    }
+  }
+  assert.ok(SPELLING.count >= 150, 'expected at least 150 pairs, got ' + SPELLING.count);
+  assert.equal(SPELLING.all.length, SPELLING.count);
+  assert.equal(new Set(SPELLING.all.map(pair => pair.uk + '|' + pair.us)).size, SPELLING.count);
+  for (const pair of SPELLING.all) {
+    assert.equal(seenRules.has(pair.rule), true, 'flattened row points at a rule');
+    assert.equal(typeof pair.title, 'string');
+  }
+  // Same-meaning word swaps are reference only and stay out of the drills.
+  assert.ok(SPELLING.extras.length > 0);
+  for (const extra of SPELLING.extras) {
+    assert.notEqual(extra.uk, extra.us);
+    assert.match(extra.note, /同义/);
+    assert.equal(SPELLING.all.some(pair => pair.uk === extra.uk && pair.us === extra.us), false);
+  }
+  const source = fs.readFileSync(path.join(root, 'pte-spelling.js'), 'utf8');
+  assert.equal(source.includes('大西瓜'), false, 'no course branding in the public repo');
+  assert.equal(/[\u4e00-\u9fff]{40,}/.test(source), false, 'no copied prose paragraphs');
+});
+
+test('spelling drills grade case-insensitively and always offer four unique options', () => {
+  assert.equal(Spell.norm('  COLOUR '), 'colour');
+  assert.equal(Spell.norm('colour.'), 'colour');
+  assert.equal(Spell.check(' COLOR ', 'color'), true);
+  assert.equal(Spell.check('color', 'colour'), false);
+  assert.equal(Spell.check('', 'color'), false);
+  assert.equal(Spell.pair('colour').us, 'color');
+  assert.equal(Spell.pair('nope'), null);
+  assert.equal(Spell.rule('our-or').title, '-our / -or');
+  for (const pair of SPELLING.all) {
+    for (const dir of ['uk2us', 'us2uk']) {
+      const options = Spell.options(pair, dir);
+      assert.equal(options.length, 4);
+      assert.equal(new Set(options).size, 4);
+      assert.ok(options.includes(dir === 'uk2us' ? pair.us : pair.uk));
+      assert.equal(options.every(word => /^[a-z]+$/.test(word)), true);
+    }
+  }
+});
+
+test('a wrong spelling enters the shared mistake book under source spell', () => {
+  const ctx = spellingContext(['study-plan.js']);
+  const Plan = ctx.StudyPlan;
+  const S = { days: {}, learned: [] };
+  assert.ok(Plan.MISS_SOURCES.indexOf('spell') >= 0, 'spell is a registered source');
+  assert.equal(Plan.MISS_LABEL.spell, '拼写');
+  assert.equal(ctx.PTESpell.mark('colour', true, S), true);
+  assert.equal(S.miss['spell:colour'].n, 1);
+  assert.equal(S.miss['spell:colour'].due, Plan.addDays(Plan.localDate(new Date()), 1));
+  assert.equal(Plan.missOverview(S, Plan.localDate(new Date())).groups.spell, 1);
+  assert.equal(ctx.PTESpell.mark('colour', false, S), true);
+  assert.equal(S.miss['spell:colour'].ok, 1);
+  assert.equal(ctx.PTESpell.mark('colour', false, S), true);
+  assert.equal(S.miss['spell:colour'], undefined, 'two correct answers retire the row');
+  assert.equal(ctx.PTESpell.mark('', true, S), false);
+  assert.equal(ctx.PTESpell.mark('colour', true, null), false);
+});
+
+test('the 拼写 module is wired into the PTE tab and the precache list', () => {
+  const app = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const logic = fs.readFileSync(path.join(root, 'pte-logic.js'), 'utf8');
+  const plan = fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8');
+  const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  assert.ok(version);
+  assert.match(app, /btn\('spell', '拼写'\)/);
+  assert.match(app, /window\.pteSpellView/);
+  assert.match(app, /PTESpell\.click/);
+  assert.match(app, /PTESpell\.focus/);
+  assert.match(logic, /st\.mode !== 'spell'/);
+  assert.match(plan, /'spell'/);
+  assert.match(plan, /拼写/);
+  // The drill data ships in the precached file, so every pair is available offline.
+  assert.match(index, new RegExp('pte-spelling\\.js\\?v=' + version));
+  assert.match(sw, new RegExp('pte-spelling\\.js\\?v=' + version));
 });
 
 test('synonym comparisons cover high-frequency words and leave the rest for later', () => {

@@ -132,3 +132,19 @@ textarea.study-box{min-height:140px}
 .miss-row .btn{margin-top:6px}
 .pte-focus-note{background:#fff3cd;color:#7a4d00;border-radius:10px;padding:8px 10px;font-weight:700;font-size:.9rem;margin:0 0 10px}
 .card.is-focus{outline:3px solid #f59e0b}
+/* PTE spelling drills (pte-spelling.js). */
+.spell-head .bar{margin:6px 0 10px}
+.spell-types button{font-size:.82rem}
+.spell-ask{margin:8px 0;line-height:1.45}
+.spell-prompt{color:#4f46e5}
+.spell-opts{margin-top:8px}
+.spell-fill{display:block;width:100%;margin:10px 0 0;padding:12px;font-size:1.15rem;border:2px solid #e0e7ff;border-radius:12px;font-family:inherit}
+.spell-sent{background:#eef2ff;border-radius:10px;padding:10px;line-height:1.5;margin:8px 0}
+.spell-mean{margin:6px 0;color:#334155}
+.spell-result{border-radius:12px;padding:10px 12px;font-weight:700;margin:10px 0}
+.spell-result.ok{background:#dcfce7;color:#166534}
+.spell-result.bad{background:#fee2e2;color:#b91c1c}
+.spell-rule{background:#eef2ff;border-radius:10px;padding:10px;margin:8px 0;line-height:1.45}
+.spell-rule b{color:#3730a3}
+.spell-pair{font-weight:700;margin:6px 0}
+.spell-pairs{line-height:1.8;overflow-wrap:anywhere;margin:6px 0}

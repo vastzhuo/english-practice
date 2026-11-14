@@ -216,8 +216,8 @@
   // A row is { n: wrong count, last: last wrong date, due: review date,
   // ok: consecutive good answers since the last wrong one }. A missing S.miss
   // on an old save is normal and never touches the rest of the progress.
-  const MISS_SOURCES = ['quiz', 'wfd', 'rs', 'ra', 'swt'];
-  const MISS_LABEL = { quiz: 'Quiz', wfd: 'WFD', rs: 'RS', ra: 'RA', swt: 'SWT' };
+  const MISS_SOURCES = ['quiz', 'wfd', 'rs', 'ra', 'swt', 'spell'];
+  const MISS_LABEL = { quiz: 'Quiz', wfd: 'WFD', rs: 'RS', ra: 'RA', swt: 'SWT', spell: '拼写' };
   const MISS_GAPS = [1, 3, 7];
 
   function addDays(iso, days) {

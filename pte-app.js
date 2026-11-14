@@ -38,12 +38,13 @@ function pteFocusNote(source) {
 }
 window.pteFocus = function (source, id) {
   if (!source || !id) return;
-  if (['wfd', 'rs', 'ra', 'swt'].indexOf(source) < 0) return;
+  if (['wfd', 'rs', 'ra', 'swt', 'spell'].indexOf(source) < 0) return;
   const st = pteState();
   st.mode = source;
   PTE_PLAY.focus = { source: source, id: String(id) };
   if (source === 'wfd') { st.wfdView = 'list'; st.wfdCat = '全部'; PTE_PLAY.wfdKey = ''; PTE_PLAY.revealed = false; PTE_PLAY.heard = ''; }
   if (source === 'rs') { st.rsView = 'list'; PTE_PLAY.rsKey = ''; }
+  if (source === 'spell' && window.PTESpell && PTESpell.focus) PTESpell.focus(st, String(id));
   save();
 };
 function pteWfdCurrent(st) {
@@ -349,7 +350,7 @@ function pteVoiceLine() {
 }
 function pteModes(st) {
   const btn = (id, label) => `<button type="button" data-pte-act="mode" data-mode="${id}" class="${st.mode === id ? 'on' : ''}">${label}</button>`;
-  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('ra', 'RA')}${btn('di', 'DI')}${btn('swt', 'SWT')}${btn('drive', '开车')}<button type="button" class="pte-voice-btn" data-pte-act="voice-check">🔊 声音自检</button></div>${pteVoiceLine()}`;
+  return `<div class="pte-sub">${btn('wfd', 'WFD')}${btn('rs', 'RS')}${btn('read', '阅读')}${btn('we', 'WE')}${btn('sst', 'SST')}${btn('ra', 'RA')}${btn('di', 'DI')}${btn('swt', 'SWT')}${btn('spell', '拼写')}${btn('drive', '开车')}<button type="button" class="pte-voice-btn" data-pte-act="voice-check">🔊 声音自检</button></div>${pteVoiceLine()}`;
 }
 function slotOrder(slot, items, ord) {
   const key = slot + '|' + ord + '|' + items.map(item => item.id).join('.');
@@ -593,6 +594,7 @@ function viewDrive(st) {
 }
 function pteView() {
   const st = pteState();
+  if (st.mode === 'spell' && window.pteSpellView) return window.pteSpellView(st);
   if (st.mode === 'drive') return viewDrive(st);
   if (st.mode === 'rs') return viewRs(st);
   if (st.mode === 'read') {
@@ -633,7 +635,7 @@ function onPteClick(e) {
   if (act === 'mode') {
     flowStop();
     const m = b.dataset.mode;
-    st.mode = (m === 'rs' || m === 'read' || m === 'drive' || m === 'we' || m === 'sst' || m === 'ra' || m === 'di' || m === 'swt') ? m : 'wfd';
+    st.mode = (m === 'rs' || m === 'read' || m === 'drive' || m === 'we' || m === 'sst' || m === 'ra' || m === 'di' || m === 'swt' || m === 'spell') ? m : 'wfd';
     if (window.pteSpeakStop) window.pteSpeakStop();
     if (m !== 'we' && window.pteWeStop) window.pteWeStop();
     if (m !== 'sst' && window.pteSstStop) window.pteSstStop();
@@ -643,6 +645,7 @@ function onPteClick(e) {
     pteRefresh(false);
     return;
   }
+  // The spelling drills own their buttons; their click switch is wired below.
   if (act === 'start') { pteStart(); return; }
   if (act === 'voice-check') {
     if (typeof VoiceCheck === 'undefined') return;
@@ -775,6 +778,13 @@ $('tab-pte').addEventListener('input', e => {
   save();
 });
 $('tab-pte').addEventListener('click', onPteClick);
+// The spelling drills use their own data-spell-act switch, so they get their own
+// click entry point while the mode button keeps the shared data-pte-act="mode".
+$('tab-pte').addEventListener('click', e => {
+  const b = e.target.closest('[data-spell-act]');
+  if (!b || !window.PTESpell || !PTESpell.click) return;
+  PTESpell.click(b.dataset.spellAct, b);
+});
 $('tab-pte').addEventListener('change', onPteChange);
 $('pteOvPause').addEventListener('click', () => { if (!PTE_PLAY.on) return; if (PTE_PLAY.paused) pteResume(); else ptePause(); });
 $('pteOvStop').addEventListener('click', () => pteStop());

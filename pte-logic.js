@@ -512,7 +512,7 @@
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
-    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst' && st.mode !== 'ra' && st.mode !== 'di' && st.mode !== 'swt') st.mode = 'wfd';
+    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst' && st.mode !== 'ra' && st.mode !== 'di' && st.mode !== 'swt' && st.mode !== 'spell') st.mode = 'wfd';
     ensureWe(st);
     ensureSst(st);
     ensureSpeak(st);
