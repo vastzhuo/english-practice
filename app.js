@@ -100,6 +100,7 @@ function missBankText(source,id){
   if(source==='rs'){const list=(typeof PTE_RS!=='undefined'&&Array.isArray(PTE_RS))?PTE_RS:[];const item=list.find(x=>x.id===id);return item?item.text:''}
   if(source==='ra'){const fixed=(typeof PTE_RA!=='undefined'&&PTE_RA&&Array.isArray(PTE_RA.passages))?PTE_RA.passages:[];const more=(typeof PTE_RA!=='undefined'&&PTE_RA&&typeof PTE_RA.fromRead==='function'&&typeof readArticles==='function')?PTE_RA.fromRead(readArticles()):[];const item=fixed.concat(more).find(x=>x.id===id);return item?(item.title||item.text):''}
   if(source==='swt'){const items=(typeof PTE_SWT!=='undefined'&&PTE_SWT&&Array.isArray(PTE_SWT.items))?PTE_SWT.items:[];const item=items.find(x=>x.id===id);return item?(item.title||item.sourceId||''):''}
+  if(source==='sgd'){const items=(typeof PTE_TEMPLATES!=='undefined'&&PTE_TEMPLATES&&PTE_TEMPLATES.sgd&&Array.isArray(PTE_TEMPLATES.sgd.items))?PTE_TEMPLATES.sgd.items:[];const item=items.find(x=>x.id===id);return item?(item.zh||item.id):''}
   return ''
 }
 function missRowText(row){
@@ -111,7 +112,7 @@ function missBook(){
   if(typeof StudyPlan==='undefined'||!StudyPlan.missOverview)return '';
   const ov=StudyPlan.missOverview(S,TK);
   const head='<div class="card miss-card"><h3>错题本</h3>';
-  if(!ov.total)return head+'<p class="miss-empty">还没有错题。Quiz 答错、WFD 听写有漏词或多词、RS 跟读评分过低、RA 或 SWT 自评选了最差档，都会自动记到这里。</p></div>';
+  if(!ov.total)return head+'<p class="miss-empty">还没有错题。Quiz 答错、WFD 听写有漏词或多词、RS 跟读评分过低、RA 或 SWT 自评选了最差档、SGD 结构自评选了最差档，都会自动记到这里。</p></div>';
   const chips=StudyPlan.MISS_SOURCES.map(s=>`<span class="miss-chip${ov.groups[s]?' on':''}">${esc(StudyPlan.MISS_LABEL[s]||s)} ${ov.groups[s]}</span>`).join('');
   const allQuiz=quizMissWords(false).length;
   const rows=ov.rows.slice(0,12).map(row=>{
