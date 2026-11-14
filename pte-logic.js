@@ -4,6 +4,19 @@
   const PTE_PAUSE_MS = 3000;
   const PTE_REP_MIN = 5;
   const PTE_REP_MAX = 20;
+  // Read Aloud / Describe Image / Summarize Written Text use the real exam lengths.
+  const RA_PREP_SEC = 35;
+  const RA_READ_SEC = 40;
+  const DI_PREP_SEC = 25;
+  const DI_SPEAK_SEC = 40;
+  const SWT_SEC = 600;
+  const SWT_MIN = 5;
+  const SWT_MAX = 75;
+  const SP_SELF_MIN = 1;
+  const SP_SELF_MAX = 3;
+  const CHART_W = 340;
+  const CHART_H = 210;
+  const CHART_COLORS = ['#4f46e5', '#0ea5e9', '#16a34a', '#f59e0b', '#ef4444', '#8b5cf6'];
 
   function clampRep(n) {
     const x = Math.round(Number(n));
@@ -210,6 +223,229 @@
     for (let i = 0; i < audio.length; i += 5) days.push(audio.slice(i, i + 5));
     return days;
   }
+  // --- Read Aloud / Describe Image / Summarize Written Text -------------------
+
+  // Exam-style countdown order. Unknown values restart from the beginning.
+  const RA_PHASES = ['idle', 'prep', 'read', 'listen', 'assess'];
+  const DI_PHASES = ['idle', 'prep', 'speak', 'review'];
+  function phaseNext(list, phase) {
+    const i = list.indexOf(phase);
+    if (i < 0 || i === list.length - 1) return list[0];
+    return list[i + 1];
+  }
+  function raNext(phase) { return phaseNext(RA_PHASES, phase); }
+  function diNext(phase) { return phaseNext(DI_PHASES, phase); }
+
+  function swtFit(n) {
+    const x = Math.round(Number(n) || 0);
+    if (x > SWT_MAX) return 'over';
+    if (x < SWT_MIN) return 'short';
+    return 'ok';
+  }
+
+  // First ~`minWords` words of real text, cut on sentence boundaries.
+  function readSpan(text, minWords) {
+    const target = Number(minWords) > 0 ? Math.round(Number(minWords)) : 60;
+    const clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!clean) return { text: '', words: 0 };
+    const sentences = clean.match(/[^.!?]+[.!?]+["”’']?|[^.!?]+$/g) || [clean];
+    const out = [];
+    let words = 0;
+    for (let i = 0; i < sentences.length; i++) {
+      const line = sentences[i].trim();
+      if (!line) continue;
+      const count = line.split(/\s+/).filter(Boolean).length;
+      if (words && words + count > target + 18) break;
+      out.push(line);
+      words += count;
+      if (words >= target) break;
+    }
+    return { text: out.join(' '), words: words };
+  }
+
+  function mapOf(bag, key) {
+    if (!bag[key] || typeof bag[key] !== 'object' || Array.isArray(bag[key])) bag[key] = {};
+    return bag[key];
+  }
+  function tidySelf(map) {
+    Object.keys(map).forEach(id => {
+      const row = map[id];
+      if (!row || typeof row !== 'object' || Array.isArray(row)) { delete map[id]; return; }
+      Object.keys(row).forEach(key => {
+        const n = Math.round(Number(row[key]));
+        if (n >= SP_SELF_MIN && n <= SP_SELF_MAX) row[key] = n;
+        else delete row[key];
+      });
+    });
+  }
+  function ensureSpeak(st) {
+    if (!st.ra || typeof st.ra !== 'object' || Array.isArray(st.ra)) st.ra = {};
+    if (!st.di || typeof st.di !== 'object' || Array.isArray(st.di)) st.di = {};
+    if (!st.swt || typeof st.swt !== 'object' || Array.isArray(st.swt)) st.swt = {};
+    [st.ra, st.di, st.swt].forEach(bag => {
+      mapOf(bag, 'done');
+      tidySelf(mapOf(bag, 'self'));
+      if (bag.ord !== 'num' && bag.ord !== 'rand') bag.ord = 'rand';
+    });
+    mapOf(st.swt, 'answers');
+    mapOf(st.swt, 'submitted');
+    Object.keys(st.swt.answers).forEach(id => {
+      if (typeof st.swt.answers[id] !== 'string') delete st.swt.answers[id];
+    });
+    return st;
+  }
+
+  // --- Inline SVG charts (no image files, works offline) ----------------------
+
+  function svgEsc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+  function num(n) {
+    const x = Math.round(Number(n) * 10) / 10;
+    return Number.isFinite(x) ? String(x) : '0';
+  }
+  function svgText(x, y, text, attrs) {
+    return '<text x="' + num(x) + '" y="' + num(y) + '" ' + (attrs || '') + '>' + svgEsc(text) + '</text>';
+  }
+  function plotBox() {
+    const left = 36, right = 10, top = 16, bottom = 44;
+    const w = CHART_W - left - right;
+    const h = CHART_H - top - bottom;
+    return { left: left, right: right, top: top, bottom: bottom, w: w, h: h, baseY: top + h };
+  }
+  function svgBar(c) {
+    const box = plotBox();
+    const values = (c.values || []).map(Number);
+    const labels = c.labels || [];
+    const max = Math.max.apply(null, values.concat([1]));
+    const slot = values.length ? box.w / values.length : box.w;
+    const barW = Math.max(6, slot * 0.6);
+    let out = '';
+    [0, 0.5, 1].forEach(frac => {
+      const y = box.baseY - box.h * frac;
+      out += '<line x1="' + num(box.left) + '" y1="' + num(y) + '" x2="' + num(box.left + box.w) + '" y2="' + num(y) + '" stroke="#e0e7ff" stroke-width="1"/>';
+      out += svgText(box.left - 5, y + 3, num(max * frac), 'font-size="8" fill="#475569" text-anchor="end"');
+    });
+    values.forEach((v, i) => {
+      const h = max ? (v / max) * box.h : 0;
+      const x = box.left + i * slot + (slot - barW) / 2;
+      const y = box.baseY - h;
+      out += '<rect x="' + num(x) + '" y="' + num(y) + '" width="' + num(barW) + '" height="' + num(h) + '" fill="' + CHART_COLORS[i % CHART_COLORS.length] + '"/>';
+      out += svgText(x + barW / 2, y - 4, num(v), 'font-size="9" font-weight="700" fill="#1e1b4b" text-anchor="middle"');
+      out += svgText(x + barW / 2, box.baseY + 14, labels[i] || '', 'font-size="9" fill="#475569" text-anchor="middle"');
+    });
+    out += '<line x1="' + num(box.left) + '" y1="' + num(box.baseY) + '" x2="' + num(box.left + box.w) + '" y2="' + num(box.baseY) + '" stroke="#94a3b8" stroke-width="1"/>';
+    return out;
+  }
+  function svgLine(c) {
+    const box = plotBox();
+    const values = (c.values || []).map(Number);
+    const labels = c.labels || [];
+    if (!values.length) return '';
+    const lo = Math.min.apply(null, values);
+    const hi = Math.max.apply(null, values);
+    const span = hi - lo || 1;
+    const pad = box.h * 0.12;
+    const stepX = values.length > 1 ? box.w / (values.length - 1) : 0;
+    const points = values.map((v, i) => {
+      const x = box.left + (values.length > 1 ? i * stepX : box.w / 2);
+      const y = box.baseY - pad - ((v - lo) / span) * (box.h - pad * 2);
+      return [x, y];
+    });
+    let out = '';
+    [0, 1].forEach(frac => {
+      const y = box.baseY - pad - frac * (box.h - pad * 2);
+      out += '<line x1="' + num(box.left) + '" y1="' + num(y) + '" x2="' + num(box.left + box.w) + '" y2="' + num(y) + '" stroke="#e0e7ff" stroke-width="1"/>';
+      out += svgText(box.left - 5, y + 3, num(lo + (hi - lo) * frac), 'font-size="8" fill="#475569" text-anchor="end"');
+    });
+    out += '<polyline fill="none" stroke="#4f46e5" stroke-width="2" points="' + points.map(p => num(p[0]) + ',' + num(p[1])).join(' ') + '"/>';
+    points.forEach((p, i) => {
+      out += '<circle cx="' + num(p[0]) + '" cy="' + num(p[1]) + '" r="3" fill="#4f46e5"/>';
+      out += svgText(p[0], p[1] - 6, num(values[i]), 'font-size="8" font-weight="700" fill="#1e1b4b" text-anchor="middle"');
+      out += svgText(p[0], box.baseY + 14, labels[i] || '', 'font-size="9" fill="#475569" text-anchor="middle"');
+    });
+    out += '<line x1="' + num(box.left) + '" y1="' + num(box.baseY) + '" x2="' + num(box.left + box.w) + '" y2="' + num(box.baseY) + '" stroke="#94a3b8" stroke-width="1"/>';
+    return out;
+  }
+  function svgPie(c) {
+    const cx = 104, cy = 110, r = 74;
+    const values = (c.values || []).map(Number);
+    const labels = c.labels || [];
+    const total = values.reduce((a, b) => a + b, 0) || 1;
+    let angle = -Math.PI / 2;
+    let out = '';
+    values.forEach((v, i) => {
+      const next = angle + (v / total) * Math.PI * 2;
+      const large = next - angle > Math.PI ? 1 : 0;
+      const x0 = cx + r * Math.cos(angle), y0 = cy + r * Math.sin(angle);
+      const x1 = cx + r * Math.cos(next), y1 = cy + r * Math.sin(next);
+      out += '<path d="M ' + num(cx) + ' ' + num(cy) + ' L ' + num(x0) + ' ' + num(y0) + ' A ' + num(r) + ' ' + num(r) + ' 0 ' + large + ' 1 ' + num(x1) + ' ' + num(y1) + ' Z" fill="' + CHART_COLORS[i % CHART_COLORS.length] + '" stroke="#fff" stroke-width="1"/>';
+      const mid = angle + (next - angle) / 2;
+      const pct = Math.round(100 * v / total);
+      if (pct >= 8) out += svgText(cx + Math.cos(mid) * r * 0.62, cy + Math.sin(mid) * r * 0.62 + 3, pct + '%', 'font-size="9" font-weight="700" fill="#fff" text-anchor="middle"');
+      angle = next;
+    });
+    labels.forEach((label, i) => {
+      const y = 34 + i * 26;
+      out += '<rect x="196" y="' + num(y - 9) + '" width="11" height="11" fill="' + CHART_COLORS[i % CHART_COLORS.length] + '"/>';
+      out += svgText(212, y, label, 'font-size="9" fill="#1e1b4b"');
+    });
+    return out;
+  }
+  function svgTable(c) {
+    const left = 12, top = 20, rowH = 26;
+    const cols = c.cols || [];
+    const rows = c.rows || [];
+    const all = [cols].concat(rows);
+    if (!cols.length) return '';
+    const colW = (CHART_W - left * 2) / cols.length;
+    let out = '';
+    all.forEach((row, r) => {
+      const y = top + r * rowH;
+      const fill = r === 0 ? '#eef2ff' : (r % 2 ? '#f8fafc' : '#ffffff');
+      out += '<rect x="' + num(left) + '" y="' + num(y) + '" width="' + num(colW * cols.length) + '" height="' + num(rowH) + '" fill="' + fill + '" stroke="#e0e7ff" stroke-width="1"/>';
+      (Array.isArray(row) ? row : []).forEach((cell, i) => {
+        const weight = r === 0 ? ' font-weight="700"' : '';
+        const attrs = 'font-size="9" fill="#1e1b4b"' + weight + (i === 0 ? ' text-anchor="start"' : ' text-anchor="middle"');
+        const x = i === 0 ? left + 6 : left + colW * i + colW / 2;
+        out += svgText(x, y + 17, cell, attrs);
+      });
+    });
+    return out;
+  }
+  function svgFlow(c) {
+    const nodes = c.nodes || [];
+    const boxW = 200, boxH = 26;
+    const x = (CHART_W - boxW) / 2;
+    const midX = CHART_W / 2;
+    let out = '';
+    nodes.forEach((node, i) => {
+      const y = 8 + i * 40;
+      const first = i === 0, last = i === nodes.length - 1;
+      const fill = first ? '#4f46e5' : (last ? '#16a34a' : '#eef2ff');
+      const ink = first || last ? '#ffffff' : '#1e1b4b';
+      out += '<rect x="' + num(x) + '" y="' + num(y) + '" width="' + num(boxW) + '" height="' + num(boxH) + '" rx="8" fill="' + fill + '" stroke="#4f46e5" stroke-width="1"/>';
+      out += svgText(midX, y + 17, node, 'font-size="10" font-weight="700" fill="' + ink + '" text-anchor="middle"');
+      if (!last) {
+        out += '<line x1="' + num(midX) + '" y1="' + num(y + boxH) + '" x2="' + num(midX) + '" y2="' + num(y + 36) + '" stroke="#94a3b8" stroke-width="2"/>';
+        out += '<polygon points="' + num(midX) + ',' + num(y + 40) + ' ' + num(midX - 5) + ',' + num(y + 32) + ' ' + num(midX + 5) + ',' + num(y + 32) + '" fill="#94a3b8"/>';
+      }
+    });
+    return out;
+  }
+  function svgChart(chart) {
+    const c = chart || {};
+    let body = '';
+    if (c.type === 'bar') body = svgBar(c);
+    else if (c.type === 'line') body = svgLine(c);
+    else if (c.type === 'pie') body = svgPie(c);
+    else if (c.type === 'table') body = svgTable(c);
+    else if (c.type === 'flow') body = svgFlow(c);
+    else return '';
+    const label = String(c.title || '') + ' · ' + String(c.type || 'chart');
+    return '<svg viewBox="0 0 ' + CHART_W + ' ' + CHART_H + '" width="100%" role="img" aria-label="' + svgEsc(label) + '" style="display:block;width:100%;height:auto;background:#fff;border-radius:12px">' + body + '</svg>';
+  }
+
   function ensureSst(st) {
     if (!st.sst || typeof st.sst !== 'object' || Array.isArray(st.sst)) st.sst = {};
     const s = st.sst;
@@ -276,9 +512,10 @@
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
-    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst') st.mode = 'wfd';
+    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst' && st.mode !== 'ra' && st.mode !== 'di' && st.mode !== 'swt') st.mode = 'wfd';
     ensureWe(st);
     ensureSst(st);
+    ensureSpeak(st);
     if (st.readType !== 'double' && st.readType !== 'single' && st.readType !== 'parallel' && st.readType !== 'none') st.readType = '全部';
     Object.keys(st.readPass).forEach(k => {
       const n = Number(st.readPass[k]);
@@ -320,6 +557,24 @@
     sstFit: sstFit,
     sstAudioItems: sstAudioItems,
     sstDays: sstDays,
-    ensureSst: ensureSst
+    ensureSst: ensureSst,
+    RA_PREP_SEC: RA_PREP_SEC,
+    RA_READ_SEC: RA_READ_SEC,
+    DI_PREP_SEC: DI_PREP_SEC,
+    DI_SPEAK_SEC: DI_SPEAK_SEC,
+    SWT_SEC: SWT_SEC,
+    SWT_MIN: SWT_MIN,
+    SWT_MAX: SWT_MAX,
+    SP_SELF_MIN: SP_SELF_MIN,
+    SP_SELF_MAX: SP_SELF_MAX,
+    RA_PHASES: RA_PHASES,
+    DI_PHASES: DI_PHASES,
+    raNext: raNext,
+    diNext: diNext,
+    swtFit: swtFit,
+    readSpan: readSpan,
+    ensureSpeak: ensureSpeak,
+    svgChart: svgChart,
+    svgEsc: svgEsc
   };
 })(this);
