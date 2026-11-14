@@ -244,10 +244,40 @@ function diView(st) {
     body = `<button type="button" class="btn" data-sp-act="di-go" data-phase="prep">开始（${PTELogic.DI_PREP_SEC} 秒准备）</button><p class="pte-tip">步骤：25 秒准备 → 40 秒口述 → 看结构提示和参考答案 → 自评。</p>`;
   }
   const done = bag.done[item.id];
-  return `${head}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.diIdx + 1}/${bank.length} · ${esc(diTypeName(item.type))}${unit}</div><h2>${esc(item.title)}</h2><p class="pte-tip">${esc(item.zh || '')}</p>${chart}<p class="pte-badge">${esc(item.note)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="di" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div><div class="card">${body}</div>`;
+  return `${head}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.diIdx + 1}/${bank.length} · ${esc(diTypeName(item.type))}${unit}</div><h2>${esc(item.title)}</h2><p class="pte-tip">${esc(item.zh || '')}</p>${chart}<p class="pte-badge">${esc(item.note)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="di" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${diSkeletonHtml(item)}<div class="card">${body}</div>`;
 }
 
 // --- Summarize Written Text -------------------------------------------------
+
+// Skeleton panels reuse the self-made frames in pte-templates.js. They render as
+// collapsible cards so the practice screen keeps its original order.
+function skelFrameRows(rows) {
+  return (rows || []).map(row => `<div class="pte-lesson"><p class="skel-frame" lang="en">${esc(row.frame)}</p><p class="pte-tip">${esc(row.hint)}</p></div>`).join('');
+}
+function skelTips(rows) {
+  const body = (rows || []).map(text => `<li>${esc(text)}</li>`).join('');
+  return body ? `<ul class="skel-check">${body}</ul>` : '';
+}
+function swtSkeletonHtml() {
+  const data = (typeof PTE_TEMPLATES !== 'undefined' && PTE_TEMPLATES && PTE_TEMPLATES.swt) ? PTE_TEMPLATES.swt : { frames: [], tips: [] };
+  const frames = data.frames || [];
+  const tips = data.tips || [];
+  return `<details class="card"><summary>一句话骨架 · ${frames.length} 条句式 + ${tips.length} 条提示</summary><p class="pte-tip">先选一条句式，把原文要点塞进方括号，再数词。一句话只留一个句号。</p>${skelFrameRows(frames)}${skelTips(tips)}</details>`;
+}
+// One set per chart type: opening, trend, comparison, closing.
+function diSkelRows(type) {
+  return [['opening', '开头句'], ['trend', '趋势 / 推进'], ['comparison', '比较'], ['closing', '结尾']]
+    .filter(pair => type[pair[0]])
+    .map(pair => `<div class="pte-lesson"><b>${esc(pair[1])}</b><p class="skel-frame" lang="en">${esc(type[pair[0]])}</p></div>`)
+    .join('');
+}
+function diSkeletonHtml(item) {
+  const types = (typeof PTE_TEMPLATES !== 'undefined' && PTE_TEMPLATES && PTE_TEMPLATES.di && PTE_TEMPLATES.di.types) ? PTE_TEMPLATES.di.types : [];
+  if (!types.length) return '';
+  const current = types.find(type => type.id === (item && item.type)) || types[0];
+  const others = types.filter(type => type !== current);
+  return `<details class="card" open><summary>按图型的口述骨架 · 当前 ${esc(current.name)}</summary><p class="pte-tip">每套四句：开头、趋势、比较、结尾。方括号换成图上的数字和名称。</p>${diSkelRows(current)}${others.map(type => `<details><summary>${esc(type.name)}</summary>${diSkelRows(type)}</details>`).join('')}</details>`;
+}
 
 function swtCountLabel(answer) {
   const n = PTELogic.wordCount(answer);
@@ -299,7 +329,7 @@ function swtView(st) {
   const timer = `<p id="pteSpClock" class="pte-clock">${esc(spClock(left))}</p><button type="button" class="btn" data-sp-act="swt-start">${running || left < PTELogic.SWT_SEC ? '重新计时 10 分钟' : '开始 10 分钟'}</button>${running ? '<button type="button" class="btn alt" data-sp-act="swt-pause">暂停</button>' : `<button type="button" class="btn alt" data-sp-act="swt-resume" ${left <= 0 ? 'disabled' : ''}>继续</button>`}<button type="button" class="btn alt" data-sp-act="swt-reset">归零</button>`;
   const done = bag.done[item.id];
   const compare = submitted ? `<div class="card"><b>对照参考答案</b><p class="pte-tip">近似对照：只比词形重合，不做语义评分，重合率低不代表内容错。</p><p lang="en">${esc(item.ref || '')}</p><p class="pte-badge">${esc(item.note)}</p>${typeof diffBlock === 'function' ? diffBlock(item.ref || '', answer) : ''}</div><div class="card"><p class="pte-tip">自评只看这三件事。</p>${selfRows('swt', item.id, SWT_SELF)}${nextButton('swt', '下一篇')}</div>` : '';
-  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('swt') : ''}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
+  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('swt') : ''}${swtSkeletonHtml()}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
 }
 
 window.pteRaView = raView;

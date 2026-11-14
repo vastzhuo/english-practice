@@ -466,7 +466,7 @@
     if (!Array.isArray(we.outlineIds)) we.outlineIds = [];
     if (typeof we.essayId !== 'string') we.essayId = '';
     if (typeof we.drillId !== 'string') we.drillId = '';
-    if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill') we.view = 'bank';
+    if (we.view !== 'outline' && we.view !== 'essay' && we.view !== 'cards' && we.view !== 'drill' && we.view !== 'skel') we.view = 'bank';
     if (typeof we.topicFilter !== 'string') we.topicFilter = 'all';
     if (typeof we.typeFilter !== 'string') we.typeFilter = 'all';
     delete we.api;
@@ -512,7 +512,7 @@
     st.rep = clampRep(st.rep == null ? PTE_REP_MIN : st.rep);
     if (st.wfdView !== 'list') st.wfdView = 'dict';
     if (st.rsView !== 'list') st.rsView = 'practice';
-    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst' && st.mode !== 'ra' && st.mode !== 'di' && st.mode !== 'swt' && st.mode !== 'spell') st.mode = 'wfd';
+    if (st.mode !== 'rs' && st.mode !== 'read' && st.mode !== 'drive' && st.mode !== 'we' && st.mode !== 'sst' && st.mode !== 'ra' && st.mode !== 'di' && st.mode !== 'swt' && st.mode !== 'spell' && st.mode !== 'sgd') st.mode = 'wfd';
     ensureWe(st);
     ensureSst(st);
     ensureSpeak(st);
