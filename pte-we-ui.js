@@ -71,7 +71,7 @@ function weExperience(q) {
 }
 function weHead(st) {
   const btn = (id, label) => `<button type="button" data-we-act="view" data-view="${id}" class="${st.we.view === id ? 'on' : ''}">${label}</button>`;
-  return `${pteModes(st)}<div class="pte-mini">${btn('bank', '题目')}${btn('outline', '提纲')}${btn('essay', '成文')}${btn('cards', '句子卡')}${btn('drill', '考前')}</div>`;
+  return `${pteModes(st)}<div class="pte-mini">${btn('bank', '题目')}${btn('outline', '提纲')}${btn('essay', '成文')}${btn('cards', '句子卡')}${btn('drill', '考前')}${btn('skel', '模版骨架')}</div>`;
 }
 function weQuestionCard(q, extra) {
   const type = weType(q.type);
@@ -140,12 +140,30 @@ function weDrill(st) {
   const spoken = [note.stance, note.arg1, note.arg2].filter(Boolean).join('. ');
   return `${weHead(st)}<div class="card"><b>考前三天</b><p>看到题目后，3 分钟内口头说出立场和两个论点。</p><p id="pteWeClock" class="pte-clock">${esc(weClock(PTE_PLAY.weLeft))}</p><button type="button" class="btn" data-we-act="timer" data-sec="180">开始 3 分钟</button><button type="button" class="btn alt" data-we-act="timer-stop">停止</button><button type="button" class="btn alt" data-we-act="new-drill">换一道</button></div><div class="card"><div class="pte-kicker">${esc(q.id)} · ${esc((weType(q.type) || {}).name || '')}</div><p>${esc(q.zh)}</p><p lang="en">${esc(q.en)}</p><p><b>立场</b> ${esc(note.stance || '还没写')}</p><p><b>论点一</b> ${esc(note.arg1 || '还没写')}</p><p><b>论点二</b> ${esc(note.arg2 || '还没写')}</p>${spoken ? `<button type="button" class="btn alt" data-say="${esc(spoken)}">🔊 听我记下的三句</button>` : ''}</div>`;
 }
+// Sentence skeletons only: the frames and hints are written for this project, so
+// no model essay or course paragraph is displayed here.
+function weSkelRows(rows) {
+  return (rows || []).map(row => `<div class="pte-lesson"><p class="skel-frame" lang="en">${esc(row.frame)}</p><p class="pte-tip">${esc(row.hint)}</p></div>`).join('');
+}
+function weSkeleton(st) {
+  const data = (typeof PTE_TEMPLATES !== 'undefined' && PTE_TEMPLATES && PTE_TEMPLATES.we) ? PTE_TEMPLATES.we : { intro: [], body: [], conclusion: [], checklist: [] };
+  const note = (typeof PTE_TEMPLATES !== 'undefined' && PTE_TEMPLATES && PTE_TEMPLATES.note) ? PTE_TEMPLATES.note : '';
+  const intro = data.intro || [];
+  const body = data.body || [];
+  const conclusion = data.conclusion || [];
+  const checklist = data.checklist || [];
+  const total = intro.length + body.length + conclusion.length;
+  const checks = checklist.map(text => `<li>${esc(text)}</li>`).join('');
+  return `${weHead(st)}<div class="card"><b>WE 模版骨架 · 写作公式</b><p>${total} 条句式骨架：开头 ${intro.length} 条、主体 ${body.length} 条、结尾 ${conclusion.length} 条。方括号换成这道题的词，不背整篇范文。</p><p class="pte-tip">${esc(note)}</p></div><details class="card" open><summary>Intro 开头骨架 · ${intro.length} 条</summary>${weSkelRows(intro)}</details><details class="card" open><summary>Body 主体骨架 · ${body.length} 条</summary>${weSkelRows(body)}</details><details class="card" open><summary>Conclusion 结尾骨架 · ${conclusion.length} 条</summary>${weSkelRows(conclusion)}</details><details class="card"><summary>交卷前自查清单 · ${checklist.length} 条</summary><ul class="skel-check">${checks}</ul></details>`;
+}
+
 function pteWeView(st) {
   weBag();
   if (st.we.view === 'outline') return weOutline(st);
   if (st.we.view === 'essay') return weEssay(st);
   if (st.we.view === 'cards') return weCards(st);
   if (st.we.view === 'drill') return weDrill(st);
+  if (st.we.view === 'skel') return weSkeleton(st);
   return weBank(st);
 }
 window.pteWeView = pteWeView;

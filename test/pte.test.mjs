@@ -250,7 +250,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
   assert.equal(index.includes('?v=' + previous), false);
@@ -261,7 +261,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
   assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
   assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
-  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js']) {
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js']) {
     assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
@@ -269,7 +269,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(app, /studyClose/);
   assert.match(drive, /pteStop/);
   assert.match(drive, /studyStop/);
-  // the PTE tab now has nine sub-modules, including RA, DI and SWT
+  // the PTE tab now has eleven sub-modules, including RA, DI, SWT, SGD and 拼写
   assert.match(pteApp, /btn\('ra', 'RA'\)/);
   assert.match(pteApp, /btn\('di', 'DI'\)/);
   assert.match(pteApp, /btn\('swt', 'SWT'\)/);
@@ -569,7 +569,7 @@ test('old saves without a mistake book initialise and keep the rest of the progr
   const overview = Plan.missOverview(S, '2024-06-10');
   assert.equal(overview.total, 0);
   assert.equal(overview.due, 0);
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0, spell: 0 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0, spell: 0, sgd: 0 }));
   assert.equal(Plan.missingToday(S, '2024-06-10').length, 0);
   // A non-object field is replaced; a broken row is dropped; valid rows survive.
   S.miss = 'oops';
@@ -652,7 +652,7 @@ test('mistake book overview counts every source and only lists what is due', () 
   Plan.missRecord(S, Plan.missKey('swt', 's1'), day);
   Plan.missRecord(S, Plan.missKey('wfd', 'future'), '2024-06-10');
   const overview = Plan.missOverview(S, '2024-06-10');
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1, spell: 0 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1, spell: 0, sgd: 0 }));
   assert.equal(overview.total, 7);
   assert.equal(overview.due, 6);
   assert.equal(overview.dueRows.some(row => row.id === 'future'), false);
@@ -770,6 +770,210 @@ test('the 拼写 module is wired into the PTE tab and the precache list', () => 
   // The drill data ships in the precached file, so every pair is available offline.
   assert.match(index, new RegExp('pte-spelling\\.js\\?v=' + version));
   assert.match(sw, new RegExp('pte-spelling\\.js\\?v=' + version));
+});
+
+// --- Sentence skeletons (pte-templates.js) and the SGD drill (pte-sgd.js) ---
+
+function templateContext(extra = []) {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-templates.js'), 'utf8'), context);
+  for (const file of extra) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
+  return context;
+}
+
+const TPL = templateContext().PTETemplate;
+const TPL_DATA = TPL.data;
+
+test('skeleton data is self-made scaffolding: fixed counts, slots, short hints', () => {
+  assert.ok(TPL_DATA.note && /自写/.test(TPL_DATA.note), 'a provenance note is shown with the panels');
+  assert.deepEqual([...TPL.weSections], ['intro', 'body', 'conclusion']);
+  assert.equal(TPL_DATA.we.intro.length, 3);
+  assert.equal(TPL_DATA.we.body.length, 4);
+  assert.equal(TPL_DATA.we.conclusion.length, 2);
+  assert.equal(TPL_DATA.we.checklist.length, 6);
+  assert.equal(TPL_DATA.swt.frames.length, 4);
+  assert.equal(TPL_DATA.swt.tips.length, 4);
+  const seenIds = new Set();
+  const collect = rows => rows.forEach(row => {
+    assert.ok(row.id, 'every frame needs an id');
+    assert.equal(seenIds.has(row.id), false, 'frame id repeated: ' + row.id);
+    seenIds.add(row.id);
+    assert.ok(row.frame && row.hint, row.id + ' needs a frame and a hint');
+  });
+  collect(TPL_DATA.we.intro);
+  collect(TPL_DATA.we.body);
+  collect(TPL_DATA.we.conclusion);
+  collect(TPL_DATA.swt.frames);
+  // One set per chart type, four lines each: opening, trend, comparison, closing.
+  const types = TPL.diTypes();
+  assert.deepEqual(Array.from(types.map(type => type.id)), ['line', 'bar', 'pie', 'process']);
+  for (const type of types) {
+    assert.ok(type.name, type.id + ' needs a display name');
+    for (const key of ['opening', 'trend', 'comparison', 'closing']) {
+      assert.ok(type[key], type.id + ' is missing ' + key);
+      assert.match(type[key], /\[[^\]]+\]/, type.id + ' ' + key + ' needs a fill-in slot');
+    }
+  }
+  assert.equal(TPL.diType('bar').id, 'bar');
+  assert.equal(TPL.diType('nope'), null);
+  // SGD: six self-made briefs, one three-blank template and a three-row self-check each.
+  assert.equal(TPL_DATA.sgd.items.length, 6);
+  assert.equal(TPL_DATA.sgd.self.length, 3);
+  for (const item of TPL_DATA.sgd.items) {
+    assert.ok(item.zh, item.id + ' needs a topic line');
+    assert.ok(item.brief.length >= 3, item.id + ' needs the speakers brief');
+    assert.equal(TPL.blanks(item.template).length, 3, item.id + ' needs three blanks');
+    assert.equal(item.blanks.length, 3, item.id + ' needs three blank hints');
+  }
+  // No hint is longer than two sentences, and nothing reads like copied prose.
+  const hints = TPL.hints();
+  assert.ok(hints.length >= 30, 'expected the hints of every panel, got ' + hints.length);
+  for (const hint of hints) {
+    const sentences = hint.split(/[.!?。！？]+/).map(text => text.trim()).filter(Boolean);
+    assert.ok(sentences.length <= 2, 'hint has more than two sentences: ' + hint);
+    assert.ok(hint.length <= 180, 'hint is not a paragraph: ' + hint);
+    assert.equal(/[\u4e00-\u9fff]{30,}/.test(hint), false, 'no copied Chinese prose: ' + hint);
+  }
+  // The {{n}} templates split into text and blanks in order.
+  assert.deepEqual(Array.from(TPL.parts('A {{1}} B {{2}} C').map(seg => seg.b || seg.t)), ['A ', '1', ' B ', '2', ' C']);
+  assert.deepEqual(Array.from(TPL.blanks('no blanks here')), []);
+});
+
+function viewContext() {
+  const context = { console, window: {}, document: { addEventListener() {} } };
+  vm.createContext(context);
+  context.$ = () => ({ addEventListener() {} });
+  context.esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  context.pteModes = () => '';
+  context.pteFocusNote = () => '';
+  context.pteRefresh = () => {};
+  context.save = () => {};
+  context.PTELogic = { ensureWe: st => st.we, ensureSpeak: st => st };
+  context.pteState = () => ({ we: {}, sgd: {} });
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-templates.js'), 'utf8'), context);
+  for (const file of ['pte-we-ui.js', 'pte-speak-ui.js', 'pte-sgd.js']) {
+    vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
+  }
+  return context;
+}
+
+test('the three skeleton panels render their frames without any model essay', () => {
+  const rendered = viewContext();
+  vm.runInContext('globalThis.WE_HTML = pteWeView({ we: { view: "skel" } });', rendered);
+  const we = rendered.WE_HTML;
+  assert.match(we, /WE 模版骨架 · 写作公式/);
+  assert.match(we, /Intro 开头骨架 · 3 条/);
+  assert.match(we, /Body 主体骨架 · 4 条/);
+  assert.match(we, /Conclusion 结尾骨架 · 2 条/);
+  assert.match(we, /交卷前自查清单 · 6 条/);
+  assert.equal((we.match(/class="skel-frame"/g) || []).length, 9, 'nine WE frames, no sample essay');
+  for (const item of TPL_DATA.we.intro) assert.ok(we.includes(item.frame), 'missing intro frame ' + item.id);
+  vm.runInContext('globalThis.SWT_HTML = swtSkeletonHtml();', rendered);
+  const swt = rendered.SWT_HTML;
+  assert.match(swt, /一句话骨架 · 4 条句式 \+ 4 条提示/);
+  assert.equal((swt.match(/class="skel-frame"/g) || []).length, 4);
+  for (const tip of TPL_DATA.swt.tips) assert.ok(swt.includes(tip), 'missing SWT tip: ' + tip);
+  vm.runInContext('globalThis.DI_HTML = diSkeletonHtml({ type: "bar" });', rendered);
+  const di = rendered.DI_HTML;
+  assert.match(di, /按图型的口述骨架 · 当前 柱状图 Bar/);
+  for (const label of ['开头句', '趋势 / 推进', '比较', '结尾']) assert.ok(di.includes(label), 'missing DI label ' + label);
+  for (const type of TPL_DATA.di.types) assert.ok(di.includes(type.name), 'missing DI type ' + type.id);
+});
+
+test('the SGD view renders a three-blank template and the structure self-check', () => {
+  const rendered = viewContext();
+  vm.runInContext('globalThis.SGD_HTML = pteSgdView({ sgd: {} });', rendered);
+  const html = rendered.SGD_HTML;
+  assert.match(html, /SGD 小组讨论总结 · Summarize Group Discussion/);
+  assert.match(html, /SGD 一句话模版/);
+  assert.match(html, /结构自评/);
+  assert.equal((html.match(/data-sgd-blank="\d"/g) || []).length, 3, 'three fill-in blanks');
+  assert.match(html, /data-sgd-act="sgd-self"/);
+  assert.match(html, /data-sgd-act="sgd-done"/);
+  assert.match(html, /data-sgd-act="sgd-next"/);
+  assert.match(html, /data-sgd-act="sgd-reset"/);
+  const item = TPL_DATA.sgd.items[0];
+  assert.match(html, new RegExp('data-sgd-id="' + item.id + '"'));
+  for (const line of item.brief) assert.ok(html.includes(line), 'missing brief line: ' + line);
+  // The brief and the template are the only English shown; no transcript block.
+  assert.equal(html.includes('lang="en"'), true);
+});
+
+test('SGD structure self-check feeds the shared mistake book', () => {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-templates.js'), 'utf8'), context);
+  vm.runInContext(
+    fs.readFileSync(path.join(root, 'pte-sgd.js'), 'utf8') + '\nglobalThis.PTESgd = PTESgd;\n',
+    context
+  );
+  vm.runInContext(`
+    globalThis.S = { days: {}, learned: [] };
+    globalThis.pteMark = function (source, id, wrong) {
+      const key = StudyPlan.missKey(source, id);
+      if (!key) return;
+      if (wrong) StudyPlan.missRecord(S, key, StudyPlan.localDate(new Date()));
+      else StudyPlan.missOk(S, key);
+    };
+  `, context);
+  const Sgd = context.PTESgd;
+  const rows = Sgd.selfRows();
+  assert.deepEqual(Array.from(rows.map(row => row.k)), ['open', 'cover', 'close']);
+  const st = { pte: {} };
+  const bag = Sgd.ensure(st);
+  assert.equal(Object.keys(bag.answers).length, 0);
+  assert.equal(Object.keys(bag.self).length, 0);
+  assert.equal(bag.idx, 0);
+  assert.equal(Sgd.current(st).id, Sgd.items()[0].id);
+  // A worst tier is a mistake, two good answers retire the row.
+  Sgd.mark(st, 'sgd-lecture-recording', rows, { open: 1 }, 1);
+  assert.equal(context.S.miss['sgd:sgd-lecture-recording'].n, 1);
+  const plan = context.StudyPlan;
+  assert.equal(plan.missOverview(context.S, plan.localDate(new Date())).groups.sgd, 1);
+  Sgd.mark(st, 'sgd-lecture-recording', rows, { open: 2, cover: 2, close: 2 }, 2);
+  Sgd.mark(st, 'sgd-lecture-recording', rows, { open: 2, cover: 2, close: 2 }, 2);
+  assert.equal(context.S.miss['sgd:sgd-lecture-recording'], undefined);
+  // A bag saved before this module existed still loads clean.
+  const old = { pte: { sgd: { answers: { gone: { 1: 'x' } }, idx: 99 } } };
+  const fixed = Sgd.ensure(old);
+  assert.equal(Object.keys(fixed.answers).length, 0);
+  assert.equal(fixed.idx, 0);
+});
+
+test('v46 wires the skeleton panels and the SGD drill into the PTE tab without touching v45', () => {
+  const app = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const logic = fs.readFileSync(path.join(root, 'pte-logic.js'), 'utf8');
+  const weUi = fs.readFileSync(path.join(root, 'pte-we-ui.js'), 'utf8');
+  const speakUi = fs.readFileSync(path.join(root, 'pte-speak-ui.js'), 'utf8');
+  const plan = fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8');
+  const shell = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+  const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  assert.ok(Number(version) >= 46, 'v45 landing plus this change is v46 or later');
+  for (const file of ['pte-templates.js', 'pte-sgd.js']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
+    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
+  }
+  assert.match(app, /btn\('sgd', 'SGD'\)/);
+  assert.match(app, /window\.pteSgdView/);
+  assert.match(app, /PTESgd\.click/);
+  assert.match(app, /PTESgd\.focus/);
+  assert.match(logic, /st\.mode !== 'sgd'/);
+  assert.match(logic, /we\.view !== 'skel'/);
+  assert.match(weUi, /btn\('skel', '模版骨架'\)/);
+  assert.match(weUi, /function weSkeleton/);
+  assert.match(speakUi, /function swtSkeletonHtml/);
+  assert.match(speakUi, /function diSkeletonHtml/);
+  assert.match(plan, /'sgd'\]/);
+  assert.match(plan, /sgd: 'SGD'/);
+  assert.match(shell, /source==='sgd'/);
+  // The v45 spelling module and its mistake-book source must still be there.
+  assert.match(app, /btn\('spell', '拼写'\)/);
+  assert.match(app, /window\.pteSpellView/);
+  assert.match(plan, /spell: '拼写'/);
 });
 
 test('synonym comparisons cover high-frequency words and leave the rest for later', () => {
