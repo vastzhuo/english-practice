@@ -169,3 +169,28 @@ textarea.study-box{min-height:140px}
 .we-plan-bar{height:10px;background:#e5e7eb;border-radius:6px;overflow:hidden;margin:6px 0}
 .we-plan-bar i{display:block;height:100%;background:#22c55e}
 .we-plan-actions{display:grid;gap:6px;margin:8px 0}
+
+/* Progress reference plan cards (study-plan-ui.js): 8-炸 daily plan + listening plan. */
+.plan-card h3{margin:2px 0 0;font-size:1.02rem}
+.plan-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.plan-head>div{min-width:0}
+.plan-kicker{margin:0;font-size:.78rem;font-weight:800;color:#4f46e5}
+.plan-toggle{width:auto;flex:0 0 auto;margin:0;padding:8px 14px;font-size:.85rem}
+.plan-note{color:#475569;font-size:.85rem;line-height:1.5;margin:8px 0 0}
+.plan-body{margin-top:12px;border-top:1px solid #e0e7ff;padding-top:6px}
+.plan-body[hidden]{display:none}
+.plan-fact{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.plan-fact span{background:#eef2ff;color:#3730a3;border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:700}
+.plan-sec{margin:14px 0 6px;font-size:.95rem}
+.plan-sec small{color:#64748b;font-weight:600}
+.plan-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.plan-table th,.plan-table td{text-align:left;padding:6px;border-bottom:1px solid #eef2ff;vertical-align:top;line-height:1.4}
+.plan-table th{color:#64748b;font-size:.75rem;font-weight:700}
+.plan-table td:first-child{font-weight:700;color:#3730a3;width:34%}
+.plan-table td:last-child{width:30%}
+.plan-tips,.plan-list{margin:6px 0 0;padding-left:18px;font-size:.82rem;line-height:1.55;color:#334155}
+.plan-tips li,.plan-list li{margin:2px 0}
+.plan-tips b{color:#3730a3}
+.plan-round{margin:8px 0}
+.plan-round b{font-size:.85rem;color:#3730a3}
+.plan-round ol{margin:4px 0 0;padding-left:18px;font-size:.82rem;line-height:1.55;color:#334155}

@@ -250,7 +250,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'study-plan.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'study-plan.js', 'study-plan-ui.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
   assert.equal(index.includes('?v=' + previous), false);
@@ -261,7 +261,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
   assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
   assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
-  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js']) {
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'study-plan-ui.js']) {
     assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
@@ -1072,7 +1072,7 @@ test('v47 wires the 21-day plan into WE without disturbing spelling, skeletons o
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
-  assert.equal(Number(version), 47);
+  assert.ok(Number(version) >= 47, 'v47 landing plus later changes are v47 or later');
   assert.match(weUi, /btn\('plan', '21 天'\)/);
   assert.match(weUi, /function wePlanView/);
   assert.match(weUi, /function wePlanQ/);
@@ -1086,16 +1086,154 @@ test('v47 wires the 21-day plan into WE without disturbing spelling, skeletons o
   assert.match(logic, /we\.view !== 'plan'/);
   assert.match(logic, /we\.plan\.done/);
   for (const file of ['pte-we.js', 'pte-we-ui.js', 'pte-logic.js', 'style.css']) {
-    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=47'), file + ' in index.html');
-    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=47'), file + ' in sw.js');
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version), file + ' in index.html');
+    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version), file + ' in sw.js');
   }
-  assert.match(sw, /const C='ep-v47'/);
+  assert.match(sw, new RegExp("const C='ep-v" + version + "'"));
   // v45 spelling and v46 skeletons / SGD stay wired in the same tab.
   assert.match(app, /btn\('spell', '拼写'\)/);
   assert.match(app, /btn\('sgd', 'SGD'\)/);
   assert.match(weUi, /btn\('skel', '模版骨架'\)/);
   assert.match(logic, /we\.view !== 'skel'/);
   assert.match(logic, /st\.mode !== 'sgd'/);
+});
+
+test('the 8-炸 plan and the listening plan keep real numbers and two-sentence tips', () => {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8'), context);
+  const data = context.StudyPlan;
+  const joel = data.PLAN_JOEL;
+  const listen = data.PLAN_LISTENING;
+
+  // Own wording only: no institution name, no marketing line, no copied prose.
+  const plan = JSON.stringify({ joel: joel, listen: listen });
+  for (const banned of ['大西瓜', '培生', '课程', '折扣', '扫码', '报名', '微信', '群聊', '机构', '独家']) {
+    assert.equal(plan.includes(banned), false, 'plan data must not carry "' + banned + '"');
+  }
+
+  // 8-炸 table: four skills, the source's section totals, and the 题型/时长/每日量 triple.
+  assert.equal(joel.id, 'joel');
+  assert.equal(joel.target, '四项 79+（8 炸）');
+  assert.equal(joel.total, '7–9 小时/天');
+  assert.deepEqual(Array.from(joel.sections.map(section => section.name)), ['口语', '写作', '阅读', '听力']);
+  assert.deepEqual(Array.from(joel.sections.map(section => section.time)), ['2–3 小时', '2 小时', '2 小时', '1–2 小时']);
+  const rows = joel.sections.flatMap(section => section.rows);
+  assert.equal(rows.length, 18);
+  for (const row of rows) {
+    assert.ok(row.type && row.time && row.amount && row.tip, 'incomplete plan row: ' + JSON.stringify(row));
+  }
+  const byType = {};
+  rows.forEach(row => { byType[row.type] = row; });
+  assert.equal(byType['RA'].time, '早晚各 10 分钟');
+  assert.equal(byType['RA'].amount, '精练 2 段');
+  assert.equal(byType['RS'].amount, '50 句');
+  assert.equal(byType['DI'].amount, '1 类图 2 张');
+  assert.equal(byType['ASQ'].amount, '10 题');
+  assert.equal(byType['SGD'].amount, '3 题');
+  assert.equal(byType['SWT'].time, '60 分钟');
+  assert.equal(byType['Essay'].amount, '3 题');
+  assert.equal(byType['FIB（R&W）'].amount, '10 题');
+  assert.equal(byType['RO'].amount, '10 题');
+  assert.equal(byType['SST'].amount, '2 题');
+  assert.equal(byType['WFD'].amount, '50 句');
+  assert.equal(byType['FIB（听力）'].time, '10 分钟');
+
+  // Listening plan: 5–10 items a day, four rounds, first round's four steps.
+  assert.equal(listen.id, 'listen');
+  assert.match(listen.daily, /5–10 题/);
+  assert.match(listen.time, /20–30 分钟/);
+  assert.equal(listen.materials.length, 3);
+  assert.deepEqual(Array.from(listen.rounds.map(round => round.name)), ['第一轮', '第二轮', '第三轮', '第 N 轮']);
+  assert.equal(listen.rounds[0].steps.length, 4);
+  assert.equal(listen.rounds[1].steps.length, 2);
+  assert.ok(listen.pitfalls.length >= 4, 'the pitfall list is the point of the card');
+  listen.pitfalls.forEach(row => assert.ok(row.name && row.fix, 'pitfall needs a name and a fix'));
+
+  // Every tip is at most two sentences, short, and never a copied paragraph.
+  const tips = [
+    ...rows.map(row => row.type + ' ' + row.tip),
+    ...listen.materials,
+    ...listen.rounds.flatMap(round => [round.goal, ...round.steps]),
+    ...listen.pitfalls.flatMap(row => [row.name, row.fix]),
+    joel.note,
+    listen.note
+  ];
+  for (const tip of tips) {
+    const sentences = tip.split(/[.!?。！？]+/).map(text => text.trim()).filter(Boolean);
+    assert.ok(sentences.length <= 2, 'more than two sentences: ' + tip);
+    assert.ok(tip.length <= 180, 'a tip must not be a paragraph: ' + tip);
+    assert.equal(/[\u4e00-\u9fff]{30,}/.test(tip), false, 'looks like copied prose: ' + tip);
+  }
+});
+
+function planRenderContext() {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'study-plan-ui.js'), 'utf8'), context);
+  return context;
+}
+
+test('the Progress plan cards render both tables collapsed and open on demand', () => {
+  const rendered = planRenderContext();
+  const closed = rendered.studyPlanCards({ joel: false, listen: false });
+  assert.match(closed, /Joel 8 炸 · 每日练习计划/);
+  assert.match(closed, /泛听 · 混动式每日建议/);
+  assert.equal((closed.match(/class="card plan-card"/g) || []).length, 2, 'two plan cards');
+  assert.equal((closed.match(/class="plan-body" id="plan-body-(?:joel|listen)" hidden/g) || []).length, 2, 'both start closed');
+  assert.equal((closed.match(/data-plan-toggle="(?:joel|listen)"/g) || []).length, 2, 'two toggles');
+  assert.equal((closed.match(/aria-expanded="false"/g) || []).length, 2, 'both toggles start collapsed');
+  assert.equal((closed.match(/<th>题型<\/th><th>建议时长<\/th><th>每日练习量<\/th>/g) || []).length, 4, 'one table per skill');
+  assert.equal((closed.match(/<tr><td>/g) || []).length, 18, 'every plan row renders');
+  assert.match(closed, /<h4 class="plan-sec">口语 <small>2–3 小时<\/small><\/h4>/);
+  assert.match(closed, /材料类型/);
+  assert.match(closed, /做法（按轮次）/);
+  assert.match(closed, /常见坑/);
+  assert.equal(/onclick=|onload=/.test(closed), false, 'the cards print data only');
+
+  const openJoel = rendered.studyPlanCards({ joel: true, listen: false });
+  assert.equal((openJoel.match(/class="plan-body" id="plan-body-joel">/g) || []).length, 1, 'joel body opens');
+  assert.match(openJoel, /aria-expanded="true"[^>]*>收起/, 'the joel toggle flips to 收起');
+  assert.equal((openJoel.match(/class="plan-body" id="plan-body-listen" hidden/g) || []).length, 1, 'listen stays closed');
+  const openBoth = rendered.studyPlanCards({ joel: true, listen: true });
+  assert.equal((openBoth.match(/class="plan-body" id="plan-body-(?:joel|listen)">/g) || []).length, 2, 'both can be open');
+});
+
+test('v48 wires the plan cards into Progress without disturbing the other tabs', () => {
+  const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+  const plan = fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8');
+  const ui = fs.readFileSync(path.join(root, 'study-plan-ui.js'), 'utf8');
+  const css = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  assert.equal(Number(version), 48, 'this change lands as v48');
+  assert.match(index, /study-plan-ui\.js\?v=48/);
+  assert.match(sw, /study-plan-ui\.js\?v=48/);
+  assert.match(sw, /const C='ep-v48'/);
+  assert.match(plan, /PLAN_JOEL: PLAN_JOEL/);
+  assert.match(plan, /PLAN_LISTENING: PLAN_LISTENING/);
+  assert.match(ui, /data-plan-toggle/);
+  assert.match(ui, /class="plan-body"/);
+  assert.match(ui, /plan-body-' \+ plan\.id/);
+  assert.match(ui, /root\.studyPlanCards = cards/);
+  assert.match(app, /function planCards\(\)/);
+  assert.match(app, /\$\{missBook\(\)\}\$\{planCards\(\)\}/, 'Progress tab appends the cards');
+  assert.match(app, /body\.hidden=!PLAN_OPEN\[id\]/);
+  assert.match(app, /aria-expanded/);
+  assert.match(css, /\.plan-table/);
+  assert.match(css, /\.plan-body\[hidden\]/);
+  // v45 spelling, v46 skeletons/SGD, v47 WE 21-day view and the mistake book stay wired.
+  const pteApp = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const weUi = fs.readFileSync(path.join(root, 'pte-we-ui.js'), 'utf8');
+  const logic = fs.readFileSync(path.join(root, 'pte-logic.js'), 'utf8');
+  assert.match(index, /id="tab-progress"/);
+  assert.match(app, /StudyPlan\.missOverview/);
+  assert.match(pteApp, /btn\('spell', '拼写'\)/);
+  assert.match(pteApp, /btn\('sgd', 'SGD'\)/);
+  assert.match(weUi, /btn\('plan', '21 天'\)/);
+  assert.match(logic, /we\.plan\.done/);
 });
 
 test('synonym comparisons cover high-frequency words and leave the rest for later', () => {
