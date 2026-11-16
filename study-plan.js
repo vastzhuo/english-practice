@@ -329,8 +329,126 @@
     return { total: rows.length, due: dueRows.length, groups: groups, rows: rows, dueRows: dueRows };
   }
 
+  // --- Reference plan cards (Progress tab) ---------------------------------
+  // Two reference cards live on the Progress tab: the 8-炸 daily plan and the
+  // mixed listening plan. The numbers are taken from the two source files in
+  // .botharness/incoming (08-joel-plan.xlsx, 10-listening-plan.pdf); the wording,
+  // the grouping and the pitfall lines are this repo's own notes, not the
+  // course's paragraphs. No institution name, no marketing copy, and one tip is
+  // never longer than two short sentences.
+  const PLAN_JOEL = {
+    id: 'joel',
+    kicker: '8 炸 · 参考卡',
+    title: 'Joel 8 炸 · 每日练习计划',
+    note: '按每天 7–8 小时学习设计；时间不够就等比例减题量，顺序不变。数字取自原计划表，分组和措辞是自整要点。',
+    target: '四项 79+（8 炸）',
+    total: '7–9 小时/天',
+    sections: [
+      {
+        name: '口语',
+        time: '2–3 小时',
+        rows: [
+          { type: 'RA', time: '早晚各 10 分钟', amount: '精练 2 段', tip: '先划分意群再读，生词单独抄出来。' },
+          { type: 'RS', time: '—', amount: '50 句', tip: '练完把听不出的句子挑出来总结。' },
+          { type: 'DI', time: '早晚各 20 分钟', amount: '1 类图 2 张', tip: '模板按自己的发音改，数据图和图片图分开练。' },
+          { type: 'RL', time: '—', amount: '跟当期 SST 量', tip: '听一遍记笔记，再用一句话模板复述。' },
+          { type: 'ASQ', time: '—', amount: '10 题', tip: '生词和错题都记下来。' },
+          { type: 'SGD', time: '—', amount: '3 题', tip: '固定一句话模板，先记笔记再开口。' },
+          { type: 'RTS', time: '—', amount: '3 题', tip: '先分析场景和目的，再套一句话模板。' }
+        ]
+      },
+      {
+        name: '写作',
+        time: '2 小时',
+        rows: [
+          { type: 'SWT', time: '60 分钟', amount: '按计划刷完全部预测题', tip: '抓观点和论点，用连词串成一句。' },
+          { type: 'Essay', time: '—', amount: '3 题', tip: '20 分钟内写完，先审题再套公式。' }
+        ]
+      },
+      {
+        name: '阅读',
+        time: '2 小时',
+        rows: [
+          { type: 'FIB（R&W）', time: '定量不定时，自定限时', amount: '10 题', tip: '先刷预测题再刷题库，生词必须查。' },
+          { type: 'RO', time: '定量不定时，自定限时', amount: '10 题', tip: '先找配对再排顺序。' },
+          { type: 'FIB（R）', time: '定量不定时，自定限时', amount: '10 题', tip: '和下拉题一样，先看词性再选。' },
+          { type: 'MCQ-M', time: '—', amount: '不强制，考前刷完', tip: '只求熟悉题目，不占主线时间。' },
+          { type: 'MCQ-S', time: '—', amount: '不强制，考前刷完', tip: '只求熟悉题目，不占主线时间。' }
+        ]
+      },
+      {
+        name: '听力',
+        time: '1–2 小时',
+        rows: [
+          { type: 'SST', time: '—', amount: '2 题', tip: '抓信号词和关键词，听完默写关键词拼写。' },
+          { type: 'WFD', time: '—', amount: '50 句', tip: '听写前先当 RS 说一遍，再逐字翻译。' },
+          { type: 'FIB（听力）', time: '10 分钟', amount: '预测题原题 + A/B 类词', tip: '边背边默写，注意拼写和读音。' },
+          { type: '其他客观题（MCQ-M / HCS / MCQ-S / SMW / HIW）', time: '—', amount: '不强制，考前刷完', tip: '熟悉题型和节奏就行。' }
+        ]
+      }
+    ]
+  };
+
+  const PLAN_LISTENING = {
+    id: 'listen',
+    kicker: '泛听 · 参考卡',
+    title: '泛听 · 混动式每日建议',
+    note: '整理自两页泛听计划：数字照原页，轮次和「常见坑」是自整要点。音频只当听力材料，不背原文。',
+    daily: '5–10 题/天',
+    time: '约 20–30 分钟（按题量估，自定）',
+    materials: [
+      '当月高频 SST 真题音频：原音版 + 原文版',
+      '中文答案和简化版答案',
+      '满分回忆版答案'
+    ],
+    rounds: [
+      {
+        name: '第一轮',
+        goal: '先把答案读懂（最重要）',
+        steps: [
+          '先看中文答案和简化版，把下划线关键词记住。',
+          '自己画十字格笔记，每天整理一次。',
+          '拿十字格当 RL 复述一遍，练一句话模板。',
+          '把简化版或满分答案当 RA 朗读。'
+        ]
+      },
+      {
+        name: '第二轮',
+        goal: '按目标分叉',
+        steps: [
+          '目标 65+：用原音和原文音频练听力，边听边画十字格。',
+          '目标 65 以下：第一轮再做一遍。'
+        ]
+      },
+      {
+        name: '第三轮',
+        goal: '写答案并纠错',
+        steps: [
+          '目标 65+：听音频写答案，和满分回忆比对纠错。',
+          '目标 65 以下：回到第二轮，继续练笔记。'
+        ]
+      },
+      {
+        name: '第 N 轮',
+        goal: '考前收口',
+        steps: [
+          '只刷易错题，把当月高频题说全。'
+        ]
+      }
+    ],
+    pitfalls: [
+      { name: '一上来就听原音', fix: '答案没读懂就听，笔记容易变成抄音。' },
+      { name: '只画十字格不整理', fix: '当天整理一次，第二天再看还记得住。' },
+      { name: '目标 65 以下还在刷原音', fix: '该先回第一轮，把答案吃透。' },
+      { name: '只听不复述', fix: '每篇都用 RL 模板说一遍。' },
+      { name: '考前还在开新题', fix: '最后只收易错题，不再铺新量。' }
+    ]
+  };
+
   root.StudyPlan = {
     NEW_PER_DAY: NEW_PER_DAY,
+    PLAN_JOEL: PLAN_JOEL,
+    PLAN_LISTENING: PLAN_LISTENING,
     MISS_SOURCES: MISS_SOURCES,
     MISS_LABEL: MISS_LABEL,
     addDays: addDays,

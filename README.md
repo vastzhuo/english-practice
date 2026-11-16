@@ -18,7 +18,7 @@ from `main`).
 | Drive | 🚗 开车 | Hands-free listening loop for the car: English word → pause → English example → pause for you to repeat → Chinese meaning, then the next item. Gap, rate, repeat count and order are configurable; screen wake lock and media-session controls (phone/steering-wheel buttons) are used, and the page warns you not to look at the screen. |
 | PTE | 📝 PTE | PTE Academic practice, one sub-module at a time — see the next section. |
 | Grammar | 语法 | 360 grammar cards from the DK grammar guide, in the book's own order, grouped into 12 chapters; previous/next navigation with progress saved. |
-| Progress | 📊 Progress | Current streak, best streak, and the stats behind today's plan. |
+| Progress | 📊 Progress | Current streak, best streak, the stats behind today's plan, the mistake book, and two collapsible reference cards: the 8-炸 daily plan (题型 / 建议时长 / 每日练习量 per skill) and the mixed listening plan (daily amount, material types, rounds, common pitfalls). |
 
 ## PTE sub-modules
 
@@ -44,9 +44,10 @@ from `main`).
   - `pte.js` — 152 WFD sentences; `pte-rs.js` — 50 RS sentences
   - `pte-read.js` — 70 reading articles; `pte-we.js` — 56 essay prompts (35 bank + the 21-day plan); `pte-logic.js` — the 21-day unlock/streak state (`pte.we.plan`)
   - `pte-sst.js` — 50 SST items (audio paths, transcripts, notes)
-  - `grammar.js` — derives the 360 grammar points from `words.js`; `study-plan.js` — the daily queue
+  - `grammar.js` — derives the 360 grammar points from `words.js`; `study-plan.js` — the daily queue, the mistake book, and the two reference plan datasets (`PLAN_JOEL`, `PLAN_LISTENING`)
 - **UI** is split by tab/module: `app.js`, `drive.js`, `study-ui.js`,
-  `grammar-ui.js`, `pte-app.js`, `pte-we-ui.js`, `pte-sst-ui.js`, plus
+  `grammar-ui.js`, `pte-app.js`, `pte-we-ui.js`, `pte-sst-ui.js`,
+  `study-plan-ui.js` (the Progress reference cards), plus
   `style.css`. `pte-logic.js` holds the shared PTE logic used by both the UI and
   the tests. `voice-check.js` holds the one speech-synthesis detection (and the
   「🔊 声音自检」 button / failure notices) shared by the PTE tab, Shadow and
@@ -116,6 +117,11 @@ self-made notes — never silently presented as verified exam material:
   `title_content_mismatch` for a title that does not match the audio,
   `is_recalled_version` for recalled items, and `source: 'predicted'` for
   vocabulary guessed from a topic when no article body exists.
+- The two Progress plan cards carry their own `note`: the numbers come from the
+  source sheet/page (an 8-炸 daily plan and a two-page listening plan), while the
+  grouping, wording and the common-pitfall lines are self-organised notes. No
+  institution name, course paragraph or marketing line is reproduced, and every
+  tip is at most two short sentences (the tests enforce both).
 
 ### Pull requests
 
