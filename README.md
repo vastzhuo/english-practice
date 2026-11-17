@@ -123,6 +123,41 @@ self-made notes — never silently presented as verified exam material:
   institution name, course paragraph or marketing line is reproduced, and every
   tip is at most two short sentences (the tests enforce both).
 
+### Synonym-card coverage (how the gap is counted)
+
+`tools/coverage.mjs` answers "how many vocabulary entries still have no synonym
+card?" Run it instead of counting by hand, so two people always get the same
+number:
+
+```
+node tools/coverage.mjs                 # the agreed report
+node tools/coverage.mjs --include-kinds # also count grammar/pattern sets
+node tools/coverage.mjs --no-stem       # do not merge inflected forms
+```
+
+The rules, which exist because past counts disagreed:
+
+1. **Normalise first**: NFKC, lowercase, en/em dash to hyphen, drop parenthetical
+   hints, collapse whitespace, trim surrounding non-letters.
+2. **English headwords only**: a `w` value containing non-ASCII text is a Chinese
+   gloss, not a headword, and is skipped.
+3. **Slash entries are one entry**: `check/cheque` counts once, never twice — its
+   alternatives are normalised, sorted and joined to build the dedupe key.
+4. **Inflected forms do not count separately**: `-ies→-y`, `-es`, `-s`, `-ing`,
+   `-ed` are stripped to a lemma before the key is built (phrases are never
+   stemmed). `--no-stem` turns this off.
+5. **Coverage means `SYNONYMS.lookup(word) !== null`** for the entry or any of its
+   slash alternatives (hyphen also tried as a space). Examples `x`, tips `t` and
+   audio are *not* coverage.
+6. **Grammar/pattern collections are excluded**: `DK 英语语法指南`, `雅思写作句型`
+   and `IELTS 8.5 词汇大师课` are sentence patterns, not words, and a synonym pair
+   is the wrong container for them.
+
+Baseline on 2026-11-17 (excluded kinds dropped, stemming on): 8,348 distinct
+entries, 4,416 covered, **3,932 uncovered (52.9%)**, about 40 batches at 100 words
+each. Change a rule here, change it in the script, and state the new baseline in
+the commit message.
+
 ### Pull requests
 
 One logical change per PR, with a test in `test/pte.test.mjs` for every
