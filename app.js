@@ -101,6 +101,10 @@ function missBankText(source,id){
   if(source==='ra'){const fixed=(typeof PTE_RA!=='undefined'&&PTE_RA&&Array.isArray(PTE_RA.passages))?PTE_RA.passages:[];const more=(typeof PTE_RA!=='undefined'&&PTE_RA&&typeof PTE_RA.fromRead==='function'&&typeof readArticles==='function')?PTE_RA.fromRead(readArticles()):[];const item=fixed.concat(more).find(x=>x.id===id);return item?(item.title||item.text):''}
   if(source==='swt'){const items=(typeof PTE_SWT!=='undefined'&&PTE_SWT&&Array.isArray(PTE_SWT.items))?PTE_SWT.items:[];const item=items.find(x=>x.id===id);return item?(item.title||item.sourceId||''):''}
   if(source==='sgd'){const items=(typeof PTE_TEMPLATES!=='undefined'&&PTE_TEMPLATES&&PTE_TEMPLATES.sgd&&Array.isArray(PTE_TEMPLATES.sgd.items))?PTE_TEMPLATES.sgd.items:[];const item=items.find(x=>x.id===id);return item?(item.zh||item.id):''}
+  // v49 auto-eval sources: write -> SWT/WE prompt, speak -> RA/RS target text.
+  if(source==='we'){const items=(typeof PTE_WE!=='undefined'&&PTE_WE&&Array.isArray(PTE_WE.questions))?PTE_WE.questions:[];const item=items.find(x=>x.id===id);return item?(item.zh||item.en||item.id):''}
+  if(source==='write'){const items=(typeof PTE_SWT!=='undefined'&&PTE_SWT&&Array.isArray(PTE_SWT.items))?PTE_SWT.items:[];const item=items.find(x=>x.id===id);if(item)return item.title||item.id;return missBankText('we',id)}
+  if(source==='speak'){return String(id).indexOf('ra-')===0?missBankText('ra',id):missBankText('rs',id)}
   return ''
 }
 function missRowText(row){
@@ -112,12 +116,13 @@ function missBook(){
   if(typeof StudyPlan==='undefined'||!StudyPlan.missOverview)return '';
   const ov=StudyPlan.missOverview(S,TK);
   const head='<div class="card miss-card"><h3>错题本</h3>';
-  if(!ov.total)return head+'<p class="miss-empty">还没有错题。Quiz 答错、WFD 听写有漏词或多词、RS 跟读评分过低、RA 或 SWT 自评选了最差档、SGD 结构自评选了最差档，都会自动记到这里。</p></div>';
+  if(!ov.total)return head+'<p class="miss-empty">还没有错题。Quiz 答错、WFD 听写有漏词或多词、RS 跟读评分过低、RA 或 SWT 自评选了最差档、SGD 结构自评选了最差档，都会自动记到这里。写作或口语的自动初评低于 4 档时，也会带着失分原因和改进一句记进来。</p></div>';
   const chips=StudyPlan.MISS_SOURCES.map(s=>`<span class="miss-chip${ov.groups[s]?' on':''}">${esc(StudyPlan.MISS_LABEL[s]||s)} ${ov.groups[s]}</span>`).join('');
   const allQuiz=quizMissWords(false).length;
   const rows=ov.rows.slice(0,12).map(row=>{
     const dueLabel=row.due<=TK?'今天到期':row.due+' 到期';
-    return `<div class="miss-row"><div class="miss-main"><span class="miss-tag">${esc(StudyPlan.MISS_LABEL[row.source]||row.source)}</span>${esc(missRowText(row))}</div><small>错 ${row.n} 次 · ${dueLabel}${row.ok?' · 已答对 '+row.ok+' 次':''}</small><button class="btn alt half" data-miss-go="${esc(row.key)}">去练</button></div>`
+    const note=(row.why?'<div class="miss-why">失分：'+esc(row.why)+'</div>':'')+(row.fix?'<div class="miss-fix">改进：'+esc(row.fix)+'</div>':'');
+    return `<div class="miss-row"><div class="miss-main"><span class="miss-tag">${esc(StudyPlan.MISS_LABEL[row.source]||row.source)}</span>${esc(missRowText(row))}</div>${note}<small>错 ${row.n} 次 · ${dueLabel}${row.ok?' · 已答对 '+row.ok+' 次':''}</small><button class="btn alt half" data-miss-go="${esc(row.key)}">去练</button></div>`
   }).join('');
   const more=ov.rows.length>12?'<small>只列最早到期的 12 题，其余还在错题本里。</small>':'';
   return head+`<p>共 <b>${ov.total}</b> 题，今天到期 <b>${ov.due}</b> 题。</p><div class="miss-chips">${chips}</div><p class="miss-note">答错后第 1 次隔 1 天、第 2 次隔 3 天、第 3 次起隔 7 天复习；同一题连续答对 2 次移出。有 Quiz 错题时「只刷今日到期」进入只考这些词的选择题；只有 PTE 错题时跳到对应模块并把这题置顶。</p><button class="btn" id="missDue" ${ov.due?'':'disabled'}>只刷今日到期（${ov.due}）</button>${allQuiz?`<button class="btn alt" id="missQuizAll">Quiz 错题全部重练（${allQuiz}）</button>`:''}<div class="miss-list">${rows}</div>${more}</div>`

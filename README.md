@@ -18,20 +18,20 @@ from `main`).
 | Drive | 🚗 开车 | Hands-free listening loop for the car: English word → pause → English example → pause for you to repeat → Chinese meaning, then the next item. Gap, rate, repeat count and order are configurable; screen wake lock and media-session controls (phone/steering-wheel buttons) are used, and the page warns you not to look at the screen. |
 | PTE | 📝 PTE | PTE Academic practice, one sub-module at a time — see the next section. |
 | Grammar | 语法 | 360 grammar cards from the DK grammar guide, in the book's own order, grouped into 12 chapters; previous/next navigation with progress saved. |
-| Progress | 📊 Progress | Current streak, best streak, the stats behind today's plan, the mistake book, and two collapsible reference cards: the 8-炸 daily plan (题型 / 建议时长 / 每日练习量 per skill) and the mixed listening plan (daily amount, material types, rounds, common pitfalls). |
+| Progress | 📊 Progress | Current streak, best streak, the stats behind today's plan, the mistake book (wrong items with 失分原因 / 改进一句 for writing and speaking auto-grades), and two collapsible reference cards: the 8-炸 daily plan (题型 / 建议时长 / 每日练习量 per skill) and the mixed listening plan (daily amount, material types, rounds, common pitfalls). |
 
 ## PTE sub-modules
 
 | Module | Content |
 | --- | --- |
 | WFD (Write From Dictation) | 152 high-frequency sentences in five categories (`学术场景`, `科学技术`, `社会经济`, `职业与发展`, `环境与规划`). Each sentence is read five times with a 3-second pause, shuffled so a new loop does not start with the last sentence. Your typed answer is diffed word by word against the source (missing / extra words marked). |
-| RS (Repeat Sentence) | 50 sentences from the speaking list, played sentence by sentence for shadowing. |
+| RS (Repeat Sentence) | 50 sentences from the speaking list, played sentence by sentence for shadowing. In Chrome/Edge, **自动评级** reads the browser's speech recognition back against the sentence, shows content coverage with the missing / extra word lists, and adds 语序 / 断句 hints; browsers without recognition keep the listen-and-mark-yourself flow. |
 | 阅读 (Reading) | 70 articles grouped by how many turns the argument takes (双转折 / 单转折 / 并列 / 无转折). Trains the connectives and patterns that give paragraph order away. When the source has no article body, vocabulary is marked as **topic-predicted** instead of inventing a passage. |
-| WE (Write Essay) | 56 prompts: 35 high-frequency prompts plus a 21-day plan (one prompt per day, 200–300 words / 20 minutes). Days unlock in order; the plan shows done/not-done, streak and completion, and keeps sentence cards and a copy-prompt helper. |
+| WE (Write Essay) | 56 prompts: 35 high-frequency prompts plus a 21-day plan (one prompt per day, 200–300 words / 20 minutes). Days unlock in order; the plan shows done/not-done, streak and completion, and keeps sentence cards and a copy-prompt helper. After writing, **自检** reports word-count fit, sentences, average length, prompt-keyword coverage, connectives, common deductions, three 1–5 tiers and one 改进一句 per deduction. |
 | SST (Summarize Spoken Text) | 50 lecture items with real, downloadable audio under `audio/sst/` and transcripts taken from the source list; reference/model answers and known content mismatches are flagged. |
-| RA (Read Aloud) | 12 passages taken from existing source text (reading articles, or SST transcripts when an article has no body), with the exam's 30–40s prep and 40s reading limits. Self-assessed. |
+| RA (Read Aloud) | 12 passages taken from existing source text (reading articles, or SST transcripts when an article has no body), with the exam's 30–40s prep and 40s reading limits. Chrome/Edge can **自动评级** (recognition → word alignment → coverage + missing/extra words); other browsers fall back to the three-row self-assessment. |
 | DI (Describe Image) | 5 chart types (bar, line, pie, table, flow) drawn offline as inline SVG from clearly marked self-made data; 25s prep, 40s speaking. Self-assessed. |
-| SWT (Write From Summary) | 10 items reusing SST transcripts; the reference summaries are self-made (`自制，不是官方答案`), 10 minutes, 5–75 words. Self-assessed. |
+| SWT (Write From Summary) | 10 items reusing SST transcripts; the reference summaries are self-made (`自制，不是官方答案`), 10 minutes, 5–75 words. **自检** checks word count, the one-sentence rule, keyword coverage and connectives, then grades content / structure / language 1–5. |
 | 开车 (Drive) | The same hands-free loop as the Drive tab, over the PTE WFD and RS sentence sets. |
 
 ## Architecture
@@ -44,19 +44,27 @@ from `main`).
   - `pte.js` — 152 WFD sentences; `pte-rs.js` — 50 RS sentences
   - `pte-read.js` — 70 reading articles; `pte-we.js` — 56 essay prompts (35 bank + the 21-day plan); `pte-logic.js` — the 21-day unlock/streak state (`pte.we.plan`)
   - `pte-sst.js` — 50 SST items (audio paths, transcripts, notes)
-  - `grammar.js` — derives the 360 grammar points from `words.js`; `study-plan.js` — the daily queue, the mistake book, and the two reference plan datasets (`PLAN_JOEL`, `PLAN_LISTENING`)
+  - `pte-write-eval.js` — the pure SWT/WE self-check heuristics (word count,
+    sentence stats, prompt keywords, connectives, deductions, 1–5 tiers);
+    `pte-speak-eval.js` — the pure RA/RS word-alignment comparison (coverage,
+    missing/extra words, order inversions, tiers). Neither file touches the DOM
+    or the network, so both are unit-tested directly.
+  - `grammar.js` — derives the 360 grammar points from `words.js`; `study-plan.js` — the daily queue, the mistake book (sources `quiz` / `wfd` / `rs` / `ra` / `swt` / `spell` / `sgd` / `write` / `speak`), and the two reference plan datasets (`PLAN_JOEL`, `PLAN_LISTENING`)
 - **UI** is split by tab/module: `app.js`, `drive.js`, `study-ui.js`,
   `grammar-ui.js`, `pte-app.js`, `pte-we-ui.js`, `pte-sst-ui.js`,
-  `study-plan-ui.js` (the Progress reference cards), plus
-  `style.css`. `pte-logic.js` holds the shared PTE logic used by both the UI and
-  the tests. `voice-check.js` holds the one speech-synthesis detection (and the
-  「🔊 声音自检」 button / failure notices) shared by the PTE tab, Shadow and
+  `pte-speak-ui.js` (RA / DI / SWT panels plus the writing 自检 and the one
+  speech-recognition runner), `study-plan-ui.js` (the Progress reference cards),
+  plus `style.css`. `pte-logic.js` holds the shared PTE logic used by both the UI
+  and the tests. `voice-check.js` holds the one speech-synthesis detection (and
+  the 「🔊 声音自检」 button / failure notices) shared by the PTE tab, Shadow and
   Drive: when no English voice is installed, playback buttons are disabled with
   a reason instead of silently doing nothing.
 - **State** is a single `localStorage` key, `ep`, holding JSON: word progress
   (`days`, `learned`, `best`), the `pte` sub-object (`wfdMem`, `rsMem`,
   `readFlow`, `readPass`, `readErr`, `we`, `sst`, `ra`, `di`, `swt`, `mode`),
-  the `study` queue and `dv` drive settings. Nothing is sent to a server.
+  the mistake book `miss` (a `source:id` → `{n,last,due,ok,why,fix}` row; `why` /
+  `fix` are the writing/speaking 失分原因 / 改进一句), the `study` queue and `dv`
+  drive settings. Nothing is sent to a server.
 - **Offline** comes from `sw.js`: a cache named `ep-vNN` plus a precache list of
   every script, stylesheet and icon. `manifest.json` makes it installable.
   Audio and byte-range requests are **network-only**: an `<audio>` element asks
@@ -123,40 +131,22 @@ self-made notes — never silently presented as verified exam material:
   institution name, course paragraph or marketing line is reproduced, and every
   tip is at most two short sentences (the tests enforce both).
 
-### Synonym-card coverage (how the gap is counted)
+### Local auto evaluation (v49)
 
-`tools/coverage.mjs` answers "how many vocabulary entries still have no synonym
-card?" Run it instead of counting by hand, so two people always get the same
-number:
+The writing (SWT / WE) 自检 and the speaking (RA / RS) 自动评级 run entirely in
+the page:
 
-```
-node tools/coverage.mjs                 # the agreed report
-node tools/coverage.mjs --include-kinds # also count grammar/pattern sets
-node tools/coverage.mjs --no-stem       # do not merge inflected forms
-```
-
-The rules, which exist because past counts disagreed:
-
-1. **Normalise first**: NFKC, lowercase, en/em dash to hyphen, drop parenthetical
-   hints, collapse whitespace, trim surrounding non-letters.
-2. **English headwords only**: a `w` value containing non-ASCII text is a Chinese
-   gloss, not a headword, and is skipped.
-3. **Slash entries are one entry**: `check/cheque` counts once, never twice — its
-   alternatives are normalised, sorted and joined to build the dedupe key.
-4. **Inflected forms do not count separately**: `-ies→-y`, `-es`, `-s`, `-ing`,
-   `-ed` are stripped to a lemma before the key is built (phrases are never
-   stemmed). `--no-stem` turns this off.
-5. **Coverage means `SYNONYMS.lookup(word) !== null`** for the entry or any of its
-   slash alternatives (hyphen also tried as a space). Examples `x`, tips `t` and
-   audio are *not* coverage.
-6. **Grammar/pattern collections are excluded**: `DK 英语语法指南`, `雅思写作句型`
-   and `IELTS 8.5 词汇大师课` are sentence patterns, not words, and a synonym pair
-   is the wrong container for them.
-
-Baseline on 2026-11-17 (excluded kinds dropped, stemming on): 8,348 distinct
-entries, 4,416 covered, **3,932 uncovered (52.9%)**, about 40 batches at 100 words
-each. Change a rule here, change it in the script, and state the new baseline in
-the commit message.
+- `pte-write-eval.js` and `pte-speak-eval.js` are pure functions (no DOM, no
+  network), so the same rules are unit-tested in `test/pte.test.mjs`.
+- The speaking comparison uses **only** the browser's own `SpeechRecognition`.
+  There is no third-party scoring API and no audio or essay upload; the
+  recognized text stays on the page's in-memory scratch state and is dropped on
+  reload.
+- A writing or speaking attempt whose weakest tier is below 4 is written into the
+  mistake book as `write:` / `speak:` with one 失分原因 + one 改进一句; a passing
+  attempt follows the existing "two correct in a row retires the row" rule.
+- Browsers without speech recognition show 「此浏览器不支持自动评级」 and keep the
+  manual self-check, instead of an error.
 
 ### Pull requests
 
@@ -165,12 +155,18 @@ functional change. The CI job above is the gate.
 
 ## Known limits
 
-- **Speaking/reading-aloud practice is self-assessed.** RA, DI and SWT (and the
-  SST and RS modules) play the prompt and let you compare/assess yourself; there
-  is no microphone recording scoring, no pronunciation or fluency scoring, and
-  no PTE score estimate. The Shadow tab does use browser speech recognition but
-  that is a rough local check, not an exam scorer.
-- Speech synthesis voices, recognition support and the wake lock all depend on
+- **Speaking/reading-aloud practice is partly self-assessed.** RA and SWT grade
+  themselves locally (writing heuristics for SWT; word-level recognition
+  comparison for RA in browsers that support it), and RS can use the same
+  recognition comparison, but there is **no pronunciation or fluency scoring, no
+  audio upload and no saved recording** — the recognized text lives only in the
+  page's memory and is dropped on reload. DI, and RA/SWT on browsers without
+  speech recognition, keep the manual three-row self-assessment. The writing
+  tiers are rough local rules (word count, sentence stats, prompt words,
+  connectives, common deductions), not an exam score.
+- Speech recognition itself is provided by the browser (Chrome/Edge); a browser
+  without it shows 「此浏览器不支持自动评级」 and keeps the manual self-check.
+  Speech synthesis voices, recognition support and the wake lock all depend on
   the browser/OS; Chrome or Edge on Android/desktop gives the best results.
   Without an installed **English** voice, WFD / RS / RA and the Shadow and Drive
   tabs cannot speak: the PTE row then shows 「🔊 声音自检」 with the three states

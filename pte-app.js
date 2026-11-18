@@ -1,5 +1,5 @@
 // PTE tab: browse, hands-free playback, and recall. Progress lives on the existing `ep` object.
-const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null, voiceError: '', focus: null };
+const PTE_PLAY = { on: false, paused: false, tok: 0, gen: 0, item: null, rep: 0, reps: 5, place: 0, total: 0, phase: 'idle', pending: [], au: null, lock: null, keep: null, utt: null, wfdKey: '', wfdOrder: [], wfdIdx: 0, rsKey: '', rsOrder: [], rsIdx: 0, revealed: false, heard: '', mask: {}, readId: '', deck: null, cards: [], cardIdx: 0, flip: false, quiz: null, quizPicked: '', cardMode: 'card', spTick: null, spMode: '', spLeft: 0, raPhase: 'idle', diPhase: 'idle', swtLeft: null, voiceError: '', focus: null, writeEval: {}, speakEval: {}, writeSeen: {}, speakSeen: {} };
 
 function pteState() { return PTELogic.ensureState(S, PTELogic.categories(PTE)); }
 function pteRead() { return (typeof PTE_READ !== 'undefined' && PTE_READ) ? PTE_READ : { types: [], articles: [] }; }
@@ -18,11 +18,11 @@ function pteById(id) { return PTE.find(item => item.id === id) || pteRsList().fi
 // only reports "this attempt was wrong" or "this attempt was good".
 const PTE_RS_GOOD_SCORE = 60;
 
-function pteMark(source, id, wrong) {
+function pteMark(source, id, wrong, detail) {
   if (typeof StudyPlan === 'undefined' || !StudyPlan.missKey || typeof S === 'undefined') return;
   const key = StudyPlan.missKey(source, id);
   if (!key) return;
-  if (wrong) StudyPlan.missRecord(S, key, StudyPlan.localDate(new Date()));
+  if (wrong) StudyPlan.missRecord(S, key, StudyPlan.localDate(new Date()), detail);
   else StudyPlan.missOk(S, key);
 }
 // A row in the mistake book pins one item at the top of its module.
@@ -38,12 +38,16 @@ function pteFocusNote(source) {
 }
 window.pteFocus = function (source, id) {
   if (!source || !id) return;
-  if (['wfd', 'rs', 'ra', 'swt', 'spell', 'sgd'].indexOf(source) < 0) return;
+  // v49 auto-eval sources: one source per family, the id's prefix picks the module.
+  if (source === 'write') source = String(id).indexOf('swt-') === 0 ? 'swt' : 'we';
+  if (source === 'speak') source = String(id).indexOf('ra-') === 0 ? 'ra' : 'rs';
+  if (['wfd', 'rs', 'ra', 'swt', 'we', 'spell', 'sgd'].indexOf(source) < 0) return;
   const st = pteState();
   st.mode = source;
   PTE_PLAY.focus = { source: source, id: String(id) };
   if (source === 'wfd') { st.wfdView = 'list'; st.wfdCat = '全部'; PTE_PLAY.wfdKey = ''; PTE_PLAY.revealed = false; PTE_PLAY.heard = ''; }
   if (source === 'rs') { st.rsView = 'list'; PTE_PLAY.rsKey = ''; }
+  if (source === 'we') { const bag = PTELogic.ensureWe(st); bag.view = 'essay'; bag.essayId = String(id); }
   if (source === 'spell' && window.PTESpell && PTESpell.focus) PTESpell.focus(st, String(id));
   if (source === 'sgd' && window.PTESgd && PTESgd.focus) PTESgd.focus(st, String(id));
   save();
@@ -526,8 +530,14 @@ function viewRs(st) {
   const item = rpin || order[PTE_PLAY.rsIdx];
   if (!item) return head;
   const on = !!st.rsMem[item.id];
-  const mic = (typeof SR !== 'undefined' && SR) ? `<button type="button" class="btn alt" data-pte-act="mic" data-id="${esc(item.id)}">🎤 跟读评分</button>` : '';
-  return head + (rpin ? pteFocusNote('rs') : '') + `<div class="card"><div class="pte-kicker">${rpin ? '错题本定位' : '第 ' + (PTE_PLAY.rsIdx + 1) + '/' + order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button></div>`;
+  // v49: the browser's own recognition feeds a word-level comparison; when it is
+  // missing the page degrades to listen + manual "已练习" instead of erroring.
+  const recOk = typeof window.pteSpeakEvalSupported === 'function' && window.pteSpeakEvalSupported();
+  const mic = recOk
+    ? `<button type="button" class="btn alt" data-pte-act="rs-eval" data-id="${esc(item.id)}">🎤 自动评级</button>`
+    : '<p class="pte-tip">此浏览器不支持自动评级（需要 Chrome / Edge 的语音识别）。可以先听原音跟读，再手动标「已练习」。</p>';
+  const evalBox = typeof window.pteSpeakEvalHtml === 'function' ? `<div id="pteSpeakEval">${window.pteSpeakEvalHtml('rs', item.id)}</div>` : '';
+  return head + (rpin ? pteFocusNote('rs') : '') + `<div class="card"><div class="pte-kicker">${rpin ? '错题本定位' : '第 ' + (PTE_PLAY.rsIdx + 1) + '/' + order.length} · 题号 ${esc(item.sourceNumber)}</div>${bigLine(item.text)}<button type="button" class="btn" data-pte-act="hear" data-id="${esc(item.id)}"${pteSayAttr()}>播放</button>${mic}<button type="button" class="btn ${on ? 'done' : ''}" data-pte-act="mem" data-bag="rs" data-id="${esc(item.id)}">${on ? '✓ 已练习' : '未练习'}</button><button type="button" class="btn alt" data-pte-act="rs-next">下一句</button>${evalBox}</div>`;
 }
 function articleCard(article) {
   const type = typeById(article.type);
@@ -751,6 +761,10 @@ function onPteClick(e) {
       // RS has no self-rating rows: a low recognition score is the failure.
       if (typeof score === 'number') { pteMark('rs', item.id, score < PTE_RS_GOOD_SCORE); save(); }
     });
+    return;
+  }
+  if (act === 'rs-eval') {
+    if (typeof window.pteRsEval === 'function') window.pteRsEval(item, b);
     return;
   }
   if (act === 'mem') {

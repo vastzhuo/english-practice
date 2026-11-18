@@ -216,9 +216,12 @@
   // A row is { n: wrong count, last: last wrong date, due: review date,
   // ok: consecutive good answers since the last wrong one }. A missing S.miss
   // on an old save is normal and never touches the rest of the progress.
-  const MISS_SOURCES = ['quiz', 'wfd', 'rs', 'ra', 'swt', 'spell', 'sgd'];
-  const MISS_LABEL = { quiz: 'Quiz', wfd: 'WFD', rs: 'RS', ra: 'RA', swt: 'SWT', spell: '拼写', sgd: 'SGD' };
+  const MISS_SOURCES = ['quiz', 'wfd', 'rs', 'ra', 'swt', 'spell', 'sgd', 'write', 'speak'];
+  const MISS_LABEL = { quiz: 'Quiz', wfd: 'WFD', rs: 'RS', ra: 'RA', swt: 'SWT', spell: '拼写', sgd: 'SGD', write: '写作', speak: '口语' };
   const MISS_GAPS = [1, 3, 7];
+  // v49: writing / speaking auto-eval rows also carry one 失分原因 + one 改进一句.
+  // Both fields are free text from local heuristics, capped so a saved row stays small.
+  const MISS_NOTE_MAX = 120;
 
   function addDays(iso, days) {
     if (!isDate(iso)) return iso;
@@ -251,6 +254,20 @@
     const day = isDate(from) ? from : localDate(new Date());
     return addDays(day, missGap(n));
   }
+  function missText(value) {
+    const s = String(value == null ? '' : value).replace(/\s+/g, ' ').trim();
+    return s.length > MISS_NOTE_MAX ? s.slice(0, MISS_NOTE_MAX - 1) + '…' : s;
+  }
+  // { why, fix } -> a clean pair. Anything else (or a missing detail) is dropped,
+  // so older callers that pass only (S, key, date) keep working unchanged.
+  function missDetail(detail) {
+    if (!detail || typeof detail !== 'object' || Array.isArray(detail)) return { why: '', fix: '' };
+    let why = '';
+    if (Array.isArray(detail.why)) {
+      why = detail.why.filter(item => typeof item === 'string' && item.trim()).map(missText).slice(0, 2).join('；');
+    } else if (typeof detail.why === 'string') why = missText(detail.why);
+    return { why: missText(why), fix: typeof detail.fix === 'string' ? missText(detail.fix) : '' };
+  }
   function missEnsure(S) {
     if (!S || typeof S !== 'object' || Array.isArray(S)) return {};
     if (!S.miss || typeof S.miss !== 'object' || Array.isArray(S.miss)) S.miss = {};
@@ -261,20 +278,30 @@
       const n = Math.round(Number(row.n));
       if (!(n > 0) || !isDate(row.last) || !isDate(row.due)) { delete bag[key]; return; }
       const ok = Math.round(Number(row.ok));
-      bag[key] = { n: n, last: row.last, due: row.due, ok: ok > 0 ? ok : 0 };
+      const clean = { n: n, last: row.last, due: row.due, ok: ok > 0 ? ok : 0 };
+      const why = typeof row.why === 'string' ? missText(row.why) : '';
+      const fix = typeof row.fix === 'string' ? missText(row.fix) : '';
+      if (why) clean.why = why;
+      if (fix) clean.fix = fix;
+      bag[key] = clean;
     });
     return bag;
   }
-  function missRecord(S, key, date) {
+  function missRecord(S, key, date, detail) {
     const k = String(key == null ? '' : key);
     if (!k) return null;
     const bag = missEnsure(S);
     const old = bag[k];
     const day = isDate(date) ? date : localDate(new Date());
     const n = old && old.n > 0 ? old.n + 1 : 1;
+    const note = missDetail(detail);
     const row = { n: n, last: day, due: missDue(n, day), ok: 0 };
+    // An old note survives a re-record that carries no new note (e.g. a plain
+    // WFD miss); a new note always replaces it.
+    if (note.why || (old && old.why)) row.why = note.why || old.why;
+    if (note.fix || (old && old.fix)) row.fix = note.fix || old.fix;
     bag[k] = row;
-    return { key: k, n: row.n, last: row.last, due: row.due, ok: 0 };
+    return { key: k, n: row.n, last: row.last, due: row.due, ok: 0, why: row.why || '', fix: row.fix || '' };
   }
   // A good answer on an item that is in the book. Two in a row removes it.
   function missOk(S, key) {
@@ -307,7 +334,9 @@
         n: row.n,
         last: row.last,
         due: row.due,
-        ok: row.ok || 0
+        ok: row.ok || 0,
+        why: row.why || '',
+        fix: row.fix || ''
       };
     });
   }
@@ -451,6 +480,7 @@
     PLAN_LISTENING: PLAN_LISTENING,
     MISS_SOURCES: MISS_SOURCES,
     MISS_LABEL: MISS_LABEL,
+    MISS_NOTE_MAX: MISS_NOTE_MAX,
     addDays: addDays,
     missKey: missKey,
     missGap: missGap,

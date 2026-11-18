@@ -250,7 +250,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(index, /id="tab-grammar"/);
   assert.match(index, /data-t="progress"/);
   assert.match(app, /今日学习/);
-  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'study-plan.js', 'study-plan-ui.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
+  for (const file of ['style.css', 'words.js', 'synonyms.js', 'pte.js', 'pte-rs.js', 'pte-read.js', 'pte-logic.js', 'pte-write-eval.js', 'pte-speak-eval.js', 'pte-we.js', 'pte-sst.js', 'pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'study-plan.js', 'study-plan-ui.js', 'grammar.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'pte-app.js', 'pte-we-ui.js', 'pte-sst-ui.js', 'pte-speak-ui.js', 'study-ui.js', 'grammar-ui.js', 'app.js', 'drive.js']) {
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
   assert.equal(index.includes('?v=' + previous), false);
@@ -261,7 +261,7 @@ test('version bump keeps the PTE files, the new practice modules and the existin
   assert.match(sw, new RegExp('synonyms\\.js\\?v=' + version));
   assert.match(sw, new RegExp('grammar\\.js\\?v=' + version));
   assert.match(sw, new RegExp('study-plan\\.js\\?v=' + version));
-  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'pte-speak-ui.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'study-plan-ui.js']) {
+  for (const file of ['pte-ra.js', 'pte-di.js', 'pte-swt.js', 'pte-templates.js', 'pte-speak-ui.js', 'pte-write-eval.js', 'pte-speak-eval.js', 'voice-check.js', 'pte-spelling.js', 'pte-sgd.js', 'study-plan-ui.js']) {
     assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
     assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
   }
@@ -632,7 +632,7 @@ test('old saves without a mistake book initialise and keep the rest of the progr
   const overview = Plan.missOverview(S, '2024-06-10');
   assert.equal(overview.total, 0);
   assert.equal(overview.due, 0);
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0, spell: 0, sgd: 0 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 0, wfd: 0, rs: 0, ra: 0, swt: 0, spell: 0, sgd: 0, write: 0, speak: 0 }));
   assert.equal(Plan.missingToday(S, '2024-06-10').length, 0);
   // A non-object field is replaced; a broken row is dropped; valid rows survive.
   S.miss = 'oops';
@@ -715,7 +715,7 @@ test('mistake book overview counts every source and only lists what is due', () 
   Plan.missRecord(S, Plan.missKey('swt', 's1'), day);
   Plan.missRecord(S, Plan.missKey('wfd', 'future'), '2024-06-10');
   const overview = Plan.missOverview(S, '2024-06-10');
-  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1, spell: 0, sgd: 0 }));
+  assert.equal(JSON.stringify(overview.groups), JSON.stringify({ quiz: 2, wfd: 2, rs: 1, ra: 1, swt: 1, spell: 0, sgd: 0, write: 0, speak: 0 }));
   assert.equal(overview.total, 7);
   assert.equal(overview.due, 6);
   assert.equal(overview.dueRows.some(row => row.id === 'future'), false);
@@ -1055,7 +1055,7 @@ test('v46 wires the skeleton panels and the SGD drill into the PTE tab without t
   assert.match(weUi, /function weSkeleton/);
   assert.match(speakUi, /function swtSkeletonHtml/);
   assert.match(speakUi, /function diSkeletonHtml/);
-  assert.match(plan, /'sgd'\]/);
+  assert.match(plan, /'sgd', 'write', 'speak'\]/);
   assert.match(plan, /sgd: 'SGD'/);
   assert.match(shell, /source==='sgd'/);
   // The v45 spelling module and its mistake-book source must still be there.
@@ -1200,7 +1200,7 @@ test('the Progress plan cards render both tables collapsed and open on demand', 
   assert.equal((openBoth.match(/class="plan-body" id="plan-body-(?:joel|listen)">/g) || []).length, 2, 'both can be open');
 });
 
-test('v48 wires the plan cards into Progress without disturbing the other tabs', () => {
+test('v49 wires the plan cards into Progress without disturbing the other tabs', () => {
   const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
   const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
@@ -1208,10 +1208,10 @@ test('v48 wires the plan cards into Progress without disturbing the other tabs',
   const ui = fs.readFileSync(path.join(root, 'study-plan-ui.js'), 'utf8');
   const css = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
   const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
-  assert.equal(Number(version), 48, 'this change lands as v48');
-  assert.match(index, /study-plan-ui\.js\?v=48/);
-  assert.match(sw, /study-plan-ui\.js\?v=48/);
-  assert.match(sw, /const C='ep-v48'/);
+  assert.ok(Number(version) >= 49, 'this change lands as v49');
+  assert.match(index, /study-plan-ui\.js\?v=\d+/);
+  assert.match(sw, /study-plan-ui\.js\?v=\d+/);
+  assert.match(sw, /const C='ep-v\d+'/);
   assert.match(plan, /PLAN_JOEL: PLAN_JOEL/);
   assert.match(plan, /PLAN_LISTENING: PLAN_LISTENING/);
   assert.match(ui, /data-plan-toggle/);
@@ -1836,4 +1836,251 @@ test('CI runs the node test file on every push and pull request', () => {
   const body = lines.filter(line => !/^\s*#/.test(line)).join('\n');
   assert.equal(/npm (install|ci)/.test(body), false);
   assert.equal(body.includes('package.json'), false);
+});
+
+// --- v49 writing self-check (pte-write-eval.js) -----------------------------
+function writeEvalContext() {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-write-eval.js'), 'utf8'), context);
+  return context.PTEWriteEval;
+}
+
+test('writing self-check counts words, sentences and prompt keywords', () => {
+  const W = writeEvalContext();
+  assert.deepEqual(Array.from(W.sentences('One. Two! Three?')), ['One', 'Two', 'Three']);
+  assert.deepEqual(Array.from(W.sentences('')), []);
+  assert.deepEqual(Array.from(W.words("Don't stop, please.")), ["don't", 'stop', 'please']);
+  const stats = W.stats('One two three. Four five six!');
+  assert.equal(stats.words, 6);
+  assert.equal(stats.sentences, 2);
+  assert.equal(stats.avg, 3);
+  assert.equal(stats.longest, 3);
+  assert.equal(stats.commas, 0);
+  const keys = W.keywords('Some people prefer to live in cities, while others prefer the countryside. What is your opinion?');
+  for (const word of ['people', 'prefer', 'live', 'cities', 'countryside']) assert.ok(keys.includes(word), 'keyword ' + word);
+  for (const word of ['what', 'your', 'opinion', 'while', 'others']) assert.equal(keys.includes(word), false, 'stop/frame word ' + word);
+  // Plural tolerance only: "students" counts for "student"; no fuzzy stemming.
+  const cov = W.coverage('Every student needs a library.', 'Students need libraries.');
+  assert.equal(cov.total, 3);
+  assert.ok(cov.hit.includes('students'), 'plural tolerance');
+  assert.equal(cov.hit.includes('libraries'), false, 'no stemming');
+  const conn = W.connectives('However, students study. Therefore they pass.');
+  assert.equal(conn.count, 2);
+  assert.deepEqual(Array.from(conn.list), ['however', 'therefore']);
+});
+
+test('writing self-check flags deductions and grades content, structure and language', () => {
+  const W = writeEvalContext();
+  const plain = 'Technology is important. It helps people work faster. People use it every day.';
+  const ids = W.issues(plain, 'we').map(row => row.id);
+  assert.ok(ids.includes('stance'), 'no stance sentence in the opening paragraph');
+  assert.ok(ids.includes('sentences'), 'fewer than four sentences');
+  assert.ok(ids.includes('connective'), 'no connective');
+  assert.ok(ids.includes('short'), 'average sentence too short');
+  const twoSentences = W.issues('The lecture discusses cities. It says buses are cleaner.', 'swt').map(row => row.id);
+  assert.ok(twoSentences.includes('single'), 'SWT must be one sentence');
+  const eighty = new Array(81).join('word ');
+  assert.ok(W.issues(eighty, 'swt').map(row => row.id).includes('words'), 'over 75 words');
+  const longReport = W.report(eighty, 'cities transport', 'swt');
+  assert.equal(longReport.tiers.content, 2, 'word-count failure caps content at 2');
+  assert.equal(longReport.trigger, true);
+  assert.ok(longReport.why.includes('内容 2/5'));
+  assert.equal(typeof longReport.fix, 'string');
+  assert.ok(longReport.fix.length > 0);
+  // A strong SWT answer: one sentence, comma, connectives, every keyword covered.
+  const strong = W.report(
+    'Although the lecture mainly discusses urban transport, it points out that cities need cleaner buses because pollution harms residents, and therefore governments should invest in public transport.',
+    'urban transport cities cleaner buses pollution residents governments public transport',
+    'swt'
+  );
+  assert.equal(strong.stats.sentences, 1);
+  assert.equal(strong.coverage.percent, 100);
+  assert.deepEqual(JSON.parse(JSON.stringify(strong.tiers)), { content: 5, structure: 5, language: 5, overall: 5 });
+  assert.equal(strong.trigger, false);
+  // Grade maths is explicit, clamped at 1, and the overall mark is the weakest axis.
+  const grade = (words, percent, issueIds) => W.grade({
+    stats: { words: words }, coverage: { percent: percent }, issues: issueIds.map(id => ({ id: id }))
+  }, 'we');
+  assert.equal(grade(250, 90, []).content, 5);
+  assert.equal(grade(250, 80, []).content, 5);
+  assert.equal(grade(250, 79, []).content, 4);
+  assert.equal(grade(250, 50, []).content, 4);
+  assert.equal(grade(250, 49, []).content, 3);
+  assert.equal(grade(250, 30, []).content, 3);
+  assert.equal(grade(250, 29, []).content, 2);
+  assert.equal(grade(250, 15, []).content, 2);
+  assert.equal(grade(250, 14, []).content, 1);
+  assert.equal(grade(150, 90, []).content, 2);
+  assert.equal(grade(250, 90, ['comma', 'repeat', 'contraction']).language, 2);
+  assert.equal(grade(250, 90, ['stance', 'connective']).structure, 3);
+  assert.equal(grade(250, 90, ['stance', 'connective', 'sentences', 'short', 'single']).structure, 1);
+  assert.equal(grade(250, 90, ['comma', 'repeat', 'contraction', 'long']).language, 1);
+});
+
+// --- v49 speaking comparison (pte-speak-eval.js) ---------------------------
+function speakEvalContext() {
+  const context = { console };
+  vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'pte-speak-eval.js'), 'utf8'), context);
+  return context.PTESpeakEval;
+}
+
+test('speaking comparison aligns words and lists missing and extra words', () => {
+  const E = speakEvalContext();
+  assert.deepEqual(Array.from(E.tokens("Don't stop, please!")), ["don't", 'stop', 'please']);
+  const same = E.compare('The library opens at eight.', 'The library opens at eight.');
+  assert.equal(same.coverage, 100);
+  assert.deepEqual(Array.from(same.missing), []);
+  assert.deepEqual(Array.from(same.extra), []);
+  const spelled = E.compare('The library opens at eight.', 'The library opens at 8.');
+  assert.equal(spelled.coverage, 80);
+  assert.deepEqual(Array.from(spelled.missing), ['eight']);
+  assert.deepEqual(Array.from(spelled.extra), ['8']);
+  assert.equal(spelled.tokens.filter(token => token.t === 'ok').length, 4);
+  const best = E.bestAlternative('one two three four', [{ t: 'one two' }, { t: 'one two three four' }, { t: 'one' }]);
+  assert.equal(best.t, 'one two three four');
+  assert.equal(E.bestAlternative('one two', []), null);
+  assert.deepEqual(Array.from(E.order('A B C', 'B A C').sequence), [1, 0, 2]);
+  assert.equal(E.order('A B C', 'B A C').inversions, 1);
+  assert.equal(E.order('A B C', 'A B C').inversions, 0);
+});
+
+test('speaking tiers and RS order/segmentation hints follow the thresholds', () => {
+  const E = speakEvalContext();
+  const tier = (coverage, extra, heard, target) => E.grade({
+    coverage: coverage, extra: new Array(extra).fill('x'), heardWords: heard, targetWords: target
+  });
+  assert.equal(tier(90, 0, 100, 100).content, 5);
+  assert.equal(tier(89, 0, 100, 100).content, 4);
+  assert.equal(tier(75, 0, 100, 100).content, 4);
+  assert.equal(tier(74, 0, 100, 100).content, 3);
+  assert.equal(tier(60, 0, 100, 100).content, 3);
+  assert.equal(tier(59, 0, 100, 100).content, 2);
+  assert.equal(tier(40, 0, 100, 100).content, 2);
+  assert.equal(tier(39, 0, 100, 100).content, 1);
+  assert.equal(tier(100, 0, 100, 100).accuracy, 5);
+  assert.equal(tier(100, 2, 100, 100).accuracy, 4);
+  assert.equal(tier(100, 5, 100, 100).accuracy, 2);
+  assert.equal(tier(100, 8, 100, 100).accuracy, 1);
+  assert.equal(tier(100, 0, 95, 100).completeness, 5);
+  assert.equal(tier(100, 0, 79, 100).completeness, 3);
+  assert.equal(tier(100, 0, 44, 100).completeness, 1);
+  const reordered = E.hints('The library opens at eight in the morning', 'in the morning the library opens at eight', 'rs');
+  assert.ok(reordered.some(hint => hint.indexOf('语序') === 0), 'RS order hint');
+  assert.ok(reordered.some(hint => hint.indexOf('断句') === 0), 'RS segmentation hint');
+  const low = E.hints('One two three four five six seven eight', 'one two', 'rs');
+  assert.ok(low.some(hint => hint.indexOf('断句') === 0), 'low coverage segmentation hint');
+  const ra = E.hints('The library opens at eight.', 'The library opens at 8.', 'ra');
+  assert.ok(ra.some(hint => hint.indexOf('多读') === 0));
+  assert.ok(ra.some(hint => hint.indexOf('漏读') === 0));
+  const weak = E.report('one two three four five', 'one two three', 'ra');
+  assert.equal(weak.coverage, 60);
+  assert.equal(weak.tiers.content, 3);
+  assert.equal(weak.trigger, true);
+  assert.ok(weak.why.includes('覆盖 60%'));
+  assert.equal(typeof weak.fix, 'string');
+  assert.ok(weak.fix.length > 0);
+  const strong = E.report('one two three four five', 'one two three four five', 'ra');
+  assert.equal(strong.coverage, 100);
+  assert.equal(strong.trigger, false);
+  for (const bad of ['', null, undefined, 42]) {
+    assert.doesNotThrow(() => E.report(bad, bad, 'unknown'));
+  }
+});
+
+// --- v49 mistake-book notes and the two new auto-eval sources --------------
+test('writing and speaking auto-grades store why/fix with the mistake row', () => {
+  const Plan = planContext();
+  const S = { days: {}, learned: [] };
+  const day = '2024-06-10';
+  assert.ok(Array.from(Plan.MISS_SOURCES).includes('write'));
+  assert.ok(Array.from(Plan.MISS_SOURCES).includes('speak'));
+  assert.equal(Plan.MISS_LABEL.write, '写作');
+  assert.equal(Plan.MISS_LABEL.speak, '口语');
+  const first = Plan.missRecord(S, Plan.missKey('write', 'swt-100200'), day, {
+    why: '内容 3/5 · 结构 4/5 · 语言 5/5；关键词覆盖 40%',
+    fix: '把题干关键词写进第一句。'
+  });
+  assert.equal(first.why, '内容 3/5 · 结构 4/5 · 语言 5/5；关键词覆盖 40%');
+  assert.equal(S.miss['write:swt-100200'].why, first.why);
+  assert.equal(S.miss['write:swt-100200'].fix, '把题干关键词写进第一句。');
+  Plan.missRecord(S, Plan.missKey('speak', 'ra-100188'), day, {
+    why: ['内容 3/5', '漏读 5 个词'],
+    fix: '先按意群记前半句。'
+  });
+  assert.equal(S.miss['speak:ra-100188'].why, '内容 3/5；漏读 5 个词');
+  const overview = Plan.missOverview(S, day);
+  assert.equal(overview.groups.write, 1);
+  assert.equal(overview.groups.speak, 1);
+  const writeRow = Plan.missRows(S).find(row => row.key === 'write:swt-100200');
+  assert.equal(writeRow.source, 'write');
+  assert.equal(writeRow.id, 'swt-100200');
+  assert.equal(writeRow.why, first.why);
+  assert.equal(writeRow.fix, '把题干关键词写进第一句。');
+  // A later plain record keeps the old note; a new note replaces it.
+  Plan.missRecord(S, 'write:swt-100200', '2024-06-11');
+  assert.equal(S.miss['write:swt-100200'].why, first.why);
+  assert.equal(S.miss['write:swt-100200'].n, 2);
+  Plan.missRecord(S, 'write:swt-100200', '2024-06-12', { why: '新的失分原因', fix: '新的改进句' });
+  assert.equal(S.miss['write:swt-100200'].why, '新的失分原因');
+  assert.equal(S.miss['write:swt-100200'].fix, '新的改进句');
+  // Wrong types are dropped and overlong notes are capped with an ellipsis.
+  S.miss['write:broken'] = { n: 1, last: day, due: day, ok: 0, why: 42, fix: ['x'] };
+  S.miss['speak:long'] = { n: 1, last: day, due: day, ok: 0, why: 'x'.repeat(400), fix: 'ok' };
+  const clean = Plan.missEnsure(S);
+  assert.equal(clean['write:broken'].why, undefined);
+  assert.equal(clean['write:broken'].fix, undefined);
+  assert.equal(clean['speak:long'].why.length, Plan.MISS_NOTE_MAX);
+  assert.ok(clean['speak:long'].why.endsWith('…'));
+  // Two good runs retire the row as before.
+  assert.equal(Plan.missOk(S, 'write:swt-100200'), 'kept');
+  assert.equal(Plan.missOk(S, 'write:swt-100200'), 'resolved');
+  assert.equal(S.miss['write:swt-100200'], undefined);
+});
+
+test('v49 auto eval is wired locally and falls back instead of erroring', () => {
+  const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  const speakUi = fs.readFileSync(path.join(root, 'pte-speak-ui.js'), 'utf8');
+  const weUi = fs.readFileSync(path.join(root, 'pte-we-ui.js'), 'utf8');
+  const pteApp = fs.readFileSync(path.join(root, 'pte-app.js'), 'utf8');
+  const shell = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+  const plan = fs.readFileSync(path.join(root, 'study-plan.js'), 'utf8');
+  const writeEval = fs.readFileSync(path.join(root, 'pte-write-eval.js'), 'utf8');
+  const speakEval = fs.readFileSync(path.join(root, 'pte-speak-eval.js'), 'utf8');
+  const version = (index.match(/<small\s+id="ver"[^>]*>v(\d+)</) || [])[1];
+  for (const file of ['pte-write-eval.js', 'pte-speak-eval.js']) {
+    assert.match(index, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
+    assert.match(sw, new RegExp(file.replace('.', '\\.') + '\\?v=' + version));
+  }
+  // Writing self-check on SWT and WE.
+  assert.match(speakUi, /data-sp-act="swt-eval"/);
+  assert.match(speakUi, /PTEWriteEval/);
+  assert.match(weUi, /data-we-act="we-eval"/);
+  assert.match(weUi, /pteWriteEval/);
+  // Speaking comparison plus the explicit fallback copy.
+  assert.match(speakUi, /webkitSpeechRecognition/);
+  assert.match(speakUi, /此浏览器不支持自动评级/);
+  assert.match(speakUi, /data-sp-act="ra-eval"/);
+  assert.match(speakUi, /window\.pteRsEval/);
+  assert.match(pteApp, /data-pte-act="rs-eval"/);
+  assert.match(pteApp, /pteRsEval/);
+  assert.match(pteApp, /source === 'write'/);
+  assert.match(pteApp, /source === 'speak'/);
+  // The mistake book shows the two new sources and the note; 去练 routes back.
+  assert.match(plan, /write: '写作'/);
+  assert.match(plan, /speak: '口语'/);
+  assert.match(shell, /row\.why/);
+  assert.match(shell, /失分/);
+  assert.match(shell, /source==='write'/);
+  assert.match(shell, /source==='speak'/);
+  // Red lines: local heuristics + browser recognition only; audio is never saved.
+  for (const text of [speakUi, weUi, pteApp, shell, plan, writeEval, speakEval]) {
+    assert.equal(/fetch\s*\(/.test(text), false, 'no network call');
+    assert.equal(/XMLHttpRequest/.test(text), false, 'no XHR');
+  }
+  for (const text of [speakUi, weUi, writeEval, speakEval]) {
+    assert.equal(/MediaRecorder/.test(text), false, 'auto eval never records audio');
+  }
 });

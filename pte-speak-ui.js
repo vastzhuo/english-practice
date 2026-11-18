@@ -192,6 +192,201 @@ function sourceStats() {
   return `阅读原文暂时没有正文，${fixed} 段全部取自 SST 讲座转写`;
 }
 
+// --- v49 auto evaluation (writing + speaking) -------------------------------
+// Everything here runs in the page: local heuristics + the browser's own speech
+// recognition. No third-party scoring API, no audio upload, no saved recording.
+// The recognized sentence lives on PTE_PLAY (memory) and is gone after reload;
+// what can survive is the mistake-book note (失分原因 + 改进一句), never the audio.
+const REC_ERR = {
+  'not-allowed': '麦克风权限被拒绝：点地址栏左边的锁 → 麦克风 → 允许。',
+  'service-not-allowed': '语音识别服务不可用：请用 Chrome / Edge，并允许麦克风。',
+  'no-speech': '没听到声音：靠近麦克风，听到提示后马上读。',
+  'audio-capture': '找不到麦克风，或被别的应用占用了。',
+  'network': '识别需要联网，当前网络错误，稍后再试。',
+  'aborted': '识别被中断了，再试一次。',
+  'bad-grammar': '识别出错，再试一次。'
+};
+const REC_LANGS = ['en-US', 'en-AU', 'en-GB'];
+function recSupported() {
+  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+}
+window.pteSpeakEvalSupported = recSupported;
+
+function evalKey(kind, id) { return kind + ':' + id; }
+function evalHash(text) {
+  let h = 2166136261;
+  const s = String(text == null ? '' : text);
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return h >>> 0;
+}
+function evalBag(name) {
+  if (!PTE_PLAY[name] || typeof PTE_PLAY[name] !== 'object' || Array.isArray(PTE_PLAY[name])) PTE_PLAY[name] = {};
+  return PTE_PLAY[name];
+}
+function evalTextList(list) {
+  return (Array.isArray(list) ? list : []).map(esc).join(' ');
+}
+// Writing: run the local heuristics, keep the report in memory and — when a tier
+// is below 4 — write one 写作 row with 失分原因 + 改进一句. An identical answer
+// never counts as a second wrong attempt, so clicking 自检 twice is harmless.
+function writeEvalRun(kind, id, text, prompt) {
+  if (typeof PTEWriteEval === 'undefined' || !PTEWriteEval.report) return null;
+  const answer = String(text == null ? '' : text);
+  if (!answer.trim()) return null;
+  const report = PTEWriteEval.report(answer, String(prompt == null ? '' : prompt), kind);
+  evalBag('writeEval')[evalKey(kind, id)] = report;
+  const seen = evalBag('writeSeen');
+  const key = evalKey(kind, id);
+  const hash = evalHash(answer);
+  const same = seen[key] === hash;
+  seen[key] = hash;
+  if (!same && typeof pteMark === 'function') {
+    if (report.trigger) pteMark('write', id, true, { why: report.why, fix: report.fix });
+    else pteMark('write', id, false);
+  }
+  return report;
+}
+function writeEvalHtml(kind, id) {
+  const report = evalBag('writeEval')[evalKey(kind, id)];
+  if (!report) return '';
+  const s = report.stats;
+  const range = kind === 'swt' ? '5–75' : '200–300';
+  const okWords = kind === 'swt' ? (s.words >= 5 && s.words <= 75) : (s.words >= 200 && s.words <= 300);
+  const cov = report.coverage.total ? '关键词覆盖 ' + report.coverage.percent + '%（' + report.coverage.hit.length + '/' + report.coverage.total + '）' : '题干没有可抽的关键词';
+  const issues = (report.issues || []).map(issue => '<li><b>' + esc(issue.label) + '</b>：' + esc(issue.hint) + '</li>').join('');
+  return '<div class="eval-card" data-eval="write"><p class="eval-tag">自动初评 · 本地规则，不上传</p>' +
+    '<p class="eval-line">字数 <b>' + s.words + '</b> 词 · 要求 ' + range + ' · <b>' + (okWords ? '达标' : '不达标') + '</b> · 句数 <b>' + s.sentences + '</b> · 平均句长 <b>' + s.avg + '</b> 词 · 连接词 <b>' + report.connectives.count + '</b> 个 · ' + esc(cov) + '</p>' +
+    '<p class="eval-line">分档：内容 <b>' + report.tiers.content + '/5</b> · 结构 <b>' + report.tiers.structure + '/5</b> · 语言 <b>' + report.tiers.language + '/5</b></p>' +
+    (issues ? '<ul class="eval-issues">' + issues + '</ul>' : '<p class="eval-tip">常见扣分项都没触发。</p>') +
+    '<p class="eval-tip">' + (report.trigger ? '有档位低于 4 分，已自动记入错题本（写作），并带上失分原因和改进一句。' : '三档都在 4 分以上，不会记入错题本。') + '</p></div>';
+}
+window.pteWriteEval = writeEvalRun;
+window.pteWriteEvalHtml = writeEvalHtml;
+
+function speakEvalHtml(kind, id) {
+  const report = evalBag('speakEval')[evalKey(kind, id)];
+  if (!report) return '';
+  const miss = (report.missing || []).length ? evalTextList(report.missing) : '无';
+  const extra = (report.extra || []).length ? evalTextList(report.extra) : '无';
+  const hints = (report.hints || []).map(hint => '<li>' + esc(hint) + '</li>').join('');
+  const t = report.tiers;
+  return '<div class="eval-card" data-eval="speak"><p class="eval-tag">识别比对 · 只在内存，不保存录音</p>' +
+    '<p class="eval-line">内容覆盖 <b>' + report.coverage + '%</b> · 识别 ' + report.heardWords + ' 词 / 原文 ' + report.targetWords + ' 词 · 分档：内容 <b>' + t.content + '/5</b> · 准确 <b>' + t.accuracy + '/5</b> · 完整 <b>' + t.completeness + '/5</b></p>' +
+    '<p class="eval-line">漏读词：<span class="eval-miss">' + miss + '</span></p>' +
+    '<p class="eval-line">多读词：<span class="eval-extra">' + extra + '</span></p>' +
+    (hints ? '<ul class="eval-issues">' + hints + '</ul>' : '') +
+    '<p class="eval-tip">' + (report.trigger ? '内容档低于 4 分，已自动记入错题本（口语），并带上失分原因和改进一句。' : '内容档在 4 分以上，不会记入错题本。') + '</p></div>';
+}
+window.pteSpeakEvalHtml = speakEvalHtml;
+
+// Recognized text never leaves this function's closure except as the in-memory
+// report; the mistake book only receives the short why/fix pair.
+function speakFinish(kind, id, target, alts) {
+  const Eval = (typeof PTESpeakEval !== 'undefined') ? PTESpeakEval : null;
+  if (!Eval) return null;
+  const best = Eval.bestAlternative ? Eval.bestAlternative(target, alts) : (alts && alts[0]);
+  const host = $('pteSpeakEval');
+  if (!best || !String(best.t || '').trim()) {
+    if (host) host.innerHTML = '<p class="pte-warn">没有识别到内容：靠近麦克风、放大声量再试一次。仍可用手动自评。</p>';
+    return null;
+  }
+  const report = Eval.report(target, best.t, kind);
+  evalBag('speakEval')[evalKey(kind, id)] = report;
+  const seen = evalBag('speakSeen');
+  const key = evalKey(kind, id);
+  const hash = evalHash(best.t);
+  const same = seen[key] === hash;
+  seen[key] = hash;
+  if (!same && typeof pteMark === 'function') {
+    if (report.trigger) pteMark('speak', id, true, { why: report.why, fix: report.fix });
+    else pteMark('speak', id, false);
+  }
+  if (typeof save === 'function') save();
+  if (typeof pteRefresh === 'function') pteRefresh(true);
+  return report;
+}
+function speakRun(target, kind, id, btn) {
+  const host = $('pteSpeakEval');
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) {
+    if (host) host.innerHTML = '<p class="pte-warn">此浏览器不支持自动评级（需要 Chrome / Edge 的语音识别）。仍可用手动自评。</p>';
+    return;
+  }
+  let lang = 0, finals = null, interim = '', done = false;
+  const resetBtn = () => { if (btn) { btn.disabled = false; btn.textContent = '🎤 自动评级'; } };
+  const rec = new SR();
+  rec.lang = REC_LANGS[lang];
+  rec.interimResults = true;
+  rec.maxAlternatives = 3;
+  rec.continuous = false;
+  if (btn) { btn.disabled = true; btn.textContent = '🎤 正在听…'; }
+  if (host) host.innerHTML = '<p class="eval-tip">正在听：把这段读出来，识别完自动比对。</p>';
+  rec.onresult = event => {
+    // One event can carry several final segments. Score all of them and keep the
+    // best coverage, instead of letting the last segment overwrite the earlier one.
+    const collected = [];
+    interim = '';
+    for (let i = 0; i < event.results.length; i++) {
+      const result = event.results[i];
+      if (result.isFinal) {
+        const speaker = result[0];
+        if (speaker && String(speaker.transcript || '').trim()) collected.push({ t: speaker.transcript, c: speaker.confidence });
+      } else {
+        interim += result[0].transcript;
+      }
+    }
+    if (collected.length) {
+      const merged = (finals || []).slice();
+      collected.forEach(row => {
+        if (!merged.some(item => item.t === row.t)) merged.push(row);
+      });
+      finals = merged;
+    }
+    const live = $('pteSpeakEval');
+    if (live && interim) live.innerHTML = '<p class="eval-tip">听到：' + esc(interim) + '（还没说完）</p>';
+    if (finals && finals.length) { try { rec.stop(); } catch (err) {} }
+  };
+  rec.onerror = event => {
+    const code = event && event.error;
+    if (code === 'language-not-supported' && lang < REC_LANGS.length - 1) {
+      lang += 1;
+      try { rec.lang = REC_LANGS[lang]; rec.start(); } catch (err) {}
+      return;
+    }
+    if (finals && finals.length) { done = true; speakFinish(kind, id, target, finals); return; }
+    if (interim) { done = true; speakFinish(kind, id, target, [{ t: interim, c: 0 }]); return; }
+    // Keep the specific message: a later onend must not overwrite it with the
+    // generic "nothing recognized" copy.
+    done = true;
+    if (host) host.innerHTML = '<p class="pte-warn">' + esc(REC_ERR[code] || ('识别出错：' + code)) + ' 仍可用手动自评。</p>';
+    resetBtn();
+  };
+  rec.onend = () => {
+    if (done) return;
+    done = true;
+    let report = null;
+    if (finals && finals.length) report = speakFinish(kind, id, target, finals);
+    else if (interim) report = speakFinish(kind, id, target, [{ t: interim, c: 0 }]);
+    if (report) return;
+    if (host) host.innerHTML = '<p class="pte-warn">没有识别到内容：靠近麦克风再试一次。仍可用手动自评。</p>';
+    resetBtn();
+  };
+  try { rec.start(); } catch (err) {
+    if (host) host.innerHTML = '<p class="pte-warn">无法启动语音识别：' + esc(err && err.message ? err.message : '浏览器拒绝') + '。仍可用手动自评。</p>';
+    resetBtn();
+  }
+}
+window.pteRsEval = function (item, btn) {
+  if (!item) return;
+  speakRun(item.text, 'rs', item.id, btn);
+};
+function raEvalCard(item) {
+  if (!recSupported()) {
+    return '<div class="card"><b>自动初评（口语）</b><p class="pte-warn">此浏览器不支持自动评级（需要 Chrome / Edge 的语音识别）。可以继续用下面的三档自评。</p></div>';
+  }
+  return '<div class="card"><b>自动初评（口语）</b><p class="pte-tip">点一下开始识别。识别只在本页内存里做词级比对，不保存录音、不上传；换页即丢。</p><button type="button" class="btn alt" data-sp-act="ra-eval" data-id="' + esc(item.id) + '">🎤 自动评级</button><div id="pteSpeakEval">' + speakEvalHtml('ra', item.id) + '</div></div>';
+}
+
 // --- Read Aloud -------------------------------------------------------------
 
 function raView(st) {
@@ -216,7 +411,7 @@ function raView(st) {
     body = `<button type="button" class="btn" data-sp-act="ra-go" data-phase="prep">开始（${PTELogic.RA_PREP_SEC} 秒准备）</button><p class="pte-tip">步骤：准备倒计时 → 朗读计时 → 听 TTS 范读 → 自评 → 下一段。</p>`;
   }
   const done = bag.done[item.id];
-  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('ra') : ''}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.raIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.sourceKind || '')} · 约 ${item.words} 词</div><h2>${esc(item.title)}</h2><p class="pte-badge">${esc(item.note)}</p><p class="pte-sent" lang="en" style="font-size:1.12rem;line-height:1.7">${esc(item.text)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="ra" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div><div class="card">${body}</div>`;
+  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('ra') : ''}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.raIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.sourceKind || '')} · 约 ${item.words} 词</div><h2>${esc(item.title)}</h2><p class="pte-badge">${esc(item.note)}</p><p class="pte-sent" lang="en" style="font-size:1.12rem;line-height:1.7">${esc(item.text)}</p><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="ra" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div><div class="card">${body}</div>${raEvalCard(item)}`;
 }
 
 // --- Describe Image ---------------------------------------------------------
@@ -329,7 +524,8 @@ function swtView(st) {
   const timer = `<p id="pteSpClock" class="pte-clock">${esc(spClock(left))}</p><button type="button" class="btn" data-sp-act="swt-start">${running || left < PTELogic.SWT_SEC ? '重新计时 10 分钟' : '开始 10 分钟'}</button>${running ? '<button type="button" class="btn alt" data-sp-act="swt-pause">暂停</button>' : `<button type="button" class="btn alt" data-sp-act="swt-resume" ${left <= 0 ? 'disabled' : ''}>继续</button>`}<button type="button" class="btn alt" data-sp-act="swt-reset">归零</button>`;
   const done = bag.done[item.id];
   const compare = submitted ? `<div class="card"><b>对照参考答案</b><p class="pte-tip">近似对照：只比词形重合，不做语义评分，重合率低不代表内容错。</p><p lang="en">${esc(item.ref || '')}</p><p class="pte-badge">${esc(item.note)}</p>${typeof diffBlock === 'function' ? diffBlock(item.ref || '', answer) : ''}</div><div class="card"><p class="pte-tip">自评只看这三件事。</p>${selfRows('swt', item.id, SWT_SELF)}${nextButton('swt', '下一篇')}</div>` : '';
-  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('swt') : ''}${swtSkeletonHtml()}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button><button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
+  const evalBox = `<p><button type="button" class="btn alt" data-sp-act="swt-eval" data-id="${esc(item.id)}" ${answer.trim() ? '' : 'disabled'}>自检</button></p><div id="pteSwtEval">${writeEvalHtml('swt', item.id)}</div>`;
+  return `${head}${typeof pteFocusNote === 'function' ? pteFocusNote('swt') : ''}${swtSkeletonHtml()}${sourceBlock}<div class="card"><div class="pte-kicker">第 ${PTE_PLAY.swtIdx + 1}/${bank.length} · 题号 ${esc(item.sourceId)} · ${esc(item.title)}</div>${timer}</div><div class="card"><b>写一句 5–75 词的英文总结</b><p id="pteSwtCount" class="pte-count ${fit}">${esc(swtCountLabel(answer))}</p><p id="pteSwtWarn" class="pte-warn" ${fit === 'ok' ? 'hidden' : ''}>${esc(swtWarnText(answer))}</p><textarea class="pte-box" data-sp-answer="${esc(item.id)}" style="min-height:140px" placeholder="One sentence only. 5–75 words.">${esc(answer)}</textarea><button type="button" class="btn" id="pteSwtSubmit" data-sp-act="swt-submit" ${fit === 'ok' ? '' : 'disabled'}>提交并对照</button>${evalBox}<button type="button" class="btn ${done ? 'done' : 'alt'}" data-sp-act="done" data-mode="swt" data-id="${esc(item.id)}">${done ? '✓ 已完成' : '标为完成'}</button></div>${compare}`;
 }
 
 window.pteRaView = raView;
@@ -352,6 +548,23 @@ function onSpeakClick(e) {
     return;
   }
   if (act === 'ra-go') { raGo(b.dataset.phase); return; }
+  if (act === 'ra-eval') {
+    const item = raCurrent(st);
+    if (item) speakRun(item.text, 'ra', item.id, b);
+    return;
+  }
+  if (act === 'swt-eval') {
+    const bag = speakBag(st, 'swt');
+    const item = swtCurrent(st);
+    if (!item) return;
+    const answer = typeof bag.answers[item.id] === 'string' ? bag.answers[item.id] : '';
+    const src = swtSource(item.sourceId);
+    const passage = src && src.transcript ? String(src.transcript).trim() : String(item.ref || '');
+    if (!writeEvalRun('swt', item.id, answer, passage)) return;
+    if (typeof save === 'function') save();
+    pteRefresh(true);
+    return;
+  }
   if (act === 'di-go') { diGo(b.dataset.phase); return; }
   if (act === 'say') {
     if (typeof VoiceCheck !== 'undefined' && !VoiceCheck.englishOk()) { VoiceCheck.notice(VoiceCheck.statusMessage(VoiceCheck.status())); return; }
