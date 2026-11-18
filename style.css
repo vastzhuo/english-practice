@@ -194,3 +194,14 @@ textarea.study-box{min-height:140px}
 .plan-round{margin:8px 0}
 .plan-round b{font-size:.85rem;color:#3730a3}
 .plan-round ol{margin:4px 0 0;padding-left:18px;font-size:.82rem;line-height:1.55;color:#334155}
+
+/* v49 auto evaluation: writing (SWT/WE) and speaking (RA/RS) report panels. */
+.eval-card{margin-top:12px;border:1px solid #c7d2fe;border-radius:12px;padding:10px 12px;background:#f8faff}
+.eval-tag{margin:0 0 6px;font-size:.74rem;font-weight:800;letter-spacing:.02em;color:#4f46e5}
+.eval-line{margin:4px 0;font-size:.88rem;line-height:1.5;color:#334155}
+.eval-line b{color:#111827}
+.eval-issues{margin:8px 0 0;padding-left:18px;font-size:.85rem;line-height:1.55;color:#334155}
+.eval-issues b{color:#b91c1c}
+.eval-miss{color:#b91c1c;font-weight:600;overflow-wrap:anywhere}
+.eval-extra{color:#b45309;font-weight:600;overflow-wrap:anywhere}
+.eval-tip{margin:8px 0 0;font-size:.8rem;line-height:1.45;color:#64748b}

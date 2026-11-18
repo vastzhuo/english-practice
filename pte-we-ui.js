@@ -132,7 +132,8 @@ function weEssay(st) {
   const checks = [['stance', '立场句清楚'], ['connectives', '连接词有没有重复'], ['sv', '主谓一致'], ['plural', '单复数'], ['tense', '时态']];
   const boxes = checks.map(pair => `<button type="button" class="btn ${note.checks[pair[0]] ? 'done' : 'alt'}" data-we-act="check" data-id="${esc(q.id)}" data-check="${pair[0]}">${note.checks[pair[0]] ? '✓ ' : ''}${pair[1]}</button>`).join('');
   const opts = PTE_WE.questions.map(item => `<option value="${item.id}" ${item.id === q.id ? 'selected' : ''}>${item.day ? '第 ' + item.day + ' 天' : item.id} ${esc(item.zh)}</option>`).join('');
-  return `${weHead(st)}<div class="card"><b>限时成文 20 分钟</b><p>目标 200–300 词。四段：开头 2–3 句，两个主体段，结尾 1–2 句，结尾不加新论点。</p><select id="weEssay" class="sel">${opts}</select><p id="pteWeClock" class="pte-clock">${esc(weClock(PTE_PLAY.weLeft))}</p><button type="button" class="btn" data-we-act="timer" data-sec="1200">开始 20 分钟</button><button type="button" class="btn alt" data-we-act="timer-stop">停止计时</button></div>${weQuestionCard(q, '')}<div class="card"><p id="pteWeCount" class="pte-count ${fit}">${esc(weCountLabel(note.essay))}</p>${weBox(q.id, 'essay', '全文', 'Write 200 to 300 words.', true)}<h3>写完只查这几项</h3>${boxes}</div>`;
+  const evalBox = `<p><button type="button" class="btn alt" data-we-act="we-eval" data-id="${esc(q.id)}" ${note.essay.trim() ? '' : 'disabled'}>自检</button></p><div id="pteWeEval">${typeof window.pteWriteEvalHtml === 'function' ? window.pteWriteEvalHtml('we', q.id) : ''}</div>`;
+  return `${weHead(st)}<div class="card"><b>限时成文 20 分钟</b><p>目标 200–300 词。四段：开头 2–3 句，两个主体段，结尾 1–2 句，结尾不加新论点。</p><select id="weEssay" class="sel">${opts}</select><p id="pteWeClock" class="pte-clock">${esc(weClock(PTE_PLAY.weLeft))}</p><button type="button" class="btn" data-we-act="timer" data-sec="1200">开始 20 分钟</button><button type="button" class="btn alt" data-we-act="timer-stop">停止计时</button></div>${weQuestionCard(q, '')}<div class="card"><p id="pteWeCount" class="pte-count ${fit}">${esc(weCountLabel(note.essay))}</p>${weBox(q.id, 'essay', '全文', 'Write 200 to 300 words.', true)}${evalBox}<h3>写完只查这几项</h3>${boxes}</div>`;
 }
 function weCards(st) {
   const sets = PTE_WE.types.map(type => {
@@ -259,6 +260,15 @@ function onWeClick(e) {
   if (act === 'check') {
     const note = weNote(b.dataset.id);
     note.checks[b.dataset.check] = !note.checks[b.dataset.check];
+    save();
+    pteRefresh(true);
+    return;
+  }
+  if (act === 'we-eval') {
+    const q = weFind(b.dataset.id);
+    if (!q) return;
+    const note = weNote(q.id);
+    if (typeof window.pteWriteEval !== 'function' || !window.pteWriteEval('we', q.id, note.essay, q.en)) return;
     save();
     pteRefresh(true);
     return;
