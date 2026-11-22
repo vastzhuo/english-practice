@@ -2702,6 +2702,156 @@
       { w: 'highlighter', zh: '荧光笔', scene: '颜色鲜艳的半透明笔，在书和笔记上划过重点就亮起来。', tone: '中性', col: 'a yellow highlighter, highlight the text', en: 'Use a highlighter for the key points.', cn: '用荧光笔标出重点。' },
       { w: 'eraser', zh: '橡皮', scene: '擦掉铅笔字的小块，用久了会变黑、掉渣。', tone: '中性', col: 'a pencil eraser, rub out with an eraser', en: 'He rubbed the mistake out with an eraser.', cn: '他用橡皮把写错的地方擦掉。' }
     ]},
+    { line: '这四个病名差别在病灶和性质：abscess 是化脓的包块，allergy 是免疫系统的过敏反应，asthma 是支气管收窄，arthritis 是关节发炎。', items: [
+      { w: 'abscess', zh: '脓肿', scene: '牙龈或皮肤上鼓起一个红肿的包，一按就剧痛，里面已积了脓。', tone: '中性，医学用语', col: 'a dental abscess, drain an abscess', en: 'The dentist found an abscess under the tooth.', cn: '牙医发现那颗牙下面有个脓肿。' },
+      { w: 'allergy', zh: '过敏；过敏症', scene: '春天一出门就打喷嚏流眼泪，或者吃了几颗花生浑身起疹子。', tone: '中性', col: 'a food allergy, an allergy to dust', en: 'She has a serious allergy to nuts.', cn: '她对坚果有严重过敏。' },
+      { w: 'asthma', zh: '哮喘', scene: '夜里或跑完步后胸口发紧、呼吸带着哨音，得靠吸入剂缓过来。', tone: '中性', col: 'childhood asthma, an asthma attack', en: 'His asthma gets worse in cold weather.', cn: '天冷时他的哮喘会加重。' },
+      { w: 'arthritis', zh: '关节炎', scene: '手指和膝盖早起时僵硬发疼，天气一变就疼得更明显。', tone: '中性', col: 'arthritis in the knees, severe arthritis', en: 'Arthritis makes it hard for her to open jars.', cn: '关节炎让她很难拧开罐子。' }
+    ]},
+    { line: '这四样差别在用途：antibiotic 是杀细菌的药，aspirin 是退烧止痛的小药片，bandage 是包伤口的绷带，syringe 是打针用的注射器。', items: [
+      { w: 'antibiotic', zh: '抗生素', scene: '医生开的消炎药，要按天数吃完，不能觉得好些了就停。', tone: '中性，偏正式', col: 'take an antibiotic, a course of antibiotics', en: 'The doctor put him on a course of antibiotics.', cn: '医生给他开了一个疗程的抗生素。' },
+      { w: 'aspirin', zh: '阿司匹林；止痛片', scene: '家里药箱常备的小白药片，头痛发热时吞一片。', tone: '中性', col: 'take an aspirin, a soluble aspirin', en: 'He took an aspirin for his headache.', cn: '他吃了片阿司匹林止头痛。' },
+      { w: 'bandage', zh: '绷带；包扎', scene: '一圈圈缠在扭伤的脚踝或割破的手指上，起固定和止血的作用。', tone: '中性', col: 'a roll of bandage, put a bandage on', en: 'She wrapped a bandage around his ankle.', cn: '她在他脚踝上缠了绷带。' },
+      { w: 'syringe', zh: '注射器；针筒', scene: '一头带细针的塑料筒，抽血和打针都用它，用完丢进专用硬盒。', tone: '中性，医学用语', col: 'a disposable syringe, fill a syringe', en: 'The nurse drew the liquid into a syringe.', cn: '护士把药液抽进注射器。' }
+    ]},
+    { line: '这四个词差别在程度：dizzy 是眼前发转的天旋地转，drowsy 是困得直想合眼，fatigue 是持续缓不过来的疲乏，exhaustion 是彻底耗尽。', items: [
+      { w: 'dizzy', zh: '头晕的；眩晕的', scene: '蹲久了猛地站起来，眼前发黑，屋子像在原地转。', tone: '中性，多作表语', col: 'feel dizzy, dizzy spells', en: 'I felt dizzy when I stood up too quickly.', cn: '起得太快时我觉得头晕。' },
+      { w: 'drowsy', zh: '困倦的；昏昏欲睡的', scene: '吃了感冒药之后眼皮发沉，坐在桌前直想趴下睡一会儿。', tone: '中性偏正式', col: 'feel drowsy, a drowsy feeling', en: 'The medicine made him drowsy all afternoon.', cn: '那药让他整个下午都昏昏欲睡。' },
+      { w: 'fatigue', zh: '疲乏；疲劳', scene: '连着几周加班后那种一直缓不过来的累，睡一觉也不够。', tone: '偏正式', col: 'suffer from fatigue, mental fatigue', en: 'Long shifts left her with constant fatigue.', cn: '长时间的轮班让她一直疲乏。' },
+      { w: 'exhaustion', zh: '精疲力竭；极度疲劳', scene: '爬完一天山路后手脚发软，进门就瘫在椅子上不想动。', tone: '偏正式', col: 'physical exhaustion, collapse from exhaustion', en: 'He fell asleep on the sofa from sheer exhaustion.', cn: '他纯粹因为太累，在沙发上睡着了。' }
+    ]},
+    { line: '这四种头衔差别在管什么：internist 看内科全身的病，oculist 是查眼底的眼科医生，optician 只验光配镜，psychologist 处理情绪和心理。', items: [
+      { w: 'internist', zh: '内科医生', scene: '不拿手术刀，靠问诊和化验判断血压、血糖、内脏这类问题。', tone: '偏正式，医学用语', col: 'see an internist, a general internist', en: 'The internist ordered blood tests for her.', cn: '内科医生给她开了验血。' },
+      { w: 'oculist', zh: '眼科医生', scene: '用亮灯和仪器照眼睛、查眼底、开眼药，眼睛疼或看东西模糊时找他。', tone: '偏正式，旧称', col: 'consult an oculist, an oculist appointment', en: 'The oculist examined her eyes with a bright lamp.', cn: '眼科医生用亮灯检查了她的眼睛。' },
+      { w: 'optician', zh: '验光师；眼镜商', scene: '验光、测度数、调镜框配镜片，不管治病。', tone: '中性', col: 'a qualified optician, see an optician', en: 'The optician adjusted the frame of my glasses.', cn: '验光师帮我调了镜框。' },
+      { w: 'psychologist', zh: '心理学家；心理医生', scene: '和人聊天、做问卷、教放松的方法，帮人处理焦虑和失眠。', tone: '中性，偏正式', col: 'a clinical psychologist, see a psychologist', en: 'The psychologist taught her ways to manage stress.', cn: '心理医生教了她缓解压力的方法。' }
+    ]},
+    { line: '柜面这四样差别在角色和材料：cashier 收钱结账，teller 办存取款，signature 是手写签名，documentation 是一整套证明材料。', items: [
+      { w: 'cashier', zh: '收银员', scene: '超市出口站在收银台后扫码收款、找零的那个人。', tone: '中性', col: 'a supermarket cashier, pay the cashier', en: 'The cashier scanned my items and gave me the change.', cn: '收银员扫了我的东西并找给我零钱。' },
+      { w: 'teller', zh: '出纳员；柜员', scene: '柜台后面接过你的单子和卡，帮你存款、取款、换零钱的工作人员。', tone: '中性，美式常用', col: 'the teller window, ask the teller', en: 'The teller counted the notes twice before handing them over.', cn: '柜员把钞票数了两遍才递过来。' },
+      { w: 'signature', zh: '签名；签字', scene: '在表格底部签上自己的名字，笔迹要和当初留的那份一致。', tone: '中性', col: 'put your signature here, a forged signature', en: 'Please put your signature at the bottom of the form.', cn: '请在表格底部签名。' },
+      { w: 'documentation', zh: '证明文件；文件材料', scene: '办手续时递过去的一整套材料，合同、账单和身份证明都算。', tone: '偏正式', col: 'supporting documentation, complete documentation', en: 'Bring all the documentation to the appointment.', cn: '赴约时把所有证明材料都带上。' }
+    ]},
+    { line: '这四件事差别在先后和动作：open an account 是开户，activate a card 是开卡启用，withdraw money 是取现金，cash the check 是把支票换成钱。', items: [
+      { w: 'open an account', zh: '开户', scene: '带好身份证件到柜台填表、留签名，当场拿到账号和一张卡。', tone: '中性', col: 'open an account online, open a savings account', en: 'He wants to open an account this week.', cn: '他想这周开一个账户。' },
+      { w: 'activate a card', zh: '激活银行卡', scene: '新卡寄到后先设密码、点一下启用，才能刷卡取钱。', tone: '中性', col: 'activate a card online, activate your new card', en: 'You need to activate a card before you use it.', cn: '用卡之前你需要先激活。' },
+      { w: 'withdraw money', zh: '取钱；取款', scene: '在机器上插卡输密码，选好金额，拿走现金和一张凭条。', tone: '中性', col: 'withdraw money from an ATM, withdraw cash', en: 'I need to withdraw money before the shops close.', cn: '我得在店铺关门前取点钱。' },
+      { w: 'cash the check', zh: '兑现支票', scene: '拿一张写好的支票到柜台，换成现金或直接存进账户。', tone: '中性，美式拼写', col: 'cash the check at the counter, cash a cheque', en: 'Can I cash the check here today?', cn: '我今天能在这里把这张支票兑现吗？' }
+    ]},
+    { line: '指路四要素差别在作用：detour 是临时绕行的一段路，milestone 是里程标记，signpost 是岔路口的指路牌，landmark 是远处就能认出的地标。', items: [
+      { w: 'detour', zh: '绕行；绕道', scene: '前方封路施工，车流被引到旁边的小路上多走一段。', tone: '中性', col: 'take a detour, a detour sign', en: 'Road works forced us to take a detour.', cn: '施工让我们不得不绕行。' },
+      { w: 'milestone', zh: '里程碑；里程标', scene: '路边写着距离的石柱，也比喻进展里值得记住的一步。', tone: '中性', col: 'a milestone marker, reach a milestone', en: 'We stopped beside a milestone that read ten miles.', cn: '我们在一个写着十英里的里程碑旁停下。' },
+      { w: 'signpost', zh: '路标；指路牌', scene: '岔路口竖的牌子，几个箭头分别指出各个方向通往哪里。', tone: '中性', col: 'a wooden signpost, follow the signpost', en: 'The signpost pointed left for the car park.', cn: '路标指向左边是停车场。' },
+      { w: 'landmark', zh: '地标；陆标', scene: '远远就能看见的高塔或尖顶，用来判断自己走到了哪里。', tone: '中性', col: 'a famous landmark, use it as a landmark', en: 'The tower is a useful landmark when you get lost.', cn: '迷路时那座塔是很有用的地标。' }
+    ]},
+    { line: '这四种说法差别在指哪一盏：red light 是红灯要停，green light 是绿灯可行，amber light 是黄灯准备停，traffic light 是整套信号灯。', items: [
+      { w: 'red light', zh: '红灯', scene: '路口亮起红光，车轮和脚都得停在白线后面。', tone: '中性', col: 'run a red light, stop at the red light', en: 'Do not cross on a red light.', cn: '红灯时不要过马路。' },
+      { w: 'green light', zh: '绿灯', scene: '光一变绿，行人快步走过斑马线，车流开始往前动。', tone: '中性', col: 'wait for the green light, give the green light', en: 'Turn left only when the green light comes on.', cn: '绿灯亮了才能左转。' },
+      { w: 'amber light', zh: '黄灯', scene: '夹在红绿之间的一盏，提示马上要变红，能停就停下。', tone: '中性，英式说法', col: 'an amber light, slow down at the amber light', en: 'The amber light flashed before the red one.', cn: '红灯之前黄灯闪了一下。' },
+      { w: 'traffic light', zh: '交通信号灯', scene: '挂在路口上方的一整套三色灯，管着各个方向的车和人。', tone: '中性', col: 'at the traffic lights, a set of traffic lights', en: 'Turn right after the traffic lights.', cn: '过了那组信号灯后右转。' }
+    ]},
+    { line: '四个路牌管的事不一样：no entry 是这道口根本不许进，no through traffic 能进但走不到那头，no turns 是不准转左右弯，one way only 只许朝一个方向开。', items: [
+      { w: 'no entry', zh: '禁止驶入；禁止通行', scene: '路口一块红圈白杠的圆牌，车开到跟前只能绕到别的口进去。', tone: '中性，路牌用语', col: 'a no entry sign, no entry to vehicles', en: 'A no entry sign stands at the top of the ramp.', cn: '坡道顶上立着一块禁止驶入的牌子。' },
+      { w: 'no through traffic', zh: '禁止过境通行；此路不通', scene: '巷口竖着牌子，里面的住户能开进去，但走到尽头没有出口。', tone: '中性，路牌用语，偏正式', col: 'a no through traffic sign, marked no through traffic', en: 'The lane is marked no through traffic.', cn: '这条小巷标着禁止过境通行。' },
+      { w: 'no turns', zh: '禁止转弯', scene: '十字路口的牌子上，左转右转的箭头都被一道斜线划掉，只能直着往前。', tone: '中性，路牌用语', col: 'a no turns sign, no turns at the junction', en: 'The sign at the junction says no turns.', cn: '路口那块牌子写着禁止转弯。' },
+      { w: 'one way only', zh: '仅限单向行驶', scene: '窄街两边都停满车，箭头牌只许一个方向走，对面来车就得退。', tone: '中性，路牌用语，偏口语', col: 'a one way only street, one way only after ten', en: 'That narrow street is one way only.', cn: '那条窄街只准单向行驶。' }
+    ]},
+    { line: '三个说位置、一个说动作：directly opposite 是正对着马路对面，be located behind 是在某栋楼的背面，be in the corner of 落在一个场地的角上，cross over 是穿过马路走到另一侧。', items: [
+      { w: 'directly opposite', zh: '正对面', scene: '站在路口抬头，要去的咖啡馆就在马路正对面，中间只隔一条车道。', tone: '中性', col: 'directly opposite the station, sit directly opposite', en: 'The café is directly opposite the station.', cn: '咖啡馆就在车站正对面。' },
+      { w: 'be located behind', zh: '位于……后面', scene: '先找到大厅，再绕过它走到背面，行李寄存处就贴在那面墙下。', tone: '中性，偏书面', col: 'be located behind the hall, located just behind', en: 'The bike racks will be located behind the main hall.', cn: '自行车架会设在主楼大厅后面。' },
+      { w: 'be in the corner of', zh: '在……的角落里', scene: '推开院门，一张桌子摆在院子的角上，两面靠着墙。', tone: '中性', col: 'be in the corner of the yard, a table in the corner of', en: 'The notice board will be in the corner of the yard.', cn: '布告栏会设在院子的一角。' },
+      { w: 'cross over', zh: '穿过；走到对面', scene: '走到斑马线跟前，等灯变绿，再穿过马路到另一侧。', tone: '中性，指路常用', col: 'cross over the road, cross over at the lights', en: 'Cross over the road at the zebra crossing.', cn: '在斑马线处穿过马路。' }
+    ]},
+    { line: '四种说法覆盖不同天气：cloudy 是云厚但没落雨，rainy 是整天在下雨，heat wave 是一连几天热得反常，precipitation 是气象报告里的降水总量。', items: [
+      { w: 'cloudy', zh: '多云的；阴的', scene: '天灰灰的，太阳被云挡住，走一整天也不觉得晒。', tone: '中性', col: 'a cloudy sky, cloudy all day', en: 'It stayed cloudy but we never needed an umbrella.', cn: '天一直是阴的，不过我们没用上伞。' },
+      { w: 'rainy', zh: '下雨的；多雨的', scene: '雨从早下到晚，伞一直没干，鞋也湿透了。', tone: '中性，略偏负面', col: 'a rainy day, the rainy season', en: 'Bring a coat, the afternoon will be rainy.', cn: '带件外套，下午会下雨。' },
+      { w: 'heat wave', zh: '热浪', scene: '连续几天三十几度，夜里也凉不下来，风扇整晚转着。', tone: '中性', col: 'a heat wave, during the heat wave', en: 'The heat wave lasted almost a week.', cn: '热浪持续了将近一周。' },
+      { w: 'precipitation', zh: '降水（量）', scene: '气象报告里说全年降水多少毫米，雨和雪都算在里面。', tone: '偏正式，气象用语', col: 'annual precipitation, heavy precipitation', en: 'Annual precipitation here is under 400 millimetres.', cn: '这里年降水量不到四百毫米。' }
+    ]},
+    { line: '差别在场地和怎么动：hiking 是背着包走山路，boating 是在水面上划船或开船，skating 是踩冰刀或轮子滑，surfing 是抱板下海追浪站起来。', items: [
+      { w: 'hiking', zh: '徒步；远足', scene: '背包里塞着水和面包，沿土路一直往上走，走一整天。', tone: '中性，户外活动名', col: 'go hiking, a hiking trail', en: 'We go hiking in the hills every autumn.', cn: '我们每年秋天都去山里徒步。' },
+      { w: 'boating', zh: '划船；乘船游玩', scene: '周末租一条小船，在湖上慢慢划一个下午，靠岸时人晒黑了。', tone: '中性', col: 'go boating, a boating lake', en: 'They spent the afternoon boating on the lake.', cn: '他们下午在湖上划船。' },
+      { w: 'skating', zh: '滑冰；溜冰', scene: '冬天湖面冻硬了，穿上冰鞋在冰上转圈，摔了也不疼。', tone: '中性', col: 'go ice skating, a skating rink', en: 'The children go skating on the frozen pond.', cn: '孩子们去结冰的池塘上滑冰。' },
+      { w: 'surfing', zh: '冲浪', scene: '抱着板走进海里，等浪推起来，撑起身子站上去滑一段。', tone: '中性', col: 'go surfing, a surfing lesson', en: 'He took a surfing lesson at the coast.', cn: '他在海边上了一节冲浪课。' }
+    ]},
+    { line: '四个项目高度和介质都不同：bungee jumping 从高处系绳往下一跃，rock climbing 是贴着天然岩壁往上爬，scuba diving 背着气瓶潜到水下，bridge climbing 沿着钢铁桥架一步步登顶。', items: [
+      { w: 'bungee jumping', zh: '蹦极', scene: '站在几十米高的台上，脚腕系好绳，数到三就往前一跳。', tone: '中性，偏刺激', col: 'go bungee jumping, a bungee jumping platform', en: 'She tried bungee jumping from the old bridge.', cn: '她从老桥上试了蹦极。' },
+      { w: 'rock climbing', zh: '攀岩', scene: '腰上挂好绳和扣，手脚并用地贴着岩壁找下一个落点。', tone: '中性', col: 'go rock climbing, a rock climbing wall', en: 'Rock climbing needs a helmet and a guide.', cn: '攀岩需要头盔和向导。' },
+      { w: 'scuba diving', zh: '水肺潜水', scene: '背上气瓶戴好面镜，跟着向导沿着礁石一点点往下潜。', tone: '中性，偏专业', col: 'go scuba diving, a scuba diving course', en: 'The scuba diving course starts in the shallow bay.', cn: '水肺潜水课在浅湾里开始。' },
+      { w: 'bridge climbing', zh: '攀桥；登桥', scene: '换上连体服系好安全带，跟着队伍沿桥拱上到最高处看夜景。', tone: '中性', col: 'go bridge climbing, a bridge climbing tour', en: 'Bridge climbing takes four hours and a harness.', cn: '攀桥要四个小时，还得系安全带。' }
+    ]},
+    { line: '四样拿在手里的东西用途不同：souvenir 是花钱买回家送人的纪念品，brochure 是景点门口拿的宣传单页，booklet 是订起来的薄册子，guidebook 是介绍整座城的旅行指南。', items: [
+      { w: 'souvenir', zh: '纪念品', scene: '在出口旁的小摊上挑一个钥匙扣，回去送给朋友当念想。', tone: '中性', col: 'a small souvenir, buy a souvenir', en: 'She bought a small souvenir beside the harbour.', cn: '她在港口边买了个小纪念品。' },
+      { w: 'brochure', zh: '宣传册；折页广告', scene: '进门时随手拿一张折页，上面印着开放时间和小地图。', tone: '中性', col: 'a travel brochure, pick up a brochure', en: 'The brochure lists the opening times of the castle.', cn: '宣传册上列着城堡的开放时间。' },
+      { w: 'booklet', zh: '小册子', scene: '一叠订好的薄册子，几页就把一条步道的看点讲完。', tone: '中性', col: 'a free booklet, a twenty-page booklet', en: 'A free booklet explains the walking route.', cn: '一本免费小册子讲解这条步行路线。' },
+      { w: 'guidebook', zh: '旅行指南', scene: '出门前买一本厚的，里面有街区图、餐馆和大致价格。', tone: '中性', col: 'a pocket guidebook, read the guidebook', en: 'The guidebook has a fold-out map of the old town.', cn: '旅行指南里有一张老城区的折页地图。' }
+    ]},
+    { line: '四种住法的区别在住什么、住哪儿：caravan site 是给房车停放的营地，rainforest lodge 是雨林里的木屋旅舍，farming accommodation 是住在农场里顺手帮着干活，portable tent 是自己背着走、到地方再支的帐篷。', items: [
+      { w: 'caravan site', zh: '房车营地', scene: '一排房车停在草地上，每辆车旁接着水电，尽头有公共淋浴。', tone: '中性，英式', col: 'a caravan site by the river, stay on a caravan site', en: 'The caravan site sits beside the river.', cn: '房车营地在河边。' },
+      { w: 'rainforest lodge', zh: '雨林旅舍', scene: '木屋架在高脚柱上，窗外全是树，早上是被鸟叫醒的。', tone: '中性', col: 'a rainforest lodge, book a rainforest lodge', en: 'The rainforest lodge has only eight rooms.', cn: '雨林旅舍只有八间房。' },
+      { w: 'farming accommodation', zh: '农庄住宿', scene: '住在农场里，早上喂羊捡蛋，晚饭吃的是自家地里种的菜。', tone: '中性', col: 'farming accommodation, offer farming accommodation', en: 'Farming accommodation lets guests help with the animals.', cn: '农庄住宿让客人帮着照料牲畜。' },
+      { w: 'portable tent', zh: '便携帐篷', scene: '背包里塞着折叠帐篷，走到营地就支起来过夜，天亮再收走。', tone: '中性', col: 'a portable tent, pack a portable tent', en: 'We packed a portable tent for the first night.', cn: '我们带了便携帐篷应付第一晚。' }
+    ]},
+    { line: '四家店卖的东西不一样：gift shop 卖纪念品和小礼物，grocery store 卖牛奶面包蔬果这类日常吃食，high-street shop 是主街上那种连锁门店，flower shop 只卖鲜花和花束。', items: [
+      { w: 'gift shop', zh: '礼品店；纪念品店', scene: '出口必经的一家店，货架上全是明信片、磁贴和小玩偶。', tone: '中性', col: 'a gift shop, the museum gift shop', en: 'The gift shop closes at five.', cn: '礼品店五点关门。' },
+      { w: 'grocery store', zh: '杂货店；食品杂货店', scene: '街角一家小店，架子上是牛奶、面包和水果，缺什么随时进去买。', tone: '中性，美式常见', col: 'a local grocery store, at the grocery store', en: 'The grocery store on the corner sells fresh fruit.', cn: '街角的杂货店卖新鲜水果。' },
+      { w: 'high-street shop', zh: '临街商铺；主街店铺', scene: '主街两边一家挨一家，橱窗上贴着打折海报，人流不断。', tone: '中性，英式', col: 'a high-street shop, high-street shops', en: 'The high-street shop sells coats at fixed prices.', cn: '那家主街店铺按固定价格卖外套。' },
+      { w: 'flower shop', zh: '花店', scene: '门口摆着一桶桶玫瑰和百合，进去挑一束让人包好带走。', tone: '中性', col: 'a flower shop, a bunch from the flower shop', en: 'The flower shop delivers bouquets on Saturday.', cn: '花店周六送花束。' }
+    ]},
+    { line: '借书时听到的四种状态：renew 是把手里的书再续一段时间，back issue 是过期的旧期刊，out on loan 是书已被别人借走，for reference only 是只能在馆内看、不许带走。', items: [
+      { w: 'renew', zh: '续借', scene: '借期快到了还没看完，你上网或打电话把它再延长一段，书不用还回去。', tone: '中性，图书馆高频', col: 'renew a book, renew online, a two-week renewal', en: 'I rang the library to renew the book for another week.', cn: '我打电话给图书馆，把书又续借了一周。' },
+      { w: 'back issue', zh: '过期刊物', scene: '上个月的杂志已经挪到角落那摞，架子上只放最新的这一期。', tone: '中性偏书面', col: 'a back issue of a magazine, back issues of the journal', en: 'The article appeared in a back issue of the journal.', cn: '这篇文章登在该刊的一期过刊上。' },
+      { w: 'out on loan', zh: '已借出', scene: '目录显示书就在馆里，可架子上空了，管理员说被别人借走了。', tone: '中性', col: 'be out on loan, the book is out on loan', en: 'The book you want is out on loan until Friday.', cn: '你要的那本书被借出去了，周五才还回来。' },
+      { w: 'for reference only', zh: '仅供参阅', scene: '书脊上贴着红条，能翻能抄，但不能带出这道门。', tone: '中性，规则用语', col: 'for reference only, reference-only copies', en: 'The dictionaries on this shelf are for reference only.', cn: '这一架的词典只能在馆内查阅。' }
+    ]},
+    { line: '四种查资料的东西：fiction 是编出来的小说，bibliography 是书后那串参考书目，micro-film 把旧报纸缩到胶卷上，reference book 是专门用来查一条就走的工作书。', items: [
+      { w: 'fiction', zh: '小说；虚构作品', scene: '书架侧面贴着字母 F，故事和人物都是作者编的，不对应任何真人真事。', tone: '中性', col: 'science fiction, a work of fiction, read fiction', en: 'She reads fiction for an hour before bed.', cn: '她睡前读一小时小说。' },
+      { w: 'bibliography', zh: '参考书目', scene: '论文最后那几页，按字母排开一串书名和年份，交代资料是从哪来的。', tone: '偏正式，学术', col: 'a select bibliography, compile a bibliography', en: 'Add a bibliography at the end of the essay.', cn: '在论文末尾加一份参考书目。' },
+      { w: 'micro-film', zh: '缩微胶卷', scene: '一叠旧报纸被拍成小胶片，放进阅读机放大，字才看得清。', tone: '中性偏正式', col: 'on micro-film, a micro-film reader', en: 'The old newspapers are kept on micro-film.', cn: '旧报纸保存在缩微胶卷上。' },
+      { w: 'reference book', zh: '工具书', scene: '词典、年鉴、手册这一类，从来不从头读，只查需要的那一条。', tone: '中性', col: 'a reference book, the reference books section', en: 'A dictionary is a reference book.', cn: '词典是一种工具书。' }
+    ]},
+    { line: '四个人可能都在同一个校园，差别在关系：classmate 是同班上课，schoolmate 只是同校，roommate 同住一间宿舍，housemate 同住一套房子。', items: [
+      { w: 'classmate', zh: '同班同学', scene: '坐在同一间教室、上同一门课、借同一份笔记的人。', tone: '中性', col: 'a former classmate, my classmate from school', en: 'My classmate lent me her notes.', cn: '同班同学把笔记借给了我。' },
+      { w: 'schoolmate', zh: '校友；同校同学', scene: '同一个校园里待过，但可能不同班、不同年级，走廊上点头而已。', tone: '中性', col: 'an old schoolmate, a schoolmate of mine', en: 'He met an old schoolmate at the reunion.', cn: '他在聚会上遇到一位老同学。' },
+      { w: 'roommate', zh: '室友', scene: '宿舍里睡上下铺或并排两张床，共用一间屋、一盏灯。', tone: '中性', col: 'my roommate, a roommate in the dorm', en: 'My roommate keeps the window open at night.', cn: '我室友晚上总开着窗。' },
+      { w: 'housemate', zh: '合租伙伴', scene: '在校外合租一套房，各有各的卧室，共用厨房、客厅和账单。', tone: '中性偏口语', col: 'share with housemates, my housemates', en: 'We split the bills with our housemates.', cn: '我们和合租的室友分摊账单。' }
+    ]},
+    { line: '都管人管钱，地盘不同：dean 管大学里的一个学院，principal 是中小学的头，headmaster 和 headmistress 是英式私立学校里男女校长。', items: [
+      { w: 'dean', zh: '（大学学院）院长', scene: '大学里一个学院最高的那位，课程、经费、教师考核都经他签字。', tone: '偏正式', col: 'the dean of the faculty, dean of studies', en: 'The dean approved the new timetable.', cn: '院长批准了新的课程表。' },
+      { w: 'principal', zh: '（中小学）校长', scene: '中小学里最大的那位，家长会上台讲话，处理纪律也处理预算。', tone: '中性', col: 'the school principal, the principal’s office', en: 'The principal welcomed the new pupils.', cn: '校长欢迎了新来的小学生。' },
+      { w: 'headmaster', zh: '男校长', scene: '英式私立学校的老说法，指男校长，管纪律，也管宿舍里的事。', tone: '偏正式，英式', col: 'the headmaster of the school, the headmaster’s study', en: 'The headmaster gave a short speech.', cn: '校长做了简短的发言。' },
+      { w: 'headmistress', zh: '女校长', scene: '同样是英式私立学校，这位是女校长，学生当面称她 Madam。', tone: '偏正式，英式', col: 'the headmistress greeted us, the headmistress’s office', en: 'The headmistress greeted each visitor at the door.', cn: '女校长在门口迎接每位来访者。' }
+    ]},
+    { line: '都是 professor，差别在级别和来路：assistant professor 是刚入行的助理教授，associate professor 是升了一级的副教授，guest professor 是被请来讲几场课的客座教授，visiting professor 是带着原职位来待一年的访问教授。', items: [
+      { w: 'assistant professor', zh: '助理教授', scene: '拿到教职的头几年，既上课又赶论文，终身职位还在远处。', tone: '中性偏正式', col: 'an assistant professor of history, promote to assistant professor', en: 'She joined the department as an assistant professor.', cn: '她以助理教授的身份加入了这个系。' },
+      { w: 'associate professor', zh: '副教授', scene: '已经站稳，带学生、拿项目，下一步才去冲正教授。', tone: '中性偏正式', col: 'an associate professor, associate professor of law', en: 'He became an associate professor last year.', cn: '他去年升了副教授。' },
+      { w: 'guest professor', zh: '客座教授', scene: '被请来讲几场讲座或带一门短期课，聘期一到就走。', tone: '中性偏正式', col: 'a guest professor, a guest professor series', en: 'A guest professor gave the opening lecture.', cn: '一位客座教授做了开场讲座。' },
+      { w: 'visiting professor', zh: '访问教授；客座教授', scene: '保留原单位的职位，来这边做一年研究，门牌上要额外写 visiting。', tone: '偏正式', col: 'a visiting professor from abroad, a visiting professorship', en: 'A visiting professor from abroad is giving a seminar.', cn: '一位从国外来的访问教授正在开研讨课。' }
+    ]},
+    { line: '四种身份差别在住哪、算不算学分：boarder 吃住都在校内，auditor 只来听课不考试，non-resident student 走读、宿舍里没有床位，off-campus student 在校外租房自己过。', items: [
+      { w: 'boarder', zh: '住校生', scene: '学费里含住宿和伙食，周一到周五都在校园里，周末才回家。', tone: '中性', col: 'a weekly boarder, full boarders', en: 'The boarders eat dinner in the dining hall.', cn: '住校生在食堂吃晚饭。' },
+      { w: 'auditor', zh: '旁听生', scene: '坐在教室最后一排，听课记笔记，不交作业也不参加考试。', tone: '中性偏正式', col: 'sit in as an auditor, audit a course', en: 'She attended the lecture as an auditor.', cn: '她作为旁听生来上这门课。' },
+      { w: 'non-resident student', zh: '走读生', scene: '每天通勤，宿舍名单上没有名字，饭卡也只能单次买饭。', tone: '中性偏正式', col: 'a non-resident student, non-resident tuition', en: 'Non-resident students pay a lower campus fee.', cn: '走读生交的校园费用更低。' },
+      { w: 'off-campus student', zh: '校外住宿生', scene: '自己在外面租房子，房租、水电、通勤都要算，学校里只负责上课。', tone: '中性', col: 'off-campus housing, an off-campus student', en: 'Off-campus students often cycle to class.', cn: '校外住宿的学生常常骑车来上课。' }
+    ]},
+    { line: '都是课怎么上：presentation 是你站到前面讲给大家听，demonstration 是当场做给大家看，group discussion 是几个人围一桌交换看法，course work 是平时一点点交上来的作业。', items: [
+      { w: 'presentation', zh: '课堂展示；发言演示', scene: '做几张幻灯片，站到前面讲十分钟，讲完还要回答提问。', tone: '中性', col: 'give a presentation, a group presentation', en: 'I have to give a presentation on Friday.', cn: '周五我要做课堂展示。' },
+      { w: 'demonstration', zh: '示范；演示', scene: '老师当场把实验或操作做一遍，边做边解释每一步。', tone: '中性', col: 'a practical demonstration, demonstrate how to', en: 'The tutor gave a demonstration of the experiment.', cn: '导师把这个实验演示了一遍。' },
+      { w: 'group discussion', zh: '小组讨论', scene: '四五个人围坐，给一个题目，各说看法，最后有人汇总。', tone: '中性', col: 'in a group discussion, lead a group discussion', en: 'We spent twenty minutes in group discussion.', cn: '我们花了二十分钟做小组讨论。' },
+      { w: 'course work', zh: '平时作业；课程论文', scene: '一学期陆续交的论文、报告和习题，最后一起算进成绩。', tone: '偏正式', col: 'assessed course work, course work and exams', en: 'Course work counts for half the final mark.', cn: '平时作业占期末成绩的一半。' }
+    ]},
+    { line: '一顿饭的先后：appetizer 是最先上来的一小碟开胃菜，main course 是分量最大的主菜，dessert 是饭后的甜点，refreshment 是中间歇口气的茶点饮料。', items: [
+      { w: 'appetizer', zh: '开胃菜', scene: '菜单最上面那一小碟，量少、偏咸或偏酸，专门让你更饿。', tone: '中性', col: 'a light appetizer, order an appetizer', en: 'We shared a small appetizer before the meal.', cn: '开饭前我们分了一小碟开胃菜。' },
+      { w: 'main course', zh: '主菜', scene: '一顿饭里最大那一道，肉或鱼配主食，吃完基本就饱了。', tone: '中性', col: 'the main course, for the main course', en: 'I chose fish for my main course.', cn: '主菜我点了鱼。' },
+      { w: 'dessert', zh: '甜品', scene: '饭后那一道，蛋糕、冰淇淋或水果，菜单上单独占一页。', tone: '中性', col: 'a dessert menu, have dessert', en: 'We had ice cream for dessert.', cn: '我们拿冰淇淋当甜品。' },
+      { w: 'refreshment', zh: '茶点；提神饮料', scene: '活动中间摆出来的咖啡、茶和小点心，让人歇一下再继续。', tone: '中性偏正式', col: 'light refreshments, refreshments will be served', en: 'Light refreshments will be served after the talk.', cn: '讲座结束后会供应简单茶点。' }
+    ]},
+    { line: '招聘里的四个角色：vacancy 是缺人的那个岗位，opening 是同一件事更笼统的说法，applicant 是投简历来应聘的人，interviewer 是坐着提问的那位。', items: [
+      { w: 'vacancy', zh: '空缺职位', scene: '有人离职，岗位空着，招聘启事上写明职位名和要几个人。', tone: '中性偏正式', col: 'a job vacancy, fill a vacancy', en: 'There is a vacancy for a night porter.', cn: '有一个夜间行李员的空缺职位。' },
+      { w: 'opening', zh: '空缺；职位机会', scene: '招聘广告里说得更含糊，一个岗位也叫 an opening。', tone: '中性', col: 'a job opening, an opening in sales', en: 'The shop has an opening for a weekend assistant.', cn: '这家店有个周末店员的空缺。' },
+      { w: 'applicant', zh: '申请人；应聘者', scene: '投了简历、在等通知的那一方，表格第一栏就写着 applicant。', tone: '中性偏正式', col: 'a job applicant, applicants must apply online', en: 'Each applicant needs two references.', cn: '每位应聘者需要两份推荐信。' },
+      { w: 'interviewer', zh: '面试官', scene: '坐在桌子对面，拿着简历问问题、低头记笔记的人。', tone: '中性', col: 'the interviewer asked, a panel of interviewers', en: 'The interviewer asked why I wanted the job.', cn: '面试官问我为什么想做这份工作。' }
+    ]},
   ];
 
   const SOLOS = [
